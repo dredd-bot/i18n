@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-21 23:18\n"
+"PO-Revision-Date: 2021-06-21 23:37\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -20,287 +20,291 @@ msgstr ""
 #: Dredd-v3/utils/btime.py:112
 #, python-brace-format
 msgid "{0} The time you've provided is in the past"
-msgstr ""
+msgstr "{0} Sağladığınız zaman geçmişte kalmış gibi görünüyor."
 
 #: Dredd-v3/utils/btime.py:126
 msgid "This time is in the past."
-msgstr ""
+msgstr "Bu sefer geçmişte kaldı."
 
 #: Dredd-v3/utils/btime.py:130
 msgid "Missing argument after the time."
-msgstr ""
+msgstr "Zamandan sonra eksik argüman girdiniz."
 
 #: Dredd-v3/utils/btime.py:161
 msgid "Time Error! try \"in an hour\" or \"5 days\"."
-msgstr ""
+msgstr "Zaman Hatası! \"in an hour\" veya \"5 days\" deneyin."
 
 #: Dredd-v3/utils/btime.py:171
 msgid "Expected quote before time input..."
-msgstr ""
+msgstr "Zamandan önce beklenen alıntı girdisi."
 
 #: Dredd-v3/utils/btime.py:174
 msgid "If the time is quoted, you must unquote it."
-msgstr ""
+msgstr "Zaman alıntılanmışsa, alıntıyı kaldırmanız gerekir."
 
 #: Dredd-v3/utils/btime.py:185
 msgid "Sorry, but I did not understand what you meant. You probably didn't specify the time or you specified it in another language (not English)"
-msgstr ""
+msgstr "Hay aksi! Ne demek istediğinizi anlamadım. Muhtemelen saati belirtmediniz veya başka bir dilde (İngilizce harici) belirttiniz."
 
 #: Dredd-v3/utils/checks.py:78
 #, python-brace-format
 msgid "Oops!\n"
 "Error occured while fetching your vote: {0}"
-msgstr ""
+msgstr "Oops!\n"
+"Oyunuz alınırken hata oluştu: {0}"
 
 #: Dredd-v3/utils/checks.py:85
 #, python-brace-format
 msgid "Error occured when trying to fetch your vote, sent the detailed error to my developers.\n"
 "```py\n"
 "{0}```"
-msgstr ""
+msgstr "Oyunuzu almaya çalışırken hata oluştu, ayrıntılı hata bildirisi geliştiricilere gönderildi.\n"
+"```py\n"
+"{0}```"
 
 #: Dredd-v3/utils/checks.py:189
 #, python-brace-format
 msgid "This command is in it's testing phase, please [join the support server]({0}) if you want to know when it'll be available."
-msgstr ""
+msgstr "Bu komut test aşamasındadır, ne zaman kullanıma sunulacağını öğrenmek istiyorsanız lütfen [destek sunucusuna]({0}) katılın."
 
 #: Dredd-v3/utils/checks.py:200
 #, python-brace-format
 msgid "Unfortunately, this command is getting removed in the next update, if you want to know why, please join the support server here {0}"
-msgstr ""
+msgstr "Maalesef bu komut bir sonraki güncellemede kaldırılıyor, nedenini öğrenmek istiyorsanız lütfen buradan destek sunucusuna katılın: {0}"
 
 #: Dredd-v3/utils/checks.py:210
 #, python-brace-format
 msgid "Hello!\n"
 "We're currently under the maintenance and the bot is unavailable for use. You can join the [support server]({0}) or subscribe to our [status page]({1}) to know when we'll be available again!"
-msgstr ""
+msgstr "Merhaba!\n"
+"Şu anda bakımdayız ve maalesef Dredd şuanda kullanım dışı. Tekrar ne zaman müsait olacağımızı öğrenmek için [destek sunucumuza]({0}) katılabilir veya [durum sayfamıza]({1}) abone olabilirsiniz!"
 
 #: Dredd-v3/utils/checks.py:214
 msgid "Dredd is under the maintenance!"
-msgstr ""
+msgstr "Dredd planlı bakımda!"
 
 #: Dredd-v3/utils/checks.py:250
 #, python-brace-format
 msgid "{0} | `{1}` and it's corresponing subcommands are currently disabled for: `{2}`"
-msgstr ""
+msgstr "{0} | `{1}` ve ilgili alt komutları şu anda şu durum için devre dışıdır: `{2}`"
 
 #: Dredd-v3/utils/checks.py:253
 #, python-brace-format
 msgid "{0} | `{1} {2}` is currently disabled for: `{3}`"
-msgstr ""
+msgstr "{0} | `{1} {2}` şu durum için devre dışıdır: `{3}`"
 
 #: Dredd-v3/utils/checks.py:261
 #, python-brace-format
 msgid "{0} | `{1}` is currently disabled for: `{2}`"
-msgstr ""
+msgstr "{0} | `{1}` şu durum için devre dışıdır: `{2}`"
 
 #: Dredd-v3/utils/checks.py:318
 #, python-brace-format
 msgid "{0} You need to be in a voice channel first."
-msgstr ""
+msgstr "{0} Öncelikle bir ses kanalında olmanız gerekir."
 
 #: Dredd-v3/utils/checks.py:320
 #, python-brace-format
 msgid "{0} I'm not in the voice channel."
-msgstr ""
+msgstr "{0} Ne yazık ki ses kanalında değilim."
 
 #: Dredd-v3/utils/checks.py:322
 #, python-brace-format
 msgid "{0} You need to be in the same voice channel with me."
-msgstr ""
+msgstr "{0} Benimle aynı ses kanalında olmanız gerekir."
 
 #: Dredd-v3/utils/checks.py:324
 #, python-brace-format
 msgid "{0} I'm missing permissions in your voice channel. Make sure you have given me the correct permissions!"
-msgstr ""
+msgstr "{0} Ses kanalınızdaki izinleri karşılayamıyor gibi görünüyorum. Bana doğru izinleri verdiğinizden emin olun!"
 
 #: Dredd-v3/utils/checks.py:326
 #, python-brace-format
 msgid "{0} I'm not playing anything."
-msgstr ""
+msgstr "{0} Herhangi bir şey çalmıyorum."
 
 #: Dredd-v3/utils/checks.py:328
 #, python-brace-format
 msgid "{0} Player is not paused."
-msgstr ""
+msgstr "{0} Oynatıcı durdurulmuş vaziyette değil."
 
 #: Dredd-v3/utils/checks.py:330
 #, python-brace-format
 msgid "{0} Player is already paused."
-msgstr ""
+msgstr "{0} Oynatıcı zaten duraklatıldı."
 
 #: Dredd-v3/utils/checks.py:343 Dredd-v3/utils/checks.py:349
 msgid "This member has not been banned before."
-msgstr ""
+msgstr "Bu üye daha önce banlanmadı."
 
 #: Dredd-v3/utils/checks.py:366
 msgid "This user is already banned."
-msgstr ""
+msgstr "Bu kullanıcı zaten yasaklı."
 
 #: Dredd-v3/utils/checks.py:380
 #, python-brace-format
 msgid "Valid options are {0}"
-msgstr ""
+msgstr "Geçerli seçenekler: {0}"
 
 #: Dredd-v3/utils/checks.py:407
 #, python-brace-format
 msgid "Valid values are {0}"
-msgstr ""
+msgstr "Geçerli değerler: {0}"
 
 #: Dredd-v3/utils/default.py:82 Dredd-v3/utils/default.py:87
 #: Dredd-v3/utils/default.py:92
 #, python-brace-format
 msgid "Next level in **{0}** boosts"
-msgstr ""
+msgstr "**{0}** takviye sonra yeni seviye!"
 
 #: Dredd-v3/utils/default.py:191
 msgid "Owner of Dredd"
-msgstr ""
+msgstr "Dredd'in Sahibi"
 
 #: Dredd-v3/utils/default.py:192
 msgid "Admin of Dredd"
-msgstr ""
+msgstr "Dredd'in Yöneticisi"
 
 #: Dredd-v3/utils/default.py:193
 #, python-brace-format
 msgid "Staff member in the [support server]({0}) or Dredd's contributor"
-msgstr ""
+msgstr "[Destek sunucusunda]({0}) personel ekibi üyesi veya Dredd'in katkıda bulunmuş üyesi."
 
 #: Dredd-v3/utils/default.py:194
 msgid "Dredd sponsor"
-msgstr ""
+msgstr "Dredd sponsoru"
 
 #: Dredd-v3/utils/default.py:195
 #, python-brace-format
 msgid "Booster of [Dredd's support server]({0}) or Donator"
-msgstr ""
+msgstr "[Dredd'in destek sunucusunda]({0}) bulunan takviyeci veya Bağışçı"
 
 #: Dredd-v3/utils/default.py:196
 msgid "Dredd Partner"
-msgstr ""
+msgstr "Dredd Partner"
 
 #: Dredd-v3/utils/default.py:197
 msgid "Dredd Bug Hunter"
-msgstr ""
+msgstr "Dredd Hata Avcısı"
 
 #: Dredd-v3/utils/default.py:198
 msgid "Dredd BETA Bug Hunter"
-msgstr ""
+msgstr "BETA Dredd Hata Avcısı"
 
 #: Dredd-v3/utils/default.py:199
 msgid "Dredd Early Supporter"
-msgstr ""
+msgstr "Dredd Erken Dönem Destekçisi"
 
 #: Dredd-v3/utils/default.py:200
 msgid "Dredd super early supporter"
-msgstr ""
+msgstr "Dredd erken dönem destekçisi"
 
 #: Dredd-v3/utils/default.py:201
 msgid "Blacklisted user"
-msgstr ""
+msgstr "Kara listeye alınmış kullanıcı"
 
 #: Dredd-v3/utils/default.py:202
 msgid "A special badge for Duck :duck:"
-msgstr ""
+msgstr "Duck için harika ve özel bir rozet: :duck:"
 
 #: Dredd-v3/utils/default.py:240
 #, python-brace-format
 msgid "{0} Dredd Staff Server"
-msgstr ""
+msgstr "{0} Dredd Personel Sunucusu"
 
 #: Dredd-v3/utils/default.py:241
 msgid "{} Dredd Verified Server"
-msgstr ""
+msgstr "{} Dredd Onaylanmış Sunucu"
 
 #: Dredd-v3/utils/default.py:242
 #, python-brace-format
 msgid "{0} Dredd Partnered Server"
-msgstr ""
+msgstr "{0} Dredd Ortak Sunucu"
 
 #: Dredd-v3/utils/default.py:350
 #, python-brace-format
 msgid "{0} Edited messages\n"
-msgstr ""
+msgstr "{0} Düzenlenmiş mesajlar\n"
 
 #: Dredd-v3/utils/default.py:351
 #, python-brace-format
 msgid "{0} Deleted messages\n"
-msgstr ""
+msgstr "{0} Silinmiş mesajlar\n"
 
 #: Dredd-v3/utils/default.py:352
 #, python-brace-format
 msgid "{0} Moderation\n"
-msgstr ""
+msgstr "{0} Moderasyon\n"
 
 #: Dredd-v3/utils/default.py:353
 #, python-brace-format
 msgid "{0} Guild logs\n"
-msgstr ""
+msgstr "{0} Sunucu kayıtları\n"
 
 #: Dredd-v3/utils/default.py:354
 #, python-brace-format
 msgid "{0} Member Joins\n"
-msgstr ""
+msgstr "{0} Üye Girişleri\n"
 
 #: Dredd-v3/utils/default.py:355
 #, python-brace-format
 msgid "{0} Member Leaves\n"
-msgstr ""
+msgstr "{0} Üye Ayrılışları\n"
 
 #: Dredd-v3/utils/default.py:356
 #, python-brace-format
 msgid "{0} Member Updates\n"
-msgstr ""
+msgstr "{0} Üye Güncellemeleri\n"
 
 #: Dredd-v3/utils/default.py:358 Dredd-v3/utils/default.py:366
 #, python-brace-format
 msgid "{0} Raid mode\n"
-msgstr ""
+msgstr "{0} Raid modu\n"
 
 #: Dredd-v3/utils/default.py:359 Dredd-v3/utils/default.py:367
 #, python-brace-format
 msgid "{0} Welcoming messages\n"
-msgstr ""
+msgstr "{0} Öncelikli karşılama mesajları\n"
 
 #: Dredd-v3/utils/default.py:360 Dredd-v3/utils/default.py:368
 #, python-brace-format
 msgid "{0} Leaving messages\n"
-msgstr ""
+msgstr "{0} Ayrılış mesajları\n"
 
 #: Dredd-v3/utils/default.py:361 Dredd-v3/utils/default.py:369
 #, python-brace-format
 msgid "{0} Role on Join\n"
-msgstr ""
+msgstr "{0} Katılımdaki rol hakkı\n"
 
 #: Dredd-v3/utils/default.py:362 Dredd-v3/utils/default.py:370
 #, python-brace-format
 msgid "{0} Dehoisting\n"
-msgstr ""
+msgstr "{0} Latin alfabesi harici ikonları sıfırlamak\n"
 
 #: Dredd-v3/utils/default.py:363 Dredd-v3/utils/default.py:371
 #, python-brace-format
 msgid "{0} Automod\n"
-msgstr ""
+msgstr "{0} Otomatik Moderasyon\n"
 
 #: Dredd-v3/utils/default.py:520
 msgid "mute"
-msgstr ""
+msgstr "mute"
 
 #: Dredd-v3/utils/default.py:521
 msgid "temp-mute"
-msgstr ""
+msgstr "temp-mute"
 
 #: Dredd-v3/utils/default.py:522 Dredd-v3/cogs/automod.py:430
 msgid "kick"
-msgstr ""
+msgstr "kick"
 
 #: Dredd-v3/utils/default.py:523 Dredd-v3/cogs/automod.py:431
 msgid "ban"
-msgstr ""
+msgstr "ban"
 
 #: Dredd-v3/utils/default.py:524
 msgid "temp-ban"
-msgstr ""
+msgstr "temp-ban"
 
 #: Dredd-v3/utils/rtfm.py:140
 msgid "Cannot build rtfm lookup table, try again later."
@@ -308,41 +312,41 @@ msgstr ""
 
 #: Dredd-v3/utils/rtfm.py:182
 msgid "I could not find anything, sorry."
-msgstr ""
+msgstr "Herhangi bir şey bulamadım, üzgünüm."
 
 #: Dredd-v3/utils/rtfm.py:185
 #, python-brace-format
 msgid "enhanced discord.py {0}"
-msgstr ""
+msgstr "geliştirilmiş discord.py {0}"
 
 #: Dredd-v3/utils/rtfm.py:186
 msgid "Keep in mind this is NOT the original d.py; certain things may be different"
-msgstr ""
+msgstr "Bu orijinal discord.py değildir; bazı şeyler farklı olabilir"
 
 #: Dredd-v3/utils/rtfm.py:187
 #, python-brace-format
 msgid "**Search query:** `{0}`\n\n"
-msgstr ""
+msgstr "**Search sorgusu:** `{0}`\n\n"
 
 #: Dredd-v3/cogs/events/automod.py:156
 msgid "Spam (sending multiple messages in a short time span)"
-msgstr ""
+msgstr "Spam (Kısa sürede benzer mesajları birden fazla kez göndermek.)"
 
 #: Dredd-v3/cogs/events/automod.py:176
 msgid "Advertising"
-msgstr ""
+msgstr "Reklam"
 
 #: Dredd-v3/cogs/events/automod.py:200
 msgid "Spamming caps"
-msgstr ""
+msgstr "Büyük harfler ile Spam"
 
 #: Dredd-v3/cogs/events/automod.py:223
 msgid "Spamming links"
-msgstr ""
+msgstr "Harici bağlantılar ile Spam"
 
 #: Dredd-v3/cogs/events/automod.py:252
 msgid "Spamming mentions"
-msgstr ""
+msgstr "Etiketler ile Spam"
 
 #: Dredd-v3/cogs/events/automod.py:277
 msgid "anti raid: user account is younger than 30 days."
@@ -354,50 +358,52 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/automod.py:293
 msgid "Member Muted"
-msgstr ""
+msgstr "Üye Susturuldu"
 
 #: Dredd-v3/cogs/events/automod.py:293
 msgid "Member Temp-Muted"
-msgstr ""
+msgstr "Üye Süreli Susturuldu"
 
 #: Dredd-v3/cogs/events/automod.py:293 Dredd-v3/cogs/events/automod.py:302
 msgid "Member Kicked"
-msgstr ""
+msgstr "Üye Atıldı"
 
 #: Dredd-v3/cogs/events/automod.py:297 Dredd-v3/cogs/events/automod.py:302
 msgid "Member Banned"
-msgstr ""
+msgstr "Üye Yasaklandı"
 
 #: Dredd-v3/cogs/events/automod.py:297
 msgid "Member Temp-Banned"
-msgstr ""
+msgstr "Üye Süreli Yasaklandı"
 
 #: Dredd-v3/cogs/events/automod.py:306
 msgid "Automod Action"
-msgstr ""
+msgstr "Otomatik Moderasyon Eylemi"
 
 #: Dredd-v3/cogs/events/automod.py:307
 #, python-brace-format
 msgid "{0} {1}"
-msgstr ""
+msgstr "{0} {1}"
 
 #: Dredd-v3/cogs/events/automod.py:309 Dredd-v3/cogs/events/logs.py:594
 #: Dredd-v3/cogs/events/logs.py:724
 #, python-brace-format
 msgid "\n"
 "**Duration:** {0}"
-msgstr ""
+msgstr "\n"
+"**Süre:** {0}"
 
 #: Dredd-v3/cogs/events/automod.py:312
 #, python-brace-format
 msgid "**Member:** {0}{1}\n"
 "**Reason:** {2}"
-msgstr ""
+msgstr "**Üye:** {0}{1}\n"
+"**Sebep:** {2}"
 
 #: Dredd-v3/cogs/events/automod.py:320
 #, python-brace-format
 msgid "Automod Action | {0}"
-msgstr ""
+msgstr "Otomatik Moderasyon Eylemi | {0}"
 
 #: Dredd-v3/cogs/events/automod.py:322
 #, python-brace-format
@@ -407,37 +413,37 @@ msgstr ""
 #: Dredd-v3/cogs/events/automod.py:333
 #, python-brace-format
 msgid "{0} Muted **{1}** for {2}."
-msgstr ""
+msgstr "{2} için {0} sessize alındı **{1}**"
 
 #: Dredd-v3/cogs/events/automod.py:354
 #, python-brace-format
 msgid "{0} Muted **{1}** for {2}, reason: {3}."
-msgstr ""
+msgstr "{2} için {0} sessize alındı **{1}**, neden: {3}."
 
 #: Dredd-v3/cogs/events/automod.py:372
 #, python-brace-format
 msgid "{0} Kicked **{1}** for {2}."
-msgstr ""
+msgstr "{2} için {0} atıldı **{1}**"
 
 #: Dredd-v3/cogs/events/automod.py:386
 #, python-brace-format
 msgid "{0} Banned **{1}** for {2}."
-msgstr ""
+msgstr "{2} için {0} yasaklandı **{1}**"
 
 #: Dredd-v3/cogs/events/automod.py:401
 #, python-brace-format
 msgid "{0} Banned **{1}** for {2}, reason: {3}."
-msgstr ""
+msgstr "{2} için {0} yasaklandı **{1}**, neden: {3}."
 
 #: Dredd-v3/cogs/events/automod.py:419
 #, python-brace-format
 msgid "{0} {1} has anti raid mode activated, please try joining again later."
-msgstr ""
+msgstr "{0} {1} Anti raid modu aktif edilmiş gibi görünüyor, lütfen daha sonra giriş yapmayı deneyin."
 
 #: Dredd-v3/cogs/events/automod.py:431 Dredd-v3/cogs/events/automod.py:459
 #, python-brace-format
 msgid "{0} {1} has anti raid mode activated, you're not allowed to join that server."
-msgstr ""
+msgstr "{0} {1} Anti raid modu aktif edilmiş gibi görünüyor, bu sunucuya girebilmek için izinli değilsiniz."
 
 #: Dredd-v3/cogs/events/automod.py:447
 #, python-brace-format
@@ -463,12 +469,12 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/errors.py:131
 msgid "Vote required!"
-msgstr ""
+msgstr "Oy vermek gerekir!"
 
 #: Dredd-v3/cogs/events/errors.py:132
 #, python-brace-format
 msgid "Hey {0}!"
-msgstr ""
+msgstr "Hey {0}!"
 
 #: Dredd-v3/cogs/events/errors.py:133
 #, python-brace-format
@@ -523,105 +529,111 @@ msgstr ""
 #: Dredd-v3/cogs/events/errors.py:205
 #, python-brace-format
 msgid "{0} You're missing the {1} permission."
-msgstr ""
+msgstr "{0} Hay aksi, sanırım {1} yetkiniz eksik."
 
 #: Dredd-v3/cogs/events/errors.py:210
 #, python-brace-format
 msgid "{0} I'm missing {1} permissions"
-msgstr ""
+msgstr "{0} Hay aksi, sanırım {1} yetkim eksik."
 
 #: Dredd-v3/cogs/events/errors.py:242
 #, python-brace-format
 msgid "{0} | You're on cooldown, try again in **{1}** seconds."
-msgstr ""
+msgstr "{0} | Hey, biraz sakin ol! **{1}** saniye içerisinde yeniden dene."
 
 #: Dredd-v3/cogs/events/errors.py:245
 #, python-brace-format
 msgid "{0} | You're missing an argument - **{1}**"
-msgstr ""
+msgstr "{0} | Bir argümanı hatalı kullanıyorsun - **{1}**"
 
 #: Dredd-v3/cogs/events/errors.py:249
 #, python-brace-format
 msgid "{0} | Looks like you haven't closed the quote"
-msgstr ""
+msgstr "{0} | Alıntıyı kapatmamışsınız gibi görünüyor"
 
 #. no other way to prevent this
 #: Dredd-v3/cogs/events/errors.py:252
 #, python-brace-format
 msgid "{0} | Failed to add the reactions, please reinvoke the command."
-msgstr ""
+msgstr "{0} | Tepkiler eklenemedi, lütfen komutu kullanmayı yeniden deneyin."
 
 #: Dredd-v3/cogs/events/errors.py:258
 #, python-brace-format
 msgid "{0} I'm missing permissions to embed links."
-msgstr ""
+msgstr "{0} Bağlantıları yerleştirme izinlerim eksik gibi görünüyor."
 
 #: Dredd-v3/cogs/events/errors.py:306
 #, python-brace-format
 msgid "{0} Unknown error | #{1}"
-msgstr ""
+msgstr "{0} Bilinmeyen hata | #{1}"
 
 #: Dredd-v3/cogs/events/errors.py:307
 #, python-brace-format
 msgid "Command `{0}` raised an error, which I reported to my developer(s).\n"
 "My developer(s) will be working to fixing this error ASAP. Meanwhile, you can [join the support server]({1}) for updates."
-msgstr ""
+msgstr "`{0}` komutunda oluşan hata geliştiricilerime bildirildi.\n"
+"Geliştiricilerim bu hatayı en kısa sürede düzeltmek için çalışacak. Bu sırada, güncellemeler için [destek sunucusuna]({1}) katılabilirsiniz."
 
 #: Dredd-v3/cogs/events/errors.py:310 Dredd-v3/cogs/events/errors.py:332
 msgid "Error info:"
-msgstr ""
+msgstr "Hata detayları:"
 
 #: Dredd-v3/cogs/events/errors.py:328
 #, python-brace-format
 msgid "{0} Known error | #{1}"
-msgstr ""
+msgstr "{0} Bilinen hata | #{1}"
 
 #: Dredd-v3/cogs/events/errors.py:329
 #, python-brace-format
 msgid "Command `{0}` raised an error that has already reported to my developer(s).\n"
 "They'll be looking into this issue and trying to fix it ASAP. Meanwhile, you can [join the support server]({1}) for updates."
-msgstr ""
+msgstr "`{0}` komutunda oluşan hata geliştiricilerime bildirildi.\n"
+"Bu sorunu araştıracaklar ve en kısa sürede düzeltmeye çalışacaklar. Bu sırada, güncellemeler için [destek sunucusuna]({1}) katılabilirsiniz."
 
 #: Dredd-v3/cogs/events/events.py:90
 #, python-brace-format
 msgid "My prefix in this server is `{0}` or {1}!"
-msgstr ""
+msgstr "Bu sunucudaki önekim `{0}` veya {1}!"
 
 #: Dredd-v3/cogs/events/events.py:99
 #, python-brace-format
 msgid "I appreciate you for using me! You can also use my commands here in DMs with a prefix `!`, but if you aren't using any commands - the DM will be logged in my [support server]({0}), so please don't send me any sensitive information."
-msgstr ""
+msgstr "Beni kullandığın için sana minnettarım! Buradaki komutlarımı `!` öneki ile DM'lerde de kullanabilirsiniz, ancak herhangi bir komut kullanmıyorsanız - Bu DM'ler [destek sunucumda]({0}) kayıt altında tutulacaktır, bu yüzden lütfen bana herhangi bir hassas bilgi içeren mesaj göndermeyin."
 
 #: Dredd-v3/cogs/events/events.py:113
 msgid "Hey! Not sure if you know yet, but my prefix in DM's is `!`"
-msgstr ""
+msgstr "Hey! Hala bilmediğinden emin değilim, ancak DM'lerimde kullanabileceğin önekim `!`"
 
 #: Dredd-v3/cogs/events/events.py:225
 #, python-brace-format
 msgid "If you are the server owner and would like to appeal, you can [join the support server]({0})."
-msgstr ""
+msgstr "Başvurmak isteyen bir sunucu sahibiysen; [Dredd destek sunucusuna]({0}) katılabilirsin."
 
 #: Dredd-v3/cogs/events/events.py:229
 msgid "Unfortunately, this server's blacklist state cannot be removed."
-msgstr ""
+msgstr "Ne yazık ki, bu sunucunun kara liste durumu kaldırılamaz."
 
 #: Dredd-v3/cogs/events/events.py:232
 #, python-brace-format
 msgid "Hey!\n"
 "This server is blacklisted, so I will not be staying in the server anymore. {0}\n\n"
 "**Blacklist reason:** {1}"
-msgstr ""
+msgstr "Hey!\n"
+"Bu sunucu kara listeye alınmış gibi görünüyor, bu yüzden artık bu sunucuda bulunmayacağım. {0}\n\n"
+"**Kara listeye alınma nedeni:** {1}"
 
 #: Dredd-v3/cogs/events/events.py:236
 msgid "Blacklist issue occured!"
-msgstr ""
+msgstr "Kara liste sorunu meydana geldi!"
 
 #: Dredd-v3/cogs/events/events.py:239
 #, python-brace-format
 msgid "Hey!\n"
 "This server is blacklisted, thus why I will not be staying here anymore. {0}\n\n"
 "**Blacklisting reason:** {1}"
-msgstr ""
+msgstr "Hey!\n"
+"Bu sunucu kara listeye alınmış gibi görünüyor, bu yüzden artık bu sunucuda bulunmayacağım. {0}\n\n"
+"**Kara listeye alınma nedeni:** {1}"
 
 #: Dredd-v3/cogs/events/events.py:268
 #, python-brace-format
@@ -650,12 +662,13 @@ msgstr ""
 #, python-brace-format
 msgid "\n"
 "*Sticker* - {0}"
-msgstr ""
+msgstr "\n"
+"*Sticker* - {0}"
 
 #: Dredd-v3/cogs/events/logs.py:90
 #, python-brace-format
 msgid "{0} Message Edited"
-msgstr ""
+msgstr "{0} Mesaj Düzenlendi"
 
 #: Dredd-v3/cogs/events/logs.py:91
 #, python-brace-format
@@ -666,23 +679,23 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/logs.py:96 Dredd-v3/cogs/events/logs.py:100
 msgid "**Before:**"
-msgstr ""
+msgstr "**Önce:**"
 
 #: Dredd-v3/cogs/events/logs.py:104
 msgid "**After:**"
-msgstr ""
+msgstr "**Sonra:**"
 
 #: Dredd-v3/cogs/events/logs.py:106 Dredd-v3/cogs/events/logs.py:149
 #: Dredd-v3/cogs/events/logs.py:174 Dredd-v3/cogs/events/logs.py:215
 #: Dredd-v3/cogs/events/logs.py:229
 #, python-brace-format
 msgid "User ID: {0}"
-msgstr ""
+msgstr "Kullanıcı ID: {0}"
 
 #: Dredd-v3/cogs/events/logs.py:132
 #, python-brace-format
 msgid "{0} Message Deleted"
-msgstr ""
+msgstr "{0} Mesaj Silindi"
 
 #: Dredd-v3/cogs/events/logs.py:133
 #, python-brace-format
@@ -692,83 +705,88 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/logs.py:140
 msgid "**Message:**"
-msgstr ""
+msgstr "**Mesaj:**"
 
 #: Dredd-v3/cogs/events/logs.py:144
 msgid "**Attachments:**"
-msgstr ""
+msgstr "**Ekler:**"
 
 #: Dredd-v3/cogs/events/logs.py:147
 msgid "**Sticker:**"
-msgstr ""
+msgstr "**Sticker:**"
 
 #: Dredd-v3/cogs/events/logs.py:169
 #, python-brace-format
 msgid "{0} changed their nickname"
-msgstr ""
+msgstr "{0} takma adını değiştirdi"
 
 #: Dredd-v3/cogs/events/logs.py:170
 #, python-brace-format
 msgid "{0} Nickname Changed"
-msgstr ""
+msgstr "{0} Takma ad Değiştirildi"
 
 #: Dredd-v3/cogs/events/logs.py:171
 #, python-brace-format
 msgid "**Member:** {0} `{1}`\n\n"
 "**Before:** {2}\n"
 "**After:** {3}"
-msgstr ""
+msgstr "**Üye:** {0} `{1}`\n\n"
+"**Önce:** {2}\n"
+"**Sonra:** {3}"
 
 #: Dredd-v3/cogs/events/logs.py:185 Dredd-v3/cogs/events/logs.py:186
 #, python-brace-format
 msgid "{0}'s roles were updated"
-msgstr ""
+msgstr "{0} adlı kullanıcının rolleri güncellendi"
 
 #: Dredd-v3/cogs/events/logs.py:187
 msgid "Added"
-msgstr ""
+msgstr "Eklendi"
 
 #: Dredd-v3/cogs/events/logs.py:187
 msgid "Removed"
-msgstr ""
+msgstr "Kaldırıldı"
 
 #: Dredd-v3/cogs/events/logs.py:211
 #, python-brace-format
 msgid "{0} changed their avatar"
-msgstr ""
+msgstr "{0} avatarını değiştirdi"
 
 #: Dredd-v3/cogs/events/logs.py:212
 #, python-brace-format
 msgid "{0} Avatar Changed"
-msgstr ""
+msgstr "{0} Avatar Değiştirildi"
 
 #: Dredd-v3/cogs/events/logs.py:213
 #, python-brace-format
 msgid "**Member:** {0} `{1}`\n"
 "[Avatar URL]({2})"
-msgstr ""
+msgstr "**Üye:** {0} `{1}`\n"
+"[Avatar URL]({2})"
 
 #: Dredd-v3/cogs/events/logs.py:226
 #, python-brace-format
 msgid "{0} changed their username"
-msgstr ""
+msgstr "{0} kullanıcı adını değiştirdi"
 
 #: Dredd-v3/cogs/events/logs.py:227
 #, python-brace-format
 msgid "{0} Username Changed"
-msgstr ""
+msgstr "{0} Kullanıcı adı değiştirildi"
 
 #: Dredd-v3/cogs/events/logs.py:228
 #, python-brace-format
 msgid "**Member:** {0} `{1}`\n"
 "**Before:** {2}\n"
 "**After:** {3}"
-msgstr ""
+msgstr "**Üye:** {0} `{1}`\n"
+"**Önce:** {2}\n"
+"**Sonra:** {3}"
 
 #: Dredd-v3/cogs/events/logs.py:264
 #, python-brace-format
 msgid "{0} A member has been banned"
-msgstr ""
+msgstr "{0} Bir kullanıcı yasaklandı"
 
 #: Dredd-v3/cogs/events/logs.py:266 Dredd-v3/cogs/events/logs.py:306
 #: Dredd-v3/cogs/events/logs.py:863
@@ -776,7 +794,9 @@ msgstr ""
 msgid "**Member:** {0}\n"
 "**Moderator:** {1} ({2})\n"
 "**Reason:** {3}"
-msgstr ""
+msgstr "**Üye:** {0}\n"
+"**Moderatör:** {1} ({2})\n"
+"**Sebep:** {3}"
 
 #: Dredd-v3/cogs/events/logs.py:267 Dredd-v3/cogs/events/logs.py:307
 #: Dredd-v3/cogs/events/logs.py:596 Dredd-v3/cogs/events/logs.py:627
@@ -787,16 +807,16 @@ msgstr ""
 #: Dredd-v3/cogs/events/logs.py:926 Dredd-v3/cogs/events/logs.py:959
 #, python-brace-format
 msgid "Case ID: #{0}"
-msgstr ""
+msgstr "Durum ID: #{0}"
 
 #: Dredd-v3/cogs/events/logs.py:304
 #, python-brace-format
 msgid "{0} A member was un-banned"
-msgstr ""
+msgstr "{0} Bir kullanıcının yasağı kaldırıldı"
 
 #: Dredd-v3/cogs/events/logs.py:327
 msgid " Guild name changed"
-msgstr ""
+msgstr " Sunucu ismi değiştirildi"
 
 #: Dredd-v3/cogs/events/logs.py:328 Dredd-v3/cogs/events/logs.py:337
 #: Dredd-v3/cogs/events/logs.py:346 Dredd-v3/cogs/events/logs.py:365
@@ -808,21 +828,22 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/logs.py:336
 msgid " Guild region changed"
-msgstr ""
+msgstr " Sunucu bölgesi değiştirildi"
 
 #: Dredd-v3/cogs/events/logs.py:345
 msgid " Guild afk channel changed"
-msgstr ""
+msgstr " Sunucu afk kanalı değiştirildi"
 
 #: Dredd-v3/cogs/events/logs.py:354
 msgid " Guild icon changed"
-msgstr ""
+msgstr " Sunucu ikonu değiştirildi"
 
 #: Dredd-v3/cogs/events/logs.py:355
 #, python-brace-format
 msgid "**Before:** [Click here]({0})\n"
 "**After:** [Click here]({1})"
-msgstr ""
+msgstr "**Önce:** [Buraya tıkla]({0})\n"
+"**Sonra:** [Buraya tıkla]({1})"
 
 #: Dredd-v3/cogs/events/logs.py:364
 msgid " Guild multifactor authentication (MFA) changed"
@@ -830,58 +851,61 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/logs.py:373
 msgid " Guild verification level changed"
-msgstr ""
+msgstr " Sunucu doğrulama seviyesi değiştirildi"
 
 #: Dredd-v3/cogs/events/logs.py:382
 msgid " Guild default notifications changed"
-msgstr ""
+msgstr " Sunucu varsayılan bildirim ayarları değiştirildi"
 
 #: Dredd-v3/cogs/events/logs.py:399
 #, python-brace-format
 msgid "{0} A new member has joined"
-msgstr ""
+msgstr "{0} Yeni bir üye katıldı"
 
 #: Dredd-v3/cogs/events/logs.py:400
 #, python-brace-format
 msgid "{0} joined the server"
-msgstr ""
+msgstr "{0} sunucuya katıldı"
 
 #: Dredd-v3/cogs/events/logs.py:401
 #, python-brace-format
 msgid "**Member:** {0} ({1})\n"
 "**Account Created:** {2}"
-msgstr ""
+msgstr "**Üye:** {0} ({1})\n"
+"**Hesap oluşturulma tarihi:** {2}"
 
 #: Dredd-v3/cogs/events/logs.py:405
 #, python-brace-format
 msgid "Member #{0}"
-msgstr ""
+msgstr "Üye #{0}"
 
 #: Dredd-v3/cogs/events/logs.py:418
 #, python-brace-format
 msgid "{0} A member has left the server"
-msgstr ""
+msgstr "{0} Bir kullanıcı sunucudan ayrıldı"
 
 #: Dredd-v3/cogs/events/logs.py:419
 #, python-brace-format
 msgid "{0} left the server"
-msgstr ""
+msgstr "{0} sunucudan çıktı"
 
 #: Dredd-v3/cogs/events/logs.py:421
 #, python-brace-format
 msgid "**Member:** {0} ({1})\n"
 "**Joined server:** {2}\n"
 "**Roles:** {3}"
-msgstr ""
+msgstr "**Üye:** {0} ({1})\n"
+"**Sunucuya katıldı:** {2}\n"
+"**Rolleri:** {3}"
 
 #: Dredd-v3/cogs/events/logs.py:425
 msgid "No roles."
-msgstr ""
+msgstr "Rol yok."
 
 #: Dredd-v3/cogs/events/logs.py:427
 #, python-brace-format
 msgid "Members left: {0}"
-msgstr ""
+msgstr "Üyeler ayrıldı: {0}"
 
 #: Dredd-v3/cogs/events/logs.py:467
 msgid "Automatic Mute | Mute evading"
@@ -890,7 +914,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/logs.py:592
 #, python-brace-format
 msgid "{0} {1} Member(s) banned"
-msgstr ""
+msgstr "{0} {1} Üye(ler) yasaklandı"
 
 #: Dredd-v3/cogs/events/logs.py:593 Dredd-v3/cogs/events/logs.py:625
 #: Dredd-v3/cogs/events/logs.py:723 Dredd-v3/cogs/events/logs.py:788
@@ -909,7 +933,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/logs.py:655
 #, python-brace-format
 msgid "{0} {1} Member(s) kicked"
-msgstr ""
+msgstr "{0} {1} Üye(ler) atıldı"
 
 #: Dredd-v3/cogs/events/logs.py:656 Dredd-v3/cogs/events/logs.py:687
 #: Dredd-v3/cogs/events/logs.py:755 Dredd-v3/cogs/events/logs.py:819
@@ -919,47 +943,50 @@ msgid "**Member(s):**\n"
 "{0}\n"
 "**Moderator:** {1} ({2})\n"
 "**Reason:** {3}"
-msgstr ""
+msgstr "**Üye(ler):**\n"
+"{0}\n"
+"**Moderatör:** {1} ({2})\n"
+"**Sebep:** {3}"
 
 #: Dredd-v3/cogs/events/logs.py:686
 #, python-brace-format
 msgid "{0} {1} Member(s) softbanned"
-msgstr ""
+msgstr "{0} {1} Üye(ler) mesajları silinerek yasaklandı"
 
 #: Dredd-v3/cogs/events/logs.py:722
 #, python-brace-format
 msgid "{0} {1} Member(s) muted"
-msgstr ""
+msgstr "{0} {1} Üye(ler) susturuldu"
 
 #: Dredd-v3/cogs/events/logs.py:754
 #, python-brace-format
 msgid "{0} {1} Member(s) warned"
-msgstr ""
+msgstr "{0} {1} Üye(ler) uyarıldı"
 
 #: Dredd-v3/cogs/events/logs.py:787
 #, python-brace-format
 msgid "{0} {1} Member(s) un-banned"
-msgstr ""
+msgstr "{0} {1} Üye(ler)in yasakları kaldırıldı"
 
 #: Dredd-v3/cogs/events/logs.py:818
 #, python-brace-format
 msgid "{0} {1} Member(s) un-muted"
-msgstr ""
+msgstr "{0} {1} Üye(ler)in susturulması kaldırıldı"
 
 #: Dredd-v3/cogs/events/logs.py:861
 #, python-brace-format
 msgid "{0} A member has been kicked"
-msgstr ""
+msgstr "{0} Bir kullanıcı atıldı"
 
 #: Dredd-v3/cogs/events/logs.py:892
 #, python-brace-format
 msgid "{0} {1} Member(s) voice muted"
-msgstr ""
+msgstr "{0} {1} Üye(ler)in sesleri kapatıldı"
 
 #: Dredd-v3/cogs/events/logs.py:923
 #, python-brace-format
 msgid "{0} {1} Member(s) voice unmuted"
-msgstr ""
+msgstr "{0} {1} Üye(ler)in sesleri açıldı"
 
 #: Dredd-v3/cogs/events/logs.py:956
 #, python-brace-format
@@ -985,51 +1012,51 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:46 Dredd-v3/cogs/automod.py:86
 msgid "No"
-msgstr ""
+msgstr "Hayır"
 
 #: Dredd-v3/cogs/automod.py:48 Dredd-v3/cogs/automod.py:54
 #: Dredd-v3/cogs/automod.py:58 Dredd-v3/cogs/automod.py:61
 #: Dredd-v3/cogs/automod.py:65 Dredd-v3/cogs/automod.py:68
 msgid "Kick Member"
-msgstr ""
+msgstr "Üyeyi At"
 
 #: Dredd-v3/cogs/automod.py:48 Dredd-v3/cogs/automod.py:54
 #: Dredd-v3/cogs/automod.py:58 Dredd-v3/cogs/automod.py:61
 #: Dredd-v3/cogs/automod.py:65 Dredd-v3/cogs/automod.py:68
 msgid "Ban Member"
-msgstr ""
+msgstr "Üyeyi Yasakla"
 
 #: Dredd-v3/cogs/automod.py:48
 msgid "Kick All Members"
-msgstr ""
+msgstr "Tüm Üyeleri At"
 
 #: Dredd-v3/cogs/automod.py:48
 msgid "Ban All Members"
-msgstr ""
+msgstr "Tüm Üyeleri Yasakla"
 
 #: Dredd-v3/cogs/automod.py:51 Dredd-v3/cogs/automod.py:86
 msgid "Yes"
-msgstr ""
+msgstr "Evet"
 
 #: Dredd-v3/cogs/automod.py:54 Dredd-v3/cogs/automod.py:58
 #: Dredd-v3/cogs/automod.py:61 Dredd-v3/cogs/automod.py:65
 #: Dredd-v3/cogs/automod.py:68
 msgid "Mute Member"
-msgstr ""
+msgstr "Üyeyi Sustur"
 
 #: Dredd-v3/cogs/automod.py:54 Dredd-v3/cogs/automod.py:58
 #: Dredd-v3/cogs/automod.py:61 Dredd-v3/cogs/automod.py:65
 #: Dredd-v3/cogs/automod.py:68
 #, python-brace-format
 msgid "Temp-Mute Member ({0})"
-msgstr ""
+msgstr "Süreli susturma Kullanıcısı ({0})"
 
 #: Dredd-v3/cogs/automod.py:54 Dredd-v3/cogs/automod.py:58
 #: Dredd-v3/cogs/automod.py:61 Dredd-v3/cogs/automod.py:65
 #: Dredd-v3/cogs/automod.py:68
 #, python-brace-format
 msgid "Temp-Ban Member ({0})"
-msgstr ""
+msgstr "Süreli yasaklama Kullanıcısı ({0})"
 
 #: Dredd-v3/cogs/automod.py:70
 #, python-brace-format
@@ -1061,7 +1088,7 @@ msgstr ""
 #, python-brace-format
 msgid "\n"
 "**Mentions Limit:** {0}"
-msgstr ""
+msgstr "**Etiket Limiti:** {0}"
 
 #: Dredd-v3/cogs/automod.py:87
 #, python-brace-format
@@ -1109,11 +1136,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:155
 msgid "chill"
-msgstr ""
+msgstr "chill"
 
 #: Dredd-v3/cogs/automod.py:155
 msgid "strict"
-msgstr ""
+msgstr "strict"
 
 #: Dredd-v3/cogs/automod.py:192
 #, python-brace-format
@@ -1156,7 +1183,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:272
 msgid "Mentions limit must be between 2 and 15"
-msgstr ""
+msgstr "Etiket limiti 2 veya 15 arasında olmalıdır"
 
 #: Dredd-v3/cogs/automod.py:284
 #, python-brace-format
@@ -1230,11 +1257,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:432
 msgid "kick all"
-msgstr ""
+msgstr "kick all"
 
 #: Dredd-v3/cogs/automod.py:433
 msgid "ban all"
-msgstr ""
+msgstr "ban all"
 
 #: Dredd-v3/cogs/automod.py:443
 #, python-brace-format
@@ -1295,7 +1322,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:520
 msgid "List of whitelisted roles"
-msgstr ""
+msgstr "Güvenli listeye alınmış rollerin listesi"
 
 #: Dredd-v3/cogs/automod.py:548 Dredd-v3/cogs/automod.py:555
 #, python-brace-format
@@ -1363,7 +1390,7 @@ msgstr ""
 #: Dredd-v3/cogs/fun.py:79
 #, python-brace-format
 msgid " for **{0}** "
-msgstr ""
+msgstr " **{0}** için "
 
 #: Dredd-v3/cogs/fun.py:80
 #, python-brace-format
@@ -1414,16 +1441,16 @@ msgstr ""
 
 #: Dredd-v3/cogs/fun.py:157
 msgid "I'm too hot for you 😏"
-msgstr ""
+msgstr "Senin için fazla ateşliyim 😏"
 
 #: Dredd-v3/cogs/fun.py:173
 #, python-brace-format
 msgid "**{0}** is **{1}%** hot. {2}"
-msgstr ""
+msgstr "**{0}**, **{1}%** ateşli. {2}"
 
 #: Dredd-v3/cogs/fun.py:193
 msgid "You can't roast Moksej! I'll drop you a hint, though. There's a bypass that you can use to roast him ;)"
-msgstr ""
+msgstr "Moksej'i roastlayamazsın! Yine de sana bir ipucu bırakacağım. Onu roastlamak için kullanabileceğiniz bir baypas var ;)"
 
 #: Dredd-v3/cogs/fun.py:198
 msgid "Don't you dare do that!"
@@ -1432,20 +1459,20 @@ msgstr ""
 #: Dredd-v3/cogs/help.py:123
 #, python-brace-format
 msgid "**Prefix:** `{0}`"
-msgstr ""
+msgstr "**Önek:** `{0}`"
 
 #: Dredd-v3/cogs/help.py:125
 msgid "**Prefix:** `!`"
-msgstr ""
+msgstr "**Önek:** `!`"
 
 #: Dredd-v3/cogs/help.py:157
 #, python-brace-format
 msgid "{0} Help"
-msgstr ""
+msgstr "{0} Yardım"
 
 #: Dredd-v3/cogs/help.py:160
 msgid "Categories:"
-msgstr ""
+msgstr "Kategoriler:"
 
 #: Dredd-v3/cogs/help.py:164
 msgid "You can also click on the reactions below to view commands in each category."
@@ -1453,19 +1480,19 @@ msgstr ""
 
 #: Dredd-v3/cogs/help.py:211
 msgid "Failed to add reactions"
-msgstr ""
+msgstr "Tepkiler eklenemedi"
 
 #: Dredd-v3/cogs/help.py:237 Dredd-v3/cogs/help.py:280
 msgid "Aliases: "
-msgstr ""
+msgstr "Kısaltmalar: "
 
 #: Dredd-v3/cogs/help.py:237 Dredd-v3/cogs/help.py:280
 msgid "No aliases were found."
-msgstr ""
+msgstr "Hiçbir kısaltma bulunamadı."
 
 #: Dredd-v3/cogs/help.py:239 Dredd-v3/cogs/help.py:282
 msgid "No help was provided..."
-msgstr ""
+msgstr "Yardım sağlanmadı..."
 
 #: Dredd-v3/cogs/help.py:244 Dredd-v3/cogs/help.py:287
 msgid "\n\n"
@@ -1484,7 +1511,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/help.py:321
 msgid "No information."
-msgstr ""
+msgstr "Bilgi yok."
 
 #: Dredd-v3/cogs/help.py:365
 #, python-brace-format
@@ -1499,7 +1526,7 @@ msgstr ""
 #: Dredd-v3/cogs/info.py:97
 #, python-brace-format
 msgid "About {0}"
-msgstr ""
+msgstr "Hakkında {0}"
 
 #: Dredd-v3/cogs/info.py:98
 #, python-brace-format
@@ -1550,26 +1577,27 @@ msgstr ""
 #: Dredd-v3/cogs/info.py:169
 #, python-brace-format
 msgid "{0}'s Information"
-msgstr ""
+msgstr "{0}'in Bilgisi"
 
 #: Dredd-v3/cogs/info.py:185
 msgid "\n"
 "**Latest nicknames:**  "
-msgstr ""
+msgstr "\n"
+"**Son kullanıcı adları:**  "
 
 #: Dredd-v3/cogs/info.py:192
 #, python-brace-format
 msgid " **({0} Total)**"
-msgstr ""
+msgstr " **({0} Toplam)**"
 
 #: Dredd-v3/cogs/info.py:192
 msgid "No roles"
-msgstr ""
+msgstr "Roller yok"
 
 #: Dredd-v3/cogs/info.py:193 Dredd-v3/cogs/info.py:218
 #: Dredd-v3/cogs/info.py:271
 msgid "General Information:"
-msgstr ""
+msgstr "Genel Bilgi:"
 
 #: Dredd-v3/cogs/info.py:193 Dredd-v3/cogs/info.py:218
 #, python-brace-format
@@ -1577,11 +1605,13 @@ msgid "\n"
 "{0} {1}\n\n"
 "**User ID:** {2}\n"
 "**Account created:** {3} ({4})"
-msgstr ""
+msgstr "{0} {1}\n\n"
+"**Kullanıcı ID:** {2}\n"
+"**Hesap oluşturulma tarihi:** {3} ({4})"
 
 #: Dredd-v3/cogs/info.py:200
 msgid "Server Information:"
-msgstr ""
+msgstr "Sunucu Bilgisi:"
 
 #: Dredd-v3/cogs/info.py:200
 #, python-brace-format
@@ -1593,36 +1623,39 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:229
 msgid "Social media:"
-msgstr ""
+msgstr "Sosyal Medya:"
 
 #: Dredd-v3/cogs/info.py:250
 #, python-brace-format
 msgid "\n"
 "**Acknowledgements:**\n"
 "{0}"
-msgstr ""
+msgstr "\n"
+"**Teşekkürler:**\n"
+"{0}"
 
 #: Dredd-v3/cogs/info.py:262
 #, python-brace-format
 msgid "\n"
 "**Banned:** {0}"
-msgstr ""
+msgstr "\n"
+"**Yasaklı:** {0}"
 
 #: Dredd-v3/cogs/info.py:263
 #, python-brace-format
 msgid "This server has **{0}** boosts"
-msgstr ""
+msgstr "Bu sunucu **{0}** takviyeye sahip"
 
 #: Dredd-v3/cogs/info.py:264
 #, python-brace-format
 msgid "\n"
 "{0}"
-msgstr ""
+msgstr "{0}"
 
 #: Dredd-v3/cogs/info.py:268 Dredd-v3/cogs/info.py:517
 #, python-brace-format
 msgid "{0} Information"
-msgstr ""
+msgstr "{0} Bilgi"
 
 #: Dredd-v3/cogs/info.py:271
 #, python-brace-format
@@ -1640,7 +1673,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:287
 msgid "Other Information:"
-msgstr ""
+msgstr "Diğer Bilgi:"
 
 #: Dredd-v3/cogs/info.py:287
 #, python-brace-format
@@ -1652,7 +1685,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:317
 msgid "Features"
-msgstr ""
+msgstr "Özellikler"
 
 #: Dredd-v3/cogs/info.py:344
 #, python-brace-format
@@ -1674,22 +1707,22 @@ msgstr ""
 #: Dredd-v3/cogs/info.py:385
 #, python-brace-format
 msgid "{0}'s Profile Picture!"
-msgstr ""
+msgstr "{0} adlı kullanıcın Profil Fotoğrafı!"
 
 #: Dredd-v3/cogs/info.py:393
 #, python-brace-format
 msgid "[png]({0}) | [jpg]({1}) | [webp]({2}){3}"
-msgstr ""
+msgstr "[png]({0}) | [jpg]({1}) | [webp]({2}){3}"
 
 #: Dredd-v3/cogs/info.py:393
 #, python-brace-format
 msgid " | [gif]({0})"
-msgstr ""
+msgstr " | [gif]({0})"
 
 #: Dredd-v3/cogs/info.py:397
 #, python-brace-format
 msgid "Huge thanks to {0} for this avatar"
-msgstr ""
+msgstr "Bu avatar için {0}'e büyük teşekkürler!"
 
 #: Dredd-v3/cogs/info.py:410
 #, python-brace-format
@@ -1714,7 +1747,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:437
 msgid "Voting Locations"
-msgstr ""
+msgstr "Oylama Lokasyonları"
 
 #: Dredd-v3/cogs/info.py:438
 #, python-brace-format
@@ -1729,11 +1762,11 @@ msgstr ""
 #: Dredd-v3/cogs/info.py:447
 #, python-brace-format
 msgid "{0} You can see my privacy policy here: {1}"
-msgstr ""
+msgstr "{0} Gizlilik politikamı burada görebilirsin: {1}"
 
 #: Dredd-v3/cogs/info.py:466
 msgid "The Dredd team says thanks to these people!"
-msgstr ""
+msgstr "Dredd ekibi bu kişilere teşekkür eder!"
 
 #: Dredd-v3/cogs/info.py:467
 #, python-brace-format
@@ -1742,49 +1775,54 @@ msgid "\n"
 "**Beta bug hunter(s):** {1}\n"
 "**Bug hunter(s):** {2}\n"
 "**Translator(s):** {3}"
-msgstr ""
+msgstr "**Sponsor(lar):** {0}\n"
+"**BETA Hata avcı(ları):** {1}\n"
+"**Hata avcı(ları):** {2}\n"
+"**Çevirmen(ler):** {3}"
 
 #: Dredd-v3/cogs/info.py:475
 msgid "**Graphic Designer(s):**"
-msgstr ""
+msgstr "**Tasarım Sanatçı(ları):**"
 
 #: Dredd-v3/cogs/info.py:476
 msgid "**Contributor(s):**"
-msgstr ""
+msgstr "**Katkı Sağlayan(lar):**"
 
 #: Dredd-v3/cogs/info.py:498
 #, python-brace-format
 msgid "{0} Server has no roles"
-msgstr ""
+msgstr "{0} Sunucu herhangi bir role sahip değil"
 
 #: Dredd-v3/cogs/info.py:502
 #, python-brace-format
 msgid "Roles in {0}"
-msgstr ""
+msgstr "{0} Rolündekiler"
 
 #: Dredd-v3/cogs/info.py:502
 #, python-brace-format
 msgid "Members in {0}"
-msgstr ""
+msgstr "{0} İçerisindeki üyeler"
 
 #: Dredd-v3/cogs/info.py:518
 msgid "__**Basic Information**__"
-msgstr ""
+msgstr "__**Basit Bilgi**__"
 
 #: Dredd-v3/cogs/info.py:519
 #, python-brace-format
 msgid "**Role name:** {0}\n"
 "**Role mention:** {1}\n"
 "**Role ID:** {2}"
-msgstr ""
+msgstr "**Rol adı:** {0}\n"
+"**Rol etiketi:** {1}\n"
+"**Rol ID:** {2}"
 
 #: Dredd-v3/cogs/info.py:526
 msgid "__**Permissions:**__"
-msgstr ""
+msgstr "__**Yetkilendirmeler:**__"
 
 #: Dredd-v3/cogs/info.py:529
 msgid "__**Other Information:**__"
-msgstr ""
+msgstr "__**Diğer Bilgi:**__"
 
 #: Dredd-v3/cogs/info.py:530
 #, python-brace-format
@@ -1844,16 +1882,16 @@ msgstr ""
 #: Dredd-v3/cogs/info.py:638
 #, python-brace-format
 msgid "{0} | This server has no emotes!"
-msgstr ""
+msgstr "{0} | Bu sunucu herhangi bir emojiye sahip değil!"
 
 #: Dredd-v3/cogs/info.py:641
 #, python-brace-format
 msgid "{0} emotes list"
-msgstr ""
+msgstr "{0} Emojiler listesi"
 
 #: Dredd-v3/cogs/info.py:672 Dredd-v3/cogs/info.py:675
 msgid "Server"
-msgstr ""
+msgstr "Sunucu"
 
 #: Dredd-v3/cogs/info.py:679
 #, python-brace-format
@@ -1862,17 +1900,21 @@ msgid "**Partner:** {0}\n"
 "**Partner type:** {2}\n"
 "**Partnered message:**\n"
 ">>> {3}"
-msgstr ""
+msgstr "**Ortak:** {0}\n"
+"**Ne için Ortak:** {1}\n"
+"**Ortaklık türü:** {2}\n"
+"**Ortaklık mesajı:**\n"
+">>> {3}"
 
 #: Dredd-v3/cogs/info.py:690
 #, python-brace-format
 msgid "Interested in partnering? Here's the official message:\n\n"
 "{0} or [join the support server]({1})"
-msgstr ""
+msgstr "{0} ya da [destek sunucumuza]({1}) katılın."
 
 #: Dredd-v3/cogs/info.py:697
 msgid "Partnered people with Dredd"
-msgstr ""
+msgstr "Dredd ile ortak olmuş insanlar"
 
 #: Dredd-v3/cogs/info.py:721
 #, python-brace-format
@@ -1922,31 +1964,32 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:772
 msgid "Command"
-msgstr ""
+msgstr "Komut"
 
 #: Dredd-v3/cogs/info.py:773
 msgid "Used"
-msgstr ""
+msgstr "Kullanılmış"
 
 #: Dredd-v3/cogs/info.py:781
 #, python-brace-format
 msgid "{0}{1}"
-msgstr ""
+msgstr "{0}{1}"
 
 #: Dredd-v3/cogs/info.py:792
 #, python-brace-format
 msgid "This server has {0} members"
-msgstr ""
+msgstr "Bu sunucuda {0} üye bulunuyor."
 
 #: Dredd-v3/cogs/info.py:798
 msgid "Newest member(s) in this server:"
-msgstr ""
+msgstr "Bu sunucudaki en yeni üye(ler):"
 
 #: Dredd-v3/cogs/info.py:800
 #, python-brace-format
 msgid "**Joined Server at** {0}\n"
 "**Account created at** {1}"
-msgstr ""
+msgstr "**Sunucuya katıldı** {0}\n"
+"**Hesap oluşturulma tarihi** {1}"
 
 #: Dredd-v3/cogs/info.py:804
 msgid "The limit is set to 10"
@@ -2005,24 +2048,24 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:101 Dredd-v3/cogs/manage.py:102
 msgid "Default"
-msgstr ""
+msgstr "Varsayılan"
 
 #: Dredd-v3/cogs/manage.py:105
 #, python-brace-format
 msgid "{0} {1} Server Settings"
-msgstr ""
+msgstr "{0} {1} Sunucu Ayarları"
 
 #: Dredd-v3/cogs/manage.py:106
 msgid "**Logs:**"
-msgstr ""
+msgstr "**Kayıtlar:**"
 
 #: Dredd-v3/cogs/manage.py:107
 msgid "**Settings:**"
-msgstr ""
+msgstr "**Ayarlar:**"
 
 #: Dredd-v3/cogs/manage.py:108
 msgid "**More:**"
-msgstr ""
+msgstr "**Daha Fazla:**"
 
 #: Dredd-v3/cogs/manage.py:108
 #, python-brace-format
@@ -2031,11 +2074,15 @@ msgid "**Mute role:** {0}\n"
 "**Language:** {2}\n"
 "**Mod role:** {3}\n"
 "**Admin role:** {4}"
-msgstr ""
+msgstr "**Susturulma rolü:** {0}\n"
+"**Önek:** `{1}`\n"
+"**Dil:** {2}\n"
+"**Mod rolü:** {3}\n"
+"**Yönetici rolü:** {4}"
 
 #: Dredd-v3/cogs/manage.py:113
 msgid "Not found"
-msgstr ""
+msgstr "Bulunamadı"
 
 #: Dredd-v3/cogs/manage.py:120
 #, python-brace-format
@@ -2053,7 +2100,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:130
 msgid "Leave Message"
-msgstr ""
+msgstr "Ayrılma Mesajı"
 
 #: Dredd-v3/cogs/manage.py:140
 #, python-brace-format
@@ -2478,7 +2525,7 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:903 Dredd-v3/cogs/manage.py:1010
 #, python-brace-format
 msgid "`[{0}]` {1} ({2})\n"
-msgstr ""
+msgstr "`[{0}]` {1} ({2})\n"
 
 #: Dredd-v3/cogs/manage.py:903 Dredd-v3/cogs/manage.py:1010
 msgid "Role not found"
@@ -2808,7 +2855,7 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:1584
 #, python-brace-format
 msgid "[Jump URL]({0})"
-msgstr ""
+msgstr "[URL'ye Git]({0})"
 
 #: Dredd-v3/cogs/manage.py:1588
 #, python-brace-format
@@ -2822,7 +2869,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:1589
 msgid "Deleted"
-msgstr ""
+msgstr "Silinmiş"
 
 #: Dredd-v3/cogs/manage.py:1595
 #, python-brace-format
@@ -2861,11 +2908,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/misc.py:112
 msgid "characters"
-msgstr ""
+msgstr "characters"
 
 #: Dredd-v3/cogs/misc.py:112
 msgid "character"
-msgstr ""
+msgstr "character"
 
 #: Dredd-v3/cogs/misc.py:113
 #, python-brace-format
@@ -2998,7 +3045,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/misc.py:365
 msgid "Canceling..."
-msgstr ""
+msgstr "İptal ediliyor..."
 
 #: Dredd-v3/cogs/misc.py:377
 #, python-brace-format
@@ -3061,12 +3108,12 @@ msgstr ""
 #: Dredd-v3/cogs/misc.py:460
 #, python-brace-format
 msgid "Deleted by {0}"
-msgstr ""
+msgstr "{0} tarafından silinmiş"
 
 #: Dredd-v3/cogs/misc.py:461
 #, python-brace-format
 msgid "Deleted {0} in #{1}"
-msgstr ""
+msgstr "{0} tarafından #{1}'da silinmiş"
 
 #: Dredd-v3/cogs/misc.py:483
 msgid "Are you sure you want to opt-out? Once you'll do that, I won't log your deleted messages in my snipe command."
@@ -3412,7 +3459,7 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:846 Dredd-v3/cogs/moderation.py:852
 #, python-brace-format
 msgid " for {0}"
-msgstr ""
+msgstr " {0} için"
 
 #: Dredd-v3/cogs/moderation.py:463
 #, python-brace-format
@@ -3468,7 +3515,7 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:618
 #, python-brace-format
 msgid "{0} ({0.id})"
-msgstr ""
+msgstr "{0} ({0.id})"
 
 #: Dredd-v3/cogs/moderation.py:625 Dredd-v3/cogs/moderation.py:631
 #, python-brace-format
@@ -4023,7 +4070,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/music.py:158
 msgid "Live Stream"
-msgstr ""
+msgstr "Canlı Yayın"
 
 #: Dredd-v3/cogs/music.py:275
 msgid "Everyone left the voice channel, I will stop playing music"
@@ -4097,56 +4144,56 @@ msgstr ""
 #: Dredd-v3/cogs/music.py:457
 #, python-brace-format
 msgid "{0} An admin or DJ has resumed the player."
-msgstr ""
+msgstr "{0} Bir Yönetici veya DJ oynatıcıyı devam ettirdi."
 
 #: Dredd-v3/cogs/music.py:463
 #, python-brace-format
 msgid "{0} Vote to resume passed. Resuming the player."
-msgstr ""
+msgstr "{0} Oynatıcıyı devam ettirmek için oy verildi. Oynatıcı devam ediyor."
 
 #: Dredd-v3/cogs/music.py:467
 #, python-brace-format
 msgid "**{0}** has voted to resume the player, {1} more votes are needed to resume."
-msgstr ""
+msgstr "**{0}** oynatıcıyı devam ettirmek için oy verdi, {1} kişi daha oy verirse oynatıcı devam edecek."
 
 #: Dredd-v3/cogs/music.py:478
 #, python-brace-format
 msgid "{0} There's nothing to skip to, the queue is empty.."
-msgstr ""
+msgstr "{0} Listede geçilecek başka bir şey yok, sıra boş gibi görünüyor.."
 
 #: Dredd-v3/cogs/music.py:481
 #, python-brace-format
 msgid "{0} An admin or DJ has skipped the song."
-msgstr ""
+msgstr "{0} Bir Yönetici veya DJ müziği geçti."
 
 #: Dredd-v3/cogs/music.py:485
 msgid "The song requester has skipped the song."
-msgstr ""
+msgstr "Şarkının çalmasını isteyen kişi şarkıyı atladı."
 
 #: Dredd-v3/cogs/music.py:492
 #, python-brace-format
 msgid "{0} Vote to skip passed. Skipping the song."
-msgstr ""
+msgstr "{0} Geçmek için oy verildi. Şarkı geçiliyor."
 
 #: Dredd-v3/cogs/music.py:496
 #, python-brace-format
 msgid "**{0}** has voted to skip the current song, {1} more votes are needed to skip."
-msgstr ""
+msgstr "**{0}** oynatıcıda çalan müziği değiştirmek için oy verdi, {1} kişi daha oy verirse değiştirilecek."
 
 #: Dredd-v3/cogs/music.py:513
 #, python-brace-format
 msgid "{0} Vote to stop passed. Stopping the player."
-msgstr ""
+msgstr "{0} Durdurmak için oy verildi. Oynatıcı durduruluyor."
 
 #: Dredd-v3/cogs/music.py:517
 #, python-brace-format
 msgid "**{0}** has voted to stop the player, {1} more votes are needed to stop."
-msgstr ""
+msgstr "**{0}** oynatıcıyı durdurmak için oy verdi, {1} kişi daha oy verirse oynatıcı durdurulacak."
 
 #: Dredd-v3/cogs/music.py:533
 #, python-brace-format
 msgid "Setting the player volume to **{0}%**"
-msgstr ""
+msgstr "Ses düzeyi **{0}%** olarak ayarlandı"
 
 #: Dredd-v3/cogs/music.py:545
 #, python-brace-format
