@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-21 23:18\n"
+"PO-Revision-Date: 2021-06-21 23:37\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -20,109 +20,112 @@ msgstr ""
 #: Dredd-v3/utils/btime.py:112
 #, python-brace-format
 msgid "{0} The time you've provided is in the past"
-msgstr ""
+msgstr "{0} Thời gian bạn đã cung cấp là trong quá khứ"
 
 #: Dredd-v3/utils/btime.py:126
 msgid "This time is in the past."
-msgstr ""
+msgstr "Thời gian này là trong quá khứ."
 
 #: Dredd-v3/utils/btime.py:130
 msgid "Missing argument after the time."
-msgstr ""
+msgstr "Thiếu đầu vào sau thời gian."
 
 #: Dredd-v3/utils/btime.py:161
 msgid "Time Error! try \"in an hour\" or \"5 days\"."
-msgstr ""
+msgstr "Lỗi thời gian! Hãy thử \"trong một giờ\" hoặc \"5 ngày\"."
 
 #: Dredd-v3/utils/btime.py:171
 msgid "Expected quote before time input..."
-msgstr ""
+msgstr "Tôi mong đợi một dấu ngoặc kép trước khi nhập thời gian..."
 
 #: Dredd-v3/utils/btime.py:174
 msgid "If the time is quoted, you must unquote it."
-msgstr ""
+msgstr "Nếu bạn đặt thời gian trong dấu ngoặc kép, bạn phải bỏ dấu ngoặc kép."
 
 #: Dredd-v3/utils/btime.py:185
 msgid "Sorry, but I did not understand what you meant. You probably didn't specify the time or you specified it in another language (not English)"
-msgstr ""
+msgstr "Xin lỗi, nhưng tôi không hiểu ý bạn. Có thể bạn đã không chỉ định thời gian hoặc bạn đã chỉ định thời gian bằng một ngôn ngữ khác không phải là tiếng Anh"
 
 #: Dredd-v3/utils/checks.py:78
 #, python-brace-format
 msgid "Oops!\n"
 "Error occured while fetching your vote: {0}"
-msgstr ""
+msgstr "Đã xảy ra lỗi khi chúng tôi cố gắng lấy phiếu bầu của bạn: {0}"
 
 #: Dredd-v3/utils/checks.py:85
 #, python-brace-format
 msgid "Error occured when trying to fetch your vote, sent the detailed error to my developers.\n"
 "```py\n"
 "{0}```"
-msgstr ""
+msgstr "Đã xảy ra lỗi khi tôi cố gắng lấy phiếu bầu của bạn. Tôi đã gửi một lỗi chi tiết cho chủ sở hữu của tôi.\n"
+"```py\n"
+"{0}```"
 
 #: Dredd-v3/utils/checks.py:189
 #, python-brace-format
 msgid "This command is in it's testing phase, please [join the support server]({0}) if you want to know when it'll be available."
-msgstr ""
+msgstr "Lệnh này vẫn đang được thử nghiệm, vui lòng [tham gia hỗ trợ của chúng tôi]({0}) để biết khi nào nó sẵn sàng."
 
 #: Dredd-v3/utils/checks.py:200
 #, python-brace-format
 msgid "Unfortunately, this command is getting removed in the next update, if you want to know why, please join the support server here {0}"
-msgstr ""
+msgstr "Rất tiếc, lệnh này sẽ bị xóa trong lần cập nhật tiếp theo. Vui lòng tham gia máy chủ của chúng tôi để biết lý do: {0}"
 
 #: Dredd-v3/utils/checks.py:210
 #, python-brace-format
 msgid "Hello!\n"
 "We're currently under the maintenance and the bot is unavailable for use. You can join the [support server]({0}) or subscribe to our [status page]({1}) to know when we'll be available again!"
-msgstr ""
+msgstr "Xin chào!\n"
+"Bot đang được sửa và không thể sử dụng ngay bây giờ. Bạn có thể tham gia [hỗ trợ] ({0}) của chúng tôi hoặc kiểm tra [trạng thái] ({1}) của chúng tôi để biết khi nào bot sẵn sàng!"
 
 #: Dredd-v3/utils/checks.py:214
 msgid "Dredd is under the maintenance!"
-msgstr ""
+msgstr "Dredd đang được sửa!"
 
 #: Dredd-v3/utils/checks.py:250
 #, python-brace-format
 msgid "{0} | `{1}` and it's corresponing subcommands are currently disabled for: `{2}`"
-msgstr ""
+msgstr "{0} | `{1} 'và các lệnh phụ của nó bị tắt đối với:` {2}`"
 
 #: Dredd-v3/utils/checks.py:253
 #, python-brace-format
 msgid "{0} | `{1} {2}` is currently disabled for: `{3}`"
-msgstr ""
+msgstr "{0} | `{1} {2}` hiện bị vô hiệu cho: `{3}`"
 
 #: Dredd-v3/utils/checks.py:261
 #, python-brace-format
 msgid "{0} | `{1}` is currently disabled for: `{2}`"
-msgstr ""
+msgstr "{0} | `{1}` hiện bị tắt cho: `{2}`"
 
 #: Dredd-v3/utils/checks.py:318
 #, python-brace-format
 msgid "{0} You need to be in a voice channel first."
-msgstr ""
+msgstr "{0} Trước tiên, bạn cần phải ở trong một kênh thoại."
 
 #: Dredd-v3/utils/checks.py:320
 #, python-brace-format
 msgid "{0} I'm not in the voice channel."
-msgstr ""
+msgstr "{0} Tôi không ở trong kênh thoại."
 
 #: Dredd-v3/utils/checks.py:322
 #, python-brace-format
 msgid "{0} You need to be in the same voice channel with me."
-msgstr ""
+msgstr "{0} Bạn cần ở cùng kênh thoại với tôi."
 
 #: Dredd-v3/utils/checks.py:324
 #, python-brace-format
 msgid "{0} I'm missing permissions in your voice channel. Make sure you have given me the correct permissions!"
-msgstr ""
+msgstr "{0} Tôi thiếu quyền đối với kênh thoại của bạn. Hãy chắc chắn rằng bạn đã cấp cho tôi các quyền chính xác!"
 
 #: Dredd-v3/utils/checks.py:326
 #, python-brace-format
 msgid "{0} I'm not playing anything."
-msgstr ""
+msgstr "{0} Tôi không chơi gì cả."
 
 #: Dredd-v3/utils/checks.py:328
 #, python-brace-format
 msgid "{0} Player is not paused."
-msgstr ""
+msgstr "{0} Trình phát không bị tạm dừng."
 
 #: Dredd-v3/utils/checks.py:330
 #, python-brace-format
