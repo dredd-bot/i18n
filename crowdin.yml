@@ -1,0 +1,3 @@
+files:
+  - source: bot.po
+    translation: '%language%.po'
