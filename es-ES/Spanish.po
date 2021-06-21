@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-21 23:18\n"
+"PO-Revision-Date: 2021-06-21 23:37\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -20,19 +20,19 @@ msgstr ""
 #: Dredd-v3/utils/btime.py:112
 #, python-brace-format
 msgid "{0} The time you've provided is in the past"
-msgstr ""
+msgstr "{0} El tiempo que proporcionaste está en el pasado"
 
 #: Dredd-v3/utils/btime.py:126
 msgid "This time is in the past."
-msgstr ""
+msgstr "Este tiempo está en el pasado."
 
 #: Dredd-v3/utils/btime.py:130
 msgid "Missing argument after the time."
-msgstr ""
+msgstr "Falta un argumento después del tiempo."
 
 #: Dredd-v3/utils/btime.py:161
 msgid "Time Error! try \"in an hour\" or \"5 days\"."
-msgstr ""
+msgstr "¡Error de tiempo! prueba con \"en una hora\" o \"5 días\"."
 
 #: Dredd-v3/utils/btime.py:171
 msgid "Expected quote before time input..."
@@ -44,140 +44,144 @@ msgstr ""
 
 #: Dredd-v3/utils/btime.py:185
 msgid "Sorry, but I did not understand what you meant. You probably didn't specify the time or you specified it in another language (not English)"
-msgstr ""
+msgstr "Lo siento, pero no te he entendido. Probablemente no específicaste el tiempo o lo específicaste en otro idioma (no en Inglés)"
 
 #: Dredd-v3/utils/checks.py:78
 #, python-brace-format
 msgid "Oops!\n"
 "Error occured while fetching your vote: {0}"
-msgstr ""
+msgstr "¡Ups!\n"
+"Se ha producido un error al recuperar tu voto: {0}"
 
 #: Dredd-v3/utils/checks.py:85
 #, python-brace-format
 msgid "Error occured when trying to fetch your vote, sent the detailed error to my developers.\n"
 "```py\n"
 "{0}```"
-msgstr ""
+msgstr "Ocurrió un error al intentar recuperar tu voto, se ha enviado el error detallado a mis desarrolladores.\n"
+"```py\n"
+"{0}```"
 
 #: Dredd-v3/utils/checks.py:189
 #, python-brace-format
 msgid "This command is in it's testing phase, please [join the support server]({0}) if you want to know when it'll be available."
-msgstr ""
+msgstr "Este comando está en su fase de prueba, por favor [únete al servidor de soporte]({0}) si quieres saber cuándo estará disponible."
 
 #: Dredd-v3/utils/checks.py:200
 #, python-brace-format
 msgid "Unfortunately, this command is getting removed in the next update, if you want to know why, please join the support server here {0}"
-msgstr ""
+msgstr "Desafortunadamente, este comando será removido en la próxima actualización, si quieres saber el por qué, por favor únete a nuestro servidor de soport aquí {0}"
 
 #: Dredd-v3/utils/checks.py:210
 #, python-brace-format
 msgid "Hello!\n"
 "We're currently under the maintenance and the bot is unavailable for use. You can join the [support server]({0}) or subscribe to our [status page]({1}) to know when we'll be available again!"
-msgstr ""
+msgstr "¡Hola!\n"
+"Actualmente estamos bajo mantenimiento y el bot no está disponible para uso. ¡Puedes unirte a nuestro [servidor de soporte]({0}) o suscribirte a nuestra [página de estado]({1}) para saber cuándo estaremos disponibles de nuevo!"
 
 #: Dredd-v3/utils/checks.py:214
 msgid "Dredd is under the maintenance!"
-msgstr ""
+msgstr "Dredd está bajo mantenimiento!"
 
 #: Dredd-v3/utils/checks.py:250
 #, python-brace-format
 msgid "{0} | `{1}` and it's corresponing subcommands are currently disabled for: `{2}`"
-msgstr ""
+msgstr "{0} | `{1}` y sus subcomandos correspondientes están actualmente deshabilitados: `{2}`"
 
 #: Dredd-v3/utils/checks.py:253
 #, python-brace-format
 msgid "{0} | `{1} {2}` is currently disabled for: `{3}`"
-msgstr ""
+msgstr "{0} | `{1} {2}` está actualmente deshabilitado: `{3}`"
 
 #: Dredd-v3/utils/checks.py:261
 #, python-brace-format
 msgid "{0} | `{1}` is currently disabled for: `{2}`"
-msgstr ""
+msgstr "{0} | `{1}` está actualmente deshabilitado: `{2}`"
 
 #: Dredd-v3/utils/checks.py:318
 #, python-brace-format
 msgid "{0} You need to be in a voice channel first."
-msgstr ""
+msgstr "{0} Necesitas estar en un canal de voz primero."
 
 #: Dredd-v3/utils/checks.py:320
 #, python-brace-format
 msgid "{0} I'm not in the voice channel."
-msgstr ""
+msgstr "{0} No estoy en el canal de voz."
 
 #: Dredd-v3/utils/checks.py:322
 #, python-brace-format
 msgid "{0} You need to be in the same voice channel with me."
-msgstr ""
+msgstr "{0} Necesitas estar en el mismo canal de voz en el que estoy yo."
 
 #: Dredd-v3/utils/checks.py:324
 #, python-brace-format
 msgid "{0} I'm missing permissions in your voice channel. Make sure you have given me the correct permissions!"
-msgstr ""
+msgstr "{0} No tengo permisos en tu canal de voz. ¡Asegúrate de que me has dado los permisos correctos!"
 
 #: Dredd-v3/utils/checks.py:326
 #, python-brace-format
 msgid "{0} I'm not playing anything."
-msgstr ""
+msgstr "{0} No estoy reproduciendo nada."
 
 #: Dredd-v3/utils/checks.py:328
 #, python-brace-format
 msgid "{0} Player is not paused."
-msgstr ""
+msgstr "{0} El reproductor no está pausado."
 
 #: Dredd-v3/utils/checks.py:330
 #, python-brace-format
 msgid "{0} Player is already paused."
-msgstr ""
+msgstr "{0} El reproductor ya está pausado."
 
 #: Dredd-v3/utils/checks.py:343 Dredd-v3/utils/checks.py:349
 msgid "This member has not been banned before."
-msgstr ""
+msgstr "Este miembro no está baneado."
 
 #: Dredd-v3/utils/checks.py:366
 msgid "This user is already banned."
-msgstr ""
+msgstr "Este usuario ya está baneado."
 
 #: Dredd-v3/utils/checks.py:380
 #, python-brace-format
 msgid "Valid options are {0}"
-msgstr ""
+msgstr "Las opciones válidas son {0}"
 
 #: Dredd-v3/utils/checks.py:407
 #, python-brace-format
 msgid "Valid values are {0}"
-msgstr ""
+msgstr "Los valores válidos son {0}"
 
 #: Dredd-v3/utils/default.py:82 Dredd-v3/utils/default.py:87
 #: Dredd-v3/utils/default.py:92
 #, python-brace-format
 msgid "Next level in **{0}** boosts"
-msgstr ""
+msgstr "Próximo nivel en **{0}** mejoras"
 
 #: Dredd-v3/utils/default.py:191
 msgid "Owner of Dredd"
-msgstr ""
+msgstr "Dueño de Dredd"
 
 #: Dredd-v3/utils/default.py:192
 msgid "Admin of Dredd"
-msgstr ""
+msgstr "Administrador de Dredd"
 
 #: Dredd-v3/utils/default.py:193
 #, python-brace-format
 msgid "Staff member in the [support server]({0}) or Dredd's contributor"
-msgstr ""
+msgstr "Miembro del staff en el [servidor de soporte]({0}) o contribuidor de Dredd"
 
 #: Dredd-v3/utils/default.py:194
 msgid "Dredd sponsor"
-msgstr ""
+msgstr "Sponsor de Dredd"
 
 #: Dredd-v3/utils/default.py:195
 #, python-brace-format
 msgid "Booster of [Dredd's support server]({0}) or Donator"
-msgstr ""
+msgstr "Booster del [Servidor de soporte de Dredd]({0}) o Donador"
 
 #: Dredd-v3/utils/default.py:196
 msgid "Dredd Partner"
-msgstr ""
+msgstr "Patrocinador de Dredd"
 
 #: Dredd-v3/utils/default.py:197
 msgid "Dredd Bug Hunter"
@@ -197,7 +201,7 @@ msgstr ""
 
 #: Dredd-v3/utils/default.py:201
 msgid "Blacklisted user"
-msgstr ""
+msgstr "Usuarios en la lista negra"
 
 #: Dredd-v3/utils/default.py:202
 msgid "A special badge for Duck :duck:"
@@ -206,7 +210,7 @@ msgstr ""
 #: Dredd-v3/utils/default.py:240
 #, python-brace-format
 msgid "{0} Dredd Staff Server"
-msgstr ""
+msgstr "{0} Staff del Servidor de Dredd"
 
 #: Dredd-v3/utils/default.py:241
 msgid "{} Dredd Verified Server"
@@ -220,22 +224,22 @@ msgstr ""
 #: Dredd-v3/utils/default.py:350
 #, python-brace-format
 msgid "{0} Edited messages\n"
-msgstr ""
+msgstr "{0} Mensajes editados\n"
 
 #: Dredd-v3/utils/default.py:351
 #, python-brace-format
 msgid "{0} Deleted messages\n"
-msgstr ""
+msgstr "{0} Mensajes eliminados\n"
 
 #: Dredd-v3/utils/default.py:352
 #, python-brace-format
 msgid "{0} Moderation\n"
-msgstr ""
+msgstr "{0} Moderación\n"
 
 #: Dredd-v3/utils/default.py:353
 #, python-brace-format
 msgid "{0} Guild logs\n"
-msgstr ""
+msgstr "{0} Registros del servidor de Discord\n"
 
 #: Dredd-v3/utils/default.py:354
 #, python-brace-format
@@ -427,7 +431,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/automod.py:401
 #, python-brace-format
 msgid "{0} Banned **{1}** for {2}, reason: {3}."
-msgstr ""
+msgstr "{0} Baneó a **{1}** por {2}, razón: {3}."
 
 #: Dredd-v3/cogs/events/automod.py:419
 #, python-brace-format
@@ -468,7 +472,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/errors.py:132
 #, python-brace-format
 msgid "Hey {0}!"
-msgstr ""
+msgstr "¡Hola {0}!"
 
 #: Dredd-v3/cogs/events/errors.py:133
 #, python-brace-format
@@ -478,7 +482,12 @@ msgid "Thank you for using me! Unfortunately this command is vote locked and you
 "`[3]` {2}\n"
 "`[4]` {3}\n\n"
 "*After you vote, you'll be able to use this command, and you will help Dredd gain more servers :D*"
-msgstr ""
+msgstr "¡Gracias por usarme! Desafortunadamente, este comando está bloqueado para votar y tendrás que votar por Dredd. Puedes votar en cualquiera de estas listas:\n"
+"`[1]` {0}\n"
+"`[2]` {1}\n"
+"`[3]` {2}\n"
+"`[4]` {3}\n\n"
+"*Después de que votes, podrás usar este comando y ayudarás a Dredd a llegar a más servidores :D*"
 
 #: Dredd-v3/cogs/events/errors.py:140
 #, python-brace-format
@@ -488,7 +497,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/errors.py:143
 #, python-brace-format
 msgid "{0} This command can only be used by boosters"
-msgstr ""
+msgstr "{0} Este comando sólo puede ser usado por boosters"
 
 #: Dredd-v3/cogs/events/errors.py:149
 #, python-brace-format
@@ -498,37 +507,37 @@ msgstr ""
 #: Dredd-v3/cogs/events/errors.py:157
 #, python-brace-format
 msgid "{0} This command has already been used by someone in this guild or channel."
-msgstr ""
+msgstr "{0} Este comando ya ha sido utilizado por alguien en este servidor o canal."
 
 #: Dredd-v3/cogs/events/errors.py:163
 #, python-brace-format
 msgid "{0} | This command can only be used in direct messages!"
-msgstr ""
+msgstr "{0} | ¡Este comando sólo puede ser usado en mensajes privados!"
 
 #: Dredd-v3/cogs/events/errors.py:168
 #, python-brace-format
 msgid "{0} | This command can't be used in direct messages!"
-msgstr ""
+msgstr "{0} | ¡Este comando no puede ser usado en mensajes privados!"
 
 #: Dredd-v3/cogs/events/errors.py:177
 #, python-brace-format
 msgid "{0} This command is marked as NSFW that's why I cannot let you use it in this channel."
-msgstr ""
+msgstr "{0} Este comando está marcado como NSFW por eso no puedo dejarte usarlo en este canal."
 
 #: Dredd-v3/cogs/events/errors.py:187
 #, python-brace-format
 msgid "{0} This command can only be used by the bot developers."
-msgstr ""
+msgstr "{0} Este comando sólo puede ser utilizado por los desarrolladores del bot."
 
 #: Dredd-v3/cogs/events/errors.py:205
 #, python-brace-format
 msgid "{0} You're missing the {1} permission."
-msgstr ""
+msgstr "{0} Te hacen falta el permiso {1}."
 
 #: Dredd-v3/cogs/events/errors.py:210
 #, python-brace-format
 msgid "{0} I'm missing {1} permissions"
-msgstr ""
+msgstr "{0} No tengo los permisos {1}"
 
 #: Dredd-v3/cogs/events/errors.py:242
 #, python-brace-format
@@ -559,7 +568,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/errors.py:306
 #, python-brace-format
 msgid "{0} Unknown error | #{1}"
-msgstr ""
+msgstr "{0} Error desconocido | #{1}"
 
 #: Dredd-v3/cogs/events/errors.py:307
 #, python-brace-format
@@ -569,23 +578,24 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/errors.py:310 Dredd-v3/cogs/events/errors.py:332
 msgid "Error info:"
-msgstr ""
+msgstr "Información del error:"
 
 #: Dredd-v3/cogs/events/errors.py:328
 #, python-brace-format
 msgid "{0} Known error | #{1}"
-msgstr ""
+msgstr "{0} Error conocido | #{1}"
 
 #: Dredd-v3/cogs/events/errors.py:329
 #, python-brace-format
 msgid "Command `{0}` raised an error that has already reported to my developer(s).\n"
 "They'll be looking into this issue and trying to fix it ASAP. Meanwhile, you can [join the support server]({1}) for updates."
-msgstr ""
+msgstr "El comando `{0}` obtuvo un error que ya ha sido reportado a mi(s) desarrollador (es).\n"
+"Ellos revisarán este problema e intentarán resolverlo lo más pronto posible. Mentras tanto, puedes [unirte a nuestro servidor de soporte]({1}) para actualizaciones."
 
 #: Dredd-v3/cogs/events/events.py:90
 #, python-brace-format
 msgid "My prefix in this server is `{0}` or {1}!"
-msgstr ""
+msgstr "¡Mi prefijo en este servidor es `{0}` o {1}!"
 
 #: Dredd-v3/cogs/events/events.py:99
 #, python-brace-format
@@ -594,12 +604,12 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/events.py:113
 msgid "Hey! Not sure if you know yet, but my prefix in DM's is `!`"
-msgstr ""
+msgstr "¡Oye! No estoy seguro si sabes, pero mi prefijo en mensajes privados es `!`"
 
 #: Dredd-v3/cogs/events/events.py:225
 #, python-brace-format
 msgid "If you are the server owner and would like to appeal, you can [join the support server]({0})."
-msgstr ""
+msgstr "Si eres dueño del servidor y deseas apelar, puedes [unirte al servidor de soporte]({0})."
 
 #: Dredd-v3/cogs/events/events.py:229
 msgid "Unfortunately, this server's blacklist state cannot be removed."
@@ -650,12 +660,13 @@ msgstr ""
 #, python-brace-format
 msgid "\n"
 "*Sticker* - {0}"
-msgstr ""
+msgstr "\n"
+"*Sticker* - {0}"
 
 #: Dredd-v3/cogs/events/logs.py:90
 #, python-brace-format
 msgid "{0} Message Edited"
-msgstr ""
+msgstr "{0} Mensaje Editado"
 
 #: Dredd-v3/cogs/events/logs.py:91
 #, python-brace-format
@@ -666,23 +677,23 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/logs.py:96 Dredd-v3/cogs/events/logs.py:100
 msgid "**Before:**"
-msgstr ""
+msgstr "**Antes:**"
 
 #: Dredd-v3/cogs/events/logs.py:104
 msgid "**After:**"
-msgstr ""
+msgstr "**Después:**"
 
 #: Dredd-v3/cogs/events/logs.py:106 Dredd-v3/cogs/events/logs.py:149
 #: Dredd-v3/cogs/events/logs.py:174 Dredd-v3/cogs/events/logs.py:215
 #: Dredd-v3/cogs/events/logs.py:229
 #, python-brace-format
 msgid "User ID: {0}"
-msgstr ""
+msgstr "ID de usuario: {0}"
 
 #: Dredd-v3/cogs/events/logs.py:132
 #, python-brace-format
 msgid "{0} Message Deleted"
-msgstr ""
+msgstr "{0} Mensaje Eliminado"
 
 #: Dredd-v3/cogs/events/logs.py:133
 #, python-brace-format
@@ -822,7 +833,8 @@ msgstr ""
 #, python-brace-format
 msgid "**Before:** [Click here]({0})\n"
 "**After:** [Click here]({1})"
-msgstr ""
+msgstr "**Antes:** [Haga clic aquí]({0})\n"
+"**Después:** [Haga clic aquí]({1})"
 
 #: Dredd-v3/cogs/events/logs.py:364
 msgid " Guild multifactor authentication (MFA) changed"
@@ -844,7 +856,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/logs.py:400
 #, python-brace-format
 msgid "{0} joined the server"
-msgstr ""
+msgstr "{0} se ha unido al servidor"
 
 #: Dredd-v3/cogs/events/logs.py:401
 #, python-brace-format
@@ -855,17 +867,17 @@ msgstr ""
 #: Dredd-v3/cogs/events/logs.py:405
 #, python-brace-format
 msgid "Member #{0}"
-msgstr ""
+msgstr "Miembro #{0}"
 
 #: Dredd-v3/cogs/events/logs.py:418
 #, python-brace-format
 msgid "{0} A member has left the server"
-msgstr ""
+msgstr "{0} Un miembro ha abandonado el servidor"
 
 #: Dredd-v3/cogs/events/logs.py:419
 #, python-brace-format
 msgid "{0} left the server"
-msgstr ""
+msgstr "{0} abandonó el servidor"
 
 #: Dredd-v3/cogs/events/logs.py:421
 #, python-brace-format
@@ -890,7 +902,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/logs.py:592
 #, python-brace-format
 msgid "{0} {1} Member(s) banned"
-msgstr ""
+msgstr "{0} {1} Miembro(s) baneado(s)"
 
 #: Dredd-v3/cogs/events/logs.py:593 Dredd-v3/cogs/events/logs.py:625
 #: Dredd-v3/cogs/events/logs.py:723 Dredd-v3/cogs/events/logs.py:788
@@ -909,7 +921,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/logs.py:655
 #, python-brace-format
 msgid "{0} {1} Member(s) kicked"
-msgstr ""
+msgstr "{0} {1} Miembro(s) expulsado(s)"
 
 #: Dredd-v3/cogs/events/logs.py:656 Dredd-v3/cogs/events/logs.py:687
 #: Dredd-v3/cogs/events/logs.py:755 Dredd-v3/cogs/events/logs.py:819
@@ -929,12 +941,12 @@ msgstr ""
 #: Dredd-v3/cogs/events/logs.py:722
 #, python-brace-format
 msgid "{0} {1} Member(s) muted"
-msgstr ""
+msgstr "{0} {1} Miembro(s) silenciado(s)"
 
 #: Dredd-v3/cogs/events/logs.py:754
 #, python-brace-format
 msgid "{0} {1} Member(s) warned"
-msgstr ""
+msgstr "{0} {1} Miembro(s) advertido(s)"
 
 #: Dredd-v3/cogs/events/logs.py:787
 #, python-brace-format
@@ -985,7 +997,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:46 Dredd-v3/cogs/automod.py:86
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #: Dredd-v3/cogs/automod.py:48 Dredd-v3/cogs/automod.py:54
 #: Dredd-v3/cogs/automod.py:58 Dredd-v3/cogs/automod.py:61
@@ -1009,7 +1021,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:51 Dredd-v3/cogs/automod.py:86
 msgid "Yes"
-msgstr ""
+msgstr "Sí"
 
 #: Dredd-v3/cogs/automod.py:54 Dredd-v3/cogs/automod.py:58
 #: Dredd-v3/cogs/automod.py:61 Dredd-v3/cogs/automod.py:65
@@ -1055,7 +1067,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:84 Dredd-v3/cogs/automod.py:85
 msgid "Disabled"
-msgstr ""
+msgstr "Deshabilitado"
 
 #: Dredd-v3/cogs/automod.py:87
 #, python-brace-format
@@ -1072,7 +1084,7 @@ msgstr ""
 #: Dredd-v3/cogs/automod.py:100
 #, python-brace-format
 msgid "{0} Automod Settings"
-msgstr ""
+msgstr "{0} Configuraciones de Automoderaciones"
 
 #: Dredd-v3/cogs/automod.py:114 Dredd-v3/cogs/automod.py:133
 #: Dredd-v3/cogs/automod.py:440 Dredd-v3/cogs/automod.py:452
