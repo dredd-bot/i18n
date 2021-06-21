@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-21 23:18\n"
+"PO-Revision-Date: 2021-06-21 23:37\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -20,193 +20,197 @@ msgstr ""
 #: Dredd-v3/utils/btime.py:112
 #, python-brace-format
 msgid "{0} The time you've provided is in the past"
-msgstr ""
+msgstr "{0} あなたが提供した時間は過去です"
 
 #: Dredd-v3/utils/btime.py:126
 msgid "This time is in the past."
-msgstr ""
+msgstr "この時は過去です。"
 
 #: Dredd-v3/utils/btime.py:130
 msgid "Missing argument after the time."
-msgstr ""
+msgstr "時間の後に引数がありません。"
 
 #: Dredd-v3/utils/btime.py:161
 msgid "Time Error! try \"in an hour\" or \"5 days\"."
-msgstr ""
+msgstr "時間エラー！「1時間」または「5日」を試してください。"
 
 #: Dredd-v3/utils/btime.py:171
 msgid "Expected quote before time input..."
-msgstr ""
+msgstr "時間入力の前の見積もりを想定しています..."
 
 #: Dredd-v3/utils/btime.py:174
 msgid "If the time is quoted, you must unquote it."
-msgstr ""
+msgstr "時間が引用される場合は、引用を解除する必要があります。"
 
 #: Dredd-v3/utils/btime.py:185
 msgid "Sorry, but I did not understand what you meant. You probably didn't specify the time or you specified it in another language (not English)"
-msgstr ""
+msgstr "申し訳ありませんが、私はあなたが何を意味しているのか理解できませんでした。おそらく時間を指定していないか、別の言語（英語ではありません）で指定していませんでした。"
 
 #: Dredd-v3/utils/checks.py:78
 #, python-brace-format
 msgid "Oops!\n"
 "Error occured while fetching your vote: {0}"
-msgstr ""
+msgstr "おっと！\n"
+"投票の取得中にエラーが発生しました： {0}"
 
 #: Dredd-v3/utils/checks.py:85
 #, python-brace-format
 msgid "Error occured when trying to fetch your vote, sent the detailed error to my developers.\n"
 "```py\n"
 "{0}```"
-msgstr ""
+msgstr "投票の取得時にエラーが発生しました。詳細なエラーが開発者に送信されました。\n"
+"```py\n"
+"{0}```"
 
 #: Dredd-v3/utils/checks.py:189
 #, python-brace-format
 msgid "This command is in it's testing phase, please [join the support server]({0}) if you want to know when it'll be available."
-msgstr ""
+msgstr "このコマンドはテスト段階にあります。いつ利用可能か知りたい場合は[サポートサーバーに参加]({0}) を選択してください"
 
 #: Dredd-v3/utils/checks.py:200
 #, python-brace-format
 msgid "Unfortunately, this command is getting removed in the next update, if you want to know why, please join the support server here {0}"
-msgstr ""
+msgstr "残念ながら、このコマンドは次のアップデートで削除されています。理由を知りたい場合は、ここでサポートサーバーに参加してください {0}"
 
 #: Dredd-v3/utils/checks.py:210
 #, python-brace-format
 msgid "Hello!\n"
 "We're currently under the maintenance and the bot is unavailable for use. You can join the [support server]({0}) or subscribe to our [status page]({1}) to know when we'll be available again!"
-msgstr ""
+msgstr "こんにちは！\n"
+" 現在メンテナンス中であり、ボットは使用できません。 [サポートサーバー]（{0}）に参加するか、[ステータスページ]（{1}）に登録して、いつ再び利用可能になかを知ることができます。"
 
 #: Dredd-v3/utils/checks.py:214
 msgid "Dredd is under the maintenance!"
-msgstr ""
+msgstr "Dredd はメンテナンス中です！"
 
 #: Dredd-v3/utils/checks.py:250
 #, python-brace-format
 msgid "{0} | `{1}` and it's corresponing subcommands are currently disabled for: `{2}`"
-msgstr ""
+msgstr "{0} | `{1}` と対応するサブコマンドは現無効になっています: `{2}`"
 
 #: Dredd-v3/utils/checks.py:253
 #, python-brace-format
 msgid "{0} | `{1} {2}` is currently disabled for: `{3}`"
-msgstr ""
+msgstr "{0} | `{1} {2}` は現在無効です: `{3}`"
 
 #: Dredd-v3/utils/checks.py:261
 #, python-brace-format
 msgid "{0} | `{1}` is currently disabled for: `{2}`"
-msgstr ""
+msgstr "{0} | `{1}` は現在無効: `{2}`"
 
 #: Dredd-v3/utils/checks.py:318
 #, python-brace-format
 msgid "{0} You need to be in a voice channel first."
-msgstr ""
+msgstr "{0} まずはボイスチャンネルに入っている必要があります。"
 
 #: Dredd-v3/utils/checks.py:320
 #, python-brace-format
 msgid "{0} I'm not in the voice channel."
-msgstr ""
+msgstr "{0} ボイスチャンネルに参加していません。"
 
 #: Dredd-v3/utils/checks.py:322
 #, python-brace-format
 msgid "{0} You need to be in the same voice channel with me."
-msgstr ""
+msgstr "{0} 私と同じボイスチャンネルに参加する必要があります。"
 
 #: Dredd-v3/utils/checks.py:324
 #, python-brace-format
 msgid "{0} I'm missing permissions in your voice channel. Make sure you have given me the correct permissions!"
-msgstr ""
+msgstr "{0} あなたのボイスチャンネルに権限がありません。正しい権限が与えられているか確認してください！"
 
 #: Dredd-v3/utils/checks.py:326
 #, python-brace-format
 msgid "{0} I'm not playing anything."
-msgstr ""
+msgstr "{0} 何も再生していません"
 
 #: Dredd-v3/utils/checks.py:328
 #, python-brace-format
 msgid "{0} Player is not paused."
-msgstr ""
+msgstr "{0} プレイヤーは一時停止されていません。"
 
 #: Dredd-v3/utils/checks.py:330
 #, python-brace-format
 msgid "{0} Player is already paused."
-msgstr ""
+msgstr "{0} プレイヤーは既に一時停止しています。"
 
 #: Dredd-v3/utils/checks.py:343 Dredd-v3/utils/checks.py:349
 msgid "This member has not been banned before."
-msgstr ""
+msgstr "このメンバーはBANされていません。"
 
 #: Dredd-v3/utils/checks.py:366
 msgid "This user is already banned."
-msgstr ""
+msgstr "このユーザーはすでに禁止されています。"
 
 #: Dredd-v3/utils/checks.py:380
 #, python-brace-format
 msgid "Valid options are {0}"
-msgstr ""
+msgstr "有効なオプションは {0} です"
 
 #: Dredd-v3/utils/checks.py:407
 #, python-brace-format
 msgid "Valid values are {0}"
-msgstr ""
+msgstr "有効な値は {0} です"
 
 #: Dredd-v3/utils/default.py:82 Dredd-v3/utils/default.py:87
 #: Dredd-v3/utils/default.py:92
 #, python-brace-format
 msgid "Next level in **{0}** boosts"
-msgstr ""
+msgstr "次のレベルは **{0}** のブースト"
 
 #: Dredd-v3/utils/default.py:191
 msgid "Owner of Dredd"
-msgstr ""
+msgstr "Dreddの所有者"
 
 #: Dredd-v3/utils/default.py:192
 msgid "Admin of Dredd"
-msgstr ""
+msgstr "Admin of Dredd"
 
 #: Dredd-v3/utils/default.py:193
 #, python-brace-format
 msgid "Staff member in the [support server]({0}) or Dredd's contributor"
-msgstr ""
+msgstr "[Support server]({0}) または Dreddit 貢献者のスタッフメンバー"
 
 #: Dredd-v3/utils/default.py:194
 msgid "Dredd sponsor"
-msgstr ""
+msgstr "Dredd sponsor"
 
 #: Dredd-v3/utils/default.py:195
 #, python-brace-format
 msgid "Booster of [Dredd's support server]({0}) or Donator"
-msgstr ""
+msgstr "[Dreddのサポートサーバー]({0})または寄付者のBooster"
 
 #: Dredd-v3/utils/default.py:196
 msgid "Dredd Partner"
-msgstr ""
+msgstr "Dredd Partner"
 
 #: Dredd-v3/utils/default.py:197
 msgid "Dredd Bug Hunter"
-msgstr ""
+msgstr "Dreddバグハンター"
 
 #: Dredd-v3/utils/default.py:198
 msgid "Dredd BETA Bug Hunter"
-msgstr ""
+msgstr "Dredd BETA バグハンター"
 
 #: Dredd-v3/utils/default.py:199
 msgid "Dredd Early Supporter"
-msgstr ""
+msgstr "Dredd早期サポーター。"
 
 #: Dredd-v3/utils/default.py:200
 msgid "Dredd super early supporter"
-msgstr ""
+msgstr "Dredd super early supporter"
 
 #: Dredd-v3/utils/default.py:201
 msgid "Blacklisted user"
-msgstr ""
+msgstr "ブラックリストに登録されたユーザー"
 
 #: Dredd-v3/utils/default.py:202
 msgid "A special badge for Duck :duck:"
-msgstr ""
+msgstr "Duck :duck: の特別なバッジ"
 
 #: Dredd-v3/utils/default.py:240
 #, python-brace-format
 msgid "{0} Dredd Staff Server"
-msgstr ""
+msgstr "{0} Dreddスタッフサーバー"
 
 #: Dredd-v3/utils/default.py:241
 msgid "{} Dredd Verified Server"
@@ -220,37 +224,38 @@ msgstr ""
 #: Dredd-v3/utils/default.py:350
 #, python-brace-format
 msgid "{0} Edited messages\n"
-msgstr ""
+msgstr "{0} 編集されたメッセージ\n"
 
 #: Dredd-v3/utils/default.py:351
 #, python-brace-format
 msgid "{0} Deleted messages\n"
-msgstr ""
+msgstr "{0} 削除されたメッセージ\n"
 
 #: Dredd-v3/utils/default.py:352
 #, python-brace-format
 msgid "{0} Moderation\n"
-msgstr ""
+msgstr "{0} モデレーション\n"
 
 #: Dredd-v3/utils/default.py:353
 #, python-brace-format
 msgid "{0} Guild logs\n"
-msgstr ""
+msgstr "{0} ギルドログ\n"
 
 #: Dredd-v3/utils/default.py:354
 #, python-brace-format
 msgid "{0} Member Joins\n"
-msgstr ""
+msgstr "{0} 人のメンバーが\n"
+" に参加\n"
 
 #: Dredd-v3/utils/default.py:355
 #, python-brace-format
 msgid "{0} Member Leaves\n"
-msgstr ""
+msgstr "{0} 人のメンバーが退出しました\n"
 
 #: Dredd-v3/utils/default.py:356
 #, python-brace-format
 msgid "{0} Member Updates\n"
-msgstr ""
+msgstr "{0} メンバーアップデート\n"
 
 #: Dredd-v3/utils/default.py:358 Dredd-v3/utils/default.py:366
 #, python-brace-format
