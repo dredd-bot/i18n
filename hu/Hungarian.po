@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-21 23:18\n"
+"PO-Revision-Date: 2021-06-22 13:42\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -168,7 +168,7 @@ msgstr ""
 
 #: Dredd-v3/utils/default.py:194
 msgid "Dredd sponsor"
-msgstr ""
+msgstr "Dredd szponzor"
 
 #: Dredd-v3/utils/default.py:195
 #, python-brace-format
@@ -177,7 +177,7 @@ msgstr ""
 
 #: Dredd-v3/utils/default.py:196
 msgid "Dredd Partner"
-msgstr ""
+msgstr "Dredd Partner"
 
 #: Dredd-v3/utils/default.py:197
 msgid "Dredd Bug Hunter"
@@ -230,7 +230,7 @@ msgstr ""
 #: Dredd-v3/utils/default.py:352
 #, python-brace-format
 msgid "{0} Moderation\n"
-msgstr ""
+msgstr "{0} Moderáció\n"
 
 #: Dredd-v3/utils/default.py:353
 #, python-brace-format
@@ -284,7 +284,7 @@ msgstr ""
 
 #: Dredd-v3/utils/default.py:520
 msgid "mute"
-msgstr ""
+msgstr "némítás"
 
 #: Dredd-v3/utils/default.py:521
 msgid "temp-mute"
@@ -292,11 +292,11 @@ msgstr ""
 
 #: Dredd-v3/utils/default.py:522 Dredd-v3/cogs/automod.py:430
 msgid "kick"
-msgstr ""
+msgstr "kirúgás"
 
 #: Dredd-v3/utils/default.py:523 Dredd-v3/cogs/automod.py:431
 msgid "ban"
-msgstr ""
+msgstr "kitiltás"
 
 #: Dredd-v3/utils/default.py:524
 msgid "temp-ban"
@@ -379,7 +379,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/automod.py:307
 #, python-brace-format
 msgid "{0} {1}"
-msgstr ""
+msgstr "{0} {1}"
 
 #: Dredd-v3/cogs/events/automod.py:309 Dredd-v3/cogs/events/logs.py:594
 #: Dredd-v3/cogs/events/logs.py:724
@@ -463,12 +463,12 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/errors.py:131
 msgid "Vote required!"
-msgstr ""
+msgstr "Szavazás szükséges!"
 
 #: Dredd-v3/cogs/events/errors.py:132
 #, python-brace-format
 msgid "Hey {0}!"
-msgstr ""
+msgstr "Hé {0}!"
 
 #: Dredd-v3/cogs/events/errors.py:133
 #, python-brace-format
@@ -559,7 +559,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/errors.py:306
 #, python-brace-format
 msgid "{0} Unknown error | #{1}"
-msgstr ""
+msgstr "{0} Ismeretlen hiba | #{1}"
 
 #: Dredd-v3/cogs/events/errors.py:307
 #, python-brace-format
@@ -666,11 +666,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/logs.py:96 Dredd-v3/cogs/events/logs.py:100
 msgid "**Before:**"
-msgstr ""
+msgstr "**Előtte:**"
 
 #: Dredd-v3/cogs/events/logs.py:104
 msgid "**After:**"
-msgstr ""
+msgstr "**Utána:**"
 
 #: Dredd-v3/cogs/events/logs.py:106 Dredd-v3/cogs/events/logs.py:149
 #: Dredd-v3/cogs/events/logs.py:174 Dredd-v3/cogs/events/logs.py:215
@@ -688,11 +688,12 @@ msgstr ""
 #, python-brace-format
 msgid "**User:** {0} `{1}`\n"
 "**Channel:** {2} `#{3}`"
-msgstr ""
+msgstr "**Felhasználó:** {0} `{1}`\n"
+"**Csatorna:** {2} `#{3}`"
 
 #: Dredd-v3/cogs/events/logs.py:140
 msgid "**Message:**"
-msgstr ""
+msgstr "**Üzenet:**"
 
 #: Dredd-v3/cogs/events/logs.py:144
 msgid "**Attachments:**"
@@ -985,7 +986,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:46 Dredd-v3/cogs/automod.py:86
 msgid "No"
-msgstr ""
+msgstr "Nem"
 
 #: Dredd-v3/cogs/automod.py:48 Dredd-v3/cogs/automod.py:54
 #: Dredd-v3/cogs/automod.py:58 Dredd-v3/cogs/automod.py:61
@@ -1009,7 +1010,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:51 Dredd-v3/cogs/automod.py:86
 msgid "Yes"
-msgstr ""
+msgstr "Igen"
 
 #: Dredd-v3/cogs/automod.py:54 Dredd-v3/cogs/automod.py:58
 #: Dredd-v3/cogs/automod.py:61 Dredd-v3/cogs/automod.py:65
