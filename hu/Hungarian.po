@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-22 13:42\n"
+"PO-Revision-Date: 2021-06-22 14:53\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -650,7 +650,8 @@ msgstr ""
 #, python-brace-format
 msgid "\n"
 "*Sticker* - {0}"
-msgstr ""
+msgstr "\n"
+"*Matrica* - {0}"
 
 #: Dredd-v3/cogs/events/logs.py:90
 #, python-brace-format
@@ -701,7 +702,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/logs.py:147
 msgid "**Sticker:**"
-msgstr ""
+msgstr "**Matrica:**"
 
 #: Dredd-v3/cogs/events/logs.py:169
 #, python-brace-format
@@ -805,7 +806,8 @@ msgstr ""
 #, python-brace-format
 msgid "**Before:** {0}\n"
 "**After:** {1}"
-msgstr ""
+msgstr "**Előtte:** {0}\n"
+"**Utána:** {1}"
 
 #: Dredd-v3/cogs/events/logs.py:336
 msgid " Guild region changed"
@@ -1056,7 +1058,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:84 Dredd-v3/cogs/automod.py:85
 msgid "Disabled"
-msgstr ""
+msgstr "Kikapcsolva"
 
 #: Dredd-v3/cogs/automod.py:87
 #, python-brace-format
@@ -1433,11 +1435,11 @@ msgstr ""
 #: Dredd-v3/cogs/help.py:123
 #, python-brace-format
 msgid "**Prefix:** `{0}`"
-msgstr ""
+msgstr "**Előtag:** `{0}`"
 
 #: Dredd-v3/cogs/help.py:125
 msgid "**Prefix:** `!`"
-msgstr ""
+msgstr "**Előtag:** `!`"
 
 #: Dredd-v3/cogs/help.py:157
 #, python-brace-format
@@ -1653,7 +1655,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:317
 msgid "Features"
-msgstr ""
+msgstr "Funkciók"
 
 #: Dredd-v3/cogs/info.py:344
 #, python-brace-format
@@ -1923,7 +1925,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:772
 msgid "Command"
-msgstr ""
+msgstr "Parancs"
 
 #: Dredd-v3/cogs/info.py:773
 msgid "Used"
@@ -1932,7 +1934,7 @@ msgstr ""
 #: Dredd-v3/cogs/info.py:781
 #, python-brace-format
 msgid "{0}{1}"
-msgstr ""
+msgstr "{0}{1}"
 
 #: Dredd-v3/cogs/info.py:792
 #, python-brace-format
@@ -2006,7 +2008,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:101 Dredd-v3/cogs/manage.py:102
 msgid "Default"
-msgstr ""
+msgstr "Alapértelmezett"
 
 #: Dredd-v3/cogs/manage.py:105
 #, python-brace-format
@@ -2019,7 +2021,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:107
 msgid "**Settings:**"
-msgstr ""
+msgstr "**Beállítások:**"
 
 #: Dredd-v3/cogs/manage.py:108
 msgid "**More:**"
@@ -2479,7 +2481,7 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:903 Dredd-v3/cogs/manage.py:1010
 #, python-brace-format
 msgid "`[{0}]` {1} ({2})\n"
-msgstr ""
+msgstr "`[{0}]` {1} ({2})\n"
 
 #: Dredd-v3/cogs/manage.py:903 Dredd-v3/cogs/manage.py:1010
 msgid "Role not found"
@@ -2823,7 +2825,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:1589
 msgid "Deleted"
-msgstr ""
+msgstr "Törölve"
 
 #: Dredd-v3/cogs/manage.py:1595
 #, python-brace-format
@@ -2862,11 +2864,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/misc.py:112
 msgid "characters"
-msgstr ""
+msgstr "karakterek"
 
 #: Dredd-v3/cogs/misc.py:112
 msgid "character"
-msgstr ""
+msgstr "karakter"
 
 #: Dredd-v3/cogs/misc.py:113
 #, python-brace-format
