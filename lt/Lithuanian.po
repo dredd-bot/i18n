@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-21 23:23\n"
+"PO-Revision-Date: 2021-06-23 20:17\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -28,7 +28,7 @@ msgstr "Nurodytas laikas yra praeityje."
 
 #: Dredd-v3/utils/btime.py:130
 msgid "Missing argument after the time."
-msgstr ""
+msgstr "Trūksta laiko vieneto po kiekio."
 
 #: Dredd-v3/utils/btime.py:161
 msgid "Time Error! try \"in an hour\" or \"5 days\"."
@@ -36,11 +36,11 @@ msgstr "Laiko klaida! Pabandykite \"po valandos\" arba \"5 dienų\"."
 
 #: Dredd-v3/utils/btime.py:171
 msgid "Expected quote before time input..."
-msgstr ""
+msgstr "Prieš laiką turi būti padėtos kabutės..."
 
 #: Dredd-v3/utils/btime.py:174
 msgid "If the time is quoted, you must unquote it."
-msgstr ""
+msgstr "Jeigu laiko vienetas yra kabutėse, turite jas pašalinti."
 
 #: Dredd-v3/utils/btime.py:185
 msgid "Sorry, but I did not understand what you meant. You probably didn't specify the time or you specified it in another language (not English)"
