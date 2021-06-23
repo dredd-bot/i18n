@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-23 20:17\n"
+"PO-Revision-Date: 2021-06-23 21:17\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -44,7 +44,7 @@ msgstr "Jeigu laiko vienetas yra kabutėse, turite jas pašalinti."
 
 #: Dredd-v3/utils/btime.py:185
 msgid "Sorry, but I did not understand what you meant. You probably didn't specify the time or you specified it in another language (not English)"
-msgstr ""
+msgstr "Atleiskite, tačiau aš nesupratau ką jūs turėjote omenyje. Jūs tikriausiai nepasakėte laiko arba jį pasakėte kita kalba (ne anglų)"
 
 #: Dredd-v3/utils/checks.py:78
 #, python-brace-format
@@ -58,47 +58,50 @@ msgstr "Oops!\n"
 msgid "Error occured when trying to fetch your vote, sent the detailed error to my developers.\n"
 "```py\n"
 "{0}```"
-msgstr ""
+msgstr "Bandant atkapstyti jūsų balsavimą įvyko klaida, kuri buvo nusiųsta mano kūrėjams.\n"
+"```py\n"
+"{0}```"
 
 #: Dredd-v3/utils/checks.py:189
 #, python-brace-format
 msgid "This command is in it's testing phase, please [join the support server]({0}) if you want to know when it'll be available."
-msgstr ""
+msgstr "Ši komanda yra testuojama, prašome [prisijungti prie šio serverio]({0}), jeigu norite sužinoti kada ji bus galima."
 
 #: Dredd-v3/utils/checks.py:200
 #, python-brace-format
 msgid "Unfortunately, this command is getting removed in the next update, if you want to know why, please join the support server here {0}"
-msgstr ""
+msgstr "Dėja ši komanda bus panaikinta kitame atnaujinime, jeigu norite sužinoti kodėl, prašau prisijungti prie šio serverio {0}"
 
 #: Dredd-v3/utils/checks.py:210
 #, python-brace-format
 msgid "Hello!\n"
 "We're currently under the maintenance and the bot is unavailable for use. You can join the [support server]({0}) or subscribe to our [status page]({1}) to know when we'll be available again!"
-msgstr ""
+msgstr "Sveiki!\n"
+"Kol kas mes remontuojame mūsų robotą ir jis yra neprieinamas. Jūs galite prisijungti prie [pagalbos serverio]({0}) arba prenumeruoti mūsų [aktyvumo puslapį]({1}), kad sužinoti kada jis bus vėl prieinamas!"
 
 #: Dredd-v3/utils/checks.py:214
 msgid "Dredd is under the maintenance!"
-msgstr ""
+msgstr "Dredd'as yra remontuojamas!"
 
 #: Dredd-v3/utils/checks.py:250
 #, python-brace-format
 msgid "{0} | `{1}` and it's corresponing subcommands are currently disabled for: `{2}`"
-msgstr ""
+msgstr "{0} | `{1}` ir jam atsakingos komandos kol kas yra išjungtos dėl: `{2}`"
 
 #: Dredd-v3/utils/checks.py:253
 #, python-brace-format
 msgid "{0} | `{1} {2}` is currently disabled for: `{3}`"
-msgstr ""
+msgstr "{0} | `{1} {2}` kol kas yra negalimi dėl: `{3}`"
 
 #: Dredd-v3/utils/checks.py:261
 #, python-brace-format
 msgid "{0} | `{1}` is currently disabled for: `{2}`"
-msgstr ""
+msgstr "{0} | `{1}` kol kas yra negalimas dėl: `{2}`"
 
 #: Dredd-v3/utils/checks.py:318
 #, python-brace-format
 msgid "{0} You need to be in a voice channel first."
-msgstr ""
+msgstr "{0} Tu pirmiausia turi būti balso kanale."
 
 #: Dredd-v3/utils/checks.py:320
 #, python-brace-format
