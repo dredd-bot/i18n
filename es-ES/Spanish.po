@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-24 17:50\n"
+"PO-Revision-Date: 2021-06-24 18:49\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1951,43 +1951,44 @@ msgstr "{0} Este comando debe ejecutarse en cualquier servidor, no en mensajes p
 
 #: Dredd-v3/cogs/info.py:757
 msgid "**Top 10 most used commands in this server:**"
-msgstr ""
+msgstr "**Los 10 comandos más utilizados en este servidor:**"
 
 #: Dredd-v3/cogs/info.py:761
 msgid "In total this guild has used {0:,} commands!"
-msgstr ""
+msgstr "¡En total este servidor ha usado {0:.} comandos!"
 
 #: Dredd-v3/cogs/info.py:772
 msgid "Command"
-msgstr ""
+msgstr "Comando"
 
 #: Dredd-v3/cogs/info.py:773
 msgid "Used"
-msgstr ""
+msgstr "Usado"
 
 #: Dredd-v3/cogs/info.py:781
 #, python-brace-format
 msgid "{0}{1}"
-msgstr ""
+msgstr "{0}{1}"
 
 #: Dredd-v3/cogs/info.py:792
 #, python-brace-format
 msgid "This server has {0} members"
-msgstr ""
+msgstr "Este servidor tiene {0} miembros"
 
 #: Dredd-v3/cogs/info.py:798
 msgid "Newest member(s) in this server:"
-msgstr ""
+msgstr "Miembro(s) más reciente(s) en este servidor:"
 
 #: Dredd-v3/cogs/info.py:800
 #, python-brace-format
 msgid "**Joined Server at** {0}\n"
 "**Account created at** {1}"
-msgstr ""
+msgstr "**Se unió al servidor el** {0}\n"
+"**Cuenta creada el** {1}"
 
 #: Dredd-v3/cogs/info.py:804
 msgid "The limit is set to 10"
-msgstr ""
+msgstr "El límite está fijado a 10"
 
 #: Dredd-v3/cogs/info.py:817
 #, python-brace-format
@@ -2042,7 +2043,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:101 Dredd-v3/cogs/manage.py:102
 msgid "Default"
-msgstr ""
+msgstr "Por defecto"
 
 #: Dredd-v3/cogs/manage.py:105
 #, python-brace-format
@@ -2988,7 +2989,7 @@ msgstr ""
 #: Dredd-v3/cogs/misc.py:274
 #, python-brace-format
 msgid "{0}'s Todo List"
-msgstr ""
+msgstr "Lista de tareas de {0}"
 
 #: Dredd-v3/cogs/misc.py:291
 msgid "Information about your todo item"
@@ -3005,7 +3006,7 @@ msgstr ""
 #: Dredd-v3/cogs/misc.py:310 Dredd-v3/cogs/misc.py:701
 #, python-brace-format
 msgid "{0} That is not a valid id."
-msgstr ""
+msgstr "{0} Ese no es un id válido."
 
 #: Dredd-v3/cogs/misc.py:321
 #, python-brace-format
@@ -3021,7 +3022,7 @@ msgstr ""
 #: Dredd-v3/cogs/misc.py:338
 #, python-brace-format
 msgid "Are you sure you want to clear **{0}** items from your todo list?"
-msgstr ""
+msgstr "¿Estás seguro de que quieres borrar **{0}** elementos de tu lista de tareas?"
 
 #: Dredd-v3/cogs/misc.py:348
 #, python-brace-format
@@ -3035,7 +3036,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/misc.py:365
 msgid "Canceling..."
-msgstr ""
+msgstr "Cancelando..."
 
 #: Dredd-v3/cogs/misc.py:377
 #, python-brace-format
@@ -3074,7 +3075,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/misc.py:439 Dredd-v3/cogs/misc.py:633
 msgid "this channel"
-msgstr ""
+msgstr "este canal"
 
 #: Dredd-v3/cogs/misc.py:442
 #, python-brace-format
@@ -3098,12 +3099,12 @@ msgstr ""
 #: Dredd-v3/cogs/misc.py:460
 #, python-brace-format
 msgid "Deleted by {0}"
-msgstr ""
+msgstr "Eliminado por {0}"
 
 #: Dredd-v3/cogs/misc.py:461
 #, python-brace-format
 msgid "Deleted {0} in #{1}"
-msgstr ""
+msgstr "Eliminado {0} en #{1}"
 
 #: Dredd-v3/cogs/misc.py:483
 msgid "Are you sure you want to opt-out? Once you'll do that, I won't log your deleted messages in my snipe command."
@@ -3243,7 +3244,8 @@ msgstr ""
 #, python-brace-format
 msgid "{0} Error occured!\n"
 "`{1}`"
-msgstr ""
+msgstr "{0} ¡Ocurrió un error!\n"
+"`{1}`"
 
 #: Dredd-v3/cogs/moderation.py:103
 msgid "Purged **1** message"
@@ -3500,12 +3502,12 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:616 Dredd-v3/cogs/moderation.py:670
 msgid "No reason provided."
-msgstr ""
+msgstr "Ninguna razón especificada."
 
 #: Dredd-v3/cogs/moderation.py:618
 #, python-brace-format
 msgid "{0} ({0.id})"
-msgstr ""
+msgstr "{0} ({0.id})"
 
 #: Dredd-v3/cogs/moderation.py:625 Dredd-v3/cogs/moderation.py:631
 #, python-brace-format
@@ -3939,7 +3941,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:1938
 msgid "User is not temp muted."
-msgstr ""
+msgstr "El usuario no está silenciado temporalmente."
 
 #: Dredd-v3/cogs/moderation.py:1941
 #, python-brace-format
@@ -3993,11 +3995,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:2012
 msgid "Emoji URL is invalid"
-msgstr ""
+msgstr "La URL del emoji no es válida"
 
 #: Dredd-v3/cogs/moderation.py:2014
 msgid "The URL doesn't contain any image"
-msgstr ""
+msgstr "La URL no contiene ninguna imagen"
 
 #: Dredd-v3/cogs/moderation.py:2018
 msgid "You need to either provide an image URL or upload one with the command"
@@ -4038,7 +4040,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/music.py:156
 msgid "Current"
-msgstr ""
+msgstr "Actual"
 
 #: Dredd-v3/cogs/music.py:156
 msgid "All"
@@ -4064,7 +4066,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/music.py:275
 msgid "Everyone left the voice channel, I will stop playing music"
-msgstr ""
+msgstr "Todos dejaron el canal de voz, dejaré de reproducir música"
 
 #: Dredd-v3/cogs/music.py:308
 #, python-brace-format
@@ -4088,7 +4090,7 @@ msgstr ""
 #: Dredd-v3/cogs/music.py:352
 #, python-brace-format
 msgid "{0} Added **{1}** to the Queue!{2}"
-msgstr ""
+msgstr "{0} He añadido **{1}** a la cola!{2}"
 
 #: Dredd-v3/cogs/music.py:374
 #, python-brace-format
@@ -4232,25 +4234,25 @@ msgstr ""
 #: Dredd-v3/cogs/music.py:608
 #, python-brace-format
 msgid "Total songs in the queue: {0}"
-msgstr ""
+msgstr "Total de canciones en cola: {0}"
 
 #: Dredd-v3/cogs/music.py:622
 msgid "There are no songs in the queue."
-msgstr ""
+msgstr "No hay canciones en la cola."
 
 #: Dredd-v3/cogs/music.py:628
 #, python-brace-format
 msgid "{0} You're about to delete all the songs from the queue. Are you sure you want to do that?"
-msgstr ""
+msgstr "{0} Estás a punto de eliminar todas las canciones de la cola. ¿Estás seguro de que quieres hacerlo?"
 
 #: Dredd-v3/cogs/music.py:638
 msgid "Alright, I will not be clearing the queue."
-msgstr ""
+msgstr "De acuerdo, no voy a borrar la cola."
 
 #: Dredd-v3/cogs/music.py:646
 #, python-brace-format
 msgid "{0} Successfully cleared {1} songs from the queue."
-msgstr ""
+msgstr "{0} He eliminado con éxito {1} canciones de la cola."
 
 #: Dredd-v3/cogs/music.py:683 Dredd-v3/cogs/music.py:701
 msgid "The value you provided is invalid and will crash the player."
