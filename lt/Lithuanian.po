@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-23 21:17\n"
+"PO-Revision-Date: 2021-06-24 07:35\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -116,7 +116,7 @@ msgstr "{0} Jūs turite būti tame pačiame balso kanale kaip ir aš."
 #: Dredd-v3/utils/checks.py:324
 #, python-brace-format
 msgid "{0} I'm missing permissions in your voice channel. Make sure you have given me the correct permissions!"
-msgstr ""
+msgstr "{0} Aš neturiu leidimo prisijungti į tavo balso kanalą. Dar kartą patikrinkite ar davėte tinkamus leidimus!"
 
 #: Dredd-v3/utils/checks.py:326
 #, python-brace-format
@@ -144,12 +144,12 @@ msgstr "Šis narys jau yra užblokuotas."
 #: Dredd-v3/utils/checks.py:380
 #, python-brace-format
 msgid "Valid options are {0}"
-msgstr ""
+msgstr "Tinkami pasirinkimai yra {0}"
 
 #: Dredd-v3/utils/checks.py:407
 #, python-brace-format
 msgid "Valid values are {0}"
-msgstr ""
+msgstr "Tinkami pasirinkimai yra {0}"
 
 #: Dredd-v3/utils/default.py:82 Dredd-v3/utils/default.py:87
 #: Dredd-v3/utils/default.py:92
@@ -239,7 +239,7 @@ msgstr "{0} Moderavimas\n"
 #: Dredd-v3/utils/default.py:353
 #, python-brace-format
 msgid "{0} Guild logs\n"
-msgstr ""
+msgstr "{0} Gildijos pranešimai\n"
 
 #: Dredd-v3/utils/default.py:354
 #, python-brace-format
@@ -259,32 +259,32 @@ msgstr "{0} Nario Atnaujinimai\n"
 #: Dredd-v3/utils/default.py:358 Dredd-v3/utils/default.py:366
 #, python-brace-format
 msgid "{0} Raid mode\n"
-msgstr ""
+msgstr "{0} Užpuolimo režimas\n"
 
 #: Dredd-v3/utils/default.py:359 Dredd-v3/utils/default.py:367
 #, python-brace-format
 msgid "{0} Welcoming messages\n"
-msgstr ""
+msgstr "{0} Pasveikinimo žinutės\n"
 
 #: Dredd-v3/utils/default.py:360 Dredd-v3/utils/default.py:368
 #, python-brace-format
 msgid "{0} Leaving messages\n"
-msgstr ""
+msgstr "{0} Atsisveikinimo žinutės\n"
 
 #: Dredd-v3/utils/default.py:361 Dredd-v3/utils/default.py:369
 #, python-brace-format
 msgid "{0} Role on Join\n"
-msgstr ""
+msgstr "{0} Prisijungimo rolė\n"
 
 #: Dredd-v3/utils/default.py:362 Dredd-v3/utils/default.py:370
 #, python-brace-format
 msgid "{0} Dehoisting\n"
-msgstr ""
+msgstr "{0} Nuleidimas hierarchijoje\n"
 
 #: Dredd-v3/utils/default.py:363 Dredd-v3/utils/default.py:371
 #, python-brace-format
 msgid "{0} Automod\n"
-msgstr ""
+msgstr "{0} Auto moderavimas\n"
 
 #: Dredd-v3/utils/default.py:520
 msgid "mute"
@@ -308,7 +308,7 @@ msgstr "laikinai užblokuoti"
 
 #: Dredd-v3/utils/rtfm.py:140
 msgid "Cannot build rtfm lookup table, try again later."
-msgstr ""
+msgstr "Negalima sudaryti rtfm lentelės, prašome bandyti vėliau."
 
 #: Dredd-v3/utils/rtfm.py:182
 msgid "I could not find anything, sorry."
@@ -317,20 +317,20 @@ msgstr "Atsiprašau, negalėjau nieko surasti."
 #: Dredd-v3/utils/rtfm.py:185
 #, python-brace-format
 msgid "enhanced discord.py {0}"
-msgstr ""
+msgstr "sustiprintas discord.py {0}"
 
 #: Dredd-v3/utils/rtfm.py:186
 msgid "Keep in mind this is NOT the original d.py; certain things may be different"
-msgstr ""
+msgstr "Prisiminkite, tai NĖRA tikras d.py; kai kurie dalykai gali būti skirtingi"
 
 #: Dredd-v3/utils/rtfm.py:187
 #, python-brace-format
 msgid "**Search query:** `{0}`\n\n"
-msgstr ""
+msgstr "**Paieškos užklausa:** `{0}`\n\n"
 
 #: Dredd-v3/cogs/events/automod.py:156
 msgid "Spam (sending multiple messages in a short time span)"
-msgstr ""
+msgstr "Spamas (keletos žinučių siuntimas per trumpą laiko eigą)"
 
 #: Dredd-v3/cogs/events/automod.py:176
 msgid "Advertising"
