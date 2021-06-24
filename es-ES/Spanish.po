@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-24 03:27\n"
+"PO-Revision-Date: 2021-06-24 17:50\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -383,14 +383,15 @@ msgstr ""
 #: Dredd-v3/cogs/events/automod.py:307
 #, python-brace-format
 msgid "{0} {1}"
-msgstr ""
+msgstr "{0} {1}"
 
 #: Dredd-v3/cogs/events/automod.py:309 Dredd-v3/cogs/events/logs.py:594
 #: Dredd-v3/cogs/events/logs.py:724
 #, python-brace-format
 msgid "\n"
 "**Duration:** {0}"
-msgstr ""
+msgstr "\n"
+"**Duración:** {0}"
 
 #: Dredd-v3/cogs/events/automod.py:312
 #, python-brace-format
@@ -467,7 +468,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/errors.py:131
 msgid "Vote required!"
-msgstr ""
+msgstr "¡Voto requerido!"
 
 #: Dredd-v3/cogs/events/errors.py:132
 #, python-brace-format
@@ -547,7 +548,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/errors.py:245
 #, python-brace-format
 msgid "{0} | You're missing an argument - **{1}**"
-msgstr ""
+msgstr "{0} | Te falta un argumento - **{1}**"
 
 #: Dredd-v3/cogs/events/errors.py:249
 #, python-brace-format
@@ -972,7 +973,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/logs.py:861
 #, python-brace-format
 msgid "{0} A member has been kicked"
-msgstr ""
+msgstr "{0} Un miembro ha sido expulsado"
 
 #: Dredd-v3/cogs/events/logs.py:892
 #, python-brace-format
@@ -994,13 +995,16 @@ msgstr ""
 msgid "**Member(s):**\n"
 "{0}{1}\n"
 "**Moderator:** {2} ({3})\n"
-msgstr ""
+msgstr "**Miembro(s):**\n"
+"{0}{1}\n"
+"**Moderador:** {2} ({3})\n"
 
 #: Dredd-v3/cogs/other/tasks.py:142
 #, python-brace-format
 msgid "*The original message was deleted or I'm missing permissions*\n\n"
 "Your reminder: {0}"
-msgstr ""
+msgstr "*El mensaje original fue eliminado o me hacen falta permisos*\n\n"
+"Tu recordatorio: {0}"
 
 #: Dredd-v3/cogs/automod.py:36
 msgid "Automod is disabled in this server, enable it by using `automod toggle` command"
@@ -1579,12 +1583,13 @@ msgstr ""
 #: Dredd-v3/cogs/info.py:185
 msgid "\n"
 "**Latest nicknames:**  "
-msgstr ""
+msgstr "\n"
+"**Apodos más recientes:**  "
 
 #: Dredd-v3/cogs/info.py:192
 #, python-brace-format
 msgid " **({0} Total)**"
-msgstr ""
+msgstr " **({0} Total)**"
 
 #: Dredd-v3/cogs/info.py:192
 msgid "No roles"
@@ -1641,18 +1646,19 @@ msgstr ""
 #: Dredd-v3/cogs/info.py:263
 #, python-brace-format
 msgid "This server has **{0}** boosts"
-msgstr ""
+msgstr "Este servidor tiene **{0}** mejoras"
 
 #: Dredd-v3/cogs/info.py:264
 #, python-brace-format
 msgid "\n"
 "{0}"
-msgstr ""
+msgstr "\n"
+"{0}"
 
 #: Dredd-v3/cogs/info.py:268 Dredd-v3/cogs/info.py:517
 #, python-brace-format
 msgid "{0} Information"
-msgstr ""
+msgstr "{0} Información"
 
 #: Dredd-v3/cogs/info.py:271
 #, python-brace-format
@@ -1704,7 +1710,7 @@ msgstr ""
 #: Dredd-v3/cogs/info.py:385
 #, python-brace-format
 msgid "{0}'s Profile Picture!"
-msgstr ""
+msgstr "¡Foto de perfil de {0}!"
 
 #: Dredd-v3/cogs/info.py:393
 #, python-brace-format
@@ -1740,7 +1746,8 @@ msgstr ""
 #, python-brace-format
 msgid "{0} Want me in your server? What are you waiting for then? Invite now:\n\n"
 "{1}"
-msgstr ""
+msgstr "{0} ¿Me quieres en tu servidor? ¿A qué estás esperando? Invita ahora:\n\n"
+"{1}"
 
 #: Dredd-v3/cogs/info.py:437
 msgid "Voting Locations"
@@ -1916,31 +1923,31 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:738
 msgid "**Top 10 most used commands:**"
-msgstr ""
+msgstr "**Los 10 primeros comandos más utilizados:**"
 
 #: Dredd-v3/cogs/info.py:742 Dredd-v3/cogs/info.py:750
 #: Dredd-v3/cogs/info.py:760
 #, python-brace-format
 msgid "{0} Looks like you haven't used any commands :/"
-msgstr ""
+msgstr "{0} Parece que no has usado ningún comando :/"
 
 #: Dredd-v3/cogs/info.py:743
 #, python-brace-format
 msgid "In total users have used {0} commands!"
-msgstr ""
+msgstr "¡En total los usuarios han usado {0} comandos!"
 
 #: Dredd-v3/cogs/info.py:747
 msgid "**Your top 10 most used commands**"
-msgstr ""
+msgstr "**Tus 10 primeros comandos más utilizados**"
 
 #: Dredd-v3/cogs/info.py:751
 msgid "In total you have used {0:,} commands!"
-msgstr ""
+msgstr "¡En total has usado {0:,} comandos!"
 
 #: Dredd-v3/cogs/info.py:754
 #, python-brace-format
 msgid "{0} This command must be ran in any server, not dms"
-msgstr ""
+msgstr "{0} Este comando debe ejecutarse en cualquier servidor, no en mensajes privados"
 
 #: Dredd-v3/cogs/info.py:757
 msgid "**Top 10 most used commands in this server:**"
