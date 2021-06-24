@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-21 23:37\n"
+"PO-Revision-Date: 2021-06-24 02:09\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -649,7 +649,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/events.py:443 Dredd-v3/cogs/events/events.py:448
 #, python-brace-format
 msgid "Welcome back {0}! You were away for **{1}**. Your AFK state has been removed."
-msgstr ""
+msgstr "¡Bienvenido de vuelta {0}! Estuviste ausente por **{1}**. Tu estado de AFK ha sido eliminado."
 
 #: Dredd-v3/cogs/events/events.py:462
 #, python-brace-format
@@ -703,7 +703,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/logs.py:140
 msgid "**Message:**"
-msgstr ""
+msgstr "**Mensaje:**"
 
 #: Dredd-v3/cogs/events/logs.py:144
 msgid "**Attachments:**"
@@ -711,17 +711,17 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/logs.py:147
 msgid "**Sticker:**"
-msgstr ""
+msgstr "**Sticker:**"
 
 #: Dredd-v3/cogs/events/logs.py:169
 #, python-brace-format
 msgid "{0} changed their nickname"
-msgstr ""
+msgstr "{0} cambió su apodo"
 
 #: Dredd-v3/cogs/events/logs.py:170
 #, python-brace-format
 msgid "{0} Nickname Changed"
-msgstr ""
+msgstr "{0} Apodo modificado"
 
 #: Dredd-v3/cogs/events/logs.py:171
 #, python-brace-format
@@ -762,12 +762,12 @@ msgstr ""
 #: Dredd-v3/cogs/events/logs.py:226
 #, python-brace-format
 msgid "{0} changed their username"
-msgstr ""
+msgstr "{0} cambió su nombre de usuario"
 
 #: Dredd-v3/cogs/events/logs.py:227
 #, python-brace-format
 msgid "{0} Username Changed"
-msgstr ""
+msgstr "{0} Nombre de usuario modificado"
 
 #: Dredd-v3/cogs/events/logs.py:228
 #, python-brace-format
@@ -779,7 +779,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/logs.py:264
 #, python-brace-format
 msgid "{0} A member has been banned"
-msgstr ""
+msgstr "{0} Un miembro ha sido baneado"
 
 #: Dredd-v3/cogs/events/logs.py:266 Dredd-v3/cogs/events/logs.py:306
 #: Dredd-v3/cogs/events/logs.py:863
@@ -803,7 +803,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/logs.py:304
 #, python-brace-format
 msgid "{0} A member was un-banned"
-msgstr ""
+msgstr "{0} Un miembro fue desbaneado"
 
 #: Dredd-v3/cogs/events/logs.py:327
 msgid " Guild name changed"
