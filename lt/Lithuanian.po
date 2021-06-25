@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-25 21:32\n"
+"PO-Revision-Date: 2021-06-25 22:44\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -44,7 +44,7 @@ msgstr "Jeigu laiko vienetas yra kabutėse, turite jas pašalinti."
 
 #: Dredd-v3/utils/btime.py:185
 msgid "Sorry, but I did not understand what you meant. You probably didn't specify the time or you specified it in another language (not English)"
-msgstr "Atleiskite, tačiau aš nesupratau ką jūs turėjote omenyje. Jūs tikriausiai nepasakėte laiko arba jį pasakėte kita kalba (ne anglų)"
+msgstr "Atleiskite, tačiau aš nesupratau ką jūs turėjote omenyje. Jūs tikriausiai nenurodėte laiko arba jį nurodėte kita kalba (ne anglų)"
 
 #: Dredd-v3/utils/checks.py:78
 #, python-brace-format
@@ -65,12 +65,12 @@ msgstr "Įvyko klaida, bandant gauti tavo balsą, klaidos detalės buvo nusiųst
 #: Dredd-v3/utils/checks.py:189
 #, python-brace-format
 msgid "This command is in it's testing phase, please [join the support server]({0}) if you want to know when it'll be available."
-msgstr "Ši komanda yra testuojama, prašome [prisijungti prie šio serverio]({0}), jeigu norite sužinoti kada ji bus galima."
+msgstr "Ši komanda yra testuojama. Jeigu norite sužinoti kada ji bus galima, prašome [prisijungti prie pagalbos serverio]({0})."
 
 #: Dredd-v3/utils/checks.py:200
 #, python-brace-format
 msgid "Unfortunately, this command is getting removed in the next update, if you want to know why, please join the support server here {0}"
-msgstr "Dėja ši komanda bus panaikinta kitame atnaujinime, jeigu norite sužinoti kodėl, prašau prisijungti prie šio serverio {0}"
+msgstr "Dėja ši komanda bus panaikinta kitame atnaujinime. Jeigu norite sužinoti kodėl, prašau prisijungti prie pagalbos serverio {0}"
 
 #: Dredd-v3/utils/checks.py:210
 #, python-brace-format
@@ -284,7 +284,7 @@ msgstr "{0} Nuleidimas hierarchijoje\n"
 #: Dredd-v3/utils/default.py:363 Dredd-v3/utils/default.py:371
 #, python-brace-format
 msgid "{0} Automod\n"
-msgstr "{0} Auto moderavimas\n"
+msgstr "{0} Automatiškas moderavimas\n"
 
 #: Dredd-v3/utils/default.py:520
 msgid "mute"
@@ -317,11 +317,11 @@ msgstr "Atsiprašau, negalėjau nieko surasti."
 #: Dredd-v3/utils/rtfm.py:185
 #, python-brace-format
 msgid "enhanced discord.py {0}"
-msgstr "sustiprintas discord.py {0}"
+msgstr "pagerintas discord.py {0}"
 
 #: Dredd-v3/utils/rtfm.py:186
 msgid "Keep in mind this is NOT the original d.py; certain things may be different"
-msgstr "Prisiminkite, tai NĖRA tikras d.py; kai kurie dalykai gali būti skirtingi"
+msgstr "Prisiminkite, tai NĖRA originalus d.py; kai kurie dalykai gali skirtis"
 
 #: Dredd-v3/utils/rtfm.py:187
 #, python-brace-format
@@ -469,7 +469,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/errors.py:131
 msgid "Vote required!"
-msgstr ""
+msgstr "Reikalingas balsas!"
 
 #: Dredd-v3/cogs/events/errors.py:132
 #, python-brace-format
@@ -489,7 +489,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/errors.py:140
 #, python-brace-format
 msgid "{0} This command is staff-locked"
-msgstr "{0} Ši komanda yra užrakinta personalui"
+msgstr "{0} Ši komanda yra užrakinta tik personalui"
 
 #: Dredd-v3/cogs/events/errors.py:143
 #, python-brace-format
@@ -1196,7 +1196,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:272
 msgid "Mentions limit must be between 2 and 15"
-msgstr ""
+msgstr "Paminėjimų limitas turi būti tarp 2 ir 15"
 
 #: Dredd-v3/cogs/automod.py:284
 #, python-brace-format
@@ -1283,7 +1283,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:443
 msgid "who have their accounts created less than 30 days ago."
-msgstr ""
+msgstr "kas turėjo jų paskyrą sukurtą mažiau nei prieš 30 dienų."
 
 #: Dredd-v3/cogs/automod.py:449
 #, python-brace-format
@@ -1481,11 +1481,11 @@ msgstr ""
 #: Dredd-v3/cogs/help.py:157
 #, python-brace-format
 msgid "{0} Help"
-msgstr ""
+msgstr "{0} Pagalba"
 
 #: Dredd-v3/cogs/help.py:160
 msgid "Categories:"
-msgstr ""
+msgstr "Kategorijos:"
 
 #: Dredd-v3/cogs/help.py:164
 msgid "You can also click on the reactions below to view commands in each category."
@@ -1580,7 +1580,22 @@ msgid "**System CPU:**\n"
 "- Memory Usage: {9} MB\n"
 "- CPU Usage: {10}%\n"
 "- Threads: {11}"
-msgstr ""
+msgstr "**Sistemos procesorius:**\n"
+"- Dažnis: {0} Mhz\n"
+"- Branduoliai: {1}\n"
+"- Naudojimas: {2}%\n\n"
+"**Sistemos atmintis:**\n"
+"- Prieinama: {3} MB\n"
+"- Iš viso: {4} MB\n"
+"- Sunaudota: {5} MB\n\n"
+"**Sistemos diskas:**\n"
+"- Iš viso: {6} GB\n"
+"- Sunaudota {7} GB\n"
+"- Laisva: {8} GB\n\n"
+"**Proceso informacija:**\n"
+"- Atminties naudojimas: {9} MB\n"
+"- Procesoriaus naudojimas: {10}%\n"
+"- Gijos: {11}"
 
 #: Dredd-v3/cogs/info.py:160 Dredd-v3/cogs/info.py:712
 #, python-brace-format
@@ -1590,17 +1605,18 @@ msgstr "{0} | Narys nerastas."
 #: Dredd-v3/cogs/info.py:169
 #, python-brace-format
 msgid "{0}'s Information"
-msgstr ""
+msgstr "{0} Informacija"
 
 #: Dredd-v3/cogs/info.py:185
 msgid "\n"
 "**Latest nicknames:**  "
-msgstr ""
+msgstr "\n"
+"**Paskutiniai slapyvardžiai:**  "
 
 #: Dredd-v3/cogs/info.py:192
 #, python-brace-format
 msgid " **({0} Total)**"
-msgstr ""
+msgstr " **({0} Iš viso)**"
 
 #: Dredd-v3/cogs/info.py:192
 msgid "No roles"
@@ -1639,36 +1655,40 @@ msgstr "\n"
 
 #: Dredd-v3/cogs/info.py:229
 msgid "Social media:"
-msgstr ""
+msgstr "Socialiniai tinklai:"
 
 #: Dredd-v3/cogs/info.py:250
 #, python-brace-format
 msgid "\n"
 "**Acknowledgements:**\n"
 "{0}"
-msgstr ""
+msgstr "\n"
+"**Pripažinimai:**\n"
+"{0}"
 
 #: Dredd-v3/cogs/info.py:262
 #, python-brace-format
 msgid "\n"
 "**Banned:** {0}"
-msgstr ""
+msgstr "\n"
+"**Uždraustas:** {0}"
 
 #: Dredd-v3/cogs/info.py:263
 #, python-brace-format
 msgid "This server has **{0}** boosts"
-msgstr ""
+msgstr "Šis serveris turi **{0}** sustiprinimų"
 
 #: Dredd-v3/cogs/info.py:264
 #, python-brace-format
 msgid "\n"
 "{0}"
-msgstr ""
+msgstr "\n"
+"{0}"
 
 #: Dredd-v3/cogs/info.py:268 Dredd-v3/cogs/info.py:517
 #, python-brace-format
 msgid "{0} Information"
-msgstr ""
+msgstr "{0} Informacija"
 
 #: Dredd-v3/cogs/info.py:271
 #, python-brace-format
@@ -1750,17 +1770,18 @@ msgstr ""
 #: Dredd-v3/cogs/info.py:424
 #, python-brace-format
 msgid "{0} Want me in your server? What are you waiting for then? [Invite now!]({1})"
-msgstr ""
+msgstr "{0} Nori manęs savo serveryje? KO LAUKI ZENIAU? [Pakviesk mane!]({1})"
 
 #: Dredd-v3/cogs/info.py:428
 #, python-brace-format
 msgid "{0} Want me in your server? What are you waiting for then? Invite now:\n\n"
 "{1}"
-msgstr ""
+msgstr "{0} Nori manęs savo serveryje? KO LAUKI? Pakviesk dabar:\n\n"
+"{1}"
 
 #: Dredd-v3/cogs/info.py:437
 msgid "Voting Locations"
-msgstr "Balsavimo lokacijos"
+msgstr "Balsavimo vietos"
 
 #: Dredd-v3/cogs/info.py:438
 #, python-brace-format
@@ -1770,21 +1791,21 @@ msgid "You can vote for me in any of those lists:\n"
 "`[3]` {2}\n"
 "`[4]` {3}\n\n"
 "*Voting will unlock some commands for you to use and will help me grow faster!*"
-msgstr "Tu gali už mane balsuoti šituose sąrašuose:\n"
+msgstr "Tu gali už mane balsuoti šiuose sąrašuose:\n"
 "`[1]` {0}\n"
 "`[2]` {1}\n"
 "`[3]` {2}\n"
 "`[4]` {3}\n\n"
-"*Balsavimas atrakins kelias komandas kurias galesi naudoti, ir padesi man augti!*"
+"*Balsavimas atrakins kelias komandas, kurias galėsi naudoti, taip pat padėsi man sparčiau augti!*"
 
 #: Dredd-v3/cogs/info.py:447
 #, python-brace-format
 msgid "{0} You can see my privacy policy here: {1}"
-msgstr ""
+msgstr "{0} Tu gali pažiurėti mano privatumo politiką čia: {1}"
 
 #: Dredd-v3/cogs/info.py:466
 msgid "The Dredd team says thanks to these people!"
-msgstr ""
+msgstr "Dredd komanda dėkoja šiems žmonėms!"
 
 #: Dredd-v3/cogs/info.py:467
 #, python-brace-format
@@ -1793,49 +1814,55 @@ msgid "\n"
 "**Beta bug hunter(s):** {1}\n"
 "**Bug hunter(s):** {2}\n"
 "**Translator(s):** {3}"
-msgstr ""
+msgstr "\n"
+"**Rėmėjas(-ai):** {0}\n"
+"**Beta klaidų ieškotojas(-ai):** {1}\n"
+"**Klaidų ieškotojas(-ai):** {2}\n"
+"**Vertėjas(-ai):** {3}"
 
 #: Dredd-v3/cogs/info.py:475
 msgid "**Graphic Designer(s):**"
-msgstr ""
+msgstr "**Grafikos dizaineris(-iai):**"
 
 #: Dredd-v3/cogs/info.py:476
 msgid "**Contributor(s):**"
-msgstr ""
+msgstr "**Pagalbininkas(-iai):**"
 
 #: Dredd-v3/cogs/info.py:498
 #, python-brace-format
 msgid "{0} Server has no roles"
-msgstr ""
+msgstr "{0} Serveris neturi vaidmenų"
 
 #: Dredd-v3/cogs/info.py:502
 #, python-brace-format
 msgid "Roles in {0}"
-msgstr ""
+msgstr "Vaidmenys {0}"
 
 #: Dredd-v3/cogs/info.py:502
 #, python-brace-format
 msgid "Members in {0}"
-msgstr ""
+msgstr "Nariai {0}"
 
 #: Dredd-v3/cogs/info.py:518
 msgid "__**Basic Information**__"
-msgstr ""
+msgstr "__**Paprasta informacija**__"
 
 #: Dredd-v3/cogs/info.py:519
 #, python-brace-format
 msgid "**Role name:** {0}\n"
 "**Role mention:** {1}\n"
 "**Role ID:** {2}"
-msgstr ""
+msgstr "**Vaidmens pavadinimas:** {0}\n"
+"**Vaidmens paminėjimas:** {1}\n"
+"**Vaidmens ID:** {2}"
 
 #: Dredd-v3/cogs/info.py:526
 msgid "__**Permissions:**__"
-msgstr ""
+msgstr "__**Leidimai:**__"
 
 #: Dredd-v3/cogs/info.py:529
 msgid "__**Other Information:**__"
-msgstr ""
+msgstr "__**Kita informacija:**__"
 
 #: Dredd-v3/cogs/info.py:530
 #, python-brace-format
@@ -1855,56 +1882,56 @@ msgstr ""
 #: Dredd-v3/cogs/info.py:558
 #, python-brace-format
 msgid "{0} | **{1}** has had no past nicknames since I joined."
-msgstr ""
+msgstr "{0} | **{1}** neturėjęs jokių slapyvardžių praeityje nuo tada kai aš prisijungiau."
 
 #: Dredd-v3/cogs/info.py:563
 #, python-brace-format
 msgid "**{0}'s past nicknames:**"
-msgstr ""
+msgstr "**{0} praeiti vartotojo vardai:**"
 
 #: Dredd-v3/cogs/info.py:590
 #, python-brace-format
 msgid "{0}'s Server Permissions"
-msgstr ""
+msgstr "{0} Serverio leidimai"
 
 #: Dredd-v3/cogs/info.py:613
 #, python-brace-format
 msgid "{0} | No commands are disabled!"
-msgstr ""
+msgstr "{0} | Nėra išjungtų komandų!"
 
 #: Dredd-v3/cogs/info.py:615
 msgid "List of all disabled commands"
-msgstr ""
+msgstr "Visų išjungtų komandų sąrašas"
 
 #: Dredd-v3/cogs/info.py:616
 msgid "The following commands can only be run by bot staff"
-msgstr ""
+msgstr "Šios komandos gali būti panaudotos tik boto personalo"
 
 #: Dredd-v3/cogs/info.py:618
 msgid "**Globally disabled commands:**"
-msgstr ""
+msgstr "**Globaliai išjungtos komandos:**"
 
 #: Dredd-v3/cogs/info.py:620
 msgid "**Disabled commands in this server:**"
-msgstr ""
+msgstr "**išjungtos komandos šiame serveryje:**"
 
 #: Dredd-v3/cogs/info.py:624
 msgid "**Disabled categories in this server:**"
-msgstr ""
+msgstr "**išjungtos kategorijos šiame serveryje:**"
 
 #: Dredd-v3/cogs/info.py:638
 #, python-brace-format
 msgid "{0} | This server has no emotes!"
-msgstr ""
+msgstr "{0} | Šis serveris neturi jaustukų!"
 
 #: Dredd-v3/cogs/info.py:641
 #, python-brace-format
 msgid "{0} emotes list"
-msgstr ""
+msgstr "{0} Jaustuku sąrašas"
 
 #: Dredd-v3/cogs/info.py:672 Dredd-v3/cogs/info.py:675
 msgid "Server"
-msgstr ""
+msgstr "Serveris"
 
 #: Dredd-v3/cogs/info.py:679
 #, python-brace-format
@@ -2028,22 +2055,23 @@ msgstr ""
 #, python-brace-format
 msgid "My prefix in this server is `{0}`\n"
 "{1}"
-msgstr ""
+msgstr "Mano priešdėlis šiamė serveryje yra `{0}`\n"
+"{1}"
 
 #: Dredd-v3/cogs/manage.py:55
 #, python-brace-format
 msgid "I don't have a custom prefix in this server! The default prefix is `{0}`"
-msgstr ""
+msgstr "Aš neturių jokių ypatingų priešdėlių šiame serveryje! Numatytas priešdelis yra `{0}`"
 
 #: Dredd-v3/cogs/manage.py:66
 #, python-brace-format
 msgid "{0} A prefix can only be 7 characters long! You're {1} characters over."
-msgstr ""
+msgstr "{0} Priešdėlis gali būti tiktai 7 simbolių ilgumo! Tu {1} simboliu(-iais) viršiji limitą."
 
 #: Dredd-v3/cogs/manage.py:72
 #, python-brace-format
 msgid "{0} Changed my prefix in this server to `{1}`"
-msgstr ""
+msgstr "{0} Priešdelis šiame serveryje buvo pakeistas į `{1}`"
 
 #: Dredd-v3/cogs/manage.py:81
 #, python-brace-format
@@ -2105,7 +2133,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:130
 msgid "Leave Message"
-msgstr "Palikimo žinutę"
+msgstr "Palikimo žinutė"
 
 #: Dredd-v3/cogs/manage.py:140
 #, python-brace-format
