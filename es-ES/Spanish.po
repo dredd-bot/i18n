@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-25 21:32\n"
+"PO-Revision-Date: 2021-06-25 22:44\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -259,7 +259,7 @@ msgstr "{0} Actualizaciones miembro(s)\n"
 #: Dredd-v3/utils/default.py:358 Dredd-v3/utils/default.py:366
 #, python-brace-format
 msgid "{0} Raid mode\n"
-msgstr ""
+msgstr "{0} Modo raid\n"
 
 #: Dredd-v3/utils/default.py:359 Dredd-v3/utils/default.py:367
 #, python-brace-format
@@ -350,7 +350,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/automod.py:277
 msgid "anti raid: user account is younger than 30 days."
-msgstr ""
+msgstr "anti-raid: la cuenta del usuario tiene menos de 30 días"
 
 #: Dredd-v3/cogs/events/automod.py:277
 msgid "Strict Anti Raid: No one is allowed to join the server"
@@ -358,11 +358,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/automod.py:293
 msgid "Member Muted"
-msgstr ""
+msgstr "Miembro silenciado"
 
 #: Dredd-v3/cogs/events/automod.py:293
 msgid "Member Temp-Muted"
-msgstr ""
+msgstr "Miembro silenciado temporalmente"
 
 #: Dredd-v3/cogs/events/automod.py:293 Dredd-v3/cogs/events/automod.py:302
 msgid "Member Kicked"
@@ -413,22 +413,22 @@ msgstr "{0} Ha fallado alguna cosa cuando intentaba sancionar al miembro, el err
 #: Dredd-v3/cogs/events/automod.py:333
 #, python-brace-format
 msgid "{0} Muted **{1}** for {2}."
-msgstr ""
+msgstr "{0} Silenciado **{1}** por {2}."
 
 #: Dredd-v3/cogs/events/automod.py:354
 #, python-brace-format
 msgid "{0} Muted **{1}** for {2}, reason: {3}."
-msgstr ""
+msgstr "{0} Silenciado **{1}** por {2}, razón: {3}."
 
 #: Dredd-v3/cogs/events/automod.py:372
 #, python-brace-format
 msgid "{0} Kicked **{1}** for {2}."
-msgstr ""
+msgstr "{0} Expulsado **{1}** por {2}."
 
 #: Dredd-v3/cogs/events/automod.py:386
 #, python-brace-format
 msgid "{0} Banned **{1}** for {2}."
-msgstr ""
+msgstr "{0} Baneado **{1}** por {2}."
 
 #: Dredd-v3/cogs/events/automod.py:401
 #, python-brace-format
@@ -438,22 +438,22 @@ msgstr "{0} Baneó a **{1}** por {2}, razón: {3}."
 #: Dredd-v3/cogs/events/automod.py:419
 #, python-brace-format
 msgid "{0} {1} has anti raid mode activated, please try joining again later."
-msgstr ""
+msgstr "{0} {1} tiene el modo anti-raid activado, por favor intenta unirte de nuevo más tarde."
 
 #: Dredd-v3/cogs/events/automod.py:431 Dredd-v3/cogs/events/automod.py:459
 #, python-brace-format
 msgid "{0} {1} has anti raid mode activated, you're not allowed to join that server."
-msgstr ""
+msgstr "{0} {1} tiene el modo anti-raid activado, no tienes permiso para unirte a este servidor."
 
 #: Dredd-v3/cogs/events/automod.py:447
 #, python-brace-format
 msgid "{0} {1} has strict anti raid mode activated, please try joining again later."
-msgstr ""
+msgstr "{0} {1} tiene activado el modo anti-raid estricto, por favor intenta unirte de nuevo más tarde."
 
 #: Dredd-v3/cogs/events/automod.py:472
 #, python-brace-format
 msgid "{0} I'm not sure what happened, but something broke. Please make sure that my role is above everyone's else, otherwise you'll see these errors more often. I've also sent this error to my developers."
-msgstr ""
+msgstr "{0} no estoy seguro de que ha pasado, pero algo se rompió. Por favor, asegúrate de que mi rol esté por encima de las otras personas, de lo contrario este error se producirá más frecuentemente. También he enviado este error a mis desarrolladores. "
 
 #: Dredd-v3/cogs/events/automod.py:481
 #, python-brace-format
@@ -494,7 +494,7 @@ msgstr "¡Gracias por usarme! Desafortunadamente, este comando está bloqueado p
 #: Dredd-v3/cogs/events/errors.py:140
 #, python-brace-format
 msgid "{0} This command is staff-locked"
-msgstr ""
+msgstr "{0} Este comando está bloqueado por el staff"
 
 #: Dredd-v3/cogs/events/errors.py:143
 #, python-brace-format
@@ -901,7 +901,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/logs.py:425
 msgid "No roles."
-msgstr ""
+msgstr "Sin roles."
 
 #: Dredd-v3/cogs/events/logs.py:427
 #, python-brace-format
