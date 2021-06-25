@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-25 22:44\n"
+"PO-Revision-Date: 2021-06-25 23:59\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -484,7 +484,12 @@ msgid "Thank you for using me! Unfortunately this command is vote locked and you
 "`[3]` {2}\n"
 "`[4]` {3}\n\n"
 "*After you vote, you'll be able to use this command, and you will help Dredd gain more servers :D*"
-msgstr ""
+msgstr "Ačiū, kad naudojatės manimi! Deja, norint naudoti šią komandą, reikės pabalsuoti už Dredd. Balsuoti galite bet kuriame iš šių sąrašų:\n"
+"`[1]` {0}\n"
+"`[2]` {1}\n"
+"`[3]` {2}\n"
+"`[4]` {3}\n\n"
+"*Po balsavimo galėsite naudoti šią komandą ir padėsite Dredd prisijungti į daugiau serverių :D*"
 
 #: Dredd-v3/cogs/events/errors.py:140
 #, python-brace-format
@@ -494,7 +499,7 @@ msgstr "{0} Ši komanda yra užrakinta tik personalui"
 #: Dredd-v3/cogs/events/errors.py:143
 #, python-brace-format
 msgid "{0} This command can only be used by boosters"
-msgstr ""
+msgstr "{0} Tik stiprintojai gali naudoti šią komandą"
 
 #: Dredd-v3/cogs/events/errors.py:149
 #, python-brace-format
@@ -856,7 +861,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/logs.py:373
 msgid " Guild verification level changed"
-msgstr ""
+msgstr " Serverio patvirtinimo lygis pakeistas"
 
 #: Dredd-v3/cogs/events/logs.py:382
 msgid " Guild default notifications changed"
@@ -1112,7 +1117,7 @@ msgstr "\n"
 #: Dredd-v3/cogs/automod.py:100
 #, python-brace-format
 msgid "{0} Automod Settings"
-msgstr ""
+msgstr "{0} Auto moderavimo nustatymai"
 
 #: Dredd-v3/cogs/automod.py:114 Dredd-v3/cogs/automod.py:133
 #: Dredd-v3/cogs/automod.py:440 Dredd-v3/cogs/automod.py:452
@@ -1129,12 +1134,12 @@ msgstr ""
 #: Dredd-v3/cogs/automod.py:118 Dredd-v3/cogs/automod.py:137
 #, python-brace-format
 msgid "{0} Automod was successfully enabled in this server."
-msgstr ""
+msgstr "{0} Auto moderavimas sėkmingai įjungtas šiame serveryje."
 
 #: Dredd-v3/cogs/automod.py:128
 #, python-brace-format
 msgid "{0} Automod was successfully disabled in this server."
-msgstr ""
+msgstr "{0} Auto moderavimas sėkmingai išjungtas šiame serveryje."
 
 #: Dredd-v3/cogs/automod.py:148 Dredd-v3/cogs/automod.py:204
 #: Dredd-v3/cogs/automod.py:235 Dredd-v3/cogs/automod.py:266
@@ -1145,7 +1150,7 @@ msgstr ""
 #: Dredd-v3/cogs/automod.py:567
 #, python-brace-format
 msgid "Automod is disabled in this server, enable it by using `{0}automod toggle` command"
-msgstr ""
+msgstr "Auto moderavimas išjungtas šiame serveryje, įjunkite jį panaudodami komandą `{0}automod toggle`"
 
 #: Dredd-v3/cogs/automod.py:155
 msgid "chill"
@@ -1257,12 +1262,12 @@ msgstr ""
 #: Dredd-v3/cogs/automod.py:395
 #, python-brace-format
 msgid "{0} I will not be deleting messages from now on."
-msgstr ""
+msgstr "{0} Nuo šiol nebetrinsiu žinučių."
 
 #: Dredd-v3/cogs/automod.py:399
 #, python-brace-format
 msgid "{0} I will now be deleting messages from now on."
-msgstr ""
+msgstr "{0} Nuo šiol trinsiu žinutes."
 
 #: Dredd-v3/cogs/automod.py:428
 msgid "Allowed values are `kick`, `ban`, `kickall` and `banall`, if you're trying to disable the raid mode, don't provide any arguments"
@@ -1326,41 +1331,41 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:512
 msgid "List of whitelisted channels"
-msgstr ""
+msgstr "Sąrašas kanalų baltajame sąraše"
 
 #: Dredd-v3/cogs/automod.py:518
 #, python-brace-format
 msgid "{0} There are no whitelisted roles in the server."
-msgstr ""
+msgstr "{0} Šiame serveryje nėra vaidmenų baltajame sąraše."
 
 #: Dredd-v3/cogs/automod.py:520
 msgid "List of whitelisted roles"
-msgstr ""
+msgstr "Sąrašas vaidmenų baltajame sąraše"
 
 #: Dredd-v3/cogs/automod.py:548 Dredd-v3/cogs/automod.py:555
 #, python-brace-format
 msgid "{0} Added {1} to the channels whitelist."
-msgstr ""
+msgstr "{0} Pridėjau {1} į kanalų baltąjį sąrašą."
 
 #: Dredd-v3/cogs/automod.py:551
 #, python-brace-format
 msgid "Channel {0} is already added to the whitelist."
-msgstr ""
+msgstr "Kanalas {0} jau pridėtas į baltąjį sąrašą."
 
 #: Dredd-v3/cogs/automod.py:572 Dredd-v3/cogs/automod.py:579
 #, python-brace-format
 msgid "{0} Added {1} to the roles whitelist."
-msgstr ""
+msgstr "{0} Pridėjau {1} į vaidmenų baltąjį sąrašą."
 
 #: Dredd-v3/cogs/automod.py:575
 #, python-brace-format
 msgid "Role **{0}** is already added to the whitelist."
-msgstr ""
+msgstr "Vaidmuo **{0}** jau yra pridėta į baltąjį sąrašą."
 
 #: Dredd-v3/cogs/boosters.py:33
 #, python-brace-format
 msgid "{0} Custom prefix can't be longer than 7 characters."
-msgstr ""
+msgstr "{0} Ypatingas priešdėlis negali būti ilgesnis 7 simboliu."
 
 #: Dredd-v3/cogs/boosters.py:212
 #, python-brace-format
@@ -1370,16 +1375,16 @@ msgstr ""
 #: Dredd-v3/cogs/boosters.py:219
 #, python-brace-format
 msgid "{0} Deleted all the social medias named {1} from your account."
-msgstr ""
+msgstr "{0} Ištryniau visus nurodytus socialinius tinklus {1} iš jūsų paskyros."
 
 #: Dredd-v3/cogs/boosters.py:222
 msgid "Alright, I will not be removing your social medias."
-msgstr ""
+msgstr "Gerai, aš nepašalinsiu Jūsų socialinių tinklų."
 
 #: Dredd-v3/cogs/boosters.py:227 Dredd-v3/cogs/music.py:643
 #, python-brace-format
 msgid "{0} You've waited for too long, canceling the command."
-msgstr ""
+msgstr "{0} Jūs laukėte per ilgai, komanda atšaukiama."
 
 #: Dredd-v3/cogs/fun.py:39
 #, python-brace-format
@@ -1389,7 +1394,7 @@ msgstr ""
 #: Dredd-v3/cogs/fun.py:53
 #, python-brace-format
 msgid "I rate {0} **{1}** out of **100**."
-msgstr ""
+msgstr "Aš įvertinu {0} **{1}** iš **100**."
 
 #: Dredd-v3/cogs/fun.py:67
 msgid "Looks like the chatbot escaped!"
@@ -1413,44 +1418,47 @@ msgstr ""
 #: Dredd-v3/cogs/fun.py:95
 #, python-brace-format
 msgid "{0} The question is {1} characters over the limit."
-msgstr ""
+msgstr "{0} Klausimas {1} simboliu viršija limitą."
 
 #: Dredd-v3/cogs/fun.py:100
 #, python-brace-format
 msgid "**You've asked the almighty 8ball a question -** {0}\n\n"
 "**The 8ball says:** {1}"
-msgstr ""
+msgstr "**Jūs paklausėte visagalio 8ball klausimo -** {0}\n\n"
+"**8ball sako:** {1}"
 
 #: Dredd-v3/cogs/fun.py:114
 #, python-brace-format
 msgid "{0} The text you want to reverse is {1} characters over the limit."
-msgstr ""
+msgstr "{0} tekstas, kuri norite apsukti {1} simboliu viršija limitą."
 
 #: Dredd-v3/cogs/fun.py:119
 #, python-brace-format
 msgid "**Text to reverse:** {0}\n\n"
 "**Reversed:** {1}"
-msgstr ""
+msgstr "**Tekstas apsukimui:** {0}\n\n"
+"**Apsuktas:** {1}"
 
 #: Dredd-v3/cogs/fun.py:131
 #, python-brace-format
 msgid "{0} There are either too many choices (10) or you're over 500 characters."
-msgstr ""
+msgstr "{0} Arba yra daug parinkčių (10), arba Jūs viršijate 500 simbolių limitą."
 
 #: Dredd-v3/cogs/fun.py:138
 #, python-brace-format
 msgid "**Available choices:** {0}\n\n"
 "**I choose:** {1}"
-msgstr ""
+msgstr "**Galimos parinktys:** {0}\n\n"
+"**Aš pasirenku:** {1}"
 
 #: Dredd-v3/cogs/fun.py:143
 #, python-brace-format
 msgid "{0} | I can't choose from an empty list of choices!"
-msgstr ""
+msgstr "{0} | Aš negaliu rinktis jeigu sąrašas yra tuščias!"
 
 #: Dredd-v3/cogs/fun.py:153
 msgid "The hot calculator has melted down because of him :fire:"
-msgstr ""
+msgstr "Gražumo skaičiuotuvas išsilydė dėl jo :fire:"
 
 #: Dredd-v3/cogs/fun.py:157
 msgid "I'm too hot for you 😏"
@@ -1459,24 +1467,24 @@ msgstr "Aš tau per gražus 😏"
 #: Dredd-v3/cogs/fun.py:173
 #, python-brace-format
 msgid "**{0}** is **{1}%** hot. {2}"
-msgstr ""
+msgstr "**{0}** yra **{1}%** gražus. {2}"
 
 #: Dredd-v3/cogs/fun.py:193
 msgid "You can't roast Moksej! I'll drop you a hint, though. There's a bypass that you can use to roast him ;)"
-msgstr ""
+msgstr "Jūs negalite išjuokti Moksej! Aš numesiu Jums užuominą. Yra būdas, kaip apeiti sistemą, kad galėtumėte jį išjuokti ;)"
 
 #: Dredd-v3/cogs/fun.py:198
 msgid "Don't you dare do that!"
-msgstr ""
+msgstr "Nedrįskite to daryti!"
 
 #: Dredd-v3/cogs/help.py:123
 #, python-brace-format
 msgid "**Prefix:** `{0}`"
-msgstr ""
+msgstr "**Priešdėlis:** `{0}`"
 
 #: Dredd-v3/cogs/help.py:125
 msgid "**Prefix:** `!`"
-msgstr ""
+msgstr "**Priešdėlis:** `!`"
 
 #: Dredd-v3/cogs/help.py:157
 #, python-brace-format
@@ -1489,38 +1497,39 @@ msgstr "Kategorijos:"
 
 #: Dredd-v3/cogs/help.py:164
 msgid "You can also click on the reactions below to view commands in each category."
-msgstr ""
+msgstr "Jūs taip pat galite paspausti ant reakcijos apačioje, kad pamatytumėte komandas kiekvienoje kategorijoje."
 
 #: Dredd-v3/cogs/help.py:211
 msgid "Failed to add reactions"
-msgstr ""
+msgstr "Nepavyko pridėti jaustukų"
 
 #: Dredd-v3/cogs/help.py:237 Dredd-v3/cogs/help.py:280
 msgid "Aliases: "
-msgstr ""
+msgstr "Sinonimai: "
 
 #: Dredd-v3/cogs/help.py:237 Dredd-v3/cogs/help.py:280
 msgid "No aliases were found."
-msgstr ""
+msgstr "Jokiu sinonimų nerasta."
 
 #: Dredd-v3/cogs/help.py:239 Dredd-v3/cogs/help.py:282
 msgid "No help was provided..."
-msgstr ""
+msgstr "Jokios pagalbos nesuteikta..."
 
 #: Dredd-v3/cogs/help.py:244 Dredd-v3/cogs/help.py:287
 msgid "\n\n"
 "*Either you or I don't have permissions to run this command in this channel*"
-msgstr ""
+msgstr "\n\n"
+"*Jūs arba aš neturiu leidimų šiame kanale panaudoti šią komanda*"
 
 #: Dredd-v3/cogs/help.py:294
 #, python-brace-format
 msgid "Subcommands: ({0})"
-msgstr ""
+msgstr "Komandos: ({0})"
 
 #: Dredd-v3/cogs/help.py:313
 #, python-brace-format
 msgid "**Category aliases:** {0}\n"
-msgstr ""
+msgstr "**Kategorijos sinonimai:** {0}\n"
 
 #: Dredd-v3/cogs/help.py:321
 msgid "No information."
@@ -1529,12 +1538,13 @@ msgstr "Nėra Informacijos."
 #: Dredd-v3/cogs/help.py:365
 #, python-brace-format
 msgid "No command called \"{0}\" was found.{1}{2}"
-msgstr ""
+msgstr "Jokių komandų pavadinimu \"{0}\" nerasta.{1}{2}"
 
 #: Dredd-v3/cogs/help.py:365
 msgid "\n\n"
 "Did you possibly mean:\n"
-msgstr ""
+msgstr "\n\n"
+"Galimai turejote omenyje:\n"
 
 #: Dredd-v3/cogs/info.py:97
 #, python-brace-format
@@ -1560,7 +1570,23 @@ msgid "\n"
 "• Members: **{11}**\n"
 "• Servers: **{12}**\n"
 "• Channels: {13} **{14}** | {15} **{16}**\n\n"
-msgstr ""
+msgstr "\n"
+"Dredd yra botas, kuris padės Jūsų serveriui su moderacija, suteiks linksmybių Jūsų nariams ir daugiau! Šis botas šiuo metu veikia ant **V{0}** ir yra prižiurimas.\n\n"
+"**Kurėjas:** [{1}](https://discord.com/users/345457928972533773)\n"
+"**Biblioteka & versija:** {2} [enhanced discord.py {3}](https://github.com/iDutchy/discord.py)\n"
+"**Paskutinis įjungimas:** {4}\n"
+"**Sukurtas:** {5} ({6})\n\n"
+"**Nuorodos:**\n"
+"• [Pagalbos serveris]({7})\n"
+"• [Boto pakvietimas]({8})\n"
+"• [Website]({17})\n\n"
+"**Paskutiniai pakeitimai:**\n"
+"{9}\n\n"
+"**Iš viso:**\n"
+"• Komandos: **{10}**\n"
+"• Naudotojai: **{11}**\n"
+"• Serveriai: **{12}**\n"
+"• Kanalai: {13} **{14}** | {15} **{16}**\n\n"
 
 #: Dredd-v3/cogs/info.py:135
 #, python-brace-format
@@ -1702,7 +1728,16 @@ msgid "\n"
 "**Owner ID:** {7}{8}\n\n"
 "**Nitro status:**\n"
 "{9}\n"
-msgstr ""
+msgstr "\n"
+"**Vardas:** {0}\n"
+"**ID:** {1}\n"
+"**Serveris sukurtas:** {2} ({3})\n"
+"**Regionas:** {4}\n"
+"**Patvirtinimo lygis:** {5}\n\n"
+"**Savininkas:** {6}\n"
+"**Savininko ID:** {7}{8}\n\n"
+"**Sustiprinimo statusas:**\n"
+"{9}\n"
 
 #: Dredd-v3/cogs/info.py:287
 msgid "Other Information:"
@@ -1714,58 +1749,63 @@ msgid "**Members:** (Total: {0})\n"
 "**Bots:** {2} | **Humans:** {3}\n"
 "**Staff:** {4}{5}\n"
 "**Channels:** {6} {7} | {8} {9}\n"
-msgstr ""
+msgstr "**Vartotojai:** (Iš viso: {0})\n"
+"**Botai:** {2} | **Žmonės:** {3}\n"
+"**Personalas:** {4}{5}\n"
+"**Kanalai:** {6} {7} | {8} {9}\n"
 
 #: Dredd-v3/cogs/info.py:317
 msgid "Features"
-msgstr ""
+msgstr "Funkcijos"
 
 #: Dredd-v3/cogs/info.py:344
 #, python-brace-format
 msgid "{0} I am made up of **{1}** files and **{2}** lines of code.\n"
 "You can look at my source here: https://github.com/TheMoksej/Dredd"
-msgstr ""
+msgstr "{0} Aš esu sukurtas iš **{1}** failų ir **{2}** linijų kodo.\n"
+"Jūs galite pažiūrėti į mano pagrindinį kodą čia: https://github.com/TheMoksej/Dredd"
 
 #: Dredd-v3/cogs/info.py:355 Dredd-v3/cogs/info.py:359
 #, python-brace-format
 msgid "{0} You can see my source code here: <{1}>"
-msgstr ""
+msgstr "{0} Jūs galite pamatyti mano pagrindinį koda čia: <{1}>"
 
 #: Dredd-v3/cogs/info.py:375
 #, python-brace-format
 msgid "The source code for this command is too long, you can view it here:\n"
 "{0}"
-msgstr ""
+msgstr "Pagrindinis kodas šiai komandai yra per ilgas, Jūs galite jį pažiūrėti čia:\n"
+"{0}"
 
 #: Dredd-v3/cogs/info.py:385
 #, python-brace-format
 msgid "{0}'s Profile Picture!"
-msgstr ""
+msgstr "{0} Profilio avataras!"
 
 #: Dredd-v3/cogs/info.py:393
 #, python-brace-format
 msgid "[png]({0}) | [jpg]({1}) | [webp]({2}){3}"
-msgstr ""
+msgstr "[png]({0}) | [jpg]({1}) | [webp]({2}){3}"
 
 #: Dredd-v3/cogs/info.py:393
 #, python-brace-format
 msgid " | [gif]({0})"
-msgstr ""
+msgstr " | [gif]({0})"
 
 #: Dredd-v3/cogs/info.py:397
 #, python-brace-format
 msgid "Huge thanks to {0} for this avatar"
-msgstr ""
+msgstr "Didelis ačiū {0} už šį avatarą"
 
 #: Dredd-v3/cogs/info.py:410
 #, python-brace-format
 msgid "{0} Need help? Feel free to [join the support server!]({1})"
-msgstr ""
+msgstr "{0} Reikia pagalbos? Nebijokite [prisijungti prie pagalbos serverio!]({1})"
 
 #: Dredd-v3/cogs/info.py:414
 #, python-brace-format
 msgid "{0} Need help? Feel free to join the the support server here: {1}"
-msgstr ""
+msgstr "{0} Reikia pagalbos? Nebijokite prisijungti prie pagalbos serverio! {1}"
 
 #: Dredd-v3/cogs/info.py:424
 #, python-brace-format
@@ -1872,7 +1912,12 @@ msgid "**Is Integration:** {0}\n"
 "**Color:** {3}\n"
 "**Created:** {4}\n\n"
 "**Members:** {5}"
-msgstr ""
+msgstr "**Yra integracija:** {0}\n"
+"**Užkeltas:** {1}\n"
+"**Pozicija:** {2}\n"
+"**Spalva:** {3}\n"
+"**Sukurta:** {4}\n\n"
+"**Nariai:** {5}"
 
 #: Dredd-v3/cogs/info.py:547
 #, python-brace-format
@@ -1946,7 +1991,8 @@ msgstr ""
 #, python-brace-format
 msgid "Interested in partnering? Here's the official message:\n\n"
 "{0} or [join the support server]({1})"
-msgstr ""
+msgstr "Domina partnerystė? Štai oficiali žinutė:\n\n"
+"{0} arba [prisijunkite į pagalbos serverį]({1})"
 
 #: Dredd-v3/cogs/info.py:697
 msgid "Partnered people with Dredd"
@@ -2409,7 +2455,8 @@ msgstr ""
 #, python-brace-format
 msgid "\n"
 "**Plain Text:** {0}"
-msgstr ""
+msgstr "\n"
+"**Paprastas tekstas:** {0}"
 
 #: Dredd-v3/cogs/manage.py:594
 #, python-brace-format
@@ -2470,7 +2517,7 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:718
 #, python-brace-format
 msgid "{0} Leave messages can't be longer than 1000 characters. You're {1} character(s) over the limit."
-msgstr ""
+msgstr "{0} Išejimo žinutės negali buti ilgesnės nei 1000 simbolių. Jūs {1} simboliu(-iais) viršijate limitą."
 
 #: Dredd-v3/cogs/manage.py:722
 #, python-brace-format
@@ -2511,12 +2558,12 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:794
 #, python-brace-format
 msgid "{0} Bot leave messages have been turned off."
-msgstr ""
+msgstr "{0} Boto išejimo žinutės buvo išjungtos."
 
 #: Dredd-v3/cogs/manage.py:798
 #, python-brace-format
 msgid "{0} Bot leave messages have been turned on."
-msgstr ""
+msgstr "{0} Boto išejimo žinutės buvo įjungtos."
 
 #: Dredd-v3/cogs/manage.py:839 Dredd-v3/cogs/manage.py:873
 #: Dredd-v3/cogs/manage.py:896 Dredd-v3/cogs/manage.py:946
