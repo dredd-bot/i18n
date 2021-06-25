@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-24 07:35\n"
+"PO-Revision-Date: 2021-06-25 20:27\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -58,7 +58,7 @@ msgstr "Oops!\n"
 msgid "Error occured when trying to fetch your vote, sent the detailed error to my developers.\n"
 "```py\n"
 "{0}```"
-msgstr "Bandant atkapstyti jūsų balsavimą įvyko klaida, kuri buvo nusiųsta mano kūrėjams.\n"
+msgstr "Įvyko klaida, bandant gauti tavo balsą, klaidos detalės buvo nusiųstos mano kūrėjams.\n"
 "```py\n"
 "{0}```"
 
@@ -239,7 +239,7 @@ msgstr "{0} Moderavimas\n"
 #: Dredd-v3/utils/default.py:353
 #, python-brace-format
 msgid "{0} Guild logs\n"
-msgstr "{0} Gildijos pranešimai\n"
+msgstr "{0} Serverio pranešimai\n"
 
 #: Dredd-v3/utils/default.py:354
 #, python-brace-format
@@ -264,7 +264,7 @@ msgstr "{0} Užpuolimo režimas\n"
 #: Dredd-v3/utils/default.py:359 Dredd-v3/utils/default.py:367
 #, python-brace-format
 msgid "{0} Welcoming messages\n"
-msgstr "{0} Pasveikinimo žinutės\n"
+msgstr "{0} Pasiveikinimo žinutės\n"
 
 #: Dredd-v3/utils/default.py:360 Dredd-v3/utils/default.py:368
 #, python-brace-format
@@ -330,7 +330,7 @@ msgstr "**Paieškos užklausa:** `{0}`\n\n"
 
 #: Dredd-v3/cogs/events/automod.py:156
 msgid "Spam (sending multiple messages in a short time span)"
-msgstr "Spamas (keletos žinučių siuntimas per trumpą laiko eigą)"
+msgstr "Šlamštas (kelių žinučių siuntimas per trumpą laiko tarpą)"
 
 #: Dredd-v3/cogs/events/automod.py:176
 msgid "Advertising"
