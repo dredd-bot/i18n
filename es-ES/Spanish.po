@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-24 18:49\n"
+"PO-Revision-Date: 2021-06-25 21:32\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -185,19 +185,19 @@ msgstr "Patrocinador de Dredd"
 
 #: Dredd-v3/utils/default.py:197
 msgid "Dredd Bug Hunter"
-msgstr ""
+msgstr "Dredd Cazador de bugs"
 
 #: Dredd-v3/utils/default.py:198
 msgid "Dredd BETA Bug Hunter"
-msgstr ""
+msgstr "Dredd Beta Cazador de bugs"
 
 #: Dredd-v3/utils/default.py:199
 msgid "Dredd Early Supporter"
-msgstr ""
+msgstr "Dredd partidario inicial"
 
 #: Dredd-v3/utils/default.py:200
 msgid "Dredd super early supporter"
-msgstr ""
+msgstr "Dredd super partidario inicial"
 
 #: Dredd-v3/utils/default.py:201
 msgid "Blacklisted user"
@@ -205,7 +205,7 @@ msgstr "Usuarios en la lista negra"
 
 #: Dredd-v3/utils/default.py:202
 msgid "A special badge for Duck :duck:"
-msgstr ""
+msgstr "Una insignia especial para el Pato :duck:"
 
 #: Dredd-v3/utils/default.py:240
 #, python-brace-format
@@ -214,12 +214,12 @@ msgstr "{0} Staff del Servidor de Dredd"
 
 #: Dredd-v3/utils/default.py:241
 msgid "{} Dredd Verified Server"
-msgstr ""
+msgstr "{} Dredd servidor verificado"
 
 #: Dredd-v3/utils/default.py:242
 #, python-brace-format
 msgid "{0} Dredd Partnered Server"
-msgstr ""
+msgstr "{0} Dredd Servidor asociado "
 
 #: Dredd-v3/utils/default.py:350
 #, python-brace-format
@@ -254,7 +254,7 @@ msgstr ""
 #: Dredd-v3/utils/default.py:356
 #, python-brace-format
 msgid "{0} Member Updates\n"
-msgstr ""
+msgstr "{0} Actualizaciones miembro(s)\n"
 
 #: Dredd-v3/utils/default.py:358 Dredd-v3/utils/default.py:366
 #, python-brace-format
@@ -274,7 +274,7 @@ msgstr ""
 #: Dredd-v3/utils/default.py:361 Dredd-v3/utils/default.py:369
 #, python-brace-format
 msgid "{0} Role on Join\n"
-msgstr ""
+msgstr "{0} Rol al unirse\n"
 
 #: Dredd-v3/utils/default.py:362 Dredd-v3/utils/default.py:370
 #, python-brace-format
@@ -284,7 +284,7 @@ msgstr ""
 #: Dredd-v3/utils/default.py:363 Dredd-v3/utils/default.py:371
 #, python-brace-format
 msgid "{0} Automod\n"
-msgstr ""
+msgstr "{0} Automoderación\n"
 
 #: Dredd-v3/utils/default.py:520
 msgid "mute"
@@ -300,11 +300,11 @@ msgstr ""
 
 #: Dredd-v3/utils/default.py:523 Dredd-v3/cogs/automod.py:431
 msgid "ban"
-msgstr ""
+msgstr "ban"
 
 #: Dredd-v3/utils/default.py:524
 msgid "temp-ban"
-msgstr ""
+msgstr "temp-ban"
 
 #: Dredd-v3/utils/rtfm.py:140
 msgid "Cannot build rtfm lookup table, try again later."
@@ -366,19 +366,19 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/automod.py:293 Dredd-v3/cogs/events/automod.py:302
 msgid "Member Kicked"
-msgstr ""
+msgstr "Miembro expulsado"
 
 #: Dredd-v3/cogs/events/automod.py:297 Dredd-v3/cogs/events/automod.py:302
 msgid "Member Banned"
-msgstr ""
+msgstr "Miembro baneado"
 
 #: Dredd-v3/cogs/events/automod.py:297
 msgid "Member Temp-Banned"
-msgstr ""
+msgstr "Miembro temp-banned"
 
 #: Dredd-v3/cogs/events/automod.py:306
 msgid "Automod Action"
-msgstr ""
+msgstr "Acción auto-mod"
 
 #: Dredd-v3/cogs/events/automod.py:307
 #, python-brace-format
@@ -397,17 +397,18 @@ msgstr "\n"
 #, python-brace-format
 msgid "**Member:** {0}{1}\n"
 "**Reason:** {2}"
-msgstr ""
+msgstr "**Miembro:** {0}{1}\n"
+"**Razón:** {2}"
 
 #: Dredd-v3/cogs/events/automod.py:320
 #, python-brace-format
 msgid "Automod Action | {0}"
-msgstr ""
+msgstr "Acción automod | {0}"
 
 #: Dredd-v3/cogs/events/automod.py:322
 #, python-brace-format
 msgid "{0} Something failed while punishing the member, sent the error to my developers. This is most likely due to me either missing permissions or not being able to access the person and/or role"
-msgstr ""
+msgstr "{0} Ha fallado alguna cosa cuando intentaba sancionar al miembro, el error ha sido enviado a mis desarrolladores. Lo más común es por falta de permisos o no tengo acceso a la persona y/o el rol."
 
 #: Dredd-v3/cogs/events/automod.py:333
 #, python-brace-format
