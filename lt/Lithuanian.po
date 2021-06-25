@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-25 20:27\n"
+"PO-Revision-Date: 2021-06-25 21:32\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -101,7 +101,7 @@ msgstr "{0} | `{1}` kol kas yra negalimas dėl: `{2}`"
 #: Dredd-v3/utils/checks.py:318
 #, python-brace-format
 msgid "{0} You need to be in a voice channel first."
-msgstr "{0} Tu pirmiausia turi būti balso kanale."
+msgstr "{0} Pirmiausia turi būti balso kanale."
 
 #: Dredd-v3/utils/checks.py:320
 #, python-brace-format
@@ -116,7 +116,7 @@ msgstr "{0} Jūs turite būti tame pačiame balso kanale kaip ir aš."
 #: Dredd-v3/utils/checks.py:324
 #, python-brace-format
 msgid "{0} I'm missing permissions in your voice channel. Make sure you have given me the correct permissions!"
-msgstr "{0} Aš neturiu leidimo prisijungti į tavo balso kanalą. Dar kartą patikrinkite ar davėte tinkamus leidimus!"
+msgstr "{0} Aš neturiu leidimo prisijungti į tavo balso kanalą. Dar kartą patikrinkite, ar davėte tinkamus leidimus!"
 
 #: Dredd-v3/utils/checks.py:326
 #, python-brace-format
@@ -383,7 +383,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/automod.py:307
 #, python-brace-format
 msgid "{0} {1}"
-msgstr ""
+msgstr "{0} {1}"
 
 #: Dredd-v3/cogs/events/automod.py:309 Dredd-v3/cogs/events/logs.py:594
 #: Dredd-v3/cogs/events/logs.py:724
@@ -489,7 +489,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/errors.py:140
 #, python-brace-format
 msgid "{0} This command is staff-locked"
-msgstr ""
+msgstr "{0} Ši komanda yra užrakinta personalui"
 
 #: Dredd-v3/cogs/events/errors.py:143
 #, python-brace-format
@@ -529,7 +529,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/errors.py:205
 #, python-brace-format
 msgid "{0} You're missing the {1} permission."
-msgstr ""
+msgstr "{0} Tau trūksta {1} leidimo."
 
 #: Dredd-v3/cogs/events/errors.py:210
 #, python-brace-format
@@ -713,7 +713,7 @@ msgstr "**Žinutė:**"
 
 #: Dredd-v3/cogs/events/logs.py:144
 msgid "**Attachments:**"
-msgstr ""
+msgstr "**Priedai:**"
 
 #: Dredd-v3/cogs/events/logs.py:147
 msgid "**Sticker:**"
@@ -1014,7 +1014,8 @@ msgstr "**Narys(-iai):**\n"
 #, python-brace-format
 msgid "*The original message was deleted or I'm missing permissions*\n\n"
 "Your reminder: {0}"
-msgstr ""
+msgstr "*orginali žinutė buvo ištrinta arba man trūksta leidimų*\n\n"
+"Tavo priminimas: {0}"
 
 #: Dredd-v3/cogs/automod.py:36
 msgid "Automod is disabled in this server, enable it by using `automod toggle` command"
@@ -1022,7 +1023,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:46 Dredd-v3/cogs/automod.py:86
 msgid "No"
-msgstr ""
+msgstr "Ne"
 
 #: Dredd-v3/cogs/automod.py:48 Dredd-v3/cogs/automod.py:54
 #: Dredd-v3/cogs/automod.py:58 Dredd-v3/cogs/automod.py:61
@@ -1046,7 +1047,7 @@ msgstr "Užblokuoti Visus Narius"
 
 #: Dredd-v3/cogs/automod.py:51 Dredd-v3/cogs/automod.py:86
 msgid "Yes"
-msgstr ""
+msgstr "Taip"
 
 #: Dredd-v3/cogs/automod.py:54 Dredd-v3/cogs/automod.py:58
 #: Dredd-v3/cogs/automod.py:61 Dredd-v3/cogs/automod.py:65
@@ -1092,19 +1093,21 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:84 Dredd-v3/cogs/automod.py:85
 msgid "Disabled"
-msgstr ""
+msgstr "Išjungta"
 
 #: Dredd-v3/cogs/automod.py:87
 #, python-brace-format
 msgid "\n"
 "**Mentions Limit:** {0}"
-msgstr ""
+msgstr "\n"
+"**Paminėjimų Limitas:** {0}"
 
 #: Dredd-v3/cogs/automod.py:87
 #, python-brace-format
 msgid "\n"
 "**Caps Percentage:** {0}"
-msgstr ""
+msgstr "\n"
+"**Didžiųjų raidžių Procentas:** {0}"
 
 #: Dredd-v3/cogs/automod.py:100
 #, python-brace-format
@@ -1150,7 +1153,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:155
 msgid "strict"
-msgstr ""
+msgstr "griežtas"
 
 #: Dredd-v3/cogs/automod.py:192
 #, python-brace-format
@@ -1451,7 +1454,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/fun.py:157
 msgid "I'm too hot for you 😏"
-msgstr ""
+msgstr "Aš tau per gražus 😏"
 
 #: Dredd-v3/cogs/fun.py:173
 #, python-brace-format
@@ -1521,7 +1524,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/help.py:321
 msgid "No information."
-msgstr ""
+msgstr "Nėra Informacijos."
 
 #: Dredd-v3/cogs/help.py:365
 #, python-brace-format
@@ -1536,7 +1539,7 @@ msgstr ""
 #: Dredd-v3/cogs/info.py:97
 #, python-brace-format
 msgid "About {0}"
-msgstr ""
+msgstr "Apie {0}"
 
 #: Dredd-v3/cogs/info.py:98
 #, python-brace-format
@@ -1601,12 +1604,12 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:192
 msgid "No roles"
-msgstr ""
+msgstr "Nera vaidmenų"
 
 #: Dredd-v3/cogs/info.py:193 Dredd-v3/cogs/info.py:218
 #: Dredd-v3/cogs/info.py:271
 msgid "General Information:"
-msgstr ""
+msgstr "Bendra informacija:"
 
 #: Dredd-v3/cogs/info.py:193 Dredd-v3/cogs/info.py:218
 #, python-brace-format
@@ -1621,7 +1624,7 @@ msgstr "\n"
 
 #: Dredd-v3/cogs/info.py:200
 msgid "Server Information:"
-msgstr ""
+msgstr "Serverio informacija:"
 
 #: Dredd-v3/cogs/info.py:200
 #, python-brace-format
@@ -1629,7 +1632,10 @@ msgid "\n"
 "**Nickname:** {0}{1}\n"
 "**Joined at:** {2} ({3})\n"
 "**Roles:** {4}"
-msgstr ""
+msgstr "\n"
+"**Slapyvardis:** {0}{1}\n"
+"**Prisijungė:** {2} ({3})\n"
+"**Vaidmenys:** {4}"
 
 #: Dredd-v3/cogs/info.py:229
 msgid "Social media:"
@@ -1680,7 +1686,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:287
 msgid "Other Information:"
-msgstr ""
+msgstr "Kita informacija:"
 
 #: Dredd-v3/cogs/info.py:287
 #, python-brace-format
@@ -1754,7 +1760,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:437
 msgid "Voting Locations"
-msgstr ""
+msgstr "Balsavimo lokacijos"
 
 #: Dredd-v3/cogs/info.py:438
 #, python-brace-format
@@ -1764,7 +1770,12 @@ msgid "You can vote for me in any of those lists:\n"
 "`[3]` {2}\n"
 "`[4]` {3}\n\n"
 "*Voting will unlock some commands for you to use and will help me grow faster!*"
-msgstr ""
+msgstr "Tu gali už mane balsuoti šituose sąrašuose:\n"
+"`[1]` {0}\n"
+"`[2]` {1}\n"
+"`[3]` {2}\n"
+"`[4]` {3}\n\n"
+"*Balsavimas atrakins kelias komandas kurias galesi naudoti, ir padesi man augti!*"
 
 #: Dredd-v3/cogs/info.py:447
 #, python-brace-format
@@ -1962,35 +1973,36 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:772
 msgid "Command"
-msgstr ""
+msgstr "Komanda"
 
 #: Dredd-v3/cogs/info.py:773
 msgid "Used"
-msgstr ""
+msgstr "Panaudota"
 
 #: Dredd-v3/cogs/info.py:781
 #, python-brace-format
 msgid "{0}{1}"
-msgstr ""
+msgstr "{0}{1}"
 
 #: Dredd-v3/cogs/info.py:792
 #, python-brace-format
 msgid "This server has {0} members"
-msgstr ""
+msgstr "Šis serveris turi {0} narius(-ių)"
 
 #: Dredd-v3/cogs/info.py:798
 msgid "Newest member(s) in this server:"
-msgstr ""
+msgstr "Naujausias narys(-iai) šiamė serveryje:"
 
 #: Dredd-v3/cogs/info.py:800
 #, python-brace-format
 msgid "**Joined Server at** {0}\n"
 "**Account created at** {1}"
-msgstr ""
+msgstr "**Prisijungė į serverį** {0}\n"
+"**Paskyra sukurtą** {1}"
 
 #: Dredd-v3/cogs/info.py:804
 msgid "The limit is set to 10"
-msgstr ""
+msgstr "Limitas yra nustatytas 10"
 
 #: Dredd-v3/cogs/info.py:817
 #, python-brace-format
@@ -2058,11 +2070,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:107
 msgid "**Settings:**"
-msgstr ""
+msgstr "**Nustatymai:**"
 
 #: Dredd-v3/cogs/manage.py:108
 msgid "**More:**"
-msgstr ""
+msgstr "**Daugiau:**"
 
 #: Dredd-v3/cogs/manage.py:108
 #, python-brace-format
@@ -2075,7 +2087,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:113
 msgid "Not found"
-msgstr ""
+msgstr "Nerasta"
 
 #: Dredd-v3/cogs/manage.py:120
 #, python-brace-format
@@ -2093,7 +2105,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:130
 msgid "Leave Message"
-msgstr ""
+msgstr "Palikimo žinutę"
 
 #: Dredd-v3/cogs/manage.py:140
 #, python-brace-format
@@ -2518,11 +2530,11 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:903 Dredd-v3/cogs/manage.py:1010
 #, python-brace-format
 msgid "`[{0}]` {1} ({2})\n"
-msgstr ""
+msgstr "`[{0}]` {1} ({2})\n"
 
 #: Dredd-v3/cogs/manage.py:903 Dredd-v3/cogs/manage.py:1010
 msgid "Role not found"
-msgstr ""
+msgstr "Vaidmuo nerastas"
 
 #: Dredd-v3/cogs/manage.py:906
 msgid "Role on join for people"
@@ -2862,7 +2874,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:1589
 msgid "Deleted"
-msgstr ""
+msgstr "Ištrinti"
 
 #: Dredd-v3/cogs/manage.py:1595
 #, python-brace-format
@@ -2901,11 +2913,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/misc.py:112
 msgid "characters"
-msgstr ""
+msgstr "simboliai"
 
 #: Dredd-v3/cogs/misc.py:112
 msgid "character"
-msgstr ""
+msgstr "simbolis"
 
 #: Dredd-v3/cogs/misc.py:113
 #, python-brace-format
@@ -3077,7 +3089,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/misc.py:439 Dredd-v3/cogs/misc.py:633
 msgid "this channel"
-msgstr ""
+msgstr "šis kanalas"
 
 #: Dredd-v3/cogs/misc.py:442
 #, python-brace-format
@@ -3260,15 +3272,15 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:135
 #, python-brace-format
 msgid "{0} message{1} removed."
-msgstr ""
+msgstr "{0} žinutė{1} pašalinta."
 
 #: Dredd-v3/cogs/moderation.py:135
 msgid " was"
-msgstr ""
+msgstr " buvo"
 
 #: Dredd-v3/cogs/moderation.py:135
 msgid "s were"
-msgstr ""
+msgstr "buvo"
 
 #: Dredd-v3/cogs/moderation.py:137
 msgid "\n"
@@ -3452,7 +3464,7 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:846 Dredd-v3/cogs/moderation.py:852
 #, python-brace-format
 msgid " for {0}"
-msgstr ""
+msgstr " dėl {0}"
 
 #: Dredd-v3/cogs/moderation.py:463
 #, python-brace-format
@@ -3503,12 +3515,12 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:616 Dredd-v3/cogs/moderation.py:670
 msgid "No reason provided."
-msgstr ""
+msgstr "Nenurodyta priežastis."
 
 #: Dredd-v3/cogs/moderation.py:618
 #, python-brace-format
 msgid "{0} ({0.id})"
-msgstr ""
+msgstr "{0} ({0.id})"
 
 #: Dredd-v3/cogs/moderation.py:625 Dredd-v3/cogs/moderation.py:631
 #, python-brace-format
@@ -3532,7 +3544,7 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:691
 #, python-brace-format
 msgid "{0} This server has no bans."
-msgstr ""
+msgstr "{0} Šis serveris neturi jokių draudimų."
 
 #: Dredd-v3/cogs/moderation.py:708
 #, python-brace-format
@@ -3554,7 +3566,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:740
 msgid "Wrong emoji; please try again."
-msgstr ""
+msgstr "Neteisingas jaustukas; bandykite dar kartą."
 
 #: Dredd-v3/cogs/moderation.py:783
 #, python-brace-format
@@ -3996,7 +4008,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:2012
 msgid "Emoji URL is invalid"
-msgstr ""
+msgstr "Jaustuko nuoroda yra neteisingą"
 
 #: Dredd-v3/cogs/moderation.py:2014
 msgid "The URL doesn't contain any image"
@@ -4028,24 +4040,24 @@ msgstr ""
 
 #: Dredd-v3/cogs/music.py:143
 msgid "Queue End"
-msgstr ""
+msgstr "Eilės pabaiga"
 
 #: Dredd-v3/cogs/music.py:147
 #, python-brace-format
 msgid "Live: {0}"
-msgstr ""
+msgstr "Tiesiogiai: {0}"
 
 #: Dredd-v3/cogs/music.py:156
 msgid "None"
-msgstr ""
+msgstr "Nėra"
 
 #: Dredd-v3/cogs/music.py:156
 msgid "Current"
-msgstr ""
+msgstr "Dabartinis(-ė)"
 
 #: Dredd-v3/cogs/music.py:156
 msgid "All"
-msgstr ""
+msgstr "Visi"
 
 #: Dredd-v3/cogs/music.py:157
 #, python-brace-format
@@ -4063,7 +4075,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/music.py:158
 msgid "Live Stream"
-msgstr ""
+msgstr "Tiesioginė transliacija"
 
 #: Dredd-v3/cogs/music.py:275
 msgid "Everyone left the voice channel, I will stop playing music"
@@ -4077,7 +4089,7 @@ msgstr ""
 #: Dredd-v3/cogs/music.py:310
 #, python-brace-format
 msgid "{0} Connected to **{1}**!"
-msgstr ""
+msgstr "{0} Prisijungtą į **{1}**!"
 
 #: Dredd-v3/cogs/music.py:331 Dredd-v3/cogs/music.py:378
 msgid "No songs were found with that query. Please try again."
