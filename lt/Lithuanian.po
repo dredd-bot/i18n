@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-26 08:32\n"
+"PO-Revision-Date: 2021-06-26 09:30\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -857,7 +857,7 @@ msgstr "**Prieš:** [Paspausk čia]({0})\n"
 
 #: Dredd-v3/cogs/events/logs.py:364
 msgid " Guild multifactor authentication (MFA) changed"
-msgstr ""
+msgstr " Serverio daugiafaktorius autentifikavimas (MFA) pakeistas"
 
 #: Dredd-v3/cogs/events/logs.py:373
 msgid " Guild verification level changed"
@@ -865,7 +865,7 @@ msgstr " Serverio patvirtinimo lygis pakeistas"
 
 #: Dredd-v3/cogs/events/logs.py:382
 msgid " Guild default notifications changed"
-msgstr ""
+msgstr " Serverio numatyti pranešimai pakeisti"
 
 #: Dredd-v3/cogs/events/logs.py:399
 #, python-brace-format
