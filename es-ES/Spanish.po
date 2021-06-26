@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-26 11:28\n"
+"PO-Revision-Date: 2021-06-26 12:31\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -950,7 +950,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/logs.py:686
 #, python-brace-format
 msgid "{0} {1} Member(s) softbanned"
-msgstr ""
+msgstr "{0} {1} Miembro(s) softbanned"
 
 #: Dredd-v3/cogs/events/logs.py:722
 #, python-brace-format
@@ -965,12 +965,12 @@ msgstr "{0} {1} Miembro(s) advertido(s)"
 #: Dredd-v3/cogs/events/logs.py:787
 #, python-brace-format
 msgid "{0} {1} Member(s) un-banned"
-msgstr ""
+msgstr "{0} {1} Miembro(s) desbaneado(s)"
 
 #: Dredd-v3/cogs/events/logs.py:818
 #, python-brace-format
 msgid "{0} {1} Member(s) un-muted"
-msgstr ""
+msgstr "{0} {1} Miembro(s) desmuteado(s)"
 
 #: Dredd-v3/cogs/events/logs.py:861
 #, python-brace-format
@@ -980,7 +980,7 @@ msgstr "{0} Un miembro ha sido expulsado"
 #: Dredd-v3/cogs/events/logs.py:892
 #, python-brace-format
 msgid "{0} {1} Member(s) voice muted"
-msgstr ""
+msgstr "{0} {1} Miembro(s) voz silenciado(s)"
 
 #: Dredd-v3/cogs/events/logs.py:923
 #, python-brace-format
@@ -1143,12 +1143,12 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:155
 msgid "strict"
-msgstr ""
+msgstr "estricto"
 
 #: Dredd-v3/cogs/automod.py:192
 #, python-brace-format
 msgid "{0} Successfully set the automod value to **{1}**"
-msgstr ""
+msgstr "{0} Establecido correctamente el valor de la auto moderación a **{1}**"
 
 #: Dredd-v3/cogs/automod.py:216
 #, python-brace-format
@@ -1345,12 +1345,12 @@ msgstr ""
 #: Dredd-v3/cogs/automod.py:575
 #, python-brace-format
 msgid "Role **{0}** is already added to the whitelist."
-msgstr ""
+msgstr "El rol **{0}** ya está añadido en la lista blanca."
 
 #: Dredd-v3/cogs/boosters.py:33
 #, python-brace-format
 msgid "{0} Custom prefix can't be longer than 7 characters."
-msgstr ""
+msgstr "{0} El prefijo personalizado no puede tener más de 7 caracteres."
 
 #: Dredd-v3/cogs/boosters.py:212
 #, python-brace-format
@@ -1393,12 +1393,12 @@ msgstr ""
 #: Dredd-v3/cogs/fun.py:79
 #, python-brace-format
 msgid " for **{0}** "
-msgstr ""
+msgstr " por **{0}** "
 
 #: Dredd-v3/cogs/fun.py:80
 #, python-brace-format
 msgid "**{0}** has paid their respect {1}{2}"
-msgstr ""
+msgstr "**{0}** ha pagado su respeto {1}{2}"
 
 #: Dredd-v3/cogs/fun.py:95
 #, python-brace-format
@@ -1462,20 +1462,20 @@ msgstr ""
 #: Dredd-v3/cogs/help.py:123
 #, python-brace-format
 msgid "**Prefix:** `{0}`"
-msgstr ""
+msgstr "**Prefijo:** `{0}`"
 
 #: Dredd-v3/cogs/help.py:125
 msgid "**Prefix:** `!`"
-msgstr ""
+msgstr "**Prefijo:** `!`"
 
 #: Dredd-v3/cogs/help.py:157
 #, python-brace-format
 msgid "{0} Help"
-msgstr ""
+msgstr "{0} Ayuda"
 
 #: Dredd-v3/cogs/help.py:160
 msgid "Categories:"
-msgstr ""
+msgstr "Categorías:"
 
 #: Dredd-v3/cogs/help.py:164
 msgid "You can also click on the reactions below to view commands in each category."
@@ -1487,15 +1487,15 @@ msgstr ""
 
 #: Dredd-v3/cogs/help.py:237 Dredd-v3/cogs/help.py:280
 msgid "Aliases: "
-msgstr ""
+msgstr "Alias: "
 
 #: Dredd-v3/cogs/help.py:237 Dredd-v3/cogs/help.py:280
 msgid "No aliases were found."
-msgstr ""
+msgstr "No se ha encontrado ningún alias. "
 
 #: Dredd-v3/cogs/help.py:239 Dredd-v3/cogs/help.py:282
 msgid "No help was provided..."
-msgstr ""
+msgstr "No se proporcionó ayuda..."
 
 #: Dredd-v3/cogs/help.py:244 Dredd-v3/cogs/help.py:287
 msgid "\n\n"
@@ -1529,7 +1529,7 @@ msgstr ""
 #: Dredd-v3/cogs/info.py:97
 #, python-brace-format
 msgid "About {0}"
-msgstr ""
+msgstr "Acerca de {0}"
 
 #: Dredd-v3/cogs/info.py:98
 #, python-brace-format
