@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-25 23:59\n"
+"PO-Revision-Date: 2021-06-26 08:32\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -816,7 +816,7 @@ msgstr "**Narys:** {0}\n"
 #: Dredd-v3/cogs/events/logs.py:926 Dredd-v3/cogs/events/logs.py:959
 #, python-brace-format
 msgid "Case ID: #{0}"
-msgstr ""
+msgstr "Bylos ID: #{0}"
 
 #: Dredd-v3/cogs/events/logs.py:304
 #, python-brace-format
@@ -919,7 +919,7 @@ msgstr "Nariai išėjo: {0}"
 
 #: Dredd-v3/cogs/events/logs.py:467
 msgid "Automatic Mute | Mute evading"
-msgstr ""
+msgstr "Automatiškas nutildymas | Nutildimo išvengimas"
 
 #: Dredd-v3/cogs/events/logs.py:592
 #, python-brace-format
@@ -1024,7 +1024,7 @@ msgstr "*orginali žinutė buvo ištrinta arba man trūksta leidimų*\n\n"
 
 #: Dredd-v3/cogs/automod.py:36
 msgid "Automod is disabled in this server, enable it by using `automod toggle` command"
-msgstr ""
+msgstr "Auto moderavimas yra išjungtas šiame serveryje, įjunkite jį panaudodami komanda `automod toggle`"
 
 #: Dredd-v3/cogs/automod.py:46 Dredd-v3/cogs/automod.py:86
 msgid "No"
