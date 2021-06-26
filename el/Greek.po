@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-26 14:58\n"
+"PO-Revision-Date: 2021-06-26 16:03\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -58,27 +58,30 @@ msgstr "Ωχ!\n"
 msgid "Error occured when trying to fetch your vote, sent the detailed error to my developers.\n"
 "```py\n"
 "{0}```"
-msgstr ""
+msgstr "Παρουσιάστηκε πρόβλημα όταν προσπάθησα να καταγράψω την ψήφο σας - οι λεπτομέρειες του σφάλματος σταλήκαν στους προγραμματιστές μου.\n"
+"````py\n"
+"{0}```"
 
 #: Dredd-v3/utils/checks.py:189
 #, python-brace-format
 msgid "This command is in it's testing phase, please [join the support server]({0}) if you want to know when it'll be available."
-msgstr ""
+msgstr "Αυτή η εντολή βρίσκεται στη φάση δοκιμών, παρακαλώ [γίνετε μέλος του discord server για βοήθεια]({0}) αν θέλετε να ξέρετε πότε θα είναι διαθέσιμη."
 
 #: Dredd-v3/utils/checks.py:200
 #, python-brace-format
 msgid "Unfortunately, this command is getting removed in the next update, if you want to know why, please join the support server here {0}"
-msgstr ""
+msgstr "Δυστυχώς, αυτή η εντολή θα αφαιρεθεί στην επόμενη εκδοχή του Dredd,. Αν θέλετε να μάθετε γιατί, παρακαλούμε να συμμετάσχετε στο discord server για βοήθεια εδώ {0}"
 
 #: Dredd-v3/utils/checks.py:210
 #, python-brace-format
 msgid "Hello!\n"
 "We're currently under the maintenance and the bot is unavailable for use. You can join the [support server]({0}) or subscribe to our [status page]({1}) to know when we'll be available again!"
-msgstr ""
+msgstr "Γεια σας!\n"
+"Αυτή τη στιγμή είμαστε υπό συντήρηση και το bot δεν είναι διαθέσιμο για χρήση. Μπορείτε να γίνετε μέλος του [discord server για βοήθεια]({0}) ή να εγγραφείτε στη [ιστοσελίδα κατάστασης]({1}) για να μάθετε πότε θα είμαστε ξανά διαθέσιμοι!"
 
 #: Dredd-v3/utils/checks.py:214
 msgid "Dredd is under the maintenance!"
-msgstr ""
+msgstr "Ο Dredd είναι υπό συντήρηση!"
 
 #: Dredd-v3/utils/checks.py:250
 #, python-brace-format
@@ -156,11 +159,11 @@ msgstr ""
 
 #: Dredd-v3/utils/default.py:191
 msgid "Owner of Dredd"
-msgstr ""
+msgstr "Ιδιοκτήτης του Dredd"
 
 #: Dredd-v3/utils/default.py:192
 msgid "Admin of Dredd"
-msgstr ""
+msgstr "Διαχειριστής του Dredd"
 
 #: Dredd-v3/utils/default.py:193
 #, python-brace-format
