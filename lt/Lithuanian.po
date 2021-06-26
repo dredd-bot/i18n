@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-26 11:29\n"
+"PO-Revision-Date: 2021-06-26 12:31\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -608,16 +608,16 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/events.py:113
 msgid "Hey! Not sure if you know yet, but my prefix in DM's is `!`"
-msgstr "Labas! Aš nežinau ar Jus žinotė, bet mano priešdėlis asmėninėse žinutėse yra `!`"
+msgstr "Labas! Aš nežinau, ar Jūs žinote, bet mano priešdėlis asmėninėse žinutėse yra `!`"
 
 #: Dredd-v3/cogs/events/events.py:225
 #, python-brace-format
 msgid "If you are the server owner and would like to appeal, you can [join the support server]({0})."
-msgstr "Jeigu Jus esate šio serverio savininkas ir norite apeliuoti, just galite [prisijungti prie pagalbos serverio]({0})."
+msgstr "Jeigu Jūs esate šio serverio savininkas ir norite apeliuoti, Jūs galite [prisijungti prie pagalbos serverio]({0})."
 
 #: Dredd-v3/cogs/events/events.py:229
 msgid "Unfortunately, this server's blacklist state cannot be removed."
-msgstr "Deja, šio serverio juodajo sąrašo fazė negali buti ištrinta."
+msgstr "Deja, šio serverio juodojo sąrašo fazė negali buti ištrinta."
 
 #: Dredd-v3/cogs/events/events.py:232
 #, python-brace-format
@@ -630,7 +630,7 @@ msgstr "Labas!\n"
 
 #: Dredd-v3/cogs/events/events.py:236
 msgid "Blacklist issue occured!"
-msgstr "Įvyko Juodasis sąrašas klaidą!"
+msgstr "Įvyko juodojo sąrašo klaida!"
 
 #: Dredd-v3/cogs/events/events.py:239
 #, python-brace-format
