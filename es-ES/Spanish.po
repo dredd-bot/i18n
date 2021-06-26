@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-26 09:30\n"
+"PO-Revision-Date: 2021-06-26 11:28\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -330,7 +330,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/automod.py:156
 msgid "Spam (sending multiple messages in a short time span)"
-msgstr ""
+msgstr "Spam (enviar varios mensajes en un corto lapso de tiempo)"
 
 #: Dredd-v3/cogs/events/automod.py:176
 msgid "Advertising"
@@ -1044,7 +1044,7 @@ msgstr "Sí"
 #: Dredd-v3/cogs/automod.py:61 Dredd-v3/cogs/automod.py:65
 #: Dredd-v3/cogs/automod.py:68
 msgid "Mute Member"
-msgstr "Slenciar Miembro"
+msgstr "Silenciar Miembro"
 
 #: Dredd-v3/cogs/automod.py:54 Dredd-v3/cogs/automod.py:58
 #: Dredd-v3/cogs/automod.py:61 Dredd-v3/cogs/automod.py:65
