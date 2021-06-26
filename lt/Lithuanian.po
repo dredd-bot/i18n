@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-26 12:31\n"
+"PO-Revision-Date: 2021-06-26 17:09\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -28,7 +28,7 @@ msgstr "Nurodytas laikas yra praeityje."
 
 #: Dredd-v3/utils/btime.py:130
 msgid "Missing argument after the time."
-msgstr "Trūksta laiko vieneto po kiekio."
+msgstr "Trūksta argumento po nurodyto laiko."
 
 #: Dredd-v3/utils/btime.py:161
 msgid "Time Error! try \"in an hour\" or \"5 days\"."
@@ -77,11 +77,11 @@ msgstr "Dėja ši komanda bus panaikinta kitame atnaujinime. Jeigu norite sužin
 msgid "Hello!\n"
 "We're currently under the maintenance and the bot is unavailable for use. You can join the [support server]({0}) or subscribe to our [status page]({1}) to know when we'll be available again!"
 msgstr "Sveiki!\n"
-"Kol kas mes remontuojame mūsų robotą ir jis yra neprieinamas. Jūs galite prisijungti prie [pagalbos serverio]({0}) arba prenumeruoti mūsų [aktyvumo puslapį]({1}), kad sužinoti kada jis bus vėl prieinamas!"
+"Šiuo metu Dredd yra tvarkomas ir negalimas naudojimui. Jūs galite prisijungti prie [pagalbos serverio]({0}) arba prenumeruoti mūsų [būklės puslapį]({1}), kad sužinotumėte, kada jis vėl bus prieinamas!"
 
 #: Dredd-v3/utils/checks.py:214
 msgid "Dredd is under the maintenance!"
-msgstr "Dredd'as yra remontuojamas!"
+msgstr "Dredd šiuo metu yra tvarkomas!"
 
 #: Dredd-v3/utils/checks.py:250
 #, python-brace-format
@@ -279,7 +279,7 @@ msgstr "{0} Prisijungimo rolė\n"
 #: Dredd-v3/utils/default.py:362 Dredd-v3/utils/default.py:370
 #, python-brace-format
 msgid "{0} Dehoisting\n"
-msgstr "{0} Nuleidimas hierarchijoje\n"
+msgstr "{0} Nario nuleidimas\n"
 
 #: Dredd-v3/utils/default.py:363 Dredd-v3/utils/default.py:371
 #, python-brace-format
