@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-26 10:31\n"
+"PO-Revision-Date: 2021-06-26 11:29\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -338,23 +338,23 @@ msgstr "Reklamavimas"
 
 #: Dredd-v3/cogs/events/automod.py:200
 msgid "Spamming caps"
-msgstr ""
+msgstr "Siunčiate per daug didžiujų raidžių"
 
 #: Dredd-v3/cogs/events/automod.py:223
 msgid "Spamming links"
-msgstr ""
+msgstr "Siunčiate per daug nuorodų"
 
 #: Dredd-v3/cogs/events/automod.py:252
 msgid "Spamming mentions"
-msgstr ""
+msgstr "Siunčiate per daug paminėjimų"
 
 #: Dredd-v3/cogs/events/automod.py:277
 msgid "anti raid: user account is younger than 30 days."
-msgstr ""
+msgstr "anti užpuolimo režimas: vartotojo paskyra yra jaunesnė nei 30 dienų."
 
 #: Dredd-v3/cogs/events/automod.py:277
 msgid "Strict Anti Raid: No one is allowed to join the server"
-msgstr ""
+msgstr "Griežtas anti užpuolimo režimas: visiems yra draudžiama prisijungti į serverį"
 
 #: Dredd-v3/cogs/events/automod.py:293
 msgid "Member Muted"
@@ -378,7 +378,7 @@ msgstr "Narys Laikinai Užblokuotas"
 
 #: Dredd-v3/cogs/events/automod.py:306
 msgid "Automod Action"
-msgstr ""
+msgstr "Auto moderavimo veiksmas"
 
 #: Dredd-v3/cogs/events/automod.py:307
 #, python-brace-format
@@ -403,12 +403,12 @@ msgstr "**Narys:** {0}{1}\n"
 #: Dredd-v3/cogs/events/automod.py:320
 #, python-brace-format
 msgid "Automod Action | {0}"
-msgstr ""
+msgstr "Auto moderavimo veiksmas | {0}"
 
 #: Dredd-v3/cogs/events/automod.py:322
 #, python-brace-format
 msgid "{0} Something failed while punishing the member, sent the error to my developers. This is most likely due to me either missing permissions or not being able to access the person and/or role"
-msgstr ""
+msgstr "{0} kažkas įvyko ne taip, baudžiant vartotoją. Išsiunčiau šią klaidą savo kūrėjams. Greičiausiai, tai yra dėl to, nes man trūksta leidimų arba aš neturiu prieigos prie žmogaus ir / ar vaidmens"
 
 #: Dredd-v3/cogs/events/automod.py:333
 #, python-brace-format
@@ -438,34 +438,36 @@ msgstr "{0} Užblokavau **{1}** dėl {2}, priežastis: {3}."
 #: Dredd-v3/cogs/events/automod.py:419
 #, python-brace-format
 msgid "{0} {1} has anti raid mode activated, please try joining again later."
-msgstr ""
+msgstr "{0} {1} turi aktyvuotą anti užpuolimo režimą, prašau prisijunkite vėliau."
 
 #: Dredd-v3/cogs/events/automod.py:431 Dredd-v3/cogs/events/automod.py:459
 #, python-brace-format
 msgid "{0} {1} has anti raid mode activated, you're not allowed to join that server."
-msgstr ""
+msgstr "{0} {1} turi aktyvuotą anti užpuolimo režimą, Jums yra draudžiama prisijungti prie šio serverio."
 
 #: Dredd-v3/cogs/events/automod.py:447
 #, python-brace-format
 msgid "{0} {1} has strict anti raid mode activated, please try joining again later."
-msgstr ""
+msgstr "{0} {1} turi aktyvuotą griežtą anti užpuolimo režimą, prašau prisijunkite vėliau."
 
 #: Dredd-v3/cogs/events/automod.py:472
 #, python-brace-format
 msgid "{0} I'm not sure what happened, but something broke. Please make sure that my role is above everyone's else, otherwise you'll see these errors more often. I've also sent this error to my developers."
-msgstr ""
+msgstr "{0} Aš neesu tikras kas atsitiko, bet kažkas sugedo. Prašau įsitikinkite, kad mano vaidmuo yra virš visų kitų, kitaip Jūs matysite šiuos gedimus dažniau. Šią klaida išsiunčiau savo kūrėjams."
 
 #: Dredd-v3/cogs/events/automod.py:481
 #, python-brace-format
 msgid "{0} Mute role was not found, please create the mute role, or set a custom one using `{1}muterole [role]`.\n\n"
 "Manually removed member permissions to send messages in this channel *hopefully*."
-msgstr ""
+msgstr "{0} užtildymo vaidmuo buvo nerastas, prašau sukurkite užtildymo vaidmenį, arba sukurkite ypatingą vaidmenį, panaudodami `{1}muterole [role]`.\n\n"
+"Rankiniu būdu pašalinau vartotojų leidimus, kad jie galėtų siųsti žinutes šiame kanale *tikiuosi*."
 
 #: Dredd-v3/cogs/events/automod.py:486
 #, python-brace-format
 msgid "{0} Failed to kick/ban the member, are they higher in role hierarchy than me? Put my role at the very top to avoid these type of issues.\n\n"
 "Manually removed member permissions to send messages in this channel *hopefully*."
-msgstr ""
+msgstr "{0} Nepavyko išmesti/uždrausti vartotojo, ar Jie yra aukščiau vaidmenų hierarchijoje nei aš? Uždėkite mano vaidmenį viršuje, kad išvengtumetė šių problemų.\n\n"
+"Rankiniu būdu pašalinau vartotojų leidimus, kad galėtų siųsti žinutes šiame kanale *tikiuosi*."
 
 #: Dredd-v3/cogs/events/errors.py:131
 msgid "Vote required!"
@@ -606,16 +608,16 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/events.py:113
 msgid "Hey! Not sure if you know yet, but my prefix in DM's is `!`"
-msgstr ""
+msgstr "Labas! Aš nežinau ar Jus žinotė, bet mano priešdėlis asmėninėse žinutėse yra `!`"
 
 #: Dredd-v3/cogs/events/events.py:225
 #, python-brace-format
 msgid "If you are the server owner and would like to appeal, you can [join the support server]({0})."
-msgstr ""
+msgstr "Jeigu Jus esate šio serverio savininkas ir norite apeliuoti, just galite [prisijungti prie pagalbos serverio]({0})."
 
 #: Dredd-v3/cogs/events/events.py:229
 msgid "Unfortunately, this server's blacklist state cannot be removed."
-msgstr ""
+msgstr "Deja, šio serverio juodajo sąrašo fazė negali buti ištrinta."
 
 #: Dredd-v3/cogs/events/events.py:232
 #, python-brace-format
@@ -628,7 +630,7 @@ msgstr "Labas!\n"
 
 #: Dredd-v3/cogs/events/events.py:236
 msgid "Blacklist issue occured!"
-msgstr ""
+msgstr "Įvyko Juodasis sąrašas klaidą!"
 
 #: Dredd-v3/cogs/events/events.py:239
 #, python-brace-format
