@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-21 23:18\n"
+"PO-Revision-Date: 2021-06-26 14:58\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -20,37 +20,38 @@ msgstr ""
 #: Dredd-v3/utils/btime.py:112
 #, python-brace-format
 msgid "{0} The time you've provided is in the past"
-msgstr ""
+msgstr "{0} Η ώρα που δώσατε είναι στο παρελθόν"
 
 #: Dredd-v3/utils/btime.py:126
 msgid "This time is in the past."
-msgstr ""
+msgstr "Αυτή η ώρα είναι στο παρελθόν."
 
 #: Dredd-v3/utils/btime.py:130
 msgid "Missing argument after the time."
-msgstr ""
+msgstr "Λείπει η παράμετρος μετά την ώρα."
 
 #: Dredd-v3/utils/btime.py:161
 msgid "Time Error! try \"in an hour\" or \"5 days\"."
-msgstr ""
+msgstr "Λάθος ώρας! Προσπάθισε \"in an hour\" (σε μία ώρα) ή \"5 days\" (σε 5 ημέρες)."
 
 #: Dredd-v3/utils/btime.py:171
 msgid "Expected quote before time input..."
-msgstr ""
+msgstr "Αναμενόμενη αναφορά πριν από την εισαγωγή χρόνου..."
 
 #: Dredd-v3/utils/btime.py:174
 msgid "If the time is quoted, you must unquote it."
-msgstr ""
+msgstr "Αν η ώρα είναι αναφερόμενη, θα πρέπει να την απομνημονεύσετε (να αφαιρέσετε \" \")."
 
 #: Dredd-v3/utils/btime.py:185
 msgid "Sorry, but I did not understand what you meant. You probably didn't specify the time or you specified it in another language (not English)"
-msgstr ""
+msgstr "Συγγνώμη, αλλά δεν κατάλαβα τι εννοείτε. Πιθανώς δεν καθορίσατε τον χρόνο ή τον καθορίσατε σε άλλη γλώσσα (όχι αγγλικά)"
 
 #: Dredd-v3/utils/checks.py:78
 #, python-brace-format
 msgid "Oops!\n"
 "Error occured while fetching your vote: {0}"
-msgstr ""
+msgstr "Ωχ!\n"
+"Δεν μπορέσαμε να καταγράψουμε την ψήφο σας: {0}"
 
 #: Dredd-v3/utils/checks.py:85
 #, python-brace-format
