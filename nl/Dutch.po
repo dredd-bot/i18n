@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-21 23:37\n"
+"PO-Revision-Date: 2021-06-29 17:29\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -106,78 +106,78 @@ msgstr "{0} U moet eerst in een spraakkanaal zijn."
 #: Dredd-v3/utils/checks.py:320
 #, python-brace-format
 msgid "{0} I'm not in the voice channel."
-msgstr ""
+msgstr "{0} Ik zit niet in het spraakkanaal."
 
 #: Dredd-v3/utils/checks.py:322
 #, python-brace-format
 msgid "{0} You need to be in the same voice channel with me."
-msgstr ""
+msgstr "{0} U moet in hetzelfde spraakkanaal met mij zijn."
 
 #: Dredd-v3/utils/checks.py:324
 #, python-brace-format
 msgid "{0} I'm missing permissions in your voice channel. Make sure you have given me the correct permissions!"
-msgstr ""
+msgstr "{0} Ik mis machtigingen in je spraakkanaal. Zorg ervoor dat je me de juiste machtigingen hebt gegeven!"
 
 #: Dredd-v3/utils/checks.py:326
 #, python-brace-format
 msgid "{0} I'm not playing anything."
-msgstr ""
+msgstr "{0} Ik ben niks aan het afspelen."
 
 #: Dredd-v3/utils/checks.py:328
 #, python-brace-format
 msgid "{0} Player is not paused."
-msgstr ""
+msgstr "{0} Speler is niet gepauzeerd."
 
 #: Dredd-v3/utils/checks.py:330
 #, python-brace-format
 msgid "{0} Player is already paused."
-msgstr ""
+msgstr "{0} De speler is al gepauzeerd."
 
 #: Dredd-v3/utils/checks.py:343 Dredd-v3/utils/checks.py:349
 msgid "This member has not been banned before."
-msgstr ""
+msgstr "Dit lid is nog niet eerder gebanned."
 
 #: Dredd-v3/utils/checks.py:366
 msgid "This user is already banned."
-msgstr ""
+msgstr "Deze gebruiker is al gebanned."
 
 #: Dredd-v3/utils/checks.py:380
 #, python-brace-format
 msgid "Valid options are {0}"
-msgstr ""
+msgstr "Geldige opties zijn {0}"
 
 #: Dredd-v3/utils/checks.py:407
 #, python-brace-format
 msgid "Valid values are {0}"
-msgstr ""
+msgstr "Geldige waarden zijn {0}"
 
 #: Dredd-v3/utils/default.py:82 Dredd-v3/utils/default.py:87
 #: Dredd-v3/utils/default.py:92
 #, python-brace-format
 msgid "Next level in **{0}** boosts"
-msgstr ""
+msgstr "Volgend level in **{0}** boosts"
 
 #: Dredd-v3/utils/default.py:191
 msgid "Owner of Dredd"
-msgstr ""
+msgstr "Eigenaar van Dredd"
 
 #: Dredd-v3/utils/default.py:192
 msgid "Admin of Dredd"
-msgstr ""
+msgstr "Admin van Dredd"
 
 #: Dredd-v3/utils/default.py:193
 #, python-brace-format
 msgid "Staff member in the [support server]({0}) or Dredd's contributor"
-msgstr ""
+msgstr "Staflid in de [support server]({0}) of bijdrager"
 
 #: Dredd-v3/utils/default.py:194
 msgid "Dredd sponsor"
-msgstr ""
+msgstr "Dredd sponsor"
 
 #: Dredd-v3/utils/default.py:195
 #, python-brace-format
 msgid "Booster of [Dredd's support server]({0}) or Donator"
-msgstr ""
+msgstr "Booster van [Dredd's support server] ({0}) of Donator"
 
 #: Dredd-v3/utils/default.py:196
 msgid "Dredd Partner"
