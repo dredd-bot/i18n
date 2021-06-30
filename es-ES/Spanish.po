@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-26 12:31\n"
+"PO-Revision-Date: 2021-06-30 19:56\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -312,7 +312,7 @@ msgstr ""
 
 #: Dredd-v3/utils/rtfm.py:182
 msgid "I could not find anything, sorry."
-msgstr ""
+msgstr "No he podido encontrar nada, lo siento."
 
 #: Dredd-v3/utils/rtfm.py:185
 #, python-brace-format
@@ -898,7 +898,9 @@ msgstr "{0} abandonó el servidor"
 msgid "**Member:** {0} ({1})\n"
 "**Joined server:** {2}\n"
 "**Roles:** {3}"
-msgstr ""
+msgstr "**Miembro:** {0} ({1})\n"
+"**Se unió al servidor:** {2}\n"
+"**Roles:** {3}"
 
 #: Dredd-v3/cogs/events/logs.py:425
 msgid "No roles."
@@ -911,7 +913,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/logs.py:467
 msgid "Automatic Mute | Mute evading"
-msgstr ""
+msgstr "Silencio automático | Evasión de silencio"
 
 #: Dredd-v3/cogs/events/logs.py:592
 #, python-brace-format
@@ -925,7 +927,10 @@ msgid "**Member(s):**\n"
 "{0}{1}\n"
 "**Moderator:** {2} ({3})\n"
 "**Reason:** {4}"
-msgstr ""
+msgstr "**Miembro(s):** \n"
+"{0}{1}\n"
+"**Moderador:** {2} ({3})\n"
+"**Razón:** {4}"
 
 #: Dredd-v3/cogs/events/logs.py:624
 #, python-brace-format
@@ -945,7 +950,10 @@ msgid "**Member(s):**\n"
 "{0}\n"
 "**Moderator:** {1} ({2})\n"
 "**Reason:** {3}"
-msgstr ""
+msgstr "**Miembro(s):** \n"
+"{0}\n"
+"**Moderador:** {1} ({2})\n"
+"**Razón:** {3}"
 
 #: Dredd-v3/cogs/events/logs.py:686
 #, python-brace-format
@@ -1010,7 +1018,7 @@ msgstr "*El mensaje original fue eliminado o me hacen falta permisos*\n\n"
 
 #: Dredd-v3/cogs/automod.py:36
 msgid "Automod is disabled in this server, enable it by using `automod toggle` command"
-msgstr ""
+msgstr "La automoderación está desactivada en este servidor, actívalo usando el comando `automod toogle`"
 
 #: Dredd-v3/cogs/automod.py:46 Dredd-v3/cogs/automod.py:86
 msgid "No"
@@ -1020,13 +1028,13 @@ msgstr "No"
 #: Dredd-v3/cogs/automod.py:58 Dredd-v3/cogs/automod.py:61
 #: Dredd-v3/cogs/automod.py:65 Dredd-v3/cogs/automod.py:68
 msgid "Kick Member"
-msgstr ""
+msgstr "Expulsar Miembro"
 
 #: Dredd-v3/cogs/automod.py:48 Dredd-v3/cogs/automod.py:54
 #: Dredd-v3/cogs/automod.py:58 Dredd-v3/cogs/automod.py:61
 #: Dredd-v3/cogs/automod.py:65 Dredd-v3/cogs/automod.py:68
 msgid "Ban Member"
-msgstr ""
+msgstr "Banear Miembro"
 
 #: Dredd-v3/cogs/automod.py:48
 msgid "Kick All Members"
@@ -1157,7 +1165,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:218
 msgid "Anti link is already disabled in this server."
-msgstr ""
+msgstr "Anti link ya está deshabilitado en este servidor."
 
 #: Dredd-v3/cogs/automod.py:221
 #, python-brace-format
