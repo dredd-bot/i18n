@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-30 20:53\n"
+"PO-Revision-Date: 2021-06-30 21:59\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2657,22 +2657,22 @@ msgstr "{0} Se estableció un role de moderador personalizado a {1}"
 #: Dredd-v3/cogs/manage.py:1124
 #, python-brace-format
 msgid "{0} Changed a custom moderator role to {1}"
-msgstr ""
+msgstr "{0} Se cambió un role de moderador personalizado a {1}"
 
 #: Dredd-v3/cogs/manage.py:1144
 #, python-brace-format
 msgid "{0} I've reset your admin role."
-msgstr ""
+msgstr "{0} He reiniciado tu role de administrador."
 
 #: Dredd-v3/cogs/manage.py:1146
 #, python-brace-format
 msgid "{0} You don't have a custom admin role setup."
-msgstr ""
+msgstr "{0} No tienes un role de administrador personalizado configurado."
 
 #: Dredd-v3/cogs/manage.py:1148
 #, python-brace-format
 msgid "{0} Role was not found, if you're trying to reset the custom admin role, you can use `reset` arg."
-msgstr ""
+msgstr "{0} El role no fue encontrado, si estás intentando restablecer el rol de administrador personalizado, puedes usar el argumento `reset`."
 
 #: Dredd-v3/cogs/manage.py:1152
 #, python-brace-format
@@ -2682,61 +2682,61 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:1160
 #, python-brace-format
 msgid "{0} Set a custom admin role to {1}"
-msgstr ""
+msgstr "{0} Se estableció un role de administrador personalizado a {1}"
 
 #: Dredd-v3/cogs/manage.py:1164
 #, python-brace-format
 msgid "{0} Changed a custom admin role to {1}"
-msgstr ""
+msgstr "{0} Se cambió un role de administrador personalizado a {1}"
 
 #: Dredd-v3/cogs/manage.py:1178 Dredd-v3/cogs/manage.py:1213
 #, python-brace-format
 msgid "{0} {1} command was not found."
-msgstr ""
+msgstr "{0} {1} comando no encontrado."
 
 #: Dredd-v3/cogs/manage.py:1183
 #, python-brace-format
 msgid "{0} That command is already disabled."
-msgstr ""
+msgstr "{0} Ese comando ya está desactivado."
 
 #: Dredd-v3/cogs/manage.py:1218
 #, python-brace-format
 msgid "{0} That command is not disabled."
-msgstr ""
+msgstr "{0} Ese comando no está desactivado."
 
 #: Dredd-v3/cogs/manage.py:1248 Dredd-v3/cogs/manage.py:1277
 #, python-brace-format
 msgid "{0} {1} category was not found."
-msgstr ""
+msgstr "{0} {1} categoría no encontrada."
 
 #: Dredd-v3/cogs/manage.py:1254
 #, python-brace-format
 msgid "{0} You can't disable that category!"
-msgstr ""
+msgstr "{0} ¡No puedes desactivar esa categoría!"
 
 #: Dredd-v3/cogs/manage.py:1257
 #, python-brace-format
 msgid "{0} That category is already disabled."
-msgstr ""
+msgstr "{0} Esa categoría ya está desactivada."
 
 #: Dredd-v3/cogs/manage.py:1261
 #, python-brace-format
 msgid "{0} Category {1} was successfully disabled"
-msgstr ""
+msgstr "{0} La categoría {1} fue desactivada con éxito"
 
 #: Dredd-v3/cogs/manage.py:1282
 #, python-brace-format
 msgid "{0} That category is not disabled."
-msgstr ""
+msgstr "{0} Esa categoría no está desactivada."
 
 #: Dredd-v3/cogs/manage.py:1286
 #, python-brace-format
 msgid "{0} Category {1} was successfully re-enabled"
-msgstr ""
+msgstr "{0} La categoría {1} fue reactivada con éxito"
 
 #: Dredd-v3/cogs/manage.py:1314
 msgid "Do you want me to use an existing message or a new one? `new` | `existing` | `n` | `e` | `old` | `cancel` *You have 60 seconds*"
-msgstr ""
+msgstr "¿Quieres que utilice un mensaje existente o uno nuevo? `new` | `existing ` | `n` | `e` | `old | `cancel` *Tienes 60 segundos*"
 
 #: Dredd-v3/cogs/manage.py:1325 Dredd-v3/cogs/manage.py:1344
 #: Dredd-v3/cogs/manage.py:1355 Dredd-v3/cogs/manage.py:1374
@@ -2744,25 +2744,25 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:1451 Dredd-v3/cogs/manage.py:1468
 #: Dredd-v3/cogs/manage.py:1480 Dredd-v3/cogs/manage.py:1500
 msgid "Cancelling the command. Deleting this message in 15 seconds"
-msgstr ""
+msgstr "Cancelando el comando. Eliminando este mensaje en 15 segundos"
 
 #: Dredd-v3/cogs/manage.py:1328 Dredd-v3/cogs/manage.py:1347
 #: Dredd-v3/cogs/manage.py:1385 Dredd-v3/cogs/manage.py:1454
 #: Dredd-v3/cogs/manage.py:1471
 msgid "Invalid answer, try again."
-msgstr ""
+msgstr "Respuesta inválida, intenta de nuevo."
 
 #: Dredd-v3/cogs/manage.py:1334
 msgid "Should the message be an embed? `yes` | `y` | `no` | `n` | `cancel`"
-msgstr ""
+msgstr "¿Debe el mensaje ser un embed? `yes` | `y` | `no` | `n` | `cancel`"
 
 #: Dredd-v3/cogs/manage.py:1351
 msgid "What channel should I send the message to?"
-msgstr ""
+msgstr "¿A qué canal debo enviar el mensaje?"
 
 #: Dredd-v3/cogs/manage.py:1359
 msgid "I can't send messages in that channel, please give me permissions to send messages in that channel or choose another channel."
-msgstr ""
+msgstr "No puedo enviar mensajes en ese canal, por favor dame permisos para enviar mensajes en ese canal o elige otro canal."
 
 #: Dredd-v3/cogs/manage.py:1361
 msgid "I can't embed links in that channel, please give me permissions to embed links there or choose another channel in which I can embed links."
@@ -2790,7 +2790,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:1409
 msgid "Invalid emoji, try again."
-msgstr ""
+msgstr "Emoji inválido, intenta de nuevo."
 
 #: Dredd-v3/cogs/manage.py:1413
 #, python-brace-format
