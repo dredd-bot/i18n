@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-21 23:37\n"
+"PO-Revision-Date: 2021-07-01 16:28\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -190,7 +190,7 @@ msgstr ""
 
 #: Dredd-v3/utils/default.py:199
 msgid "Dredd Early Supporter"
-msgstr ""
+msgstr "Dredd Early Supporter"
 
 #: Dredd-v3/utils/default.py:200
 msgid "Dredd super early supporter"
@@ -231,7 +231,7 @@ msgstr "{0} gelöschte Nachrichten\n"
 #: Dredd-v3/utils/default.py:352
 #, python-brace-format
 msgid "{0} Moderation\n"
-msgstr ""
+msgstr "{0} Moderation\n"
 
 #: Dredd-v3/utils/default.py:353
 #, python-brace-format
@@ -285,7 +285,7 @@ msgstr ""
 
 #: Dredd-v3/utils/default.py:520
 msgid "mute"
-msgstr ""
+msgstr "mute"
 
 #: Dredd-v3/utils/default.py:521
 msgid "temp-mute"
