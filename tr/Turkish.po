@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-07-01 15:25\n"
+"PO-Revision-Date: 2021-07-01 16:28\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -998,7 +998,9 @@ msgstr ""
 msgid "**Member(s):**\n"
 "{0}{1}\n"
 "**Moderator:** {2} ({3})\n"
-msgstr ""
+msgstr "**Üye(ler):**\n"
+"{0}{1}\n"
+"**Moderatör:** {2} ({3})\n"
 
 #: Dredd-v3/cogs/other/tasks.py:142
 #, python-brace-format
@@ -1082,7 +1084,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:84 Dredd-v3/cogs/automod.py:85
 msgid "Disabled"
-msgstr ""
+msgstr "Devre dışı"
 
 #: Dredd-v3/cogs/automod.py:87
 #, python-brace-format
@@ -1099,7 +1101,7 @@ msgstr ""
 #: Dredd-v3/cogs/automod.py:100
 #, python-brace-format
 msgid "{0} Automod Settings"
-msgstr ""
+msgstr "{0} Otomatik Moderasyon Ayarları"
 
 #: Dredd-v3/cogs/automod.py:114 Dredd-v3/cogs/automod.py:133
 #: Dredd-v3/cogs/automod.py:440 Dredd-v3/cogs/automod.py:452
