@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-06-26 17:09\n"
+"PO-Revision-Date: 2021-07-02 10:08\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -506,32 +506,32 @@ msgstr "{0} Tik stiprintojai gali naudoti šią komandą"
 #: Dredd-v3/cogs/events/errors.py:149
 #, python-brace-format
 msgid "{0} You've used invalid permissions flag, please make sure you're using the correct one."
-msgstr ""
+msgstr "{0} Tu panaudojai neegzistuojantį leidimą, dar kartą patikrink ar tikrai panaudojai teisingą leidimą."
 
 #: Dredd-v3/cogs/events/errors.py:157
 #, python-brace-format
 msgid "{0} This command has already been used by someone in this guild or channel."
-msgstr ""
+msgstr "{0} Ši komanda jau buvo panaudota kažkieno šiame serveryje ar kanale."
 
 #: Dredd-v3/cogs/events/errors.py:163
 #, python-brace-format
 msgid "{0} | This command can only be used in direct messages!"
-msgstr ""
+msgstr "{0} | Ši komanda gali būti panaudota tik privačiose žinutėse!"
 
 #: Dredd-v3/cogs/events/errors.py:168
 #, python-brace-format
 msgid "{0} | This command can't be used in direct messages!"
-msgstr ""
+msgstr "{0} | Ši komanda negali būti panaudota privačiose žinutėse!"
 
 #: Dredd-v3/cogs/events/errors.py:177
 #, python-brace-format
 msgid "{0} This command is marked as NSFW that's why I cannot let you use it in this channel."
-msgstr ""
+msgstr "{0} Ši komanda turi suaugusiųjų turinio, todėl aš negaliu tau leisti jos naudoti šiame kanale."
 
 #: Dredd-v3/cogs/events/errors.py:187
 #, python-brace-format
 msgid "{0} This command can only be used by the bot developers."
-msgstr ""
+msgstr "{0} Šią komandą gali naudoti tik bot'o kūrėjai."
 
 #: Dredd-v3/cogs/events/errors.py:205
 #, python-brace-format
@@ -546,28 +546,28 @@ msgstr "{0} Man trūksta {1} leidimų"
 #: Dredd-v3/cogs/events/errors.py:242
 #, python-brace-format
 msgid "{0} | You're on cooldown, try again in **{1}** seconds."
-msgstr ""
+msgstr "{0} | Ne taip greitai! Bandyk po **{1}** sekundžių."
 
 #: Dredd-v3/cogs/events/errors.py:245
 #, python-brace-format
 msgid "{0} | You're missing an argument - **{1}**"
-msgstr ""
+msgstr "{0} | Tu nepridėjai šio argumento - **{1}**"
 
 #: Dredd-v3/cogs/events/errors.py:249
 #, python-brace-format
 msgid "{0} | Looks like you haven't closed the quote"
-msgstr ""
+msgstr "{0} | Pasirodo, tu neuždarei kabučių"
 
 #. no other way to prevent this
 #: Dredd-v3/cogs/events/errors.py:252
 #, python-brace-format
 msgid "{0} | Failed to add the reactions, please reinvoke the command."
-msgstr ""
+msgstr "{0} | Nepavyko pridėti reakcijų, pabandyk pakartoti komandą."
 
 #: Dredd-v3/cogs/events/errors.py:258
 #, python-brace-format
 msgid "{0} I'm missing permissions to embed links."
-msgstr ""
+msgstr "{0} Aš negaliu siųsti embed link'ų."
 
 #: Dredd-v3/cogs/events/errors.py:306
 #, python-brace-format
@@ -578,7 +578,8 @@ msgstr "{0} Nežinoma klaida | #{1}"
 #, python-brace-format
 msgid "Command `{0}` raised an error, which I reported to my developer(s).\n"
 "My developer(s) will be working to fixing this error ASAP. Meanwhile, you can [join the support server]({1}) for updates."
-msgstr ""
+msgstr "Komanda `{0}` iškėlė klaidą, kurią aš pranešiau savo kūrėjui(-ams).\n"
+"Mano kūrėjas(-ai) bandys sutaisyti šią klaidą kuo greičiau. Tuo tarpu, gali [prisijungti į pagalbos serverį]({1}) dėl naujienų."
 
 #: Dredd-v3/cogs/events/errors.py:310 Dredd-v3/cogs/events/errors.py:332
 msgid "Error info:"
@@ -604,7 +605,7 @@ msgstr "Mano priešdėlis šiame serveryje yra `{0}` arba {1}!"
 #: Dredd-v3/cogs/events/events.py:99
 #, python-brace-format
 msgid "I appreciate you for using me! You can also use my commands here in DMs with a prefix `!`, but if you aren't using any commands - the DM will be logged in my [support server]({0}), so please don't send me any sensitive information."
-msgstr ""
+msgstr "Dėkoju, jog pasirinkote mane! Taip pat galite naudoti mano komandas čia ir privačiose žinutėse su prefix'u `!`, bet jeigu nenaudoji jokių komandų - žinutė bus nusiųsta mano [pagalbos serveryje]({0}), taigi nesiųsk man jokios jautrios informacijos."
 
 #: Dredd-v3/cogs/events/events.py:113
 msgid "Hey! Not sure if you know yet, but my prefix in DM's is `!`"
@@ -943,7 +944,7 @@ msgstr "**Narys(-iai):**\n"
 #: Dredd-v3/cogs/events/logs.py:624
 #, python-brace-format
 msgid "{0} {1} Member(s) hack-banned"
-msgstr ""
+msgstr "{0} {1} Narys(-iai) buvo užbluokotas(-i)"
 
 #: Dredd-v3/cogs/events/logs.py:655
 #, python-brace-format
