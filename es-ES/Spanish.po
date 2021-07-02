@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 17:32+0200\n"
-"PO-Revision-Date: 2021-07-02 15:48\n"
+"PO-Revision-Date: 2021-07-02 16:49\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -64,7 +64,7 @@ msgstr "Ocurrió un error al intentar recuperar tu voto, se ha enviado el error 
 
 #: Dredd-v3/utils/checks.py:191
 msgid "This command is in it's testing phase, you can join the support server if you want to apply your guild to be a testing guild or know when the command will be available."
-msgstr ""
+msgstr "Este comando está en su fase de prueba, puedes unirte al servidor de soporte si quieres aplicar para que tu servidor sea un servidor de pruebas o para saber cuándo el comando estará disponible."
 
 #: Dredd-v3/utils/checks.py:203
 #, python-brace-format
@@ -85,7 +85,7 @@ msgstr "Dredd está bajo mantenimiento!"
 #: Dredd-v3/utils/checks.py:253
 #, python-brace-format
 msgid "{0} | `{1}` and it's corresponding subcommands are currently disabled for: `{2}`"
-msgstr ""
+msgstr "{0} | `{1}` y sus subcomandos correspondientes están actualmente deshabilitados por: `{2}`"
 
 #: Dredd-v3/utils/checks.py:256
 #, python-brace-format
@@ -171,11 +171,11 @@ msgstr "Miembro del staff en el [servidor de soporte]({0}) o contribuidor de Dre
 
 #: Dredd-v3/utils/default.py:194
 msgid "Dredd's Translator"
-msgstr ""
+msgstr "Traductores de Dredd"
 
 #: Dredd-v3/utils/default.py:195
 msgid "Dredd's Sponsor"
-msgstr ""
+msgstr "Patrocinadores de Dredd"
 
 #: Dredd-v3/utils/default.py:196
 #, python-brace-format
@@ -184,7 +184,7 @@ msgstr "Booster del [Servidor de soporte de Dredd]({0}) o Donador"
 
 #: Dredd-v3/utils/default.py:197
 msgid "Dredd's Partner"
-msgstr ""
+msgstr "Asociados de Dredd"
 
 #: Dredd-v3/utils/default.py:198
 msgid "Dredd Bug Hunter"
@@ -1003,7 +1003,7 @@ msgstr "*El mensaje original fue eliminado o me hacen falta permisos*\n\n"
 
 #: Dredd-v3/cogs/other/tasks.py:215
 msgid "No one has connected to a voice channel in over 12 hours, to save up bot's resources I'll be destroying the player and leaving the voice channel."
-msgstr ""
+msgstr "Nadie se ha conectado a un canal de voz en más de 12 horas, para ahorrar los recursos del bot destruiré el reproductor y abandonaré el canal de voz."
 
 #: Dredd-v3/cogs/automod.py:37
 msgid "Automod is disabled in this server, enable it by using `automod toggle` command"
@@ -1098,11 +1098,11 @@ msgstr "\n"
 
 #: Dredd-v3/cogs/automod.py:93
 msgid "Manage automod in the server"
-msgstr ""
+msgstr "Administra la automoderación en el servidor"
 
 #: Dredd-v3/cogs/automod.py:99
 msgid " Manage automod state in the server "
-msgstr ""
+msgstr " Administra el estado de la automoderación en el servidor "
 
 #: Dredd-v3/cogs/automod.py:103
 #, python-brace-format
@@ -1111,11 +1111,11 @@ msgstr "{0} Configuraciones de Automoderaciones"
 
 #: Dredd-v3/cogs/automod.py:107
 msgid "Toggle automod on or off"
-msgstr ""
+msgstr "Cambia la automoderación a encendido/apagado"
 
 #: Dredd-v3/cogs/automod.py:113
 msgid " Toggle automod on or off "
-msgstr ""
+msgstr " Cambia la automoderación a encendido/apagado "
 
 #: Dredd-v3/cogs/automod.py:119 Dredd-v3/cogs/automod.py:138
 #: Dredd-v3/cogs/automod.py:455 Dredd-v3/cogs/automod.py:482
@@ -1141,11 +1141,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:144
 msgid "Set global automod's value in the server"
-msgstr ""
+msgstr "Establece el valor de la automoderación global en el servidor"
 
 #: Dredd-v3/cogs/automod.py:150
 msgid " Set global automod's value in the server "
-msgstr ""
+msgstr " Establece el valor de la automoderación global en el servidor "
 
 #: Dredd-v3/cogs/automod.py:154 Dredd-v3/cogs/automod.py:211
 #: Dredd-v3/cogs/automod.py:243 Dredd-v3/cogs/automod.py:276
@@ -1174,11 +1174,11 @@ msgstr "{0} Establecido correctamente el valor de la auto moderación a **{1}**"
 
 #: Dredd-v3/cogs/automod.py:200
 msgid "Toggle anti links on or off"
-msgstr ""
+msgstr "Cambia anti links a encendido/apagado"
 
 #: Dredd-v3/cogs/automod.py:206
 msgid " Toggle anti links on or off "
-msgstr ""
+msgstr " Cambia anti links a encendido/apagado "
 
 #: Dredd-v3/cogs/automod.py:223
 #, python-brace-format
@@ -1202,11 +1202,11 @@ msgstr " Serán silenciados/baneados por defecto durante 12 horas."
 
 #: Dredd-v3/cogs/automod.py:232
 msgid "Toggle anti invites on or off"
-msgstr ""
+msgstr "Cambia anti invitaciones a encendido/apagado"
 
 #: Dredd-v3/cogs/automod.py:238
 msgid " Toggle anti invites on or off "
-msgstr ""
+msgstr " Cambia anti invitaciones a encendido/apagado "
 
 #: Dredd-v3/cogs/automod.py:255
 #, python-brace-format
@@ -1276,11 +1276,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:343
 msgid "Toggle anti spam on or off"
-msgstr ""
+msgstr "Cambia anti spam a encendido/apagado"
 
 #: Dredd-v3/cogs/automod.py:349
 msgid " Toggle anti spam on or off "
-msgstr ""
+msgstr " Cambia anti spam a encendido/apagado "
 
 #: Dredd-v3/cogs/automod.py:366
 #, python-brace-format
@@ -1298,11 +1298,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:376
 msgid "Toggle if automod should ignore server moderators"
-msgstr ""
+msgstr "Cambia si la automoderación deber ignorar a los moderadores del servidor"
 
 #: Dredd-v3/cogs/automod.py:382
 msgid " Toggle whether or not bot should ignore members with manage messages permissions (moderators) "
-msgstr ""
+msgstr " Cambia si el bot debe ignorar o no a los miembros con permisos de gestionar mensajes (moderadores) "
 
 #: Dredd-v3/cogs/automod.py:391
 #, python-brace-format
@@ -1316,11 +1316,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:398
 msgid "Toggle if automod should delete messages when punishing the user(s)"
-msgstr ""
+msgstr "Cambia si la automoderación debe eliminar los mensajes al castigar al usuario(s)"
 
 #: Dredd-v3/cogs/automod.py:404
 msgid " Toggle whether or not bot should delete the messages when punishing the user(s) "
-msgstr ""
+msgstr " Cambia si la automoderación debe eliminar los mensajes al castigar al usuario(s) "
 
 #: Dredd-v3/cogs/automod.py:413
 #, python-brace-format
@@ -1442,20 +1442,21 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:535
 msgid "Manage automod's whitelist"
-msgstr ""
+msgstr "Administra la lista blanca de la automoderación"
 
 #: Dredd-v3/cogs/automod.py:541
 msgid " Base command for managing automod's whitelist "
-msgstr ""
+msgstr " Comando base para administrar la lista blanca de la automoderación "
 
 #: Dredd-v3/cogs/automod.py:545
 msgid "A list of whitelisted channels and roles from automod"
-msgstr ""
+msgstr "Una lista de canales y roles en la lista blanca de la automoderación"
 
 #: Dredd-v3/cogs/automod.py:551
 msgid " A list of roles and channels that are whitelisted from the automod.\n"
 "        `<what>`: *channels*, *roles* "
-msgstr ""
+msgstr " Una lista de roles y canales que están en la lista blanca de la automoderación.\n"
+"        `<what>`: *canales*, *roles* "
 
 #: Dredd-v3/cogs/automod.py:563
 #, python-brace-format
@@ -1477,11 +1478,11 @@ msgstr "Lista de los roles en la lista blanca"
 
 #: Dredd-v3/cogs/automod.py:587
 msgid "Add a channel to automod's whitelist "
-msgstr ""
+msgstr "Añade un canal a la lista blanca de automoderación "
 
 #: Dredd-v3/cogs/automod.py:593
 msgid " Add a channel to automod's whitelist "
-msgstr ""
+msgstr " Añade un canal a la lista blanca de automoderación "
 
 #: Dredd-v3/cogs/automod.py:604 Dredd-v3/cogs/automod.py:611
 #, python-brace-format
@@ -1495,11 +1496,11 @@ msgstr "El canal {0} ya está añadido en la lista blanca."
 
 #: Dredd-v3/cogs/automod.py:614
 msgid "Add a role to automod's whitelist"
-msgstr ""
+msgstr "Añade un role a la lista blanca de automoderación"
 
 #: Dredd-v3/cogs/automod.py:620
 msgid " Add a role to automod's whitelist "
-msgstr ""
+msgstr " Añade un role a lista blanca de automoderación "
 
 #: Dredd-v3/cogs/automod.py:631 Dredd-v3/cogs/automod.py:638
 #, python-brace-format
@@ -1513,57 +1514,57 @@ msgstr "El rol **{0}** ya está añadido en la lista blanca."
 
 #: Dredd-v3/cogs/automod.py:641
 msgid "Remove a role from automod's whitelist"
-msgstr ""
+msgstr "Remueve un role de la lista blanca de automoderación"
 
 #: Dredd-v3/cogs/automod.py:647
 msgid " Remove a role from automod's whitelist "
-msgstr ""
+msgstr " Remueve un role de la lista blanca de automoderación "
 
 #: Dredd-v3/cogs/automod.py:656
 #, python-brace-format
 msgid "{0} It looks like there are no roles whitelisted in the server."
-msgstr ""
+msgstr "{0} Parece que no hay roles en la lista blanca en el servidor."
 
 #: Dredd-v3/cogs/automod.py:662
 #, python-brace-format
 msgid "Role **{0}** is not in the whitelist."
-msgstr ""
+msgstr "El role **{0}** no está en la lista blanca."
 
 #: Dredd-v3/cogs/automod.py:666
 #, python-brace-format
 msgid "{0} Removed {1} from the roles whitelist."
-msgstr ""
+msgstr "{0} He eliminado {1} de la lista blanca de roles."
 
 #: Dredd-v3/cogs/automod.py:669
 msgid "Remove a channel from automod's whitelist "
-msgstr ""
+msgstr "Elimina un canal de la lista blanca de la automoderación "
 
 #: Dredd-v3/cogs/automod.py:675
 msgid " Remove a channel from automod's whitelist "
-msgstr ""
+msgstr " Elimina un canal de la lista blanca de la automoderación "
 
 #: Dredd-v3/cogs/automod.py:684
 #, python-brace-format
 msgid "{0} It looks like there are no channels whitelisted in the server."
-msgstr ""
+msgstr "{0} Parece que no hay canales en la lista blanca en el servidor."
 
 #: Dredd-v3/cogs/automod.py:689
 #, python-brace-format
 msgid "Channel {0} is not in the whitelist."
-msgstr ""
+msgstr "El canal {0} no está en la lista blanca."
 
 #: Dredd-v3/cogs/automod.py:693
 #, python-brace-format
 msgid "{0} Removed {1} from the channels whitelist."
-msgstr ""
+msgstr "{0} He eliminado {1} de la lista blanca de canales."
 
 #: Dredd-v3/cogs/boosters.py:29
 msgid "Set your own custom prefix"
-msgstr ""
+msgstr "Establece su propio prefijo personalizado"
 
 #: Dredd-v3/cogs/boosters.py:33
 msgid " Set your own custom prefix which you'll be able to access everywhere "
-msgstr ""
+msgstr " Establece tu propio prefijo personalizado al que podrás acceder en todas partes "
 
 #: Dredd-v3/cogs/boosters.py:36
 #, python-brace-format
@@ -1573,7 +1574,7 @@ msgstr "{0} El prefijo personalizado no puede tener más de 7 caracteres."
 #: Dredd-v3/cogs/boosters.py:42
 #, python-brace-format
 msgid "{0} Set your custom prefix to `{1}`."
-msgstr ""
+msgstr "{0} Se ha establecido tu prefijo personalizado a `{1}`."
 
 #: Dredd-v3/cogs/boosters.py:46
 msgid "Manage your social medias"
