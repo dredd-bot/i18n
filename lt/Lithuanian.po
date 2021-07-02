@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 15:32+0200\n"
-"PO-Revision-Date: 2021-07-02 10:08\n"
+"PO-Revision-Date: 2021-07-02 11:08\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -531,7 +531,7 @@ msgstr "{0} Ši komanda turi suaugusiųjų turinio, todėl aš negaliu tau leist
 #: Dredd-v3/cogs/events/errors.py:187
 #, python-brace-format
 msgid "{0} This command can only be used by the bot developers."
-msgstr "{0} Šią komandą gali naudoti tik bot'o kūrėjai."
+msgstr "{0} Šią komandą gali naudoti tik boto kūrėjai."
 
 #: Dredd-v3/cogs/events/errors.py:205
 #, python-brace-format
@@ -567,7 +567,7 @@ msgstr "{0} | Nepavyko pridėti reakcijų, pabandyk pakartoti komandą."
 #: Dredd-v3/cogs/events/errors.py:258
 #, python-brace-format
 msgid "{0} I'm missing permissions to embed links."
-msgstr "{0} Aš negaliu siųsti embed link'ų."
+msgstr "{0} Aš negaliu siųsti embed nuorodų."
 
 #: Dredd-v3/cogs/events/errors.py:306
 #, python-brace-format
@@ -579,7 +579,7 @@ msgstr "{0} Nežinoma klaida | #{1}"
 msgid "Command `{0}` raised an error, which I reported to my developer(s).\n"
 "My developer(s) will be working to fixing this error ASAP. Meanwhile, you can [join the support server]({1}) for updates."
 msgstr "Komanda `{0}` iškėlė klaidą, kurią aš pranešiau savo kūrėjui(-ams).\n"
-"Mano kūrėjas(-ai) bandys sutaisyti šią klaidą kuo greičiau. Tuo tarpu, gali [prisijungti į pagalbos serverį]({1}) dėl naujienų."
+"Mano kūrėjas(-ai) bandys kuo greičiau sutaisyti šią klaidą. Tuo tarpu, galite [prisijungti į pagalbos serverį]({1}) dėl naujienų."
 
 #: Dredd-v3/cogs/events/errors.py:310 Dredd-v3/cogs/events/errors.py:332
 msgid "Error info:"
@@ -967,7 +967,7 @@ msgstr "**Narys(-iai):**\n"
 #: Dredd-v3/cogs/events/logs.py:686
 #, python-brace-format
 msgid "{0} {1} Member(s) softbanned"
-msgstr ""
+msgstr "{0} {1} Narys(-iai) buvo užblokuoti ir atblokuoti"
 
 #: Dredd-v3/cogs/events/logs.py:722
 #, python-brace-format
@@ -1007,7 +1007,7 @@ msgstr "{0} {1} Nariui(-ams) leista kalbėti balso kanale"
 #: Dredd-v3/cogs/events/logs.py:956
 #, python-brace-format
 msgid "{0} {1} Member(s) dehoisted"
-msgstr ""
+msgstr "{0} {1} Narys(-iai) nuleisti"
 
 #: Dredd-v3/cogs/events/logs.py:957
 #, python-brace-format
@@ -1081,7 +1081,8 @@ msgstr "Laikinai Užblokuoti Narį ({0})"
 #, python-brace-format
 msgid "\n"
 "**Anti-Raid Logging Channel:** {0}"
-msgstr ""
+msgstr "\n"
+"**Anti-Užpuolimo informavimo kanalas.** {0}"
 
 #: Dredd-v3/cogs/automod.py:72
 #, python-brace-format
