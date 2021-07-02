@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 17:32+0200\n"
-"PO-Revision-Date: 2021-07-02 15:47\n"
+"PO-Revision-Date: 2021-07-02 17:56\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -64,7 +64,7 @@ msgstr "投票の取得時にエラーが発生しました。詳細なエラー
 
 #: Dredd-v3/utils/checks.py:191
 msgid "This command is in it's testing phase, you can join the support server if you want to apply your guild to be a testing guild or know when the command will be available."
-msgstr ""
+msgstr "このコマンドはテスト段階です。 ギルドをテストギルドに適用したい場合や、いつコマンドが利用可能になるかを知る場合は サポートサーバーに参加できます。"
 
 #: Dredd-v3/utils/checks.py:203
 #, python-brace-format
@@ -85,7 +85,7 @@ msgstr "Dredd はメンテナンス中です！"
 #: Dredd-v3/utils/checks.py:253
 #, python-brace-format
 msgid "{0} | `{1}` and it's corresponding subcommands are currently disabled for: `{2}`"
-msgstr ""
+msgstr "{0} | `{1}` に対応するサブコマンドは現在無効になっています: `{2}`"
 
 #: Dredd-v3/utils/checks.py:256
 #, python-brace-format
