@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 17:32+0200\n"
-"PO-Revision-Date: 2021-07-02 19:01\n"
+"PO-Revision-Date: 2021-07-02 23:39\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -295,7 +295,7 @@ msgstr "silenciar"
 
 #: Dredd-v3/utils/default.py:525
 msgid "temp-mute"
-msgstr ""
+msgstr "silenciar temporalmente"
 
 #: Dredd-v3/utils/default.py:526 Dredd-v3/cogs/moderation.py:1898
 msgid "kick"
@@ -324,12 +324,12 @@ msgstr "mejorado discord.py {0}"
 
 #: Dredd-v3/utils/rtfm.py:186
 msgid "Keep in mind this is NOT the original d.py; certain things may be different"
-msgstr ""
+msgstr "Ten en cuenta que este NO es el d.py original; ciertas cosas pueden ser diferentes"
 
 #: Dredd-v3/utils/rtfm.py:187
 #, python-brace-format
 msgid "**Search query:** `{0}`\n\n"
-msgstr ""
+msgstr "**Buscar consulta:** `{0}`\n\n"
 
 #: Dredd-v3/cogs/events/automod.py:156
 msgid "Spam (sending multiple messages in a short time span)"
