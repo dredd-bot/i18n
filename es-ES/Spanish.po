@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 17:32+0200\n"
-"PO-Revision-Date: 2021-07-03 00:40\n"
+"PO-Revision-Date: 2021-07-03 01:45\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -900,7 +900,7 @@ msgstr "Sin roles."
 #: Dredd-v3/cogs/events/logs.py:427
 #, python-brace-format
 msgid "Members left: {0}"
-msgstr ""
+msgstr "Miembros restantes: {0}"
 
 #: Dredd-v3/cogs/events/logs.py:467
 msgid "Automatic Mute | Mute evading"
@@ -1314,12 +1314,12 @@ msgstr " Cambia si el bot debe ignorar o no a los miembros con permisos de gesti
 #: Dredd-v3/cogs/automod.py:391
 #, python-brace-format
 msgid "{0} I will not be ignoring people with manage messages permissions (moderators) from now on."
-msgstr ""
+msgstr "{0} No ignoraré a las personas con permisos de gestionar mensajes (moderadores) a partir de ahora."
 
 #: Dredd-v3/cogs/automod.py:395
 #, python-brace-format
 msgid "{0} I will be ignoring people with manage messages permissions (moderators) from now on."
-msgstr ""
+msgstr "{0} Ignoraré a las personas con permisos de gestionar mensajes (moderadores) a partir de ahora."
 
 #: Dredd-v3/cogs/automod.py:398
 msgid "Toggle if automod should delete messages when punishing the user(s)"
@@ -1332,12 +1332,12 @@ msgstr " Cambia si la automoderación debe eliminar los mensajes al castigar al 
 #: Dredd-v3/cogs/automod.py:413
 #, python-brace-format
 msgid "{0} I will not be deleting messages from now on."
-msgstr ""
+msgstr "{0} No borraré mensajes a partir de ahora."
 
 #: Dredd-v3/cogs/automod.py:417
 #, python-brace-format
 msgid "{0} I will now be deleting messages from now on."
-msgstr ""
+msgstr "{0} Borraré mensajes a partir de ahora."
 
 #: Dredd-v3/cogs/automod.py:420
 msgid "Manage anti raid mode in the server"
@@ -1593,18 +1593,18 @@ msgstr ""
 
 #: Dredd-v3/cogs/boosters.py:54
 msgid "Link a social media"
-msgstr ""
+msgstr "Vincula una red social"
 
 #: Dredd-v3/cogs/boosters.py:58
 msgid " Add social media to your medias list "
-msgstr ""
+msgstr " Añade una red social a tu lista de medios "
 
 #: Dredd-v3/cogs/boosters.py:63 Dredd-v3/cogs/boosters.py:93
 #: Dredd-v3/cogs/boosters.py:128 Dredd-v3/cogs/boosters.py:158
 #: Dredd-v3/cogs/boosters.py:188 Dredd-v3/cogs/boosters.py:218
 #: Dredd-v3/cogs/boosters.py:248
 msgid "You've reached the max limit of social medias available. (10)"
-msgstr ""
+msgstr "Has alcanzado el límite máximo de redes sociales disponibles. (10)"
 
 #: Dredd-v3/cogs/boosters.py:66 Dredd-v3/cogs/boosters.py:100
 #, python-brace-format
@@ -1618,32 +1618,32 @@ msgstr ""
 #: Dredd-v3/cogs/boosters.py:75
 #, python-brace-format
 msgid "{0} URL must start with either a http:// or https://"
-msgstr ""
+msgstr "{0} La dirección URL debe comenzar con http:// o https://"
 
 #: Dredd-v3/cogs/boosters.py:80
 #, python-brace-format
 msgid "{0} Added {1} (<{2}>) to your medias."
-msgstr ""
+msgstr "{0} He añadido {1} (<{2}>) a tus medios."
 
 #: Dredd-v3/cogs/boosters.py:84
 msgid "Link your Discord server"
-msgstr ""
+msgstr "Vincula tu servidor de Discord"
 
 #: Dredd-v3/cogs/boosters.py:88
 msgid " Add Discord to your social medias list, when not providing the name, server name will be used"
-msgstr ""
+msgstr " Añade Discord a tu lista de redes sociales, si no proporcionas el nombre, el nombre del servidor será utilizado"
 
 #: Dredd-v3/cogs/boosters.py:96
 #, python-brace-format
 msgid "{0} Invite must not be a full link, only the code (PMZXUwdr)"
-msgstr ""
+msgstr "{0} La invitación no debe ser un enlace completo, sólo el código (PMZXUwdr)"
 
 #: Dredd-v3/cogs/boosters.py:105 Dredd-v3/cogs/boosters.py:139
 #: Dredd-v3/cogs/boosters.py:169 Dredd-v3/cogs/boosters.py:199
 #: Dredd-v3/cogs/boosters.py:229 Dredd-v3/cogs/boosters.py:262
 #, python-brace-format
 msgid "{0} You already have {1} linked in your medias."
-msgstr ""
+msgstr "{0} Ya tienes {1} enlazado en tus medios."
 
 #: Dredd-v3/cogs/boosters.py:113
 msgid "Can't seem to find that invite, please make sure you're only sending the code (PMZXUwdr) else it won't work."
@@ -1656,11 +1656,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/boosters.py:119
 msgid "Link your Instagram account"
-msgstr ""
+msgstr "Vincula tu cuenta de Instagram"
 
 #: Dredd-v3/cogs/boosters.py:123
 msgid " Add Instagram to your social medias list "
-msgstr ""
+msgstr " Añade Instagram a tu lista de redes sociales "
 
 #: Dredd-v3/cogs/boosters.py:131 Dredd-v3/cogs/boosters.py:161
 #: Dredd-v3/cogs/boosters.py:191 Dredd-v3/cogs/boosters.py:221
@@ -1680,11 +1680,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/boosters.py:149
 msgid "Link your Twitch account"
-msgstr ""
+msgstr "Vincula tu cuenta de Twitch"
 
 #: Dredd-v3/cogs/boosters.py:153
 msgid " Add Twitch to your social medias list "
-msgstr ""
+msgstr " Añade Twitch a tu lista de redes sociales "
 
 #: Dredd-v3/cogs/boosters.py:165
 #, python-brace-format
@@ -1694,7 +1694,7 @@ msgstr ""
 #: Dredd-v3/cogs/boosters.py:175
 #, python-brace-format
 msgid "{0} Added Twitch ({1} - <{2}>) to your medias list."
-msgstr ""
+msgstr "{0} He añadido Twitch ({1} - <{2}>) a tu lista de medios."
 
 #: Dredd-v3/cogs/boosters.py:179
 msgid "Link your Twitter account"
@@ -1712,7 +1712,7 @@ msgstr ""
 #: Dredd-v3/cogs/boosters.py:205
 #, python-brace-format
 msgid "{0} Added Twitter ({1} - <{2}>) to your medias list."
-msgstr ""
+msgstr "{0} He añadido Twitter ({1} - <{2}>) a tu lista de medios."
 
 #: Dredd-v3/cogs/boosters.py:209
 msgid "Link your GitHub account"
@@ -1730,7 +1730,7 @@ msgstr ""
 #: Dredd-v3/cogs/boosters.py:235
 #, python-brace-format
 msgid "{0} Added GitHub ({1} - <{2}>) to your medias list."
-msgstr ""
+msgstr "{0} He añadido GitHub ({1} - <{2}>) a tu lista de medios."
 
 #: Dredd-v3/cogs/boosters.py:239
 msgid "Link your youtube account"
@@ -1758,7 +1758,7 @@ msgstr ""
 #: Dredd-v3/cogs/boosters.py:268
 #, python-brace-format
 msgid "{0} Added YouTube ({1} - <{2}>) to your medias list."
-msgstr ""
+msgstr "{0} He añadido YouTube ({1} - <{2}>) a tu lista de medios."
 
 #: Dredd-v3/cogs/boosters.py:272
 msgid "Remove linked social media"
@@ -1774,12 +1774,20 @@ msgid " Remove media from your medias list\n\n"
 "        5 - Github\n"
 "        6 - Spotify\n"
 "        7 - Youtube "
-msgstr ""
+msgstr " Remueve medios de tu lista de medios\n\n"
+"        Tipos sociales:\n"
+"        1 - Discord\n"
+"        2 - Instagrama\n"
+"        3 - Twitch\n"
+"        4 - Twitter\n"
+"        5 - GitHub\n"
+"        6 - Spotify\n"
+"        7 - Youtube "
 
 #: Dredd-v3/cogs/boosters.py:295
 #, python-brace-format
 msgid "{0} You don't have {1} linked in your medias."
-msgstr ""
+msgstr "{0} No tienes {1} enlazado en tus medios."
 
 #: Dredd-v3/cogs/boosters.py:301
 #, python-brace-format
@@ -1879,7 +1887,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/fun.py:109
 msgid "Reverse something"
-msgstr ""
+msgstr "Invierte algo"
 
 #: Dredd-v3/cogs/fun.py:113
 msgid " !poow ,ffuts esreveR. Everything you type after reverse will of course, be reversed "
@@ -2146,12 +2154,12 @@ msgstr ""
 #: Dredd-v3/cogs/info.py:166 Dredd-v3/cogs/info.py:746
 #, python-brace-format
 msgid "{0} | That user could not be found."
-msgstr ""
+msgstr "{0} | Ese usuario no fue encontrado."
 
 #: Dredd-v3/cogs/info.py:175
 #, python-brace-format
 msgid "{0}'s Information"
-msgstr ""
+msgstr "Información de {0}"
 
 #: Dredd-v3/cogs/info.py:191
 msgid "\n"
@@ -2166,7 +2174,7 @@ msgstr " **({0} Total)**"
 
 #: Dredd-v3/cogs/info.py:198
 msgid "No roles"
-msgstr ""
+msgstr "Sin roles"
 
 #: Dredd-v3/cogs/info.py:199 Dredd-v3/cogs/info.py:224
 #: Dredd-v3/cogs/info.py:279
@@ -2222,7 +2230,8 @@ msgstr ""
 #, python-brace-format
 msgid "\n"
 "**Banned:** {0}"
-msgstr ""
+msgstr "\n"
+"**Baneado:** {0}"
 
 #: Dredd-v3/cogs/info.py:271
 #, python-brace-format
@@ -2261,7 +2270,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:305
 msgid "Animated Icon"
-msgstr ""
+msgstr "Ícono Animado"
 
 #: Dredd-v3/cogs/info.py:306
 msgid "Banner"
@@ -2293,11 +2302,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:313
 msgid "News Channels"
-msgstr ""
+msgstr "Nuevos Canales"
 
 #: Dredd-v3/cogs/info.py:314
 msgid "Partnered"
-msgstr ""
+msgstr "Asociado"
 
 #: Dredd-v3/cogs/info.py:315
 msgid "Prieview Enabled"
@@ -2437,11 +2446,11 @@ msgstr "{0} ¿Me quieres en tu servidor? ¿A qué estás esperando? Invita ahora
 
 #: Dredd-v3/cogs/info.py:449
 msgid "Vote for me, please"
-msgstr ""
+msgstr "Voten por mí, por favor"
 
 #: Dredd-v3/cogs/info.py:453
 msgid " Links of bot lists where you can vote for the bot "
-msgstr ""
+msgstr " Enlaces de listas de bots donde puedes votar por el bot "
 
 #: Dredd-v3/cogs/info.py:456
 msgid "Voting Locations"
@@ -2659,11 +2668,11 @@ msgstr "{0} Lista de emotes"
 
 #: Dredd-v3/cogs/info.py:680
 msgid "A list of bot's partners"
-msgstr ""
+msgstr "Una lista de los asociados del bot"
 
 #: Dredd-v3/cogs/info.py:684
 msgid " A list of bot's partners "
-msgstr ""
+msgstr " Una lista de los asociados del bot "
 
 #: Dredd-v3/cogs/info.py:704 Dredd-v3/cogs/info.py:707
 msgid "Server"
