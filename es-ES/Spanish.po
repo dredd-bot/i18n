@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 17:32+0200\n"
-"PO-Revision-Date: 2021-07-02 23:39\n"
+"PO-Revision-Date: 2021-07-03 00:40\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -337,7 +337,7 @@ msgstr "Spam (enviar varios mensajes en un corto lapso de tiempo)"
 
 #: Dredd-v3/cogs/events/automod.py:176
 msgid "Advertising"
-msgstr ""
+msgstr "Haciendo publicidad"
 
 #: Dredd-v3/cogs/events/automod.py:200
 msgid "Spamming caps"
