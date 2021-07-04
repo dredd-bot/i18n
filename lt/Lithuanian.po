@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 17:32+0200\n"
-"PO-Revision-Date: 2021-07-02 15:47\n"
+"PO-Revision-Date: 2021-07-04 21:28\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -509,22 +509,22 @@ msgstr "{0} Tu panaudojai neegzistuojantį leidimą, dar kartą patikrink ar tik
 #: Dredd-v3/cogs/events/errors.py:157
 #, python-brace-format
 msgid "{0} This command has already been used by someone in this guild or channel."
-msgstr "{0} Ši komanda jau buvo panaudota kažkieno šiame serveryje ar kanale."
+msgstr "{0} Šią komandą jau panaudojo kitas narys šiame serveryje ar kanale."
 
 #: Dredd-v3/cogs/events/errors.py:163
 #, python-brace-format
 msgid "{0} | This command can only be used in direct messages!"
-msgstr "{0} | Ši komanda gali būti panaudota tik privačiose žinutėse!"
+msgstr "{0} | Ši komanda gali būti panaudota tik asmeninėse žinutėse!"
 
 #: Dredd-v3/cogs/events/errors.py:168
 #, python-brace-format
 msgid "{0} | This command can't be used in direct messages!"
-msgstr "{0} | Ši komanda negali būti panaudota privačiose žinutėse!"
+msgstr "{0} | Ši komanda negali būti panaudota asmeninėse žinutėse!"
 
 #: Dredd-v3/cogs/events/errors.py:177
 #, python-brace-format
 msgid "{0} This command is marked as NSFW that's why I cannot let you use it in this channel."
-msgstr "{0} Ši komanda turi suaugusiųjų turinio, todėl aš negaliu tau leisti jos naudoti šiame kanale."
+msgstr "{0} Ši komanda yra pažymėta kaip nesaugi darbo aplinkai, todėl aš negaliu tau leisti jos naudoti šiame kanale."
 
 #: Dredd-v3/cogs/events/errors.py:187
 #, python-brace-format
@@ -544,7 +544,7 @@ msgstr "{0} Man trūksta {1} leidimų"
 #: Dredd-v3/cogs/events/errors.py:242
 #, python-brace-format
 msgid "{0} | You're on cooldown, try again in **{1}** seconds."
-msgstr "{0} | Ne taip greitai! Bandyk po **{1}** sekundžių."
+msgstr "{0} | Ne taip greitai! Pabandyk po **{1}** sekundės(-džių)."
 
 #: Dredd-v3/cogs/events/errors.py:245
 #, python-brace-format
@@ -560,7 +560,7 @@ msgstr "{0} | Pasirodo, tu neuždarei kabučių"
 #: Dredd-v3/cogs/events/errors.py:252
 #, python-brace-format
 msgid "{0} | Failed to add the reactions, please reinvoke the command."
-msgstr "{0} | Nepavyko pridėti reakcijų, pabandyk pakartoti komandą."
+msgstr "{0} | Nepavyko pridėti reakcijų, pabandyk dar kartą."
 
 #: Dredd-v3/cogs/events/errors.py:258
 #, python-brace-format
@@ -576,7 +576,7 @@ msgstr "{0} Nežinoma klaida | #{1}"
 #, python-brace-format
 msgid "Command `{0}` raised an error, which I reported to my developer(s).\n"
 "My developer(s) will be working to fixing this error ASAP. Meanwhile, you can [join the support server]({1}) for updates."
-msgstr "Komanda `{0}` iškėlė klaidą, kurią aš pranešiau savo kūrėjui(-ams).\n"
+msgstr "Komanda `{0}` iškėlė klaidą, apie kurią aš pranešiau savo kūrėjui(-ams).\n"
 "Mano kūrėjas(-ai) bandys kuo greičiau sutaisyti šią klaidą. Tuo tarpu, galite [prisijungti į pagalbos serverį]({1}) dėl naujienų."
 
 #: Dredd-v3/cogs/events/errors.py:310 Dredd-v3/cogs/events/errors.py:332
@@ -603,7 +603,7 @@ msgstr "Mano priešdėlis šiame serveryje yra `{0}` arba {1}!"
 #: Dredd-v3/cogs/events/events.py:102
 #, python-brace-format
 msgid "I appreciate you for using me! You can also use my commands here in DMs with a prefix `!`, but if you aren't using any commands - the DM will be logged in my [support server]({0}), so please don't send me any sensitive information."
-msgstr "Dėkoju, jog pasirinkote mane! Taip pat galite naudoti mano komandas čia ir privačiose žinutėse su prefix'u `!`, bet jeigu nenaudoji jokių komandų - žinutė bus nusiųsta mano [pagalbos serveryje]({0}), taigi nesiųsk man jokios jautrios informacijos."
+msgstr "Dėkoju, jog pasirinkote mane! Galite naudoti mano komandas privačiose žinutėse su priešdėliu `!`, bet jeigu nenaudosite jokių komandų - žinutė bus nusiųsta mano [pagalbos serveryje]({0}), taigi nesiųsk man jokios slaptos informacijos."
 
 #: Dredd-v3/cogs/events/events.py:116
 msgid "Hey! Not sure if you know yet, but my prefix in DM's is `!`"
