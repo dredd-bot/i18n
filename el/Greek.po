@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 17:32+0200\n"
-"PO-Revision-Date: 2021-07-02 15:48\n"
+"PO-Revision-Date: 2021-07-08 17:48\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -105,56 +105,56 @@ msgstr ""
 #: Dredd-v3/utils/checks.py:323
 #, python-brace-format
 msgid "{0} I'm not in the voice channel."
-msgstr ""
+msgstr "{0} Δεν βρίσκομει στο κανάλι ομιλίας (VC)."
 
 #: Dredd-v3/utils/checks.py:325
 #, python-brace-format
 msgid "{0} You need to be in the same voice channel with me."
-msgstr ""
+msgstr "{0} Πρέπει να είστε στο ίδιο κανάλι ομιλίας (VC) με εμένα."
 
 #: Dredd-v3/utils/checks.py:327
 #, python-brace-format
 msgid "{0} I'm missing permissions in your voice channel. Make sure you have given me the correct permissions!"
-msgstr ""
+msgstr "{0} Μου λείπουν δικαιώματα στο κανάλι ομιλίας σας. Βεβαιωθείτε ότι μου δώσατε τις σωστές άδειες!"
 
 #: Dredd-v3/utils/checks.py:329
 #, python-brace-format
 msgid "{0} I'm not playing anything."
-msgstr ""
+msgstr "{0} Δεν παίζω τίποτα."
 
 #: Dredd-v3/utils/checks.py:331
 #, python-brace-format
 msgid "{0} Player is not paused."
-msgstr ""
+msgstr "{0} Ο παίκτης μουσικής δεν είναι σε παύση."
 
 #: Dredd-v3/utils/checks.py:333
 #, python-brace-format
 msgid "{0} Player is already paused."
-msgstr ""
+msgstr "{0} Ο παίκτης μουσικής είδη είναι σε παύση."
 
 #: Dredd-v3/utils/checks.py:346 Dredd-v3/utils/checks.py:352
 msgid "This member has not been banned before."
-msgstr ""
+msgstr "Αυτός ο χρήστης δεν έχει απαγορευθεί είσοδο στο παρελθόν."
 
 #: Dredd-v3/utils/checks.py:369
 msgid "This user is already banned."
-msgstr ""
+msgstr "Αυτός ο χρήστης ήδη έχει απαγορευθεί είσοδο."
 
 #: Dredd-v3/utils/checks.py:385
 #, python-brace-format
 msgid "Valid options are {0}"
-msgstr ""
+msgstr "Οι αποδεκτές επιλογές είναι {0}"
 
 #: Dredd-v3/utils/checks.py:412
 #, python-brace-format
 msgid "Valid values are {0}"
-msgstr ""
+msgstr "Οι αποδεκτές τιμές είναι {0}"
 
 #: Dredd-v3/utils/default.py:82 Dredd-v3/utils/default.py:87
 #: Dredd-v3/utils/default.py:92
 #, python-brace-format
 msgid "Next level in **{0}** boosts"
-msgstr ""
+msgstr "Το επόμενο επίπεδο του Discord Server σας είναι σε **{0} boosts"
 
 #: Dredd-v3/utils/default.py:191
 msgid "Owner of Dredd"
