@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 17:32+0200\n"
-"PO-Revision-Date: 2021-07-09 22:21\n"
+"PO-Revision-Date: 2021-07-09 23:39\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -208,187 +208,188 @@ msgstr ""
 
 #: Dredd-v3/utils/default.py:203
 msgid "A special badge for Duck :duck:"
-msgstr ""
+msgstr "Een speciale badge voor Eend :duck:"
 
 #: Dredd-v3/utils/default.py:242
 #, python-brace-format
 msgid "{0} Dredd Staff Server"
-msgstr ""
+msgstr "{0} Dredd medewerkerserver"
 
 #: Dredd-v3/utils/default.py:243
 msgid "{} Dredd Verified Server"
-msgstr ""
+msgstr "{} Dredd Geverifieerde Server"
 
 #: Dredd-v3/utils/default.py:244
 #, python-brace-format
 msgid "{0} Dredd Partnered Server"
-msgstr ""
+msgstr "{0} Dredd gepartnerde server"
 
 #: Dredd-v3/utils/default.py:354
 #, python-brace-format
 msgid "{0} Edited messages\n"
-msgstr ""
+msgstr "{0} Bewerkte berichten\n"
 
 #: Dredd-v3/utils/default.py:355
 #, python-brace-format
 msgid "{0} Deleted messages\n"
-msgstr ""
+msgstr "{0} Verwijderde berichten\n"
 
 #: Dredd-v3/utils/default.py:356
 #, python-brace-format
 msgid "{0} Moderation\n"
-msgstr ""
+msgstr "{0} Moderatie\n"
 
 #: Dredd-v3/utils/default.py:357
 #, python-brace-format
 msgid "{0} Guild logs\n"
-msgstr ""
+msgstr "{0} Gilde Logboek\n"
 
 #: Dredd-v3/utils/default.py:358
 #, python-brace-format
 msgid "{0} Member Joins\n"
-msgstr ""
+msgstr "{0} lid treed toe\n"
 
 #: Dredd-v3/utils/default.py:359
 #, python-brace-format
 msgid "{0} Member Leaves\n"
-msgstr ""
+msgstr "{0} Lid Verlaat\n"
 
 #: Dredd-v3/utils/default.py:360
 #, python-brace-format
 msgid "{0} Member Updates\n"
-msgstr ""
+msgstr "{0} Ledenupdates\n"
 
 #: Dredd-v3/utils/default.py:362 Dredd-v3/utils/default.py:370
 #, python-brace-format
 msgid "{0} Raid mode\n"
-msgstr ""
+msgstr "{0} Raid modus\n"
 
 #: Dredd-v3/utils/default.py:363 Dredd-v3/utils/default.py:371
 #, python-brace-format
 msgid "{0} Welcoming messages\n"
-msgstr ""
+msgstr "{0} welkomstberichten\n"
 
 #: Dredd-v3/utils/default.py:364 Dredd-v3/utils/default.py:372
 #, python-brace-format
 msgid "{0} Leaving messages\n"
-msgstr ""
+msgstr "{0} Berichten bij verlaten\n"
 
 #: Dredd-v3/utils/default.py:365 Dredd-v3/utils/default.py:373
 #, python-brace-format
 msgid "{0} Role on Join\n"
-msgstr ""
+msgstr "{0} rol als u zich aansluit\n"
 
 #: Dredd-v3/utils/default.py:366 Dredd-v3/utils/default.py:374
 #, python-brace-format
 msgid "{0} Dehoisting\n"
-msgstr ""
+msgstr "{0} Degraderen\n"
 
 #: Dredd-v3/utils/default.py:367 Dredd-v3/utils/default.py:375
 #, python-brace-format
 msgid "{0} Automod\n"
-msgstr ""
+msgstr "{0} Auto moderatie\n"
 
 #: Dredd-v3/utils/default.py:524 Dredd-v3/cogs/moderation.py:1904
 msgid "mute"
-msgstr ""
+msgstr "gedempt"
 
 #: Dredd-v3/utils/default.py:525
 msgid "temp-mute"
-msgstr ""
+msgstr "tijdelijk gedempt"
 
 #: Dredd-v3/utils/default.py:526 Dredd-v3/cogs/moderation.py:1898
 msgid "kick"
-msgstr ""
+msgstr "eruitgegooid"
 
 #: Dredd-v3/utils/default.py:527 Dredd-v3/cogs/moderation.py:1895
 msgid "ban"
-msgstr ""
+msgstr "verbanning"
 
 #: Dredd-v3/utils/default.py:528
 msgid "temp-ban"
-msgstr ""
+msgstr "tijdelijke verbanning"
 
 #: Dredd-v3/utils/rtfm.py:140
 msgid "Cannot build rtfm lookup table, try again later."
-msgstr ""
+msgstr "Kan geen rtfm lookup tabel maken, probeer het later opnieuw."
 
 #: Dredd-v3/utils/rtfm.py:182
 msgid "I could not find anything, sorry."
-msgstr ""
+msgstr "Sorry, Ik kon niets vinden."
 
 #: Dredd-v3/utils/rtfm.py:185
 #, python-brace-format
 msgid "enhanced discord.py {0}"
-msgstr ""
+msgstr "betoverde discord.py{0}"
 
 #: Dredd-v3/utils/rtfm.py:186
 msgid "Keep in mind this is NOT the original d.py; certain things may be different"
-msgstr ""
+msgstr "Hou in gedachten dat dit NIET de originele d.py; is sommige dingen kunnen anders zijn"
 
 #: Dredd-v3/utils/rtfm.py:187
 #, python-brace-format
 msgid "**Search query:** `{0}`\n\n"
-msgstr ""
+msgstr "**Zoekterm:**{0}`\n\n"
 
 #: Dredd-v3/cogs/events/automod.py:156
 msgid "Spam (sending multiple messages in a short time span)"
-msgstr ""
+msgstr "Spam (versturen van meerdere berichten in een korte tijd)"
 
 #: Dredd-v3/cogs/events/automod.py:176
 msgid "Advertising"
-msgstr ""
+msgstr "Adverteren"
 
 #: Dredd-v3/cogs/events/automod.py:200
 msgid "Spamming caps"
-msgstr ""
+msgstr "Spammen van Hoofdletters"
 
 #: Dredd-v3/cogs/events/automod.py:223
 msgid "Spamming links"
-msgstr ""
+msgstr "Spammen van links"
 
 #: Dredd-v3/cogs/events/automod.py:252
 msgid "Spamming mentions"
-msgstr ""
+msgstr "Spammen van pings"
 
 #: Dredd-v3/cogs/events/automod.py:277
 msgid "anti raid: user account is younger than 30 days."
-msgstr ""
+msgstr "anti Raid: Account is jonger dan 30 dagen."
 
 #: Dredd-v3/cogs/events/automod.py:277
 msgid "Strict Anti Raid: No one is allowed to join the server"
-msgstr ""
+msgstr "Strenge Anti Raid: Niemand is toegestaan om de server te betreden"
 
 #: Dredd-v3/cogs/events/automod.py:293
 msgid "Member Muted"
-msgstr ""
+msgstr "Lid Gedempt"
 
 #: Dredd-v3/cogs/events/automod.py:293
 msgid "Member Temp-Muted"
-msgstr ""
+msgstr "Lid Tijdenlijk Gedempt"
 
 #: Dredd-v3/cogs/events/automod.py:293 Dredd-v3/cogs/events/automod.py:302
 msgid "Member Kicked"
-msgstr ""
+msgstr "Lid uitgegooid"
 
 #: Dredd-v3/cogs/events/automod.py:297 Dredd-v3/cogs/events/automod.py:302
 msgid "Member Banned"
-msgstr ""
+msgstr "Leden Verbannen"
 
 #: Dredd-v3/cogs/events/automod.py:297
 msgid "Member Temp-Banned"
-msgstr ""
+msgstr "Lid Tijdenlijk Verbannen"
 
 #: Dredd-v3/cogs/events/automod.py:306
 msgid "Automod Action"
-msgstr ""
+msgstr "Auto-moderatie Actie"
 
 #: Dredd-v3/cogs/events/automod.py:309 Dredd-v3/cogs/events/logs.py:594
 #: Dredd-v3/cogs/events/logs.py:724
 #, python-brace-format
 msgid "\n"
 "**Duration:** {0}"
-msgstr ""
+msgstr "\n"
+"**Duur:** {0}"
 
 #: Dredd-v3/cogs/events/automod.py:312
 #, python-brace-format
