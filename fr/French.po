@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 17:32+0200\n"
-"PO-Revision-Date: 2021-07-02 15:47\n"
+"PO-Revision-Date: 2021-07-10 18:41\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: Dredd-v3/utils/btime.py:114
 #, python-brace-format
 msgid "{0} The time you've provided is in the past"
-msgstr ""
+msgstr "{0} Le temps que vous avez fourni est dans le passé"
 
 #: Dredd-v3/utils/btime.py:128
 msgid "This time is in the past."
@@ -233,22 +233,22 @@ msgstr ""
 #: Dredd-v3/utils/default.py:356
 #, python-brace-format
 msgid "{0} Moderation\n"
-msgstr ""
+msgstr "{0} Modération\n"
 
 #: Dredd-v3/utils/default.py:357
 #, python-brace-format
 msgid "{0} Guild logs\n"
-msgstr ""
+msgstr "{0} Journaux de guilde\n"
 
 #: Dredd-v3/utils/default.py:358
 #, python-brace-format
 msgid "{0} Member Joins\n"
-msgstr ""
+msgstr "{0} Adhésions de membres\n"
 
 #: Dredd-v3/utils/default.py:359
 #, python-brace-format
 msgid "{0} Member Leaves\n"
-msgstr ""
+msgstr "{0} Congés des membres\n"
 
 #: Dredd-v3/utils/default.py:360
 #, python-brace-format
@@ -268,7 +268,7 @@ msgstr ""
 #: Dredd-v3/utils/default.py:364 Dredd-v3/utils/default.py:372
 #, python-brace-format
 msgid "{0} Leaving messages\n"
-msgstr ""
+msgstr "{0} Laisser des messages\n"
 
 #: Dredd-v3/utils/default.py:365 Dredd-v3/utils/default.py:373
 #, python-brace-format
@@ -506,12 +506,12 @@ msgstr ""
 #: Dredd-v3/cogs/events/errors.py:168
 #, python-brace-format
 msgid "{0} | This command can't be used in direct messages!"
-msgstr ""
+msgstr "Cette commande ne peut pas être utilisée dans les DMs!"
 
 #: Dredd-v3/cogs/events/errors.py:177
 #, python-brace-format
 msgid "{0} This command is marked as NSFW that's why I cannot let you use it in this channel."
-msgstr ""
+msgstr "{0} Cette commande est marquée comme NSFW c’est pourquoi je ne peux pas vous laisser l’utiliser dans ce canal."
 
 #: Dredd-v3/cogs/events/errors.py:187
 #, python-brace-format
