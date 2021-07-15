@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 17:32+0200\n"
-"PO-Revision-Date: 2021-07-02 15:47\n"
+"PO-Revision-Date: 2021-07-15 18:59\n"
 "Last-Translator: \n"
 "Language-Team: Hindi\n"
 "Language: hi_IN\n"
@@ -20,11 +20,11 @@ msgstr ""
 #: Dredd-v3/utils/btime.py:114
 #, python-brace-format
 msgid "{0} The time you've provided is in the past"
-msgstr ""
+msgstr "{0} , आपके द्वारा प्रदान किया गया समय अतीत का है|"
 
 #: Dredd-v3/utils/btime.py:128
 msgid "This time is in the past."
-msgstr ""
+msgstr "यह समय अतीत में है |"
 
 #: Dredd-v3/utils/btime.py:132
 msgid "Missing argument after the time."
@@ -101,12 +101,12 @@ msgstr ""
 #: Dredd-v3/utils/checks.py:323
 #, python-brace-format
 msgid "{0} I'm not in the voice channel."
-msgstr ""
+msgstr "{0} , मैं वॉयस चैनल में नहीं हूं।"
 
 #: Dredd-v3/utils/checks.py:325
 #, python-brace-format
 msgid "{0} You need to be in the same voice channel with me."
-msgstr ""
+msgstr "{0} , आपको मेरे साथ उसी वॉयस चैनल में रहना होगा। "
 
 #: Dredd-v3/utils/checks.py:327
 #, python-brace-format
@@ -154,11 +154,11 @@ msgstr ""
 
 #: Dredd-v3/utils/default.py:191
 msgid "Owner of Dredd"
-msgstr ""
+msgstr "ड्रेड के मालिक|"
 
 #: Dredd-v3/utils/default.py:192
 msgid "Admin of Dredd"
-msgstr ""
+msgstr "ड्रेड के व्यवस्थापक |"
 
 #: Dredd-v3/utils/default.py:193
 #, python-brace-format
@@ -167,11 +167,11 @@ msgstr ""
 
 #: Dredd-v3/utils/default.py:194
 msgid "Dredd's Translator"
-msgstr ""
+msgstr "ड्रेड का अनुवादक|"
 
 #: Dredd-v3/utils/default.py:195
 msgid "Dredd's Sponsor"
-msgstr ""
+msgstr "ड्रेड के प्रायोजक|"
 
 #: Dredd-v3/utils/default.py:196
 #, python-brace-format
@@ -243,12 +243,12 @@ msgstr ""
 #: Dredd-v3/utils/default.py:358
 #, python-brace-format
 msgid "{0} Member Joins\n"
-msgstr ""
+msgstr "{0} सदस्य छोड़ गया |\n"
 
 #: Dredd-v3/utils/default.py:359
 #, python-brace-format
 msgid "{0} Member Leaves\n"
-msgstr ""
+msgstr "{0} सदस्य छोड़ गया |\n"
 
 #: Dredd-v3/utils/default.py:360
 #, python-brace-format
