@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 17:32+0200\n"
-"PO-Revision-Date: 2021-07-03 01:45\n"
+"PO-Revision-Date: 2021-07-16 22:16\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -622,7 +622,9 @@ msgstr ""
 msgid "Hey!\n"
 "This server is blacklisted, so I will not be staying in the server anymore. {0}\n\n"
 "**Blacklist reason:** {1}"
-msgstr ""
+msgstr "¡Hola!\n"
+"Este servidor está en la lista negra, así que ya no me quedaré aquí. {0}\n\n"
+"**Razón de la lista negra:** {1}"
 
 #: Dredd-v3/cogs/events/events.py:239
 msgid "Blacklist issue occured!"
@@ -1341,15 +1343,15 @@ msgstr "{0} Borraré mensajes a partir de ahora."
 
 #: Dredd-v3/cogs/automod.py:420
 msgid "Manage anti raid mode in the server"
-msgstr ""
+msgstr "Administra el modo de anti invasión en el servidor"
 
 #: Dredd-v3/cogs/automod.py:426
 msgid " Manage anti raid mode in the server "
-msgstr ""
+msgstr " Administra el modo de anti invasión en el servidor "
 
 #: Dredd-v3/cogs/automod.py:429
 msgid "Toggle raid mode on or off"
-msgstr ""
+msgstr "Cambia la anti invasión a encendido/apagado"
 
 #: Dredd-v3/cogs/automod.py:435
 msgid " Toggle raid mode status\n"
@@ -1368,32 +1370,32 @@ msgstr ""
 #: Dredd-v3/cogs/automod.py:459
 #, python-brace-format
 msgid "{0} Successfully enabled raidmode, will kick new members who have their accounts created less than 30 days ago."
-msgstr ""
+msgstr "{0} He habilitado correctamente el modo de anti invasión, expulsaré a los nuevos miembros que hayan creado sus cuentas hace menos de 30 días."
 
 #: Dredd-v3/cogs/automod.py:463
 #, python-brace-format
 msgid "{0} Successfully enabled raidmode, will ban new members who have their accounts created less than 30 days ago."
-msgstr ""
+msgstr "{0} He habilitado correctamente el modo de anti invasión, banearé a los nuevos miembros que hayan creado sus cuentas hace menos de 30 días."
 
 #: Dredd-v3/cogs/automod.py:467
 #, python-brace-format
 msgid "{0} Successfully enabled raidmode, will kick all new members"
-msgstr ""
+msgstr "{0} He habilitado correctamente el modo de anti invasión, expulsaré a todos los nuevos miembros"
 
 #: Dredd-v3/cogs/automod.py:471
 #, python-brace-format
 msgid "{0} Successfully enabled raidmode, will ban all new members"
-msgstr ""
+msgstr "{0} He habilitado correctamente el modo de anti invasión, banearé a todos los nuevos miembros"
 
 #: Dredd-v3/cogs/automod.py:479
 #, python-brace-format
 msgid "{0} Successfully disabled raidmode"
-msgstr ""
+msgstr "{0} He deshabilitado correctamente el modo de anti invasión"
 
 #: Dredd-v3/cogs/automod.py:485
 #, python-brace-format
 msgid "{0} Set the new raidmode logging channel to {1}"
-msgstr ""
+msgstr "{0} He establecido el nuevo canal de registro de modo de anti invasión a {1}"
 
 #: Dredd-v3/cogs/automod.py:490
 #, python-brace-format
@@ -1815,7 +1817,7 @@ msgstr "{0} He eliminado {1} de tus redes sociales vinculadas"
 
 #: Dredd-v3/cogs/fun.py:34
 msgid "Rate something"
-msgstr ""
+msgstr "Valora algo"
 
 #: Dredd-v3/cogs/fun.py:38
 msgid " Rates what you desire "
