@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 17:32+0200\n"
-"PO-Revision-Date: 2021-07-16 22:16\n"
+"PO-Revision-Date: 2021-07-16 23:13\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1649,12 +1649,12 @@ msgstr "{0} Ya tienes {1} enlazado en tus medios."
 
 #: Dredd-v3/cogs/boosters.py:113
 msgid "Can't seem to find that invite, please make sure you're only sending the code (PMZXUwdr) else it won't work."
-msgstr ""
+msgstr "No pude encontrar esa invitación, por favor asegúrate de que sólo estés enviando el código (PMZXUwdr) de lo contrario no funcionará."
 
 #: Dredd-v3/cogs/boosters.py:115
 #, python-brace-format
 msgid "{0} Added Discord ({1} - <{2}>) to your medias list."
-msgstr ""
+msgstr "{0} He añadido Discord ({1} - <{2}>) a tu lista de medios."
 
 #: Dredd-v3/cogs/boosters.py:119
 msgid "Link your Instagram account"
@@ -1673,12 +1673,12 @@ msgstr ""
 #: Dredd-v3/cogs/boosters.py:135
 #, python-brace-format
 msgid "{0} Instagram account limit is 30, you're over 30, you sure it's the correct account name?"
-msgstr ""
+msgstr "{0} El límite del nombre de la cuenta de Instagram es 60, el tuyo tiene más de 60, ¿estás seguro de que es el nombre de cuenta correcto?"
 
 #: Dredd-v3/cogs/boosters.py:145
 #, python-brace-format
 msgid "{0} Added Instagram ({1} - <{2}>) to your medias list."
-msgstr ""
+msgstr "{0} He añadido Instagram ({1} - <{2}>) a tu lista de medios."
 
 #: Dredd-v3/cogs/boosters.py:149
 msgid "Link your Twitch account"
@@ -1691,7 +1691,7 @@ msgstr " Añade Twitch a tu lista de redes sociales "
 #: Dredd-v3/cogs/boosters.py:165
 #, python-brace-format
 msgid "{0} Twitch account limit is 30, you're over 30, you sure it's the correct account name?"
-msgstr ""
+msgstr "{0} El límite del nombre de la cuenta de Twitch es 60, el tuyo tiene más de 60, ¿estás seguro de que es el nombre de cuenta correcto?"
 
 #: Dredd-v3/cogs/boosters.py:175
 #, python-brace-format
@@ -1709,7 +1709,7 @@ msgstr " Añade Twitter a tu lista de redes sociales "
 #: Dredd-v3/cogs/boosters.py:195
 #, python-brace-format
 msgid "{0} Twitter account limit is 30, you're over 30, you sure it's the correct account name?"
-msgstr ""
+msgstr "{0} El límite del nombre de la cuenta de Twitter es 60, el tuyo tiene más de 60, ¿estás seguro de que es el nombre de cuenta correcto?"
 
 #: Dredd-v3/cogs/boosters.py:205
 #, python-brace-format
@@ -1727,7 +1727,7 @@ msgstr " Añade GitHub a tu lista de redes sociales "
 #: Dredd-v3/cogs/boosters.py:225
 #, python-brace-format
 msgid "{0} GitHub account limit is 30, you're over 30, you sure it's the correct account name?"
-msgstr ""
+msgstr "{0} El límite del nombre de la cuenta de GitHub es 60, el tuyo tiene más de 60, ¿estás seguro de que es el nombre de cuenta correcto?"
 
 #: Dredd-v3/cogs/boosters.py:235
 #, python-brace-format
@@ -1750,7 +1750,7 @@ msgstr ""
 #: Dredd-v3/cogs/boosters.py:256
 #, python-brace-format
 msgid "{0} Youtube account name limit is 60, you're over 60, you sure it's the correct account name?"
-msgstr ""
+msgstr "{0} El límite del nombre de la cuenta de Youtube es 60, el tuyo tiene más de 60, ¿estás seguro de que es el nombre de cuenta correcto?"
 
 #: Dredd-v3/cogs/boosters.py:260
 #, python-brace-format
@@ -1904,7 +1904,8 @@ msgstr ""
 #, python-brace-format
 msgid "**Text to reverse:** {0}\n\n"
 "**Reversed:** {1}"
-msgstr ""
+msgstr "**Texto a invertir:** {0}\n\n"
+"**Invertido:** {1}"
 
 #: Dredd-v3/cogs/fun.py:127
 msgid "Choose between multiple choices"
@@ -2072,7 +2073,7 @@ msgstr "Sin información."
 #: Dredd-v3/cogs/help.py:364
 #, python-brace-format
 msgid "No command called \"{0}\" was found.{1}{2}"
-msgstr ""
+msgstr "No se encontró ningún comando llamado \"{0}\".{1}{2}"
 
 #: Dredd-v3/cogs/help.py:364
 msgid "\n\n"
@@ -2081,19 +2082,19 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:60
 msgid "See the bot's latency to discord"
-msgstr ""
+msgstr "Mira la latencia del bot a Discord"
 
 #: Dredd-v3/cogs/info.py:63
 msgid " See the bot's latency to discord "
-msgstr ""
+msgstr " Mira la latencia del bot a Discord "
 
 #: Dredd-v3/cogs/info.py:74
 msgid "A detailed information of the bot"
-msgstr ""
+msgstr "Una información detallada del bot"
 
 #: Dredd-v3/cogs/info.py:78
 msgid " A detailed information of the bot "
-msgstr ""
+msgstr " Una información detallada del bot "
 
 #: Dredd-v3/cogs/info.py:101
 #, python-brace-format
@@ -2147,7 +2148,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:155
 msgid "Get detailed information about the user"
-msgstr ""
+msgstr "Obtén información detallada del usuario"
 
 #: Dredd-v3/cogs/info.py:160
 msgid " A defailed information of the user. Fetches the user if they do not share any guilds with the bot. "
@@ -2215,11 +2216,11 @@ msgstr "Redes sociales:"
 
 #: Dredd-v3/cogs/info.py:247
 msgid "Get current server's detailed information"
-msgstr ""
+msgstr "Obtén información detallada del servidor actual"
 
 #: Dredd-v3/cogs/info.py:252
 msgid " A detailed information of the current server "
-msgstr ""
+msgstr " Una información detallada del servidor actual "
 
 #: Dredd-v3/cogs/info.py:258
 #, python-brace-format
@@ -2284,7 +2285,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:308
 msgid "Community server"
-msgstr ""
+msgstr "Servidor comunitario"
 
 #: Dredd-v3/cogs/info.py:309
 msgid "Server Discovery"
@@ -2521,7 +2522,7 @@ msgstr "**Contribuidores(es):**"
 
 #: Dredd-v3/cogs/info.py:502
 msgid "List of roles in the server"
-msgstr ""
+msgstr "Lista de roles en el servidor"
 
 #: Dredd-v3/cogs/info.py:507
 msgid " List of all the server roles. Providing the role mention will display all the members in that role "
@@ -2776,11 +2777,11 @@ msgstr "Usado"
 
 #: Dredd-v3/cogs/info.py:817
 msgid "A list of newest members in the server"
-msgstr ""
+msgstr "Una lista de los miembros más nuevos en el servidor"
 
 #: Dredd-v3/cogs/info.py:822
 msgid " A list of newest members in the server "
-msgstr ""
+msgstr " Una lista de los miembros más nuevos en el servidor "
 
 #: Dredd-v3/cogs/info.py:825
 #, python-brace-format
@@ -2804,12 +2805,12 @@ msgstr "El límite está fijado a 10"
 
 #: Dredd-v3/cogs/info.py:846
 msgid " A list of members with specific character(s) in their name "
-msgstr ""
+msgstr " Una lista de los miembros con caracter(es) específico(s) en su nombre "
 
 #: Dredd-v3/cogs/info.py:849
 #, python-brace-format
 msgid "{0} Names can't be longer than 32 characters! You're {1} characters over."
-msgstr ""
+msgstr "{0} ¡Los nombres no pueden tener más de 32 caracteres! Tienes {1} caracteres de más."
 
 #: Dredd-v3/cogs/info.py:856
 #, python-brace-format
@@ -2831,19 +2832,19 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:877
 msgid "Documentation of python"
-msgstr ""
+msgstr "Documentación de python"
 
 #: Dredd-v3/cogs/info.py:880
 msgid " Documentation of python "
-msgstr ""
+msgstr " Documentación de python "
 
 #: Dredd-v3/cogs/manage.py:38
 msgid "Manage bot's prefix in the server"
-msgstr ""
+msgstr "Administra el prefijo del bot en el servidor"
 
 #: Dredd-v3/cogs/manage.py:44
 msgid " View and manage your server's prefix "
-msgstr ""
+msgstr " Mira y administra el prefijo de tu servidor "
 
 #: Dredd-v3/cogs/manage.py:49
 #, python-brace-format
@@ -2864,11 +2865,11 @@ msgstr "¡No tengo un prefijo personalizado en este servidor! El prefijo predete
 
 #: Dredd-v3/cogs/manage.py:62
 msgid "Change my prefix in the server"
-msgstr ""
+msgstr "Cambia mi prefijo en el servidor"
 
 #: Dredd-v3/cogs/manage.py:67
 msgid " Change my prefix in the server "
-msgstr ""
+msgstr " Cambia mi prefijo en el servidor "
 
 #: Dredd-v3/cogs/manage.py:70
 #, python-brace-format
@@ -2882,11 +2883,11 @@ msgstr "{0} He cambiado mi prefijo en este servidor a `{1}`"
 
 #: Dredd-v3/cogs/manage.py:78
 msgid "Change bot's language in the server"
-msgstr ""
+msgstr "Cambia el idioma del bot en el servidor"
 
 #: Dredd-v3/cogs/manage.py:84
 msgid " Change the bot's language in the current server to your prefered one (if available) "
-msgstr ""
+msgstr " Cambia el idioma del bot en el servidor actual al de tu preferencia (si es que está disponible) "
 
 #: Dredd-v3/cogs/manage.py:87
 #, python-brace-format
@@ -2896,7 +2897,7 @@ msgstr "{0} Parece que ese idioma no existe, los idiomas disponibles son: {1}"
 #: Dredd-v3/cogs/manage.py:93
 #, python-brace-format
 msgid "{0} Changed the bot language to `{1}`"
-msgstr ""
+msgstr "{0} Se cambió el idioma del bot a `{1}`"
 
 #: Dredd-v3/cogs/manage.py:95
 msgid "A rough overview on server settings"
@@ -2913,19 +2914,19 @@ msgstr "Por defecto"
 #: Dredd-v3/cogs/manage.py:113
 #, python-brace-format
 msgid "{0} {1} Server Settings"
-msgstr ""
+msgstr "{0} {1} Configuración del servidor"
 
 #: Dredd-v3/cogs/manage.py:114
 msgid "**Logs:**"
-msgstr ""
+msgstr "**Registros:**"
 
 #: Dredd-v3/cogs/manage.py:115
 msgid "**Settings:**"
-msgstr ""
+msgstr "**Configuración:**"
 
 #: Dredd-v3/cogs/manage.py:116
 msgid "**More:**"
-msgstr ""
+msgstr "**Más:**"
 
 #: Dredd-v3/cogs/manage.py:116
 #, python-brace-format
@@ -2947,7 +2948,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:131
 msgid "Welcome Message"
-msgstr ""
+msgstr "Mensaje de bienvenida"
 
 #: Dredd-v3/cogs/manage.py:135
 #, python-brace-format
@@ -2956,7 +2957,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:138
 msgid "Leave Message"
-msgstr ""
+msgstr "Mensaje de despedida"
 
 #: Dredd-v3/cogs/manage.py:141
 msgid "View welcoming embed"
@@ -2969,7 +2970,7 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:149
 #, python-brace-format
 msgid "{0} Welcome messages are disabled in this server."
-msgstr ""
+msgstr "{0} Los mensajes de bienvenida están deshabilitados en este servidor."
 
 #: Dredd-v3/cogs/manage.py:153
 #, python-brace-format
