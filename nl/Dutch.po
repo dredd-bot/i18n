@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-19 19:04+0200\n"
-"PO-Revision-Date: 2021-07-20 12:19\n"
+"PO-Revision-Date: 2021-07-20 13:17\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -601,56 +601,60 @@ msgstr "{0} Onbekende fout | #{1}"
 #, python-brace-format
 msgid "Command `{0}` raised an error, which I reported to my developer(s).\n"
 "My developer(s) will be working to fixing this error ASAP. Meanwhile, you can [join the support server]({1}) for updates."
-msgstr ""
+msgstr "Command `{0}` ervaart een fout die ik naar mijn developer(s) heb gestuurd.\n"
+"Mijn developer(s) zal hier z.s.m. aan werken. Ondertussen, kan je [de support server toetreden]({1}) voor updates."
 
 #: Dredd-v3/cogs/events/errors.py:311 Dredd-v3/cogs/events/errors.py:333
 msgid "Error info:"
-msgstr ""
+msgstr "Fout info:"
 
 #: Dredd-v3/cogs/events/errors.py:329
 #, python-brace-format
 msgid "{0} Known error | #{1}"
-msgstr ""
+msgstr "{0} Bekende fout | #{1}"
 
 #: Dredd-v3/cogs/events/errors.py:330
 #, python-brace-format
 msgid "Command `{0}` raised an error that has already reported to my developer(s).\n"
 "They'll be looking into this issue and trying to fix it ASAP. Meanwhile, you can [join the support server]({1}) for updates."
-msgstr ""
+msgstr "Command `{0}` ervaart een fout die al naar mijn developer(s) gestuurd was.\n"
+"Mijn developer(s) zal hier naar kijken en zal het z.s.m. proberen op te lossen. Ondertussen, kan je [de support server toetreden]({1}) voor updates."
 
 #: Dredd-v3/cogs/events/events.py:100
 #, python-brace-format
 msgid "My prefix in this server is `{0}` or {1}!"
-msgstr ""
+msgstr "Mijn prefix in deze server is `{0}` of {1}!"
 
 #: Dredd-v3/cogs/events/events.py:111
 #, python-brace-format
 msgid "I appreciate you for using me! You can also use my commands here in DMs with a prefix `!`, but if you aren't using any commands - the DM will be logged in my [support server]({0}), so please don't send me any sensitive information."
-msgstr ""
+msgstr "Ik waardeer het dat je me gebruikt! Je kunt mijn commands hier ook in DMs gebruiken met de prefix `!`, maar als je geen commands gebruikt - de DMs zullen worden gelogged in mijn [support server]({0}), stuur me dus geen gevoelige informatie."
 
 #: Dredd-v3/cogs/events/events.py:125
 msgid "Hey! Not sure if you know yet, but my prefix in DM's is `!`"
-msgstr ""
+msgstr "Hey! Onbekend of je het al weet, maar mijn prefix in DMs is `!`"
 
 #: Dredd-v3/cogs/events/events.py:246
 #, python-brace-format
 msgid "If you are the server owner and would like to appeal, you can [join the support server]({0})."
-msgstr ""
+msgstr "Als u de server eigenaar bent en een beroep wilt doen op de blacklist, kunt u [toetreden in de support server]({0})."
 
 #: Dredd-v3/cogs/events/events.py:250
 msgid "Unfortunately, this server's blacklist state cannot be removed."
-msgstr ""
+msgstr "Helaas kan de blacklist status van deze server niet worden verwijderd."
 
 #: Dredd-v3/cogs/events/events.py:253
 #, python-brace-format
 msgid "Hey!\n"
 "This server is blacklisted, so I will not be staying in the server anymore. {0}\n\n"
 "**Blacklist reason:** {1}"
-msgstr ""
+msgstr "Hey!\n"
+"Deze server staat op mijn blacklist, dus ik zal niet meer in deze server blijven. {0}\n\n"
+"**Blacklist reden:** {1}"
 
 #: Dredd-v3/cogs/events/events.py:257
 msgid "Blacklist issue occured!"
-msgstr ""
+msgstr "Blacklist probleem opgetreden!"
 
 #: Dredd-v3/cogs/events/events.py:260
 #, python-brace-format
@@ -691,85 +695,91 @@ msgstr ""
 #: Dredd-v3/cogs/events/logs.py:90
 #, python-brace-format
 msgid "{0} Message Edited"
-msgstr ""
+msgstr "{0} bericht bewerkt"
 
 #: Dredd-v3/cogs/events/logs.py:91
 #, python-brace-format
 msgid "**User:** {0} `{1}`\n"
 "**Channel:** {2} `#{3}`\n"
 "[Jump to message]({4})"
-msgstr ""
+msgstr "**Gebruiker:** {0} `{1}`\n"
+"**Kanaal:** {2} `#{3}`\n"
+"[Spring naar bericht]({4})"
 
 #: Dredd-v3/cogs/events/logs.py:96 Dredd-v3/cogs/events/logs.py:100
 msgid "**Before:**"
-msgstr ""
+msgstr "**Voor:**"
 
 #: Dredd-v3/cogs/events/logs.py:104
 msgid "**After:**"
-msgstr ""
+msgstr "**Na:**"
 
 #: Dredd-v3/cogs/events/logs.py:106 Dredd-v3/cogs/events/logs.py:149
 #: Dredd-v3/cogs/events/logs.py:174 Dredd-v3/cogs/events/logs.py:215
 #: Dredd-v3/cogs/events/logs.py:229
 #, python-brace-format
 msgid "User ID: {0}"
-msgstr ""
+msgstr "Gebruiker ID: {0}"
 
 #: Dredd-v3/cogs/events/logs.py:132
 #, python-brace-format
 msgid "{0} Message Deleted"
-msgstr ""
+msgstr "{0} bericht verwijderd"
 
 #: Dredd-v3/cogs/events/logs.py:133
 #, python-brace-format
 msgid "**User:** {0} `{1}`\n"
 "**Channel:** {2} `#{3}`"
-msgstr ""
+msgstr "**Gebruiker:** {0} `{1}`\n"
+"**Kanaal:** {2} `#{3}`"
 
 #: Dredd-v3/cogs/events/logs.py:140
 msgid "**Message:**"
-msgstr ""
+msgstr "**Bericht:**"
 
 #: Dredd-v3/cogs/events/logs.py:144
 msgid "**Attachments:**"
-msgstr ""
+msgstr "**Bijlages:**"
 
 #: Dredd-v3/cogs/events/logs.py:147
 msgid "**Sticker:**"
-msgstr ""
+msgstr "**Sticker:**"
 
 #: Dredd-v3/cogs/events/logs.py:169
 #, python-brace-format
 msgid "{0} changed their nickname"
-msgstr ""
+msgstr "{0} heeft zijn bijnaam gewijzigd"
 
 #: Dredd-v3/cogs/events/logs.py:170
 #, python-brace-format
 msgid "{0} Nickname Changed"
-msgstr ""
+msgstr "{0} Bijnaam gewijzigd"
 
 #: Dredd-v3/cogs/events/logs.py:171
 #, python-brace-format
 msgid "**Member:** {0} `{1}`\n\n"
 "**Before:** {2}\n"
 "**After:** {3}"
-msgstr ""
+msgstr "**Member:** {0} `{1}`\n\n"
+"**Voor:** {2}\n"
+"**Na:** {3}"
 
 #: Dredd-v3/cogs/events/logs.py:211
 #, python-brace-format
 msgid "{0} changed their avatar"
-msgstr ""
+msgstr "{0} heeft zijn profielfoto gewijzigd"
 
 #: Dredd-v3/cogs/events/logs.py:212
 #, python-brace-format
 msgid "{0} Avatar Changed"
-msgstr ""
+msgstr "{0} Profielfoto gewijzigd"
 
 #: Dredd-v3/cogs/events/logs.py:213
 #, python-brace-format
 msgid "**Member:** {0} `{1}`\n"
 "[Avatar URL]({2})"
-msgstr ""
+msgstr "**Member:** {0} `{1}`\n"
+"[Avatar URL]({2})"
 
 #: Dredd-v3/cogs/events/logs.py:226
 #, python-brace-format
