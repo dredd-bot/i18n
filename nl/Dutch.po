@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-19 19:04+0200\n"
-"PO-Revision-Date: 2021-07-19 17:31\n"
+"PO-Revision-Date: 2021-07-20 11:22\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -64,7 +64,7 @@ msgstr "Er is een fout ontstaan tijdens het verkrijgen van uw vote, de gedetaill
 
 #: Dredd-v3/utils/checks.py:212
 msgid "This command is in its testing phase, you can join the support server if you want to apply your guild to be a testing guild or know when the command will be available."
-msgstr ""
+msgstr "Dit command is in de testfase, je kan de support server joinen als je een aanvraag wil doen om je guild een testing guild te maken, of om te weten wanneer het command beschikbaar is."
 
 #: Dredd-v3/utils/checks.py:224
 #, python-brace-format
@@ -85,7 +85,7 @@ msgstr "Er is momenteel onderhoud aan Dredd!"
 #: Dredd-v3/utils/checks.py:274
 #, python-brace-format
 msgid "{0} | `{1}` and its corresponding subcommands are currently disabled for: `{2}`"
-msgstr ""
+msgstr "{0} | `{1}` en de bijbehorende subcommands zijn momenteel uitgeschakeld voor: `{2}`"
 
 #: Dredd-v3/utils/checks.py:277
 #, python-brace-format
@@ -167,7 +167,7 @@ msgstr "Staflid in de [support server]({0}) of bijdrager"
 
 #: Dredd-v3/utils/default.py:195
 msgid "Dredd's Translator"
-msgstr ""
+msgstr "Dredd's Vertaler"
 
 #: Dredd-v3/utils/default.py:196
 msgid "Dredd's Sponsor"
@@ -176,31 +176,31 @@ msgstr "Dredd's Sponsor"
 #: Dredd-v3/utils/default.py:197
 #, python-brace-format
 msgid "Booster of [Dredd's support server]({0}) or Donator"
-msgstr "Booster van [Dredd's support server] ({0}) of Donator"
+msgstr "Booster van [Dredd's support server] ({0}) of Donateur"
 
 #: Dredd-v3/utils/default.py:198
 msgid "Dredd's Partner"
-msgstr ""
+msgstr "Dredd's Partner"
 
 #: Dredd-v3/utils/default.py:199
 msgid "Dredd Bug Hunter"
-msgstr ""
+msgstr "Dredd Bug Hunter"
 
 #: Dredd-v3/utils/default.py:200
 msgid "Dredd BETA Bug Hunter"
-msgstr ""
+msgstr "Dredd BETA Bug Hunter"
 
 #: Dredd-v3/utils/default.py:201
 msgid "Dredd Early Supporter"
-msgstr ""
+msgstr "Dredd Vroege Supporter"
 
 #: Dredd-v3/utils/default.py:202
 msgid "Dredd Super Early Supporter"
-msgstr ""
+msgstr "Dredd Super Vroegtijdige supporter"
 
 #: Dredd-v3/utils/default.py:203
 msgid "Blacklisted user"
-msgstr ""
+msgstr "Gebruiker op zwarte lijst"
 
 #: Dredd-v3/utils/default.py:204
 msgid "A special badge for Duck :duck:"
@@ -209,7 +209,7 @@ msgstr "Een speciale badge voor Eend :duck:"
 #: Dredd-v3/utils/default.py:243
 #, python-brace-format
 msgid "{0} Dredd Staff Server"
-msgstr "{0} Dredd medewerkerserver"
+msgstr "{0} Dredd Staff Server"
 
 #: Dredd-v3/utils/default.py:244
 msgid "{} Dredd Verified Server"
@@ -218,7 +218,7 @@ msgstr "{} Dredd Geverifieerde Server"
 #: Dredd-v3/utils/default.py:245
 #, python-brace-format
 msgid "{0} Dredd Partnered Server"
-msgstr "{0} Dredd gepartnerde server"
+msgstr "{0} Dredd Partner Server"
 
 #: Dredd-v3/utils/default.py:359
 #, python-brace-format
