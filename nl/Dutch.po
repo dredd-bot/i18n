@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-19 19:04+0200\n"
-"PO-Revision-Date: 2021-07-20 11:22\n"
+"PO-Revision-Date: 2021-07-20 12:19\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -238,22 +238,22 @@ msgstr "{0} Moderatie\n"
 #: Dredd-v3/utils/default.py:362
 #, python-brace-format
 msgid "{0} Guild logs\n"
-msgstr "{0} Gilde Logboek\n"
+msgstr "{0} Guild logs\n"
 
 #: Dredd-v3/utils/default.py:363
 #, python-brace-format
 msgid "{0} Member Joins\n"
-msgstr "{0} lid treed toe\n"
+msgstr "{0} Toetreding Members\n"
 
 #: Dredd-v3/utils/default.py:364
 #, python-brace-format
 msgid "{0} Member Leaves\n"
-msgstr "{0} Lid Verlaat\n"
+msgstr "{0} Vertrekken Members\n"
 
 #: Dredd-v3/utils/default.py:365
 #, python-brace-format
 msgid "{0} Member Updates\n"
-msgstr "{0} Ledenupdates\n"
+msgstr "{0} Member Updates\n"
 
 #: Dredd-v3/utils/default.py:367 Dredd-v3/utils/default.py:375
 #, python-brace-format
@@ -268,69 +268,69 @@ msgstr "{0} welkomstberichten\n"
 #: Dredd-v3/utils/default.py:369 Dredd-v3/utils/default.py:377
 #, python-brace-format
 msgid "{0} Leaving messages\n"
-msgstr "{0} Berichten bij verlaten\n"
+msgstr "{0} Vertrekberichten\n"
 
 #: Dredd-v3/utils/default.py:370 Dredd-v3/utils/default.py:378
 #, python-brace-format
 msgid "{0} Role on Join\n"
-msgstr "{0} rol als u zich aansluit\n"
+msgstr "{0} Rol op toetreding\n"
 
 #: Dredd-v3/utils/default.py:371 Dredd-v3/utils/default.py:379
 #, python-brace-format
 msgid "{0} Dehoisting\n"
-msgstr "{0} Degraderen\n"
+msgstr "{0} Dehoisting\n"
 
 #: Dredd-v3/utils/default.py:372 Dredd-v3/utils/default.py:380
 #, python-brace-format
 msgid "{0} Automod\n"
-msgstr "{0} Auto moderatie\n"
+msgstr "{0} Automoderatie\n"
 
 #: Dredd-v3/utils/default.py:529 Dredd-v3/cogs/moderation.py:1976
 msgid "mute"
-msgstr "gedempt"
+msgstr "mute"
 
 #: Dredd-v3/utils/default.py:530
 msgid "temp-mute"
-msgstr "tijdelijk gedempt"
+msgstr "temp-mute"
 
 #: Dredd-v3/utils/default.py:531 Dredd-v3/cogs/moderation.py:1970
 msgid "kick"
-msgstr "eruitgegooid"
+msgstr "kick"
 
 #: Dredd-v3/utils/default.py:532 Dredd-v3/cogs/moderation.py:1967
 msgid "ban"
-msgstr "verbanning"
+msgstr "ban"
 
 #: Dredd-v3/utils/default.py:533
 msgid "temp-ban"
-msgstr "tijdelijke verbanning"
+msgstr "temp-ban"
 
 #: Dredd-v3/utils/default.py:549
 msgid "I was not able to find this playlist! Please try again or use a different link."
-msgstr ""
+msgstr "Ik kon deze afspeellijst niet vinden! Probeer het opnieuw of gebruik een andere link."
 
 #: Dredd-v3/utils/default.py:556
 msgid "I was not able to find this album! Please try again or use a different link."
-msgstr ""
+msgstr "Ik kon dit album niet vinden! Probeer het opnieuw of gebruik een andere link."
 
 #: Dredd-v3/utils/default.py:574
 msgid "The URL you put is either not valid or doesn't exist!"
-msgstr ""
+msgstr "De URL die je hebt geplaatst is niet geldig of bestaat niet!"
 
 #: Dredd-v3/utils/default.py:580
 #, python-brace-format
 msgid "{0} Added the playlist **{1}** with {2} songs to the queue!"
-msgstr ""
+msgstr "{0} Afspeellijst **{1}** met {2} liedjes is aan de wachtrij toegevoegd!"
 
 #: Dredd-v3/utils/default.py:586
 #, python-brace-format
 msgid "{0} Added the album **{1}** with {2} songs to the queue!"
-msgstr ""
+msgstr "{0} Album **{1}** met {2} liedjes is aan de wachtrij toegevoegd!"
 
 #: Dredd-v3/utils/default.py:590 Dredd-v3/cogs/music.py:504
 #, python-brace-format
 msgid "{0} Added **{1}** to the Queue!"
-msgstr ""
+msgstr "{0} **{1}** Is toegevoegd aan de wachtrij!"
 
 #: Dredd-v3/utils/rtfm.py:140
 msgid "Cannot build rtfm lookup table, try again later."
@@ -343,16 +343,16 @@ msgstr "Sorry, Ik kon niets vinden."
 #: Dredd-v3/utils/rtfm.py:185
 #, python-brace-format
 msgid "enhanced discord.py {0}"
-msgstr "betoverde discord.py{0}"
+msgstr "enhanced discord.py {0}"
 
 #: Dredd-v3/utils/rtfm.py:186
 msgid "Keep in mind this is NOT the original d.py; certain things may be different"
-msgstr "Hou in gedachten dat dit NIET de originele d.py; is sommige dingen kunnen anders zijn"
+msgstr "Hou in gedachten dat dit NIET de originele d.py is; sommige dingen kunnen anders zijn"
 
 #: Dredd-v3/utils/rtfm.py:187
 #, python-brace-format
 msgid "**Search query:** `{0}`\n\n"
-msgstr "**Zoekterm:**{0}`\n\n"
+msgstr "**Zoekterm:** `{0}`\n\n"
 
 #: Dredd-v3/cogs/events/automod.py:156
 msgid "Spam (sending multiple messages in a short time span)"
@@ -372,39 +372,39 @@ msgstr "Spammen van links"
 
 #: Dredd-v3/cogs/events/automod.py:252
 msgid "Spamming mentions"
-msgstr "Spammen van pings"
+msgstr "Spammen van mentions"
 
 #: Dredd-v3/cogs/events/automod.py:277
 msgid "anti raid: user account is younger than 30 days."
-msgstr "anti Raid: Account is jonger dan 30 dagen."
+msgstr "anti raid: gebruikersaccount is jonger dan 30 dagen."
 
 #: Dredd-v3/cogs/events/automod.py:277
 msgid "Strict Anti Raid: No one is allowed to join the server"
-msgstr "Strenge Anti Raid: Niemand is toegestaan om de server te betreden"
+msgstr "Strikte Anti Raid: Niemand mag de server betreden"
 
 #: Dredd-v3/cogs/events/automod.py:293
 msgid "Member Muted"
-msgstr "Lid Gedempt"
+msgstr "Member gedempt"
 
 #: Dredd-v3/cogs/events/automod.py:293
 msgid "Member Temp-Muted"
-msgstr "Lid Tijdenlijk Gedempt"
+msgstr "Member tijdelijk gedempt"
 
 #: Dredd-v3/cogs/events/automod.py:293 Dredd-v3/cogs/events/automod.py:302
 msgid "Member Kicked"
-msgstr "Lid uitgegooid"
+msgstr "Member gekicked"
 
 #: Dredd-v3/cogs/events/automod.py:297 Dredd-v3/cogs/events/automod.py:302
 msgid "Member Banned"
-msgstr "Leden Verbannen"
+msgstr "Member verbannen"
 
 #: Dredd-v3/cogs/events/automod.py:297
 msgid "Member Temp-Banned"
-msgstr "Lid Tijdenlijk Verbannen"
+msgstr "Member tijdelijk verbannen"
 
 #: Dredd-v3/cogs/events/automod.py:306
 msgid "Automod Action"
-msgstr "Auto-moderatie Actie"
+msgstr "Automoderatie actie"
 
 #: Dredd-v3/cogs/events/automod.py:309 Dredd-v3/cogs/events/logs.py:596
 #: Dredd-v3/cogs/events/logs.py:726
@@ -418,83 +418,86 @@ msgstr "\n"
 #, python-brace-format
 msgid "**Member:** {0}{1}\n"
 "**Reason:** {2}"
-msgstr ""
+msgstr "**Member:** {0}{1}\n"
+"**Reden:** {2}"
 
 #: Dredd-v3/cogs/events/automod.py:320
 #, python-brace-format
 msgid "Automod Action | {0}"
-msgstr ""
+msgstr "Automod actie | {0}"
 
 #: Dredd-v3/cogs/events/automod.py:322
 #, python-brace-format
 msgid "{0} Something failed while punishing the member, sent the error to my developers. This is most likely due to me either missing permissions or not being able to access the person and/or role"
-msgstr ""
+msgstr "{0} Iets is mislukt tijdens het straffen van de member. Foutmelding is naar mijn developers gestuurd. Dit is zeer waarschijnlijk te wijten aan het ontbreken van machtigingen of aan het niet toegang hebben tot de persoon en/of rol"
 
 #: Dredd-v3/cogs/events/automod.py:333
 #, python-brace-format
 msgid "{0} Muted **{1}** for {2}."
-msgstr ""
+msgstr "{0} **{1}** is gedempt voor {2}."
 
 #: Dredd-v3/cogs/events/automod.py:354
 #, python-brace-format
 msgid "{0} Muted **{1}** for {2}, reason: {3}."
-msgstr ""
+msgstr "{0} **{1}** is gedempt voor {2}, reden {3}."
 
 #: Dredd-v3/cogs/events/automod.py:372
 #, python-brace-format
 msgid "{0} Kicked **{1}** for {2}."
-msgstr ""
+msgstr "{0} **{1}** is gekicked voor {2}."
 
 #: Dredd-v3/cogs/events/automod.py:386
 #, python-brace-format
 msgid "{0} Banned **{1}** for {2}."
-msgstr ""
+msgstr "{0} **{1}** is gebanned voor {2}."
 
 #: Dredd-v3/cogs/events/automod.py:401
 #, python-brace-format
 msgid "{0} Banned **{1}** for {2}, reason: {3}."
-msgstr ""
+msgstr "{0} **{1}** is gebanned voor {2}, reden {3}."
 
 #: Dredd-v3/cogs/events/automod.py:419
 #, python-brace-format
 msgid "{0} {1} has anti raid mode activated, please try joining again later."
-msgstr ""
+msgstr "{0} {1} heeft antiraid-modus geactiveerd, probeer later opnieuw toe te treden."
 
 #: Dredd-v3/cogs/events/automod.py:431 Dredd-v3/cogs/events/automod.py:459
 #, python-brace-format
 msgid "{0} {1} has anti raid mode activated, you're not allowed to join that server."
-msgstr ""
+msgstr "{0} {1} heeft antiraid-modus geactiveerd, u mag niet toetreden tot die server."
 
 #: Dredd-v3/cogs/events/automod.py:447
 #, python-brace-format
 msgid "{0} {1} has strict anti raid mode activated, please try joining again later."
-msgstr ""
+msgstr "{0} {1} heeft strikte antiraid-modus geactiveerd, probeer later opnieuw toe te treden."
 
 #: Dredd-v3/cogs/events/automod.py:472
 #, python-brace-format
 msgid "{0} I'm not sure what happened, but something broke. Please make sure that my role is above everyone's else, otherwise you'll see these errors more often. I've also sent this error to my developers."
-msgstr ""
+msgstr "{0} Ik weet niet zeker wat er gebeurd is, maar er is iets fout gegaan. Zorg ervoor dat mijn rol boven alle anderen staat. Anders zie je deze fouten vaker terug. Ik heb deze fout ook naar mijn developers gestuurd."
 
 #: Dredd-v3/cogs/events/automod.py:481
 #, python-brace-format
 msgid "{0} Mute role was not found, please create the mute role, or set a custom one using `{1}muterole [role]`.\n\n"
 "Manually removed member permissions to send messages in this channel *hopefully*."
-msgstr ""
+msgstr "{0} Mute rol is niet gevonden. Maak de mute rol aan, of stel een aangepaste rol in met `{1}muterole [role]`.\n\n"
+"De machtigingen voor de member om berichten te sturen is *hopelijk* handmatig verwijderd."
 
 #: Dredd-v3/cogs/events/automod.py:486
 #, python-brace-format
 msgid "{0} Failed to kick/ban the member, are they higher in role hierarchy than me? Put my role at the very top to avoid these type of issues.\n\n"
 "Manually removed member permissions to send messages in this channel *hopefully*."
-msgstr ""
+msgstr "{0} Het is mislukt om de member te kicken/bannen, Zijn ze hoger in de rolhiërarchie dan mij? Zet mijn rol op de top om dit soort problemen te voorkomen.\n\n"
+"De machtigingen voor de member om berichten te sturen is *hopelijk* handmatig verwijderd."
 
 #: Dredd-v3/cogs/events/errors.py:131
 msgid "Vote required!"
-msgstr ""
+msgstr "Vote vereist!"
 
 #: Dredd-v3/cogs/events/errors.py:132
 #, python-brace-format
 msgid "Hey {0}!"
-msgstr ""
+msgstr "Hey {0}!"
 
 #: Dredd-v3/cogs/events/errors.py:133
 #, python-brace-format
@@ -505,88 +508,94 @@ msgid "Thank you for using me! Unfortunately this command is vote locked and you
 "`[4]` {3}\n"
 "If you've voted already, please wait cause the API might be slow.\n\n"
 "*After you vote, you'll be able to use this command, and you will help Dredd gain more servers :D*"
-msgstr ""
+msgstr "Bedankt voor het gebruiken van mij! Onfortuinlijk genoeg is dit command vote-beperkt en zul je moeten voten voor Dredd. Je kan in de volgende lijsten voten:\n"
+"`[1]` {0}\n"
+"`[2]` {1}\n"
+"`[3]` {2}\n"
+"`[4]` {3}\n"
+"Als je dit al hebt gedaan, wacht alstublieft. Het is mogelijk dat the API langzaam is op het moment.\n\n"
+"*Na het voten, kan je dit command gebruiken. En zo help je ook Dredd om meer servers te krijgen.*"
 
 #: Dredd-v3/cogs/events/errors.py:141
 #, python-brace-format
 msgid "{0} This command is staff-locked"
-msgstr ""
+msgstr "{0} Dit command is beperkt tot staff"
 
 #: Dredd-v3/cogs/events/errors.py:144
 #, python-brace-format
 msgid "{0} This command can only be used by boosters"
-msgstr ""
+msgstr "{0} Dit command kan alleen door boosters gebruikt worden"
 
 #: Dredd-v3/cogs/events/errors.py:150
 #, python-brace-format
 msgid "{0} You've used invalid permissions flag, please make sure you're using the correct one."
-msgstr ""
+msgstr "{0} Je hebt een ongeldige machtingenvlag opgegeven. Zorg ervoor dat je de juiste gebruikt."
 
 #: Dredd-v3/cogs/events/errors.py:158
 #, python-brace-format
 msgid "{0} This command has already been used by someone in this guild or channel."
-msgstr ""
+msgstr "{0} Dit command is al gebruikt door iemand in deze server of in dit kanaal."
 
 #: Dredd-v3/cogs/events/errors.py:164
 #, python-brace-format
 msgid "{0} | This command can only be used in direct messages!"
-msgstr ""
+msgstr "{0} | Dit command kan alleen in privéberichten worden gebruikt!"
 
 #: Dredd-v3/cogs/events/errors.py:169
 #, python-brace-format
 msgid "{0} | This command can't be used in direct messages!"
-msgstr ""
+msgstr "{0} | Dit command kan niet in privéberichten worden gebruikt!"
 
 #: Dredd-v3/cogs/events/errors.py:178
 #, python-brace-format
 msgid "{0} This command is marked as NSFW that's why I cannot let you use it in this channel."
-msgstr ""
+msgstr "{0} Dit command is gemarkeerd als NSFW waardoor je het niet kan gebruiken in dit kanaal."
 
 #: Dredd-v3/cogs/events/errors.py:188
 #, python-brace-format
 msgid "{0} This command can only be used by the bot developers."
-msgstr ""
+msgstr "{0} Dit command kan alleen worden gebruikt door de bot developers."
 
 #: Dredd-v3/cogs/events/errors.py:206
 #, python-brace-format
 msgid "{0} You're missing the {1} permission."
-msgstr ""
+msgstr "{0} Je mist de machtiging {1}."
 
 #: Dredd-v3/cogs/events/errors.py:211
 #, python-brace-format
 msgid "{0} I'm missing {1} permissions"
-msgstr ""
+msgstr "{0} Ik mis {1} machtigingen"
 
 #: Dredd-v3/cogs/events/errors.py:243
 #, python-brace-format
 msgid "{0} | You're on cooldown, try again in **{1}** seconds."
-msgstr ""
+msgstr "{0} | Je zit op een cooldown, probeer opnieuw in **{1}** seconden."
 
 #: Dredd-v3/cogs/events/errors.py:246
 #, python-brace-format
 msgid "{0} | You're missing an argument - **{1}**"
-msgstr ""
+msgstr "{0} | Je mist een argument - **{1}**"
 
 #: Dredd-v3/cogs/events/errors.py:250
 #, python-brace-format
 msgid "{0} | Looks like you haven't closed the quote"
-msgstr ""
+msgstr "{0} | Het lijkt erop dat je de quotes niet hebt gesloten"
 
 #. no other way to prevent this
 #: Dredd-v3/cogs/events/errors.py:253
 #, python-brace-format
 msgid "{0} | Failed to add the reactions, please reinvoke the command."
-msgstr ""
+msgstr "{0} | De reacties konden niet worden toegevoegd, gelieve het commando opnieuw in te voeren."
 
 #: Dredd-v3/cogs/events/errors.py:259
 #, python-brace-format
 msgid "{0} I'm missing permissions to embed links."
-msgstr ""
+msgstr "{0} Ik mis machtigingen om links te embedden."
 
 #: Dredd-v3/cogs/events/errors.py:307
 #, python-brace-format
 msgid "{0} Unknown error | #{1}"
-msgstr ""
+msgstr "{0} Onbekende fout | #{1}"
 
 #: Dredd-v3/cogs/events/errors.py:308
 #, python-brace-format
