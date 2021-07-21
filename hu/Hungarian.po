@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-19 19:04+0200\n"
-"PO-Revision-Date: 2021-07-19 17:31\n"
+"POT-Creation-Date: 2021-07-21 22:59+0200\n"
+"PO-Revision-Date: 2021-07-21 21:55\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -567,38 +567,43 @@ msgstr ""
 msgid "{0} | Looks like you haven't closed the quote"
 msgstr ""
 
-#. no other way to prevent this
 #: Dredd-v3/cogs/events/errors.py:253
+#, python-brace-format
+msgid "{0} | Expected space after the quote, but received another quote"
+msgstr ""
+
+#. no other way to prevent this
+#: Dredd-v3/cogs/events/errors.py:256
 #, python-brace-format
 msgid "{0} | Failed to add the reactions, please reinvoke the command."
 msgstr ""
 
-#: Dredd-v3/cogs/events/errors.py:259
+#: Dredd-v3/cogs/events/errors.py:262
 #, python-brace-format
 msgid "{0} I'm missing permissions to embed links."
 msgstr ""
 
-#: Dredd-v3/cogs/events/errors.py:307
+#: Dredd-v3/cogs/events/errors.py:310
 #, python-brace-format
 msgid "{0} Unknown error | #{1}"
 msgstr "{0} Ismeretlen hiba | #{1}"
 
-#: Dredd-v3/cogs/events/errors.py:308
+#: Dredd-v3/cogs/events/errors.py:311
 #, python-brace-format
 msgid "Command `{0}` raised an error, which I reported to my developer(s).\n"
 "My developer(s) will be working to fixing this error ASAP. Meanwhile, you can [join the support server]({1}) for updates."
 msgstr ""
 
-#: Dredd-v3/cogs/events/errors.py:311 Dredd-v3/cogs/events/errors.py:333
+#: Dredd-v3/cogs/events/errors.py:314 Dredd-v3/cogs/events/errors.py:336
 msgid "Error info:"
 msgstr ""
 
-#: Dredd-v3/cogs/events/errors.py:329
+#: Dredd-v3/cogs/events/errors.py:332
 #, python-brace-format
 msgid "{0} Known error | #{1}"
 msgstr ""
 
-#: Dredd-v3/cogs/events/errors.py:330
+#: Dredd-v3/cogs/events/errors.py:333
 #, python-brace-format
 msgid "Command `{0}` raised an error that has already reported to my developer(s).\n"
 "They'll be looking into this issue and trying to fix it ASAP. Meanwhile, you can [join the support server]({1}) for updates."
