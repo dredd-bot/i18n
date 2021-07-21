@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-19 19:04+0200\n"
-"PO-Revision-Date: 2021-07-19 17:31\n"
+"PO-Revision-Date: 2021-07-21 04:18\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -85,7 +85,7 @@ msgstr "Dredd está bajo mantenimiento!"
 #: Dredd-v3/utils/checks.py:274
 #, python-brace-format
 msgid "{0} | `{1}` and its corresponding subcommands are currently disabled for: `{2}`"
-msgstr ""
+msgstr "{0} | `{1}` y sus subcomandos correspondientes están actualmente deshabilitados por: `{2}`"
 
 #: Dredd-v3/utils/checks.py:277
 #, python-brace-format
@@ -307,25 +307,25 @@ msgstr "temp-ban"
 
 #: Dredd-v3/utils/default.py:549
 msgid "I was not able to find this playlist! Please try again or use a different link."
-msgstr ""
+msgstr "¡No he podido encontrar esta lista de reproducción! Por favor, inténtalo de nuevo o utiliza un enlace diferente."
 
 #: Dredd-v3/utils/default.py:556
 msgid "I was not able to find this album! Please try again or use a different link."
-msgstr ""
+msgstr "¡No he podido encontrar este álbum! Por favor, inténtalo de nuevo o utiliza un enlace diferente."
 
 #: Dredd-v3/utils/default.py:574
 msgid "The URL you put is either not valid or doesn't exist!"
-msgstr ""
+msgstr "¡El enlace que has introducido no es válido o no existe!"
 
 #: Dredd-v3/utils/default.py:580
 #, python-brace-format
 msgid "{0} Added the playlist **{1}** with {2} songs to the queue!"
-msgstr ""
+msgstr "{0} ¡He añadido la lista de reproducción **{1}** con {2} canciones a la cola!"
 
 #: Dredd-v3/utils/default.py:586
 #, python-brace-format
 msgid "{0} Added the album **{1}** with {2} songs to the queue!"
-msgstr ""
+msgstr "{0} ¡He añadido el álbum **{1}** con {2} canciones a la cola!"
 
 #: Dredd-v3/utils/default.py:590 Dredd-v3/cogs/music.py:504
 #, python-brace-format
@@ -4861,7 +4861,7 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:317
 #, python-brace-format
 msgid "{0} | You can only kick 15 members at once."
-msgstr ""
+msgstr "{0} | Solo puedes expulsar 15 miembros a la vez."
 
 #: Dredd-v3/cogs/moderation.py:323 Dredd-v3/cogs/moderation.py:416
 #: Dredd-v3/cogs/moderation.py:508 Dredd-v3/cogs/moderation.py:806
@@ -4907,7 +4907,7 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:410
 #, python-brace-format
 msgid "{0} | You can only ban 15 members at once."
-msgstr ""
+msgstr "{0} | Solo puedes banear 15 miembros a la vez."
 
 #: Dredd-v3/cogs/moderation.py:447 Dredd-v3/cogs/moderation.py:539
 #, python-brace-format
@@ -4986,7 +4986,7 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:613
 #, python-brace-format
 msgid "{0} ({0.id}) - **User is already banned.**"
-msgstr ""
+msgstr "{0} ({0.id}) - **El usuario ya está baneado.**"
 
 #: Dredd-v3/cogs/moderation.py:616 Dredd-v3/cogs/moderation.py:679
 msgid "No reason provided."
@@ -5072,7 +5072,7 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:794
 #, python-brace-format
 msgid "{0} | You can only mute 15 members at once."
-msgstr ""
+msgstr "{0} | Solo puedes silenciar 15 miembros a la vez."
 
 #: Dredd-v3/cogs/moderation.py:797 Dredd-v3/cogs/moderation.py:912
 #, python-brace-format
@@ -6013,7 +6013,7 @@ msgstr ""
 #: Dredd-v3/cogs/music.py:547
 #, python-brace-format
 msgid "{0} You cannot pause live streams."
-msgstr ""
+msgstr "{0} No puedes pausar streams en vivo."
 
 #: Dredd-v3/cogs/music.py:551 Dredd-v3/cogs/music.py:627
 #, python-brace-format
@@ -6202,15 +6202,15 @@ msgstr "Total de canciones en cola: {0}"
 #: Dredd-v3/cogs/music.py:756
 #, python-brace-format
 msgid "{0} Queue"
-msgstr ""
+msgstr "{0} Cola"
 
 #: Dredd-v3/cogs/music.py:766
 msgid "Remove a song from the queue"
-msgstr ""
+msgstr "Quita una canción de la cola"
 
 #: Dredd-v3/cogs/music.py:773
 msgid " Remove a song from the queue "
-msgstr ""
+msgstr " Quita una canción de la cola "
 
 #: Dredd-v3/cogs/music.py:777 Dredd-v3/cogs/music.py:801
 msgid "There are no songs in the queue."
@@ -6219,12 +6219,12 @@ msgstr "No hay canciones en la cola."
 #: Dredd-v3/cogs/music.py:781
 #, python-brace-format
 msgid "{0} There are only {1} songs in the queue"
-msgstr ""
+msgstr "{0} Solo hay {1} canciones en la cola"
 
 #: Dredd-v3/cogs/music.py:785
 #, python-brace-format
 msgid "{0} Removed song {1} from the queue, there are now {2} songs left in the queue."
-msgstr ""
+msgstr "{0} He eliminado la canción {1} de la cola, ahora quedan {2} canciones en la cola."
 
 #: Dredd-v3/cogs/music.py:790
 msgid "Clear all the songs from the queue"
