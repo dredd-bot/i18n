@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-21 22:59+0200\n"
-"PO-Revision-Date: 2021-07-21 21:56\n"
+"PO-Revision-Date: 2021-07-22 18:34\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -64,7 +64,7 @@ msgstr "投票の取得時にエラーが発生しました。詳細なエラー
 
 #: Dredd-v3/utils/checks.py:212
 msgid "This command is in its testing phase, you can join the support server if you want to apply your guild to be a testing guild or know when the command will be available."
-msgstr ""
+msgstr "このコマンドはテスト段階にあります ギルドをテストギルドに適用したい場合や、いつコマンドが利用可能になるかを知る場合は、サポートサーバーに参加できます"
 
 #: Dredd-v3/utils/checks.py:224
 #, python-brace-format
@@ -85,7 +85,7 @@ msgstr "Dredd はメンテナンス中です！"
 #: Dredd-v3/utils/checks.py:274
 #, python-brace-format
 msgid "{0} | `{1}` and its corresponding subcommands are currently disabled for: `{2}`"
-msgstr ""
+msgstr "{0} | `{1}` と対応するサブコマンドは現在無効になっています `{2}`"
 
 #: Dredd-v3/utils/checks.py:277
 #, python-brace-format
@@ -171,7 +171,7 @@ msgstr "Dredd の翻訳"
 
 #: Dredd-v3/utils/default.py:196
 msgid "Dredd's Sponsor"
-msgstr ""
+msgstr "Dredd Sponsor"
 
 #: Dredd-v3/utils/default.py:197
 #, python-brace-format
@@ -180,7 +180,7 @@ msgstr "[Dreddのサポートサーバー]({0})または寄付者のBooster"
 
 #: Dredd-v3/utils/default.py:198
 msgid "Dredd's Partner"
-msgstr ""
+msgstr "Dredd Partner"
 
 #: Dredd-v3/utils/default.py:199
 msgid "Dredd Bug Hunter"
@@ -196,7 +196,7 @@ msgstr "Dredd早期サポーター。"
 
 #: Dredd-v3/utils/default.py:202
 msgid "Dredd Super Early Supporter"
-msgstr ""
+msgstr "Dredd超早期サポーター"
 
 #: Dredd-v3/utils/default.py:203
 msgid "Blacklisted user"
@@ -213,12 +213,12 @@ msgstr "{0} Dreddスタッフサーバー"
 
 #: Dredd-v3/utils/default.py:244
 msgid "{} Dredd Verified Server"
-msgstr ""
+msgstr "{} Dredd検証済みサーバー"
 
 #: Dredd-v3/utils/default.py:245
 #, python-brace-format
 msgid "{0} Dredd Partnered Server"
-msgstr ""
+msgstr "{0} Dreddパートナーサーバー"
 
 #: Dredd-v3/utils/default.py:359
 #, python-brace-format
@@ -259,7 +259,7 @@ msgstr "{0} メンバーアップデート\n"
 #: Dredd-v3/utils/default.py:367 Dredd-v3/utils/default.py:375
 #, python-brace-format
 msgid "{0} Raid mode\n"
-msgstr ""
+msgstr "{0} 集結モード\n"
 
 #: Dredd-v3/utils/default.py:368 Dredd-v3/utils/default.py:376
 #, python-brace-format
