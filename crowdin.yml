@@ -1,3 +1,7 @@
 files:
   - source: bot.po
     translation: '%language%.po'
+  - source: rules.md
+    translation: 'rules.md'
+  - source: faq.md
+    translation: 'faq.md'
