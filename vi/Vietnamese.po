@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-21 22:59+0200\n"
-"PO-Revision-Date: 2021-08-01 10:32\n"
+"PO-Revision-Date: 2021-08-01 11:29\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -175,7 +175,7 @@ msgstr "Nhà tài trợ của Dredd"
 #: Dredd-v3/utils/default.py:197
 #, python-brace-format
 msgid "Booster of [Dredd's support server]({0}) or Donator"
-msgstr ""
+msgstr "Người tăng cường of [Dredd's support server]({0}) hoặc người quyên góp"
 
 #: Dredd-v3/utils/default.py:198
 msgid "Dredd's Partner"
@@ -217,7 +217,7 @@ msgstr ""
 #: Dredd-v3/utils/default.py:245
 #, python-brace-format
 msgid "{0} Dredd Partnered Server"
-msgstr ""
+msgstr "{0} Máy chủ đối tác của Dredd"
 
 #: Dredd-v3/utils/default.py:359
 #, python-brace-format
@@ -232,47 +232,47 @@ msgstr "{0} Tin nhắn bị xóa\n"
 #: Dredd-v3/utils/default.py:361
 #, python-brace-format
 msgid "{0} Moderation\n"
-msgstr ""
+msgstr "{0} Kiểm duyệt\n"
 
 #: Dredd-v3/utils/default.py:362
 #, python-brace-format
 msgid "{0} Guild logs\n"
-msgstr ""
+msgstr "{0} Nhật ký máy chủ\n"
 
 #: Dredd-v3/utils/default.py:363
 #, python-brace-format
 msgid "{0} Member Joins\n"
-msgstr ""
+msgstr "{0} Thành viên tham gia\n"
 
 #: Dredd-v3/utils/default.py:364
 #, python-brace-format
 msgid "{0} Member Leaves\n"
-msgstr ""
+msgstr "{0} Thành viên rời khỏi\n"
 
 #: Dredd-v3/utils/default.py:365
 #, python-brace-format
 msgid "{0} Member Updates\n"
-msgstr ""
+msgstr "{0} Thành viên cập nhật\n"
 
 #: Dredd-v3/utils/default.py:367 Dredd-v3/utils/default.py:375
 #, python-brace-format
 msgid "{0} Raid mode\n"
-msgstr ""
+msgstr "{0} Chế độ đột kích\n"
 
 #: Dredd-v3/utils/default.py:368 Dredd-v3/utils/default.py:376
 #, python-brace-format
 msgid "{0} Welcoming messages\n"
-msgstr ""
+msgstr "{0} Tin nhắn chào mừng\n"
 
 #: Dredd-v3/utils/default.py:369 Dredd-v3/utils/default.py:377
 #, python-brace-format
 msgid "{0} Leaving messages\n"
-msgstr ""
+msgstr "{0} Tin nhắn tạm biệt\n"
 
 #: Dredd-v3/utils/default.py:370 Dredd-v3/utils/default.py:378
 #, python-brace-format
 msgid "{0} Role on Join\n"
-msgstr ""
+msgstr "{0} Vai trò khi tham gia\n"
 
 #: Dredd-v3/utils/default.py:371 Dredd-v3/utils/default.py:379
 #, python-brace-format
@@ -286,23 +286,23 @@ msgstr ""
 
 #: Dredd-v3/utils/default.py:529 Dredd-v3/cogs/moderation.py:1976
 msgid "mute"
-msgstr ""
+msgstr "tắt tiếng"
 
 #: Dredd-v3/utils/default.py:530
 msgid "temp-mute"
-msgstr ""
+msgstr "tắt tiếng tạm thời"
 
 #: Dredd-v3/utils/default.py:531 Dredd-v3/cogs/moderation.py:1970
 msgid "kick"
-msgstr ""
+msgstr "đá"
 
 #: Dredd-v3/utils/default.py:532 Dredd-v3/cogs/moderation.py:1967
 msgid "ban"
-msgstr ""
+msgstr "cấm"
 
 #: Dredd-v3/utils/default.py:533
 msgid "temp-ban"
-msgstr ""
+msgstr "cấm tạm thời"
 
 #: Dredd-v3/utils/default.py:549
 msgid "I was not able to find this playlist! Please try again or use a different link."
@@ -310,39 +310,39 @@ msgstr "Tôi không thể tìm thấy danh sách phát này! Hãy thử lại ho
 
 #: Dredd-v3/utils/default.py:556
 msgid "I was not able to find this album! Please try again or use a different link."
-msgstr ""
+msgstr "Tôi không thể tìm thấy album này! Hãy thử lại hoặc sử dụng một liên kết khác."
 
 #: Dredd-v3/utils/default.py:574
 msgid "The URL you put is either not valid or doesn't exist!"
-msgstr ""
+msgstr "URL bạn nhập không hợp lệ hoặc không tồn tại!"
 
 #: Dredd-v3/utils/default.py:580
 #, python-brace-format
 msgid "{0} Added the playlist **{1}** with {2} songs to the queue!"
-msgstr ""
+msgstr "{0} Đã thêm danh sách phát **{1}** với {2} bài hát vào hàng đợi!"
 
 #: Dredd-v3/utils/default.py:586
 #, python-brace-format
 msgid "{0} Added the album **{1}** with {2} songs to the queue!"
-msgstr ""
+msgstr "{0} Đã thêm album **{1}** với {2} bài hát vào hàng chờ!"
 
 #: Dredd-v3/utils/default.py:590 Dredd-v3/cogs/music.py:504
 #, python-brace-format
 msgid "{0} Added **{1}** to the Queue!"
-msgstr ""
+msgstr "{0} Đã thêm **{1}** vào hàng chờ!"
 
 #: Dredd-v3/utils/rtfm.py:140
 msgid "Cannot build rtfm lookup table, try again later."
-msgstr ""
+msgstr "Không thể tạo bảng tìm kiếm rtfm, vui lòng thử lại sau."
 
 #: Dredd-v3/utils/rtfm.py:182
 msgid "I could not find anything, sorry."
-msgstr ""
+msgstr "Tôi không thể tìm thấy bất cứ thứ gì, xin lỗi."
 
 #: Dredd-v3/utils/rtfm.py:185
 #, python-brace-format
 msgid "enhanced discord.py {0}"
-msgstr ""
+msgstr "nâng cấp discord.py {0}"
 
 #: Dredd-v3/utils/rtfm.py:186
 msgid "Keep in mind this is NOT the original d.py; certain things may be different"
@@ -359,7 +359,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/automod.py:176
 msgid "Advertising"
-msgstr ""
+msgstr "Quảng cáo"
 
 #: Dredd-v3/cogs/events/automod.py:200
 msgid "Spamming caps"
@@ -367,7 +367,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/automod.py:223
 msgid "Spamming links"
-msgstr ""
+msgstr "Spam liên kết"
 
 #: Dredd-v3/cogs/events/automod.py:252
 msgid "Spamming mentions"
@@ -375,83 +375,85 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/automod.py:277
 msgid "anti raid: user account is younger than 30 days."
-msgstr ""
+msgstr "chống đột kích: tài khoản dưới 30 ngày."
 
 #: Dredd-v3/cogs/events/automod.py:277
 msgid "Strict Anti Raid: No one is allowed to join the server"
-msgstr ""
+msgstr "Chống Raid nghiêm ngặt: Không ai được phép tham gia máy chủ"
 
 #: Dredd-v3/cogs/events/automod.py:293
 msgid "Member Muted"
-msgstr ""
+msgstr "Thành viên bị tắt tiếng"
 
 #: Dredd-v3/cogs/events/automod.py:293
 msgid "Member Temp-Muted"
-msgstr ""
+msgstr "Thành viên bị tắt tiếng tạm thời"
 
 #: Dredd-v3/cogs/events/automod.py:293 Dredd-v3/cogs/events/automod.py:302
 msgid "Member Kicked"
-msgstr ""
+msgstr "Thành viên bị đá"
 
 #: Dredd-v3/cogs/events/automod.py:297 Dredd-v3/cogs/events/automod.py:302
 msgid "Member Banned"
-msgstr ""
+msgstr "Thành viên đã bị cấm"
 
 #: Dredd-v3/cogs/events/automod.py:297
 msgid "Member Temp-Banned"
-msgstr ""
+msgstr "Thành viên bị cấm tạm thời"
 
 #: Dredd-v3/cogs/events/automod.py:306
 msgid "Automod Action"
-msgstr ""
+msgstr "Hành động tự động kiểm duyệt"
 
 #: Dredd-v3/cogs/events/automod.py:309 Dredd-v3/cogs/events/logs.py:596
 #: Dredd-v3/cogs/events/logs.py:726
 #, python-brace-format
 msgid "\n"
 "**Duration:** {0}"
-msgstr ""
+msgstr "\n"
+"**Thời hạn:** {0}"
 
 #: Dredd-v3/cogs/events/automod.py:312
 #, python-brace-format
 msgid "**Member:** {0}{1}\n"
 "**Reason:** {2}"
-msgstr ""
+msgstr "**Thành viên:** {0}{1}\n"
+"**Lý do:** {2}"
 
 #: Dredd-v3/cogs/events/automod.py:320
 #, python-brace-format
 msgid "Automod Action | {0}"
-msgstr ""
+msgstr "Hành động tự động kiểm duyệt | {0}"
 
 #: Dredd-v3/cogs/events/automod.py:322
 #, python-brace-format
 msgid "{0} Something failed while punishing the member, sent the error to my developers. This is most likely due to me either missing permissions or not being able to access the person and/or role"
-msgstr ""
+msgstr "{0} Đã xảy ra lỗi khi trừng phạt thành viên, đã gửi lỗi tới các nhà phát triển của tôi. Điều này rất có thể là do tôi bị thiếu quyền hoặc tôi không thể truy cập vào người đó/hoặc vai trò"
 
 #: Dredd-v3/cogs/events/automod.py:333
 #, python-brace-format
 msgid "{0} Muted **{1}** for {2}."
-msgstr ""
+msgstr "{0} Đã tắt tiếng **{1}** trong {2}."
 
 #: Dredd-v3/cogs/events/automod.py:354
 #, python-brace-format
 msgid "{0} Muted **{1}** for {2}, reason: {3}."
-msgstr ""
+msgstr "{0} Đã tắt tiếng **{1}** trong {2}, với lý do: {3}."
 
 #: Dredd-v3/cogs/events/automod.py:372
 #, python-brace-format
 msgid "{0} Kicked **{1}** for {2}."
-msgstr ""
+msgstr "{0} Đã đá **{1}** vì {2}."
 
 #: Dredd-v3/cogs/events/automod.py:386
 #, python-brace-format
 msgid "{0} Banned **{1}** for {2}."
-msgstr ""
+msgstr "{0} Đã cấm **{1}** trong **{2}**."
 
 #: Dredd-v3/cogs/events/automod.py:401
 #, python-brace-format
 msgid "{0} Banned **{1}** for {2}, reason: {3}."
-msgstr ""
+msgstr "{0} Đã cấm **{1}** trong {2}, với lý do: {3}."
 
 #: Dredd-v3/cogs/events/automod.py:419
 #, python-brace-format
@@ -477,7 +479,8 @@ msgstr ""
 #, python-brace-format
 msgid "{0} Mute role was not found, please create the mute role, or set a custom one using `{1}muterole [role]`.\n\n"
 "Manually removed member permissions to send messages in this channel *hopefully*."
-msgstr ""
+msgstr "{0} Không tìm thấy vai trò bị tắt tiếng, hãy tạo một vai trò tắt tiếng, hoặc cài đặt vai trò tùy chỉnh bằng cách dùng `{1}muterole [role]`.\n\n"
+"*hy vọng* bạn đã xóa thủ công quyền gửi tin nhắn của thành viên trong kênh này."
 
 #: Dredd-v3/cogs/events/automod.py:486
 #, python-brace-format
@@ -487,12 +490,12 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/errors.py:131
 msgid "Vote required!"
-msgstr ""
+msgstr "Yêu cầu bình chọn!"
 
 #: Dredd-v3/cogs/events/errors.py:132
 #, python-brace-format
 msgid "Hey {0}!"
-msgstr ""
+msgstr "Này {0}!"
 
 #: Dredd-v3/cogs/events/errors.py:133
 #, python-brace-format
@@ -503,12 +506,18 @@ msgid "Thank you for using me! Unfortunately this command is vote locked and you
 "`[4]` {3}\n"
 "If you've voted already, please wait cause the API might be slow.\n\n"
 "*After you vote, you'll be able to use this command, and you will help Dredd gain more servers :D*"
-msgstr ""
+msgstr "Cảm ơn vì đã sử dụng tôi! Không may rằng lệnh này đã bị khóa bình chọn và bạn sẽ cần bình chọn cho Dredd. Bạn có thể bình chọn một trong số này:\n"
+"`[1]` {0}\n"
+"`[2]` {1}\n"
+"`[3]` {2}\n"
+"`[4]` {3}\n"
+"Nếu bạn đã bình chọn trước đó, vui lòng đợi vì API có thể bị chậm\n\n"
+"*Sau khi bình chọn, bạn có thể sử dụng lệnh này, và bạn sẽ giúp Dredd kiếm được nhiều máy chủ hơn :D*"
 
 #: Dredd-v3/cogs/events/errors.py:141
 #, python-brace-format
 msgid "{0} This command is staff-locked"
-msgstr ""
+msgstr "{0} Lệnh này bị khóa nhân viên"
 
 #: Dredd-v3/cogs/events/errors.py:144
 #, python-brace-format
