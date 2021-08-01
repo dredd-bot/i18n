@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-21 22:59+0200\n"
-"PO-Revision-Date: 2021-08-01 11:29\n"
+"PO-Revision-Date: 2021-08-01 12:27\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -282,7 +282,7 @@ msgstr ""
 #: Dredd-v3/utils/default.py:372 Dredd-v3/utils/default.py:380
 #, python-brace-format
 msgid "{0} Automod\n"
-msgstr ""
+msgstr "{0} Tự động kiểm duyệt\n"
 
 #: Dredd-v3/utils/default.py:529 Dredd-v3/cogs/moderation.py:1976
 msgid "mute"
@@ -458,22 +458,22 @@ msgstr "{0} Đã cấm **{1}** trong {2}, với lý do: {3}."
 #: Dredd-v3/cogs/events/automod.py:419
 #, python-brace-format
 msgid "{0} {1} has anti raid mode activated, please try joining again later."
-msgstr ""
+msgstr "{0} {1} đã bật chế độ chống đột kích, vui lòng thử tham gia lại sau."
 
 #: Dredd-v3/cogs/events/automod.py:431 Dredd-v3/cogs/events/automod.py:459
 #, python-brace-format
 msgid "{0} {1} has anti raid mode activated, you're not allowed to join that server."
-msgstr ""
+msgstr "{0} {1} đã bật chế độ chống đột kích, bạn không được phép để vào máy chủ đó."
 
 #: Dredd-v3/cogs/events/automod.py:447
 #, python-brace-format
 msgid "{0} {1} has strict anti raid mode activated, please try joining again later."
-msgstr ""
+msgstr "{0} {1} đã bật chế độ chống đột kích nghiêm ngặt, vui lòng thử tham gia lại sau."
 
 #: Dredd-v3/cogs/events/automod.py:472
 #, python-brace-format
 msgid "{0} I'm not sure what happened, but something broke. Please make sure that my role is above everyone's else, otherwise you'll see these errors more often. I've also sent this error to my developers."
-msgstr ""
+msgstr "{0} Tôi không chắc điều gì đã xảy ra, nhưng cái gì đó đã bị hỏng. Hãy chắc chắn rằng vai trò của tôi cao hơn mọi người khác, nếu không bạn sẽ phải thấy những lỗi này thường xuyên hơn. Tôi cũng đã gửi lỗi về cho các nhà phát triển của tôi."
 
 #: Dredd-v3/cogs/events/automod.py:481
 #, python-brace-format
@@ -486,7 +486,8 @@ msgstr "{0} Không tìm thấy vai trò bị tắt tiếng, hãy tạo một vai
 #, python-brace-format
 msgid "{0} Failed to kick/ban the member, are they higher in role hierarchy than me? Put my role at the very top to avoid these type of issues.\n\n"
 "Manually removed member permissions to send messages in this channel *hopefully*."
-msgstr ""
+msgstr "{0} Thất bại khi đá/cấm thành viên, họ có thứ bậc vai trò hơn tôi không? Đặt vai trò của tôi lên hàng đầu để tránh những vấn đề như thế này.\n\n"
+"*hy vọng* bạn đã xóa thủ công quyền gửi tin nhắn của thành viên trong kênh này."
 
 #: Dredd-v3/cogs/events/errors.py:131
 msgid "Vote required!"
@@ -522,42 +523,42 @@ msgstr "{0} Lệnh này bị khóa nhân viên"
 #: Dredd-v3/cogs/events/errors.py:144
 #, python-brace-format
 msgid "{0} This command can only be used by boosters"
-msgstr ""
+msgstr "{0} Lênh này chỉ có thể dùng bởi những người tăng cường"
 
 #: Dredd-v3/cogs/events/errors.py:150
 #, python-brace-format
 msgid "{0} You've used invalid permissions flag, please make sure you're using the correct one."
-msgstr ""
+msgstr "{0} Bạn đã sử dụng quyền không hợp lệ, vui lòng chắc chắn rằng bạn đang sử dụng đúng."
 
 #: Dredd-v3/cogs/events/errors.py:158
 #, python-brace-format
 msgid "{0} This command has already been used by someone in this guild or channel."
-msgstr ""
+msgstr "{0} Lệnh này đã được dùng trước đó bởi ai đó trong máy chủ này hoặc kênh."
 
 #: Dredd-v3/cogs/events/errors.py:164
 #, python-brace-format
 msgid "{0} | This command can only be used in direct messages!"
-msgstr ""
+msgstr "{0} | Lệnh này chỉ được dùng ở tin nhắn trực tiếp!"
 
 #: Dredd-v3/cogs/events/errors.py:169
 #, python-brace-format
 msgid "{0} | This command can't be used in direct messages!"
-msgstr ""
+msgstr "{0} | Lệnh này không thể được dùng ở tin nhắn trực tiếp!"
 
 #: Dredd-v3/cogs/events/errors.py:178
 #, python-brace-format
 msgid "{0} This command is marked as NSFW that's why I cannot let you use it in this channel."
-msgstr ""
+msgstr "{0} Lệnh này đã được gán là NSFW vì thế tôi không thể cho bạn sử dụng nó ở kênh này."
 
 #: Dredd-v3/cogs/events/errors.py:188
 #, python-brace-format
 msgid "{0} This command can only be used by the bot developers."
-msgstr ""
+msgstr "{0} Lệnh này chỉ được dùng bởi các nhà phát triển bot."
 
 #: Dredd-v3/cogs/events/errors.py:206
 #, python-brace-format
 msgid "{0} You're missing the {1} permission."
-msgstr ""
+msgstr "{0} Bạn đang thiếu quyền {1}."
 
 #: Dredd-v3/cogs/events/errors.py:211
 #, python-brace-format
@@ -567,12 +568,12 @@ msgstr ""
 #: Dredd-v3/cogs/events/errors.py:243
 #, python-brace-format
 msgid "{0} | You're on cooldown, try again in **{1}** seconds."
-msgstr ""
+msgstr "{0} | Bạn đang bị làm chậm, thử lại sau **{1}** giây."
 
 #: Dredd-v3/cogs/events/errors.py:246
 #, python-brace-format
 msgid "{0} | You're missing an argument - **{1}**"
-msgstr ""
+msgstr "{0} | Bạn đang thiếu một giá trị - **{1}**"
 
 #: Dredd-v3/cogs/events/errors.py:250
 #, python-brace-format
@@ -598,7 +599,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/errors.py:310
 #, python-brace-format
 msgid "{0} Unknown error | #{1}"
-msgstr ""
+msgstr "{0} Lỗi không xác định | #{1}"
 
 #: Dredd-v3/cogs/events/errors.py:311
 #, python-brace-format
@@ -608,12 +609,12 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/errors.py:314 Dredd-v3/cogs/events/errors.py:336
 msgid "Error info:"
-msgstr ""
+msgstr "Thông tin lỗi:"
 
 #: Dredd-v3/cogs/events/errors.py:332
 #, python-brace-format
 msgid "{0} Known error | #{1}"
-msgstr ""
+msgstr "{0} Lỗi xác định | #{1}"
 
 #: Dredd-v3/cogs/events/errors.py:333
 #, python-brace-format
@@ -624,7 +625,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/events.py:100
 #, python-brace-format
 msgid "My prefix in this server is `{0}` or {1}!"
-msgstr ""
+msgstr "Tiền tố của tôi ở máy chủ này là `{0}` hoặc {1}!"
 
 #: Dredd-v3/cogs/events/events.py:111
 #, python-brace-format
@@ -653,14 +654,16 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/events.py:257
 msgid "Blacklist issue occured!"
-msgstr ""
+msgstr "Đã xảy ra sự cố với danh sách đen!"
 
 #: Dredd-v3/cogs/events/events.py:260
 #, python-brace-format
 msgid "Hey!\n"
 "This server is blacklisted, thus why I will not be staying here anymore. {0}\n\n"
 "**Blacklisting reason:** {1}"
-msgstr ""
+msgstr "Này!\n"
+"Máy chủ của bạn đã bị liệt vào danh sách đen, vì vậy tôi sẽ không ở lại đây nữa. {0}\n\n"
+"**Lý do bị đưa vào danh sách đen:** {1}"
 
 #: Dredd-v3/cogs/events/events.py:289
 #, python-brace-format
@@ -694,40 +697,43 @@ msgstr ""
 #: Dredd-v3/cogs/events/logs.py:90
 #, python-brace-format
 msgid "{0} Message Edited"
-msgstr ""
+msgstr "{0} Tin nhắn đã được chỉnh sửa"
 
 #: Dredd-v3/cogs/events/logs.py:91
 #, python-brace-format
 msgid "**User:** {0} `{1}`\n"
 "**Channel:** {2} `#{3}`\n"
 "[Jump to message]({4})"
-msgstr ""
+msgstr "**Người dùng:** {0} `{1}`\n"
+"**Kênh:** {2} `#{3}`\n"
+"[Nhảy tới tin nhắn]({4})"
 
 #: Dredd-v3/cogs/events/logs.py:96 Dredd-v3/cogs/events/logs.py:100
 msgid "**Before:**"
-msgstr ""
+msgstr "**Trước:**"
 
 #: Dredd-v3/cogs/events/logs.py:104
 msgid "**After:**"
-msgstr ""
+msgstr "**Sau:**"
 
 #: Dredd-v3/cogs/events/logs.py:106 Dredd-v3/cogs/events/logs.py:149
 #: Dredd-v3/cogs/events/logs.py:174 Dredd-v3/cogs/events/logs.py:215
 #: Dredd-v3/cogs/events/logs.py:229
 #, python-brace-format
 msgid "User ID: {0}"
-msgstr ""
+msgstr "ID người dùng: {0}"
 
 #: Dredd-v3/cogs/events/logs.py:132
 #, python-brace-format
 msgid "{0} Message Deleted"
-msgstr ""
+msgstr "{0} Tin nhắn đã bị xóa"
 
 #: Dredd-v3/cogs/events/logs.py:133
 #, python-brace-format
 msgid "**User:** {0} `{1}`\n"
 "**Channel:** {2} `#{3}`"
-msgstr ""
+msgstr "**Người dùng:** {0} `{1}`\n"
+"**Kênh:** {2} `#{3}`"
 
 #: Dredd-v3/cogs/events/logs.py:140
 msgid "**Message:**"
@@ -860,7 +866,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/logs.py:382
 msgid " Guild default notifications changed"
-msgstr ""
+msgstr " Thông báo mặc định của máy chủ đã được thay đổi"
 
 #: Dredd-v3/cogs/events/logs.py:399
 #, python-brace-format
