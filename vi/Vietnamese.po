@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-21 22:59+0200\n"
-"PO-Revision-Date: 2021-07-21 21:55\n"
+"PO-Revision-Date: 2021-08-01 10:32\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -63,7 +63,7 @@ msgstr "Đã xảy ra lỗi khi tôi cố gắng lấy phiếu bầu của bạn
 
 #: Dredd-v3/utils/checks.py:212
 msgid "This command is in its testing phase, you can join the support server if you want to apply your guild to be a testing guild or know when the command will be available."
-msgstr ""
+msgstr "Lệnh này đang trong giai đoạn thử nghiệm, bạn có thể tham gia máy chủ hỗ trợ nếu muốn áp dụng máy chủ của mình để trở thành máy chủ thử nghiệm hoặc biết khi nào lệnh sẽ có sẵn."
 
 #: Dredd-v3/utils/checks.py:224
 #, python-brace-format
@@ -84,7 +84,7 @@ msgstr "Dredd đang được sửa!"
 #: Dredd-v3/utils/checks.py:274
 #, python-brace-format
 msgid "{0} | `{1}` and its corresponding subcommands are currently disabled for: `{2}`"
-msgstr ""
+msgstr "{0} | `{1} 'và các lệnh phụ của nó bị tắt vì:` {2}`"
 
 #: Dredd-v3/utils/checks.py:277
 #, python-brace-format
@@ -179,15 +179,15 @@ msgstr ""
 
 #: Dredd-v3/utils/default.py:198
 msgid "Dredd's Partner"
-msgstr ""
+msgstr "Đối tác của Dredd"
 
 #: Dredd-v3/utils/default.py:199
 msgid "Dredd Bug Hunter"
-msgstr ""
+msgstr "Người tìm lỗi của Dredd"
 
 #: Dredd-v3/utils/default.py:200
 msgid "Dredd BETA Bug Hunter"
-msgstr ""
+msgstr "Người tìm lỗi của Dredd BETA"
 
 #: Dredd-v3/utils/default.py:201
 msgid "Dredd Early Supporter"
@@ -199,16 +199,16 @@ msgstr ""
 
 #: Dredd-v3/utils/default.py:203
 msgid "Blacklisted user"
-msgstr ""
+msgstr "Người dùng bị đưa vào danh sách đen"
 
 #: Dredd-v3/utils/default.py:204
 msgid "A special badge for Duck :duck:"
-msgstr ""
+msgstr "Một huy hiệu đặc biệt cho Duck :duck:"
 
 #: Dredd-v3/utils/default.py:243
 #, python-brace-format
 msgid "{0} Dredd Staff Server"
-msgstr ""
+msgstr "{0} Máy chủ của nhân viên của Dredd"
 
 #: Dredd-v3/utils/default.py:244
 msgid "{} Dredd Verified Server"
@@ -222,12 +222,12 @@ msgstr ""
 #: Dredd-v3/utils/default.py:359
 #, python-brace-format
 msgid "{0} Edited messages\n"
-msgstr ""
+msgstr "{0} Tin nhắn được chỉnh sửa\n"
 
 #: Dredd-v3/utils/default.py:360
 #, python-brace-format
 msgid "{0} Deleted messages\n"
-msgstr ""
+msgstr "{0} Tin nhắn bị xóa\n"
 
 #: Dredd-v3/utils/default.py:361
 #, python-brace-format
@@ -306,7 +306,7 @@ msgstr ""
 
 #: Dredd-v3/utils/default.py:549
 msgid "I was not able to find this playlist! Please try again or use a different link."
-msgstr ""
+msgstr "Tôi không thể tìm thấy danh sách phát này! Hãy thử lại hoặc sử dụng một liên kết khác."
 
 #: Dredd-v3/utils/default.py:556
 msgid "I was not able to find this album! Please try again or use a different link."
