@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-21 22:59+0200\n"
-"PO-Revision-Date: 2021-08-01 12:27\n"
+"PO-Revision-Date: 2021-08-02 08:25\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -563,7 +563,7 @@ msgstr "{0} Bạn đang thiếu quyền {1}."
 #: Dredd-v3/cogs/events/errors.py:211
 #, python-brace-format
 msgid "{0} I'm missing {1} permissions"
-msgstr ""
+msgstr "{0} Tôi đang thiếu quyền {1}"
 
 #: Dredd-v3/cogs/events/errors.py:243
 #, python-brace-format
@@ -578,7 +578,7 @@ msgstr "{0} | Bạn đang thiếu một giá trị - **{1}**"
 #: Dredd-v3/cogs/events/errors.py:250
 #, python-brace-format
 msgid "{0} | Looks like you haven't closed the quote"
-msgstr ""
+msgstr "{0} | Có vẻ bạn chưa đóng trích dẫn"
 
 #: Dredd-v3/cogs/events/errors.py:253
 #, python-brace-format
