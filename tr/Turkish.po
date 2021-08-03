@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-03 17:04\n"
+"PO-Revision-Date: 2021-08-03 21:19\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -167,11 +167,11 @@ msgstr "[Destek sunucusunda]({0}) personel ekibi üyesi veya Dredd'in katkıda b
 
 #: Dredd-v3/utils/default.py:195
 msgid "Dredd's Translator"
-msgstr ""
+msgstr "Dredd'in Çevirmeni"
 
 #: Dredd-v3/utils/default.py:196
 msgid "Dredd's Sponsor"
-msgstr ""
+msgstr "Dredd'in Sponsoru"
 
 #: Dredd-v3/utils/default.py:197
 #, python-brace-format
@@ -180,7 +180,7 @@ msgstr "[Dredd'in destek sunucusunda]({0}) bulunan takviyeci veya Bağışçı"
 
 #: Dredd-v3/utils/default.py:198
 msgid "Dredd's Partner"
-msgstr ""
+msgstr "Dredd'in Ortağı"
 
 #: Dredd-v3/utils/default.py:199
 msgid "Dredd Bug Hunter"
@@ -196,7 +196,7 @@ msgstr "Dredd Erken Dönem Destekçisi"
 
 #: Dredd-v3/utils/default.py:202
 msgid "Dredd Super Early Supporter"
-msgstr ""
+msgstr "Dredd Erken Dönem Destekçisi"
 
 #: Dredd-v3/utils/default.py:203
 msgid "Blacklisted user"
@@ -511,7 +511,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/errors.py:141
 #, python-brace-format
 msgid "{0} This command is staff-locked"
-msgstr ""
+msgstr "{0} Bu komut bir personel tarafından kilitlenmiş."
 
 #: Dredd-v3/cogs/events/errors.py:144
 #, python-brace-format
@@ -1114,7 +1114,7 @@ msgstr "**Etiket Limiti:** {0}"
 #, python-brace-format
 msgid "\n"
 "**Caps Percentage:** {0}"
-msgstr ""
+msgstr "**Büyük Harf Yüzdesi:** {0}"
 
 #: Dredd-v3/cogs/automod.py:93
 msgid "Manage automod in the server"
@@ -1131,11 +1131,11 @@ msgstr "{0} Otomatik Moderasyon Ayarları"
 
 #: Dredd-v3/cogs/automod.py:107
 msgid "Toggle automod on or off"
-msgstr ""
+msgstr "Otomatik moderasyon aç veya kapat"
 
 #: Dredd-v3/cogs/automod.py:113
 msgid " Toggle automod on or off "
-msgstr ""
+msgstr "Otomatik moderasyon aç veya kapat"
 
 #: Dredd-v3/cogs/automod.py:119 Dredd-v3/cogs/automod.py:138
 #: Dredd-v3/cogs/automod.py:455 Dredd-v3/cogs/automod.py:482
@@ -1194,7 +1194,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:200
 msgid "Toggle anti links on or off"
-msgstr ""
+msgstr "Bağlantı engelleyicisini aç veya kapat"
 
 #: Dredd-v3/cogs/automod.py:206
 msgid " Toggle anti links on or off "
@@ -1222,11 +1222,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:232
 msgid "Toggle anti invites on or off"
-msgstr ""
+msgstr "Davet engelleyicisini aç veya kapat"
 
 #: Dredd-v3/cogs/automod.py:238
 msgid " Toggle anti invites on or off "
-msgstr ""
+msgstr " Davet engelleyicisini aç veya kapat "
 
 #: Dredd-v3/cogs/automod.py:255
 #, python-brace-format
@@ -1244,7 +1244,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:265
 msgid "Toggle anti mass mention on or off"
-msgstr ""
+msgstr "Devasa etiket engelleyicisini aç veya kapat"
 
 #: Dredd-v3/cogs/automod.py:271
 msgid " Toggle anti mass mention on or off and set the mentions limit to whatever number you want "
@@ -1270,7 +1270,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:304
 msgid "Toggle anti mass caps on or off"
-msgstr ""
+msgstr "Devasa büyük harf engelleyicisini aç veya kapat"
 
 #: Dredd-v3/cogs/automod.py:310
 msgid " Toggle anti mass caps and set the caps percentege limit to whatever number you prefer "
@@ -1296,11 +1296,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:343
 msgid "Toggle anti spam on or off"
-msgstr ""
+msgstr "Spam engelleyicisini aç veya kapat"
 
 #: Dredd-v3/cogs/automod.py:349
 msgid " Toggle anti spam on or off "
-msgstr ""
+msgstr " Spam engelleyicisini aç veya kapat "
 
 #: Dredd-v3/cogs/automod.py:366
 #, python-brace-format
@@ -1362,7 +1362,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:429
 msgid "Toggle raid mode on or off"
-msgstr ""
+msgstr "Baskın modunu aç veya kapat"
 
 #: Dredd-v3/cogs/automod.py:435
 msgid " Toggle raid mode status\n"
@@ -1411,12 +1411,12 @@ msgstr ""
 #: Dredd-v3/cogs/automod.py:490
 #, python-brace-format
 msgid "{0} Set the raidmode action to kick new members who have their accounts created less than 30 days ago."
-msgstr ""
+msgstr "{0} Hesapları 30 günden daha kısa bir süre önce oluşturulmuş yeni üyeleri tekmelemek için baskın modu eylemini ayarlayın."
 
 #: Dredd-v3/cogs/automod.py:494
 #, python-brace-format
 msgid "{0} Set the raidmode action to ban new members who have their accounts created less than 30 days ago."
-msgstr ""
+msgstr "{0} Hesapları 30 günden daha kısa bir süre önce oluşturulmuş yeni üyeleri yasaklamak için baskın modu eylemini ayarlayın."
 
 #: Dredd-v3/cogs/automod.py:498
 #, python-brace-format
