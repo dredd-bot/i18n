@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-03 18:17\n"
+"PO-Revision-Date: 2021-08-03 19:13\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2870,15 +2870,15 @@ msgstr ""
 #: Dredd-v3/cogs/info.py:863
 #, python-brace-format
 msgid "Users with regex {0} in their name"
-msgstr ""
+msgstr "Usuarios con expresiones regulares {0} en su nombre"
 
 #: Dredd-v3/cogs/info.py:869
 msgid "Documentation of enhanced discord.py"
-msgstr ""
+msgstr "Documentación de discord.py mejorado"
 
 #: Dredd-v3/cogs/info.py:872
 msgid " Documentation of enhanced discord.py "
-msgstr ""
+msgstr " Documentación de discord.py mejorado "
 
 #: Dredd-v3/cogs/info.py:876
 msgid "Documentation of python"
@@ -2989,7 +2989,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:121
 msgid "Not found"
-msgstr ""
+msgstr "No encontrado"
 
 #: Dredd-v3/cogs/manage.py:128
 #, python-brace-format
@@ -3011,11 +3011,11 @@ msgstr "Mensaje de despedida"
 
 #: Dredd-v3/cogs/manage.py:141
 msgid "View welcoming embed"
-msgstr ""
+msgstr "Ver embed de bienvenida"
 
 #: Dredd-v3/cogs/manage.py:145
 msgid " View welcoming messages embed "
-msgstr ""
+msgstr " Ver mensajes de bienvenida en embed "
 
 #: Dredd-v3/cogs/manage.py:149
 #, python-brace-format
@@ -3025,38 +3025,38 @@ msgstr "{0} Los mensajes de bienvenida están deshabilitados en este servidor."
 #: Dredd-v3/cogs/manage.py:153
 #, python-brace-format
 msgid "{0} Welcome messages do not use embeds in this server."
-msgstr ""
+msgstr "{0} Los mensajes de bienvenida no usan embeds en este servidor."
 
 #: Dredd-v3/cogs/manage.py:161 Dredd-v3/cogs/manage.py:185
 #, python-brace-format
 msgid "{0} Embed code is invalid, or only plain text is visible. Please make sure you're using the correct format by visiting this website <https://embedbuilder.nadekobot.me/>"
-msgstr ""
+msgstr "{0} El código de embed no es válido, o solo el texto plano es visible. Por favor, asegúrate de que estás utilizando el formato correcto visitando este sitio web <https://embedbuilder.nadekobot.me/>"
 
 #: Dredd-v3/cogs/manage.py:163
 msgid "Your welcome embed looks like this: *plain text is not displayed*"
-msgstr ""
+msgstr "Tu embed de bienvenida se ve así: * el texto plano no se muestra*"
 
 #: Dredd-v3/cogs/manage.py:165
 msgid "View leaving embed"
-msgstr ""
+msgstr "Ver embed de despedida"
 
 #: Dredd-v3/cogs/manage.py:169
 msgid " View leaving messages embed "
-msgstr ""
+msgstr " Ver mensajes de despedida en embed "
 
 #: Dredd-v3/cogs/manage.py:173
 #, python-brace-format
 msgid "{0} Leave messages are disabled in this server."
-msgstr ""
+msgstr "{0} Los mensajes de despedida están deshabilitados en este servidor."
 
 #: Dredd-v3/cogs/manage.py:177
 #, python-brace-format
 msgid "{0} Leave messages do not use embeds in this server."
-msgstr ""
+msgstr "{0} Los mensajes de despedida no usan embeds en este servidor."
 
 #: Dredd-v3/cogs/manage.py:187
 msgid "Your leave embed looks like this: *plain text is not displayed*"
-msgstr ""
+msgstr "Tu embed de despedida se ve así: * el texto plano no se muestra*"
 
 #: Dredd-v3/cogs/manage.py:189
 msgid "Toggle logging on or off"
@@ -3064,7 +3064,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:198
 msgid " Base command for managign logging in the server "
-msgstr ""
+msgstr " Comando base para gestionar el registro en el servidor "
 
 #: Dredd-v3/cogs/manage.py:201
 msgid "Toggle member logging in the server"
@@ -3335,7 +3335,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:512
 msgid "Edit the welcoming messages"
-msgstr ""
+msgstr "Editar los mensajes de bienvenida"
 
 #: Dredd-v3/cogs/manage.py:518
 msgid " Base command for managing welcoming messages in the server "
@@ -3368,7 +3368,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:555
 msgid "Set the welcoming message"
-msgstr ""
+msgstr "Establece el mensaje de bienvenida"
 
 #: Dredd-v3/cogs/manage.py:562
 msgid " Set the welcoming messages in the server\n"
@@ -3457,7 +3457,7 @@ msgstr "{0} Ahora daré la bienvenida a los bots."
 
 #: Dredd-v3/cogs/manage.py:664
 msgid "Edit the leaving messages"
-msgstr ""
+msgstr "Edita los mensajes de despedida"
 
 #: Dredd-v3/cogs/manage.py:670
 msgid " Base command for managing leaving messages in the server "
