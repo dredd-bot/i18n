@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 22:59+0200\n"
-"PO-Revision-Date: 2021-07-21 21:55\n"
+"POT-Creation-Date: 2021-08-03 18:36+0200\n"
+"PO-Revision-Date: 2021-08-03 17:04\n"
 "Last-Translator: \n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -30,19 +30,19 @@ msgstr ""
 msgid "Missing argument after the time."
 msgstr ""
 
-#: Dredd-v3/utils/btime.py:164
+#: Dredd-v3/utils/btime.py:163
 msgid "Time Error! try \"in an hour\" or \"5 days\"."
 msgstr ""
 
-#: Dredd-v3/utils/btime.py:174
+#: Dredd-v3/utils/btime.py:173
 msgid "Expected quote before time input..."
 msgstr ""
 
-#: Dredd-v3/utils/btime.py:177
+#: Dredd-v3/utils/btime.py:176
 msgid "If the time is quoted, you must unquote it."
 msgstr ""
 
-#: Dredd-v3/utils/btime.py:189
+#: Dredd-v3/utils/btime.py:188
 msgid "Sorry, but I did not understand what you meant. You probably didn't specify the time or you specified it in another language (not English)"
 msgstr ""
 
@@ -281,7 +281,7 @@ msgstr ""
 msgid "{0} Automod\n"
 msgstr ""
 
-#: Dredd-v3/utils/default.py:529 Dredd-v3/cogs/moderation.py:1976
+#: Dredd-v3/utils/default.py:529 Dredd-v3/cogs/moderation.py:1978
 msgid "mute"
 msgstr ""
 
@@ -289,11 +289,11 @@ msgstr ""
 msgid "temp-mute"
 msgstr ""
 
-#: Dredd-v3/utils/default.py:531 Dredd-v3/cogs/moderation.py:1970
+#: Dredd-v3/utils/default.py:531 Dredd-v3/cogs/moderation.py:1972
 msgid "kick"
 msgstr ""
 
-#: Dredd-v3/utils/default.py:532 Dredd-v3/cogs/moderation.py:1967
+#: Dredd-v3/utils/default.py:532 Dredd-v3/cogs/moderation.py:1969
 msgid "ban"
 msgstr ""
 
@@ -323,7 +323,7 @@ msgstr ""
 msgid "{0} Added the album **{1}** with {2} songs to the queue!"
 msgstr ""
 
-#: Dredd-v3/utils/default.py:590 Dredd-v3/cogs/music.py:504
+#: Dredd-v3/utils/default.py:590 Dredd-v3/cogs/music.py:519
 #, python-brace-format
 msgid "{0} Added **{1}** to the Queue!"
 msgstr ""
@@ -350,133 +350,133 @@ msgstr ""
 msgid "**Search query:** `{0}`\n\n"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:156
+#: Dredd-v3/cogs/events/automod.py:188
 msgid "Spam (sending multiple messages in a short time span)"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:176
+#: Dredd-v3/cogs/events/automod.py:214
 msgid "Advertising"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:200
+#: Dredd-v3/cogs/events/automod.py:238
 msgid "Spamming caps"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:223
+#: Dredd-v3/cogs/events/automod.py:261
 msgid "Spamming links"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:252
+#: Dredd-v3/cogs/events/automod.py:283
 msgid "Spamming mentions"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:277
+#: Dredd-v3/cogs/events/automod.py:309
 msgid "anti raid: user account is younger than 30 days."
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:277
+#: Dredd-v3/cogs/events/automod.py:309
 msgid "Strict Anti Raid: No one is allowed to join the server"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:293
+#: Dredd-v3/cogs/events/automod.py:325
 msgid "Member Muted"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:293
+#: Dredd-v3/cogs/events/automod.py:325
 msgid "Member Temp-Muted"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:293 Dredd-v3/cogs/events/automod.py:302
+#: Dredd-v3/cogs/events/automod.py:325 Dredd-v3/cogs/events/automod.py:334
 msgid "Member Kicked"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:297 Dredd-v3/cogs/events/automod.py:302
+#: Dredd-v3/cogs/events/automod.py:329 Dredd-v3/cogs/events/automod.py:334
 msgid "Member Banned"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:297
+#: Dredd-v3/cogs/events/automod.py:329
 msgid "Member Temp-Banned"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:306
+#: Dredd-v3/cogs/events/automod.py:338
 msgid "Automod Action"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:309 Dredd-v3/cogs/events/logs.py:596
+#: Dredd-v3/cogs/events/automod.py:341 Dredd-v3/cogs/events/logs.py:596
 #: Dredd-v3/cogs/events/logs.py:726
 #, python-brace-format
 msgid "\n"
 "**Duration:** {0}"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:312
+#: Dredd-v3/cogs/events/automod.py:344
 #, python-brace-format
 msgid "**Member:** {0}{1}\n"
 "**Reason:** {2}"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:320
+#: Dredd-v3/cogs/events/automod.py:352
 #, python-brace-format
 msgid "Automod Action | {0}"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:322
+#: Dredd-v3/cogs/events/automod.py:354
 #, python-brace-format
 msgid "{0} Something failed while punishing the member, sent the error to my developers. This is most likely due to me either missing permissions or not being able to access the person and/or role"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:333
+#: Dredd-v3/cogs/events/automod.py:365
 #, python-brace-format
 msgid "{0} Muted **{1}** for {2}."
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:354
+#: Dredd-v3/cogs/events/automod.py:386
 #, python-brace-format
 msgid "{0} Muted **{1}** for {2}, reason: {3}."
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:372
+#: Dredd-v3/cogs/events/automod.py:406
 #, python-brace-format
 msgid "{0} Kicked **{1}** for {2}."
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:386
+#: Dredd-v3/cogs/events/automod.py:420
 #, python-brace-format
 msgid "{0} Banned **{1}** for {2}."
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:401
+#: Dredd-v3/cogs/events/automod.py:435
 #, python-brace-format
 msgid "{0} Banned **{1}** for {2}, reason: {3}."
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:419
+#: Dredd-v3/cogs/events/automod.py:454
 #, python-brace-format
 msgid "{0} {1} has anti raid mode activated, please try joining again later."
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:431 Dredd-v3/cogs/events/automod.py:459
+#: Dredd-v3/cogs/events/automod.py:466 Dredd-v3/cogs/events/automod.py:494
 #, python-brace-format
 msgid "{0} {1} has anti raid mode activated, you're not allowed to join that server."
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:447
+#: Dredd-v3/cogs/events/automod.py:482
 #, python-brace-format
 msgid "{0} {1} has strict anti raid mode activated, please try joining again later."
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:472
+#: Dredd-v3/cogs/events/automod.py:507
 #, python-brace-format
 msgid "{0} I'm not sure what happened, but something broke. Please make sure that my role is above everyone's else, otherwise you'll see these errors more often. I've also sent this error to my developers."
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:481
+#: Dredd-v3/cogs/events/automod.py:516
 #, python-brace-format
 msgid "{0} Mute role was not found, please create the mute role, or set a custom one using `{1}muterole [role]`.\n\n"
 "Manually removed member permissions to send messages in this channel *hopefully*."
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:486
+#: Dredd-v3/cogs/events/automod.py:521
 #, python-brace-format
 msgid "{0} Failed to kick/ban the member, are they higher in role hierarchy than me? Put my role at the very top to avoid these type of issues.\n\n"
 "Manually removed member permissions to send messages in this channel *hopefully*."
@@ -987,13 +987,13 @@ msgid "**Member(s):**\n"
 "**Moderator:** {2} ({3})\n"
 msgstr ""
 
-#: Dredd-v3/cogs/other/tasks.py:164
+#: Dredd-v3/cogs/other/tasks.py:168
 #, python-brace-format
 msgid "*The original message was deleted or I'm missing permissions*\n\n"
 "Your reminder: {0}"
 msgstr ""
 
-#: Dredd-v3/cogs/other/tasks.py:215
+#: Dredd-v3/cogs/other/tasks.py:219
 msgid "No one has connected to a voice channel in over 12 hours, to save up bot's resources I'll be destroying the player and leaving the voice channel."
 msgstr ""
 
@@ -1143,9 +1143,9 @@ msgstr ""
 #: Dredd-v3/cogs/automod.py:315 Dredd-v3/cogs/automod.py:354
 #: Dredd-v3/cogs/automod.py:386 Dredd-v3/cogs/automod.py:408
 #: Dredd-v3/cogs/automod.py:446 Dredd-v3/cogs/automod.py:522
-#: Dredd-v3/cogs/automod.py:557 Dredd-v3/cogs/automod.py:599
-#: Dredd-v3/cogs/automod.py:626 Dredd-v3/cogs/automod.py:653
-#: Dredd-v3/cogs/automod.py:681
+#: Dredd-v3/cogs/automod.py:557 Dredd-v3/cogs/automod.py:603
+#: Dredd-v3/cogs/automod.py:630 Dredd-v3/cogs/automod.py:657
+#: Dredd-v3/cogs/automod.py:685
 #, python-brace-format
 msgid "Automod is disabled in this server, enable it by using `{0}automod toggle` command"
 msgstr ""
@@ -1466,84 +1466,89 @@ msgstr ""
 msgid "List of whitelisted roles"
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:587
+#: Dredd-v3/cogs/automod.py:577
+#, python-brace-format
+msgid "{0} The value you've provided is invalid, please choose either `channels` or `roles`"
+msgstr ""
+
+#: Dredd-v3/cogs/automod.py:591
 msgid "Add a channel to automod's whitelist "
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:593
+#: Dredd-v3/cogs/automod.py:597
 msgid " Add a channel to automod's whitelist "
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:604 Dredd-v3/cogs/automod.py:611
+#: Dredd-v3/cogs/automod.py:608 Dredd-v3/cogs/automod.py:615
 #, python-brace-format
 msgid "{0} Added {1} to the channels whitelist."
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:607
+#: Dredd-v3/cogs/automod.py:611
 #, python-brace-format
 msgid "Channel {0} is already added to the whitelist."
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:614
+#: Dredd-v3/cogs/automod.py:618
 msgid "Add a role to automod's whitelist"
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:620
+#: Dredd-v3/cogs/automod.py:624
 msgid " Add a role to automod's whitelist "
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:631 Dredd-v3/cogs/automod.py:638
+#: Dredd-v3/cogs/automod.py:635 Dredd-v3/cogs/automod.py:642
 #, python-brace-format
 msgid "{0} Added {1} to the roles whitelist."
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:634
+#: Dredd-v3/cogs/automod.py:638
 #, python-brace-format
 msgid "Role **{0}** is already added to the whitelist."
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:641
+#: Dredd-v3/cogs/automod.py:645
 msgid "Remove a role from automod's whitelist"
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:647
+#: Dredd-v3/cogs/automod.py:651
 msgid " Remove a role from automod's whitelist "
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:656
+#: Dredd-v3/cogs/automod.py:660
 #, python-brace-format
 msgid "{0} It looks like there are no roles whitelisted in the server."
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:662
+#: Dredd-v3/cogs/automod.py:666
 #, python-brace-format
 msgid "Role **{0}** is not in the whitelist."
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:666
+#: Dredd-v3/cogs/automod.py:670
 #, python-brace-format
 msgid "{0} Removed {1} from the roles whitelist."
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:669
+#: Dredd-v3/cogs/automod.py:673
 msgid "Remove a channel from automod's whitelist "
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:675
+#: Dredd-v3/cogs/automod.py:679
 msgid " Remove a channel from automod's whitelist "
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:684
+#: Dredd-v3/cogs/automod.py:688
 #, python-brace-format
 msgid "{0} It looks like there are no channels whitelisted in the server."
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:689
+#: Dredd-v3/cogs/automod.py:693
 #, python-brace-format
 msgid "Channel {0} is not in the whitelist."
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:693
+#: Dredd-v3/cogs/automod.py:697
 #, python-brace-format
 msgid "{0} Removed {1} from the channels whitelist."
 msgstr ""
@@ -1778,7 +1783,7 @@ msgstr ""
 msgid "Alright, I will not be removing your social medias."
 msgstr ""
 
-#: Dredd-v3/cogs/boosters.py:316 Dredd-v3/cogs/music.py:822
+#: Dredd-v3/cogs/boosters.py:316 Dredd-v3/cogs/music.py:836
 #, python-brace-format
 msgid "{0} You've waited for too long, canceling the command."
 msgstr ""
@@ -2122,7 +2127,7 @@ msgstr ""
 msgid " A defailed information of the user. Fetches the user if they do not share any guilds with the bot. "
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:166 Dredd-v3/cogs/info.py:746
+#: Dredd-v3/cogs/info.py:166 Dredd-v3/cogs/info.py:745
 #, python-brace-format
 msgid "{0} | That user could not be found."
 msgstr ""
@@ -2146,12 +2151,20 @@ msgstr ""
 msgid "No roles"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:199 Dredd-v3/cogs/info.py:224
-#: Dredd-v3/cogs/info.py:279
+#. guilds = [x for x in self.bot.guilds if x.get_member(user.id)]
+#. try:
+#. member = guilds[0].get_member(user.id)
+#. status = default.member_status(ctx, member)
+#. act = default.member_activity(ctx, member)
+#. except Exception:
+#. status = ''
+#. act = ''
+#: Dredd-v3/cogs/info.py:199 Dredd-v3/cogs/info.py:223
+#: Dredd-v3/cogs/info.py:278
 msgid "General Information:"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:199 Dredd-v3/cogs/info.py:224
+#: Dredd-v3/cogs/info.py:199 Dredd-v3/cogs/info.py:223
 #, python-brace-format
 msgid "\n"
 "{0} {1}\n\n"
@@ -2171,42 +2184,42 @@ msgid "\n"
 "**Roles:** {4}"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:235
+#: Dredd-v3/cogs/info.py:234
 msgid "Social media:"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:247
+#: Dredd-v3/cogs/info.py:246
 msgid "Get current server's detailed information"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:252
+#: Dredd-v3/cogs/info.py:251
 msgid " A detailed information of the current server "
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:258
+#: Dredd-v3/cogs/info.py:257
 #, python-brace-format
 msgid "\n"
 "**Acknowledgements:**\n"
 "{0}"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:270
+#: Dredd-v3/cogs/info.py:269
 #, python-brace-format
 msgid "\n"
 "**Banned:** {0}"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:271
+#: Dredd-v3/cogs/info.py:270
 #, python-brace-format
 msgid "This server has **{0}** boosts"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:276 Dredd-v3/cogs/info.py:540
+#: Dredd-v3/cogs/info.py:275 Dredd-v3/cogs/info.py:539
 #, python-brace-format
 msgid "{0} Information"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:279
+#: Dredd-v3/cogs/info.py:278
 #, python-brace-format
 msgid "\n"
 "**Name:** {0}\n"
@@ -2219,11 +2232,11 @@ msgid "\n"
 "{8}\n"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:295
+#: Dredd-v3/cogs/info.py:294
 msgid "Other Information:"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:295
+#: Dredd-v3/cogs/info.py:294
 #, python-brace-format
 msgid "**Members:** (Total: {0})\n"
 "**Bots:** {2} | **Humans:** {3}\n"
@@ -2231,193 +2244,193 @@ msgid "**Members:** (Total: {0})\n"
 "**Channels:** {6} {7} | {8} {9}\n"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:305
+#: Dredd-v3/cogs/info.py:304
 msgid "Animated Icon"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:306
+#: Dredd-v3/cogs/info.py:305
 msgid "Banner"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:307
+#: Dredd-v3/cogs/info.py:306
 msgid "Commerce"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:308
+#: Dredd-v3/cogs/info.py:307
 msgid "Community server"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:309
+#: Dredd-v3/cogs/info.py:308
 msgid "Server Discovery"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:310
+#: Dredd-v3/cogs/info.py:309
 msgid "Featurable"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:311
+#: Dredd-v3/cogs/info.py:310
 msgid "Invite Splash"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:312
+#: Dredd-v3/cogs/info.py:311
 msgid "Member Verification Gate Enabled"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:313
+#: Dredd-v3/cogs/info.py:312
 msgid "News Channels"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:314
+#: Dredd-v3/cogs/info.py:313
 msgid "Partnered"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:315
+#: Dredd-v3/cogs/info.py:314
 msgid "Prieview Enabled"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:316
+#: Dredd-v3/cogs/info.py:315
 msgid "Vanity Invite"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:317
+#: Dredd-v3/cogs/info.py:316
 msgid "Verified"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:318
+#: Dredd-v3/cogs/info.py:317
 msgid "VIP Voice Servers"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:319
+#: Dredd-v3/cogs/info.py:318
 msgid "Welcome screen"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:320
+#: Dredd-v3/cogs/info.py:319
 msgid "Ticketed events enabled"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:321
+#: Dredd-v3/cogs/info.py:320
 msgid "Monetization enabled"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:322
+#: Dredd-v3/cogs/info.py:321
 msgid "More stickers"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:329
+#: Dredd-v3/cogs/info.py:328
 msgid "Features"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:340
+#: Dredd-v3/cogs/info.py:339
 msgid "Lines of python code used making the bot"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:344
+#: Dredd-v3/cogs/info.py:343
 msgid " Lines of python code used making the bot "
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:359
+#: Dredd-v3/cogs/info.py:358
 #, python-brace-format
 msgid "{0} I am made up of **{1}** files and **{2}** lines of code.\n"
 "You can look at my source here: https://github.com/TheMoksej/Dredd"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:362
+#: Dredd-v3/cogs/info.py:361
 msgid "Source code of the bot"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:366
+#: Dredd-v3/cogs/info.py:365
 msgid " Source code of the bot "
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:370 Dredd-v3/cogs/info.py:374
+#: Dredd-v3/cogs/info.py:369 Dredd-v3/cogs/info.py:373
 #, python-brace-format
 msgid "{0} You can see my source code here: <{1}>"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:390
+#: Dredd-v3/cogs/info.py:389
 #, python-brace-format
 msgid "The source code for this command is too long, you can view it here:\n"
 "{0}"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:392
+#: Dredd-v3/cogs/info.py:391
 msgid "Get user's profile picture"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:396
+#: Dredd-v3/cogs/info.py:395
 msgid " Get user's profile picture. Fetches the user if they do not share any guilds with the bot "
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:401
+#: Dredd-v3/cogs/info.py:400
 #, python-brace-format
 msgid "{0}'s Profile Picture!"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:409
+#: Dredd-v3/cogs/info.py:408
 #, python-brace-format
 msgid "[png]({0}) | [jpg]({1}) | [webp]({2}){3}"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:409
+#: Dredd-v3/cogs/info.py:408
 #, python-brace-format
 msgid " | [gif]({0})"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:413
+#: Dredd-v3/cogs/info.py:412
 #, python-brace-format
 msgid "Huge thanks to {0} for this avatar"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:419
+#: Dredd-v3/cogs/info.py:418
 msgid "Get a link to bot's support server"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:423
+#: Dredd-v3/cogs/info.py:422
 msgid " A link to bot's support server. You can pass in boolean to get the non-embedded version of the invite "
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:427
+#: Dredd-v3/cogs/info.py:426
 #, python-brace-format
 msgid "{0} Need help? Feel free to [join the support server!]({1})"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:431
+#: Dredd-v3/cogs/info.py:430
 #, python-brace-format
 msgid "{0} Need help? Feel free to join the the support server here: {1}"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:434
+#: Dredd-v3/cogs/info.py:433
 msgid "Get the bot's invite"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:438
+#: Dredd-v3/cogs/info.py:437
 msgid " The bot's invite link. You can pass in boolean to get the non-embedded version of the invite "
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:442
+#: Dredd-v3/cogs/info.py:441
 #, python-brace-format
 msgid "{0} Want me in your server? What are you waiting for then? [Invite now!]({1})"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:446
+#: Dredd-v3/cogs/info.py:445
 #, python-brace-format
 msgid "{0} Want me in your server? What are you waiting for then? Invite now:\n\n"
 "{1}"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:449
+#: Dredd-v3/cogs/info.py:448
 msgid "Vote for me, please"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:453
+#: Dredd-v3/cogs/info.py:452
 msgid " Links of bot lists where you can vote for the bot "
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:456
+#: Dredd-v3/cogs/info.py:455
 msgid "Voting Locations"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:457
+#: Dredd-v3/cogs/info.py:456
 #, python-brace-format
 msgid "You can vote for me in any of those lists:\n"
 "`[1]` {0}\n"
@@ -2427,32 +2440,32 @@ msgid "You can vote for me in any of those lists:\n"
 "*Voting will unlock some commands for you to use and will help me grow faster!*"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:462
+#: Dredd-v3/cogs/info.py:461
 msgid "The bot's Privacy Policy and Terms of Use"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:466
+#: Dredd-v3/cogs/info.py:465
 msgid " The bot's Privacy Policy and Terms of Use "
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:468
+#: Dredd-v3/cogs/info.py:467
 #, python-brace-format
 msgid "{0} You can see my privacy policy here: {1}"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:470
+#: Dredd-v3/cogs/info.py:469
 msgid "A thank you to bot contributors"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:474
+#: Dredd-v3/cogs/info.py:473
 msgid " A thank you to people who have helped find bugs, work on, and design art for the bot! "
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:489
+#: Dredd-v3/cogs/info.py:488
 msgid "The Dredd team says thanks to these people!"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:490
+#: Dredd-v3/cogs/info.py:489
 #, python-brace-format
 msgid "\n"
 "**Sponsor(s):** {0}\n"
@@ -2461,65 +2474,65 @@ msgid "\n"
 "**Translator(s):** {3}"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:498
+#: Dredd-v3/cogs/info.py:497
 msgid "**Graphic Designer(s):**"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:499
+#: Dredd-v3/cogs/info.py:498
 msgid "**Contributor(s):**"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:502
+#: Dredd-v3/cogs/info.py:501
 msgid "List of roles in the server"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:507
+#: Dredd-v3/cogs/info.py:506
 msgid " List of all the server roles. Providing the role mention will display all the members in that role "
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:520
+#: Dredd-v3/cogs/info.py:519
 #, python-brace-format
 msgid "{0} Server has no roles"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:524
+#: Dredd-v3/cogs/info.py:523
 #, python-brace-format
 msgid "Roles in {0}"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:524
+#: Dredd-v3/cogs/info.py:523
 #, python-brace-format
 msgid "Members in {0}"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:533
+#: Dredd-v3/cogs/info.py:532
 msgid "Get information of the role"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:538
+#: Dredd-v3/cogs/info.py:537
 msgid " Get information of the role "
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:541
+#: Dredd-v3/cogs/info.py:540
 msgid "__**Basic Information**__"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:542
+#: Dredd-v3/cogs/info.py:541
 #, python-brace-format
 msgid "**Role name:** {0}\n"
 "**Role mention:** {1}\n"
 "**Role ID:** {2}"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:549
+#: Dredd-v3/cogs/info.py:548
 msgid "__**Permissions:**__"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:552
+#: Dredd-v3/cogs/info.py:551
 msgid "__**Other Information:**__"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:553
+#: Dredd-v3/cogs/info.py:552
 #, python-brace-format
 msgid "**Is Integration:** {0}\n"
 "**Hoisted:** {1}\n"
@@ -2529,106 +2542,106 @@ msgid "**Is Integration:** {0}\n"
 "**Members:** {5}"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:563
+#: Dredd-v3/cogs/info.py:562
 msgid "Get a list of recent nicknames member had"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:568
+#: Dredd-v3/cogs/info.py:567
 msgid " Get a list of 10 nicknames member had in the past 90 days "
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:573
+#: Dredd-v3/cogs/info.py:572
 #, python-brace-format
 msgid "{0} | **{1}** has opted out of nickname logging."
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:584
+#: Dredd-v3/cogs/info.py:583
 #, python-brace-format
 msgid "{0} | **{1}** has had no past nicknames since I joined."
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:589
+#: Dredd-v3/cogs/info.py:588
 #, python-brace-format
 msgid "**{0}'s past nicknames:**"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:595
+#: Dredd-v3/cogs/info.py:594
 msgid "See permissions member has in the server"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:599
+#: Dredd-v3/cogs/info.py:598
 msgid " See permissions member has in the server "
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:617
+#: Dredd-v3/cogs/info.py:616
 #, python-brace-format
 msgid "{0}'s Server Permissions"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:626
+#: Dredd-v3/cogs/info.py:625
 msgid "A list of disabled commands"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:631
+#: Dredd-v3/cogs/info.py:630
 msgid " A list of disabled commands globally and in the server "
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:642
+#: Dredd-v3/cogs/info.py:641
 #, python-brace-format
 msgid "{0} | No commands are disabled!"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:644
+#: Dredd-v3/cogs/info.py:643
 msgid "List of all disabled commands"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:645
+#: Dredd-v3/cogs/info.py:644
 msgid "The following commands can only be run by bot staff"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:647
+#: Dredd-v3/cogs/info.py:646
 msgid "**Globally disabled commands:**"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:649
+#: Dredd-v3/cogs/info.py:648
 msgid "**Disabled commands in this server:**"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:653
+#: Dredd-v3/cogs/info.py:652
 msgid "**Disabled categories in this server:**"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:656
+#: Dredd-v3/cogs/info.py:655
 msgid "Get a list of all the server emotes"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:661
+#: Dredd-v3/cogs/info.py:660
 msgid " Get a list of all the server emotes "
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:668
+#: Dredd-v3/cogs/info.py:667
 #, python-brace-format
 msgid "{0} | This server has no emotes!"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:671
+#: Dredd-v3/cogs/info.py:670
 #, python-brace-format
 msgid "{0} emotes list"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:680
+#: Dredd-v3/cogs/info.py:679
 msgid "A list of bot's partners"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:684
+#: Dredd-v3/cogs/info.py:683
 msgid " A list of bot's partners "
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:704 Dredd-v3/cogs/info.py:707
+#: Dredd-v3/cogs/info.py:703 Dredd-v3/cogs/info.py:706
 msgid "Server"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:711
+#: Dredd-v3/cogs/info.py:710
 #, python-brace-format
 msgid "**Partner:** {0}\n"
 "**Partnered for:** {1}\n"
@@ -2637,145 +2650,145 @@ msgid "**Partner:** {0}\n"
 ">>> {3}"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:722
+#: Dredd-v3/cogs/info.py:721
 #, python-brace-format
 msgid "Interested in partnering? Here's the official message:\n\n"
 "{0} or [join the support server]({1})"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:729
+#: Dredd-v3/cogs/info.py:728
 msgid "Partnered people with Dredd"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:737
+#: Dredd-v3/cogs/info.py:736
 msgid "A list of user's bot acknowledgements"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:741
+#: Dredd-v3/cogs/info.py:740
 msgid " A list of user's bot acknowledgements "
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:755
+#: Dredd-v3/cogs/info.py:754
 #, python-brace-format
 msgid "{0}'s Bot Acknowledgements"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:759
+#: Dredd-v3/cogs/info.py:758
 #, python-brace-format
 msgid "{0} | **{1}** has no bot acknowledgements"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:762
+#: Dredd-v3/cogs/info.py:761
 msgid "Top 10 most used commands"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:766
+#: Dredd-v3/cogs/info.py:765
 msgid " A list of 10 most used commands. You may also include: `me` and `guild` to see a list of your or guild's most used commands "
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:772
+#: Dredd-v3/cogs/info.py:771
 msgid "**Top 10 most used commands:**"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:776 Dredd-v3/cogs/info.py:784
-#: Dredd-v3/cogs/info.py:794
+#: Dredd-v3/cogs/info.py:775 Dredd-v3/cogs/info.py:783
+#: Dredd-v3/cogs/info.py:793
 #, python-brace-format
 msgid "{0} Looks like you haven't used any commands :/"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:777
+#: Dredd-v3/cogs/info.py:776
 #, python-brace-format
 msgid "In total users have used {0} commands!"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:781
+#: Dredd-v3/cogs/info.py:780
 msgid "**Your top 10 most used commands**"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:785
+#: Dredd-v3/cogs/info.py:784
 msgid "In total you have used {0:,} commands!"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:788
+#: Dredd-v3/cogs/info.py:787
 #, python-brace-format
 msgid "{0} This command must be ran in any server, not dms"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:791
+#: Dredd-v3/cogs/info.py:790
 msgid "**Top 10 most used commands in this server:**"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:795
+#: Dredd-v3/cogs/info.py:794
 msgid "In total this guild has used {0:,} commands!"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:806
+#: Dredd-v3/cogs/info.py:805
 msgid "Command"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:807
+#: Dredd-v3/cogs/info.py:806
 msgid "Used"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:817
+#: Dredd-v3/cogs/info.py:816
 msgid "A list of newest members in the server"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:822
+#: Dredd-v3/cogs/info.py:821
 msgid " A list of newest members in the server "
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:825
+#: Dredd-v3/cogs/info.py:824
 #, python-brace-format
 msgid "This server has {0} members"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:831
+#: Dredd-v3/cogs/info.py:830
 msgid "Newest member(s) in this server:"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:833
+#: Dredd-v3/cogs/info.py:832
 #, python-brace-format
 msgid "**Joined Server at** {0}\n"
 "**Account created at** {1}"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:837
+#: Dredd-v3/cogs/info.py:836
 msgid "The limit is set to 10"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:846
+#: Dredd-v3/cogs/info.py:845
 msgid " A list of members with specific character(s) in their name "
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:849
+#: Dredd-v3/cogs/info.py:848
 #, python-brace-format
 msgid "{0} Names can't be longer than 32 characters! You're {1} characters over."
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:856
+#: Dredd-v3/cogs/info.py:855
 #, python-brace-format
 msgid "{0} Couldn't find anyone with a given regex."
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:864
+#: Dredd-v3/cogs/info.py:863
 #, python-brace-format
 msgid "Users with regex {0} in their name"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:870
+#: Dredd-v3/cogs/info.py:869
 msgid "Documentation of enhanced discord.py"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:873
+#: Dredd-v3/cogs/info.py:872
 msgid " Documentation of enhanced discord.py "
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:877
+#: Dredd-v3/cogs/info.py:876
 msgid "Documentation of python"
 msgstr ""
 
-#: Dredd-v3/cogs/info.py:880
+#: Dredd-v3/cogs/info.py:879
 msgid " Documentation of python "
 msgstr ""
 
@@ -4533,7 +4546,7 @@ msgid "Manage your reminders"
 msgstr ""
 
 #: Dredd-v3/cogs/misc.py:692
-msgid " Create a reminder for yourself. Example usage: `remind 1h do homework`"
+msgid " Create a reminder for yourself. Example usage: `remind 1h do homework` "
 msgstr ""
 
 #: Dredd-v3/cogs/misc.py:697
@@ -4556,7 +4569,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/misc.py:715
 #, python-brace-format
-msgid "`[{0}]` Reminding in **{1}**\n"
+msgid "`[{0}]` Reminding **{1}**\n"
 "{2}\n"
 msgstr ""
 
@@ -4667,8 +4680,8 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:174 Dredd-v3/cogs/moderation.py:329
 #: Dredd-v3/cogs/moderation.py:422 Dredd-v3/cogs/moderation.py:514
-#: Dredd-v3/cogs/moderation.py:812 Dredd-v3/cogs/moderation.py:1607
-#: Dredd-v3/cogs/moderation.py:1706
+#: Dredd-v3/cogs/moderation.py:812 Dredd-v3/cogs/moderation.py:1609
+#: Dredd-v3/cogs/moderation.py:1708
 #, python-brace-format
 msgid "{0} ({1}) - **Member is above me in the role hierarchy or has the same role**"
 msgstr ""
@@ -4676,8 +4689,8 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:180 Dredd-v3/cogs/moderation.py:335
 #: Dredd-v3/cogs/moderation.py:428 Dredd-v3/cogs/moderation.py:520
 #: Dredd-v3/cogs/moderation.py:818 Dredd-v3/cogs/moderation.py:933
-#: Dredd-v3/cogs/moderation.py:1212 Dredd-v3/cogs/moderation.py:1613
-#: Dredd-v3/cogs/moderation.py:1712
+#: Dredd-v3/cogs/moderation.py:1212 Dredd-v3/cogs/moderation.py:1615
+#: Dredd-v3/cogs/moderation.py:1714
 #, python-brace-format
 msgid "{0} ({1}) - **Member is above you in the role hierarchy or has the same role**"
 msgstr ""
@@ -4703,7 +4716,7 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:878 Dredd-v3/cogs/moderation.py:987
 #: Dredd-v3/cogs/moderation.py:1078 Dredd-v3/cogs/moderation.py:1165
 #: Dredd-v3/cogs/moderation.py:1257 Dredd-v3/cogs/moderation.py:1490
-#: Dredd-v3/cogs/moderation.py:1675 Dredd-v3/cogs/moderation.py:1768
+#: Dredd-v3/cogs/moderation.py:1677 Dredd-v3/cogs/moderation.py:1770
 #, python-brace-format
 msgid "{0} Something failed with sending the message, I've sent this error to my developers and they should hopefully resolve it soon."
 msgstr ""
@@ -4770,9 +4783,9 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:671 Dredd-v3/cogs/moderation.py:707
 #: Dredd-v3/cogs/moderation.py:788 Dredd-v3/cogs/moderation.py:903
 #: Dredd-v3/cogs/moderation.py:1011 Dredd-v3/cogs/moderation.py:1102
-#: Dredd-v3/cogs/moderation.py:1187 Dredd-v3/cogs/moderation.py:1595
-#: Dredd-v3/cogs/moderation.py:1694 Dredd-v3/cogs/moderation.py:1804
-#: Dredd-v3/cogs/moderation.py:1883
+#: Dredd-v3/cogs/moderation.py:1187 Dredd-v3/cogs/moderation.py:1597
+#: Dredd-v3/cogs/moderation.py:1696 Dredd-v3/cogs/moderation.py:1806
+#: Dredd-v3/cogs/moderation.py:1885
 #, python-brace-format
 msgid "{0} Reason can only be 450 characters long. You're {1} characters over."
 msgstr ""
@@ -5100,14 +5113,14 @@ msgstr ""
 msgid "{0} ({1}) - **Member is already voice muted.**"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1042 Dredd-v3/cogs/moderation.py:1641
-#: Dredd-v3/cogs/moderation.py:1734
+#: Dredd-v3/cogs/moderation.py:1042 Dredd-v3/cogs/moderation.py:1643
+#: Dredd-v3/cogs/moderation.py:1736
 #, python-brace-format
 msgid "{0} ({1}) - **I'm missing permissions to perform this action**"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1048 Dredd-v3/cogs/moderation.py:1647
-#: Dredd-v3/cogs/moderation.py:1740
+#: Dredd-v3/cogs/moderation.py:1048 Dredd-v3/cogs/moderation.py:1649
+#: Dredd-v3/cogs/moderation.py:1742
 #, python-brace-format
 msgid "{0} ({1}) - **Failed. Not sure what though ¯\\_(ツ)_/¯**"
 msgstr ""
@@ -5324,317 +5337,317 @@ msgstr ""
 msgid " Freezes everyone from sending messages in the server "
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1509
+#: Dredd-v3/cogs/moderation.py:1510
 #, python-brace-format
 msgid "{0} Server is now frozen!"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1513
+#: Dredd-v3/cogs/moderation.py:1514
 #, python-brace-format
 msgid "{0} Server is already frozen!"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1515
+#: Dredd-v3/cogs/moderation.py:1516
 msgid "Unfreeze the server"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1522
+#: Dredd-v3/cogs/moderation.py:1523
 msgid " Unfreezes everyone from sending messages in the server "
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1530
+#: Dredd-v3/cogs/moderation.py:1532
 #, python-brace-format
 msgid "{0} Server is now unfrozen!"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1534
+#: Dredd-v3/cogs/moderation.py:1536
 #, python-brace-format
 msgid "{0} Server is not frozen!"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1536
+#: Dredd-v3/cogs/moderation.py:1538
 msgid "Create a role"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1543
+#: Dredd-v3/cogs/moderation.py:1545
 msgid " Create a role in the server "
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1546
+#: Dredd-v3/cogs/moderation.py:1548
 msgid "Role name can't be longer than 100 characters"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1549
+#: Dredd-v3/cogs/moderation.py:1551
 #, python-brace-format
 msgid "{0} Created role named **{1}**"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1551
+#: Dredd-v3/cogs/moderation.py:1553
 msgid "Delete a role"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1558
+#: Dredd-v3/cogs/moderation.py:1560
 msgid " Delete a role in the server "
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1562
+#: Dredd-v3/cogs/moderation.py:1564
 #, python-brace-format
 msgid "{0} I cannot delete that role as it's higher or equal in role hiararchy!"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1566
+#: Dredd-v3/cogs/moderation.py:1568
 #, python-brace-format
 msgid "{0} You cannot delete that role as it's higher or equal in role hiararchy!"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1571
+#: Dredd-v3/cogs/moderation.py:1573
 #, python-brace-format
 msgid "{0} Successfully deleted the role!"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1573
+#: Dredd-v3/cogs/moderation.py:1575
 #, python-brace-format
 msgid "{0} Failed to delete the role, not sure why."
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1577
+#: Dredd-v3/cogs/moderation.py:1579
 #, python-brace-format
 msgid "{0} Looks like I'm missing permissions, but that's not possible."
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1581
+#: Dredd-v3/cogs/moderation.py:1583
 msgid "Add a role to member(s)"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1588
+#: Dredd-v3/cogs/moderation.py:1590
 msgid " Add a role to a member. Mentioning multiple members will add a role to multiple members. "
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1601
+#: Dredd-v3/cogs/moderation.py:1603
 #, python-brace-format
 msgid "{0} | You can only add a role to 15 members at once."
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1619
+#: Dredd-v3/cogs/moderation.py:1621
 #, python-brace-format
 msgid "{0} ({1}) - **Member already has that role**"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1625 Dredd-v3/cogs/moderation.py:1724
+#: Dredd-v3/cogs/moderation.py:1627 Dredd-v3/cogs/moderation.py:1726
 #, python-brace-format
 msgid "{0} ({1}) - **The role is either higher than me or is my highest**"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1631
+#: Dredd-v3/cogs/moderation.py:1633
 #, python-brace-format
 msgid "{0} ({1}) - **The role is either higher than you or is your highest**"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1656 Dredd-v3/cogs/moderation.py:1661
+#: Dredd-v3/cogs/moderation.py:1658 Dredd-v3/cogs/moderation.py:1663
 #, python-brace-format
 msgid "**I've successfully added a role to {0} member(s):**\n"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1662
+#: Dredd-v3/cogs/moderation.py:1664
 #, python-brace-format
 msgid "**However, I failed to add the role to the following {0} member(s):**\n"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1669
+#: Dredd-v3/cogs/moderation.py:1671
 msgid "**I failed to add a role to all the members:**\n"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1680
+#: Dredd-v3/cogs/moderation.py:1682
 msgid "Remove a role to member(s)"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1687
+#: Dredd-v3/cogs/moderation.py:1689
 msgid " Remove a role to a member. Mentioning multiple members will remove a role from multiple members. "
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1700
+#: Dredd-v3/cogs/moderation.py:1702
 #, python-brace-format
 msgid "{0} | You can only remove a role from 15 members at once."
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1718
+#: Dredd-v3/cogs/moderation.py:1720
 #, python-brace-format
 msgid "{0} ({1}) - **Member doesn't have that role**"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1749 Dredd-v3/cogs/moderation.py:1754
+#: Dredd-v3/cogs/moderation.py:1751 Dredd-v3/cogs/moderation.py:1756
 #, python-brace-format
 msgid "**I've successfully removed a role from {0} member(s):**\n"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1755
+#: Dredd-v3/cogs/moderation.py:1757
 #, python-brace-format
 msgid "**However, I failed to remove the role from the following {0} member(s):**\n"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1762
+#: Dredd-v3/cogs/moderation.py:1764
 msgid "**I failed to remove a role from all the members:**\n"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1773
+#: Dredd-v3/cogs/moderation.py:1775
 msgid "Edit a reason of a case"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1781
+#: Dredd-v3/cogs/moderation.py:1783
 msgid " Edit the reason of a case. You can also edit multiple cases by adding `~` before a number "
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1790 Dredd-v3/cogs/moderation.py:1799
+#: Dredd-v3/cogs/moderation.py:1792 Dredd-v3/cogs/moderation.py:1801
 #, python-brace-format
 msgid "{0} The format for editing multiple cases is wrong, the correct format is `~<number of cases>`"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1797
+#: Dredd-v3/cogs/moderation.py:1799
 #, python-brace-format
 msgid "{0} Please make sure the number is valid."
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1812
+#: Dredd-v3/cogs/moderation.py:1814
 #, python-brace-format
 msgid "{0} Can't seem to find any cases in this server."
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1814
+#: Dredd-v3/cogs/moderation.py:1816
 #, python-brace-format
 msgid "{0} There are only {1} cases available to edit."
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1817
+#: Dredd-v3/cogs/moderation.py:1819
 #, python-brace-format
 msgid "{0} Started editing last {1} case(s), this might take a while."
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1841
+#: Dredd-v3/cogs/moderation.py:1843
 #, python-brace-format
 msgid "{0} Successfully edited cases - {1}"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1843
+#: Dredd-v3/cogs/moderation.py:1845
 #, python-brace-format
 msgid "{0} Failed to edit last {1} case(s), this might be because the log message was deleted"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1849 Dredd-v3/cogs/moderation.py:1891
-#: Dredd-v3/cogs/moderation.py:1929
+#: Dredd-v3/cogs/moderation.py:1851 Dredd-v3/cogs/moderation.py:1893
+#: Dredd-v3/cogs/moderation.py:1931
 #, python-brace-format
 msgid "{0} Case `#{1}` doesn't exist."
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1855 Dredd-v3/cogs/moderation.py:1935
+#: Dredd-v3/cogs/moderation.py:1857 Dredd-v3/cogs/moderation.py:1937
 #, python-brace-format
 msgid "{0} Unknown message! Make sure I have permissions to see the logging channel and if that message exists."
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1858 Dredd-v3/cogs/moderation.py:1938
+#: Dredd-v3/cogs/moderation.py:1860 Dredd-v3/cogs/moderation.py:1940
 #, python-brace-format
 msgid "{0} Looks like I'm missing permissions to get that message"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1860 Dredd-v3/cogs/moderation.py:1940
+#: Dredd-v3/cogs/moderation.py:1862 Dredd-v3/cogs/moderation.py:1942
 #, python-brace-format
 msgid "{0} Retrieving the message failed."
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1871
+#: Dredd-v3/cogs/moderation.py:1873
 #, python-brace-format
 msgid "Successfully edited case `#{0}` reason"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1873
+#: Dredd-v3/cogs/moderation.py:1875
 msgid "Delete existing case"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1880
+#: Dredd-v3/cogs/moderation.py:1882
 msgid " Delete the existing case "
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1895
+#: Dredd-v3/cogs/moderation.py:1897
 #, python-brace-format
 msgid "{0} Case was deleted"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1898
+#: Dredd-v3/cogs/moderation.py:1900
 #, python-brace-format
 msgid "**Case ID:** {0}\n"
 "**Moderator:** {1} ({2})\n"
 "**Reason:** {3}"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1903
+#: Dredd-v3/cogs/moderation.py:1905
 #, python-brace-format
 msgid "{0} Case `#{1}` was successfuly deleted, but I was unable to send a log message to the logging channel in which case was logged. *It was most likely deleted*"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1908
+#: Dredd-v3/cogs/moderation.py:1910
 #, python-brace-format
 msgid "{0} Case `#{1}` was successfully deleted."
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1914
+#: Dredd-v3/cogs/moderation.py:1916
 msgid " I was unable to send a message to your logging channel."
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1918
+#: Dredd-v3/cogs/moderation.py:1920
 msgid "Get case information"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1924
+#: Dredd-v3/cogs/moderation.py:1926
 msgid " Get more information of the case "
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1943
+#: Dredd-v3/cogs/moderation.py:1945
 #, python-brace-format
 msgid "Showing you case `#{0}` information"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1945
+#: Dredd-v3/cogs/moderation.py:1947
 msgid "Check user history of punishments"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1951
+#: Dredd-v3/cogs/moderation.py:1953
 msgid " Get a history of user's punishments "
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1954
+#: Dredd-v3/cogs/moderation.py:1956
 #, python-brace-format
 msgid "{0} {1} doesn't have any punishments history."
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1973
+#: Dredd-v3/cogs/moderation.py:1975
 msgid "softban"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1979
+#: Dredd-v3/cogs/moderation.py:1981
 msgid "warn"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1982
+#: Dredd-v3/cogs/moderation.py:1984
 msgid "unban"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1984
+#: Dredd-v3/cogs/moderation.py:1986
 msgid "unmute"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1986
+#: Dredd-v3/cogs/moderation.py:1988
 msgid "voice mute"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1988
+#: Dredd-v3/cogs/moderation.py:1990
 msgid "voice unmute"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1992
+#: Dredd-v3/cogs/moderation.py:1994
 #, python-brace-format
 msgid "Not Found. ID: {0}"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:1993
+#: Dredd-v3/cogs/moderation.py:1995
 #, python-brace-format
 msgid "**Case ID:** {0}\n"
 "**Action:** {1}\n"
@@ -5642,104 +5655,104 @@ msgid "**Case ID:** {0}\n"
 "**Reason:** {4}\n\n"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:2001
+#: Dredd-v3/cogs/moderation.py:2003
 #, python-brace-format
 msgid "{0} Punishments History"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:2006
+#: Dredd-v3/cogs/moderation.py:2008
 #, python-brace-format
 msgid "Muted: {0}; Banned: {1}; Kicked: {2}; Softbanned: {3}; Warned: {4}"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:2010
+#: Dredd-v3/cogs/moderation.py:2012
 msgid "Shows the duration of tempmute left."
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:2014
+#: Dredd-v3/cogs/moderation.py:2016
 msgid " Check the duration of member's tempmute.\n"
 "        If you're the user, you can run this command in DMs with srver id provided as well "
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:2022
+#: Dredd-v3/cogs/moderation.py:2024
 msgid "User is not temp muted."
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:2025
+#: Dredd-v3/cogs/moderation.py:2027
 #, python-brace-format
 msgid "**{0}** will be unmuted in: `{1}`"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:2033
+#: Dredd-v3/cogs/moderation.py:2035
 msgid "Server administrators have disabled this feature in that server, unfortunately I cannot tell you the duration until you get unmuted."
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:2038
+#: Dredd-v3/cogs/moderation.py:2040
 msgid "You're not temp muted?"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:2041
+#: Dredd-v3/cogs/moderation.py:2043
 #, python-brace-format
 msgid "You will be unmuted in: `{0}`"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:2044
+#: Dredd-v3/cogs/moderation.py:2046
 msgid "Please give the ID of the server too."
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:2049
+#: Dredd-v3/cogs/moderation.py:2051
 msgid "User is not temp muted in that server."
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:2056
+#: Dredd-v3/cogs/moderation.py:2058
 msgid "Toggle if users should see their temp mute duration"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:2062
+#: Dredd-v3/cogs/moderation.py:2064
 msgid " Toggle if users should be able to see when they're getting unmuted. They'll be able to run the command in DMs if it's toggled on. "
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:2068
+#: Dredd-v3/cogs/moderation.py:2070
 #, python-brace-format
 msgid "{0} Users will now be able to check their temp-mute duration in their DMs"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:2072
+#: Dredd-v3/cogs/moderation.py:2074
 #, python-brace-format
 msgid "{0} Users won't be able to check their temp-mute duration in their DMs anymore."
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:2074
+#: Dredd-v3/cogs/moderation.py:2076
 msgid "Create an emoji"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:2081
+#: Dredd-v3/cogs/moderation.py:2083
 msgid " Create an emoji "
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:2084
+#: Dredd-v3/cogs/moderation.py:2086
 #, python-brace-format
 msgid "Emoji name can't be longer than 32 characters, you're {0} characters over"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:2087
+#: Dredd-v3/cogs/moderation.py:2089
 msgid "This guild has reached the max amount of emojis added."
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:2095
+#: Dredd-v3/cogs/moderation.py:2097
 #, python-brace-format
 msgid "{0} Successfully created {1} emoji in this server."
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:2097
+#: Dredd-v3/cogs/moderation.py:2099
 msgid "Emoji URL is invalid"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:2099
+#: Dredd-v3/cogs/moderation.py:2101
 msgid "The URL doesn't contain any image"
 msgstr ""
 
-#: Dredd-v3/cogs/moderation.py:2103
+#: Dredd-v3/cogs/moderation.py:2105
 msgid "You need to either provide an image URL or upload one with the command"
 msgstr ""
 
@@ -5806,454 +5819,454 @@ msgstr ""
 msgid "Everyone left the voice channel, I will stop playing music"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:302
+#: Dredd-v3/cogs/music.py:305
 msgid "Everyone left the voice channel, I will pause the current track"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:313
+#: Dredd-v3/cogs/music.py:316
 msgid "The queue is empty, please add songs to the queue so I could play them."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:339
+#: Dredd-v3/cogs/music.py:343
 msgid "Connect bot to a voice channel"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:344
+#: Dredd-v3/cogs/music.py:348
 msgid " Connect bot to a voice channel "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:352
+#: Dredd-v3/cogs/music.py:359
 #, python-brace-format
 msgid "{0} Already connected to the voice channel."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:354
+#: Dredd-v3/cogs/music.py:361
 #, python-brace-format
 msgid "{0} Connected to **{1}**!"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:356 Dredd-v3/cogs/music.py:409
+#: Dredd-v3/cogs/music.py:363 Dredd-v3/cogs/music.py:419
 msgid "Search for and add song(s) to the Queue"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:362 Dredd-v3/cogs/music.py:415
+#: Dredd-v3/cogs/music.py:369 Dredd-v3/cogs/music.py:425
 msgid " Search for and add song(s) to the Queue "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:382 Dredd-v3/cogs/music.py:429
+#: Dredd-v3/cogs/music.py:392 Dredd-v3/cogs/music.py:442
 msgid "No songs were found with that query. Please try again."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:394
+#: Dredd-v3/cogs/music.py:404
 #, python-brace-format
 msgid "{0} Added the playlist **{1}** with {2} songs to the queue!{3}"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:402
+#: Dredd-v3/cogs/music.py:412
 #, python-brace-format
 msgid "{0} Added **{1}** to the Queue!{2}"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:425
+#: Dredd-v3/cogs/music.py:438
 #, python-brace-format
 msgid "{0} If you have the URL of the song might as well use the `play` command."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:435
+#: Dredd-v3/cogs/music.py:448
 #, python-brace-format
 msgid "{0} **I've found these songs:**\n\n"
 "{1}\n"
 "*Please choose a song you want me to queue*"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:451 Dredd-v3/cogs/music.py:466
+#: Dredd-v3/cogs/music.py:464 Dredd-v3/cogs/music.py:479
 #, python-brace-format
 msgid "{0} Added **{1}** to the Queue! (`{2}`)"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:456
+#: Dredd-v3/cogs/music.py:469
 msgid "Canceled the command."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:471
+#: Dredd-v3/cogs/music.py:484
 #, python-brace-format
 msgid "{0} Unknown error occured - {1}"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:478
+#: Dredd-v3/cogs/music.py:491
 msgid "Enqueue the radio station"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:485
+#: Dredd-v3/cogs/music.py:497
 msgid " Plays the selected radio station, if you have suggestions for radio stations, feel free to suggest them in the support server"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:494
+#: Dredd-v3/cogs/music.py:509
 #, python-brace-format
 msgid "You may choose from one of these radio stations:\n"
 "• {0}"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:500
+#: Dredd-v3/cogs/music.py:515
 msgid "Uh oh, looks like that radio station broke down."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:511
+#: Dredd-v3/cogs/music.py:526
 msgid "Toggle player's 24/7 mode"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:518
+#: Dredd-v3/cogs/music.py:532
 msgid " Enable or disable the player's 24/7 mode "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:525
+#: Dredd-v3/cogs/music.py:539
 #, python-brace-format
 msgid "{0} Successfuly enabled 24/7 mode, I will stay in the voice channel when everyone leaves."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:530
+#: Dredd-v3/cogs/music.py:544
 #, python-brace-format
 msgid "{0} Successfully disabled 24/7 mode, I will leave the voice channel when everyone leaves."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:534
+#: Dredd-v3/cogs/music.py:548
 #, python-brace-format
 msgid "{0} I'm sorry, but only the DJ and people with manage messages permission can toggle the 24/7 mode."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:536
+#: Dredd-v3/cogs/music.py:550
 msgid "Pause the currently playing song"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:542
+#: Dredd-v3/cogs/music.py:556
 msgid " Pause the currently playing song. "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:547
+#: Dredd-v3/cogs/music.py:561
 #, python-brace-format
 msgid "{0} You cannot pause live streams."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:551 Dredd-v3/cogs/music.py:627
+#: Dredd-v3/cogs/music.py:565 Dredd-v3/cogs/music.py:641
 #, python-brace-format
 msgid "{0} An admin or DJ has stopped the player."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:556
+#: Dredd-v3/cogs/music.py:570
 #, python-brace-format
 msgid "{0} Vote to pause passed. Pausing the player."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:560
+#: Dredd-v3/cogs/music.py:574
 #, python-brace-format
 msgid "**{0}** has voted to pause the player, {1} more votes are needed to pause."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:562
+#: Dredd-v3/cogs/music.py:576
 msgid "Resume the currently paused song."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:568
+#: Dredd-v3/cogs/music.py:582
 msgid " Resume the currently paused song. "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:573
+#: Dredd-v3/cogs/music.py:587
 #, python-brace-format
 msgid "{0} An admin or DJ has resumed the player."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:579
+#: Dredd-v3/cogs/music.py:593
 #, python-brace-format
 msgid "{0} Vote to resume passed. Resuming the player."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:583
+#: Dredd-v3/cogs/music.py:597
 #, python-brace-format
 msgid "**{0}** has voted to resume the player, {1} more votes are needed to resume."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:585
+#: Dredd-v3/cogs/music.py:599
 msgid "Skip the currently playing song."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:591
+#: Dredd-v3/cogs/music.py:605
 msgid " Skip the currently playing song. "
-msgstr ""
-
-#: Dredd-v3/cogs/music.py:596
-#, python-brace-format
-msgid "{0} There's nothing to skip to, the queue is empty.."
-msgstr ""
-
-#: Dredd-v3/cogs/music.py:599
-#, python-brace-format
-msgid "{0} An admin or DJ has skipped the song."
-msgstr ""
-
-#: Dredd-v3/cogs/music.py:603
-msgid "The song requester has skipped the song."
 msgstr ""
 
 #: Dredd-v3/cogs/music.py:610
 #, python-brace-format
+msgid "{0} There's nothing to skip to, the queue is empty.."
+msgstr ""
+
+#: Dredd-v3/cogs/music.py:613
+#, python-brace-format
+msgid "{0} An admin or DJ has skipped the song."
+msgstr ""
+
+#: Dredd-v3/cogs/music.py:617
+msgid "The song requester has skipped the song."
+msgstr ""
+
+#: Dredd-v3/cogs/music.py:624
+#, python-brace-format
 msgid "{0} Vote to skip passed. Skipping the song."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:614
+#: Dredd-v3/cogs/music.py:628
 #, python-brace-format
 msgid "**{0}** has voted to skip the current song, {1} more votes are needed to skip."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:616
+#: Dredd-v3/cogs/music.py:630
 msgid "Disconnect the player and controller"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:622
+#: Dredd-v3/cogs/music.py:636
 msgid " Stop and disconnect the player and controller. "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:632
+#: Dredd-v3/cogs/music.py:646
 #, python-brace-format
 msgid "{0} Vote to stop passed. Stopping the player."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:636
+#: Dredd-v3/cogs/music.py:650
 #, python-brace-format
 msgid "**{0}** has voted to stop the player, {1} more votes are needed to stop."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:638
+#: Dredd-v3/cogs/music.py:652
 msgid "Change the player's volume"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:645
+#: Dredd-v3/cogs/music.py:659
 msgid " Change the player's volume "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:654
+#: Dredd-v3/cogs/music.py:668
 #, python-brace-format
 msgid "Setting the player volume to **{0}%**"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:657
+#: Dredd-v3/cogs/music.py:671
 msgid "Seek the currently playing song"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:663
+#: Dredd-v3/cogs/music.py:677
 msgid " Seek the currently playing song "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:667 Dredd-v3/cogs/music.py:890
+#: Dredd-v3/cogs/music.py:681 Dredd-v3/cogs/music.py:904
 #, python-brace-format
 msgid "{0} Can't do that on a stream."
 msgstr ""
 
 #. past the end
-#: Dredd-v3/cogs/music.py:676 Dredd-v3/cogs/music.py:696
+#: Dredd-v3/cogs/music.py:690 Dredd-v3/cogs/music.py:710
 #, python-brace-format
 msgid "{0} You can't seek past the song."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:680
+#: Dredd-v3/cogs/music.py:694
 #, python-brace-format
 msgid "{0} Time format doesn't seem to be correct, make sure it's `x:xx:xx` for hours, `x:xx` for minutes and `xx` for seconds."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:688
+#: Dredd-v3/cogs/music.py:702
 #, python-brace-format
 msgid "{0} The time you've provided contains letters, please make sure you only use numbers"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:699
+#: Dredd-v3/cogs/music.py:713
 #, python-brace-format
 msgid "{0} Seeked the current song to `{1}/{2}`"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:701
+#: Dredd-v3/cogs/music.py:715
 msgid "Shuffle the queue"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:707
+#: Dredd-v3/cogs/music.py:721
 msgid "Shuffle the queue."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:712
+#: Dredd-v3/cogs/music.py:726
 msgid "Add more songs to the queue before shuffling."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:715
+#: Dredd-v3/cogs/music.py:729
 #, python-brace-format
 msgid "{0} An admin or DJ has shuffled the player."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:723
+#: Dredd-v3/cogs/music.py:737
 #, python-brace-format
 msgid "{0} Vote to shuffle passed. Shuffling the playlist."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:727
+#: Dredd-v3/cogs/music.py:741
 #, python-brace-format
 msgid "**{0}** has voted to shuffle the playlist, {1} more votes are needed to shuffle."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:729
+#: Dredd-v3/cogs/music.py:743
 msgid "See the player's Queue"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:735
+#: Dredd-v3/cogs/music.py:749
 msgid " Retrieve information on the next songs in the queue. "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:739
+#: Dredd-v3/cogs/music.py:753
 msgid "There are no songs currently in the queue."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:751
+#: Dredd-v3/cogs/music.py:765
 #, python-brace-format
 msgid "Total songs in the queue: {0} | Duration: {1}"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:753
+#: Dredd-v3/cogs/music.py:767
 #, python-brace-format
 msgid "Total songs in the queue: {0}"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:756
+#: Dredd-v3/cogs/music.py:770
 #, python-brace-format
 msgid "{0} Queue"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:766
+#: Dredd-v3/cogs/music.py:780
 msgid "Remove a song from the queue"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:773
+#: Dredd-v3/cogs/music.py:787
 msgid " Remove a song from the queue "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:777 Dredd-v3/cogs/music.py:801
+#: Dredd-v3/cogs/music.py:791 Dredd-v3/cogs/music.py:815
 msgid "There are no songs in the queue."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:781
+#: Dredd-v3/cogs/music.py:795
 #, python-brace-format
 msgid "{0} There are only {1} songs in the queue"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:785
+#: Dredd-v3/cogs/music.py:799
 #, python-brace-format
 msgid "{0} Removed song {1} from the queue, there are now {2} songs left in the queue."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:790
+#: Dredd-v3/cogs/music.py:804
 msgid "Clear all the songs from the queue"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:797
+#: Dredd-v3/cogs/music.py:811
 msgid " Clear all the songs from the queue "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:807
+#: Dredd-v3/cogs/music.py:821
 #, python-brace-format
 msgid "{0} You're about to delete all the songs from the queue. Are you sure you want to do that?"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:817
+#: Dredd-v3/cogs/music.py:831
 msgid "Alright, I will not be clearing the queue."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:825
+#: Dredd-v3/cogs/music.py:839
 #, python-brace-format
 msgid "{0} Successfully cleared {1} songs from the queue."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:828
+#: Dredd-v3/cogs/music.py:842
 msgid "See currently playing song"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:834
+#: Dredd-v3/cogs/music.py:848
 msgid " Retrieve currently playing song. "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:849
+#: Dredd-v3/cogs/music.py:863
 msgid "Manage the player's filter"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:854
+#: Dredd-v3/cogs/music.py:868
 msgid " Base command for managing player's filter "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:857
+#: Dredd-v3/cogs/music.py:871
 msgid "Change the pitch of the song"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:863
+#: Dredd-v3/cogs/music.py:877
 msgid " Modify the players pitch. "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:867 Dredd-v3/cogs/music.py:887
+#: Dredd-v3/cogs/music.py:881 Dredd-v3/cogs/music.py:901
 msgid "The value you provided is invalid and will crash the player."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:872 Dredd-v3/cogs/music.py:895
+#: Dredd-v3/cogs/music.py:886 Dredd-v3/cogs/music.py:909
 msgid "The value you provided can't be negative or above 2.0"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:874
+#: Dredd-v3/cogs/music.py:888
 #, python-brace-format
 msgid "{0} Changed the pitch to **{1}x**, give up to 10 seconds for player to take effect"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:876
+#: Dredd-v3/cogs/music.py:890
 msgid "Change the speed of the song"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:882
+#: Dredd-v3/cogs/music.py:896
 msgid " Set the players speed."
-msgstr ""
-
-#: Dredd-v3/cogs/music.py:897
-#, python-brace-format
-msgid "{0} Changed the speed to **{1}x**, give up to 10 seconds for player to take effect"
-msgstr ""
-
-#: Dredd-v3/cogs/music.py:899
-msgid "Reset the player's filter"
-msgstr ""
-
-#: Dredd-v3/cogs/music.py:905
-msgid " Reset the players pitch and speed "
 msgstr ""
 
 #: Dredd-v3/cogs/music.py:911
 #, python-brace-format
-msgid "{0} Reset the players filter, give up to 10 seconds for player to take effect."
+msgid "{0} Changed the speed to **{1}x**, give up to 10 seconds for player to take effect"
 msgstr ""
 
 #: Dredd-v3/cogs/music.py:913
-msgid "Switch the player's loop"
+msgid "Reset the player's filter"
 msgstr ""
 
 #: Dredd-v3/cogs/music.py:919
+msgid " Reset the players pitch and speed "
+msgstr ""
+
+#: Dredd-v3/cogs/music.py:925
+#, python-brace-format
+msgid "{0} Reset the players filter, give up to 10 seconds for player to take effect."
+msgstr ""
+
+#: Dredd-v3/cogs/music.py:927
+msgid "Switch the player's loop"
+msgstr ""
+
+#: Dredd-v3/cogs/music.py:933
 msgid " Switch the players loop "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:929
+#: Dredd-v3/cogs/music.py:943
 #, python-brace-format
 msgid "**{0}** has voted to loop the player, {1} more votes are needed to loop."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:933
+#: Dredd-v3/cogs/music.py:947
 #, python-brace-format
 msgid "{0} Now looping **{1}**"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:937
+#: Dredd-v3/cogs/music.py:951
 #, python-brace-format
 msgid "{0} Now looping all the songs"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:940
+#: Dredd-v3/cogs/music.py:954
 #, python-brace-format
 msgid "{0} Songs will no longer loop"
 msgstr ""
