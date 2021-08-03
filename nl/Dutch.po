@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-03 18:17\n"
+"PO-Revision-Date: 2021-08-03 19:13\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -1212,7 +1212,7 @@ msgstr "Automod is uitgeschakeld in deze server, schakel het in door het `{0}aut
 
 #: Dredd-v3/cogs/automod.py:161
 msgid "chill"
-msgstr ""
+msgstr "chill"
 
 #: Dredd-v3/cogs/automod.py:161
 msgid "strict"
@@ -1314,11 +1314,11 @@ msgstr "Percentage moet een waarde tussen de 25 en 100 zijn"
 #: Dredd-v3/cogs/automod.py:333
 #, python-brace-format
 msgid "{0} Successfuly disabled anti mass caps in this server"
-msgstr ""
+msgstr "{0} Succesvol anti mass caps uitgeschakeld in deze server"
 
 #: Dredd-v3/cogs/automod.py:335
 msgid "Anti caps are already disabled in this server."
-msgstr ""
+msgstr "Anti caps zijn is al uitgeschakeld in deze server."
 
 #: Dredd-v3/cogs/automod.py:338
 #, python-brace-format
