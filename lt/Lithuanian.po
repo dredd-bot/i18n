@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-21 22:59+0200\n"
-"PO-Revision-Date: 2021-07-21 21:55\n"
+"PO-Revision-Date: 2021-08-03 16:07\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -64,7 +64,7 @@ msgstr "Įvyko klaida, bandant gauti tavo balsą, klaidos detalės buvo nusiųst
 
 #: Dredd-v3/utils/checks.py:212
 msgid "This command is in its testing phase, you can join the support server if you want to apply your guild to be a testing guild or know when the command will be available."
-msgstr ""
+msgstr "Ši komanda yra testuojama, gali prisijungti į mūsų pagalbos serverį, jei nori pridėti savo serverį kaip testavimo fazės serverį arba sužinoti, kada komanda bus galima."
 
 #: Dredd-v3/utils/checks.py:224
 #, python-brace-format
@@ -85,7 +85,7 @@ msgstr "Dredd šiuo metu yra tvarkomas!"
 #: Dredd-v3/utils/checks.py:274
 #, python-brace-format
 msgid "{0} | `{1}` and its corresponding subcommands are currently disabled for: `{2}`"
-msgstr ""
+msgstr "{0} | `{1}` ir jų atitinkamos tarpinės komandos šiuo metu yra negalimos dėl: `{2}`"
 
 #: Dredd-v3/utils/checks.py:277
 #, python-brace-format
@@ -167,11 +167,11 @@ msgstr "Personalo narys [pagalbos serveryje]({0}) arba Dredd pagalbininkas"
 
 #: Dredd-v3/utils/default.py:195
 msgid "Dredd's Translator"
-msgstr ""
+msgstr "Dredd'o vertėjas"
 
 #: Dredd-v3/utils/default.py:196
 msgid "Dredd's Sponsor"
-msgstr ""
+msgstr "Dredd'o remėjas"
 
 #: Dredd-v3/utils/default.py:197
 #, python-brace-format
@@ -180,7 +180,7 @@ msgstr "Stiprintojas [Dredd's support server]({0}) arba Aukotojas"
 
 #: Dredd-v3/utils/default.py:198
 msgid "Dredd's Partner"
-msgstr ""
+msgstr "Dredd'o partneris"
 
 #: Dredd-v3/utils/default.py:199
 msgid "Dredd Bug Hunter"
@@ -196,7 +196,7 @@ msgstr "Dredd Ankstyvas Rėmėjas"
 
 #: Dredd-v3/utils/default.py:202
 msgid "Dredd Super Early Supporter"
-msgstr ""
+msgstr "Dredd'o labai ankstyvas remėjas"
 
 #: Dredd-v3/utils/default.py:203
 msgid "Blacklisted user"
@@ -307,30 +307,30 @@ msgstr "laikinai užblokuoti"
 
 #: Dredd-v3/utils/default.py:549
 msgid "I was not able to find this playlist! Please try again or use a different link."
-msgstr ""
+msgstr "Aš neradau šio grojaraščio! Prašau bandyti vėl arba naudoti kitokį link'ą."
 
 #: Dredd-v3/utils/default.py:556
 msgid "I was not able to find this album! Please try again or use a different link."
-msgstr ""
+msgstr "Aš neradau šio albumo! Prašau bandyti vėl arba naudoti kitą link'ą."
 
 #: Dredd-v3/utils/default.py:574
 msgid "The URL you put is either not valid or doesn't exist!"
-msgstr ""
+msgstr "URL kurį paminėjote yra netinkamas arba neegzistuoja!"
 
 #: Dredd-v3/utils/default.py:580
 #, python-brace-format
 msgid "{0} Added the playlist **{1}** with {2} songs to the queue!"
-msgstr ""
+msgstr "{0} Grojaraštis **{1}** pridėtas su {2} dainomis į eilę!"
 
 #: Dredd-v3/utils/default.py:586
 #, python-brace-format
 msgid "{0} Added the album **{1}** with {2} songs to the queue!"
-msgstr ""
+msgstr "{0} Albumas **{1}** pridėtas su {2} dainomis į eilę!"
 
 #: Dredd-v3/utils/default.py:590 Dredd-v3/cogs/music.py:504
 #, python-brace-format
 msgid "{0} Added **{1}** to the Queue!"
-msgstr ""
+msgstr "{0} Pridėta {1} į eilę!"
 
 #: Dredd-v3/utils/rtfm.py:140
 msgid "Cannot build rtfm lookup table, try again later."
@@ -508,7 +508,13 @@ msgid "Thank you for using me! Unfortunately this command is vote locked and you
 "`[4]` {3}\n"
 "If you've voted already, please wait cause the API might be slow.\n\n"
 "*After you vote, you'll be able to use this command, and you will help Dredd gain more servers :D*"
-msgstr ""
+msgstr "Ačiū, kad mane naudojate! Dėja ši komanda yra galima tik balsuotojams. Gali balsuoti bet kuriame iš šitų link'ų:\n"
+"`[1]` {0}\n"
+"`[2]` {1}\n"
+"`[3]` {2}\n"
+"`[4]` {3}\n"
+"Jeigu jau prabalsavai, prašau truputį palaukti, nes API gali būti lėtas.\n\n"
+"*Po balsavimo jūs atsirakinate šią komandą ir padedate Dredd'ui išpopuliarėti :D*"
 
 #: Dredd-v3/cogs/events/errors.py:141
 #, python-brace-format
@@ -578,7 +584,7 @@ msgstr "{0} | Pasirodo, tu neuždarei kabučių"
 #: Dredd-v3/cogs/events/errors.py:253
 #, python-brace-format
 msgid "{0} | Expected space after the quote, but received another quote"
-msgstr ""
+msgstr "{0} | Tikimasi tarpo po kabučių, bet gauta kita kabutė iškart"
 
 #. no other way to prevent this
 #: Dredd-v3/cogs/events/errors.py:256
@@ -1036,7 +1042,7 @@ msgstr "*orginali žinutė buvo ištrinta arba man trūksta leidimų*\n\n"
 
 #: Dredd-v3/cogs/other/tasks.py:215
 msgid "No one has connected to a voice channel in over 12 hours, to save up bot's resources I'll be destroying the player and leaving the voice channel."
-msgstr ""
+msgstr "Niekas neprisijungė į balso kanalą per pastarąsias 12 valandų, kad roboto resursai būtų išsaugoti, aš paliksiu ši balso kanalą."
 
 #: Dredd-v3/cogs/automod.py:37
 msgid "Automod is disabled in this server, enable it by using `automod toggle` command"
