@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-03 17:04\n"
+"PO-Revision-Date: 2021-08-03 18:17\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -682,17 +682,18 @@ msgstr "Bedankt voor mij uit te nodigen in deze server!\n"
 #, python-brace-format
 msgid "Thank you for inviting me to this server!\n"
 "To get started - you can see my commands by using `{0}help [category/command]`. In order to change my prefix, you can use `{0}prefix [prefix]`. If you'll need any help you can join the <{1}>. You can also contact `{2}` or `{3}` if you'll need any help."
-msgstr ""
+msgstr "Bedankt voor mij uit te nodigen in deze server!\n"
+"Om aan de slag te gaan - je kan mijn commando's zien met behulp van `{0}help [categorie/command]`. Om mijn prefix te veranderen, kunt u `{0}prefix [prefix]` gebruiken. Als je hulp nodig hebt, kan je toetreden tot de <{1}>. Je kunt ook `{2}` of `{3}` contacteren als je hulp nodig hebt."
 
 #: Dredd-v3/cogs/events/events.py:467 Dredd-v3/cogs/events/events.py:472
 #, python-brace-format
 msgid "Welcome back {0}! You were away for **{1}**. Your AFK state has been removed."
-msgstr ""
+msgstr "Welkom terug {0}! U was weg voor **{1}**. Uw AFK status is verwijderd."
 
 #: Dredd-v3/cogs/events/events.py:486
 #, python-brace-format
 msgid "Hey! **{0}** has been AFK for **{1}** for - **{2}**."
-msgstr ""
+msgstr "Hey! **{0}** is AFK geweest voor **{1}** voor - **{2}**."
 
 #: Dredd-v3/cogs/events/events.py:510 Dredd-v3/cogs/events/logs.py:137
 #, python-brace-format
@@ -793,24 +794,26 @@ msgstr "**Member:** {0} `{1}`\n"
 #: Dredd-v3/cogs/events/logs.py:226
 #, python-brace-format
 msgid "{0} changed their username"
-msgstr ""
+msgstr "{0} heeft zijn bijnaam gewijzigd"
 
 #: Dredd-v3/cogs/events/logs.py:227
 #, python-brace-format
 msgid "{0} Username Changed"
-msgstr ""
+msgstr "{0} Bijnaam gewijzigd"
 
 #: Dredd-v3/cogs/events/logs.py:228
 #, python-brace-format
 msgid "**Member:** {0} `{1}`\n"
 "**Before:** {2}\n"
 "**After:** {3}"
-msgstr ""
+msgstr "**Lid:** {0} `{1}`\n"
+"**Voor:** {2}\n"
+"**Na:** {3}"
 
 #: Dredd-v3/cogs/events/logs.py:264
 #, python-brace-format
 msgid "{0} A member has been banned"
-msgstr ""
+msgstr "{0} Een lid is verbannen"
 
 #: Dredd-v3/cogs/events/logs.py:266 Dredd-v3/cogs/events/logs.py:306
 #: Dredd-v3/cogs/events/logs.py:865
@@ -818,7 +821,9 @@ msgstr ""
 msgid "**Member:** {0}\n"
 "**Moderator:** {1} ({2})\n"
 "**Reason:** {3}"
-msgstr ""
+msgstr "**Lid:** {0}\n"
+"**Moderator:** {1} ({2})\n"
+"**Reden:** {3}"
 
 #: Dredd-v3/cogs/events/logs.py:267 Dredd-v3/cogs/events/logs.py:307
 #: Dredd-v3/cogs/events/logs.py:598 Dredd-v3/cogs/events/logs.py:629
@@ -829,16 +834,16 @@ msgstr ""
 #: Dredd-v3/cogs/events/logs.py:928 Dredd-v3/cogs/events/logs.py:961
 #, python-brace-format
 msgid "Case ID: #{0}"
-msgstr ""
+msgstr "Ticket ID: #{0}"
 
 #: Dredd-v3/cogs/events/logs.py:304
 #, python-brace-format
 msgid "{0} A member was un-banned"
-msgstr ""
+msgstr "{0} Een lid is niet meer verbannen"
 
 #: Dredd-v3/cogs/events/logs.py:327
 msgid " Guild name changed"
-msgstr ""
+msgstr " Groep naam veranderd"
 
 #: Dredd-v3/cogs/events/logs.py:328 Dredd-v3/cogs/events/logs.py:337
 #: Dredd-v3/cogs/events/logs.py:346 Dredd-v3/cogs/events/logs.py:365
@@ -846,93 +851,98 @@ msgstr ""
 #, python-brace-format
 msgid "**Before:** {0}\n"
 "**After:** {1}"
-msgstr ""
+msgstr "**Voor:** {0}\n"
+"**Na:** {1}"
 
 #: Dredd-v3/cogs/events/logs.py:336
 msgid " Guild region changed"
-msgstr ""
+msgstr " Groep regio veranderd"
 
 #: Dredd-v3/cogs/events/logs.py:345
 msgid " Guild afk channel changed"
-msgstr ""
+msgstr " Groep afk kanaal veranderd"
 
 #: Dredd-v3/cogs/events/logs.py:354
 msgid " Guild icon changed"
-msgstr ""
+msgstr " Groep icoon veranderd"
 
 #: Dredd-v3/cogs/events/logs.py:355
 #, python-brace-format
 msgid "**Before:** [Click here]({0})\n"
 "**After:** [Click here]({1})"
-msgstr ""
+msgstr "**Voor:** [Klik hier]({0})\n"
+"**Na:** [Klik hier]({1})"
 
 #: Dredd-v3/cogs/events/logs.py:364
 msgid " Guild multifactor authentication (MFA) changed"
-msgstr ""
+msgstr " Multifactor authenticatie groep (MFA) veranderd"
 
 #: Dredd-v3/cogs/events/logs.py:373
 msgid " Guild verification level changed"
-msgstr ""
+msgstr " Verificatieniveau van de groep veranderd"
 
 #: Dredd-v3/cogs/events/logs.py:382
 msgid " Guild default notifications changed"
-msgstr ""
+msgstr " Groep standaard meldingen gewijzigd"
 
 #: Dredd-v3/cogs/events/logs.py:399
 #, python-brace-format
 msgid "{0} A new member has joined"
-msgstr ""
+msgstr "{0} Een nieuw lid is toegetreden"
 
 #: Dredd-v3/cogs/events/logs.py:400
 #, python-brace-format
 msgid "{0} joined the server"
-msgstr ""
+msgstr "{0} Is toegetreden tot de server"
 
 #: Dredd-v3/cogs/events/logs.py:401
 #, python-brace-format
 msgid "**Member:** {0} ({1})\n"
 "**Account Created:** {2}"
-msgstr ""
+msgstr "**Lid:** {0} ({1})\n"
+"**Account aangemaakt:** {2}"
 
 #: Dredd-v3/cogs/events/logs.py:405
 #, python-brace-format
 msgid "Member #{0}"
-msgstr ""
+msgstr "Lid #{0}"
 
 #: Dredd-v3/cogs/events/logs.py:418
 #, python-brace-format
 msgid "{0} A member has left the server"
-msgstr ""
+msgstr "{0} Een lid heeft de server verlaten"
 
 #: Dredd-v3/cogs/events/logs.py:419
 #, python-brace-format
 msgid "{0} left the server"
-msgstr ""
+msgstr "{0} Heeft de server verlaten"
 
 #: Dredd-v3/cogs/events/logs.py:421
 #, python-brace-format
 msgid "**Member:** {0} ({1})\n"
 "**Joined server:** {2}\n"
 "**Roles:** {3}"
-msgstr ""
+msgstr "**Lid:** {0} ({1})\n"
+"**Toegetreden:** {2}\n"
+"**Rollen:** {3}"
 
 #: Dredd-v3/cogs/events/logs.py:425
 msgid "No roles."
-msgstr ""
+msgstr "Geen rollen."
 
 #: Dredd-v3/cogs/events/logs.py:427
 #, python-brace-format
 msgid "Members left: {0}"
-msgstr ""
+msgstr "Leden resterend: {0}"
 
 #: Dredd-v3/cogs/events/logs.py:467
 msgid "Automatic Mute | Mute evading"
-msgstr ""
+msgstr "Automatisch dempen | dempen vermijden"
 
 #: Dredd-v3/cogs/events/logs.py:594
 #, python-brace-format
 msgid "{0} {1} Member(s) banned"
-msgstr ""
+msgstr "{0} {1} Deelnemer(s) verbannen"
 
 #: Dredd-v3/cogs/events/logs.py:595 Dredd-v3/cogs/events/logs.py:627
 #: Dredd-v3/cogs/events/logs.py:725 Dredd-v3/cogs/events/logs.py:790
@@ -941,17 +951,20 @@ msgid "**Member(s):**\n"
 "{0}{1}\n"
 "**Moderator:** {2} ({3})\n"
 "**Reason:** {4}"
-msgstr ""
+msgstr "**Lid/Leden:**\n"
+"{0}{1}\n"
+"**Moderator:** {2} ({3})\n"
+"**Reden:** {4}"
 
 #: Dredd-v3/cogs/events/logs.py:626
 #, python-brace-format
 msgid "{0} {1} Member(s) hack-banned"
-msgstr ""
+msgstr "{0} {1} Lid/Leden met hackban"
 
 #: Dredd-v3/cogs/events/logs.py:657
 #, python-brace-format
 msgid "{0} {1} Member(s) kicked"
-msgstr ""
+msgstr "{0} {1} Lid/Leden eruitgegooid"
 
 #: Dredd-v3/cogs/events/logs.py:658 Dredd-v3/cogs/events/logs.py:689
 #: Dredd-v3/cogs/events/logs.py:757 Dredd-v3/cogs/events/logs.py:821
@@ -961,127 +974,133 @@ msgid "**Member(s):**\n"
 "{0}\n"
 "**Moderator:** {1} ({2})\n"
 "**Reason:** {3}"
-msgstr ""
+msgstr "**Lid/Leden:** {0}\n"
+"**Moderator:** {1} ({2})\n"
+"**Reden:** {3}"
 
 #: Dredd-v3/cogs/events/logs.py:688
 #, python-brace-format
 msgid "{0} {1} Member(s) softbanned"
-msgstr ""
+msgstr "{0} {1} Lid/Leden tijdelijk-verbannen"
 
 #: Dredd-v3/cogs/events/logs.py:724
 #, python-brace-format
 msgid "{0} {1} Member(s) muted"
-msgstr ""
+msgstr "{0} {1} Lid/Leden gemute"
 
 #: Dredd-v3/cogs/events/logs.py:756
 #, python-brace-format
 msgid "{0} {1} Member(s) warned"
-msgstr ""
+msgstr "{0} {1} Lid/Leden gewaarschuwd"
 
 #: Dredd-v3/cogs/events/logs.py:789
 #, python-brace-format
 msgid "{0} {1} Member(s) un-banned"
-msgstr ""
+msgstr "{0} {1} Lid/Leden on-verbannen"
 
 #: Dredd-v3/cogs/events/logs.py:820
 #, python-brace-format
 msgid "{0} {1} Member(s) un-muted"
-msgstr ""
+msgstr "{0} {1} Lid/Leden geunmute"
 
 #: Dredd-v3/cogs/events/logs.py:863
 #, python-brace-format
 msgid "{0} A member has been kicked"
-msgstr ""
+msgstr "{0} Een lid is eruitgegooid"
 
 #: Dredd-v3/cogs/events/logs.py:894
 #, python-brace-format
 msgid "{0} {1} Member(s) voice muted"
-msgstr ""
+msgstr "{0} {1} Lid/Leden spraak gemute"
 
 #: Dredd-v3/cogs/events/logs.py:925
 #, python-brace-format
 msgid "{0} {1} Member(s) voice unmuted"
-msgstr ""
+msgstr "{0} {1} Lid/Leden spraak geunmute"
 
 #: Dredd-v3/cogs/events/logs.py:958
 #, python-brace-format
 msgid "{0} {1} Member(s) dehoisted"
-msgstr ""
+msgstr "{0} {1} Lid/Leden ongehezen"
 
 #: Dredd-v3/cogs/events/logs.py:959
 #, python-brace-format
 msgid "**Member(s):**\n"
 "{0}{1}\n"
 "**Moderator:** {2} ({3})\n"
-msgstr ""
+msgstr "**Lid/Leden:**\n"
+"{0}{1}\n"
+"**Moderator:** {2} ({3})\n"
 
 #: Dredd-v3/cogs/other/tasks.py:168
 #, python-brace-format
 msgid "*The original message was deleted or I'm missing permissions*\n\n"
 "Your reminder: {0}"
-msgstr ""
+msgstr "*Het oorspronkelijke bericht is verwijderd of ik mis machtigingen*\n\n"
+"Uw herinnering: {0}"
 
 #: Dredd-v3/cogs/other/tasks.py:219
 msgid "No one has connected to a voice channel in over 12 hours, to save up bot's resources I'll be destroying the player and leaving the voice channel."
-msgstr ""
+msgstr "Niemand heeft verbinding gemaakt met een spraakkanaal in meer dan 12 uur om grondstoffen op te slaan zal ik de speler stoppen en het spraakkanaal verlaten."
 
 #: Dredd-v3/cogs/automod.py:37
 msgid "Automod is disabled in this server, enable it by using `automod toggle` command"
-msgstr ""
+msgstr "Automod is uitgeschakeld in deze server, schakel het in door het `automod toggle` commando te gebruiken"
 
 #: Dredd-v3/cogs/automod.py:47 Dredd-v3/cogs/automod.py:87
 msgid "No"
-msgstr ""
+msgstr "Nee"
 
 #: Dredd-v3/cogs/automod.py:49 Dredd-v3/cogs/automod.py:55
 #: Dredd-v3/cogs/automod.py:59 Dredd-v3/cogs/automod.py:62
 #: Dredd-v3/cogs/automod.py:66 Dredd-v3/cogs/automod.py:69
 msgid "Kick Member"
-msgstr ""
+msgstr "Lid verwijderen"
 
 #: Dredd-v3/cogs/automod.py:49 Dredd-v3/cogs/automod.py:55
 #: Dredd-v3/cogs/automod.py:59 Dredd-v3/cogs/automod.py:62
 #: Dredd-v3/cogs/automod.py:66 Dredd-v3/cogs/automod.py:69
 msgid "Ban Member"
-msgstr ""
+msgstr "Verban Lid"
 
 #: Dredd-v3/cogs/automod.py:49
 msgid "Kick All Members"
-msgstr ""
+msgstr "Alle Leden verwijderen"
 
 #: Dredd-v3/cogs/automod.py:49
 msgid "Ban All Members"
-msgstr ""
+msgstr "Verban Alle Leden"
 
 #: Dredd-v3/cogs/automod.py:52 Dredd-v3/cogs/automod.py:87
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: Dredd-v3/cogs/automod.py:55 Dredd-v3/cogs/automod.py:59
 #: Dredd-v3/cogs/automod.py:62 Dredd-v3/cogs/automod.py:66
 #: Dredd-v3/cogs/automod.py:69
 msgid "Mute Member"
-msgstr ""
+msgstr "Demp gebruiker"
 
 #: Dredd-v3/cogs/automod.py:55 Dredd-v3/cogs/automod.py:59
 #: Dredd-v3/cogs/automod.py:62 Dredd-v3/cogs/automod.py:66
 #: Dredd-v3/cogs/automod.py:69
 #, python-brace-format
 msgid "Temp-Mute Member ({0})"
-msgstr ""
+msgstr "Tijdelijk Demp lid ({0})"
 
 #: Dredd-v3/cogs/automod.py:55 Dredd-v3/cogs/automod.py:59
 #: Dredd-v3/cogs/automod.py:62 Dredd-v3/cogs/automod.py:66
 #: Dredd-v3/cogs/automod.py:69
 #, python-brace-format
 msgid "Temp-Ban Member ({0})"
-msgstr ""
+msgstr "Tijdelijk Verban lid ({0})"
 
 #: Dredd-v3/cogs/automod.py:71
 #, python-brace-format
 msgid "\n"
 "**Anti-Raid Logging Channel:** {0}"
-msgstr ""
+msgstr "\n"
+"**Anti-Raid Log Kanaal:** {0}"
 
 #: Dredd-v3/cogs/automod.py:73
 #, python-brace-format
@@ -1097,44 +1116,57 @@ msgid "```\n"
 "**Ignore Moderators:** {8}\n"
 "**Delete Messages:** {9}\n"
 "**DM people during raid:** {10}{11}{12}"
-msgstr ""
+msgstr "```\n"
+"1. Anti Spam -       {0}\n"
+"2. Anti Mass Caps -       {1}\n"
+"3. Anti uitnodigingen -       {2}\n"
+"4. Anti vermelding -       {3}\n"
+"5. Anti Links -       {4}\n"
+"--- Andere ---\n"
+"6. Raid Mode -       {5}```\n"
+"**Automod Logging Kanaal:** {6}{7}\n"
+"**Negeer Moderators:** {8}\n"
+"**Verwijder berichten:** {9}\n"
+"**DM people tijdens raid:** {10}{11}{12}"
 
 #: Dredd-v3/cogs/automod.py:85 Dredd-v3/cogs/automod.py:86
 msgid "Disabled"
-msgstr ""
+msgstr "Uitgeschakeld"
 
 #: Dredd-v3/cogs/automod.py:88
 #, python-brace-format
 msgid "\n"
 "**Mentions Limit:** {0}"
-msgstr ""
+msgstr "\n"
+"**Vermeldingen Limiet:** {0}"
 
 #: Dredd-v3/cogs/automod.py:88
 #, python-brace-format
 msgid "\n"
 "**Caps Percentage:** {0}"
-msgstr ""
+msgstr "\n"
+"**Caps Percentage:** {0}"
 
 #: Dredd-v3/cogs/automod.py:93
 msgid "Manage automod in the server"
-msgstr ""
+msgstr "Beheer automod in de server"
 
 #: Dredd-v3/cogs/automod.py:99
 msgid " Manage automod state in the server "
-msgstr ""
+msgstr " Beheer automod status in de server "
 
 #: Dredd-v3/cogs/automod.py:103
 #, python-brace-format
 msgid "{0} Automod Settings"
-msgstr ""
+msgstr "{0} Automod instellingen"
 
 #: Dredd-v3/cogs/automod.py:107
 msgid "Toggle automod on or off"
-msgstr ""
+msgstr "Schakel automod in of uit"
 
 #: Dredd-v3/cogs/automod.py:113
 msgid " Toggle automod on or off "
-msgstr ""
+msgstr " Schakel automod in of uit "
 
 #: Dredd-v3/cogs/automod.py:119 Dredd-v3/cogs/automod.py:138
 #: Dredd-v3/cogs/automod.py:455 Dredd-v3/cogs/automod.py:482
@@ -1146,25 +1178,25 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:683
 #, python-brace-format
 msgid "{0} I'm missing permissions in that channel. Make sure you have given me the correct permissions!"
-msgstr ""
+msgstr "{0} Ik mis machtigingen in je spraakkanaal. Zorg ervoor dat je me de juiste machtigingen hebt gegeven!"
 
 #: Dredd-v3/cogs/automod.py:123 Dredd-v3/cogs/automod.py:142
 #, python-brace-format
 msgid "{0} Automod was successfully enabled in this server."
-msgstr ""
+msgstr "{0} Automod is met succes ingeschakeld in deze server."
 
 #: Dredd-v3/cogs/automod.py:133
 #, python-brace-format
 msgid "{0} Automod was successfully disabled in this server."
-msgstr ""
+msgstr "{0} Automod is met succes uitgeschakeld in deze server."
 
 #: Dredd-v3/cogs/automod.py:144
 msgid "Set global automod's value in the server"
-msgstr ""
+msgstr "Stel de globale automod's waarde in op de server"
 
 #: Dredd-v3/cogs/automod.py:150
 msgid " Set global automod's value in the server "
-msgstr ""
+msgstr " Stel de globale automod's waarde in de server "
 
 #: Dredd-v3/cogs/automod.py:154 Dredd-v3/cogs/automod.py:211
 #: Dredd-v3/cogs/automod.py:243 Dredd-v3/cogs/automod.py:276
@@ -1176,7 +1208,7 @@ msgstr ""
 #: Dredd-v3/cogs/automod.py:685
 #, python-brace-format
 msgid "Automod is disabled in this server, enable it by using `{0}automod toggle` command"
-msgstr ""
+msgstr "Automod is uitgeschakeld in deze server, schakel het in door het `{0}automod toggle` commando te gebruiken"
 
 #: Dredd-v3/cogs/automod.py:161
 msgid "chill"
@@ -1184,100 +1216,100 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:161
 msgid "strict"
-msgstr ""
+msgstr "strikt"
 
 #: Dredd-v3/cogs/automod.py:198
 #, python-brace-format
 msgid "{0} Successfully set the automod value to **{1}**"
-msgstr ""
+msgstr "{0} Succesvol de automod waarde ingesteld op **{1}**"
 
 #: Dredd-v3/cogs/automod.py:200
 msgid "Toggle anti links on or off"
-msgstr ""
+msgstr "Schakel auto links in of uit"
 
 #: Dredd-v3/cogs/automod.py:206
 msgid " Toggle anti links on or off "
-msgstr ""
+msgstr " Anti-links in of uitschakelen "
 
 #: Dredd-v3/cogs/automod.py:223
 #, python-brace-format
 msgid "{0} Successfuly disabled anti link in this server"
-msgstr ""
+msgstr "{0} Succesvolle anti link uitgeschakeld in deze server"
 
 #: Dredd-v3/cogs/automod.py:225
 msgid "Anti link is already disabled in this server."
-msgstr ""
+msgstr "Anti link is al uitgeschakeld in deze server."
 
 #: Dredd-v3/cogs/automod.py:228
 #, python-brace-format
 msgid "{0} Successfully set anti links punishment type to **{1}** members.{2}"
-msgstr ""
+msgstr "{0} Succesvol anti links straf type aan**{1}** leden.{2}"
 
 #: Dredd-v3/cogs/automod.py:229 Dredd-v3/cogs/automod.py:261
 #: Dredd-v3/cogs/automod.py:300 Dredd-v3/cogs/automod.py:339
 #: Dredd-v3/cogs/automod.py:372
 msgid " They will be muted/banned for 12 hours by default."
-msgstr ""
+msgstr " Ze zullen standaard voor 12 uur gedempt/verbannen worden."
 
 #: Dredd-v3/cogs/automod.py:232
 msgid "Toggle anti invites on or off"
-msgstr ""
+msgstr "Schakel auto uitnodigingen in of uit"
 
 #: Dredd-v3/cogs/automod.py:238
 msgid " Toggle anti invites on or off "
-msgstr ""
+msgstr " Anti-uitnodigingen in of uitschakelen "
 
 #: Dredd-v3/cogs/automod.py:255
 #, python-brace-format
 msgid "{0} Successfuly disabled anti invites in this server"
-msgstr ""
+msgstr "{0} Succesvol anti uitnodigingen uitgeschakeld in deze server"
 
 #: Dredd-v3/cogs/automod.py:257
 msgid "Anti invite is already disabled in this server."
-msgstr ""
+msgstr "Anti uitnodiging is al uitgeschakeld in deze server."
 
 #: Dredd-v3/cogs/automod.py:260
 #, python-brace-format
 msgid "{0} Successfully set anti invites punishment type to **{1}** members.{2}"
-msgstr ""
+msgstr "{0} Succesvol anti uitnodiging straf type aan**{1}** leden.{2}"
 
 #: Dredd-v3/cogs/automod.py:265
 msgid "Toggle anti mass mention on or off"
-msgstr ""
+msgstr "Schakel anti massa vermelding in of uit"
 
 #: Dredd-v3/cogs/automod.py:271
 msgid " Toggle anti mass mention on or off and set the mentions limit to whatever number you want "
-msgstr ""
+msgstr " Schakel anti-vermelding in of uit en stel de vermeldenlimiet in op elk getal dat u wilt "
 
 #: Dredd-v3/cogs/automod.py:282
 msgid "Mentions limit must be between 2 and 15"
-msgstr ""
+msgstr "Vermeldingen limiet moet tussen 2 en 15 liggen"
 
 #: Dredd-v3/cogs/automod.py:294
 #, python-brace-format
 msgid "{0} Successfuly disabled anti mass mention in this server"
-msgstr ""
+msgstr "{0} Succesvolle anti mention uitgeschakeld in deze server"
 
 #: Dredd-v3/cogs/automod.py:296
 msgid "Anti mass mentions are already disabled in this server."
-msgstr ""
+msgstr "Anti massa mention is al uitgeschakeld in deze server."
 
 #: Dredd-v3/cogs/automod.py:299
 #, python-brace-format
 msgid "{0} Successfully set anti mass mentions punishment type to **{1}** members. Mentions limit - `{2}`.{3}"
-msgstr ""
+msgstr "{0} Succesvol anti massa vermeldingen naar **{1}** leden. Vermeldt het limiet - `{2}`.{3}"
 
 #: Dredd-v3/cogs/automod.py:304
 msgid "Toggle anti mass caps on or off"
-msgstr ""
+msgstr "Schakel anti massa hoofdletters in of uit"
 
 #: Dredd-v3/cogs/automod.py:310
 msgid " Toggle anti mass caps and set the caps percentege limit to whatever number you prefer "
-msgstr ""
+msgstr " Schakel anti-massa hoofdletters in en stel de gemiddelde limiet in op elk getal dat u verkiest "
 
 #: Dredd-v3/cogs/automod.py:321
 msgid "Percentage limit must be between 25 and 100"
-msgstr ""
+msgstr "Percentage moet een waarde tussen de 25 en 100 zijn"
 
 #: Dredd-v3/cogs/automod.py:333
 #, python-brace-format
