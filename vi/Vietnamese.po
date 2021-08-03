@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-03 17:03\n"
+"PO-Revision-Date: 2021-08-03 22:24\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -191,11 +191,11 @@ msgstr "Người tìm lỗi của Dredd BETA"
 
 #: Dredd-v3/utils/default.py:201
 msgid "Dredd Early Supporter"
-msgstr ""
+msgstr "Người ủng hộ sớm của Dredd"
 
 #: Dredd-v3/utils/default.py:202
 msgid "Dredd Super Early Supporter"
-msgstr ""
+msgstr "Người ủng hộ siêu sớm của Dredd"
 
 #: Dredd-v3/utils/default.py:203
 msgid "Blacklisted user"
@@ -212,7 +212,7 @@ msgstr "{0} Máy chủ của nhân viên của Dredd"
 
 #: Dredd-v3/utils/default.py:244
 msgid "{} Dredd Verified Server"
-msgstr ""
+msgstr "{} Máy chủ đã được xác minh của Dredd"
 
 #: Dredd-v3/utils/default.py:245
 #, python-brace-format
@@ -277,7 +277,7 @@ msgstr "{0} Vai trò khi tham gia\n"
 #: Dredd-v3/utils/default.py:371 Dredd-v3/utils/default.py:379
 #, python-brace-format
 msgid "{0} Dehoisting\n"
-msgstr ""
+msgstr "{0} Dehoisting\n"
 
 #: Dredd-v3/utils/default.py:372 Dredd-v3/utils/default.py:380
 #, python-brace-format
@@ -346,16 +346,16 @@ msgstr "nâng cấp discord.py {0}"
 
 #: Dredd-v3/utils/rtfm.py:186
 msgid "Keep in mind this is NOT the original d.py; certain things may be different"
-msgstr ""
+msgstr "Hãy nhớ rằng đây không phải là d.py ban đầu. Mọi thứ có thể khác"
 
 #: Dredd-v3/utils/rtfm.py:187
 #, python-brace-format
 msgid "**Search query:** `{0}`\n\n"
-msgstr ""
+msgstr "**Câu hỏi tìm kiếm:** `{0}`\n\n"
 
 #: Dredd-v3/cogs/events/automod.py:188
 msgid "Spam (sending multiple messages in a short time span)"
-msgstr ""
+msgstr "Spam (gửi nhiều thư trong một khoảng thời gian ngắn)"
 
 #: Dredd-v3/cogs/events/automod.py:214
 msgid "Advertising"
@@ -363,7 +363,7 @@ msgstr "Quảng cáo"
 
 #: Dredd-v3/cogs/events/automod.py:238
 msgid "Spamming caps"
-msgstr ""
+msgstr "Spam các chữ cái viết hoa"
 
 #: Dredd-v3/cogs/events/automod.py:261
 msgid "Spamming links"
@@ -371,7 +371,7 @@ msgstr "Spam liên kết"
 
 #: Dredd-v3/cogs/events/automod.py:283
 msgid "Spamming mentions"
-msgstr ""
+msgstr "Gửi thư rác đề cập"
 
 #: Dredd-v3/cogs/events/automod.py:309
 msgid "anti raid: user account is younger than 30 days."
@@ -583,13 +583,13 @@ msgstr "{0} | Có vẻ bạn chưa đóng trích dẫn"
 #: Dredd-v3/cogs/events/errors.py:253
 #, python-brace-format
 msgid "{0} | Expected space after the quote, but received another quote"
-msgstr ""
+msgstr "{0} | Tôi mong đợi một khoảng trống sau dấu ngoặc kép, nhưng tôi nhận được một dấu ngoặc kép khác"
 
 #. no other way to prevent this
 #: Dredd-v3/cogs/events/errors.py:256
 #, python-brace-format
 msgid "{0} | Failed to add the reactions, please reinvoke the command."
-msgstr ""
+msgstr "{0} | Tôi không thể thêm phản ứng. Vui lòng chạy lại lệnh này."
 
 #: Dredd-v3/cogs/events/errors.py:262
 #, python-brace-format
@@ -605,7 +605,7 @@ msgstr "{0} Lỗi không xác định | #{1}"
 #, python-brace-format
 msgid "Command `{0}` raised an error, which I reported to my developer(s).\n"
 "My developer(s) will be working to fixing this error ASAP. Meanwhile, you can [join the support server]({1}) for updates."
-msgstr ""
+msgstr "Lệnh `{0}` đã xảy ra lỗi và tôi đã báo cáo điều này cho các nhà phát triển của mình. Họ sẽ làm việc để khắc phục lỗi này càng sớm càng tốt. Trong khi đó, bạn có thể [truy cập bộ phận hỗ trợ của tôi]({1}) để cập nhật."
 
 #: Dredd-v3/cogs/events/errors.py:314 Dredd-v3/cogs/events/errors.py:336
 msgid "Error info:"
@@ -620,7 +620,7 @@ msgstr "{0} Lỗi xác định | #{1}"
 #, python-brace-format
 msgid "Command `{0}` raised an error that has already reported to my developer(s).\n"
 "They'll be looking into this issue and trying to fix it ASAP. Meanwhile, you can [join the support server]({1}) for updates."
-msgstr ""
+msgstr "Lệnh `{0}` đã gây ra lỗi đã được báo cáo cho các nhà phát triển của tôi. Họ sẽ làm việc để khắc phục lỗi này càng sớm càng tốt. Trong khi đó, bạn có thể [truy cập bộ phận hỗ trợ của tôi]({1}) để cập nhật."
 
 #: Dredd-v3/cogs/events/events.py:100
 #, python-brace-format
@@ -630,27 +630,29 @@ msgstr "Tiền tố của tôi ở máy chủ này là `{0}` hoặc {1}!"
 #: Dredd-v3/cogs/events/events.py:111
 #, python-brace-format
 msgid "I appreciate you for using me! You can also use my commands here in DMs with a prefix `!`, but if you aren't using any commands - the DM will be logged in my [support server]({0}), so please don't send me any sensitive information."
-msgstr ""
+msgstr "Tôi đánh giá cao bạn sử dụng tôi! Bạn luôn có thể sử dụng các lệnh của tôi tại đây trong DM với tiền tố `!`, Nhưng nếu bạn không sử dụng bất kỳ lệnh nào, DM sẽ được ghi vào [support server]({0}) của tôi. Không gửi bất kỳ thông tin nhạy cảm."
 
 #: Dredd-v3/cogs/events/events.py:125
 msgid "Hey! Not sure if you know yet, but my prefix in DM's is `!`"
-msgstr ""
+msgstr "Xin chào! Nếu bạn không biết, tiền tố của tôi trong DM là `!`"
 
 #: Dredd-v3/cogs/events/events.py:246
 #, python-brace-format
 msgid "If you are the server owner and would like to appeal, you can [join the support server]({0})."
-msgstr ""
+msgstr "Nếu bạn sở hữu server và muốn kháng nghị, bạn có thể [đến với bộ phận hỗ trợ của chúng tôi]({0})."
 
 #: Dredd-v3/cogs/events/events.py:250
 msgid "Unfortunately, this server's blacklist state cannot be removed."
-msgstr ""
+msgstr "Rất tiếc, server này nằm trong danh sách đen và sẽ không bị xóa."
 
 #: Dredd-v3/cogs/events/events.py:253
 #, python-brace-format
 msgid "Hey!\n"
 "This server is blacklisted, so I will not be staying in the server anymore. {0}\n\n"
 "**Blacklist reason:** {1}"
-msgstr ""
+msgstr "Xin chào!\n"
+"Máy chủ này nằm trong danh sách đen, vì vậy tôi sẽ rời đi. {0}\n\n"
+"**Lý do:** {1}"
 
 #: Dredd-v3/cogs/events/events.py:257
 msgid "Blacklist issue occured!"
@@ -669,30 +671,32 @@ msgstr "Này!\n"
 #, python-brace-format
 msgid "Thank you for inviting me to this server!\n"
 "To get started - you can see my commands by using `{0}help [category/command]`. In order to change my prefix you can use `{0}prefix [prefix]`.If you'll need any help you can join the [support server]({1}). You can also contact `{2}` or `{3}` if you'll need any help."
-msgstr ""
+msgstr "Cảm ơn bạn đã mời tôi đến server này!\n"
+"Để bắt đầu - bạn có thể xem các lệnh của tôi bằng cách sử dụng `{0}help [category / command]. Để thay đổi tiền tố của tôi, bạn có thể sử dụng `{0}prefix [prefix]`. Nếu bạn cần bất kỳ trợ giúp nào, bạn có thể đến [hỗ trợ server]({1}). Bạn cũng có thể liên hệ với `{2}` hoặc `{3}` nếu bạn cần bất kỳ trợ giúp nào."
 
 #. We were invited without embed perms...
 #: Dredd-v3/cogs/events/events.py:301
 #, python-brace-format
 msgid "Thank you for inviting me to this server!\n"
 "To get started - you can see my commands by using `{0}help [category/command]`. In order to change my prefix, you can use `{0}prefix [prefix]`. If you'll need any help you can join the <{1}>. You can also contact `{2}` or `{3}` if you'll need any help."
-msgstr ""
+msgstr "Để bắt đầu - bạn có thể xem các lệnh của tôi bằng cách sử dụng `{0}help [category / command]. Để thay đổi tiền tố của tôi, bạn có thể sử dụng `{0}prefix [prefix]`. Nếu bạn cần bất kỳ trợ giúp nào, bạn có thể đến <{1}>. Bạn cũng có thể liên hệ với `{2}` hoặc `{3}` nếu bạn cần bất kỳ trợ giúp nào."
 
 #: Dredd-v3/cogs/events/events.py:467 Dredd-v3/cogs/events/events.py:472
 #, python-brace-format
 msgid "Welcome back {0}! You were away for **{1}**. Your AFK state has been removed."
-msgstr ""
+msgstr "Chào mừng bạn trở lại {0}! Bạn đã vắng mặt trong ** {1} **. Bạn không AFK nữa."
 
 #: Dredd-v3/cogs/events/events.py:486
 #, python-brace-format
 msgid "Hey! **{0}** has been AFK for **{1}** for - **{2}**."
-msgstr ""
+msgstr "Xin chào! **{0}** đã được AFK cho **{1}** cho - **{2}**."
 
 #: Dredd-v3/cogs/events/events.py:510 Dredd-v3/cogs/events/logs.py:137
 #, python-brace-format
 msgid "\n"
 "*Sticker* - {0}"
-msgstr ""
+msgstr "\n"
+"*Hình dán* - {0}"
 
 #: Dredd-v3/cogs/events/logs.py:90
 #, python-brace-format
@@ -737,58 +741,61 @@ msgstr "**Người dùng:** {0} `{1}`\n"
 
 #: Dredd-v3/cogs/events/logs.py:140
 msgid "**Message:**"
-msgstr ""
+msgstr "**Thông điệp:**"
 
 #: Dredd-v3/cogs/events/logs.py:144
 msgid "**Attachments:**"
-msgstr ""
+msgstr "**Bổ sung:**"
 
 #: Dredd-v3/cogs/events/logs.py:147
 msgid "**Sticker:**"
-msgstr ""
+msgstr "**Hình dán:**"
 
 #: Dredd-v3/cogs/events/logs.py:169
 #, python-brace-format
 msgid "{0} changed their nickname"
-msgstr ""
+msgstr "{0} đã thay đổi biệt hiệu của họ"
 
 #: Dredd-v3/cogs/events/logs.py:170
 #, python-brace-format
 msgid "{0} Nickname Changed"
-msgstr ""
+msgstr "{0} Biệt hiệu đã thay đổi"
 
 #: Dredd-v3/cogs/events/logs.py:171
 #, python-brace-format
 msgid "**Member:** {0} `{1}`\n\n"
 "**Before:** {2}\n"
 "**After:** {3}"
-msgstr ""
+msgstr "**Người dùng:** {0} `{1}`\n\n"
+"**Trước:** {2}\n"
+"**Sau:** {3}"
 
 #: Dredd-v3/cogs/events/logs.py:211
 #, python-brace-format
 msgid "{0} changed their avatar"
-msgstr ""
+msgstr "{0} đã thay đổi ảnh của họ"
 
 #: Dredd-v3/cogs/events/logs.py:212
 #, python-brace-format
 msgid "{0} Avatar Changed"
-msgstr ""
+msgstr "{0} Hình ảnh đã thay đổi"
 
 #: Dredd-v3/cogs/events/logs.py:213
 #, python-brace-format
 msgid "**Member:** {0} `{1}`\n"
 "[Avatar URL]({2})"
-msgstr ""
+msgstr "**Người dùng:** {0} `{1}`\n"
+"[Liên kết Hình ảnh]({2})"
 
 #: Dredd-v3/cogs/events/logs.py:226
 #, python-brace-format
 msgid "{0} changed their username"
-msgstr ""
+msgstr "{0} đã thay đổi tên người dùng của họ"
 
 #: Dredd-v3/cogs/events/logs.py:227
 #, python-brace-format
 msgid "{0} Username Changed"
-msgstr ""
+msgstr "{0} Tên người dùng đã thay đổi"
 
 #: Dredd-v3/cogs/events/logs.py:228
 #, python-brace-format
@@ -1021,19 +1028,19 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:47 Dredd-v3/cogs/automod.py:87
 msgid "No"
-msgstr ""
+msgstr "Không"
 
 #: Dredd-v3/cogs/automod.py:49 Dredd-v3/cogs/automod.py:55
 #: Dredd-v3/cogs/automod.py:59 Dredd-v3/cogs/automod.py:62
 #: Dredd-v3/cogs/automod.py:66 Dredd-v3/cogs/automod.py:69
 msgid "Kick Member"
-msgstr ""
+msgstr "Xóa người dùng"
 
 #: Dredd-v3/cogs/automod.py:49 Dredd-v3/cogs/automod.py:55
 #: Dredd-v3/cogs/automod.py:59 Dredd-v3/cogs/automod.py:62
 #: Dredd-v3/cogs/automod.py:66 Dredd-v3/cogs/automod.py:69
 msgid "Ban Member"
-msgstr ""
+msgstr "Trục xuất người dùng"
 
 #: Dredd-v3/cogs/automod.py:49
 msgid "Kick All Members"
