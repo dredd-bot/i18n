@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-21 22:59+0200\n"
-"PO-Revision-Date: 2021-07-21 21:56\n"
+"PO-Revision-Date: 2021-08-03 16:07\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -85,22 +85,22 @@ msgstr "Ο Dredd είναι υπό συντήρηση!"
 #: Dredd-v3/utils/checks.py:274
 #, python-brace-format
 msgid "{0} | `{1}` and its corresponding subcommands are currently disabled for: `{2}`"
-msgstr ""
+msgstr "{0} | `{1}` και οι αντίστοιχες υποεντολές είναι προς το παρόν απενεργοποιημένες για: `{2}`"
 
 #: Dredd-v3/utils/checks.py:277
 #, python-brace-format
 msgid "{0} | `{1} {2}` is currently disabled for: `{3}`"
-msgstr ""
+msgstr "{0} | `{1} {2}` είναι προς το παρόν απενεργοποιημένο για: `{3}`"
 
 #: Dredd-v3/utils/checks.py:285
 #, python-brace-format
 msgid "{0} | `{1}` is currently disabled for: `{2}`"
-msgstr ""
+msgstr "{0} | `{1}` είναι προς το παρόν απενεργοποιημένο για: `{2}`"
 
 #: Dredd-v3/utils/checks.py:342
 #, python-brace-format
 msgid "{0} You need to be in a voice channel first."
-msgstr ""
+msgstr "{0} Πρέπει να είστε σε κανάλι ομιλίας (VC) πρώτα."
 
 #: Dredd-v3/utils/checks.py:344
 #, python-brace-format
@@ -163,7 +163,7 @@ msgstr "Διαχειριστής του Dredd"
 #: Dredd-v3/utils/default.py:194
 #, python-brace-format
 msgid "Staff member in the [support server]({0}) or Dredd's contributor"
-msgstr ""
+msgstr "Μέλος του προσωπικού στο [server υποστήριξης]({0}) ή συντελεστής του Dredd"
 
 #: Dredd-v3/utils/default.py:195
 msgid "Dredd's Translator"
@@ -176,7 +176,7 @@ msgstr ""
 #: Dredd-v3/utils/default.py:197
 #, python-brace-format
 msgid "Booster of [Dredd's support server]({0}) or Donator"
-msgstr ""
+msgstr "Ενισχυτής του [server υποστήριξης του Dredd]({0}) ή υποστηρικτής"
 
 #: Dredd-v3/utils/default.py:198
 msgid "Dredd's Partner"
@@ -188,15 +188,15 @@ msgstr "Κυνηγός Σφαλμάτων του Dredd"
 
 #: Dredd-v3/utils/default.py:200
 msgid "Dredd BETA Bug Hunter"
-msgstr ""
+msgstr "Κυνηγός Σφαλμάτων του Dredd BETA"
 
 #: Dredd-v3/utils/default.py:201
 msgid "Dredd Early Supporter"
-msgstr ""
+msgstr "Αρχικός υποστηρικτής του Dredd"
 
 #: Dredd-v3/utils/default.py:202
 msgid "Dredd Super Early Supporter"
-msgstr ""
+msgstr "Σούπερ αρχικός υποστηριχτής του Dredd"
 
 #: Dredd-v3/utils/default.py:203
 msgid "Blacklisted user"
@@ -233,57 +233,57 @@ msgstr "{0} Διαγραμμένα μηνύματα\n"
 #: Dredd-v3/utils/default.py:361
 #, python-brace-format
 msgid "{0} Moderation\n"
-msgstr ""
+msgstr "{0} Έλεγχος μηνυμάτων\n"
 
 #: Dredd-v3/utils/default.py:362
 #, python-brace-format
 msgid "{0} Guild logs\n"
-msgstr ""
+msgstr "{0} Καταγραφή\n"
 
 #: Dredd-v3/utils/default.py:363
 #, python-brace-format
 msgid "{0} Member Joins\n"
-msgstr ""
+msgstr "{0} Μέλη ήρθαν\n"
 
 #: Dredd-v3/utils/default.py:364
 #, python-brace-format
 msgid "{0} Member Leaves\n"
-msgstr ""
+msgstr "{0} Μέλη έφυγαν\n"
 
 #: Dredd-v3/utils/default.py:365
 #, python-brace-format
 msgid "{0} Member Updates\n"
-msgstr ""
+msgstr "{0} Μέλη ανανεώθηκαν\n"
 
 #: Dredd-v3/utils/default.py:367 Dredd-v3/utils/default.py:375
 #, python-brace-format
 msgid "{0} Raid mode\n"
-msgstr ""
+msgstr "{0} Προστασία ενάντια των Raid\n"
 
 #: Dredd-v3/utils/default.py:368 Dredd-v3/utils/default.py:376
 #, python-brace-format
 msgid "{0} Welcoming messages\n"
-msgstr ""
+msgstr "{0} Μηνύματα καλωσόρισης\n"
 
 #: Dredd-v3/utils/default.py:369 Dredd-v3/utils/default.py:377
 #, python-brace-format
 msgid "{0} Leaving messages\n"
-msgstr ""
+msgstr "{0} Μηνύματα φυγής\n"
 
 #: Dredd-v3/utils/default.py:370 Dredd-v3/utils/default.py:378
 #, python-brace-format
 msgid "{0} Role on Join\n"
-msgstr ""
+msgstr "{0} Αυτόματος ρόλος όταν έρθει user στο server\n"
 
 #: Dredd-v3/utils/default.py:371 Dredd-v3/utils/default.py:379
 #, python-brace-format
 msgid "{0} Dehoisting\n"
-msgstr ""
+msgstr "{0} Αφαίρεση σημαίας\n"
 
 #: Dredd-v3/utils/default.py:372 Dredd-v3/utils/default.py:380
 #, python-brace-format
 msgid "{0} Automod\n"
-msgstr ""
+msgstr "{0} Αυτόματος έλεγχος μηνυμάτων\n"
 
 #: Dredd-v3/utils/default.py:529 Dredd-v3/cogs/moderation.py:1976
 msgid "mute"
