@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-04 01:43\n"
+"PO-Revision-Date: 2021-08-04 04:06\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -826,12 +826,12 @@ msgstr ""
 #: Dredd-v3/cogs/events/logs.py:928 Dredd-v3/cogs/events/logs.py:961
 #, python-brace-format
 msgid "Case ID: #{0}"
-msgstr ""
+msgstr "ID trừng phạt: #{0}"
 
 #: Dredd-v3/cogs/events/logs.py:304
 #, python-brace-format
 msgid "{0} A member was un-banned"
-msgstr ""
+msgstr "{0} Một thành viên đã được bỏ cấm"
 
 #: Dredd-v3/cogs/events/logs.py:327
 msgid " Guild name changed"
@@ -848,29 +848,30 @@ msgstr "**Trước:** {0}\n"
 
 #: Dredd-v3/cogs/events/logs.py:336
 msgid " Guild region changed"
-msgstr ""
+msgstr " Khu vực máy chủ đã được thay đổi"
 
 #: Dredd-v3/cogs/events/logs.py:345
 msgid " Guild afk channel changed"
-msgstr ""
+msgstr " Kênh afk của máy chủ đã được thay đổi"
 
 #: Dredd-v3/cogs/events/logs.py:354
 msgid " Guild icon changed"
-msgstr ""
+msgstr " Biểu tượng của máy chủ đã được thay đổi"
 
 #: Dredd-v3/cogs/events/logs.py:355
 #, python-brace-format
 msgid "**Before:** [Click here]({0})\n"
 "**After:** [Click here]({1})"
-msgstr ""
+msgstr "**Trước:** [Nhấn vào đây]({0})\n"
+"**Sau:** [Nhấn vào đây]({1})"
 
 #: Dredd-v3/cogs/events/logs.py:364
 msgid " Guild multifactor authentication (MFA) changed"
-msgstr ""
+msgstr " Xác thực đa yếu tố của máy chủ (MFA) đã thay đổi"
 
 #: Dredd-v3/cogs/events/logs.py:373
 msgid " Guild verification level changed"
-msgstr ""
+msgstr " Cấp độ xác minh của máy chủ đã thay đổi"
 
 #: Dredd-v3/cogs/events/logs.py:382
 msgid " Guild default notifications changed"
@@ -890,7 +891,8 @@ msgstr "{0} đã tham gia máy chủ"
 #, python-brace-format
 msgid "**Member:** {0} ({1})\n"
 "**Account Created:** {2}"
-msgstr ""
+msgstr "** Thành viên:** {0} ({1})\n"
+"**Tài khoản được tạo vào:** {2}"
 
 #: Dredd-v3/cogs/events/logs.py:405
 #, python-brace-format
@@ -912,7 +914,9 @@ msgstr "{0} rời máy chủ"
 msgid "**Member:** {0} ({1})\n"
 "**Joined server:** {2}\n"
 "**Roles:** {3}"
-msgstr ""
+msgstr "**Thành viên:** {0} ({1})\n"
+"**Tham gia máy chủ vào:** {2}\n"
+"**Vai trò:** {3}"
 
 #: Dredd-v3/cogs/events/logs.py:425
 msgid "No roles."
@@ -947,7 +951,7 @@ msgstr "**(Các) Thành viên:**\n"
 #: Dredd-v3/cogs/events/logs.py:626
 #, python-brace-format
 msgid "{0} {1} Member(s) hack-banned"
-msgstr ""
+msgstr "{0} {1} (Các) thành viên bị hack-cấm"
 
 #: Dredd-v3/cogs/events/logs.py:657
 #, python-brace-format
