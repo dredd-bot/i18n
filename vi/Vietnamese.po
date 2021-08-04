@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-04 13:53\n"
+"PO-Revision-Date: 2021-08-04 15:40\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -802,7 +802,7 @@ msgstr "{0} Tên người dùng đã được thay đổi"
 msgid "**Member:** {0} `{1}`\n"
 "**Before:** {2}\n"
 "**After:** {3}"
-msgstr "**Thành viên:** {0} `{1}`\n"
+msgstr "**Người** {0} `{1}`\n"
 "**Trước:** {2}\n"
 "**Sau:** {3}"
 
@@ -960,7 +960,7 @@ msgstr "{0} {1} (Các) thành viên bị hack-cấm"
 #: Dredd-v3/cogs/events/logs.py:657
 #, python-brace-format
 msgid "{0} {1} Member(s) kicked"
-msgstr ""
+msgstr "{0} {1} Người đã bị xóa"
 
 #: Dredd-v3/cogs/events/logs.py:658 Dredd-v3/cogs/events/logs.py:689
 #: Dredd-v3/cogs/events/logs.py:757 Dredd-v3/cogs/events/logs.py:821
@@ -970,32 +970,35 @@ msgid "**Member(s):**\n"
 "{0}\n"
 "**Moderator:** {1} ({2})\n"
 "**Reason:** {3}"
-msgstr ""
+msgstr "**Người:**\n"
+"{0}\n"
+"**Người kiểm duyệt:** {1} ({2})\n"
+"**Lý do:** {3}"
 
 #: Dredd-v3/cogs/events/logs.py:688
 #, python-brace-format
 msgid "{0} {1} Member(s) softbanned"
-msgstr ""
+msgstr "{0} {1} Người softbanned"
 
 #: Dredd-v3/cogs/events/logs.py:724
 #, python-brace-format
 msgid "{0} {1} Member(s) muted"
-msgstr ""
+msgstr "{0} {1} Người muted"
 
 #: Dredd-v3/cogs/events/logs.py:756
 #, python-brace-format
 msgid "{0} {1} Member(s) warned"
-msgstr ""
+msgstr "{0} {1} Người cảnh báo"
 
 #: Dredd-v3/cogs/events/logs.py:789
 #, python-brace-format
 msgid "{0} {1} Member(s) un-banned"
-msgstr ""
+msgstr "{0} {1} Người un-banned"
 
 #: Dredd-v3/cogs/events/logs.py:820
 #, python-brace-format
 msgid "{0} {1} Member(s) un-muted"
-msgstr ""
+msgstr "{0} {1} Người un-muted"
 
 #: Dredd-v3/cogs/events/logs.py:863
 #, python-brace-format
