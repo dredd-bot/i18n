@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-03 21:19\n"
+"PO-Revision-Date: 2021-08-04 08:12\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -838,7 +838,8 @@ msgstr " Sunucu ismi değiştirildi"
 #, python-brace-format
 msgid "**Before:** {0}\n"
 "**After:** {1}"
-msgstr ""
+msgstr "**Önce:** {0}\n"
+"**Sonra:** {1}"
 
 #: Dredd-v3/cogs/events/logs.py:336
 msgid " Guild region changed"
@@ -1198,7 +1199,7 @@ msgstr "Bağlantı engelleyicisini aç veya kapat"
 
 #: Dredd-v3/cogs/automod.py:206
 msgid " Toggle anti links on or off "
-msgstr ""
+msgstr " Bağlantı engelleyicisini aç veya kapat "
 
 #: Dredd-v3/cogs/automod.py:223
 #, python-brace-format
@@ -1462,7 +1463,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:535
 msgid "Manage automod's whitelist"
-msgstr ""
+msgstr "Otomatik moderasyon beyaz listesini yönet"
 
 #: Dredd-v3/cogs/automod.py:541
 msgid " Base command for managing automod's whitelist "
@@ -1484,7 +1485,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:565
 msgid "List of whitelisted channels"
-msgstr ""
+msgstr "Beyaz listeye alınmış kanalların listesi"
 
 #: Dredd-v3/cogs/automod.py:571
 #, python-brace-format
@@ -1644,7 +1645,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/boosters.py:84
 msgid "Link your Discord server"
-msgstr ""
+msgstr "Discord sunucunuzu bağlayın"
 
 #: Dredd-v3/cogs/boosters.py:88
 msgid " Add Discord to your social medias list, when not providing the name, server name will be used"
@@ -1673,7 +1674,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/boosters.py:119
 msgid "Link your Instagram account"
-msgstr ""
+msgstr "Instagram hesabınızı bağlayın"
 
 #: Dredd-v3/cogs/boosters.py:123
 msgid " Add Instagram to your social medias list "
@@ -1697,7 +1698,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/boosters.py:149
 msgid "Link your Twitch account"
-msgstr ""
+msgstr "Twitch hesabınızı bağlayın"
 
 #: Dredd-v3/cogs/boosters.py:153
 msgid " Add Twitch to your social medias list "
@@ -1715,7 +1716,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/boosters.py:179
 msgid "Link your Twitter account"
-msgstr ""
+msgstr "Twitter hesabınızı bağlayın"
 
 #: Dredd-v3/cogs/boosters.py:183
 msgid " Add Twitter to your social medias list "
@@ -1733,7 +1734,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/boosters.py:209
 msgid "Link your GitHub account"
-msgstr ""
+msgstr "Github hesabınızı bağlayın"
 
 #: Dredd-v3/cogs/boosters.py:213
 msgid " Add Github to your social medias list "
