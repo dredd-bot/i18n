@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-04 00:32\n"
+"PO-Revision-Date: 2021-08-04 01:43\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -835,7 +835,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/logs.py:327
 msgid " Guild name changed"
-msgstr ""
+msgstr " Tên của máy chủ đã được thay đổi"
 
 #: Dredd-v3/cogs/events/logs.py:328 Dredd-v3/cogs/events/logs.py:337
 #: Dredd-v3/cogs/events/logs.py:346 Dredd-v3/cogs/events/logs.py:365
@@ -843,7 +843,8 @@ msgstr ""
 #, python-brace-format
 msgid "**Before:** {0}\n"
 "**After:** {1}"
-msgstr ""
+msgstr "**Trước:** {0}\n"
+"**Sau:** {1}"
 
 #: Dredd-v3/cogs/events/logs.py:336
 msgid " Guild region changed"
@@ -878,12 +879,12 @@ msgstr " Thông báo mặc định của máy chủ đã được thay đổi"
 #: Dredd-v3/cogs/events/logs.py:399
 #, python-brace-format
 msgid "{0} A new member has joined"
-msgstr ""
+msgstr "{0} Một thành viên mới đã tham gia"
 
 #: Dredd-v3/cogs/events/logs.py:400
 #, python-brace-format
 msgid "{0} joined the server"
-msgstr ""
+msgstr "{0} đã tham gia máy chủ"
 
 #: Dredd-v3/cogs/events/logs.py:401
 #, python-brace-format
@@ -894,17 +895,17 @@ msgstr ""
 #: Dredd-v3/cogs/events/logs.py:405
 #, python-brace-format
 msgid "Member #{0}"
-msgstr ""
+msgstr "Thành viên #{0}"
 
 #: Dredd-v3/cogs/events/logs.py:418
 #, python-brace-format
 msgid "{0} A member has left the server"
-msgstr ""
+msgstr "{0} Một thành viên đã rời máy chủ"
 
 #: Dredd-v3/cogs/events/logs.py:419
 #, python-brace-format
 msgid "{0} left the server"
-msgstr ""
+msgstr "{0} rời máy chủ"
 
 #: Dredd-v3/cogs/events/logs.py:421
 #, python-brace-format
@@ -915,21 +916,21 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/logs.py:425
 msgid "No roles."
-msgstr ""
+msgstr "Không vai trò."
 
 #: Dredd-v3/cogs/events/logs.py:427
 #, python-brace-format
 msgid "Members left: {0}"
-msgstr ""
+msgstr "Thành viên rời khỏi: {0}"
 
 #: Dredd-v3/cogs/events/logs.py:467
 msgid "Automatic Mute | Mute evading"
-msgstr ""
+msgstr "Tự động tắt tiếng | Bỏ qua"
 
 #: Dredd-v3/cogs/events/logs.py:594
 #, python-brace-format
 msgid "{0} {1} Member(s) banned"
-msgstr ""
+msgstr "{0} {1} (Các) Thành viên đã bị cấm"
 
 #: Dredd-v3/cogs/events/logs.py:595 Dredd-v3/cogs/events/logs.py:627
 #: Dredd-v3/cogs/events/logs.py:725 Dredd-v3/cogs/events/logs.py:790
@@ -938,7 +939,10 @@ msgid "**Member(s):**\n"
 "{0}{1}\n"
 "**Moderator:** {2} ({3})\n"
 "**Reason:** {4}"
-msgstr ""
+msgstr "**(Các) Thành viên:**\n"
+"{0}{1}\n"
+"**Người điều hành:** {2} ({3})\n"
+"**Lý do:** {4}"
 
 #: Dredd-v3/cogs/events/logs.py:626
 #, python-brace-format
@@ -1044,41 +1048,42 @@ msgstr "Trục xuất người dùng"
 
 #: Dredd-v3/cogs/automod.py:49
 msgid "Kick All Members"
-msgstr ""
+msgstr "Đá tất cả thành viên"
 
 #: Dredd-v3/cogs/automod.py:49
 msgid "Ban All Members"
-msgstr ""
+msgstr "Cấm tất cả thành viên"
 
 #: Dredd-v3/cogs/automod.py:52 Dredd-v3/cogs/automod.py:87
 msgid "Yes"
-msgstr ""
+msgstr "Có"
 
 #: Dredd-v3/cogs/automod.py:55 Dredd-v3/cogs/automod.py:59
 #: Dredd-v3/cogs/automod.py:62 Dredd-v3/cogs/automod.py:66
 #: Dredd-v3/cogs/automod.py:69
 msgid "Mute Member"
-msgstr ""
+msgstr "Tắt tiếng thành viên"
 
 #: Dredd-v3/cogs/automod.py:55 Dredd-v3/cogs/automod.py:59
 #: Dredd-v3/cogs/automod.py:62 Dredd-v3/cogs/automod.py:66
 #: Dredd-v3/cogs/automod.py:69
 #, python-brace-format
 msgid "Temp-Mute Member ({0})"
-msgstr ""
+msgstr "Tắt tiếng thành viên tạm thời ({0})"
 
 #: Dredd-v3/cogs/automod.py:55 Dredd-v3/cogs/automod.py:59
 #: Dredd-v3/cogs/automod.py:62 Dredd-v3/cogs/automod.py:66
 #: Dredd-v3/cogs/automod.py:69
 #, python-brace-format
 msgid "Temp-Ban Member ({0})"
-msgstr ""
+msgstr "Cấm thành viên tạm thời ({0})"
 
 #: Dredd-v3/cogs/automod.py:71
 #, python-brace-format
 msgid "\n"
 "**Anti-Raid Logging Channel:** {0}"
-msgstr ""
+msgstr "\n"
+"**Kênh nhật ký chống đột kích:** {0}"
 
 #: Dredd-v3/cogs/automod.py:73
 #, python-brace-format
@@ -1104,7 +1109,8 @@ msgstr "Đã tắt"
 #, python-brace-format
 msgid "\n"
 "**Mentions Limit:** {0}"
-msgstr ""
+msgstr "\n"
+"**Giới hạn đề cập:** {0}"
 
 #: Dredd-v3/cogs/automod.py:88
 #, python-brace-format
@@ -1173,15 +1179,15 @@ msgstr ""
 #: Dredd-v3/cogs/automod.py:685
 #, python-brace-format
 msgid "Automod is disabled in this server, enable it by using `{0}automod toggle` command"
-msgstr ""
+msgstr "Tự động kiểm duyệt đã bị tắt ở máy chủ này, bật nó bằng cách dùng lệnh `{0}automod toggle`"
 
 #: Dredd-v3/cogs/automod.py:161
 msgid "chill"
-msgstr ""
+msgstr "dễ tính"
 
 #: Dredd-v3/cogs/automod.py:161
 msgid "strict"
-msgstr ""
+msgstr "nghiêm ngặt"
 
 #: Dredd-v3/cogs/automod.py:198
 #, python-brace-format
