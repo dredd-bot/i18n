@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-03 22:24\n"
+"PO-Revision-Date: 2021-08-04 00:32\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -1098,7 +1098,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:85 Dredd-v3/cogs/automod.py:86
 msgid "Disabled"
-msgstr ""
+msgstr "Đã tắt"
 
 #: Dredd-v3/cogs/automod.py:88
 #, python-brace-format
