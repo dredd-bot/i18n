@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-03 17:04\n"
+"PO-Revision-Date: 2021-08-04 15:40\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -235,12 +235,12 @@ msgstr "{0} Moderation\n"
 #: Dredd-v3/utils/default.py:362
 #, python-brace-format
 msgid "{0} Guild logs\n"
-msgstr ""
+msgstr "{0} Server Logs\n"
 
 #: Dredd-v3/utils/default.py:363
 #, python-brace-format
 msgid "{0} Member Joins\n"
-msgstr ""
+msgstr "{0} Mitglied beigetreten \n"
 
 #: Dredd-v3/utils/default.py:364
 #, python-brace-format
@@ -373,7 +373,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/automod.py:309
 msgid "anti raid: user account is younger than 30 days."
-msgstr ""
+msgstr "Anti Raid: Benutzerkonto ist jünger als 30 Tage."
 
 #: Dredd-v3/cogs/events/automod.py:309
 msgid "Strict Anti Raid: No one is allowed to join the server"
