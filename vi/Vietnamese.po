@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-04 04:06\n"
+"PO-Revision-Date: 2021-08-04 12:45\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -802,12 +802,14 @@ msgstr "{0} Tên người dùng đã thay đổi"
 msgid "**Member:** {0} `{1}`\n"
 "**Before:** {2}\n"
 "**After:** {3}"
-msgstr ""
+msgstr "**Thành viên:** {0} `{1}`\n"
+"**Trước:** {2}\n"
+"**Sau:** {3}"
 
 #: Dredd-v3/cogs/events/logs.py:264
 #, python-brace-format
 msgid "{0} A member has been banned"
-msgstr ""
+msgstr "{0} Một thành viên đã bị cấm"
 
 #: Dredd-v3/cogs/events/logs.py:266 Dredd-v3/cogs/events/logs.py:306
 #: Dredd-v3/cogs/events/logs.py:865
@@ -815,7 +817,9 @@ msgstr ""
 msgid "**Member:** {0}\n"
 "**Moderator:** {1} ({2})\n"
 "**Reason:** {3}"
-msgstr ""
+msgstr "**Thành viên:** {0}\n"
+"**Người điều khiển:** {1} ({2})\n"
+"**Lý do:** {3}"
 
 #: Dredd-v3/cogs/events/logs.py:267 Dredd-v3/cogs/events/logs.py:307
 #: Dredd-v3/cogs/events/logs.py:598 Dredd-v3/cogs/events/logs.py:629
