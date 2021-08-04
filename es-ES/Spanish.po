@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-03 19:13\n"
+"PO-Revision-Date: 2021-08-04 10:12\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2366,7 +2366,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:315
 msgid "Vanity Invite"
-msgstr ""
+msgstr "Invitación personalizada"
 
 #: Dredd-v3/cogs/info.py:316
 msgid "Verified"
@@ -2374,7 +2374,7 @@ msgstr "Verificado"
 
 #: Dredd-v3/cogs/info.py:317
 msgid "VIP Voice Servers"
-msgstr ""
+msgstr "Servidores de voz VIP"
 
 #: Dredd-v3/cogs/info.py:318
 msgid "Welcome screen"
@@ -3495,7 +3495,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:707
 msgid "Set the leaving message"
-msgstr ""
+msgstr "Establece el mensaje de salida"
 
 #: Dredd-v3/cogs/manage.py:714
 msgid " Set the leaving messages in the server\n"
