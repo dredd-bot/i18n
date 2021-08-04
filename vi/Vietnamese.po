@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-04 15:40\n"
+"PO-Revision-Date: 2021-08-04 17:58\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -1003,7 +1003,7 @@ msgstr "{0} {1} Người un-muted"
 #: Dredd-v3/cogs/events/logs.py:863
 #, python-brace-format
 msgid "{0} A member has been kicked"
-msgstr ""
+msgstr "{0} Một thành viên đã bị đá"
 
 #: Dredd-v3/cogs/events/logs.py:894
 #, python-brace-format
@@ -1142,7 +1142,7 @@ msgstr ""
 #: Dredd-v3/cogs/automod.py:103
 #, python-brace-format
 msgid "{0} Automod Settings"
-msgstr ""
+msgstr "{0} Cài đặt tự động kiểm duyệt"
 
 #: Dredd-v3/cogs/automod.py:107
 msgid "Toggle automod on or off"
