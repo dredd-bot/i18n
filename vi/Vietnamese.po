@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-04 12:45\n"
+"PO-Revision-Date: 2021-08-04 13:53\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -684,12 +684,12 @@ msgstr "Để bắt đầu - bạn có thể xem các lệnh của tôi bằng c
 #: Dredd-v3/cogs/events/events.py:467 Dredd-v3/cogs/events/events.py:472
 #, python-brace-format
 msgid "Welcome back {0}! You were away for **{1}**. Your AFK state has been removed."
-msgstr "Chào mừng bạn trở lại {0}! Bạn đã vắng mặt trong ** {1} **. Bạn không AFK nữa."
+msgstr "Chào mừng bạn trở lại {0}! Bạn đã vắng mặt trong **{1}**. Bạn không AFK nữa."
 
 #: Dredd-v3/cogs/events/events.py:486
 #, python-brace-format
 msgid "Hey! **{0}** has been AFK for **{1}** for - **{2}**."
-msgstr "Xin chào! **{0}** đã được AFK cho **{1}** cho - **{2}**."
+msgstr "Xin chào! **{0}** đã AFK trong **{1}** vì - **{2}**."
 
 #: Dredd-v3/cogs/events/events.py:510 Dredd-v3/cogs/events/logs.py:137
 #, python-brace-format
@@ -741,11 +741,11 @@ msgstr "**Người dùng:** {0} `{1}`\n"
 
 #: Dredd-v3/cogs/events/logs.py:140
 msgid "**Message:**"
-msgstr "**Thông điệp:**"
+msgstr "**Tin nhắn:**"
 
 #: Dredd-v3/cogs/events/logs.py:144
 msgid "**Attachments:**"
-msgstr "**Bổ sung:**"
+msgstr "**Các tệp đính kèm:**"
 
 #: Dredd-v3/cogs/events/logs.py:147
 msgid "**Sticker:**"
@@ -754,12 +754,12 @@ msgstr "**Hình dán:**"
 #: Dredd-v3/cogs/events/logs.py:169
 #, python-brace-format
 msgid "{0} changed their nickname"
-msgstr "{0} đã thay đổi biệt hiệu của họ"
+msgstr "{0} đã thay đổi biệt danh của họ"
 
 #: Dredd-v3/cogs/events/logs.py:170
 #, python-brace-format
 msgid "{0} Nickname Changed"
-msgstr "{0} Biệt hiệu đã thay đổi"
+msgstr "{0} Biệt danh đã được thay đổi"
 
 #: Dredd-v3/cogs/events/logs.py:171
 #, python-brace-format
@@ -773,12 +773,12 @@ msgstr "**Người dùng:** {0} `{1}`\n\n"
 #: Dredd-v3/cogs/events/logs.py:211
 #, python-brace-format
 msgid "{0} changed their avatar"
-msgstr "{0} đã thay đổi ảnh của họ"
+msgstr "{0} đã thay đổi ảnh đại diện của họ"
 
 #: Dredd-v3/cogs/events/logs.py:212
 #, python-brace-format
 msgid "{0} Avatar Changed"
-msgstr "{0} Hình ảnh đã thay đổi"
+msgstr "{0} Ảnh đại diện đã được thay đổi"
 
 #: Dredd-v3/cogs/events/logs.py:213
 #, python-brace-format
@@ -795,7 +795,7 @@ msgstr "{0} đã thay đổi tên người dùng của họ"
 #: Dredd-v3/cogs/events/logs.py:227
 #, python-brace-format
 msgid "{0} Username Changed"
-msgstr "{0} Tên người dùng đã thay đổi"
+msgstr "{0} Tên người dùng đã được thay đổi"
 
 #: Dredd-v3/cogs/events/logs.py:228
 #, python-brace-format
@@ -1015,14 +1015,16 @@ msgstr ""
 #: Dredd-v3/cogs/events/logs.py:958
 #, python-brace-format
 msgid "{0} {1} Member(s) dehoisted"
-msgstr ""
+msgstr "{0} {1} (Các) thành viên đã được dehoist"
 
 #: Dredd-v3/cogs/events/logs.py:959
 #, python-brace-format
 msgid "**Member(s):**\n"
 "{0}{1}\n"
 "**Moderator:** {2} ({3})\n"
-msgstr ""
+msgstr "**(Các) Thành viên:**\n"
+"{0}{1}\n"
+"**Người điều hành:** {2} ({3})\n"
 
 #: Dredd-v3/cogs/other/tasks.py:168
 #, python-brace-format
@@ -1036,7 +1038,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:37
 msgid "Automod is disabled in this server, enable it by using `automod toggle` command"
-msgstr ""
+msgstr "Tự động kiểm duyệt đã bị tắt ở máy chủ này, bật nó bằng cách dùng lệnh `automod toggle`"
 
 #: Dredd-v3/cogs/automod.py:47 Dredd-v3/cogs/automod.py:87
 msgid "No"
@@ -1046,13 +1048,13 @@ msgstr "Không"
 #: Dredd-v3/cogs/automod.py:59 Dredd-v3/cogs/automod.py:62
 #: Dredd-v3/cogs/automod.py:66 Dredd-v3/cogs/automod.py:69
 msgid "Kick Member"
-msgstr "Xóa người dùng"
+msgstr "Đá người dùng"
 
 #: Dredd-v3/cogs/automod.py:49 Dredd-v3/cogs/automod.py:55
 #: Dredd-v3/cogs/automod.py:59 Dredd-v3/cogs/automod.py:62
 #: Dredd-v3/cogs/automod.py:66 Dredd-v3/cogs/automod.py:69
 msgid "Ban Member"
-msgstr "Trục xuất người dùng"
+msgstr "Cấm người dùng"
 
 #: Dredd-v3/cogs/automod.py:49
 msgid "Kick All Members"
