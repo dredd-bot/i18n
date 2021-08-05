@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-03 17:04\n"
+"PO-Revision-Date: 2021-08-05 23:42\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -64,7 +64,7 @@ msgstr "Įvyko klaida, bandant gauti tavo balsą, klaidos detalės buvo nusiųst
 
 #: Dredd-v3/utils/checks.py:212
 msgid "This command is in its testing phase, you can join the support server if you want to apply your guild to be a testing guild or know when the command will be available."
-msgstr "Ši komanda yra testuojama, gali prisijungti į mūsų pagalbos serverį, jei nori pridėti savo serverį kaip testavimo fazės serverį arba sužinoti, kada komanda bus galima."
+msgstr "Ši komanda yra testuojama. Galite prisijungti į mūsų pagalbos serverį, jeigu norite padaryti savo serverį testavimo serveriu arba sužinoti, kada komanda vėl bus galima naudojimui."
 
 #: Dredd-v3/utils/checks.py:224
 #, python-brace-format
@@ -196,7 +196,7 @@ msgstr "Dredd Ankstyvas Rėmėjas"
 
 #: Dredd-v3/utils/default.py:202
 msgid "Dredd Super Early Supporter"
-msgstr "Dredd'o labai ankstyvas remėjas"
+msgstr "Dredd ypač ankstyvas remėjas"
 
 #: Dredd-v3/utils/default.py:203
 msgid "Blacklisted user"
@@ -307,25 +307,25 @@ msgstr "laikinai užblokuoti"
 
 #: Dredd-v3/utils/default.py:549
 msgid "I was not able to find this playlist! Please try again or use a different link."
-msgstr "Aš neradau šio grojaraščio! Prašau bandyti vėl arba naudoti kitokį link'ą."
+msgstr "Aš neradau šio grojaraščio! Prašau pabandykite vėl arba naudokite kitą nuorodą."
 
 #: Dredd-v3/utils/default.py:556
 msgid "I was not able to find this album! Please try again or use a different link."
-msgstr "Aš neradau šio albumo! Prašau bandyti vėl arba naudoti kitą link'ą."
+msgstr "Aš neradau šio albumo! Prašau pabandykite vėl arba naudokite kitą nuorodą."
 
 #: Dredd-v3/utils/default.py:574
 msgid "The URL you put is either not valid or doesn't exist!"
-msgstr "URL kurį paminėjote yra netinkamas arba neegzistuoja!"
+msgstr "Nuoroda, kurią paminėjote yra netinkama arba neegzistuoja!"
 
 #: Dredd-v3/utils/default.py:580
 #, python-brace-format
 msgid "{0} Added the playlist **{1}** with {2} songs to the queue!"
-msgstr "{0} Grojaraštis **{1}** pridėtas su {2} dainomis į eilę!"
+msgstr "{0} Grojaraštis **{1}** su {2} dainomis pridėtas į eilę!"
 
 #: Dredd-v3/utils/default.py:586
 #, python-brace-format
 msgid "{0} Added the album **{1}** with {2} songs to the queue!"
-msgstr "{0} Albumas **{1}** pridėtas su {2} dainomis į eilę!"
+msgstr "{0} Albumas **{1}** su {2} dainomis pridėtas į eilę!"
 
 #: Dredd-v3/utils/default.py:590 Dredd-v3/cogs/music.py:519
 #, python-brace-format
