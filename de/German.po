@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-04 15:40\n"
+"PO-Revision-Date: 2021-08-05 11:07\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -61,12 +61,12 @@ msgstr ""
 
 #: Dredd-v3/utils/checks.py:212
 msgid "This command is in its testing phase, you can join the support server if you want to apply your guild to be a testing guild or know when the command will be available."
-msgstr ""
+msgstr "Dieser Befehl befindet sich momentan in der Testphase, du kannst auf unseren Discord Support Server beitreten, wenn du dein Server zu einem Test Server anwenden möchtest bewerben oder du willst etwa wissen, wann der Befehl verfügbar ist."
 
 #: Dredd-v3/utils/checks.py:224
 #, python-brace-format
 msgid "Unfortunately, this command is getting removed in the next update, if you want to know why, please join the support server here {0}"
-msgstr ""
+msgstr "Leider wird dieser Befehl im nächsten Update entfernt, wenn du wissen willst, warum dann betrete auf unseren Dredd Discord Support Server: {0}"
 
 #: Dredd-v3/utils/checks.py:234
 #, python-brace-format
@@ -164,11 +164,11 @@ msgstr ""
 
 #: Dredd-v3/utils/default.py:195
 msgid "Dredd's Translator"
-msgstr ""
+msgstr "Dredd's Übersetzer"
 
 #: Dredd-v3/utils/default.py:196
 msgid "Dredd's Sponsor"
-msgstr ""
+msgstr "Dredd's Sponsor"
 
 #: Dredd-v3/utils/default.py:197
 #, python-brace-format
@@ -177,7 +177,7 @@ msgstr ""
 
 #: Dredd-v3/utils/default.py:198
 msgid "Dredd's Partner"
-msgstr ""
+msgstr "Dredd's Partner"
 
 #: Dredd-v3/utils/default.py:199
 msgid "Dredd Bug Hunter"
@@ -185,7 +185,7 @@ msgstr "Dredd Bug Hunter"
 
 #: Dredd-v3/utils/default.py:200
 msgid "Dredd BETA Bug Hunter"
-msgstr ""
+msgstr "Dredd BETA Bug Hunter"
 
 #: Dredd-v3/utils/default.py:201
 msgid "Dredd Early Supporter"
