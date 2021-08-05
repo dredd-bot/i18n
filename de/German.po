@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-05 11:07\n"
+"PO-Revision-Date: 2021-08-05 12:17\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -215,7 +215,7 @@ msgstr "{} Dredd verifizierter Server"
 #: Dredd-v3/utils/default.py:245
 #, python-brace-format
 msgid "{0} Dredd Partnered Server"
-msgstr ""
+msgstr "{0} Dredd Partner Server"
 
 #: Dredd-v3/utils/default.py:359
 #, python-brace-format
@@ -275,7 +275,7 @@ msgstr ""
 #: Dredd-v3/utils/default.py:371 Dredd-v3/utils/default.py:379
 #, python-brace-format
 msgid "{0} Dehoisting\n"
-msgstr ""
+msgstr "{0} Dehoisting\n"
 
 #: Dredd-v3/utils/default.py:372 Dredd-v3/utils/default.py:380
 #, python-brace-format
@@ -288,15 +288,15 @@ msgstr "mute"
 
 #: Dredd-v3/utils/default.py:530
 msgid "temp-mute"
-msgstr ""
+msgstr "temp-mute"
 
 #: Dredd-v3/utils/default.py:531 Dredd-v3/cogs/moderation.py:1972
 msgid "kick"
-msgstr ""
+msgstr "kick"
 
 #: Dredd-v3/utils/default.py:532 Dredd-v3/cogs/moderation.py:1969
 msgid "ban"
-msgstr ""
+msgstr "ban"
 
 #: Dredd-v3/utils/default.py:533
 msgid "temp-ban"
@@ -304,15 +304,15 @@ msgstr "temporärer Ban"
 
 #: Dredd-v3/utils/default.py:549
 msgid "I was not able to find this playlist! Please try again or use a different link."
-msgstr ""
+msgstr "Ich konnte diese Playlist nicht finden! Versuche es erneut oder verwende einen anderen Link."
 
 #: Dredd-v3/utils/default.py:556
 msgid "I was not able to find this album! Please try again or use a different link."
-msgstr ""
+msgstr "Ich konnte dieses Album nicht finden! Versuche es erneut oder verwende einen anderen Link."
 
 #: Dredd-v3/utils/default.py:574
 msgid "The URL you put is either not valid or doesn't exist!"
-msgstr ""
+msgstr "Diese URL, die du eingegeben hast, ist entweder ungültig oder existiert nicht!"
 
 #: Dredd-v3/utils/default.py:580
 #, python-brace-format
@@ -710,18 +710,19 @@ msgstr "**Nachher:**"
 #: Dredd-v3/cogs/events/logs.py:229
 #, python-brace-format
 msgid "User ID: {0}"
-msgstr ""
+msgstr "User ID: {0}"
 
 #: Dredd-v3/cogs/events/logs.py:132
 #, python-brace-format
 msgid "{0} Message Deleted"
-msgstr ""
+msgstr "{0} Nachricht gelöscht"
 
 #: Dredd-v3/cogs/events/logs.py:133
 #, python-brace-format
 msgid "**User:** {0} `{1}`\n"
 "**Channel:** {2} `#{3}`"
-msgstr ""
+msgstr "**Benutzer:** {0} `{1}`\n"
+"**Kanal:** {2} `#{3}`"
 
 #: Dredd-v3/cogs/events/logs.py:140
 msgid "**Message:**"
@@ -743,52 +744,57 @@ msgstr "{0} hat seinen Spitzname geändert"
 #: Dredd-v3/cogs/events/logs.py:170
 #, python-brace-format
 msgid "{0} Nickname Changed"
-msgstr ""
+msgstr "{0} Nickname geändert"
 
 #: Dredd-v3/cogs/events/logs.py:171
 #, python-brace-format
 msgid "**Member:** {0} `{1}`\n\n"
 "**Before:** {2}\n"
 "**After:** {3}"
-msgstr ""
+msgstr "**Mitglied:** {0} `{1}`\n\n"
+"**Vorher:** {2}\n"
+"**Nachher:** {3}"
 
 #: Dredd-v3/cogs/events/logs.py:211
 #, python-brace-format
 msgid "{0} changed their avatar"
-msgstr ""
+msgstr "{0} hat seinen/ihren Avatar geändert"
 
 #: Dredd-v3/cogs/events/logs.py:212
 #, python-brace-format
 msgid "{0} Avatar Changed"
-msgstr ""
+msgstr "{0} Avatar geändert"
 
 #: Dredd-v3/cogs/events/logs.py:213
 #, python-brace-format
 msgid "**Member:** {0} `{1}`\n"
 "[Avatar URL]({2})"
-msgstr ""
+msgstr "**Mitglied:** {0} `{1}`\n"
+"[Avatar URL]({2})"
 
 #: Dredd-v3/cogs/events/logs.py:226
 #, python-brace-format
 msgid "{0} changed their username"
-msgstr ""
+msgstr "{0} hat seinen/ihren Benutzernamen geändert"
 
 #: Dredd-v3/cogs/events/logs.py:227
 #, python-brace-format
 msgid "{0} Username Changed"
-msgstr ""
+msgstr "{0} Benutzername geändert"
 
 #: Dredd-v3/cogs/events/logs.py:228
 #, python-brace-format
 msgid "**Member:** {0} `{1}`\n"
 "**Before:** {2}\n"
 "**After:** {3}"
-msgstr ""
+msgstr "**Mitglied:** {0} `{1}`\n"
+"**Vorher:** {2}\n"
+"**Nachher:** {3}"
 
 #: Dredd-v3/cogs/events/logs.py:264
 #, python-brace-format
 msgid "{0} A member has been banned"
-msgstr ""
+msgstr "{0} Ein Mitglied wurde gesperrt"
 
 #: Dredd-v3/cogs/events/logs.py:266 Dredd-v3/cogs/events/logs.py:306
 #: Dredd-v3/cogs/events/logs.py:865
@@ -859,18 +865,19 @@ msgstr ""
 #: Dredd-v3/cogs/events/logs.py:399
 #, python-brace-format
 msgid "{0} A new member has joined"
-msgstr ""
+msgstr "{0} Ein neues Mitglied ist auf diesen Discord Server beigetreten"
 
 #: Dredd-v3/cogs/events/logs.py:400
 #, python-brace-format
 msgid "{0} joined the server"
-msgstr ""
+msgstr "{0} ist auf diesem Server beigetreten"
 
 #: Dredd-v3/cogs/events/logs.py:401
 #, python-brace-format
 msgid "**Member:** {0} ({1})\n"
 "**Account Created:** {2}"
-msgstr ""
+msgstr "**Mitglied:** {0} ({1})\n"
+"**Account erstellt:** {2}"
 
 #: Dredd-v3/cogs/events/logs.py:405
 #, python-brace-format
@@ -880,7 +887,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/logs.py:418
 #, python-brace-format
 msgid "{0} A member has left the server"
-msgstr ""
+msgstr "{0} Ein Mitglied hat den Discord Server verlassen"
 
 #: Dredd-v3/cogs/events/logs.py:419
 #, python-brace-format
@@ -892,7 +899,9 @@ msgstr "{0} hat den Server verlassen"
 msgid "**Member:** {0} ({1})\n"
 "**Joined server:** {2}\n"
 "**Roles:** {3}"
-msgstr ""
+msgstr "**Mitglied:** {0} ({1})\n"
+"**Server beigetreten:** {2}\n"
+"**Rollen:** {3}"
 
 #: Dredd-v3/cogs/events/logs.py:425
 msgid "No roles."
@@ -905,12 +914,12 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/logs.py:467
 msgid "Automatic Mute | Mute evading"
-msgstr ""
+msgstr "Automatisches Stummschalten | Umgehen von der Stummschaltung"
 
 #: Dredd-v3/cogs/events/logs.py:594
 #, python-brace-format
 msgid "{0} {1} Member(s) banned"
-msgstr ""
+msgstr "{0} {1} Mitglied(er) gesperrt"
 
 #: Dredd-v3/cogs/events/logs.py:595 Dredd-v3/cogs/events/logs.py:627
 #: Dredd-v3/cogs/events/logs.py:725 Dredd-v3/cogs/events/logs.py:790
@@ -919,7 +928,10 @@ msgid "**Member(s):**\n"
 "{0}{1}\n"
 "**Moderator:** {2} ({3})\n"
 "**Reason:** {4}"
-msgstr ""
+msgstr "**Mitglied(er):**\n"
+"{0}{1}\n"
+"**Moderator:** {2} ({3})\n"
+"**Grund:** {4}"
 
 #: Dredd-v3/cogs/events/logs.py:626
 #, python-brace-format
@@ -1034,7 +1046,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:52 Dredd-v3/cogs/automod.py:87
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: Dredd-v3/cogs/automod.py:55 Dredd-v3/cogs/automod.py:59
 #: Dredd-v3/cogs/automod.py:62 Dredd-v3/cogs/automod.py:66
