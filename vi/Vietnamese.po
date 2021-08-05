@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-04 17:58\n"
+"PO-Revision-Date: 2021-08-05 04:10\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -1146,7 +1146,7 @@ msgstr "{0} Cài đặt tự động kiểm duyệt"
 
 #: Dredd-v3/cogs/automod.py:107
 msgid "Toggle automod on or off"
-msgstr ""
+msgstr "Bật hoặc tắt chế độ tự động kiểm duyệt"
 
 #: Dredd-v3/cogs/automod.py:113
 msgid " Toggle automod on or off "
