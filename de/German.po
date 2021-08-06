@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-05 12:17\n"
+"PO-Revision-Date: 2021-08-06 20:31\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -87,17 +87,17 @@ msgstr ""
 #: Dredd-v3/utils/checks.py:277
 #, python-brace-format
 msgid "{0} | `{1} {2}` is currently disabled for: `{3}`"
-msgstr ""
+msgstr "{0} | `{1} {2}` ist zurzeit deaktiviert für: `{3}`"
 
 #: Dredd-v3/utils/checks.py:285
 #, python-brace-format
 msgid "{0} | `{1}` is currently disabled for: `{2}`"
-msgstr ""
+msgstr "{0} | `{1}` ist zurzeit deaktiviert für: `{2}`"
 
 #: Dredd-v3/utils/checks.py:342
 #, python-brace-format
 msgid "{0} You need to be in a voice channel first."
-msgstr ""
+msgstr "{0} Du musst zuerst in einem Sprachkanal zu sein um diesen Befehl ausführen zu können."
 
 #: Dredd-v3/utils/checks.py:344
 #, python-brace-format
@@ -415,7 +415,8 @@ msgstr "\n"
 #, python-brace-format
 msgid "**Member:** {0}{1}\n"
 "**Reason:** {2}"
-msgstr ""
+msgstr "**Mitglieder:** {0}{1}\n"
+"**Grund:** {2}"
 
 #: Dredd-v3/cogs/events/automod.py:352
 #, python-brace-format
