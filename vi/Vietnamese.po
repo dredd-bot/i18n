@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-05 04:10\n"
+"PO-Revision-Date: 2021-08-06 02:08\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -1008,7 +1008,7 @@ msgstr "{0} Một thành viên đã bị đá"
 #: Dredd-v3/cogs/events/logs.py:894
 #, python-brace-format
 msgid "{0} {1} Member(s) voice muted"
-msgstr ""
+msgstr "{0} {1} (Các) thành viên bị tắt tiếng hội thoại"
 
 #: Dredd-v3/cogs/events/logs.py:925
 #, python-brace-format
@@ -1133,11 +1133,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:93
 msgid "Manage automod in the server"
-msgstr ""
+msgstr "Quản lý tự động kiểm duyệt ở máy chủ"
 
 #: Dredd-v3/cogs/automod.py:99
 msgid " Manage automod state in the server "
-msgstr ""
+msgstr " Quản lý trạng thái tự động kiểm duyệt tại máy chủ "
 
 #: Dredd-v3/cogs/automod.py:103
 #, python-brace-format
@@ -1150,7 +1150,7 @@ msgstr "Bật hoặc tắt chế độ tự động kiểm duyệt"
 
 #: Dredd-v3/cogs/automod.py:113
 msgid " Toggle automod on or off "
-msgstr ""
+msgstr " Bật hoặc tắt chế độ tự động kiểm duyệt "
 
 #: Dredd-v3/cogs/automod.py:119 Dredd-v3/cogs/automod.py:138
 #: Dredd-v3/cogs/automod.py:455 Dredd-v3/cogs/automod.py:482
@@ -1162,17 +1162,17 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:683
 #, python-brace-format
 msgid "{0} I'm missing permissions in that channel. Make sure you have given me the correct permissions!"
-msgstr ""
+msgstr "{0} Tôi thiếu quyền đối với kênh đó. Hãy chắc chắn rằng bạn đã cấp cho tôi các quyền chính xác!"
 
 #: Dredd-v3/cogs/automod.py:123 Dredd-v3/cogs/automod.py:142
 #, python-brace-format
 msgid "{0} Automod was successfully enabled in this server."
-msgstr ""
+msgstr "{0} Chế độ tự động kiểm duyệt đã được bật thành công."
 
 #: Dredd-v3/cogs/automod.py:133
 #, python-brace-format
 msgid "{0} Automod was successfully disabled in this server."
-msgstr ""
+msgstr "{0} Chế độ tự động kiểm duyệt đã được tắt thành công."
 
 #: Dredd-v3/cogs/automod.py:144
 msgid "Set global automod's value in the server"
@@ -1391,7 +1391,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:449
 msgid "Allowed values are `kick`, `ban`, `kickall` and `banall`, if you're trying to disable the raid mode, don't provide any arguments"
-msgstr ""
+msgstr "Các giá trị được chấp nhận là `kick`, `ban`, `kickall` and `banall`, nếu bạn đang cố để tắt chế độ đột kích, đừng nhập bất cứ giá trị nào"
 
 #: Dredd-v3/cogs/automod.py:459
 #, python-brace-format
