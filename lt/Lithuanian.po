@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-05 23:42\n"
+"PO-Revision-Date: 2021-08-06 00:53\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -167,11 +167,11 @@ msgstr "Personalo narys [pagalbos serveryje]({0}) arba Dredd pagalbininkas"
 
 #: Dredd-v3/utils/default.py:195
 msgid "Dredd's Translator"
-msgstr "Dredd'o vertėjas"
+msgstr "Dredd Vertėjas"
 
 #: Dredd-v3/utils/default.py:196
 msgid "Dredd's Sponsor"
-msgstr "Dredd'o remėjas"
+msgstr "Dredd Remėjas"
 
 #: Dredd-v3/utils/default.py:197
 #, python-brace-format
@@ -180,7 +180,7 @@ msgstr "Stiprintojas [Dredd's support server]({0}) arba Aukotojas"
 
 #: Dredd-v3/utils/default.py:198
 msgid "Dredd's Partner"
-msgstr "Dredd'o partneris"
+msgstr "Dredd Partneris"
 
 #: Dredd-v3/utils/default.py:199
 msgid "Dredd Bug Hunter"
@@ -196,7 +196,7 @@ msgstr "Dredd Ankstyvas Rėmėjas"
 
 #: Dredd-v3/utils/default.py:202
 msgid "Dredd Super Early Supporter"
-msgstr "Dredd ypač ankstyvas remėjas"
+msgstr "Dredd Ypač Ankstyvas Remėjas"
 
 #: Dredd-v3/utils/default.py:203
 msgid "Blacklisted user"
@@ -2749,11 +2749,11 @@ msgstr "{0} Jaustuku sąrašas"
 
 #: Dredd-v3/cogs/info.py:679
 msgid "A list of bot's partners"
-msgstr ""
+msgstr "Dredd partnerių sąrašas"
 
 #: Dredd-v3/cogs/info.py:683
 msgid " A list of bot's partners "
-msgstr ""
+msgstr " Dredd partnerių sąrašas "
 
 #: Dredd-v3/cogs/info.py:703 Dredd-v3/cogs/info.py:706
 msgid "Server"
