@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-06 20:31\n"
+"PO-Revision-Date: 2021-08-07 22:16\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -44,13 +44,14 @@ msgstr ""
 
 #: Dredd-v3/utils/btime.py:188
 msgid "Sorry, but I did not understand what you meant. You probably didn't specify the time or you specified it in another language (not English)"
-msgstr ""
+msgstr "Tut mir leid, aber ich habe dich nicht ganz verstanden was du meinst. Du hast wahrscheinlich nicht die Zeit eingegeben oder du hast eine andere Sprache verwendet. (die höchstwahrscheinlich nicht Englisch ist)"
 
 #: Dredd-v3/utils/checks.py:100
 #, python-brace-format
 msgid "Oops!\n"
 "Error occured while fetching your vote: {0}"
-msgstr ""
+msgstr "Hoppla!\n"
+"Es wurde bei deiner Abstimmung falsch abgerufen: {0}"
 
 #: Dredd-v3/utils/checks.py:107
 #, python-brace-format
@@ -112,42 +113,42 @@ msgstr ""
 #: Dredd-v3/utils/checks.py:348
 #, python-brace-format
 msgid "{0} I'm missing permissions in your voice channel. Make sure you have given me the correct permissions!"
-msgstr ""
+msgstr "{0} Mir fehlen die Berechtigung in deinen Sprach Kanal. Vergewissere, dass du mir die richtige Berechtigung gegeben hast!"
 
 #: Dredd-v3/utils/checks.py:350
 #, python-brace-format
 msgid "{0} I'm not playing anything."
-msgstr ""
+msgstr "{0} Ich spiele nichts ab."
 
 #: Dredd-v3/utils/checks.py:352
 #, python-brace-format
 msgid "{0} Player is not paused."
-msgstr ""
+msgstr "{0} Player ist nicht pausiert."
 
 #: Dredd-v3/utils/checks.py:354
 #, python-brace-format
 msgid "{0} Player is already paused."
-msgstr ""
+msgstr "{0} Player ist bereits pausiert."
 
 #: Dredd-v3/utils/checks.py:367 Dredd-v3/utils/checks.py:373
 msgid "This member has not been banned before."
-msgstr ""
+msgstr "Dieser Mitglied wurde noch nicht gebannt."
 
 #: Dredd-v3/utils/checks.py:400
 #, python-brace-format
 msgid "Valid options are {0}"
-msgstr ""
+msgstr "Gültige Optionen sind {0}"
 
 #: Dredd-v3/utils/checks.py:427
 #, python-brace-format
 msgid "Valid values are {0}"
-msgstr ""
+msgstr "Gültige Werte sind {0}"
 
 #: Dredd-v3/utils/default.py:83 Dredd-v3/utils/default.py:88
 #: Dredd-v3/utils/default.py:93
 #, python-brace-format
 msgid "Next level in **{0}** boosts"
-msgstr ""
+msgstr "Nächstes Level in **{0}** Boosts"
 
 #: Dredd-v3/utils/default.py:192
 msgid "Owner of Dredd"
@@ -160,7 +161,7 @@ msgstr "Administrator von Dredd"
 #: Dredd-v3/utils/default.py:194
 #, python-brace-format
 msgid "Staff member in the [support server]({0}) or Dredd's contributor"
-msgstr ""
+msgstr "Teammitglied im [Support Server]({0}) oder Dredd‘s Mitwirkender"
 
 #: Dredd-v3/utils/default.py:195
 msgid "Dredd's Translator"
@@ -173,7 +174,7 @@ msgstr "Dredd's Sponsor"
 #: Dredd-v3/utils/default.py:197
 #, python-brace-format
 msgid "Booster of [Dredd's support server]({0}) or Donator"
-msgstr ""
+msgstr "Booster von [Dredd's Support Server]({0}) oder Spender"
 
 #: Dredd-v3/utils/default.py:198
 msgid "Dredd's Partner"
@@ -193,20 +194,20 @@ msgstr "Dredd Early Supporter"
 
 #: Dredd-v3/utils/default.py:202
 msgid "Dredd Super Early Supporter"
-msgstr ""
+msgstr "Dredd Super Early Supporter"
 
 #: Dredd-v3/utils/default.py:203
 msgid "Blacklisted user"
-msgstr ""
+msgstr "Gesperrter User"
 
 #: Dredd-v3/utils/default.py:204
 msgid "A special badge for Duck :duck:"
-msgstr ""
+msgstr "Ein spezielles Abzeichen für Duck :duck:"
 
 #: Dredd-v3/utils/default.py:243
 #, python-brace-format
 msgid "{0} Dredd Staff Server"
-msgstr ""
+msgstr "{0} Dredd Staff Server"
 
 #: Dredd-v3/utils/default.py:244
 msgid "{} Dredd Verified Server"
