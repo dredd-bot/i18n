@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-03 17:04\n"
+"PO-Revision-Date: 2021-08-10 12:55\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -171,7 +171,7 @@ msgstr "Μεταφραστής του Dredd"
 
 #: Dredd-v3/utils/default.py:196
 msgid "Dredd's Sponsor"
-msgstr ""
+msgstr "Χρηματοδότης του Dredd"
 
 #: Dredd-v3/utils/default.py:197
 #, python-brace-format
@@ -180,7 +180,7 @@ msgstr "Ενισχυτής του [server υποστήριξης του Dredd]({
 
 #: Dredd-v3/utils/default.py:198
 msgid "Dredd's Partner"
-msgstr ""
+msgstr "Συνεργάτης του Dredd"
 
 #: Dredd-v3/utils/default.py:199
 msgid "Dredd Bug Hunter"
@@ -295,37 +295,37 @@ msgstr "σιγή για λίγη ώρα"
 
 #: Dredd-v3/utils/default.py:531 Dredd-v3/cogs/moderation.py:1972
 msgid "kick"
-msgstr ""
+msgstr "διώξε"
 
 #: Dredd-v3/utils/default.py:532 Dredd-v3/cogs/moderation.py:1969
 msgid "ban"
-msgstr ""
+msgstr "αποκλεισμό"
 
 #: Dredd-v3/utils/default.py:533
 msgid "temp-ban"
-msgstr ""
+msgstr "αποκλεισμός για λίγη ώρα"
 
 #: Dredd-v3/utils/default.py:549
 msgid "I was not able to find this playlist! Please try again or use a different link."
-msgstr ""
+msgstr "Δεν μπόρεσα να βρω αυτό το playlist! Παρακαλώ δοκιμάστε ξανά ή χρησιμοποιήστε διαφορετικό link."
 
 #: Dredd-v3/utils/default.py:556
 msgid "I was not able to find this album! Please try again or use a different link."
-msgstr ""
+msgstr "Δεν μπόρεσα να βρω αυτό το άλμπουμ! Παρακαλώ δοκιμάστε ξανά ή χρησιμοποιήστε διαφορετικό link."
 
 #: Dredd-v3/utils/default.py:574
 msgid "The URL you put is either not valid or doesn't exist!"
-msgstr ""
+msgstr "Η διεύθυνση URL που βάζετε δεν είναι έγκυρη ή δεν υπάρχει!"
 
 #: Dredd-v3/utils/default.py:580
 #, python-brace-format
 msgid "{0} Added the playlist **{1}** with {2} songs to the queue!"
-msgstr ""
+msgstr "{0} Προστέθηκε το playlist **{1}** με {2} τραγούδια στην ουρά!"
 
 #: Dredd-v3/utils/default.py:586
 #, python-brace-format
 msgid "{0} Added the album **{1}** with {2} songs to the queue!"
-msgstr ""
+msgstr "{0} Προστέθηκε το άλμπουμ **{1}** με {2} τραγούδια στην ουρά!"
 
 #: Dredd-v3/utils/default.py:590 Dredd-v3/cogs/music.py:519
 #, python-brace-format
