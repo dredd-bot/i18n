@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-10 13:51\n"
+"PO-Revision-Date: 2021-08-10 14:53\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -533,37 +533,37 @@ msgstr "{0} Έχετε χρησιμοποιήσει μη έγκυρη σημαί
 #: Dredd-v3/cogs/events/errors.py:158
 #, python-brace-format
 msgid "{0} This command has already been used by someone in this guild or channel."
-msgstr ""
+msgstr "{0} Αυτή η εντολή έχει ήδη χρησιμοποιηθεί από κάποιον σε αυτό το guild ή κανάλι."
 
 #: Dredd-v3/cogs/events/errors.py:164
 #, python-brace-format
 msgid "{0} | This command can only be used in direct messages!"
-msgstr ""
+msgstr "{0} | Αυτή η εντολή μπορεί μόνο να χρησιμοποιηθεί σε άμεσα μηνύματα (DMs)!"
 
 #: Dredd-v3/cogs/events/errors.py:169
 #, python-brace-format
 msgid "{0} | This command can't be used in direct messages!"
-msgstr ""
+msgstr "{0} | Αυτή η εντολή δέν μπορεί να χρησιμοποιηθεί σε άμεσα μηνύματα (DMs)!"
 
 #: Dredd-v3/cogs/events/errors.py:178
 #, python-brace-format
 msgid "{0} This command is marked as NSFW that's why I cannot let you use it in this channel."
-msgstr ""
+msgstr "{0} Αυτή η εντολή έχει επισημανθεί ως NSFW γι' αυτό δεν μπορώ να σας αφήσω να την χρησιμοποιήσετε σε αυτό το κανάλι."
 
 #: Dredd-v3/cogs/events/errors.py:188
 #, python-brace-format
 msgid "{0} This command can only be used by the bot developers."
-msgstr ""
+msgstr "{0} Αυτή η εντολή μπορεί να χρησιμοποιηθεί μόνο από τους προγραμματιστές μου."
 
 #: Dredd-v3/cogs/events/errors.py:206
 #, python-brace-format
 msgid "{0} You're missing the {1} permission."
-msgstr ""
+msgstr "{0} Σου λείπει το {1} δικαίωμα."
 
 #: Dredd-v3/cogs/events/errors.py:211
 #, python-brace-format
 msgid "{0} I'm missing {1} permissions"
-msgstr ""
+msgstr "{0} Μου λείπουν {1} δικαιώματα"
 
 #: Dredd-v3/cogs/events/errors.py:243
 #, python-brace-format
@@ -839,50 +839,52 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/logs.py:345
 msgid " Guild afk channel changed"
-msgstr ""
+msgstr " Το κανάλι afk έχει αλλάχθει για αυτό το server"
 
 #: Dredd-v3/cogs/events/logs.py:354
 msgid " Guild icon changed"
-msgstr ""
+msgstr " Το εικονίδιο του server έχει αλλαχθεί"
 
 #: Dredd-v3/cogs/events/logs.py:355
 #, python-brace-format
 msgid "**Before:** [Click here]({0})\n"
 "**After:** [Click here]({1})"
-msgstr ""
+msgstr "**Πριν:** [Κάντε κλικ εδώ]({0})\n"
+"**Μετά:** [Κάντε κλικ εδώ]({1})"
 
 #: Dredd-v3/cogs/events/logs.py:364
 msgid " Guild multifactor authentication (MFA) changed"
-msgstr ""
+msgstr " Ο έλεγχος του server πολλαπλών παραγόντων (MFA) έχει αλλαχθεί"
 
 #: Dredd-v3/cogs/events/logs.py:373
 msgid " Guild verification level changed"
-msgstr ""
+msgstr " Το επίπεδο επαλήθευσης του server έχει αλλαχθεί"
 
 #: Dredd-v3/cogs/events/logs.py:382
 msgid " Guild default notifications changed"
-msgstr ""
+msgstr " Οι default ειδοποιήσεις του server έχουν αλλαχθεί"
 
 #: Dredd-v3/cogs/events/logs.py:399
 #, python-brace-format
 msgid "{0} A new member has joined"
-msgstr ""
+msgstr "{0} Ένας νέος χρήστης έχει ενταχθεί"
 
 #: Dredd-v3/cogs/events/logs.py:400
 #, python-brace-format
 msgid "{0} joined the server"
-msgstr ""
+msgstr "{0} έχει ενταχθεί στο server"
 
 #: Dredd-v3/cogs/events/logs.py:401
 #, python-brace-format
 msgid "**Member:** {0} ({1})\n"
 "**Account Created:** {2}"
-msgstr ""
+msgstr "**Χρήστης:** {0} ({1})\n"
+"**Δημιουργήθηκε ο λογαριασμός:** {2}"
 
 #: Dredd-v3/cogs/events/logs.py:405
 #, python-brace-format
 msgid "Member #{0}"
-msgstr ""
+msgstr "Χρήστης #{0}"
 
 #: Dredd-v3/cogs/events/logs.py:418
 #, python-brace-format
