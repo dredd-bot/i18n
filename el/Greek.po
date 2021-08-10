@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-10 12:55\n"
+"PO-Revision-Date: 2021-08-10 13:51\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -330,33 +330,33 @@ msgstr "{0} Προστέθηκε το άλμπουμ **{1}** με {2} τραγο
 #: Dredd-v3/utils/default.py:590 Dredd-v3/cogs/music.py:519
 #, python-brace-format
 msgid "{0} Added **{1}** to the Queue!"
-msgstr ""
+msgstr "{0} Προστέθηκε **{1}** στην ουρά!"
 
 #: Dredd-v3/utils/rtfm.py:140
 msgid "Cannot build rtfm lookup table, try again later."
-msgstr ""
+msgstr "Δεν είναι δυνατή η δημιουργία πίνακα αναζήτησης rtfm, δοκιμάστε ξανά αργότερα."
 
 #: Dredd-v3/utils/rtfm.py:182
 msgid "I could not find anything, sorry."
-msgstr ""
+msgstr "Δεν μπορούσα να βρω τίποτα, συγνώμη."
 
 #: Dredd-v3/utils/rtfm.py:185
 #, python-brace-format
 msgid "enhanced discord.py {0}"
-msgstr ""
+msgstr "βελτιωμένο discord.py {0}"
 
 #: Dredd-v3/utils/rtfm.py:186
 msgid "Keep in mind this is NOT the original d.py; certain things may be different"
-msgstr ""
+msgstr "Λάβετε υπόψη ότι αυτό δεν είναι το αρχικό d.py; ορισμένα πράγματα μπορεί να είναι διαφορετικά"
 
 #: Dredd-v3/utils/rtfm.py:187
 #, python-brace-format
 msgid "**Search query:** `{0}`\n\n"
-msgstr ""
+msgstr "**Αναζήτηση:** `{0}`\n\n"
 
 #: Dredd-v3/cogs/events/automod.py:188
 msgid "Spam (sending multiple messages in a short time span)"
-msgstr ""
+msgstr "Ανεπιθύμητα μηνύματα / Spam (αποστολή πολλαπλών μηνυμάτων σε σύντομο χρονικό διάστημα)"
 
 #: Dredd-v3/cogs/events/automod.py:214
 msgid "Advertising"
@@ -364,47 +364,47 @@ msgstr "Διαφήμιση"
 
 #: Dredd-v3/cogs/events/automod.py:238
 msgid "Spamming caps"
-msgstr ""
+msgstr "Αποστολή πολλαπλών μηνυμάτων με κεφαλαία γράμματα"
 
 #: Dredd-v3/cogs/events/automod.py:261
 msgid "Spamming links"
-msgstr ""
+msgstr "Αποστολή πολλαπλών μηνυμάτων με συνδέσεις/links"
 
 #: Dredd-v3/cogs/events/automod.py:283
 msgid "Spamming mentions"
-msgstr ""
+msgstr "Αποστολή πολλαπλών μηνυμάτων με @αναφορές"
 
 #: Dredd-v3/cogs/events/automod.py:309
 msgid "anti raid: user account is younger than 30 days."
-msgstr ""
+msgstr "αυτόματο σύστημα ενάντια raid: Ο λογαριασμός του χρήστη είναι νεότερος από 30 ημέρες."
 
 #: Dredd-v3/cogs/events/automod.py:309
 msgid "Strict Anti Raid: No one is allowed to join the server"
-msgstr ""
+msgstr "Αυστηρό αυτόματο σύστημα ενάντια raid: Κανένας δεν επιτρέπεται να ενταχθεί στο server"
 
 #: Dredd-v3/cogs/events/automod.py:325
 msgid "Member Muted"
-msgstr ""
+msgstr "Χρήστης σε Σιγή"
 
 #: Dredd-v3/cogs/events/automod.py:325
 msgid "Member Temp-Muted"
-msgstr ""
+msgstr "Χρήστης σε Σιγή για λίγη ώρα"
 
 #: Dredd-v3/cogs/events/automod.py:325 Dredd-v3/cogs/events/automod.py:334
 msgid "Member Kicked"
-msgstr ""
+msgstr "Ο χρήστης εκδιώχθηκε"
 
 #: Dredd-v3/cogs/events/automod.py:329 Dredd-v3/cogs/events/automod.py:334
 msgid "Member Banned"
-msgstr ""
+msgstr "Ο χρήστης Αποκλείστηκε"
 
 #: Dredd-v3/cogs/events/automod.py:329
 msgid "Member Temp-Banned"
-msgstr ""
+msgstr "Ο χρήστης Αποκλείστηκε για λίγη ώρα"
 
 #: Dredd-v3/cogs/events/automod.py:338
 msgid "Automod Action"
-msgstr ""
+msgstr "Αυτόματο Σύστημα Δράσης"
 
 #: Dredd-v3/cogs/events/automod.py:341 Dredd-v3/cogs/events/logs.py:596
 #: Dredd-v3/cogs/events/logs.py:726
@@ -418,7 +418,8 @@ msgstr "\n"
 #, python-brace-format
 msgid "**Member:** {0}{1}\n"
 "**Reason:** {2}"
-msgstr ""
+msgstr "**Χρήστης:** {0}{1}\n"
+"**Λόγος:** {2}"
 
 #: Dredd-v3/cogs/events/automod.py:352
 #, python-brace-format
@@ -433,12 +434,12 @@ msgstr "{0} Κάτι απέτυχε κατά την τιμωρία του μέλ
 #: Dredd-v3/cogs/events/automod.py:365
 #, python-brace-format
 msgid "{0} Muted **{1}** for {2}."
-msgstr ""
+msgstr "{0} Ο χρήστης **{1}** είναι σε σιγή για {2}."
 
 #: Dredd-v3/cogs/events/automod.py:386
 #, python-brace-format
 msgid "{0} Muted **{1}** for {2}, reason: {3}."
-msgstr ""
+msgstr "{0} Ο χρήστης **{1}** είναι σε σιγή για {2}, για λόγο: {3}."
 
 #: Dredd-v3/cogs/events/automod.py:406
 #, python-brace-format
@@ -458,43 +459,44 @@ msgstr "{0} Αφαιρέθηκε και αποκλείστηκε **{1}** για 
 #: Dredd-v3/cogs/events/automod.py:454
 #, python-brace-format
 msgid "{0} {1} has anti raid mode activated, please try joining again later."
-msgstr ""
+msgstr "{0} {1} είναι ενεργοποιημένο το σύστημα ενάντια raid, παρακαλώ προσπαθήστε να ενταχθείτε στο server ξανά αργότερα."
 
 #: Dredd-v3/cogs/events/automod.py:466 Dredd-v3/cogs/events/automod.py:494
 #, python-brace-format
 msgid "{0} {1} has anti raid mode activated, you're not allowed to join that server."
-msgstr ""
+msgstr "{0} {1} είναι ενεργοποιημένο το σύστημα ενάντια raid, δεν επιτρέπεται να συμμετάσχετε σε αυτό το server."
 
 #: Dredd-v3/cogs/events/automod.py:482
 #, python-brace-format
 msgid "{0} {1} has strict anti raid mode activated, please try joining again later."
-msgstr ""
+msgstr "{0} {1} είναι ενεργοποιημένο το αυστηρό σύστημα ενάντια raid, παρακαλώ προσπαθήστε να ενταχθείτε στο server ξανά αργότερα."
 
 #: Dredd-v3/cogs/events/automod.py:507
 #, python-brace-format
 msgid "{0} I'm not sure what happened, but something broke. Please make sure that my role is above everyone's else, otherwise you'll see these errors more often. I've also sent this error to my developers."
-msgstr ""
+msgstr "{0} Δεν είμαι σίγουρος τι συνέβηκε, αλλά κάτι πήγε λάθος. Παρακαλώ βεβαιωθείτε ότι ο ρόλος μου είναι πάνω από όλους τους άλλους, αλλιώς θα δείτε αυτά τα σφάλματα πιο συχνά. Έχω επίσης στείλει αυτό το σφάλμα στους προγραμματιστές μου."
 
 #: Dredd-v3/cogs/events/automod.py:516
 #, python-brace-format
 msgid "{0} Mute role was not found, please create the mute role, or set a custom one using `{1}muterole [role]`.\n\n"
 "Manually removed member permissions to send messages in this channel *hopefully*."
-msgstr ""
+msgstr "{0} Ο ρόλος της σιγής δεν βρέθηκε, παρακαλώ δημιουργήστε το ρόλο σιγής, ή ορίστε έναν προσαρμοσμένο ρόλο χρησιμοποιώντας το `{1} muterole [role]`.\n\n"
+"Αφαίρεσα τα δικαιώματα των μελών για την αποστολή μηνυμάτων σε αυτό το κανάλι *ελπίζω*."
 
 #: Dredd-v3/cogs/events/automod.py:521
 #, python-brace-format
 msgid "{0} Failed to kick/ban the member, are they higher in role hierarchy than me? Put my role at the very top to avoid these type of issues.\n\n"
 "Manually removed member permissions to send messages in this channel *hopefully*."
-msgstr ""
+msgstr "{0} Δεν μπόρεσα να διώξω των χρήση - είναι ο ρόλος τους πιο ψηλά από εμένα; Βάλτε τον ρόλο μου τέλεια ψηλά για να μην συμβούν αυτά τα προβλήματα ξανά."
 
 #: Dredd-v3/cogs/events/errors.py:131
 msgid "Vote required!"
-msgstr ""
+msgstr "Απαιτείται ψήφος!"
 
 #: Dredd-v3/cogs/events/errors.py:132
 #, python-brace-format
 msgid "Hey {0}!"
-msgstr ""
+msgstr "Γεια σου {0}!"
 
 #: Dredd-v3/cogs/events/errors.py:133
 #, python-brace-format
@@ -505,22 +507,28 @@ msgid "Thank you for using me! Unfortunately this command is vote locked and you
 "`[4]` {3}\n"
 "If you've voted already, please wait cause the API might be slow.\n\n"
 "*After you vote, you'll be able to use this command, and you will help Dredd gain more servers :D*"
-msgstr ""
+msgstr "Σας ευχαριστούμε για τη χρήση μου! Δυστυχώς αυτή η εντολή είναι κλειδωμένη και θα πρέπει να ψηφίσετε για εμένα, τον Dredd. Μπορείτε να ψηφίσετε σε οποιαδήποτε από αυτές τις λίστες:\n"
+"`[1]` {0}\n"
+"`[2]` {1}\n"
+"`[3]` {2}\n"
+"`[4]` {3}\n"
+"Εάν έχετε ήδη ψηφίσει, παρακαλώ περιμένετε γιατί το API μπορεί να πιθανόν να είναι αργό.\n\n"
+"*Μετά την ψήφο σας, θα μπορείτε να χρησιμοποιήσετε αυτήν την εντολή και θα βοηθήσετε τον Dredd να αποκτήσει περισσότερους servers :D*"
 
 #: Dredd-v3/cogs/events/errors.py:141
 #, python-brace-format
 msgid "{0} This command is staff-locked"
-msgstr ""
+msgstr "{0} Αυτή η εντολή είναι κλειδωμένη για χρήση μόνο απ' το προσωπικό"
 
 #: Dredd-v3/cogs/events/errors.py:144
 #, python-brace-format
 msgid "{0} This command can only be used by boosters"
-msgstr ""
+msgstr "{0} Αυτή η εντολή μπορεί να χρησιμοποιηθεί μόνο από ενισχυτές (Discord nitro boosters)"
 
 #: Dredd-v3/cogs/events/errors.py:150
 #, python-brace-format
 msgid "{0} You've used invalid permissions flag, please make sure you're using the correct one."
-msgstr ""
+msgstr "{0} Έχετε χρησιμοποιήσει μη έγκυρη σημαία για permissions, παρακαλώ βεβαιωθείτε ότι χρησιμοποιείτε το σωστό."
 
 #: Dredd-v3/cogs/events/errors.py:158
 #, python-brace-format
