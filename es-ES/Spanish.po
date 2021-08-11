@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-04 10:12\n"
+"PO-Revision-Date: 2021-08-11 04:17\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1456,7 +1456,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:516
 msgid " Toggle if new members should get a DM from the bot when joining the server "
-msgstr ""
+msgstr " Alterna si nuevos miembros deberían recibir un mensaje privado del bot al unirse al servidor "
 
 #: Dredd-v3/cogs/automod.py:524
 #, python-brace-format
@@ -1793,7 +1793,7 @@ msgstr "{0} He añadido YouTube ({1} - <{2}>) a tu lista de medios."
 
 #: Dredd-v3/cogs/boosters.py:272
 msgid "Remove linked social media"
-msgstr ""
+msgstr "Remueve redes sociales enlazadas"
 
 #: Dredd-v3/cogs/boosters.py:276
 msgid " Remove media from your medias list\n\n"
@@ -1850,7 +1850,7 @@ msgstr "Valora algo"
 
 #: Dredd-v3/cogs/fun.py:38
 msgid " Rates what you desire "
-msgstr ""
+msgstr " Califica lo que deseas "
 
 #: Dredd-v3/cogs/fun.py:41
 #, python-brace-format
@@ -1899,22 +1899,23 @@ msgstr "**{0}** ha pagado su respeto {1}{2}"
 
 #: Dredd-v3/cogs/fun.py:84
 msgid "Ask the almighty 8ball what you desire "
-msgstr ""
+msgstr "Pregúntale a la todopoderosa 8ball lo que deseas "
 
 #: Dredd-v3/cogs/fun.py:88
 msgid " Do you have a question? Ask the almighty 8ball what you should do "
-msgstr ""
+msgstr " ¿Tienes una pregunta? Pregunta a la todopoderosa 8ball lo que deberías hacer "
 
 #: Dredd-v3/cogs/fun.py:98
 #, python-brace-format
 msgid "{0} The question is {1} characters over the limit."
-msgstr ""
+msgstr "{0} La pregunta es {1} caracteres sobre el límite."
 
 #: Dredd-v3/cogs/fun.py:103
 #, python-brace-format
 msgid "**You've asked the almighty 8ball a question -** {0}\n\n"
 "**The 8ball says:** {1}"
-msgstr ""
+msgstr "**Has preguntado a la todopoderosa 8ball una pregunta -** {0}\n\n"
+"**La 8ball dice:** {1}"
 
 #: Dredd-v3/cogs/fun.py:109
 msgid "Reverse something"
@@ -1958,11 +1959,11 @@ msgstr ""
 #: Dredd-v3/cogs/fun.py:146
 #, python-brace-format
 msgid "{0} | I can't choose from an empty list of choices!"
-msgstr ""
+msgstr "{0} | ¡No puedo elegir de una lista vacía de elecciones!"
 
 #: Dredd-v3/cogs/fun.py:148
 msgid "Check someones hotness"
-msgstr ""
+msgstr "Comprueba qué tan caliente es alguien"
 
 #: Dredd-v3/cogs/fun.py:152
 msgid " I wonder how hot are you ;p "
@@ -1970,7 +1971,7 @@ msgstr " Me pregunto cuán caliente eres tú ;p "
 
 #: Dredd-v3/cogs/fun.py:157
 msgid "The hot calculator has melted down because of him :fire:"
-msgstr ""
+msgstr "La calculadora caliente se ha derribado gracias a esa persona :fire:"
 
 #: Dredd-v3/cogs/fun.py:161
 msgid "I'm too hot for you 😏"
@@ -2265,7 +2266,9 @@ msgstr " Una información detallada del servidor actual "
 msgid "\n"
 "**Acknowledgements:**\n"
 "{0}"
-msgstr ""
+msgstr "\n"
+"**Reconocimientos:**\n"
+"{0}"
 
 #: Dredd-v3/cogs/info.py:269
 #, python-brace-format
@@ -2539,11 +2542,11 @@ msgstr "{0} Puedes ver mi política de privacidad aquí: {1}"
 
 #: Dredd-v3/cogs/info.py:469
 msgid "A thank you to bot contributors"
-msgstr ""
+msgstr "Un agradecimiento a los colaboradores del bot"
 
 #: Dredd-v3/cogs/info.py:473
 msgid " A thank you to people who have helped find bugs, work on, and design art for the bot! "
-msgstr ""
+msgstr " ¡Un agradecimiento a las personas que han ayudado a encontrar errores, trabajar y diseñar arte para el bot! "
 
 #: Dredd-v3/cogs/info.py:488
 msgid "The Dredd team says thanks to these people!"
@@ -2576,7 +2579,7 @@ msgstr "Lista de roles en el servidor"
 
 #: Dredd-v3/cogs/info.py:506
 msgid " List of all the server roles. Providing the role mention will display all the members in that role "
-msgstr ""
+msgstr " Lista de todos los roles del servidor. Proporcionar la mención del role mostrará todos los miembros en ese rol "
 
 #: Dredd-v3/cogs/info.py:519
 #, python-brace-format
@@ -2638,17 +2641,17 @@ msgstr "Obtén la lista de los apodos recientes que un miembro ha tenido"
 
 #: Dredd-v3/cogs/info.py:567
 msgid " Get a list of 10 nicknames member had in the past 90 days "
-msgstr ""
+msgstr " Obtén una lista de 10 apodos que el miembro tenga en los últimos 90 días "
 
 #: Dredd-v3/cogs/info.py:572
 #, python-brace-format
 msgid "{0} | **{1}** has opted out of nickname logging."
-msgstr ""
+msgstr "{0} | **{1}** ha optado por eliminar el registro de apodos."
 
 #: Dredd-v3/cogs/info.py:583
 #, python-brace-format
 msgid "{0} | **{1}** has had no past nicknames since I joined."
-msgstr ""
+msgstr "{0} | **{1}** no ha tenido apodos desde que me uní."
 
 #: Dredd-v3/cogs/info.py:588
 #, python-brace-format
@@ -2657,11 +2660,11 @@ msgstr "**Apodos pasados de {0}:**"
 
 #: Dredd-v3/cogs/info.py:594
 msgid "See permissions member has in the server"
-msgstr ""
+msgstr "Mira los permisos que el miembro tiene en el servidor"
 
 #: Dredd-v3/cogs/info.py:598
 msgid " See permissions member has in the server "
-msgstr ""
+msgstr " Mira los permisos que el miembro tiene en el servidor "
 
 #: Dredd-v3/cogs/info.py:616
 #, python-brace-format
@@ -2674,7 +2677,7 @@ msgstr "Una lista de comandos desactivados"
 
 #: Dredd-v3/cogs/info.py:630
 msgid " A list of disabled commands globally and in the server "
-msgstr ""
+msgstr " Una lista de comandos desactivados globalmente y en el servidor "
 
 #: Dredd-v3/cogs/info.py:641
 #, python-brace-format
@@ -2757,7 +2760,7 @@ msgstr "Personas asociadas con Dredd"
 
 #: Dredd-v3/cogs/info.py:736
 msgid "A list of user's bot acknowledgements"
-msgstr ""
+msgstr "Una lista de reconocimientos del bot del usuario"
 
 #: Dredd-v3/cogs/info.py:740
 msgid " A list of user's bot acknowledgements "
@@ -2865,7 +2868,7 @@ msgstr "{0} ¡Los nombres no pueden tener más de 32 caracteres! Tienes {1} cara
 #: Dredd-v3/cogs/info.py:855
 #, python-brace-format
 msgid "{0} Couldn't find anyone with a given regex."
-msgstr ""
+msgstr "{0} No pude encontrar a nadie con la expresión regular dada."
 
 #: Dredd-v3/cogs/info.py:863
 #, python-brace-format
@@ -2899,7 +2902,7 @@ msgstr " Mira y administra el prefijo de tu servidor "
 #: Dredd-v3/cogs/manage.py:49
 #, python-brace-format
 msgid "If you want to change my prefix you can do so by invoking `{0}prefix set <new prefix>`"
-msgstr ""
+msgstr "Si quieres cambiar mi prefijo puedes hacerlo invocando `{0}prefix set <new prefix>`"
 
 #: Dredd-v3/cogs/manage.py:50
 #, python-brace-format
@@ -2951,7 +2954,7 @@ msgstr "{0} Se cambió el idioma del bot a `{1}`"
 
 #: Dredd-v3/cogs/manage.py:95
 msgid "A rough overview on server settings"
-msgstr ""
+msgstr "Una visión general en la configuración del servidor"
 
 #: Dredd-v3/cogs/manage.py:101
 msgid " Rough overview on server settings, such as logging and more. "
@@ -3158,7 +3161,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:305
 msgid "Toggle guild logs in the server"
-msgstr ""
+msgstr "Alternar los registros del servidor de Discord en en el servidor"
 
 #: Dredd-v3/cogs/manage.py:312
 msgid " This enables or disables guild changes logging.\n"
@@ -3246,7 +3249,7 @@ msgstr "{0} He activado el registro de mensajes eliminados en {1}."
 
 #: Dredd-v3/cogs/manage.py:403
 msgid "Toggle moderation logs"
-msgstr ""
+msgstr "Alternar los registros de moderación"
 
 #: Dredd-v3/cogs/manage.py:410
 msgid " This enables or disables moderation logging\n"
