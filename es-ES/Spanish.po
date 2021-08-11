@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-11 04:17\n"
+"PO-Revision-Date: 2021-08-11 05:29\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3279,27 +3279,28 @@ msgstr "{0} He activado el registro de moderaciones en {1}."
 
 #: Dredd-v3/cogs/manage.py:436
 msgid "Toggle all the logs in the server"
-msgstr ""
+msgstr "Alterna todos los registros en el servidor"
 
 #: Dredd-v3/cogs/manage.py:443
 msgid " This enables all the logging "
-msgstr ""
+msgstr " Esto activa todo el registro "
 
 #: Dredd-v3/cogs/manage.py:462
 #, python-brace-format
 msgid "{0} Logs are currently disabled in this server.\n"
 "*Hint: If you want to enable logging, you need to provide a channel where logging should be sent to*"
-msgstr ""
+msgstr "{0} Los registros están deshabilitados en este servidor.\n"
+"*Pista: Si quieres habilitar el registro, necesitas proporcionar un canal en donde el registro debe ser enviado*"
 
 #: Dredd-v3/cogs/manage.py:464
 #, python-brace-format
 msgid "{0} Successfully disabled logging."
-msgstr ""
+msgstr "{0} He deshabilitado correctamente el registro."
 
 #: Dredd-v3/cogs/manage.py:473
 #, python-brace-format
 msgid "{0} Enabled logging in {1}."
-msgstr ""
+msgstr "{0} He activado el registro en {1}."
 
 #: Dredd-v3/cogs/manage.py:476
 msgid "Toggle anti hoist"
@@ -3346,7 +3347,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:521
 msgid "Set the channel for welcoming messages"
-msgstr ""
+msgstr "Establece el canal para los mensajes de bienvenida"
 
 #: Dredd-v3/cogs/manage.py:527
 msgid " Set a channel where welcoming messages should be sent to.\n"
@@ -3442,7 +3443,7 @@ msgstr "{0} Los mensajes de bienvenida ahora serán enviados en embeds."
 
 #: Dredd-v3/cogs/manage.py:638
 msgid "Toggle bot welcoming messages"
-msgstr ""
+msgstr "Alterna los mensajes de bienvenida para bots"
 
 #: Dredd-v3/cogs/manage.py:645
 msgid " Toggle whether or not bot joins should be logged. "
@@ -3468,7 +3469,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:673
 msgid "Set the channel for leaving messages"
-msgstr ""
+msgstr "Establece el canal para los mensajes de despedida"
 
 #: Dredd-v3/cogs/manage.py:679
 msgid " Set a channel where leaving messages should be sent to.\n"
@@ -3483,7 +3484,7 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:694
 #, python-brace-format
 msgid "{0} I will now send leave messages in {1}."
-msgstr ""
+msgstr "{0} Ahora enviaré los mensajes de despedida en {1}."
 
 #: Dredd-v3/cogs/manage.py:697
 #, python-brace-format
@@ -3584,7 +3585,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:817 Dredd-v3/cogs/manage.py:1050
 msgid "Toggle role on join"
-msgstr ""
+msgstr "Cambie el rol al unirse"
 
 #: Dredd-v3/cogs/manage.py:825
 msgid " Base command for managing role on join "
@@ -3592,15 +3593,15 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:829
 msgid "Set role on join for users"
-msgstr ""
+msgstr "Estable el role que se dará a usuarios al unirse"
 
 #: Dredd-v3/cogs/manage.py:838
 msgid " Choose what role will be given to new users "
-msgstr ""
+msgstr " Elige cuál role se dará a los nuevos usuarios "
 
 #: Dredd-v3/cogs/manage.py:843
 msgid "Add a role on join for people"
-msgstr ""
+msgstr "Añade un role que se dará a personas al unirse"
 
 #: Dredd-v3/cogs/manage.py:851
 msgid " Add a role to role on join for people "
@@ -3661,7 +3662,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:923 Dredd-v3/cogs/manage.py:1034
 msgid "Role not found"
-msgstr ""
+msgstr "Role no encontrado"
 
 #: Dredd-v3/cogs/manage.py:926
 msgid "Role on join for people"
@@ -3739,12 +3740,13 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:1073
 msgid "Set a custom mute role"
-msgstr ""
+msgstr "Establecer un rol de mute personalizado"
 
 #: Dredd-v3/cogs/manage.py:1081
 msgid " Setup a custom mute role in your server\n"
 "        You can also reset the mute role by using argument `reset` "
-msgstr ""
+msgstr " Configura un rol de mute o silenciado personalizado en tu servidor\n"
+"        También puedes restablecer el rol de mute usando el argumento `reset` "
 
 #: Dredd-v3/cogs/manage.py:1090
 #, python-brace-format
@@ -3785,12 +3787,13 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:1112
 msgid "Set a custom mod role"
-msgstr ""
+msgstr "Establecer un rol de moderador personalizado"
 
 #: Dredd-v3/cogs/manage.py:1119
 msgid " Setup a custom mod role in your server\n"
 "        You can also reset the mod role by using argument `reset` "
-msgstr ""
+msgstr " Configura un rol de moderador personalizado en tu servidor\n"
+"        También puedes restablecer el rol de moderador usando el argumento `reset` "
 
 #: Dredd-v3/cogs/manage.py:1129
 #, python-brace-format
@@ -3927,7 +3930,7 @@ msgstr "{0} La categoría {1} fue desactivada con éxito"
 
 #: Dredd-v3/cogs/manage.py:1294
 msgid "Enable category in the server"
-msgstr ""
+msgstr "Activa una categoría en el servidor"
 
 #: Dredd-v3/cogs/manage.py:1301
 msgid " Enable category which you've previously disbled "
@@ -4032,7 +4035,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:1466 Dredd-v3/cogs/manage.py:1522
 msgid "Invalid role, try again."
-msgstr ""
+msgstr "Role inválido, intenta de nuevo."
 
 #: Dredd-v3/cogs/manage.py:1475
 msgid "Do you wish to add more reaction roles? `yes` | `y` | `n` | `no` | `cancel` to cancel the command"
@@ -4106,7 +4109,7 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:1618
 #, python-brace-format
 msgid "[Jump URL]({0})"
-msgstr ""
+msgstr "[URL de salto]({0})"
 
 #: Dredd-v3/cogs/manage.py:1622
 #, python-brace-format
@@ -4116,16 +4119,21 @@ msgid "**Message:** {0}\n"
 "**Roles:** {3}\n"
 "**Roles limit:** {4}\n"
 "**Required role:** {5}\n\n"
-msgstr ""
+msgstr "**Mensaje:** {0}\n"
+"**Canal:** {1}\n"
+"**Reacciones:** {2}\n"
+"**Roles:** {3}\n"
+"**Límite de Roles:** {4}\n"
+"**Rol requerido:** {5}\n\n"
 
 #: Dredd-v3/cogs/manage.py:1623
 msgid "Deleted"
-msgstr ""
+msgstr "Eliminado"
 
 #: Dredd-v3/cogs/manage.py:1629
 #, python-brace-format
 msgid "Reaction roles in {0}"
-msgstr ""
+msgstr "Roles de reacción en {0}"
 
 #: Dredd-v3/cogs/manage.py:1638
 msgid "Delete reaction roles in the server"
