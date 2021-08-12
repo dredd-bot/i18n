@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-11 05:29\n"
+"PO-Revision-Date: 2021-08-12 20:31\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3751,12 +3751,12 @@ msgstr " Configura un rol de mute o silenciado personalizado en tu servidor\n"
 #: Dredd-v3/cogs/manage.py:1090
 #, python-brace-format
 msgid "{0} The mute role has been reset."
-msgstr ""
+msgstr "{0} El rol de silencio se ha reiniciado."
 
 #: Dredd-v3/cogs/manage.py:1092
 #, python-brace-format
 msgid "{0} You do not have a mute role set up."
-msgstr ""
+msgstr "{0} No tienes un role de silencio personalizado configurado."
 
 #: Dredd-v3/cogs/manage.py:1094
 #, python-brace-format
@@ -3798,7 +3798,7 @@ msgstr " Configura un rol de moderador personalizado en tu servidor\n"
 #: Dredd-v3/cogs/manage.py:1129
 #, python-brace-format
 msgid "{0} Successfully reset the moderator role."
-msgstr ""
+msgstr "{0} He restablecido correctamente el rol de moderador."
 
 #: Dredd-v3/cogs/manage.py:1131
 #, python-brace-format
@@ -3832,7 +3832,7 @@ msgstr "{0} Se cambió un role de moderador personalizado a {1}"
 
 #: Dredd-v3/cogs/manage.py:1152
 msgid "Set a custom admin role"
-msgstr ""
+msgstr "Eestablece un role de administrador personalizado"
 
 #: Dredd-v3/cogs/manage.py:1159
 msgid " Setup a custom admin role in your server\n"
@@ -3871,11 +3871,11 @@ msgstr "{0} Se cambió un role de administrador personalizado a {1}"
 
 #: Dredd-v3/cogs/manage.py:1192
 msgid "Disable a command in the server"
-msgstr ""
+msgstr "Desactiva un comando en el servidor"
 
 #: Dredd-v3/cogs/manage.py:1199
 msgid " Disable a command in the server "
-msgstr ""
+msgstr " Desactiva un comando en el servidor "
 
 #: Dredd-v3/cogs/manage.py:1204 Dredd-v3/cogs/manage.py:1240
 #, python-brace-format
@@ -3889,11 +3889,11 @@ msgstr "{0} Ese comando ya está desactivado."
 
 #: Dredd-v3/cogs/manage.py:1228
 msgid "Enable a command in the server"
-msgstr ""
+msgstr "Activa un comando en el servidor"
 
 #: Dredd-v3/cogs/manage.py:1235
 msgid " Enable a command in the server "
-msgstr ""
+msgstr " Activa un comando en el servidor "
 
 #: Dredd-v3/cogs/manage.py:1245
 #, python-brace-format
@@ -3902,7 +3902,7 @@ msgstr "{0} Ese comando no está desactivado."
 
 #: Dredd-v3/cogs/manage.py:1264
 msgid "Disable category in the server"
-msgstr ""
+msgstr "Desactiva una categoría en el servidor"
 
 #: Dredd-v3/cogs/manage.py:1271
 msgid " Disable category you don't want people to use in the server "
@@ -4065,7 +4065,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:1543 Dredd-v3/cogs/manage.py:1550
 msgid "**Available Roles:**"
-msgstr ""
+msgstr "**Roles Disponibles:**"
 
 #: Dredd-v3/cogs/manage.py:1547 Dredd-v3/cogs/manage.py:1554
 msgid "\n\n"
@@ -4214,7 +4214,7 @@ msgstr ""
 #: Dredd-v3/cogs/misc.py:138
 #, python-brace-format
 msgid "Suggestion sent as #{0}"
-msgstr ""
+msgstr "Sugerencia enviada como #{0}"
 
 #: Dredd-v3/cogs/misc.py:141
 msgid "Track and untrack suggestions"
@@ -4272,7 +4272,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/misc.py:189
 msgid "Manage your todo list"
-msgstr ""
+msgstr "Administra tu lista de por hacer"
 
 #: Dredd-v3/cogs/misc.py:193
 msgid " Base command for managing your todo list "
@@ -4280,11 +4280,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/misc.py:196
 msgid "Add a todo to your list"
-msgstr ""
+msgstr "Añade una tarea a tu lista"
 
 #: Dredd-v3/cogs/misc.py:200
 msgid " Add a todo to your list "
-msgstr ""
+msgstr " Añade una tarea a tu lista "
 
 #: Dredd-v3/cogs/misc.py:204 Dredd-v3/cogs/misc.py:230
 #, python-brace-format
@@ -4298,18 +4298,18 @@ msgstr ""
 
 #: Dredd-v3/cogs/misc.py:215
 msgid "Edit your todo"
-msgstr ""
+msgstr "Edita tu tarea"
 
 #: Dredd-v3/cogs/misc.py:219
 msgid " Edit your todos "
-msgstr ""
+msgstr " Editar tus tareas "
 
 #: Dredd-v3/cogs/misc.py:223 Dredd-v3/cogs/misc.py:248
 #: Dredd-v3/cogs/misc.py:275 Dredd-v3/cogs/misc.py:301
 #: Dredd-v3/cogs/misc.py:322
 #, python-brace-format
 msgid "{0} You don't have any items in your todo list."
-msgstr ""
+msgstr "{0} No tienes ningún elemento en tu lista de tareas."
 
 #: Dredd-v3/cogs/misc.py:225 Dredd-v3/cogs/misc.py:251
 #: Dredd-v3/cogs/misc.py:255 Dredd-v3/cogs/misc.py:304
@@ -4338,11 +4338,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/misc.py:267
 msgid "Check your todo list"
-msgstr ""
+msgstr "Revisa tu lista de tareas"
 
 #: Dredd-v3/cogs/misc.py:271
 msgid " Check your todo list "
-msgstr ""
+msgstr " Revisa tu lista de tareas "
 
 #: Dredd-v3/cogs/misc.py:289
 #, python-brace-format
@@ -4367,11 +4367,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/misc.py:315
 msgid "Remove a todo from your list"
-msgstr ""
+msgstr "Elimina una tarea de tu lista"
 
 #: Dredd-v3/cogs/misc.py:319
 msgid " Remove a todo from your list "
-msgstr ""
+msgstr " Elimina una tarea de tu lista "
 
 #: Dredd-v3/cogs/misc.py:327 Dredd-v3/cogs/misc.py:737
 #, python-brace-format
@@ -4382,15 +4382,16 @@ msgstr "{0} Ese no es un id válido."
 #, python-brace-format
 msgid "{0} Removed **{1}** todo from your todo list:\n"
 "• {2}"
-msgstr ""
+msgstr "{0} He eliminado la tarea **{1}** de tu lista de tareas:\n"
+"• {2}"
 
 #: Dredd-v3/cogs/misc.py:342
 msgid "Clear your todos"
-msgstr ""
+msgstr "Borra tus tareas"
 
 #: Dredd-v3/cogs/misc.py:346
 msgid " Clear your todo list "
-msgstr ""
+msgstr " Borra tus tareas "
 
 #: Dredd-v3/cogs/misc.py:350
 #, python-brace-format
@@ -4629,11 +4630,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/misc.py:667
 msgid "Get lyrics of a song."
-msgstr ""
+msgstr "Muestra la letra de una canción."
 
 #: Dredd-v3/cogs/misc.py:671
 msgid " Get a lyrics of a song "
-msgstr ""
+msgstr " Muestra la letra de una canción "
 
 #: Dredd-v3/cogs/misc.py:674
 #, python-brace-format
@@ -4652,7 +4653,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/misc.py:688
 msgid "Manage your reminders"
-msgstr ""
+msgstr "Gestiona tus recordatorios"
 
 #: Dredd-v3/cogs/misc.py:692
 msgid " Create a reminder for yourself. Example usage: `remind 1h do homework` "
@@ -4665,16 +4666,16 @@ msgstr ""
 
 #: Dredd-v3/cogs/misc.py:701
 msgid "A list with your reminders"
-msgstr ""
+msgstr "Una lista con tus recordatorios"
 
 #: Dredd-v3/cogs/misc.py:705
 msgid " Check your reminders list "
-msgstr ""
+msgstr " Revisa tu lista de recordatorios "
 
 #: Dredd-v3/cogs/misc.py:709 Dredd-v3/cogs/misc.py:734
 #, python-brace-format
 msgid "{0} You have no reminders."
-msgstr ""
+msgstr "{0} No tienes recordatorios."
 
 #: Dredd-v3/cogs/misc.py:715
 #, python-brace-format
@@ -4689,7 +4690,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/misc.py:726
 msgid "Remove a reminder"
-msgstr ""
+msgstr "Remueve un recordatorio"
 
 #: Dredd-v3/cogs/misc.py:730
 msgid " Remove an unwanted reminder "
@@ -4713,7 +4714,7 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:94
 #, python-brace-format
 msgid "{0} Looks like I'm missing permissions!"
-msgstr ""
+msgstr "{0} ¡Parece que me faltan permisos!"
 
 #: Dredd-v3/cogs/moderation.py:96 Dredd-v3/cogs/moderation.py:100
 #, python-brace-format
@@ -4729,11 +4730,11 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:107 Dredd-v3/cogs/moderation.py:116
 #, python-brace-format
 msgid "Purged **{0}** messages"
-msgstr ""
+msgstr "**{0}** mensajes eliminados"
 
 #: Dredd-v3/cogs/moderation.py:121
 msgid "Clean up the bot's messages"
-msgstr ""
+msgstr "Borra los mensajes del bot"
 
 #: Dredd-v3/cogs/moderation.py:127
 msgid " Cleans up the bot's messages from the channel.\n"
@@ -4743,21 +4744,22 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:136
 #, python-brace-format
 msgid "{0} message was removed."
-msgstr ""
+msgstr "{0} mensaje fue eliminado."
 
 #: Dredd-v3/cogs/moderation.py:136
 #, python-brace-format
 msgid "{0} messages were removed."
-msgstr ""
+msgstr "{0} mensajes fueron eliminado."
 
 #: Dredd-v3/cogs/moderation.py:138
 msgid "\n"
 "Total messages by user:"
-msgstr ""
+msgstr "\n"
+"Total de mensajes del usuario:"
 
 #: Dredd-v3/cogs/moderation.py:144
 msgid "Change member's nickname"
-msgstr ""
+msgstr "Cambia el apodo del miembro"
 
 #: Dredd-v3/cogs/moderation.py:151
 msgid " Changes member's nickname in the server.\n"
@@ -4860,7 +4862,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:257
 msgid "List is limited to 20."
-msgstr ""
+msgstr "La lista está limitada a 20."
 
 #: Dredd-v3/cogs/moderation.py:259 Dredd-v3/cogs/moderation.py:267
 #, python-brace-format
@@ -4959,13 +4961,13 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:453 Dredd-v3/cogs/moderation.py:459
 #, python-brace-format
 msgid "**I've successfully banned {0} member(s){1}:**\n"
-msgstr ""
+msgstr "**He baneado con éxito {0} miembro(s){1}:**\n"
 
 #: Dredd-v3/cogs/moderation.py:453 Dredd-v3/cogs/moderation.py:459
 #: Dredd-v3/cogs/moderation.py:857 Dredd-v3/cogs/moderation.py:863
 #, python-brace-format
 msgid " for {0}"
-msgstr ""
+msgstr " por {0}"
 
 #: Dredd-v3/cogs/moderation.py:460
 #, python-brace-format
@@ -5148,7 +5150,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:872
 msgid "**I failed to mute all the members:**\n"
-msgstr ""
+msgstr "**No he podido silenciar a todos los miembros:**\n"
 
 #: Dredd-v3/cogs/moderation.py:883
 msgid "Unmute member in the server"
@@ -5290,7 +5292,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:1170
 msgid "Warn a member"
-msgstr ""
+msgstr "Advierte a un miembro"
 
 #: Dredd-v3/cogs/moderation.py:1176
 msgid " Warn a member in the server\n"
@@ -5306,7 +5308,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:1197
 msgid "Warning!"
-msgstr ""
+msgstr "¡Advertencia!"
 
 #: Dredd-v3/cogs/moderation.py:1218
 #, python-brace-format
@@ -5343,7 +5345,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:1280
 msgid "Purge all the messages"
-msgstr ""
+msgstr "Elimina todos los mensajes"
 
 #: Dredd-v3/cogs/moderation.py:1287
 msgid " Purge all the messages in chat. Default amount is set to **100**. This will purge everything, pins as well. "
@@ -5399,7 +5401,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:1369
 msgid "Delete custom messages"
-msgstr ""
+msgstr "Elimina mensajes personalizados"
 
 #: Dredd-v3/cogs/moderation.py:1376
 msgid "A more advanced purge command.\n"
@@ -5490,15 +5492,15 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:1551
 #, python-brace-format
 msgid "{0} Created role named **{1}**"
-msgstr ""
+msgstr "{0} He creado el role con el nombre **{1}**"
 
 #: Dredd-v3/cogs/moderation.py:1553
 msgid "Delete a role"
-msgstr ""
+msgstr "Elimina un role"
 
 #: Dredd-v3/cogs/moderation.py:1560
 msgid " Delete a role in the server "
-msgstr ""
+msgstr " Elimina un role en el servidor "
 
 #: Dredd-v3/cogs/moderation.py:1564
 #, python-brace-format
@@ -5704,11 +5706,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:1920
 msgid "Get case information"
-msgstr ""
+msgstr "Obtén información del caso"
 
 #: Dredd-v3/cogs/moderation.py:1926
 msgid " Get more information of the case "
-msgstr ""
+msgstr " Obtén más información sobre el caso "
 
 #: Dredd-v3/cogs/moderation.py:1945
 #, python-brace-format
@@ -5834,11 +5836,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:2076
 msgid "Create an emoji"
-msgstr ""
+msgstr "Crea un emoji"
 
 #: Dredd-v3/cogs/moderation.py:2083
 msgid " Create an emoji "
-msgstr ""
+msgstr " Crea un emoji "
 
 #: Dredd-v3/cogs/moderation.py:2086
 #, python-brace-format
@@ -6001,7 +6003,7 @@ msgstr ""
 #: Dredd-v3/cogs/music.py:484
 #, python-brace-format
 msgid "{0} Unknown error occured - {1}"
-msgstr ""
+msgstr "{0} Se ha producido un error desconocido - {1}"
 
 #: Dredd-v3/cogs/music.py:491
 msgid "Enqueue the radio station"
@@ -6329,11 +6331,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/music.py:890
 msgid "Change the speed of the song"
-msgstr ""
+msgstr "Cambia la velocidad de la canción"
 
 #: Dredd-v3/cogs/music.py:896
 msgid " Set the players speed."
-msgstr ""
+msgstr " Establece la velocidad del reproductor."
 
 #: Dredd-v3/cogs/music.py:911
 #, python-brace-format
