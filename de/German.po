@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-11 18:04\n"
+"PO-Revision-Date: 2021-08-12 14:43\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -256,7 +256,7 @@ msgstr ""
 #: Dredd-v3/utils/default.py:367 Dredd-v3/utils/default.py:375
 #, python-brace-format
 msgid "{0} Raid mode\n"
-msgstr ""
+msgstr "{0} Raid Modus\n"
 
 #: Dredd-v3/utils/default.py:368 Dredd-v3/utils/default.py:376
 #, python-brace-format
@@ -281,7 +281,7 @@ msgstr "{0} Dehoisting\n"
 #: Dredd-v3/utils/default.py:372 Dredd-v3/utils/default.py:380
 #, python-brace-format
 msgid "{0} Automod\n"
-msgstr ""
+msgstr "{0} Automod\n"
 
 #: Dredd-v3/utils/default.py:529 Dredd-v3/cogs/moderation.py:1978
 msgid "mute"
@@ -301,7 +301,7 @@ msgstr "ban"
 
 #: Dredd-v3/utils/default.py:533
 msgid "temp-ban"
-msgstr "temporärer Ban"
+msgstr "temp-ban"
 
 #: Dredd-v3/utils/default.py:549
 msgid "I was not able to find this playlist! Please try again or use a different link."
@@ -345,7 +345,7 @@ msgstr "verbesserte discord.py {0}"
 
 #: Dredd-v3/utils/rtfm.py:186
 msgid "Keep in mind this is NOT the original d.py; certain things may be different"
-msgstr ""
+msgstr "Bitte beachte, dass dies NICHT die original discord.py Version; bei bestimmten Dinge könnten anders sein"
 
 #: Dredd-v3/utils/rtfm.py:187
 #, python-brace-format
@@ -354,7 +354,7 @@ msgstr "**Suchabfrage:** `{0}`\n\n"
 
 #: Dredd-v3/cogs/events/automod.py:188
 msgid "Spam (sending multiple messages in a short time span)"
-msgstr ""
+msgstr "Spam (mehrere Nachrichten in kurzer Zeit schicken)"
 
 #: Dredd-v3/cogs/events/automod.py:214
 msgid "Advertising"
@@ -382,11 +382,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/automod.py:325
 msgid "Member Muted"
-msgstr ""
+msgstr "Mitglied wurde stummgeschaltet"
 
 #: Dredd-v3/cogs/events/automod.py:325
 msgid "Member Temp-Muted"
-msgstr ""
+msgstr "Member wurde temporärer stummgeschaltet"
 
 #: Dredd-v3/cogs/events/automod.py:325 Dredd-v3/cogs/events/automod.py:334
 msgid "Member Kicked"
@@ -402,7 +402,7 @@ msgstr "Benutzer wurde temporär gebannt"
 
 #: Dredd-v3/cogs/events/automod.py:338
 msgid "Automod Action"
-msgstr ""
+msgstr "Automod Aktion"
 
 #: Dredd-v3/cogs/events/automod.py:341 Dredd-v3/cogs/events/logs.py:596
 #: Dredd-v3/cogs/events/logs.py:726
@@ -422,7 +422,7 @@ msgstr "**Mitglieder:** {0}{1}\n"
 #: Dredd-v3/cogs/events/automod.py:352
 #, python-brace-format
 msgid "Automod Action | {0}"
-msgstr ""
+msgstr "Automod Aktion | {0}"
 
 #: Dredd-v3/cogs/events/automod.py:354
 #, python-brace-format
@@ -520,7 +520,7 @@ msgstr "{0} Dieser Befehl ist nur für Dredd Teammitglieder bestimmt"
 #: Dredd-v3/cogs/events/errors.py:144
 #, python-brace-format
 msgid "{0} This command can only be used by boosters"
-msgstr ""
+msgstr "{0} Dieser Befehl können nur von Booster benutzt werden"
 
 #: Dredd-v3/cogs/events/errors.py:150
 #, python-brace-format
@@ -631,7 +631,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/events/events.py:125
 msgid "Hey! Not sure if you know yet, but my prefix in DM's is `!`"
-msgstr ""
+msgstr "Hey! Nicht sicher, ob du es noch weißt, aber meine Präfix in DM's ist `!`"
 
 #: Dredd-v3/cogs/events/events.py:246
 #, python-brace-format
@@ -703,7 +703,9 @@ msgstr ""
 msgid "**User:** {0} `{1}`\n"
 "**Channel:** {2} `#{3}`\n"
 "[Jump to message]({4})"
-msgstr ""
+msgstr "**Benutzer:** {0} `{1}`\n"
+"**Kanal:** {2} `#{3}`\n"
+"[Springe zur Nachricht]({4})"
 
 #: Dredd-v3/cogs/events/logs.py:96 Dredd-v3/cogs/events/logs.py:100
 msgid "**Before:**"
