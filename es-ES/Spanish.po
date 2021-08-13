@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-12 20:31\n"
+"PO-Revision-Date: 2021-08-13 01:28\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -36,11 +36,11 @@ msgstr "¡Error de tiempo! prueba con \"en una hora\" o \"5 días\"."
 
 #: Dredd-v3/utils/btime.py:173
 msgid "Expected quote before time input..."
-msgstr ""
+msgstr "Cita esperada antes de la entrada de tiempo..."
 
 #: Dredd-v3/utils/btime.py:176
 msgid "If the time is quoted, you must unquote it."
-msgstr ""
+msgstr "Si el tiempo está citado, debes dejar de citarlo."
 
 #: Dredd-v3/utils/btime.py:188
 msgid "Sorry, but I did not understand what you meant. You probably didn't specify the time or you specified it in another language (not English)"
@@ -330,7 +330,7 @@ msgstr "{0} ¡He añadido el álbum **{1}** con {2} canciones a la cola!"
 #: Dredd-v3/utils/default.py:590 Dredd-v3/cogs/music.py:519
 #, python-brace-format
 msgid "{0} Added **{1}** to the Queue!"
-msgstr ""
+msgstr "{0} ¡He añadido **{1}** a la Cola!"
 
 #: Dredd-v3/utils/rtfm.py:140
 msgid "Cannot build rtfm lookup table, try again later."
