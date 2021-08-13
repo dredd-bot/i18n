@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-13 01:28\n"
+"PO-Revision-Date: 2021-08-13 02:28\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -507,7 +507,13 @@ msgid "Thank you for using me! Unfortunately this command is vote locked and you
 "`[4]` {3}\n"
 "If you've voted already, please wait cause the API might be slow.\n\n"
 "*After you vote, you'll be able to use this command, and you will help Dredd gain more servers :D*"
-msgstr ""
+msgstr "¡Gracias por usarme! Desafortunadamente, este comando está bloqueado para votar y tendrás que votar por Dredd. Puedes votar en cualquiera de estas listas:\n"
+"`[1]` {0}\n"
+"`[2]` {1}\n"
+"`[3]` {2}\n"
+"`[4]` {3}\n"
+"Si ya votaste, por favor, espera porque la API podría estar lenta. \n\n"
+"*Después de que votes, podrás usar este comando y ayudarás a Dredd a llegar a más servidores :D*"
 
 #: Dredd-v3/cogs/events/errors.py:141
 #, python-brace-format
@@ -562,7 +568,7 @@ msgstr "{0} No tengo los permisos {1}"
 #: Dredd-v3/cogs/events/errors.py:243
 #, python-brace-format
 msgid "{0} | You're on cooldown, try again in **{1}** seconds."
-msgstr ""
+msgstr "{0} | Estás en enfriamiento, intenta de nuevo en **{1}** segundos."
 
 #: Dredd-v3/cogs/events/errors.py:246
 #, python-brace-format
@@ -572,23 +578,23 @@ msgstr "{0} | Te falta un argumento - **{1}**"
 #: Dredd-v3/cogs/events/errors.py:250
 #, python-brace-format
 msgid "{0} | Looks like you haven't closed the quote"
-msgstr ""
+msgstr "{0} | Parece que no has cerrado la cita"
 
 #: Dredd-v3/cogs/events/errors.py:253
 #, python-brace-format
 msgid "{0} | Expected space after the quote, but received another quote"
-msgstr ""
+msgstr "{0} | Se esperaba un espacio después de la cita, pero se recibió otra cita"
 
 #. no other way to prevent this
 #: Dredd-v3/cogs/events/errors.py:256
 #, python-brace-format
 msgid "{0} | Failed to add the reactions, please reinvoke the command."
-msgstr ""
+msgstr "{0} | Fallo al añadir las reacciones, por favor ejecuta el comando de nuevo."
 
 #: Dredd-v3/cogs/events/errors.py:262
 #, python-brace-format
 msgid "{0} I'm missing permissions to embed links."
-msgstr ""
+msgstr "{0} No tengo permisos para incrustar enlaces."
 
 #: Dredd-v3/cogs/events/errors.py:310
 #, python-brace-format
@@ -639,7 +645,7 @@ msgstr "Si eres dueño del servidor y deseas apelar, puedes [unirte al servidor 
 
 #: Dredd-v3/cogs/events/events.py:250
 msgid "Unfortunately, this server's blacklist state cannot be removed."
-msgstr ""
+msgstr "Desafortunadamente, el estado de la lista negra de este servidor no puede ser eliminado."
 
 #: Dredd-v3/cogs/events/events.py:253
 #, python-brace-format
@@ -1093,7 +1099,8 @@ msgstr "Banear Temporalmente Miembro ({0})"
 #, python-brace-format
 msgid "\n"
 "**Anti-Raid Logging Channel:** {0}"
-msgstr ""
+msgstr "\n"
+"**Canal de registro de anti invasión:** {0}"
 
 #: Dredd-v3/cogs/automod.py:73
 #, python-brace-format
@@ -1109,7 +1116,18 @@ msgid "```\n"
 "**Ignore Moderators:** {8}\n"
 "**Delete Messages:** {9}\n"
 "**DM people during raid:** {10}{11}{12}"
-msgstr ""
+msgstr "```\n"
+"1. Anti Spam - {0}\n"
+"2. Anti Mayúsculas Masivas - {1}\n"
+"3. Anti Invitaciones - {2}\n"
+"4. Anti Menciones - {3}\n"
+"5. Anti Enlaces - {4}\n"
+"---Otros---\n"
+"6. Modo anti invasión {5}```\n"
+"**Canal de registro de auto moderación:** {6}{7}\n"
+"**Ignorar Moderadores:** {8}\n"
+"**Eliminar Mensajes:** {9}\n"
+"**Enviar mensajes privados durante una invasión:** {10}{11}{12}"
 
 #: Dredd-v3/cogs/automod.py:85 Dredd-v3/cogs/automod.py:86
 msgid "Disabled"
@@ -1194,7 +1212,7 @@ msgstr "La automoderación está deshabilitado en este servidor, actívalo usand
 
 #: Dredd-v3/cogs/automod.py:161
 msgid "chill"
-msgstr ""
+msgstr "chill"
 
 #: Dredd-v3/cogs/automod.py:161
 msgid "strict"
@@ -1257,11 +1275,11 @@ msgstr "{0} Se ha establecido correctamente el tipo de castigo para anti invitac
 
 #: Dredd-v3/cogs/automod.py:265
 msgid "Toggle anti mass mention on or off"
-msgstr ""
+msgstr "Cambia anti mención masiva a encendido o apagado"
 
 #: Dredd-v3/cogs/automod.py:271
 msgid " Toggle anti mass mention on or off and set the mentions limit to whatever number you want "
-msgstr ""
+msgstr " Cambia anti mención masiva a encendido I apagado y estable el límite de menciones a cualquier número que quieras "
 
 #: Dredd-v3/cogs/automod.py:282
 msgid "Mentions limit must be between 2 and 15"
@@ -1270,24 +1288,24 @@ msgstr "El límite de menciones debe estar entre 1 y 15"
 #: Dredd-v3/cogs/automod.py:294
 #, python-brace-format
 msgid "{0} Successfuly disabled anti mass mention in this server"
-msgstr ""
+msgstr "{0} He desactivado a tu mención masiva en este servidor"
 
 #: Dredd-v3/cogs/automod.py:296
 msgid "Anti mass mentions are already disabled in this server."
-msgstr ""
+msgstr "Anti mención masiva ya está desactivado en este servidor."
 
 #: Dredd-v3/cogs/automod.py:299
 #, python-brace-format
 msgid "{0} Successfully set anti mass mentions punishment type to **{1}** members. Mentions limit - `{2}`.{3}"
-msgstr ""
+msgstr "{0} He establecido con éxito el tipo de castigo de la mención masiva a **{1} miembros. Límite de menciones - `{2}`.{3}"
 
 #: Dredd-v3/cogs/automod.py:304
 msgid "Toggle anti mass caps on or off"
-msgstr ""
+msgstr "Cambia anti mayúsculas masivas a encendido o apagado"
 
 #: Dredd-v3/cogs/automod.py:310
 msgid " Toggle anti mass caps and set the caps percentege limit to whatever number you prefer "
-msgstr ""
+msgstr " Cambia anti mayúsculas masivas a encendido o apagado y establece el límite de porcentaje de mayúsculas a cualquier número que prefieras "
 
 #: Dredd-v3/cogs/automod.py:321
 msgid "Percentage limit must be between 25 and 100"
@@ -1296,16 +1314,16 @@ msgstr "El límite de porcentaje debe estar entre 25 y 100"
 #: Dredd-v3/cogs/automod.py:333
 #, python-brace-format
 msgid "{0} Successfuly disabled anti mass caps in this server"
-msgstr ""
+msgstr "{0} He desactivado anti mayúsculas masivas en este servidor"
 
 #: Dredd-v3/cogs/automod.py:335
 msgid "Anti caps are already disabled in this server."
-msgstr ""
+msgstr "Anti mayúsculas masivas ya está desactivado en este servidor."
 
 #: Dredd-v3/cogs/automod.py:338
 #, python-brace-format
 msgid "{0} Successfully set anti mass caps punishment type to **{1}** members. Percentage set to - `{2}`.{3}"
-msgstr ""
+msgstr "{0} He establecido con éxito el tipo de castigo de las mayúsculas masivas a **{1} miembros. Porcentaje establecido a - `{2}`.{3}"
 
 #: Dredd-v3/cogs/automod.py:343
 msgid "Toggle anti spam on or off"
@@ -1318,16 +1336,16 @@ msgstr " Cambia anti spam a encendido/apagado "
 #: Dredd-v3/cogs/automod.py:366
 #, python-brace-format
 msgid "{0} Successfuly disabled anti spam in this server"
-msgstr ""
+msgstr "{0} He desactivado correctamente el anti spam en este servidor"
 
 #: Dredd-v3/cogs/automod.py:368
 msgid "Anti spam is already disabled in this server."
-msgstr ""
+msgstr "Anti spam ya está deshabilitado en este servidor."
 
 #: Dredd-v3/cogs/automod.py:371
 #, python-brace-format
 msgid "{0} Successfully set anti spam punishment type to **{1}** members.{2}"
-msgstr ""
+msgstr "{0} Se ha establecido correctamente el tipo de castigo para anti spam a **{1}** miembros.{2}"
 
 #: Dredd-v3/cogs/automod.py:376
 msgid "Toggle if automod should ignore server moderators"
@@ -1389,7 +1407,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:449
 msgid "Allowed values are `kick`, `ban`, `kickall` and `banall`, if you're trying to disable the raid mode, don't provide any arguments"
-msgstr ""
+msgstr "Los valores permitidos son `kick`, `ban`, `kickall` y `banall`, si estás intentando desactivar el modo anti invasión, no proporcionas ningún argumento"
 
 #: Dredd-v3/cogs/automod.py:459
 #, python-brace-format
@@ -1424,35 +1442,35 @@ msgstr "{0} He establecido el nuevo canal de registro de modo de anti invasión 
 #: Dredd-v3/cogs/automod.py:490
 #, python-brace-format
 msgid "{0} Set the raidmode action to kick new members who have their accounts created less than 30 days ago."
-msgstr ""
+msgstr "{0} La acción de anti invasión ha sido establecida a expulsar nuevos miembros que han creado su cuenta hace menos de 30 días."
 
 #: Dredd-v3/cogs/automod.py:494
 #, python-brace-format
 msgid "{0} Set the raidmode action to ban new members who have their accounts created less than 30 days ago."
-msgstr ""
+msgstr "{0} La acción de anti invasión ha sido establecida a banear nuevos miembros que han creado su cuenta hace menos de 30 días."
 
 #: Dredd-v3/cogs/automod.py:498
 #, python-brace-format
 msgid "{0} Set the raidmode action to kick all new members"
-msgstr ""
+msgstr "{0} La acción de anti invasión ha sido establecida a expulsar a todos los miembros nuevos"
 
 #: Dredd-v3/cogs/automod.py:502
 #, python-brace-format
 msgid "{0} Set the raidmode action to ban all new members"
-msgstr ""
+msgstr "{0} La acción de anti invasión ha sido establecida a banear a todos los miembros nuevos"
 
 #: Dredd-v3/cogs/automod.py:505
 #, python-brace-format
 msgid "{0} Set the raidmode action to {1} new members {2}"
-msgstr ""
+msgstr "{0} La acción de anti invasión ha sido establecida a {1} a todos los miembros nuevos {2}"
 
 #: Dredd-v3/cogs/automod.py:506
 msgid "who have their account created less than 30 days ago."
-msgstr ""
+msgstr "que han creado su cuenta hace menos de 30 días."
 
 #: Dredd-v3/cogs/automod.py:510
 msgid "Toggles anti raid mode DMs"
-msgstr ""
+msgstr "Cambia la opción de los mensajes privados durante anti invasión"
 
 #: Dredd-v3/cogs/automod.py:516
 msgid " Toggle if new members should get a DM from the bot when joining the server "
