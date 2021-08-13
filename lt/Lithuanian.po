@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-13 16:34\n"
+"PO-Revision-Date: 2021-08-13 19:06\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -1375,7 +1375,7 @@ msgstr "{0} Nuo šiol trinsiu žinutes."
 
 #: Dredd-v3/cogs/automod.py:420
 msgid "Manage anti raid mode in the server"
-msgstr ""
+msgstr "Tvarkyti anti reido modą serveryje"
 
 #: Dredd-v3/cogs/automod.py:426
 msgid " Manage anti raid mode in the server "
@@ -1412,7 +1412,7 @@ msgstr ""
 #: Dredd-v3/cogs/automod.py:467
 #, python-brace-format
 msgid "{0} Successfully enabled raidmode, will kick all new members"
-msgstr ""
+msgstr "{0} Sėkmingai įjungtas reido modas, visi nauji nariai bus išmesti"
 
 #: Dredd-v3/cogs/automod.py:471
 #, python-brace-format
