@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-15 13:10\n"
+"PO-Revision-Date: 2021-08-15 14:06\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -1423,32 +1423,32 @@ msgstr "{0} Succesvol de raidmode ingeschakeld, zullen nieuwe leden kicken die h
 #: Dredd-v3/cogs/automod.py:463
 #, python-brace-format
 msgid "{0} Successfully enabled raidmode, will ban new members who have their accounts created less than 30 days ago."
-msgstr ""
+msgstr "{0} Succesvol de raidmode ingeschakeld, zal nieuwe leden kicken die hun accounts minder dan 30 dagen geleden hebben aangemaakt."
 
 #: Dredd-v3/cogs/automod.py:467
 #, python-brace-format
 msgid "{0} Successfully enabled raidmode, will kick all new members"
-msgstr ""
+msgstr "{0} Succesvol ingeschakeld raidmode, zal alle nieuwe leden kicken"
 
 #: Dredd-v3/cogs/automod.py:471
 #, python-brace-format
 msgid "{0} Successfully enabled raidmode, will ban all new members"
-msgstr ""
+msgstr "{0} Succesvol ingeschakeld raidmode, zal alle nieuwe leden verbannen"
 
 #: Dredd-v3/cogs/automod.py:479
 #, python-brace-format
 msgid "{0} Successfully disabled raidmode"
-msgstr ""
+msgstr "{0} Heeft de raidmode succesvol uitgeschakeld"
 
 #: Dredd-v3/cogs/automod.py:485
 #, python-brace-format
 msgid "{0} Set the new raidmode logging channel to {1}"
-msgstr ""
+msgstr "{0} heeft de nieuwe raidmodus logging kanaal ingesteld op {1}"
 
 #: Dredd-v3/cogs/automod.py:490
 #, python-brace-format
 msgid "{0} Set the raidmode action to kick new members who have their accounts created less than 30 days ago."
-msgstr ""
+msgstr "{0} Succesvol de raidmode ingeschakeld, zal nieuwe leden kicken die hun accounts minder dan 30 dagen geleden hebben aangemaakt."
 
 #: Dredd-v3/cogs/automod.py:494
 #, python-brace-format
