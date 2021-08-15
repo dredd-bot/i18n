@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-03 17:03\n"
+"PO-Revision-Date: 2021-08-15 13:10\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -531,7 +531,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/errors.py:169
 #, python-brace-format
 msgid "{0} | This command can't be used in direct messages!"
-msgstr "Cette commande ne peut pas être utilisée dans les DMs!"
+msgstr "{0} | Cette commande ne peut pas être utilisée dans les DMs!"
 
 #: Dredd-v3/cogs/events/errors.py:178
 #, python-brace-format
