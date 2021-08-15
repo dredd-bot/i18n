@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-03 19:13\n"
+"PO-Revision-Date: 2021-08-15 13:10\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -1323,77 +1323,77 @@ msgstr "Anti caps zijn is al uitgeschakeld in deze server."
 #: Dredd-v3/cogs/automod.py:338
 #, python-brace-format
 msgid "{0} Successfully set anti mass caps punishment type to **{1}** members. Percentage set to - `{2}`.{3}"
-msgstr ""
+msgstr "{0} Succesvol anti massa hoodletters naar **{1}** leden. Percentage gezet op- `{2}`.{3}"
 
 #: Dredd-v3/cogs/automod.py:343
 msgid "Toggle anti spam on or off"
-msgstr ""
+msgstr "Schakel anti spam in of uit"
 
 #: Dredd-v3/cogs/automod.py:349
 msgid " Toggle anti spam on or off "
-msgstr ""
+msgstr " Schakel anti spam in of uit "
 
 #: Dredd-v3/cogs/automod.py:366
 #, python-brace-format
 msgid "{0} Successfuly disabled anti spam in this server"
-msgstr ""
+msgstr "{0} Succesvol anti spam uitgeschakeld in deze server"
 
 #: Dredd-v3/cogs/automod.py:368
 msgid "Anti spam is already disabled in this server."
-msgstr ""
+msgstr "Anti spam is al uitgeschakeld in deze server."
 
 #: Dredd-v3/cogs/automod.py:371
 #, python-brace-format
 msgid "{0} Successfully set anti spam punishment type to **{1}** members.{2}"
-msgstr ""
+msgstr "{0} Succesvol anti spam straf type aan**{1}** leden.{2}"
 
 #: Dredd-v3/cogs/automod.py:376
 msgid "Toggle if automod should ignore server moderators"
-msgstr ""
+msgstr "Schakelen tussen het negeren van de server moderators"
 
 #: Dredd-v3/cogs/automod.py:382
 msgid " Toggle whether or not bot should ignore members with manage messages permissions (moderators) "
-msgstr ""
+msgstr " Schakelen of bot leden moet negeren met rechten berichten te beheren (moderators) "
 
 #: Dredd-v3/cogs/automod.py:391
 #, python-brace-format
 msgid "{0} I will not be ignoring people with manage messages permissions (moderators) from now on."
-msgstr ""
+msgstr "{0} Ik zal mensen met beheerrechten (moderators) niet meer negeren."
 
 #: Dredd-v3/cogs/automod.py:395
 #, python-brace-format
 msgid "{0} I will be ignoring people with manage messages permissions (moderators) from now on."
-msgstr ""
+msgstr "{0} Ik negeer vanaf nu mensen met beheerrechten voor berichten (moderators)."
 
 #: Dredd-v3/cogs/automod.py:398
 msgid "Toggle if automod should delete messages when punishing the user(s)"
-msgstr ""
+msgstr "Schakelen tussen het wel of niet verwijderen van berichten door gebruiker (s) automatisch te straffen"
 
 #: Dredd-v3/cogs/automod.py:404
 msgid " Toggle whether or not bot should delete the messages when punishing the user(s) "
-msgstr ""
+msgstr " Schakel of bot de berichten moet verwijderen bij het bestraffen van de gebruiker(s) "
 
 #: Dredd-v3/cogs/automod.py:413
 #, python-brace-format
 msgid "{0} I will not be deleting messages from now on."
-msgstr ""
+msgstr "{0} Ik zal geen berichten meer verwijderen."
 
 #: Dredd-v3/cogs/automod.py:417
 #, python-brace-format
 msgid "{0} I will now be deleting messages from now on."
-msgstr ""
+msgstr "{0} Ik zal nu berichten verwijderen van nu."
 
 #: Dredd-v3/cogs/automod.py:420
 msgid "Manage anti raid mode in the server"
-msgstr ""
+msgstr "Beheer anti raid modus in de server"
 
 #: Dredd-v3/cogs/automod.py:426
 msgid " Manage anti raid mode in the server "
-msgstr ""
+msgstr " Beheer anti raid modus in de server "
 
 #: Dredd-v3/cogs/automod.py:429
 msgid "Toggle raid mode on or off"
-msgstr ""
+msgstr "Schakel raid-modus aan of uit"
 
 #: Dredd-v3/cogs/automod.py:435
 msgid " Toggle raid mode status\n"
@@ -1403,16 +1403,22 @@ msgid " Toggle raid mode status\n"
 "        `ban` - ban new members that only have their account created less than 30 days ago\n"
 "        `kickall` - kick all new members, account age doesn't matter\n"
 "        `banall` - ban all new members, account age doesn't matter "
-msgstr ""
+msgstr " Schakel raid modus in of uit status\n"
+"    \n"
+"        **Waarden:**\n"
+"        `kick` - kick nieuwe leden die hun account minder dan 30 dagen geleden hebben aangemaakt\n"
+"        `ban` - ban nieuwe leden die hun account minder dan 30 dagen geleden hebben gemaakt\n"
+"        `kickall` - verwijder alle nieuwe leden account leeftijd maakt niet uit\n"
+"        `banall` - ban alle nieuwe leden, account leeftijd maakt niet uit "
 
 #: Dredd-v3/cogs/automod.py:449
 msgid "Allowed values are `kick`, `ban`, `kickall` and `banall`, if you're trying to disable the raid mode, don't provide any arguments"
-msgstr ""
+msgstr "Toegestane waarden zijn `kick`, `ban`, `kickall` en `banall`, als je probeert de raid-modus uit te schakelen, geef geen argumenten"
 
 #: Dredd-v3/cogs/automod.py:459
 #, python-brace-format
 msgid "{0} Successfully enabled raidmode, will kick new members who have their accounts created less than 30 days ago."
-msgstr ""
+msgstr "{0} Succesvol de raidmode ingeschakeld, zullen nieuwe leden kicken die hun accounts minder dan 30 dagen geleden hebben aangemaakt."
 
 #: Dredd-v3/cogs/automod.py:463
 #, python-brace-format
