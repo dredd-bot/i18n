@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-03 17:04\n"
+"PO-Revision-Date: 2021-08-15 21:19\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -20,37 +20,38 @@ msgstr ""
 #: Dredd-v3/utils/btime.py:114
 #, python-brace-format
 msgid "{0} The time you've provided is in the past"
-msgstr ""
+msgstr "{0} Czas jaki podałeś jest w przeszłości"
 
 #: Dredd-v3/utils/btime.py:128
 msgid "This time is in the past."
-msgstr ""
+msgstr "Ten czas minął."
 
 #: Dredd-v3/utils/btime.py:132
 msgid "Missing argument after the time."
-msgstr ""
+msgstr "Brakujący argument po czasie."
 
 #: Dredd-v3/utils/btime.py:163
 msgid "Time Error! try \"in an hour\" or \"5 days\"."
-msgstr ""
+msgstr "Błąd czasu! Spróbuj \"za godzinę\" lub \"5 dni\"."
 
 #: Dredd-v3/utils/btime.py:173
 msgid "Expected quote before time input..."
-msgstr ""
+msgstr "Oczekiwana cytatu przed wprowadzeniem czasu..."
 
 #: Dredd-v3/utils/btime.py:176
 msgid "If the time is quoted, you must unquote it."
-msgstr ""
+msgstr "Jeśli czas jest cytowany, musisz go zacytować."
 
 #: Dredd-v3/utils/btime.py:188
 msgid "Sorry, but I did not understand what you meant. You probably didn't specify the time or you specified it in another language (not English)"
-msgstr ""
+msgstr "Przepraszam, ale nie rozumiem, co masz na myśli. Prawdopodobnie nie określiłeś czasu lub podałeś go w innym języku (nie angielskim)"
 
 #: Dredd-v3/utils/checks.py:100
 #, python-brace-format
 msgid "Oops!\n"
 "Error occured while fetching your vote: {0}"
-msgstr ""
+msgstr "Ups!\n"
+"Wystąpił błąd podczas pobierania głosu: {0}"
 
 #: Dredd-v3/utils/checks.py:107
 #, python-brace-format
