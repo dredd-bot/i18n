@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-15 15:07\n"
+"PO-Revision-Date: 2021-08-15 16:10\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -1647,7 +1647,7 @@ msgstr "Jūs pasiekėte socialinių žiniasklaidų leidžiamą limitą. (10)"
 #: Dredd-v3/cogs/boosters.py:66 Dredd-v3/cogs/boosters.py:100
 #, python-brace-format
 msgid "{0} Sorry! I can't have you have media longer than 32 characters.If you wish this number to be updated, please contact my developer(s)"
-msgstr ""
+msgstr "{0} Atsiprašau! Aš negaliu jums leisti turėti socialinę žiniasklaidą ilgesnia nei 32 raidžių/skaičių. Jeigu jūs norėtumėte šitą skaičių atnaujinti, prašau kontaktuoti mana kurėj(a/us)"
 
 #: Dredd-v3/cogs/boosters.py:71
 msgid "{0} You already have {name.lower()} linked in your medias."
