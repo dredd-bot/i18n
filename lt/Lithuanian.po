@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-15 14:06\n"
+"PO-Revision-Date: 2021-08-15 15:07\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -1541,11 +1541,11 @@ msgstr "Kanalas {0} jau pridėtas į baltąjį sąrašą."
 
 #: Dredd-v3/cogs/automod.py:618
 msgid "Add a role to automod's whitelist"
-msgstr ""
+msgstr "Pridėti vaidmenį prie auto moderacijos baltojo sąrašo"
 
 #: Dredd-v3/cogs/automod.py:624
 msgid " Add a role to automod's whitelist "
-msgstr ""
+msgstr " Pridėti vaidmenį prie auto moderacijos baltojo sąrašo "
 
 #: Dredd-v3/cogs/automod.py:635 Dredd-v3/cogs/automod.py:642
 #, python-brace-format
@@ -1559,16 +1559,16 @@ msgstr "Vaidmuo **{0}** jau yra pridėta į baltąjį sąrašą."
 
 #: Dredd-v3/cogs/automod.py:645
 msgid "Remove a role from automod's whitelist"
-msgstr ""
+msgstr "Pašalinti vaidmenį iš auto moderacijos baltojo sąrašo"
 
 #: Dredd-v3/cogs/automod.py:651
 msgid " Remove a role from automod's whitelist "
-msgstr ""
+msgstr " Pašalinti vaidmenį iš auto moderacijos baltojo sąrašo "
 
 #: Dredd-v3/cogs/automod.py:660
 #, python-brace-format
 msgid "{0} It looks like there are no roles whitelisted in the server."
-msgstr ""
+msgstr "{0} Atrodo, kad nėra vaidmenų pridėtų prie baltojo sąrašo šiame serveryje."
 
 #: Dredd-v3/cogs/automod.py:666
 #, python-brace-format
@@ -1578,38 +1578,38 @@ msgstr ""
 #: Dredd-v3/cogs/automod.py:670
 #, python-brace-format
 msgid "{0} Removed {1} from the roles whitelist."
-msgstr ""
+msgstr "{0} Pašalinta {1} iš vaidmenų baltojo sąrašo."
 
 #: Dredd-v3/cogs/automod.py:673
 msgid "Remove a channel from automod's whitelist "
-msgstr ""
+msgstr "Pašalinti kanalą iš auto moderacijos baltojo sąrašo "
 
 #: Dredd-v3/cogs/automod.py:679
 msgid " Remove a channel from automod's whitelist "
-msgstr ""
+msgstr " Pašalinti kanalą iš auto moderacijos baltojo sąrašo "
 
 #: Dredd-v3/cogs/automod.py:688
 #, python-brace-format
 msgid "{0} It looks like there are no channels whitelisted in the server."
-msgstr ""
+msgstr "{0} Atrodo, kad nėra kanalų pridėtų prie baltojo sąrašo šiame serveryje."
 
 #: Dredd-v3/cogs/automod.py:693
 #, python-brace-format
 msgid "Channel {0} is not in the whitelist."
-msgstr ""
+msgstr "Kanalas {0} nėra baltajame sąraše."
 
 #: Dredd-v3/cogs/automod.py:697
 #, python-brace-format
 msgid "{0} Removed {1} from the channels whitelist."
-msgstr ""
+msgstr "{0} Pašalinta {1} iš kanalų baltojo sąrašo."
 
 #: Dredd-v3/cogs/boosters.py:29
 msgid "Set your own custom prefix"
-msgstr ""
+msgstr "Nustatyti pasirinktinį priešdėlį"
 
 #: Dredd-v3/cogs/boosters.py:33
 msgid " Set your own custom prefix which you'll be able to access everywhere "
-msgstr ""
+msgstr " Nustatyti pasirinkti priešdėlį kurį galėsite naudoti visur "
 
 #: Dredd-v3/cogs/boosters.py:36
 #, python-brace-format
@@ -1619,19 +1619,19 @@ msgstr "{0} Ypatingas priešdėlis negali būti ilgesnis 7 simboliu."
 #: Dredd-v3/cogs/boosters.py:42
 #, python-brace-format
 msgid "{0} Set your custom prefix to `{1}`."
-msgstr ""
+msgstr "{0} Jūsų pasirinktinis priešdėlis nustatytas į `{1}`."
 
 #: Dredd-v3/cogs/boosters.py:46
 msgid "Manage your social medias"
-msgstr ""
+msgstr "Tvarkyti socialinė žiniasklaidas"
 
 #: Dredd-v3/cogs/boosters.py:51
 msgid " Base command for managing your social medias "
-msgstr ""
+msgstr " Bazinė komanda tvarkyti socialines žiniasklaidas "
 
 #: Dredd-v3/cogs/boosters.py:54
 msgid "Link a social media"
-msgstr ""
+msgstr "Prijunkite socialine žiniasklaidą"
 
 #: Dredd-v3/cogs/boosters.py:58
 msgid " Add social media to your medias list "
@@ -1642,7 +1642,7 @@ msgstr ""
 #: Dredd-v3/cogs/boosters.py:188 Dredd-v3/cogs/boosters.py:218
 #: Dredd-v3/cogs/boosters.py:248
 msgid "You've reached the max limit of social medias available. (10)"
-msgstr ""
+msgstr "Jūs pasiekėte socialinių žiniasklaidų leidžiamą limitą. (10)"
 
 #: Dredd-v3/cogs/boosters.py:66 Dredd-v3/cogs/boosters.py:100
 #, python-brace-format
