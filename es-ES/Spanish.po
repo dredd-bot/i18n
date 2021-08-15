@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-13 02:28\n"
+"PO-Revision-Date: 2021-08-15 21:19\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -196,7 +196,7 @@ msgstr "Dredd partidario inicial"
 
 #: Dredd-v3/utils/default.py:202
 msgid "Dredd Super Early Supporter"
-msgstr ""
+msgstr "Ayudante Super Temprano de Dredd"
 
 #: Dredd-v3/utils/default.py:203
 msgid "Blacklisted user"
@@ -487,7 +487,8 @@ msgstr "{0} El rol Mute no ha sido encontrado, por favor crea un rol con el nomb
 #, python-brace-format
 msgid "{0} Failed to kick/ban the member, are they higher in role hierarchy than me? Put my role at the very top to avoid these type of issues.\n\n"
 "Manually removed member permissions to send messages in this channel *hopefully*."
-msgstr ""
+msgstr "{0} Error al expulsar/banear al miembro, ¿son más altos en la jerarquía de roles que yo? Pon mi role a la cabeza para evitar este tipo de cuestiones.\n\n"
+"Permisos de miembro removidos manualmente para enviar mensajes en este canal *esperemos*."
 
 #: Dredd-v3/cogs/events/errors.py:131
 msgid "Vote required!"
@@ -528,7 +529,7 @@ msgstr "{0} Este comando sólo puede ser usado por boosters"
 #: Dredd-v3/cogs/events/errors.py:150
 #, python-brace-format
 msgid "{0} You've used invalid permissions flag, please make sure you're using the correct one."
-msgstr ""
+msgstr "{0} Has usado la bandera de permisos inválida, por favor, asegúrate de que estás usando la correcta."
 
 #: Dredd-v3/cogs/events/errors.py:158
 #, python-brace-format
@@ -874,7 +875,7 @@ msgstr "**Antes:** [Haga clic aquí]({0})\n"
 
 #: Dredd-v3/cogs/events/logs.py:364
 msgid " Guild multifactor authentication (MFA) changed"
-msgstr ""
+msgstr " Autenticación multifactor del servidor (MFA) cambiada"
 
 #: Dredd-v3/cogs/events/logs.py:373
 msgid " Guild verification level changed"
@@ -958,7 +959,7 @@ msgstr "**Miembro(s):** \n"
 #: Dredd-v3/cogs/events/logs.py:626
 #, python-brace-format
 msgid "{0} {1} Member(s) hack-banned"
-msgstr ""
+msgstr "{0} {1} Miembro(s) hack-baneado(s)"
 
 #: Dredd-v3/cogs/events/logs.py:657
 #, python-brace-format
@@ -1016,7 +1017,7 @@ msgstr "{0} {1} Miembro(s) voz silenciado(s)"
 #: Dredd-v3/cogs/events/logs.py:925
 #, python-brace-format
 msgid "{0} {1} Member(s) voice unmuted"
-msgstr ""
+msgstr "{0} {1} Miembro(s) silenciado(s) en canal de voz"
 
 #: Dredd-v3/cogs/events/logs.py:958
 #, python-brace-format
@@ -1403,7 +1404,13 @@ msgid " Toggle raid mode status\n"
 "        `ban` - ban new members that only have their account created less than 30 days ago\n"
 "        `kickall` - kick all new members, account age doesn't matter\n"
 "        `banall` - ban all new members, account age doesn't matter "
-msgstr ""
+msgstr " Alterna el estado del modo anti invasión\n"
+"   \n"
+"        **Valores:**\n"
+"        `kick` - expulsa a todos los nuevos miembros que han creado su cuenta en menos de 30 días\n"
+"        `ban` - banea a todos los nuevos miembros que han creado su cuenta en menos de 30 días\n"
+"        `kickall` - expulsa a todos los nuevos miembros, la edad de la cuenta no importa\n"
+"        `banall` - banea a todos los nuevos miembros, la edad de la cuenta no importa "
 
 #: Dredd-v3/cogs/automod.py:449
 msgid "Allowed values are `kick`, `ban`, `kickall` and `banall`, if you're trying to disable the raid mode, don't provide any arguments"
@@ -1479,17 +1486,17 @@ msgstr " Alterna si nuevos miembros deberían recibir un mensaje privado del bot
 #: Dredd-v3/cogs/automod.py:524
 #, python-brace-format
 msgid "Raid mode is disabled in this server, enable it by using `{0}raid-mode toggle` command"
-msgstr ""
+msgstr "El modo anti invasión está desactivado en este servidor, actívalo usando el comando `{0}raid-mode toogle`"
 
 #: Dredd-v3/cogs/automod.py:529
 #, python-brace-format
 msgid "{0} I will not be DMing people when kicking or banning them anymore on raid."
-msgstr ""
+msgstr "{0} Ya no enviaré mensajes privados a personas cuando los expulse o banee durante invasión."
 
 #: Dredd-v3/cogs/automod.py:533
 #, python-brace-format
 msgid "{0} I will now be DMing people when kicking or banning them on raid."
-msgstr ""
+msgstr "{0} Ahora enviaré mensajes privados a personas cuando los expulse o banee durante invasión."
 
 #: Dredd-v3/cogs/automod.py:535
 msgid "Manage automod's whitelist"
@@ -1530,7 +1537,7 @@ msgstr "Lista de los roles en la lista blanca"
 #: Dredd-v3/cogs/automod.py:577
 #, python-brace-format
 msgid "{0} The value you've provided is invalid, please choose either `channels` or `roles`"
-msgstr ""
+msgstr "{0} El valor que has proveído es inválido, por favor, elige entre `channels` o `roles`"
 
 #: Dredd-v3/cogs/automod.py:591
 msgid "Add a channel to automod's whitelist "
@@ -1658,11 +1665,11 @@ msgstr "Has alcanzado el límite máximo de redes sociales disponibles. (10)"
 #: Dredd-v3/cogs/boosters.py:66 Dredd-v3/cogs/boosters.py:100
 #, python-brace-format
 msgid "{0} Sorry! I can't have you have media longer than 32 characters.If you wish this number to be updated, please contact my developer(s)"
-msgstr ""
+msgstr "{0} ¡Lo siento! No puedo tener más de 32 caracteres. Si deseas actualizar este número, ponte en contacto con mi(s) desarrollador(es)"
 
 #: Dredd-v3/cogs/boosters.py:71
 msgid "{0} You already have {name.lower()} linked in your medias."
-msgstr ""
+msgstr "{0} Ya tienes {name.lower()} vinculado en tus medios."
 
 #: Dredd-v3/cogs/boosters.py:75
 #, python-brace-format
@@ -1715,7 +1722,7 @@ msgstr " Añade Instagram a tu lista de redes sociales "
 #: Dredd-v3/cogs/boosters.py:191 Dredd-v3/cogs/boosters.py:221
 #, python-brace-format
 msgid "{0} Account name must not be a full link, only the name (TheMoksej)"
-msgstr ""
+msgstr "{0} El nombre de la cuenta no debe ser un enlace completo, sólo el nombre (TheMoksej)"
 
 #: Dredd-v3/cogs/boosters.py:135
 #, python-brace-format
@@ -1792,7 +1799,7 @@ msgstr " Añade YouTube a tu lista de redes sociales "
 #: Dredd-v3/cogs/boosters.py:251
 #, python-brace-format
 msgid "{0} Account name must not be a full link, only the name (UCyFCSJXJ6cGWae2DBg3J2zg)"
-msgstr ""
+msgstr "{0} El nombre de la cuenta no debe ser un enlace completo, sólo el nombre (UCyFCSJXJ6cGWae2DBg3J2zg)"
 
 #: Dredd-v3/cogs/boosters.py:256
 #, python-brace-format
@@ -1802,7 +1809,7 @@ msgstr "{0} El límite del nombre de la cuenta de Youtube es 60, el tuyo tiene m
 #: Dredd-v3/cogs/boosters.py:260
 #, python-brace-format
 msgid "{0} Overwrite name must be shorter than 32 characters."
-msgstr ""
+msgstr "{0} El nombre de la sobreescritura debe tener menos de 32 caracteres."
 
 #: Dredd-v3/cogs/boosters.py:268
 #, python-brace-format
@@ -1941,12 +1948,12 @@ msgstr "Invierte algo"
 
 #: Dredd-v3/cogs/fun.py:113
 msgid " !poow ,ffuts esreveR. Everything you type after reverse will of course, be reversed "
-msgstr ""
+msgstr " !poow, ffuts, esreveR. Todo lo que escribas después de reverse será por supuesto, revertido "
 
 #: Dredd-v3/cogs/fun.py:116
 #, python-brace-format
 msgid "{0} The text you want to reverse is {1} characters over the limit."
-msgstr ""
+msgstr "{0} El texto que quieres revertir está {1} caracteres sobre el límite."
 
 #: Dredd-v3/cogs/fun.py:121
 #, python-brace-format
@@ -1966,13 +1973,14 @@ msgstr " Elija entre múltiples opciones. "
 #: Dredd-v3/cogs/fun.py:134
 #, python-brace-format
 msgid "{0} There are either too many choices (10) or you're over 500 characters."
-msgstr ""
+msgstr "{0} Hay demasiadas opciones (10) o tienes más de 500 caracteres."
 
 #: Dredd-v3/cogs/fun.py:141
 #, python-brace-format
 msgid "**Available choices:** {0}\n\n"
 "**I choose:** {1}"
-msgstr ""
+msgstr "**Opciones disponibles:** {0}\n\n"
+"**Yo eligo:** {1}"
 
 #: Dredd-v3/cogs/fun.py:146
 #, python-brace-format
@@ -2010,15 +2018,15 @@ msgstr " Lee un chiste de papá aleatorio "
 
 #: Dredd-v3/cogs/fun.py:189
 msgid "Roast someone"
-msgstr ""
+msgstr "Asa a alguien"
 
 #: Dredd-v3/cogs/fun.py:193
 msgid " Roast someone in the server. "
-msgstr ""
+msgstr " Asa a alguien en el servidor. "
 
 #: Dredd-v3/cogs/fun.py:201
 msgid "You can't roast Moksej! I'll drop you a hint, though. There's a bypass that you can use to roast him ;)"
-msgstr ""
+msgstr "¡No puedes asar Moksej! Sin embargo, te dejaré una pista. Hay un salto que puedes usar para asarlo ;)"
 
 #: Dredd-v3/cogs/fun.py:206
 msgid "Don't you dare do that!"
@@ -2173,7 +2181,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:136
 msgid " A detailed information of the server the bot is hosted on. "
-msgstr ""
+msgstr " Una información detallada del servidor en el que el bot está alojado. "
 
 #: Dredd-v3/cogs/info.py:139
 #, python-brace-format
@@ -2359,7 +2367,7 @@ msgstr "Servidor comunitario"
 
 #: Dredd-v3/cogs/info.py:308
 msgid "Server Discovery"
-msgstr ""
+msgstr "Descubrimiento del Servidor"
 
 #: Dredd-v3/cogs/info.py:309
 msgid "Featurable"
