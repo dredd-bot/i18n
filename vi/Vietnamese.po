@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-06 02:08\n"
+"PO-Revision-Date: 2021-08-15 15:07\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -1013,7 +1013,7 @@ msgstr "{0} {1} (Các) thành viên bị tắt tiếng hội thoại"
 #: Dredd-v3/cogs/events/logs.py:925
 #, python-brace-format
 msgid "{0} {1} Member(s) voice unmuted"
-msgstr ""
+msgstr "{0} {1} Người voice unmuted"
 
 #: Dredd-v3/cogs/events/logs.py:958
 #, python-brace-format
@@ -1033,11 +1033,12 @@ msgstr "**(Các) Thành viên:**\n"
 #, python-brace-format
 msgid "*The original message was deleted or I'm missing permissions*\n\n"
 "Your reminder: {0}"
-msgstr ""
+msgstr "*Tin nhắn gốc đã bị xóa hoặc tôi thiếu quyền*\n\n"
+"Lời nhắc của bạn: {0}"
 
 #: Dredd-v3/cogs/other/tasks.py:219
 msgid "No one has connected to a voice channel in over 12 hours, to save up bot's resources I'll be destroying the player and leaving the voice channel."
-msgstr ""
+msgstr "Không ai kết nối với voice channel trong 12 giờ. Để tiết kiệm điện, tôi sẽ rời khỏi voice channel."
 
 #: Dredd-v3/cogs/automod.py:37
 msgid "Automod is disabled in this server, enable it by using `automod toggle` command"
