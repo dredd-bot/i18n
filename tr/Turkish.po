@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-04 08:12\n"
+"PO-Revision-Date: 2021-08-16 09:20\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -506,7 +506,13 @@ msgid "Thank you for using me! Unfortunately this command is vote locked and you
 "`[4]` {3}\n"
 "If you've voted already, please wait cause the API might be slow.\n\n"
 "*After you vote, you'll be able to use this command, and you will help Dredd gain more servers :D*"
-msgstr ""
+msgstr "Beni kullandığın için teşekkürler! Ne yazık ki bu komut oy gerektiriyor ve Dredd için oy vermeniz gerekecek. Bu listelerden herhangi birinde oy verebilirsiniz:\n"
+"`[1]` {0}\n"
+"`[2]` {1}\n"
+"`[3]` {2}\n"
+"`[4]` {3}\n"
+"Zaten oy verdiyseniz biraz bekleyin, bu işlem zaman alabilir.\n\n"
+"*Oy verdikten sonra bu komutu kullanabileceksiniz ve Dredd'in daha fazla sunucu kazanmasına yardımcı olacaksınız :D*"
 
 #: Dredd-v3/cogs/events/errors.py:141
 #, python-brace-format
@@ -516,7 +522,7 @@ msgstr "{0} Bu komut bir personel tarafından kilitlenmiş."
 #: Dredd-v3/cogs/events/errors.py:144
 #, python-brace-format
 msgid "{0} This command can only be used by boosters"
-msgstr ""
+msgstr "{0} Bu komutu sadece takviyeciler kullanabilir."
 
 #: Dredd-v3/cogs/events/errors.py:150
 #, python-brace-format
@@ -943,7 +949,7 @@ msgstr ""
 #: Dredd-v3/cogs/events/logs.py:626
 #, python-brace-format
 msgid "{0} {1} Member(s) hack-banned"
-msgstr ""
+msgstr "{0} {1} Üye(ler) yasaklandı"
 
 #: Dredd-v3/cogs/events/logs.py:657
 #, python-brace-format
@@ -1006,7 +1012,7 @@ msgstr "{0} {1} Üye(ler)in sesleri açıldı"
 #: Dredd-v3/cogs/events/logs.py:958
 #, python-brace-format
 msgid "{0} {1} Member(s) dehoisted"
-msgstr ""
+msgstr "{0} {1} Üye(ler) dehoist yapıldı"
 
 #: Dredd-v3/cogs/events/logs.py:959
 #, python-brace-format
