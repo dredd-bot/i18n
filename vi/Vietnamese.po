@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-15 15:07\n"
+"PO-Revision-Date: 2021-08-16 01:55\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -1113,7 +1113,18 @@ msgid "```\n"
 "**Ignore Moderators:** {8}\n"
 "**Delete Messages:** {9}\n"
 "**DM people during raid:** {10}{11}{12}"
-msgstr ""
+msgstr "```\n"
+"1. Chống thư rác        -       {0}\n"
+"2.  Chống nhiều Caps   -       {1}\n"
+"3. Chống lời mời     -       {2}\n"
+"4. Chống đề cập     -       {3}\n"
+"5. Chống liên kết       -       {4}\n"
+"--- Khác ---\n"
+"6. Chế độ chống đột kích        -       {5}```\n"
+"**Kênh nhật ký tự động kiểm duyệt** {6}{7}\n"
+"**Bỏ qua người kiểm duyệt:** {8}\n"
+"**Xóa tin nhắn:** {9}\n"
+"**Nhắn tin mọi người trong khi bị đột kích:** {10}{11}{12}"
 
 #: Dredd-v3/cogs/automod.py:85 Dredd-v3/cogs/automod.py:86
 msgid "Disabled"
@@ -1130,7 +1141,8 @@ msgstr "\n"
 #, python-brace-format
 msgid "\n"
 "**Caps Percentage:** {0}"
-msgstr ""
+msgstr "\n"
+"**Phần trăm Caps:** {0}"
 
 #: Dredd-v3/cogs/automod.py:93
 msgid "Manage automod in the server"
@@ -1177,11 +1189,11 @@ msgstr "{0} Chế độ tự động kiểm duyệt đã được tắt thành c
 
 #: Dredd-v3/cogs/automod.py:144
 msgid "Set global automod's value in the server"
-msgstr ""
+msgstr "Đặt giá trị của tự động kiểm duyệt toàn cầu trong máy chủ"
 
 #: Dredd-v3/cogs/automod.py:150
 msgid " Set global automod's value in the server "
-msgstr ""
+msgstr " Đặt giá trị của tự động kiểm duyệt tại máy chủ "
 
 #: Dredd-v3/cogs/automod.py:154 Dredd-v3/cogs/automod.py:211
 #: Dredd-v3/cogs/automod.py:243 Dredd-v3/cogs/automod.py:276
@@ -1206,7 +1218,7 @@ msgstr "nghiêm ngặt"
 #: Dredd-v3/cogs/automod.py:198
 #, python-brace-format
 msgid "{0} Successfully set the automod value to **{1}**"
-msgstr ""
+msgstr "{0} Đặt thành công giá trị của tự động kiểm duyệt thành **{1}**"
 
 #: Dredd-v3/cogs/automod.py:200
 msgid "Toggle anti links on or off"
