@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-16 15:14\n"
+"PO-Revision-Date: 2021-08-16 16:38\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4785,7 +4785,7 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:79
 #, python-brace-format
 msgid "{0} Limit exceeded by **{1}**"
-msgstr ""
+msgstr "{0} Límite superado por **{1}**"
 
 #: Dredd-v3/cogs/moderation.py:94
 #, python-brace-format
@@ -4801,7 +4801,7 @@ msgstr "{0} ¡Ocurrió un error!\n"
 
 #: Dredd-v3/cogs/moderation.py:105
 msgid "Purged **1** message"
-msgstr ""
+msgstr "**1** mensaje eliminado"
 
 #: Dredd-v3/cogs/moderation.py:107 Dredd-v3/cogs/moderation.py:116
 #, python-brace-format
