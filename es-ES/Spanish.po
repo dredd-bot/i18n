@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-15 23:53\n"
+"PO-Revision-Date: 2021-08-16 00:53\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2402,7 +2402,7 @@ msgstr "Descubrimiento del Servidor"
 
 #: Dredd-v3/cogs/info.py:309
 msgid "Featurable"
-msgstr ""
+msgstr "Funcional"
 
 #: Dredd-v3/cogs/info.py:310
 msgid "Invite Splash"
@@ -2410,7 +2410,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:311
 msgid "Member Verification Gate Enabled"
-msgstr ""
+msgstr "Puerta de Verificación de Miembros Activada"
 
 #: Dredd-v3/cogs/info.py:312
 msgid "News Channels"
@@ -2422,7 +2422,7 @@ msgstr "Asociado"
 
 #: Dredd-v3/cogs/info.py:314
 msgid "Prieview Enabled"
-msgstr ""
+msgstr "Previo Activado"
 
 #: Dredd-v3/cogs/info.py:315
 msgid "Vanity Invite"
@@ -2442,7 +2442,7 @@ msgstr "Pantalla de bienvenida"
 
 #: Dredd-v3/cogs/info.py:319
 msgid "Ticketed events enabled"
-msgstr ""
+msgstr "Eventos de tickets activados"
 
 #: Dredd-v3/cogs/info.py:320
 msgid "Monetization enabled"
@@ -2525,7 +2525,7 @@ msgstr "Obtén un enlace al servidor de soporte del bot"
 
 #: Dredd-v3/cogs/info.py:422
 msgid " A link to bot's support server. You can pass in boolean to get the non-embedded version of the invite "
-msgstr ""
+msgstr " Un link al servidor se soporte del bot. Puedes pasar en booleano para obtener la versión sin embed de la invitación "
 
 #: Dredd-v3/cogs/info.py:426
 #, python-brace-format
@@ -2543,7 +2543,7 @@ msgstr "Obtén la invitación del bot"
 
 #: Dredd-v3/cogs/info.py:437
 msgid " The bot's invite link. You can pass in boolean to get the non-embedded version of the invite "
-msgstr ""
+msgstr " El link de invitación del bot. Puedes pasar en booleano para obtener la versión sin incrustado de la invitación "
 
 #: Dredd-v3/cogs/info.py:441
 #, python-brace-format
@@ -2586,11 +2586,11 @@ msgstr "Puedes votar por mí en cualquiera de esas listas:\n"
 
 #: Dredd-v3/cogs/info.py:461
 msgid "The bot's Privacy Policy and Terms of Use"
-msgstr ""
+msgstr "La Política de Privacidad y los Términos de Uso del bot"
 
 #: Dredd-v3/cogs/info.py:465
 msgid " The bot's Privacy Policy and Terms of Use "
-msgstr ""
+msgstr " La Política de Privacidad y los Términos de Uso del bot "
 
 #: Dredd-v3/cogs/info.py:467
 #, python-brace-format
@@ -3015,7 +3015,7 @@ msgstr "Una visión general en la configuración del servidor"
 
 #: Dredd-v3/cogs/manage.py:101
 msgid " Rough overview on server settings, such as logging and more. "
-msgstr ""
+msgstr " Visión general en la configuración del servidor, como el registro y más. "
 
 #: Dredd-v3/cogs/manage.py:109 Dredd-v3/cogs/manage.py:110
 msgid "Default"
@@ -3045,7 +3045,11 @@ msgid "**Mute role:** {0}\n"
 "**Language:** {2}\n"
 "**Mod role:** {3}\n"
 "**Admin role:** {4}"
-msgstr ""
+msgstr "**Role de silenciado:** {0}\n"
+"**Prefijo:** `{1}`\n"
+"**Idioma:** {2}\n"
+"**Role de Moderador:** {3}\n"
+"**Role de Administrador:** {4}"
 
 #: Dredd-v3/cogs/manage.py:121
 msgid "Not found"
@@ -3054,7 +3058,7 @@ msgstr "No encontrado"
 #: Dredd-v3/cogs/manage.py:128
 #, python-brace-format
 msgid "Run `{0}serversettings joinembed` to view the welcome embed"
-msgstr ""
+msgstr "Ejecuta `{0}serversettings joinembed` para ver el incrustado de bienvenida"
 
 #: Dredd-v3/cogs/manage.py:131
 msgid "Welcome Message"
@@ -3063,7 +3067,7 @@ msgstr "Mensaje de bienvenida"
 #: Dredd-v3/cogs/manage.py:135
 #, python-brace-format
 msgid "Run `{0}serversettings leaveembed` to view the leave embed"
-msgstr ""
+msgstr "Ejecuta `{0}serversettings leaveembed` para ver el incrustado de despedida"
 
 #: Dredd-v3/cogs/manage.py:138
 msgid "Leave Message"
@@ -3071,7 +3075,7 @@ msgstr "Mensaje de despedida"
 
 #: Dredd-v3/cogs/manage.py:141
 msgid "View welcoming embed"
-msgstr "Ver embed de bienvenida"
+msgstr "Ver incrustado de bienvenida"
 
 #: Dredd-v3/cogs/manage.py:145
 msgid " View welcoming messages embed "
@@ -3085,7 +3089,7 @@ msgstr "{0} Los mensajes de bienvenida están deshabilitados en este servidor."
 #: Dredd-v3/cogs/manage.py:153
 #, python-brace-format
 msgid "{0} Welcome messages do not use embeds in this server."
-msgstr "{0} Los mensajes de bienvenida no usan embeds en este servidor."
+msgstr "{0} Los mensajes de bienvenida no usan incrustados en este servidor."
 
 #: Dredd-v3/cogs/manage.py:161 Dredd-v3/cogs/manage.py:185
 #, python-brace-format
@@ -3094,11 +3098,11 @@ msgstr "{0} El código de embed no es válido, o solo el texto plano es visible.
 
 #: Dredd-v3/cogs/manage.py:163
 msgid "Your welcome embed looks like this: *plain text is not displayed*"
-msgstr "Tu embed de bienvenida se ve así: * el texto plano no se muestra*"
+msgstr "Tu incrustado de bienvenida se ve así: * el texto plano no se muestra*"
 
 #: Dredd-v3/cogs/manage.py:165
 msgid "View leaving embed"
-msgstr "Ver embed de despedida"
+msgstr "Ver incrustado de despedida"
 
 #: Dredd-v3/cogs/manage.py:169
 msgid " View leaving messages embed "
@@ -3112,15 +3116,15 @@ msgstr "{0} Los mensajes de despedida están deshabilitados en este servidor."
 #: Dredd-v3/cogs/manage.py:177
 #, python-brace-format
 msgid "{0} Leave messages do not use embeds in this server."
-msgstr "{0} Los mensajes de despedida no usan embeds en este servidor."
+msgstr "{0} Los mensajes de despedida no usan incrustados en este servidor."
 
 #: Dredd-v3/cogs/manage.py:187
 msgid "Your leave embed looks like this: *plain text is not displayed*"
-msgstr "Tu embed de despedida se ve así: * el texto plano no se muestra*"
+msgstr "Tu incrustado de despedida se ve así: * el texto plano no se muestra*"
 
 #: Dredd-v3/cogs/manage.py:189
 msgid "Toggle logging on or off"
-msgstr ""
+msgstr "Cambia el registro a encendido/apagado"
 
 #: Dredd-v3/cogs/manage.py:198
 msgid " Base command for managign logging in the server "
@@ -3128,7 +3132,7 @@ msgstr " Comando base para gestionar el registro en el servidor "
 
 #: Dredd-v3/cogs/manage.py:201
 msgid "Toggle member logging in the server"
-msgstr ""
+msgstr "Cambia el registro de miembros en el servidor"
 
 #: Dredd-v3/cogs/manage.py:208
 msgid " This enables or disables member logging.\n"
@@ -3143,32 +3147,34 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:223
 #, python-brace-format
 msgid "{0} Successfully changed the member logging channel. I will now send member updates in {1}."
-msgstr ""
+msgstr "{0} He cambiado el canal de registro de miembros. Ahora enviaré las actualizaciones de miembros en {1}."
 
 #: Dredd-v3/cogs/manage.py:226
 #, python-brace-format
 msgid "{0} You don't have member logs enabled in this server.\n"
 "*Hint: If you want to enable logging, you need to provide a channel where logging should be sent to*"
-msgstr ""
+msgstr "{0} No tienes el registro de miembros activado en este servidor.\n"
+"*Pista: Si quieres habilitar el registro, necesitas proporcionar un canal en donde el registro debe ser enviado*"
 
 #: Dredd-v3/cogs/manage.py:231
 #, python-brace-format
 msgid "{0} Successfully enabled member logs. I will now send member updates in {1}."
-msgstr ""
+msgstr "{0} He activado el registro de miembros con éxito. Ahora enviaré las actualizaciones de miembros en {1}."
 
 #: Dredd-v3/cogs/manage.py:235
 msgid "Toggle join logs in the server"
-msgstr ""
+msgstr "Alterna el registro de miembros que se unen en el servidor"
 
 #: Dredd-v3/cogs/manage.py:242
 msgid " This enables or disables new members logging\n"
 "        New member logging includes: join logging. "
-msgstr ""
+msgstr " Esto activa o desactiva el registro de nuevos miembros\n"
+"        El registro de nuevos miembros incluye: registro de unión. "
 
 #: Dredd-v3/cogs/manage.py:253
 #, python-brace-format
 msgid "{0} New members logging was successfully disabled."
-msgstr ""
+msgstr "{0} El registro de nuevos miembros fue desactivado con éxito."
 
 #: Dredd-v3/cogs/manage.py:258
 #, python-brace-format
@@ -3478,7 +3484,7 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:607
 #, python-brace-format
 msgid "**Here is your new welcome embed:**{0}"
-msgstr "**Aquí está tu nuevo embed de bienvenida:**{0}"
+msgstr "**Aquí está tu nuevo incrustado de bienvenida:**{0}"
 
 #: Dredd-v3/cogs/manage.py:610
 msgid "Toggle welcoming messages type"
@@ -3491,12 +3497,12 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:630
 #, python-brace-format
 msgid "{0} Welcome messages will not be sent in embeds anymore."
-msgstr "{0} Los mensajes de bienvenida ya no serán enviados en embeds."
+msgstr "{0} Los mensajes de bienvenida ya no serán enviados en incrustados."
 
 #: Dredd-v3/cogs/manage.py:635
 #, python-brace-format
 msgid "{0} Welcome messages will now be sent in embeds."
-msgstr "{0} Los mensajes de bienvenida ahora serán enviados en embeds."
+msgstr "{0} Los mensajes de bienvenida ahora serán enviados en incrustados."
 
 #: Dredd-v3/cogs/manage.py:638
 msgid "Toggle bot welcoming messages"
@@ -4039,7 +4045,7 @@ msgstr "Respuesta inválida, intenta de nuevo."
 
 #: Dredd-v3/cogs/manage.py:1367
 msgid "Should the message be an embed? `yes` | `y` | `no` | `n` | `cancel`"
-msgstr "¿Debe el mensaje ser un embed? `yes` | `y` | `no` | `n` | `cancel`"
+msgstr "¿Debe el mensaje ser un incrustado? `yes` | `y` | `no` | `n` | `cancel`"
 
 #: Dredd-v3/cogs/manage.py:1384
 msgid "What channel should I send the message to?"
