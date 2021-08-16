@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-16 16:38\n"
+"PO-Revision-Date: 2021-08-16 20:58\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3644,7 +3644,7 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:810
 #, python-brace-format
 msgid "{0} Bot leave messages have been turned off."
-msgstr ""
+msgstr "{0} Los mensajes de despedida de bots han sido desactivados."
 
 #: Dredd-v3/cogs/manage.py:814
 #, python-brace-format
@@ -4016,11 +4016,11 @@ msgstr "{0} La categoría {1} fue reactivada con éxito"
 
 #: Dredd-v3/cogs/manage.py:1320
 msgid "Setup reaction roles in the server"
-msgstr ""
+msgstr "Configura los roles de reacción en el servidor"
 
 #: Dredd-v3/cogs/manage.py:1328
 msgid " Base command for managing reaction roles "
-msgstr ""
+msgstr " Comando base para administrar los roles de reacción "
 
 #: Dredd-v3/cogs/manage.py:1332
 msgid "Create a new reaction role"
@@ -4028,7 +4028,7 @@ msgstr "Crea un nuevo role de reacción"
 
 #: Dredd-v3/cogs/manage.py:1340
 msgid " Start an interactive setup to create reaction roles "
-msgstr ""
+msgstr " Inicia una configuración interactiva para crear roles de reacción "
 
 #: Dredd-v3/cogs/manage.py:1347
 msgid "Do you want me to use an existing message or a new one? `new` | `existing` | `n` | `e` | `old` | `cancel` *You have 60 seconds*"
@@ -4062,7 +4062,7 @@ msgstr "No puedo enviar mensajes en ese canal, por favor dame permisos para envi
 
 #: Dredd-v3/cogs/manage.py:1394
 msgid "I can't embed links in that channel, please give me permissions to embed links there or choose another channel in which I can embed links."
-msgstr ""
+msgstr "No puedo incrustar enlaces en ese canal, por favor, dame permisos para incrustar enlaces allí o elige otro canal en el que pueda incrustar enlaces."
 
 #: Dredd-v3/cogs/manage.py:1399
 msgid "Can't find that channel, if that's even a channel."
@@ -4070,19 +4070,19 @@ msgstr "No puedo encontrar ese canal, si es incluso un canal."
 
 #: Dredd-v3/cogs/manage.py:1403
 msgid "Send the link of the message you want to use for reaction roles."
-msgstr ""
+msgstr "Envía el enlace al mensaje que quieres usar para los roles de reacción."
 
 #: Dredd-v3/cogs/manage.py:1415
 msgid "Can't find that message, please make sure the link is valid and I can see the channel, message history."
-msgstr ""
+msgstr "No puedo encontrar ese mensaje, por favor, asegúrate de que el link es válido y puedo ver el canal y el historial de mensajes."
 
 #: Dredd-v3/cogs/manage.py:1425
 msgid "Please send a **single** emoji that you'd like to use."
-msgstr ""
+msgstr "Por favor, envía un **solo** emoji que te gustaría usar."
 
 #: Dredd-v3/cogs/manage.py:1434
 msgid "That emoji is already being used for reaction roles"
-msgstr ""
+msgstr "Ese emoji ya está siendo usado para los roles de reacción"
 
 #: Dredd-v3/cogs/manage.py:1442
 msgid "Invalid emoji, try again."
@@ -4173,7 +4173,7 @@ msgstr "Obtén una lista de los roles de reacción en el servidor"
 
 #: Dredd-v3/cogs/manage.py:1591
 msgid " Get a list of reaction roles in the server "
-msgstr ""
+msgstr " Obtén una lista de los roles de reacción en el servidor "
 
 #: Dredd-v3/cogs/manage.py:1596
 msgid "No reaction roles are setup in this server."
@@ -4426,11 +4426,11 @@ msgstr "Lista de tareas de {0}"
 
 #: Dredd-v3/cogs/misc.py:293 Dredd-v3/cogs/misc.py:307
 msgid "Information about your todo item"
-msgstr ""
+msgstr "Información acerca de tu elemento de tareas"
 
 #: Dredd-v3/cogs/misc.py:297
 msgid " Get more information about your todo item "
-msgstr ""
+msgstr " Obtén más información acerca de tu elemento de tareas "
 
 #: Dredd-v3/cogs/misc.py:309
 #, python-brace-format
@@ -4438,7 +4438,10 @@ msgid "**Todo:** {0}\n\n"
 "**Todo position:** {1}/{2}\n"
 "**Todo added:** {3}\n"
 "**Jump url:** [click here to jump]({4})"
-msgstr ""
+msgstr "**Tarea:** {0}\n\n"
+"**Posición de la tarea:** {1}/{2}\n"
+"**Tarea añadida:** {3}\n"
+"**Url de salto:** [presiona aquí para saltar]({4})"
 
 #: Dredd-v3/cogs/misc.py:315
 msgid "Remove a todo from your list"
@@ -4471,7 +4474,7 @@ msgstr " Borra tus tareas "
 #: Dredd-v3/cogs/misc.py:350
 #, python-brace-format
 msgid "{0} There's nothing to clear. Your todo list is already empty."
-msgstr ""
+msgstr "{0} No hay nada que limpiar. Tu lista de tareas ya está vacía."
 
 #: Dredd-v3/cogs/misc.py:356
 #, python-brace-format
@@ -4481,12 +4484,12 @@ msgstr "¿Estás seguro de que quieres borrar **{0}** elementos de tu lista de t
 #: Dredd-v3/cogs/misc.py:366
 #, python-brace-format
 msgid "{0} Deleted {1} items from your todo list"
-msgstr ""
+msgstr "{0} He eliminado {1} elementos de tu lista de tareas"
 
 #: Dredd-v3/cogs/misc.py:376
 #, python-brace-format
 msgid "{0} I'm not deleting any items from your todo list."
-msgstr ""
+msgstr "{0} No eliminaré ningún elemento de tu lista de tareas."
 
 #: Dredd-v3/cogs/misc.py:383
 msgid "Canceling..."
@@ -4494,53 +4497,53 @@ msgstr "Cancelando..."
 
 #: Dredd-v3/cogs/misc.py:385
 msgid "Set your AFK status in the current server"
-msgstr ""
+msgstr "Establece tu estado de AFK en el servidor actual"
 
 #: Dredd-v3/cogs/misc.py:391
 msgid " Set your AFK status in the current server so users who mention you would know that you're AFK "
-msgstr ""
+msgstr " Establece tu estado de AFK en el servidor actual para que usuarios que te mencionen sepan que estás AFK "
 
 #: Dredd-v3/cogs/misc.py:396
 #, python-brace-format
 msgid "{0} You've set your AFK status globally already."
-msgstr ""
+msgstr "{0} Ya has establecido tu estado de AFK globalmente."
 
 #: Dredd-v3/cogs/misc.py:407
 #, python-brace-format
 msgid "{0} **Changed your AFK state to:** {1}"
-msgstr ""
+msgstr "{0} **He cambiado tu estado de AFK a:** {1}"
 
 #: Dredd-v3/cogs/misc.py:413
 #, python-brace-format
 msgid "{0} ** Set your AFK state to:** {1}"
-msgstr ""
+msgstr "{0} **He establecido tu estado de AFK a:** {1}"
 
 #: Dredd-v3/cogs/misc.py:417
 msgid "Set your AFK status globally"
-msgstr ""
+msgstr "Establece tu estado de AFK globalmente"
 
 #: Dredd-v3/cogs/misc.py:423
 msgid " Set your AFK status in all the shared servers with the bot so users who mention you would know that you're AFK "
-msgstr ""
+msgstr " Establece tu estado de AFK en todos los servidores compartidos con el bot para que los usuarios que te mencionen sepan que estás AFK "
 
 #: Dredd-v3/cogs/misc.py:429
 #, python-brace-format
 msgid "{0} You first need to unafk yourself in **{1}** servers!"
-msgstr ""
+msgstr "{0} ¡Primero necesitas quitarte el estado de AFK en **{1}** servidores!"
 
 #: Dredd-v3/cogs/misc.py:440
 #, python-brace-format
 msgid "{0} **Changed your global AFK state to:** {1}"
-msgstr ""
+msgstr "{0} **He cambiado tu estado de AFK global a:** {1}"
 
 #: Dredd-v3/cogs/misc.py:446
 #, python-brace-format
 msgid "{0} ** Set your global AFK state to:** {1}"
-msgstr ""
+msgstr "{0} **He establecido tu estado de AFK global a:** {1}"
 
 #: Dredd-v3/cogs/misc.py:450
 msgid "See the latest deleted message in a channel."
-msgstr ""
+msgstr "Mira el último mensaje borrado en un canal."
 
 #: Dredd-v3/cogs/misc.py:455
 msgid " Snipe latest deleted message in the current or mentioned channel "
@@ -4960,7 +4963,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:294
 msgid "Kick member from the server"
-msgstr ""
+msgstr "Expulsa a un miembro del servidor"
 
 #: Dredd-v3/cogs/moderation.py:301
 msgid " Kick a member from the server. If multiple members are provided, they all get kicked from the server. "
@@ -5177,11 +5180,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:751
 msgid "Wrong emoji; please try again."
-msgstr ""
+msgstr "Emoji incorrecto; por favor, intenta de nuevo."
 
 #: Dredd-v3/cogs/moderation.py:767
 msgid "Mute member in the server"
-msgstr ""
+msgstr "Silencia a un miembro del servidor"
 
 #: Dredd-v3/cogs/moderation.py:774
 msgid " Mute members in the server\n"
@@ -5519,7 +5522,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:1495
 msgid "Freeze the server"
-msgstr ""
+msgstr "Congela el servidor"
 
 #: Dredd-v3/cogs/moderation.py:1502
 msgid " Freezes everyone from sending messages in the server "
@@ -5528,16 +5531,16 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:1510
 #, python-brace-format
 msgid "{0} Server is now frozen!"
-msgstr ""
+msgstr "{0} ¡El servidor ahora está congelado!"
 
 #: Dredd-v3/cogs/moderation.py:1514
 #, python-brace-format
 msgid "{0} Server is already frozen!"
-msgstr ""
+msgstr "{0} ¡El servidor ya está congelado!"
 
 #: Dredd-v3/cogs/moderation.py:1516
 msgid "Unfreeze the server"
-msgstr ""
+msgstr "Descongela el servidor"
 
 #: Dredd-v3/cogs/moderation.py:1523
 msgid " Unfreezes everyone from sending messages in the server "
@@ -5551,19 +5554,19 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:1536
 #, python-brace-format
 msgid "{0} Server is not frozen!"
-msgstr ""
+msgstr "{0} ¡El servidor no está congelado!"
 
 #: Dredd-v3/cogs/moderation.py:1538
 msgid "Create a role"
-msgstr ""
+msgstr "Crea un role"
 
 #: Dredd-v3/cogs/moderation.py:1545
 msgid " Create a role in the server "
-msgstr ""
+msgstr " Crea un role en el servidor "
 
 #: Dredd-v3/cogs/moderation.py:1548
 msgid "Role name can't be longer than 100 characters"
-msgstr ""
+msgstr "El nombre del role no puede tener más de 100 caracteres"
 
 #: Dredd-v3/cogs/moderation.py:1551
 #, python-brace-format
