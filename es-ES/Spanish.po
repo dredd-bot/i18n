@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-16 04:22\n"
+"PO-Revision-Date: 2021-08-16 14:18\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2525,7 +2525,7 @@ msgstr "Obtén un enlace al servidor de soporte del bot"
 
 #: Dredd-v3/cogs/info.py:422
 msgid " A link to bot's support server. You can pass in boolean to get the non-embedded version of the invite "
-msgstr " Un link al servidor se soporte del bot. Puedes pasar en booleano para obtener la versión sin embed de la invitación "
+msgstr " Un enlace al servidor se soporte del bot. Puedes pasar en booleano para obtener la versión sin incrustado de la invitación "
 
 #: Dredd-v3/cogs/info.py:426
 #, python-brace-format
@@ -3079,7 +3079,7 @@ msgstr "Ver incrustado de bienvenida"
 
 #: Dredd-v3/cogs/manage.py:145
 msgid " View welcoming messages embed "
-msgstr " Ver mensajes de bienvenida en embed "
+msgstr " Ver mensajes de bienvenida en incrustado "
 
 #: Dredd-v3/cogs/manage.py:149
 #, python-brace-format
@@ -3106,7 +3106,7 @@ msgstr "Ver incrustado de despedida"
 
 #: Dredd-v3/cogs/manage.py:169
 msgid " View leaving messages embed "
-msgstr " Ver mensajes de despedida en embed "
+msgstr " Ver mensajes de despedida en incrustado "
 
 #: Dredd-v3/cogs/manage.py:173
 #, python-brace-format
@@ -3469,12 +3469,12 @@ msgstr "{0} **Se estableció correctamente tu mensaje de bienvenida a:**\n"
 #: Dredd-v3/cogs/manage.py:592
 #, python-brace-format
 msgid "{0} Your sent dict is invalid. Please use <https://embedbuilder.nadekobot.me/> to create an embed dict, then paste the code here."
-msgstr ""
+msgstr "{0} Tu incrustado es inválido. Por favor, usa <https://embedbuilder.nadekobot.me/> para crear un dictado de incrustado y luego pega el código aquí."
 
 #: Dredd-v3/cogs/manage.py:602
 #, python-brace-format
 msgid "{0} Your embed seems to be empty. Please use <https://embedbuilder.nadekobot.me/> to create an embed dict, then paste the code here."
-msgstr "{0} Tu embed parece estar vacío. Por favor, usa <https://embedbuilder.nadekobot.me/> para crear un dictado de embed y luego pega el código aquí."
+msgstr "{0} Tu incrustado parece estar vacío. Por favor, usa <https://embedbuilder.nadekobot.me/> para crear un dictado de incrustado y luego pega el código aquí."
 
 #: Dredd-v3/cogs/manage.py:606 Dredd-v3/cogs/manage.py:758
 #, python-brace-format
@@ -3599,7 +3599,7 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:754
 #, python-brace-format
 msgid "{0} Your embed seems to be empty. Please use <https://embedbuilder.nadekobot.me/> to create an embed dict and then paste that code."
-msgstr "{0} Tu embed parece estar vacío. Por favor, usa <https://embedbuilder.nadekobot.me/> para crear un dictado de embed y luego pega el código aquí."
+msgstr "{0} Tu incrustado parece estar vacío. Por favor, usa <https://embedbuilder.nadekobot.me/> para crear un dictado de incrustado y luego pega el código aquí."
 
 #: Dredd-v3/cogs/manage.py:759
 #, python-brace-format
