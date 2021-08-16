@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-16 14:18\n"
+"PO-Revision-Date: 2021-08-16 15:14\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3480,7 +3480,8 @@ msgstr "{0} Tu incrustado parece estar vacío. Por favor, usa <https://embedbuil
 #, python-brace-format
 msgid "\n"
 "**Plain Text:** {0}"
-msgstr ""
+msgstr "\n"
+"**Texto plano:** {0}"
 
 #: Dredd-v3/cogs/manage.py:607
 #, python-brace-format
@@ -3489,11 +3490,11 @@ msgstr "**Aquí está tu nuevo incrustado de bienvenida:**{0}"
 
 #: Dredd-v3/cogs/manage.py:610
 msgid "Toggle welcoming messages type"
-msgstr ""
+msgstr "Cambia el tipo de mensajes de bienvenida"
 
 #: Dredd-v3/cogs/manage.py:616
 msgid " Toggle welcoming messages between embedded and plain text. "
-msgstr ""
+msgstr " Alterna los mensajes de bienvenida entre texto incrustado y texto plano. "
 
 #: Dredd-v3/cogs/manage.py:630
 #, python-brace-format
@@ -3511,7 +3512,7 @@ msgstr "Alterna los mensajes de bienvenida para bots"
 
 #: Dredd-v3/cogs/manage.py:645
 msgid " Toggle whether or not bot joins should be logged. "
-msgstr ""
+msgstr " Alterna si cuando se unen bots deben ser registrados o no. "
 
 #: Dredd-v3/cogs/manage.py:658
 #, python-brace-format
@@ -3529,7 +3530,7 @@ msgstr "Edita los mensajes de despedida"
 
 #: Dredd-v3/cogs/manage.py:670
 msgid " Base command for managing leaving messages in the server "
-msgstr ""
+msgstr " Comando base para gestionar los mensajes de despedida en el servidor "
 
 #: Dredd-v3/cogs/manage.py:673
 msgid "Set the channel for leaving messages"
@@ -3538,12 +3539,13 @@ msgstr "Establece el canal para los mensajes de despedida"
 #: Dredd-v3/cogs/manage.py:679
 msgid " Set a channel where leaving messages should be sent to.\n"
 "        Make sure bot has permissions to send messages in that channel. "
-msgstr ""
+msgstr " Establece un canal al que se deben enviar los mensajes de despedida.\n"
+"        Asegúrate de que el bot tiene permisos para enviar mensajes en ese canal. "
 
 #: Dredd-v3/cogs/manage.py:690
 #, python-brace-format
 msgid "{0} Leave messages are now disabled."
-msgstr ""
+msgstr "{0} Los mensajes de despedida ahora están desactivados."
 
 #: Dredd-v3/cogs/manage.py:694
 #, python-brace-format
@@ -3554,12 +3556,13 @@ msgstr "{0} Ahora enviaré los mensajes de despedida en {1}."
 #, python-brace-format
 msgid "{0} You don't have leave messages enabled in this server.\n"
 "*Hint: If you want to enable them, you need to provide a channel where they should be sent to*"
-msgstr ""
+msgstr "{0} No tienes los mensajes de despedida activados en este servidor.\n"
+"*Pista: Si los quieres activar, necesitas proporcionar un canal en donde los mensajes deben ser enviados*"
 
 #: Dredd-v3/cogs/manage.py:703
 #, python-brace-format
 msgid "{0} Successfully enabled leave messages. I will now send leave messages in {1}."
-msgstr ""
+msgstr "{0} He activado los mensajes de despedida con éxito. Ahora enviaré los mensajes de despedida en {1}."
 
 #: Dredd-v3/cogs/manage.py:707
 msgid "Set the leaving message"
@@ -3568,17 +3571,18 @@ msgstr "Establece el mensaje de salida"
 #: Dredd-v3/cogs/manage.py:714
 msgid " Set the leaving messages in the server\n"
 "        Passing no message will reset your leaving message to the default one "
-msgstr ""
+msgstr " Establece los mensajes de despedida en el servidor\n"
+"        Pasar ningún mensaje restablecerá su mensaje de despedida al predeterminado "
 
 #: Dredd-v3/cogs/manage.py:720
 #, python-brace-format
 msgid "{0} Why are you trying to set up leave messages without having them toggled on? To enable them run `{1}leaving channel [#channel]`"
-msgstr ""
+msgstr "{0} ¿Por qué estás intentando configurar los mensajes de despedida sin que estén activados? Para activarlos ejecuta `{1}leaving channel [#canal]`"
 
 #: Dredd-v3/cogs/manage.py:730 Dredd-v3/cogs/manage.py:750
 #, python-brace-format
 msgid "{0} Your current leave message is the same as the new one."
-msgstr ""
+msgstr "{0} You mensaje de despedida actual es igual al nuevo."
 
 #: Dredd-v3/cogs/manage.py:732
 #, python-brace-format
@@ -3645,7 +3649,7 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:814
 #, python-brace-format
 msgid "{0} Bot leave messages have been turned on."
-msgstr ""
+msgstr "{0} Los mensajes de despedida de bots han sido activados."
 
 #: Dredd-v3/cogs/manage.py:817 Dredd-v3/cogs/manage.py:1050
 msgid "Toggle role on join"
@@ -3653,7 +3657,7 @@ msgstr "Cambie el rol al unirse"
 
 #: Dredd-v3/cogs/manage.py:825
 msgid " Base command for managing role on join "
-msgstr ""
+msgstr " Comando base para administrar roles al unirse "
 
 #: Dredd-v3/cogs/manage.py:829
 msgid "Set role on join for users"
@@ -4020,7 +4024,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:1332
 msgid "Create a new reaction role"
-msgstr ""
+msgstr "Crea un nuevo role de reacción"
 
 #: Dredd-v3/cogs/manage.py:1340
 msgid " Start an interactive setup to create reaction roles "
@@ -4062,7 +4066,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:1399
 msgid "Can't find that channel, if that's even a channel."
-msgstr ""
+msgstr "No puedo encontrar ese canal, si es incluso un canal."
 
 #: Dredd-v3/cogs/manage.py:1403
 msgid "Send the link of the message you want to use for reaction roles."
@@ -4087,15 +4091,15 @@ msgstr "Emoji inválido, intenta de nuevo."
 #: Dredd-v3/cogs/manage.py:1446
 #, python-brace-format
 msgid "Please send a role that you'd like to assign to emoji - {0}"
-msgstr ""
+msgstr "Por favor, envía un role que te gustaría asignar al emoji - {0}"
 
 #: Dredd-v3/cogs/manage.py:1457 Dredd-v3/cogs/manage.py:1517
 msgid "That role is already used in the reaction role, please choose another role."
-msgstr ""
+msgstr "Ese role ya está usado en los roles de reacción, por favor, elige otro role."
 
 #: Dredd-v3/cogs/manage.py:1464
 msgid "The role you've provided is higher in the role hierarchy, please make sure I can access the role."
-msgstr ""
+msgstr "El role que has proporcionado es más alto en la jerarquía de roles, por favor, asegúrate de que puedo acceder al role."
 
 #: Dredd-v3/cogs/manage.py:1466 Dredd-v3/cogs/manage.py:1522
 msgid "Invalid role, try again."
@@ -4103,29 +4107,29 @@ msgstr "Role inválido, intenta de nuevo."
 
 #: Dredd-v3/cogs/manage.py:1475
 msgid "Do you wish to add more reaction roles? `yes` | `y` | `n` | `no` | `cancel` to cancel the command"
-msgstr ""
+msgstr "¿Deseas añadir más roles de reacción? `yes` | `y` | `n` | `no` | `cancel` para cancelar el comando"
 
 #: Dredd-v3/cogs/manage.py:1492
 msgid "Do you only want users with certain roles to access the reaction roles? `yes` | `y` | `n` | `no` | `cancel` to cancel the command"
-msgstr ""
+msgstr "¿Quiéres que sólo los usuarios con ciertos roles accedan a los roles de reacción? `yes` | `y` | `n` | `no` | `cancel` para cancelar el comando"
 
 #: Dredd-v3/cogs/manage.py:1508
 msgid "What role do users need in order to access the reaction roles?"
-msgstr ""
+msgstr "¿Qué roles necesitan los usuarios para acceder a los roles de reacción?"
 
 #: Dredd-v3/cogs/manage.py:1528
 #, python-brace-format
 msgid "How many roles should users be able to get from the reaction role? Send {0} if all."
-msgstr ""
+msgstr "¿Cuántos roles pueden obtener de los roles de reacción? Envía {0} si quieres que todos."
 
 #: Dredd-v3/cogs/manage.py:1537
 #, python-brace-format
 msgid "Set the max number of roles to **{0}**"
-msgstr ""
+msgstr "He establecido el número máximo de roles a **{0}**"
 
 #: Dredd-v3/cogs/manage.py:1539
 msgid "Answer must be a number or `cancel` to cancel."
-msgstr ""
+msgstr "La respuesta debe ser un número o `cancel` para cancelar."
 
 #: Dredd-v3/cogs/manage.py:1543 Dredd-v3/cogs/manage.py:1550
 msgid "**Available Roles:**"
@@ -4134,16 +4138,17 @@ msgstr "**Roles Disponibles:**"
 #: Dredd-v3/cogs/manage.py:1547 Dredd-v3/cogs/manage.py:1554
 msgid "\n\n"
 "*React to the reactions below to get the corresponding roles.*"
-msgstr ""
+msgstr "\n\n"
+"*Reacciona a las reacciones de abajo para obtener los roles correspondientes.*"
 
 #: Dredd-v3/cogs/manage.py:1564
 #, python-brace-format
 msgid "{0} Something failed while adding the reactions, did you deleted the message?"
-msgstr ""
+msgstr "{0} Algo falló al agregar las reacciones, ¿borraste el mensaje?"
 
 #: Dredd-v3/cogs/manage.py:1571
 msgid "Reaction Roles Setup Completed"
-msgstr ""
+msgstr "Configuración de los Roles de Reacción Completado"
 
 #: Dredd-v3/cogs/manage.py:1572
 #, python-brace-format
@@ -4152,15 +4157,19 @@ msgid "Reaction roles setup for [**message**]({0}) was successfully completed.\n
 "**Roles:** {2}\n"
 "**Roles limit:** {3}\n"
 "**Required Role:** {4}"
-msgstr ""
+msgstr "La configuración de los roles de reacción para [**mensaje**]({0}) se completó correctamente.\n\n"
+"**Reacciones:** {1}\n"
+"**Roles:** {2}\n"
+"**Límite de Roles:** {3}\n"
+"**Rol requerido:** {4}"
 
 #: Dredd-v3/cogs/manage.py:1581
 msgid "Timed out, please re-run the command."
-msgstr ""
+msgstr "Tiempo de espera agotado, por favor, vuelve a ejecutar el comando."
 
 #: Dredd-v3/cogs/manage.py:1585
 msgid "Get a list of reaction roles in the server"
-msgstr ""
+msgstr "Obtén una lista de los roles de reacción en el servidor"
 
 #: Dredd-v3/cogs/manage.py:1591
 msgid " Get a list of reaction roles in the server "
@@ -4201,11 +4210,11 @@ msgstr "Roles de reacción en {0}"
 
 #: Dredd-v3/cogs/manage.py:1638
 msgid "Delete reaction roles in the server"
-msgstr ""
+msgstr "Elimina los roles de reacción en el servidor"
 
 #: Dredd-v3/cogs/manage.py:1644
 msgid " Delete reaction roles in the server "
-msgstr ""
+msgstr " Elimina los roles de reacción en el servidor "
 
 #: Dredd-v3/cogs/manage.py:1647
 msgid "Message ID must not include letters, only numbers"
@@ -4257,23 +4266,25 @@ msgstr ""
 
 #: Dredd-v3/cogs/misc.py:115
 msgid "characters"
-msgstr ""
+msgstr "caracteres"
 
 #: Dredd-v3/cogs/misc.py:115
 msgid "character"
-msgstr ""
+msgstr "carácter"
 
 #: Dredd-v3/cogs/misc.py:116
 #, python-brace-format
 msgid "{0} Suggestions can only be 1000 characters long. You're {1} {2} over the limit."
-msgstr ""
+msgstr "{0} Las sugerencias no pueden tener más de 1000 caracteres. El tuyo tiene {1} {2} encima del límite."
 
 #: Dredd-v3/cogs/misc.py:134
 #, python-brace-format
 msgid "Your suggestion was successfully submitted in [my support server!]({0}) You'll get notified in your DMs when the suggestion will be approved or denied.People can also follow this suggestion using `{1}suggestion track {2}`\n"
 "**Suggestion:**\n"
 ">>> {3} "
-msgstr ""
+msgstr "Tu sugerencia fue enviada con éxito en [mi servidor de soporte!]({0}) Serás notificado en mensajes privados cuando la sugerencia sea aprobada o denegada. Las personas también pueden seguir esta sugerencia usadno `{1}suggestion track {2}`\n"
+"**Sugerencia:**\n"
+">>> {3} "
 
 #: Dredd-v3/cogs/misc.py:138
 #, python-brace-format
@@ -4282,57 +4293,57 @@ msgstr "Sugerencia enviada como #{0}"
 
 #: Dredd-v3/cogs/misc.py:141
 msgid "Track and untrack suggestions"
-msgstr ""
+msgstr "Rastrea y deja de rastrear sugerencias"
 
 #: Dredd-v3/cogs/misc.py:145
 msgid " Base command for tracking suggestions "
-msgstr ""
+msgstr " Comando base para rastrear sugerencias "
 
 #: Dredd-v3/cogs/misc.py:148
 msgid "Track a suggestion"
-msgstr ""
+msgstr "Rastrea una sugerencia"
 
 #: Dredd-v3/cogs/misc.py:152
 msgid " Start tracking a suggestion "
-msgstr ""
+msgstr " Empieza a rastrear una sugerencia "
 
 #: Dredd-v3/cogs/misc.py:158 Dredd-v3/cogs/misc.py:178
 #, python-brace-format
 msgid "{0} Suggestion **#{1}** doesn't exist."
-msgstr ""
+msgstr "{0} La sugerencia **#{1}** no existe."
 
 #: Dredd-v3/cogs/misc.py:160
 #, python-brace-format
 msgid "{0} You're already following that suggestion."
-msgstr ""
+msgstr "{0} Ya estás siguiendo esa sugerencia."
 
 #: Dredd-v3/cogs/misc.py:163
 #, python-brace-format
 msgid "{0} | Started following suggestion **#{1}**. I'll DM you when the suggestion's status has been updated."
-msgstr ""
+msgstr "{0} | He empezado a seguir la sugerencia **#{1}**. Te enviaré un mensaje privado cuando el estado de la sugerencia sea actualizado."
 
 #: Dredd-v3/cogs/misc.py:167
 msgid "Untrack a suggestion"
-msgstr ""
+msgstr "Deja de rastrear una sugerencia"
 
 #: Dredd-v3/cogs/misc.py:171
 msgid " Stop tracking a suggestion "
-msgstr ""
+msgstr " Deja de rastrear una sugerencia "
 
 #: Dredd-v3/cogs/misc.py:180
 #, python-brace-format
 msgid "{0} You're not following that suggestion."
-msgstr ""
+msgstr "{0} No estás siguiendo esa sugerencia."
 
 #: Dredd-v3/cogs/misc.py:182
 #, python-brace-format
 msgid "{0} You cannot untrack that suggestion because you're the one who suggested it."
-msgstr ""
+msgstr "{0} No puedes dejar de rastrear esa sugerencia porque tú eres el que la sugirió."
 
 #: Dredd-v3/cogs/misc.py:185
 #, python-brace-format
 msgid "{0} Stopped following suggestion **#{1}**. I won't DM you when the suggestion's status changes."
-msgstr ""
+msgstr "{0} He dejado de seguir la sugerencia **#{1}**. No te enviaré mensajes privados cuando el estado de la sugerencia sea actualizado."
 
 #: Dredd-v3/cogs/misc.py:189
 msgid "Manage your todo list"
@@ -4340,7 +4351,7 @@ msgstr "Administra tu lista de por hacer"
 
 #: Dredd-v3/cogs/misc.py:193
 msgid " Base command for managing your todo list "
-msgstr ""
+msgstr " Comando base para administrar tu lista de tareas "
 
 #: Dredd-v3/cogs/misc.py:196
 msgid "Add a todo to your list"
@@ -4353,12 +4364,12 @@ msgstr " Añade una tarea a tu lista "
 #: Dredd-v3/cogs/misc.py:204 Dredd-v3/cogs/misc.py:230
 #, python-brace-format
 msgid "{0} You already have that item in your todo list."
-msgstr ""
+msgstr "{0} Ya tienes ese elemento en tu lista de tareas."
 
 #: Dredd-v3/cogs/misc.py:211
 #, python-brace-format
 msgid "{0} Added **{1}** to your todo list. You now have **{2}** items in your list."
-msgstr ""
+msgstr "{0} He añadido **{1}** a tu lista de tareas. Ahora tienes **{2}** elementos en tu lista de tareas."
 
 #: Dredd-v3/cogs/misc.py:215
 msgid "Edit your todo"
@@ -4380,16 +4391,16 @@ msgstr "{0} No tienes ningún elemento en tu lista de tareas."
 #: Dredd-v3/cogs/misc.py:329
 #, python-brace-format
 msgid "{0} There is no todo item with an id of **{1}** in your todo list."
-msgstr ""
+msgstr "{0} No hay ningún elemento de tarea con un id de **{1}** en tu lista de tareas."
 
 #: Dredd-v3/cogs/misc.py:236
 #, python-brace-format
 msgid "{0} Successfully edited the item in your todo list with an ID of **{1}** to: **{2}**"
-msgstr ""
+msgstr "{0} He editado correctamente el elemento en tu lista de tareas con un ID de **{1}** a: **{2}**"
 
 #: Dredd-v3/cogs/misc.py:240
 msgid "Swap 2 todo's in places"
-msgstr ""
+msgstr "Intercambia 2 tareas en lugares"
 
 #: Dredd-v3/cogs/misc.py:244
 msgid " Swap 2 todo's around. This will swap the time when todos have been added. "
@@ -4650,47 +4661,48 @@ msgstr ""
 
 #: Dredd-v3/cogs/misc.py:611
 msgid "Create a poll"
-msgstr ""
+msgstr "Crear una encuesta"
 
 #: Dredd-v3/cogs/misc.py:616
 msgid " Create a poll with upto 10 options.\n"
 "        Separate the options with a `|` between them "
-msgstr ""
+msgstr " Crea una encuesta con hasta 10 opciones.\n"
+"        Separa las opciones con un `|` entre ellas "
 
 #: Dredd-v3/cogs/misc.py:627
 #, python-brace-format
 msgid "{0} You need to split options with `|` in between them."
-msgstr ""
+msgstr "{0} Necesitas dividir las opciones con `|` entre ellas."
 
 #: Dredd-v3/cogs/misc.py:630
 #, python-brace-format
 msgid "{0} Poll is either too short, or too long. You must have at least 3 options and up to 10"
-msgstr ""
+msgstr "{0} La cuenta es demasiado corta o demasiado larga. Debes tener al menos 3 opciones y hasta 10"
 
 #: Dredd-v3/cogs/misc.py:638
 #, python-brace-format
 msgid "{0} Option {1} is empty when it can't be empty."
-msgstr ""
+msgstr "{0} La opción {1} está vacía cuando no puede estar vacía."
 
 #: Dredd-v3/cogs/misc.py:644
 #, python-brace-format
 msgid "{0} Your question is over the limit by {1} characters. Max is 125 characters."
-msgstr ""
+msgstr "{0} Tu pregunta excede el límite de {1} caracteres. El máximo es de 125 caracteres."
 
 #: Dredd-v3/cogs/misc.py:654
 #, python-brace-format
 msgid "New poll created by **{0}**"
-msgstr ""
+msgstr "Nueva encuesta creada por **{0}**"
 
 #: Dredd-v3/cogs/misc.py:659
 #, python-brace-format
 msgid "{0} Successfully created poll in this channel!"
-msgstr ""
+msgstr "{0} ¡He creado la encuesta correctamente en este canal!"
 
 #: Dredd-v3/cogs/misc.py:663
 #, python-brace-format
 msgid "{0} Successfully created poll in {1}!"
-msgstr ""
+msgstr "{0} ¡He creado la encuesta correctamente en {1}!"
 
 #: Dredd-v3/cogs/misc.py:667
 msgid "Get lyrics of a song."
@@ -4703,17 +4715,17 @@ msgstr " Muestra la letra de una canción "
 #: Dredd-v3/cogs/misc.py:674
 #, python-brace-format
 msgid "{0} Searching for song lyrics - {1}"
-msgstr ""
+msgstr "{0} Buscando letras de canciones - {1}"
 
 #: Dredd-v3/cogs/misc.py:679
 #, python-brace-format
 msgid "{0} Failed to find lyrics for that song. {1}"
-msgstr ""
+msgstr "{0} Fallé en encontrar la letra de esa canción. {1}"
 
 #: Dredd-v3/cogs/misc.py:682
 #, python-brace-format
 msgid "{0} - {1} lyrics"
-msgstr ""
+msgstr "{0} - Letra de {1}"
 
 #: Dredd-v3/cogs/misc.py:688
 msgid "Manage your reminders"
@@ -4721,12 +4733,12 @@ msgstr "Gestiona tus recordatorios"
 
 #: Dredd-v3/cogs/misc.py:692
 msgid " Create a reminder for yourself. Example usage: `remind 1h do homework` "
-msgstr ""
+msgstr " Crea un recordatorio para ti mismo. Ejemplo de uso: `remind 1h hacer tarea` "
 
 #: Dredd-v3/cogs/misc.py:697
 #, python-brace-format
 msgid "Alright, reminding you in {0}: {1}"
-msgstr ""
+msgstr "Muy bien, recordándote en {0}: {1}"
 
 #: Dredd-v3/cogs/misc.py:701
 msgid "A list with your reminders"
@@ -4750,7 +4762,7 @@ msgstr ""
 #: Dredd-v3/cogs/misc.py:722
 #, python-brace-format
 msgid "{0}'s Reminders"
-msgstr ""
+msgstr "Recordatorios de {0}"
 
 #: Dredd-v3/cogs/misc.py:726
 msgid "Remove a reminder"
@@ -4758,7 +4770,7 @@ msgstr "Remueve un recordatorio"
 
 #: Dredd-v3/cogs/misc.py:730
 msgid " Remove an unwanted reminder "
-msgstr ""
+msgstr " Remueve un recordatorio no deseado "
 
 #: Dredd-v3/cogs/misc.py:739
 #, python-brace-format
