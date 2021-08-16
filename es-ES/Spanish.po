@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-16 00:53\n"
+"PO-Revision-Date: 2021-08-16 04:22\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3142,7 +3142,7 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:219
 #, python-brace-format
 msgid "{0} Successfully disabled member logs."
-msgstr ""
+msgstr "{0} He desactivado con éxito el registro de miembros."
 
 #: Dredd-v3/cogs/manage.py:223
 #, python-brace-format
@@ -3179,18 +3179,19 @@ msgstr "{0} El registro de nuevos miembros fue desactivado con éxito."
 #: Dredd-v3/cogs/manage.py:258
 #, python-brace-format
 msgid "{0} Successfully changed the new member logging channel. I will now send member updates in {1}."
-msgstr ""
+msgstr "{0} He cambiado el nuevo canal de registro de miembros con éxito. Ahora enviaré las actualizaciones de miembros en {1}."
 
 #: Dredd-v3/cogs/manage.py:261
 #, python-brace-format
 msgid "{0} You don't have new member logs enabled in this server.\n"
 "*Hint: If you want to enable logging, you need to provide a channel where logging should be sent to*"
-msgstr ""
+msgstr "{0} No tienes el registro de nuevos miembros activado en este servidor.\n"
+"*Pista: Si quieres activado el registro, necesitas proporcionar un canal en donde el registro debe ser enviado*"
 
 #: Dredd-v3/cogs/manage.py:267
 #, python-brace-format
 msgid "{0} Successfully enabled new member logging. I will now send member updates in {1}."
-msgstr ""
+msgstr "{0} He activado el registro de nuevos miembros con éxito. Ahora enviaré las actualizaciones de miembros en {1}."
 
 #: Dredd-v3/cogs/manage.py:270
 msgid "Toggle leave logs in the server"
