@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-16 20:58\n"
+"PO-Revision-Date: 2021-08-18 15:27\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4232,11 +4232,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/misc.py:60
 msgid "Search the urban dictionary"
-msgstr ""
+msgstr "Buscar en el diccionario urbano"
 
 #: Dredd-v3/cogs/misc.py:65
 msgid " Search for a term in the urban dictionary "
-msgstr ""
+msgstr " Busca un término en el diccionario urbano "
 
 #: Dredd-v3/cogs/misc.py:86
 #, python-brace-format
