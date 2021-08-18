@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-18 15:27\n"
+"PO-Revision-Date: 2021-08-18 16:28\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4247,17 +4247,25 @@ msgid "**Search:** {0}\n"
 "{6}\n"
 "**Example:**\n"
 "{7}"
-msgstr ""
+msgstr "**Búsqueda:** {0}\n"
+"**Autor:** {1}\n"
+"{2} {3} | {4} {5}\n"
+"**Definición:**\n"
+"{6}\n"
+"**Ejemplo:**\n"
+"{7}"
 
 #: Dredd-v3/cogs/misc.py:93
 msgid "Suggest a feature that you'd like to see implemented"
-msgstr ""
+msgstr "Sugiere una característica que te gustaría ver implementada"
 
 #: Dredd-v3/cogs/misc.py:97
 msgid " Suggest anything you want to see in the server/bot!\n"
 "        Suggestion will be sent to support server for people to vote.\n\n"
 "        *Make sure the suggestion is in English*"
-msgstr ""
+msgstr " ¡Sugiere cualquier cosa que te gustaría ver en el servidor/bot!\n"
+"        La sugerencia será enviada a nuestro servidor de soporte para que la gente vote.\n\n"
+"        *Asegúrate de que la sugerencia esté en inglés*"
 
 #: Dredd-v3/cogs/misc.py:106
 #, python-brace-format
@@ -4955,7 +4963,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:273
 msgid "List is limited to 10."
-msgstr ""
+msgstr "La lista está limitada a 10."
 
 #: Dredd-v3/cogs/moderation.py:281
 msgid "**I failed to dehoist all the members:**\n"
@@ -4967,7 +4975,7 @@ msgstr "Expulsa a un miembro del servidor"
 
 #: Dredd-v3/cogs/moderation.py:301
 msgid " Kick a member from the server. If multiple members are provided, they all get kicked from the server. "
-msgstr ""
+msgstr " Expulsa a un miembro del servidor. Si se proporcionan múltiples miembros, todos son expulsados del servidor. "
 
 #: Dredd-v3/cogs/moderation.py:311 Dredd-v3/cogs/moderation.py:404
 #: Dredd-v3/cogs/moderation.py:496 Dredd-v3/cogs/moderation.py:587
@@ -4979,7 +4987,7 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:1885
 #, python-brace-format
 msgid "{0} Reason can only be 450 characters long. You're {1} characters over."
-msgstr ""
+msgstr "{0} La razón no puede tener más de 450 caracteres. Estás {1} caracteres arriba del límite."
 
 #: Dredd-v3/cogs/moderation.py:317
 #, python-brace-format
@@ -4992,13 +5000,13 @@ msgstr "{0} | Solo puedes expulsar 15 miembros a la vez."
 #: Dredd-v3/cogs/moderation.py:1206
 #, python-brace-format
 msgid "{0} ({1}) - **You are the member though?**"
-msgstr ""
+msgstr "{0} ({1}) - **¿Pero tú eres el miembro?**"
 
 #: Dredd-v3/cogs/moderation.py:347 Dredd-v3/cogs/moderation.py:441
 #: Dredd-v3/cogs/moderation.py:533
 #, python-brace-format
 msgid "{0} ({1}) - **Missing permissions? Do they have administrator?**"
-msgstr ""
+msgstr "{0} ({1}) - **¿Faltan permisos? ¿Tienen administrador?**"
 
 #: Dredd-v3/cogs/moderation.py:353
 #, python-brace-format
@@ -5025,7 +5033,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:394
 msgid " Ban a member from the server. If multiple members are provided, they all get banned from the server. "
-msgstr ""
+msgstr " Banea a un miembro del servidor. Si se proporcionan múltiples miembros, todos son baneados del servidor. "
 
 #: Dredd-v3/cogs/moderation.py:410
 #, python-brace-format
@@ -5035,7 +5043,7 @@ msgstr "{0} | Solo puedes banear 15 miembros a la vez."
 #: Dredd-v3/cogs/moderation.py:447 Dredd-v3/cogs/moderation.py:539
 #, python-brace-format
 msgid "{0} ({1}) - **Banning failed**"
-msgstr ""
+msgstr "{0} ({1}) - **Baneo fallido**"
 
 #: Dredd-v3/cogs/moderation.py:453 Dredd-v3/cogs/moderation.py:459
 #, python-brace-format
@@ -5051,11 +5059,11 @@ msgstr " por {0}"
 #: Dredd-v3/cogs/moderation.py:460
 #, python-brace-format
 msgid "**However, I failed to ban the following {0} member(s):**\n"
-msgstr ""
+msgstr "**Sin embargo, no he podido banear a los siguientes {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:468
 msgid "**I failed to ban all the members:**\n"
-msgstr ""
+msgstr "**No pude banear a todos los miembros:**\n"
 
 #: Dredd-v3/cogs/moderation.py:479
 msgid "Softban member from the server"
@@ -5153,30 +5161,30 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:697
 msgid " Unban everyone from the server "
-msgstr ""
+msgstr " Desbanea a todos del servidor "
 
 #: Dredd-v3/cogs/moderation.py:702
 #, python-brace-format
 msgid "{0} This server has no bans."
-msgstr ""
+msgstr "{0} Este servidor no tiene baneos."
 
 #: Dredd-v3/cogs/moderation.py:719
 #, python-brace-format
 msgid "Are you sure you want to unban all **{0}** members from this server?"
-msgstr ""
+msgstr "¿Estás seguro de que deseas quitar el ban a todos los **{0}** miembros de este servidor?"
 
 #: Dredd-v3/cogs/moderation.py:730
 msgid "Unbanning all members..."
-msgstr ""
+msgstr "Desbaneando a todos los miembros..."
 
 #: Dredd-v3/cogs/moderation.py:741
 #, python-brace-format
 msgid "I've successfully unbanned **{0}/{1}** members."
-msgstr ""
+msgstr "He desbaneado con éxito a **{0}/{1}** miembros."
 
 #: Dredd-v3/cogs/moderation.py:745
 msgid "I will not unban anyone."
-msgstr ""
+msgstr "No desbanearé a nadie."
 
 #: Dredd-v3/cogs/moderation.py:751
 msgid "Wrong emoji; please try again."
@@ -5190,7 +5198,9 @@ msgstr "Silencia a un miembro del servidor"
 msgid " Mute members in the server\n"
 "        If duration is provided, they'll get unmuted after the duration ends.\n"
 "        If multiple members are provided, all of them will get muted. "
-msgstr ""
+msgstr " Silencia miembros en el servidor\n"
+"        Si se proporciona duración, ellos serán dessilenciados cuando la duración termine.\n"
+"        Si se proporcionan múltiples miembros, todos serán silenciados. "
 
 #: Dredd-v3/cogs/moderation.py:794
 #, python-brace-format
@@ -5200,32 +5210,32 @@ msgstr "{0} | Solo puedes silenciar 15 miembros a la vez."
 #: Dredd-v3/cogs/moderation.py:797 Dredd-v3/cogs/moderation.py:912
 #, python-brace-format
 msgid "{0} | The muted role is above me in the role hierarchy, so I cannot access it. Please lower {1}, so I can access the role and mute the member(s)."
-msgstr ""
+msgstr "{0} | El role silenciado está por encima de mí en la jerarquía de roles, por lo que no puedo acceder a él. Por favor bajar {1}, para que pueda acceder al role y silenciar a los miembros."
 
 #: Dredd-v3/cogs/moderation.py:824
 #, python-brace-format
 msgid "{0} ({1}) - **Member is an administrator, muting them will do nothing**"
-msgstr ""
+msgstr "{0} ({1}) - **El miembro es un administrador, silenciarlos no hará nada**"
 
 #: Dredd-v3/cogs/moderation.py:830
 #, python-brace-format
 msgid "{0} ({1}) - **Member looks to be already muted.**"
-msgstr ""
+msgstr "{0} ({1}) - **Parece que ya está silenciado.**"
 
 #: Dredd-v3/cogs/moderation.py:842
 #, python-brace-format
 msgid "{0} ({1}) - **I do not have permissions to add that role for whatever reason.**"
-msgstr ""
+msgstr "{0} ({1}) - **No tengo permisos para añadir ese role por alguna razón.**"
 
 #: Dredd-v3/cogs/moderation.py:857 Dredd-v3/cogs/moderation.py:863
 #, python-brace-format
 msgid "**I've successfully muted {0} member(s){1}:**\n"
-msgstr ""
+msgstr "**He silenciado con éxito {0} miembro(s){1}:**\n"
 
 #: Dredd-v3/cogs/moderation.py:864
 #, python-brace-format
 msgid "**However, I failed to mute the following {0} member(s):**\n"
-msgstr ""
+msgstr "**Sin embargo, no he podido silenciar a los siguientes {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:872
 msgid "**I failed to mute all the members:**\n"
@@ -5233,106 +5243,109 @@ msgstr "**No he podido silenciar a todos los miembros:**\n"
 
 #: Dredd-v3/cogs/moderation.py:883
 msgid "Unmute member in the server"
-msgstr ""
+msgstr "Dessilencia un miembro en el servidor"
 
 #: Dredd-v3/cogs/moderation.py:890
 msgid " Unmute member in the server\n"
 "        If multiple members are provided, all of them will get unmuted. "
-msgstr ""
+msgstr " Dessilencia un miembro en el servidor\n"
+"        Si se proporcionan varios miembros, todos serán dessilenciados. "
 
 #: Dredd-v3/cogs/moderation.py:909
 #, python-brace-format
 msgid "{0} | You can only unmute 15 members at once."
-msgstr ""
+msgstr "{0} | Solo puedes dessilenciar 15 miembros a la vez."
 
 #: Dredd-v3/cogs/moderation.py:927
 #, python-brace-format
 msgid "{0} ({1}) - **Member is above me in the role hierarchy, or they have the same role**"
-msgstr ""
+msgstr "{0} ({1}) - **El miembro está por encima de mí en la jerarquía de roles, o tienen el mismo role**"
 
 #: Dredd-v3/cogs/moderation.py:939
 #, python-brace-format
 msgid "{0} ({1}) - **Member doesn't seem to be muted.**"
-msgstr ""
+msgstr "{0} ({1}) - **El miembro no parece estar silenciado.**"
 
 #: Dredd-v3/cogs/moderation.py:951
 #, python-brace-format
 msgid "{0} ({1}) - **I do not have permissions to remove that role for whatever reason.**"
-msgstr ""
+msgstr "{0} ({1}) - **No tengo permisos para remover ese role por alguna razón.**"
 
 #: Dredd-v3/cogs/moderation.py:957
 #, python-brace-format
 msgid "{0} ({1}) - **Failed to remove the mute role.**"
-msgstr ""
+msgstr "{0} ({1}) - **Error al remover el role de silencio.**"
 
 #: Dredd-v3/cogs/moderation.py:966 Dredd-v3/cogs/moderation.py:972
 #, python-brace-format
 msgid "**I've successfully unmuted {0} member(s):**\n"
-msgstr ""
+msgstr "**He dessilenciado con éxito {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:973
 #, python-brace-format
 msgid "**However, I failed to unmute the following {0} member(s):**\n"
-msgstr ""
+msgstr "**Sin embargo, no he podido dessilenciar a los siguientes {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:981
 msgid "**I failed to unmute all the members:**\n"
-msgstr ""
+msgstr "**No he podido dessilenciar a todos los miembros:**\n"
 
 #: Dredd-v3/cogs/moderation.py:992
 msgid "Voice mute member in the server"
-msgstr ""
+msgstr "Silencia a un miembro en los canales de voz del servidor"
 
 #: Dredd-v3/cogs/moderation.py:999
 msgid " Voice mute an annoying member in voice channel.\n"
 "        If multiple members are passed, all of them will get voice muted.\n"
 "        They need to be in voice channel in order to voice mute them. "
-msgstr ""
+msgstr " Silencia a un miembro molesto en los canales de voz.\n"
+"        Si se pasan varios miembros, todos serán silenciados en los canales de voz.\n"
+"        Necesitan estar en un canal de voz para silenciarlos. "
 
 #: Dredd-v3/cogs/moderation.py:1017
 #, python-brace-format
 msgid "{0} | You can only voice mute 15 members at once."
-msgstr ""
+msgstr "{0} | Solo puedes silenciar en canales de voz a 15 miembros a la vez."
 
 #: Dredd-v3/cogs/moderation.py:1029 Dredd-v3/cogs/moderation.py:1120
 #, python-brace-format
 msgid "{0} ({1}) - **Member is not in a voice channel.**"
-msgstr ""
+msgstr "{0} ({1}) - **El miembro no está en un canal de voz.**"
 
 #: Dredd-v3/cogs/moderation.py:1033
 #, python-brace-format
 msgid "{0} ({1}) - **Member is already voice muted.**"
-msgstr ""
+msgstr "{0} ({1}) - **El miembro ya está silenciado en los canales de voz.**"
 
 #: Dredd-v3/cogs/moderation.py:1042 Dredd-v3/cogs/moderation.py:1643
 #: Dredd-v3/cogs/moderation.py:1736
 #, python-brace-format
 msgid "{0} ({1}) - **I'm missing permissions to perform this action**"
-msgstr ""
+msgstr "{0} ({1}) - **Me faltan permisos para realizar esta acción**"
 
 #: Dredd-v3/cogs/moderation.py:1048 Dredd-v3/cogs/moderation.py:1649
 #: Dredd-v3/cogs/moderation.py:1742
 #, python-brace-format
 msgid "{0} ({1}) - **Failed. Not sure what though ¯\\_(ツ)_/¯**"
-msgstr ""
+msgstr "{0} ({1}) - **Falló. Aunque no estoy seguro el qué ¯\\_(ツ)_/¯**"
 
 #: Dredd-v3/cogs/moderation.py:1057 Dredd-v3/cogs/moderation.py:1063
 #, python-brace-format
 msgid "**I've successfully voice muted {0} member(s):**\n"
-msgstr ""
+msgstr "**He silenciado en canales de voz con éxito a {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:1064
 #, python-brace-format
 msgid "**However, I failed to voice mute the following {0} member(s):**\n"
-msgstr ""
+msgstr "**Sin embargo, no he podido silenciar en canales de voz a los siguientes {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:1072
 msgid "**I failed to voice mute all the members:**\n"
-msgstr ""
+msgstr "**No he podido silenciar en los canales de voz a todos los miembros:**\n"
 
 #: Dredd-v3/cogs/moderation.py:1083
 msgid "Voice unmute member in the server"
-msgstr ""
+msgstr "Dessilencia un miembro en los canales de voz del servidor"
 
 #: Dredd-v3/cogs/moderation.py:1090
 msgid " Voice unmute an annoying member in voice channel.\n"
@@ -5353,12 +5366,12 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:1124
 #, python-brace-format
 msgid "{0} ({1}) - **Member is not voice muted.**"
-msgstr ""
+msgstr "{0} ({1}) - **El miembro no está silenciado en los canales de voz.**"
 
 #: Dredd-v3/cogs/moderation.py:1144 Dredd-v3/cogs/moderation.py:1150
 #, python-brace-format
 msgid "**I've successfully voice unmuted {0} member(s):**\n"
-msgstr ""
+msgstr "**He dessilenciado en los canales de voz con éxito a {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:1151
 #, python-brace-format
@@ -5549,7 +5562,7 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:1532
 #, python-brace-format
 msgid "{0} Server is now unfrozen!"
-msgstr ""
+msgstr "{0} ¡El servidor ahora está descongelado!"
 
 #: Dredd-v3/cogs/moderation.py:1536
 #, python-brace-format
@@ -5594,155 +5607,155 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:1573
 #, python-brace-format
 msgid "{0} Successfully deleted the role!"
-msgstr ""
+msgstr "{0} ¡He eliminado el role con éxito!"
 
 #: Dredd-v3/cogs/moderation.py:1575
 #, python-brace-format
 msgid "{0} Failed to delete the role, not sure why."
-msgstr ""
+msgstr "{0} Fallé al eliminar el role, no estoy seguro por qué."
 
 #: Dredd-v3/cogs/moderation.py:1579
 #, python-brace-format
 msgid "{0} Looks like I'm missing permissions, but that's not possible."
-msgstr ""
+msgstr "{0} Parece que no tengo permisos, pero eso no es posible."
 
 #: Dredd-v3/cogs/moderation.py:1583
 msgid "Add a role to member(s)"
-msgstr ""
+msgstr "Añade un role a miembro(s)"
 
 #: Dredd-v3/cogs/moderation.py:1590
 msgid " Add a role to a member. Mentioning multiple members will add a role to multiple members. "
-msgstr ""
+msgstr " Añade un role a un miembro. Mencionar múltiples miembors añadirá un role a múliples miembros. "
 
 #: Dredd-v3/cogs/moderation.py:1603
 #, python-brace-format
 msgid "{0} | You can only add a role to 15 members at once."
-msgstr ""
+msgstr "{0} | Solo puedes añadir un role a 15 miembros a la vez."
 
 #: Dredd-v3/cogs/moderation.py:1621
 #, python-brace-format
 msgid "{0} ({1}) - **Member already has that role**"
-msgstr ""
+msgstr "{0} ({1}) - **El miembro ya tiene ese role**"
 
 #: Dredd-v3/cogs/moderation.py:1627 Dredd-v3/cogs/moderation.py:1726
 #, python-brace-format
 msgid "{0} ({1}) - **The role is either higher than me or is my highest**"
-msgstr ""
+msgstr "{0} ({1}) - **El role es más alto que yo o es el más alto**"
 
 #: Dredd-v3/cogs/moderation.py:1633
 #, python-brace-format
 msgid "{0} ({1}) - **The role is either higher than you or is your highest**"
-msgstr ""
+msgstr "{0} ({1}) - **El role es más alto que tú o es el más alto**"
 
 #: Dredd-v3/cogs/moderation.py:1658 Dredd-v3/cogs/moderation.py:1663
 #, python-brace-format
 msgid "**I've successfully added a role to {0} member(s):**\n"
-msgstr ""
+msgstr "**He añadido un role con éxito a {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:1664
 #, python-brace-format
 msgid "**However, I failed to add the role to the following {0} member(s):**\n"
-msgstr ""
+msgstr "**Sin embargo, no he podido añadir el role a los siguientes {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:1671
 msgid "**I failed to add a role to all the members:**\n"
-msgstr ""
+msgstr "**No he podido añadir el role a todos los miembros:**\n"
 
 #: Dredd-v3/cogs/moderation.py:1682
 msgid "Remove a role to member(s)"
-msgstr ""
+msgstr "Remueve un role de miembro(s)"
 
 #: Dredd-v3/cogs/moderation.py:1689
 msgid " Remove a role to a member. Mentioning multiple members will remove a role from multiple members. "
-msgstr ""
+msgstr " Remueve un role de un miembro. Mencionar múltiples miembors removerá un role de múliples miembros. "
 
 #: Dredd-v3/cogs/moderation.py:1702
 #, python-brace-format
 msgid "{0} | You can only remove a role from 15 members at once."
-msgstr ""
+msgstr "{0} | Solo puedes remover un role de 15 miembros a la vez."
 
 #: Dredd-v3/cogs/moderation.py:1720
 #, python-brace-format
 msgid "{0} ({1}) - **Member doesn't have that role**"
-msgstr ""
+msgstr "{0} ({1}) - **El miembro no tiene ese role**"
 
 #: Dredd-v3/cogs/moderation.py:1751 Dredd-v3/cogs/moderation.py:1756
 #, python-brace-format
 msgid "**I've successfully removed a role from {0} member(s):**\n"
-msgstr ""
+msgstr "**He removido un role con éxito de {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:1757
 #, python-brace-format
 msgid "**However, I failed to remove the role from the following {0} member(s):**\n"
-msgstr ""
+msgstr "**Sin embargo, no he podido remover el role de los siguientes {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:1764
 msgid "**I failed to remove a role from all the members:**\n"
-msgstr ""
+msgstr "**No he podido remover el role a todos los miembros:**\n"
 
 #: Dredd-v3/cogs/moderation.py:1775
 msgid "Edit a reason of a case"
-msgstr ""
+msgstr "Editar la razón de un caso"
 
 #: Dredd-v3/cogs/moderation.py:1783
 msgid " Edit the reason of a case. You can also edit multiple cases by adding `~` before a number "
-msgstr ""
+msgstr " Edita la razón de un caso. También puedes editar múltiples casos añadiendo `~` antes de un número "
 
 #: Dredd-v3/cogs/moderation.py:1792 Dredd-v3/cogs/moderation.py:1801
 #, python-brace-format
 msgid "{0} The format for editing multiple cases is wrong, the correct format is `~<number of cases>`"
-msgstr ""
+msgstr "{0} El formato para editar múltiples casos es incorrecto, el formato correcto es `~<número de casos>`"
 
 #: Dredd-v3/cogs/moderation.py:1799
 #, python-brace-format
 msgid "{0} Please make sure the number is valid."
-msgstr ""
+msgstr "{0} Asegúrate de que el número sea válido."
 
 #: Dredd-v3/cogs/moderation.py:1814
 #, python-brace-format
 msgid "{0} Can't seem to find any cases in this server."
-msgstr ""
+msgstr "{0} Parece que no puedo encontrar ningún caso en este servidor."
 
 #: Dredd-v3/cogs/moderation.py:1816
 #, python-brace-format
 msgid "{0} There are only {1} cases available to edit."
-msgstr ""
+msgstr "{0} Sólo hay {1} casos disponibles para editar."
 
 #: Dredd-v3/cogs/moderation.py:1819
 #, python-brace-format
 msgid "{0} Started editing last {1} case(s), this might take a while."
-msgstr ""
+msgstr "{0} He empezado a editar los últimos {1} caso(s), esto puede tardar un tiempo."
 
 #: Dredd-v3/cogs/moderation.py:1843
 #, python-brace-format
 msgid "{0} Successfully edited cases - {1}"
-msgstr ""
+msgstr "{0} Casos editados con éxito - {1}"
 
 #: Dredd-v3/cogs/moderation.py:1845
 #, python-brace-format
 msgid "{0} Failed to edit last {1} case(s), this might be because the log message was deleted"
-msgstr ""
+msgstr "{0} No pude editar los últimos {1} caso(s), esto puede ser porque el mensaje de registro fue eliminado"
 
 #: Dredd-v3/cogs/moderation.py:1851 Dredd-v3/cogs/moderation.py:1893
 #: Dredd-v3/cogs/moderation.py:1931
 #, python-brace-format
 msgid "{0} Case `#{1}` doesn't exist."
-msgstr ""
+msgstr "{0} El caso `#{1}` no existe."
 
 #: Dredd-v3/cogs/moderation.py:1857 Dredd-v3/cogs/moderation.py:1937
 #, python-brace-format
 msgid "{0} Unknown message! Make sure I have permissions to see the logging channel and if that message exists."
-msgstr ""
+msgstr "{0} Mensaje desconocido! Asegúrate de que tengo permisos para ver el canal de registro y si ese mensaje existe."
 
 #: Dredd-v3/cogs/moderation.py:1860 Dredd-v3/cogs/moderation.py:1940
 #, python-brace-format
 msgid "{0} Looks like I'm missing permissions to get that message"
-msgstr ""
+msgstr "{0} Parece que no tengo permisos para obtener ese mensaje"
 
 #: Dredd-v3/cogs/moderation.py:1862 Dredd-v3/cogs/moderation.py:1942
 #, python-brace-format
 msgid "{0} Retrieving the message failed."
-msgstr ""
+msgstr "{0} Recuperar el mensaje falló."
 
 #: Dredd-v3/cogs/moderation.py:1873
 #, python-brace-format
@@ -5751,37 +5764,39 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:1875
 msgid "Delete existing case"
-msgstr ""
+msgstr "Elimina un caso existente"
 
 #: Dredd-v3/cogs/moderation.py:1882
 msgid " Delete the existing case "
-msgstr ""
+msgstr " Elimina el caso existente "
 
 #: Dredd-v3/cogs/moderation.py:1897
 #, python-brace-format
 msgid "{0} Case was deleted"
-msgstr ""
+msgstr "{0} El caso fue eliminado"
 
 #: Dredd-v3/cogs/moderation.py:1900
 #, python-brace-format
 msgid "**Case ID:** {0}\n"
 "**Moderator:** {1} ({2})\n"
 "**Reason:** {3}"
-msgstr ""
+msgstr "**ID del caso:** {0}\n"
+"**Moderador:** {1} ({2})\n"
+"**Razón:** {3}"
 
 #: Dredd-v3/cogs/moderation.py:1905
 #, python-brace-format
 msgid "{0} Case `#{1}` was successfuly deleted, but I was unable to send a log message to the logging channel in which case was logged. *It was most likely deleted*"
-msgstr ""
+msgstr "{0} El caso `#{1}` fue eliminado correctamente, pero no pude enviar un mensaje de registro al canal de registro, en cuyo caso fue registrado. *Posiblemente fue eliminado*"
 
 #: Dredd-v3/cogs/moderation.py:1910
 #, python-brace-format
 msgid "{0} Case `#{1}` was successfully deleted."
-msgstr ""
+msgstr "{0} El caso `#{1}` fue eliminado correctamente."
 
 #: Dredd-v3/cogs/moderation.py:1916
 msgid " I was unable to send a message to your logging channel."
-msgstr ""
+msgstr " No pude enviar mensajes a tu canal de registro."
 
 #: Dredd-v3/cogs/moderation.py:1920
 msgid "Get case information"
@@ -5794,20 +5809,20 @@ msgstr " Obtén más información sobre el caso "
 #: Dredd-v3/cogs/moderation.py:1945
 #, python-brace-format
 msgid "Showing you case `#{0}` information"
-msgstr ""
+msgstr "Mostrando información del caso `#{0}`"
 
 #: Dredd-v3/cogs/moderation.py:1947
 msgid "Check user history of punishments"
-msgstr ""
+msgstr "Revisa el historial de castigos de un usuario"
 
 #: Dredd-v3/cogs/moderation.py:1953
 msgid " Get a history of user's punishments "
-msgstr ""
+msgstr " Obtén un historial de castigos del usuario "
 
 #: Dredd-v3/cogs/moderation.py:1956
 #, python-brace-format
 msgid "{0} {1} doesn't have any punishments history."
-msgstr ""
+msgstr "{0} {1} no tiene ningún historial de castigos."
 
 #: Dredd-v3/cogs/moderation.py:1975
 msgid "softban"
