@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-18 16:28\n"
+"PO-Revision-Date: 2021-08-18 17:41\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -6076,7 +6076,7 @@ msgstr "{0} He añadido **{1}** a la cola!{2}"
 #: Dredd-v3/cogs/music.py:438
 #, python-brace-format
 msgid "{0} If you have the URL of the song might as well use the `play` command."
-msgstr ""
+msgstr "{0} Si tienes el enlace de la canción también puedes usar el comando `play`."
 
 #: Dredd-v3/cogs/music.py:448
 #, python-brace-format
@@ -6088,11 +6088,11 @@ msgstr ""
 #: Dredd-v3/cogs/music.py:464 Dredd-v3/cogs/music.py:479
 #, python-brace-format
 msgid "{0} Added **{1}** to the Queue! (`{2}`)"
-msgstr ""
+msgstr "{0} He añadido **{1}** a la cola!(`{2}`)"
 
 #: Dredd-v3/cogs/music.py:469
 msgid "Canceled the command."
-msgstr ""
+msgstr "Comando cancelado."
 
 #: Dredd-v3/cogs/music.py:484
 #, python-brace-format
@@ -6115,25 +6115,25 @@ msgstr ""
 
 #: Dredd-v3/cogs/music.py:515
 msgid "Uh oh, looks like that radio station broke down."
-msgstr ""
+msgstr "Oh oh, parece que la estación de radio se averió."
 
 #: Dredd-v3/cogs/music.py:526
 msgid "Toggle player's 24/7 mode"
-msgstr ""
+msgstr "Alterna el modo 24/7 del reproductor"
 
 #: Dredd-v3/cogs/music.py:532
 msgid " Enable or disable the player's 24/7 mode "
-msgstr ""
+msgstr " Activa o desactiva el modo 24/7 del reproductor "
 
 #: Dredd-v3/cogs/music.py:539
 #, python-brace-format
 msgid "{0} Successfuly enabled 24/7 mode, I will stay in the voice channel when everyone leaves."
-msgstr ""
+msgstr "{0} He activado el modo 24/7 con éxito, permaneceré en el canal de voz cuando todos se salgan."
 
 #: Dredd-v3/cogs/music.py:544
 #, python-brace-format
 msgid "{0} Successfully disabled 24/7 mode, I will leave the voice channel when everyone leaves."
-msgstr ""
+msgstr "{0} He desactivado correctamente el modo 24/7, dejaré el canal de voz cuando todos se salgan."
 
 #: Dredd-v3/cogs/music.py:548
 #, python-brace-format
@@ -6142,11 +6142,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/music.py:550
 msgid "Pause the currently playing song"
-msgstr ""
+msgstr "Pausa la canción actualmente en reproducción"
 
 #: Dredd-v3/cogs/music.py:556
 msgid " Pause the currently playing song. "
-msgstr ""
+msgstr " Pausa la canción actualmente en reproducción. "
 
 #: Dredd-v3/cogs/music.py:561
 #, python-brace-format
@@ -6170,11 +6170,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/music.py:576
 msgid "Resume the currently paused song."
-msgstr ""
+msgstr "Reanuda la canción actualmente en pausa."
 
 #: Dredd-v3/cogs/music.py:582
 msgid " Resume the currently paused song. "
-msgstr ""
+msgstr " Reanuda la canción actualmente en pausa. "
 
 #: Dredd-v3/cogs/music.py:587
 #, python-brace-format
@@ -6243,16 +6243,16 @@ msgstr ""
 
 #: Dredd-v3/cogs/music.py:652
 msgid "Change the player's volume"
-msgstr ""
+msgstr "Cambia el volumen del reproductor"
 
 #: Dredd-v3/cogs/music.py:659
 msgid " Change the player's volume "
-msgstr ""
+msgstr " Cambia el volumen del reproductor "
 
 #: Dredd-v3/cogs/music.py:668
 #, python-brace-format
 msgid "Setting the player volume to **{0}%**"
-msgstr ""
+msgstr "Configurando el volumen del reproductor a **{0}%**"
 
 #: Dredd-v3/cogs/music.py:671
 msgid "Seek the currently playing song"
@@ -6434,15 +6434,15 @@ msgstr " Establece la velocidad del reproductor."
 #: Dredd-v3/cogs/music.py:911
 #, python-brace-format
 msgid "{0} Changed the speed to **{1}x**, give up to 10 seconds for player to take effect"
-msgstr ""
+msgstr "{0} He cambiado la velocidad a **{1}x**, deja hasta 10 segundos para que el reproductor surta efecto"
 
 #: Dredd-v3/cogs/music.py:913
 msgid "Reset the player's filter"
-msgstr ""
+msgstr "Restablece el filtro del reproductor"
 
 #: Dredd-v3/cogs/music.py:919
 msgid " Reset the players pitch and speed "
-msgstr ""
+msgstr " Restablece el tono y la velocidad del reproductor "
 
 #: Dredd-v3/cogs/music.py:925
 #, python-brace-format
