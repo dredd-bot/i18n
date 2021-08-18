@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-16 09:20\n"
+"PO-Revision-Date: 2021-08-18 08:58\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -1831,11 +1831,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/fun.py:34
 msgid "Rate something"
-msgstr ""
+msgstr "Bir şeyi değerlendir"
 
 #: Dredd-v3/cogs/fun.py:38
 msgid " Rates what you desire "
-msgstr ""
+msgstr " İstediğinizi değerlendirir "
 
 #: Dredd-v3/cogs/fun.py:41
 #, python-brace-format
@@ -1861,11 +1861,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/fun.py:70
 msgid "F in the chat"
-msgstr ""
+msgstr "F in the chat"
 
 #: Dredd-v3/cogs/fun.py:73
 msgid " Press F to pay respect "
-msgstr ""
+msgstr " Press F to pay respect "
 
 #: Dredd-v3/cogs/fun.py:76
 #, python-brace-format
@@ -2008,11 +2008,11 @@ msgstr "**Önek:** `!`"
 
 #: Dredd-v3/cogs/help.py:111
 msgid "Support"
-msgstr ""
+msgstr "Destek"
 
 #: Dredd-v3/cogs/help.py:112
 msgid "Bot invite"
-msgstr ""
+msgstr "Bot daveti"
 
 #: Dredd-v3/cogs/help.py:142
 #, python-brace-format
@@ -2027,7 +2027,7 @@ msgstr "Kategoriler:"
 #, python-brace-format
 msgid "\n"
 "{0} **Latest news - {1}**"
-msgstr ""
+msgstr "{0} **Son haberler - {1}**"
 
 #: Dredd-v3/cogs/help.py:152
 msgid "You can also click on the reactions below to view commands in each category."
@@ -2288,27 +2288,27 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:304
 msgid "Animated Icon"
-msgstr ""
+msgstr "Hareketli Simge"
 
 #: Dredd-v3/cogs/info.py:305
 msgid "Banner"
-msgstr ""
+msgstr "Banner"
 
 #: Dredd-v3/cogs/info.py:306
 msgid "Commerce"
-msgstr ""
+msgstr "Ticaret"
 
 #: Dredd-v3/cogs/info.py:307
 msgid "Community server"
-msgstr ""
+msgstr "Topluluk sunucusu"
 
 #: Dredd-v3/cogs/info.py:308
 msgid "Server Discovery"
-msgstr ""
+msgstr "Sunucu Keşfi"
 
 #: Dredd-v3/cogs/info.py:309
 msgid "Featurable"
-msgstr ""
+msgstr "Öne Çıkan"
 
 #: Dredd-v3/cogs/info.py:310
 msgid "Invite Splash"
@@ -2320,11 +2320,11 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:312
 msgid "News Channels"
-msgstr ""
+msgstr "Duyuru Kanalları"
 
 #: Dredd-v3/cogs/info.py:313
 msgid "Partnered"
-msgstr ""
+msgstr "Ortak"
 
 #: Dredd-v3/cogs/info.py:314
 msgid "Prieview Enabled"
@@ -2336,7 +2336,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:316
 msgid "Verified"
-msgstr ""
+msgstr "Doğrulanmış"
 
 #: Dredd-v3/cogs/info.py:317
 msgid "VIP Voice Servers"
@@ -2344,7 +2344,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:318
 msgid "Welcome screen"
-msgstr ""
+msgstr "Hoş Geldiniz ekranı"
 
 #: Dredd-v3/cogs/info.py:319
 msgid "Ticketed events enabled"
@@ -2356,7 +2356,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/info.py:321
 msgid "More stickers"
-msgstr ""
+msgstr "Diğer çıkartmalar"
 
 #: Dredd-v3/cogs/info.py:328
 msgid "Features"
