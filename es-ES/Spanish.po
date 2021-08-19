@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-19 18:56\n"
+"PO-Revision-Date: 2021-08-19 19:55\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3447,7 +3447,8 @@ msgstr "{0} Se han activado los mensajes de bienvenida en {1}."
 #, python-brace-format
 msgid "{0} Welcome messages are currently disabled in this server.\n"
 "*Hint: If you want to enable them you need to provide a channel where they should be sent to*"
-msgstr ""
+msgstr "{0} Los mensajes de bienvenida están actualmente desactivados en este servidor.\n"
+"*Pista: Si quieres habilitar los necesitas proporcionar un canal en donde los mensajes deben ser enviado*"
 
 #: Dredd-v3/cogs/manage.py:555
 msgid "Set the welcoming message"
@@ -3456,7 +3457,8 @@ msgstr "Establece el mensaje de bienvenida"
 #: Dredd-v3/cogs/manage.py:562
 msgid " Set the welcoming messages in the server\n"
 "        Passing no message will reset your welcoming message to the default one "
-msgstr ""
+msgstr " Establece el mensaje de bienvenida en el servidor\n"
+"        Pasar ningún mensaje restablecerá tu mensaje de bienvenida al predeterminado "
 
 #: Dredd-v3/cogs/manage.py:568 Dredd-v3/cogs/manage.py:621
 #: Dredd-v3/cogs/manage.py:650
