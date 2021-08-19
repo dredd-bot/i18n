@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-19 16:53\n"
+"PO-Revision-Date: 2021-08-19 17:53\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -243,12 +243,12 @@ msgstr "{0} Registros del servidor de Discord\n"
 #: Dredd-v3/utils/default.py:363
 #, python-brace-format
 msgid "{0} Member Joins\n"
-msgstr ""
+msgstr "{0} Entradas de Miembros\n"
 
 #: Dredd-v3/utils/default.py:364
 #, python-brace-format
 msgid "{0} Member Leaves\n"
-msgstr ""
+msgstr "{0} Salidas de Miembros\n"
 
 #: Dredd-v3/utils/default.py:365
 #, python-brace-format
@@ -334,7 +334,7 @@ msgstr "{0} ¡He añadido **{1}** a la Cola!"
 
 #: Dredd-v3/utils/rtfm.py:140
 msgid "Cannot build rtfm lookup table, try again later."
-msgstr ""
+msgstr "No se puede construir la tabla de búsqueda de rtfm, inténtalo de nuevo más tarde."
 
 #: Dredd-v3/utils/rtfm.py:182
 msgid "I could not find anything, sorry."
@@ -2406,7 +2406,7 @@ msgstr "Funcional"
 
 #: Dredd-v3/cogs/info.py:310
 msgid "Invite Splash"
-msgstr ""
+msgstr "Fondo de invitación"
 
 #: Dredd-v3/cogs/info.py:311
 msgid "Member Verification Gate Enabled"
@@ -3223,12 +3223,13 @@ msgstr "{0} He cambiado el canal de registro se las salidas de miembros. Ahora e
 #, python-brace-format
 msgid "{0} You don't have leave member logs enabled in this server.\n"
 "*Hint: If you want to enable logging, you need to provide a channel where logging should be sent to*"
-msgstr ""
+msgstr "{0} No tienes el registro de nuevos miembros activado en este servidor.\n"
+"*Pista: Si quieres activar el registro, necesitas proporcionar un canal en donde el registro debe ser enviado*"
 
 #: Dredd-v3/cogs/manage.py:302
 #, python-brace-format
 msgid "{0} Successfully changed the leave member logging channel. I will now send member leaves in {1}."
-msgstr ""
+msgstr "{0} He cambiado correctamente el canal de registro de salidas de miembros. Ahora enviaré las salidas de miembros en {1}."
 
 #: Dredd-v3/cogs/manage.py:305
 msgid "Toggle guild logs in the server"
