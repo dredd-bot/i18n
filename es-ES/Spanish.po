@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-18 17:41\n"
+"PO-Revision-Date: 2021-08-19 16:53\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1559,11 +1559,11 @@ msgstr "El canal {0} ya está añadido en la lista blanca."
 
 #: Dredd-v3/cogs/automod.py:618
 msgid "Add a role to automod's whitelist"
-msgstr "Añade un role a la lista blanca de automoderación"
+msgstr "Añade un rol a la lista blanca de automoderación"
 
 #: Dredd-v3/cogs/automod.py:624
 msgid " Add a role to automod's whitelist "
-msgstr " Añade un role a lista blanca de automoderación "
+msgstr " Añade un rol a lista blanca de automoderación "
 
 #: Dredd-v3/cogs/automod.py:635 Dredd-v3/cogs/automod.py:642
 #, python-brace-format
@@ -1577,11 +1577,11 @@ msgstr "El rol **{0}** ya está añadido en la lista blanca."
 
 #: Dredd-v3/cogs/automod.py:645
 msgid "Remove a role from automod's whitelist"
-msgstr "Remueve un role de la lista blanca de automoderación"
+msgstr "Remueve un rol de la lista blanca de automoderación"
 
 #: Dredd-v3/cogs/automod.py:651
 msgid " Remove a role from automod's whitelist "
-msgstr " Remueve un role de la lista blanca de automoderación "
+msgstr " Remueve un rol de la lista blanca de automoderación "
 
 #: Dredd-v3/cogs/automod.py:660
 #, python-brace-format
@@ -1591,7 +1591,7 @@ msgstr "{0} Parece que no hay roles en la lista blanca en el servidor."
 #: Dredd-v3/cogs/automod.py:666
 #, python-brace-format
 msgid "Role **{0}** is not in the whitelist."
-msgstr "El role **{0}** no está en la lista blanca."
+msgstr "El rol **{0}** no está en la lista blanca."
 
 #: Dredd-v3/cogs/automod.py:670
 #, python-brace-format
@@ -2655,11 +2655,11 @@ msgstr "Miembros en {0}"
 
 #: Dredd-v3/cogs/info.py:532
 msgid "Get information of the role"
-msgstr "Obtén más información sobre el role"
+msgstr "Obtén más información sobre el rol"
 
 #: Dredd-v3/cogs/info.py:537
 msgid " Get information of the role "
-msgstr " Obtén más información sobre el role "
+msgstr " Obtén más información sobre el rol "
 
 #: Dredd-v3/cogs/info.py:540
 msgid "__**Basic Information**__"
@@ -2670,9 +2670,9 @@ msgstr "__**Información básica**__"
 msgid "**Role name:** {0}\n"
 "**Role mention:** {1}\n"
 "**Role ID:** {2}"
-msgstr "**Nombre del role:** {0}\n"
+msgstr "**Nombre del rol:** {0}\n"
 "**Rol mencionado:** {1}\n"
-"**ID del role:** {2}"
+"**ID del rol:** {2}"
 
 #: Dredd-v3/cogs/info.py:548
 msgid "__**Permissions:**__"
@@ -2690,7 +2690,12 @@ msgid "**Is Integration:** {0}\n"
 "**Color:** {3}\n"
 "**Created:** {4}\n\n"
 "**Members:** {5}"
-msgstr ""
+msgstr "**Es integración:** {0}\n"
+"**Se muestra separado:** {1}\n"
+"**Posición:** {2}\n"
+"**Color:** {3}\n"
+"**Creado:** {4}\n\n"
+"**Miembros:** {5}"
 
 #: Dredd-v3/cogs/info.py:562
 msgid "Get a list of recent nicknames member had"
@@ -3137,7 +3142,8 @@ msgstr "Cambia el registro de miembros en el servidor"
 #: Dredd-v3/cogs/manage.py:208
 msgid " This enables or disables member logging.\n"
 "        Member logging includes: avatar changes, nickname changes, username changes. "
-msgstr ""
+msgstr " Esto activa o desactiva el registro de miembros.\n"
+"        El registro de miembros incluye: cambios de avatar, cambios de apodo, cambios de nombre de usuario. "
 
 #: Dredd-v3/cogs/manage.py:219
 #, python-brace-format
@@ -3195,22 +3201,23 @@ msgstr "{0} He activado el registro de nuevos miembros con éxito. Ahora enviar�
 
 #: Dredd-v3/cogs/manage.py:270
 msgid "Toggle leave logs in the server"
-msgstr ""
+msgstr "Alterna los registros de salida en el servidor"
 
 #: Dredd-v3/cogs/manage.py:277
 msgid " This enables or disables member leave logging.\n"
 "        Member leave logging includes: leave logging. "
-msgstr ""
+msgstr " Esto activa o desactiva el registro de salidas de miembros.\n"
+"        El registro de salidas de miembros incluye: registro de salidas. "
 
 #: Dredd-v3/cogs/manage.py:288
 #, python-brace-format
 msgid "{0} Successfully disabled leave member logs."
-msgstr ""
+msgstr "{0} He desactivado correctamente el registro de salidas se miembros."
 
 #: Dredd-v3/cogs/manage.py:293
 #, python-brace-format
 msgid "{0} Successfully changed the leave member logging channel. I will now send member updates in {1}."
-msgstr ""
+msgstr "{0} He cambiado el canal de registro se las salidas de miembros. Ahora enviaré las actualizaciones de miembros en {1}."
 
 #: Dredd-v3/cogs/manage.py:296
 #, python-brace-format
@@ -3661,15 +3668,15 @@ msgstr " Comando base para administrar roles al unirse "
 
 #: Dredd-v3/cogs/manage.py:829
 msgid "Set role on join for users"
-msgstr "Estable el role que se dará a usuarios al unirse"
+msgstr "Estable el rol que se dará a usuarios al unirse"
 
 #: Dredd-v3/cogs/manage.py:838
 msgid " Choose what role will be given to new users "
-msgstr " Elige cuál role se dará a los nuevos usuarios "
+msgstr " Elige cuál rol se dará a los nuevos usuarios "
 
 #: Dredd-v3/cogs/manage.py:843
 msgid "Add a role on join for people"
-msgstr "Añade un role que se dará a personas al unirse"
+msgstr "Añade un rol que se dará a personas al unirse"
 
 #: Dredd-v3/cogs/manage.py:851
 msgid " Add a role to role on join for people "
@@ -3824,7 +3831,7 @@ msgstr "{0} El rol de silencio se ha reiniciado."
 #: Dredd-v3/cogs/manage.py:1092
 #, python-brace-format
 msgid "{0} You do not have a mute role set up."
-msgstr "{0} No tienes un role de silencio personalizado configurado."
+msgstr "{0} No tienes un rol de silencio personalizado configurado."
 
 #: Dredd-v3/cogs/manage.py:1094
 #, python-brace-format
@@ -3891,16 +3898,16 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:1145
 #, python-brace-format
 msgid "{0} Set a custom moderator role to {1}"
-msgstr "{0} Se estableció un role de moderador personalizado a {1}"
+msgstr "{0} Se estableció un rol de moderador personalizado a {1}"
 
 #: Dredd-v3/cogs/manage.py:1149
 #, python-brace-format
 msgid "{0} Changed a custom moderator role to {1}"
-msgstr "{0} Se cambió un role de moderador personalizado a {1}"
+msgstr "{0} Se cambió un rol de moderador personalizado a {1}"
 
 #: Dredd-v3/cogs/manage.py:1152
 msgid "Set a custom admin role"
-msgstr "Eestablece un role de administrador personalizado"
+msgstr "Eestablece un rol de administrador personalizado"
 
 #: Dredd-v3/cogs/manage.py:1159
 msgid " Setup a custom admin role in your server\n"
@@ -3910,17 +3917,17 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:1169
 #, python-brace-format
 msgid "{0} I've reset your admin role."
-msgstr "{0} He reiniciado tu role de administrador."
+msgstr "{0} He reiniciado tu rol de administrador."
 
 #: Dredd-v3/cogs/manage.py:1171
 #, python-brace-format
 msgid "{0} You don't have a custom admin role setup."
-msgstr "{0} No tienes un role de administrador personalizado configurado."
+msgstr "{0} No tienes un rol de administrador personalizado configurado."
 
 #: Dredd-v3/cogs/manage.py:1173
 #, python-brace-format
 msgid "{0} Role was not found, if you're trying to reset the custom admin role, you can use `reset` arg."
-msgstr "{0} El role no fue encontrado, si estás intentando restablecer el rol de administrador personalizado, puedes usar el argumento `reset`."
+msgstr "{0} El rol no fue encontrado, si estás intentando restablecer el rol de administrador personalizado, puedes usar el argumento `reset`."
 
 #: Dredd-v3/cogs/manage.py:1177
 #, python-brace-format
@@ -3930,12 +3937,12 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:1185
 #, python-brace-format
 msgid "{0} Set a custom admin role to {1}"
-msgstr "{0} Se estableció un role de administrador personalizado a {1}"
+msgstr "{0} Se estableció un rol de administrador personalizado a {1}"
 
 #: Dredd-v3/cogs/manage.py:1189
 #, python-brace-format
 msgid "{0} Changed a custom admin role to {1}"
-msgstr "{0} Se cambió un role de administrador personalizado a {1}"
+msgstr "{0} Se cambió un rol de administrador personalizado a {1}"
 
 #: Dredd-v3/cogs/manage.py:1192
 msgid "Disable a command in the server"
@@ -4024,7 +4031,7 @@ msgstr " Comando base para administrar los roles de reacción "
 
 #: Dredd-v3/cogs/manage.py:1332
 msgid "Create a new reaction role"
-msgstr "Crea un nuevo role de reacción"
+msgstr "Crea un nuevo rol de reacción"
 
 #: Dredd-v3/cogs/manage.py:1340
 msgid " Start an interactive setup to create reaction roles "
@@ -4091,7 +4098,7 @@ msgstr "Emoji inválido, intenta de nuevo."
 #: Dredd-v3/cogs/manage.py:1446
 #, python-brace-format
 msgid "Please send a role that you'd like to assign to emoji - {0}"
-msgstr "Por favor, envía un role que te gustaría asignar al emoji - {0}"
+msgstr "Por favor, envía un rol que te gustaría asignar al emoji - {0}"
 
 #: Dredd-v3/cogs/manage.py:1457 Dredd-v3/cogs/manage.py:1517
 msgid "That role is already used in the reaction role, please choose another role."
@@ -5225,7 +5232,7 @@ msgstr "{0} ({1}) - **Parece que ya está silenciado.**"
 #: Dredd-v3/cogs/moderation.py:842
 #, python-brace-format
 msgid "{0} ({1}) - **I do not have permissions to add that role for whatever reason.**"
-msgstr "{0} ({1}) - **No tengo permisos para añadir ese role por alguna razón.**"
+msgstr "{0} ({1}) - **No tengo permisos para añadir ese rol por alguna razón.**"
 
 #: Dredd-v3/cogs/moderation.py:857 Dredd-v3/cogs/moderation.py:863
 #, python-brace-format
@@ -5269,12 +5276,12 @@ msgstr "{0} ({1}) - **El miembro no parece estar silenciado.**"
 #: Dredd-v3/cogs/moderation.py:951
 #, python-brace-format
 msgid "{0} ({1}) - **I do not have permissions to remove that role for whatever reason.**"
-msgstr "{0} ({1}) - **No tengo permisos para remover ese role por alguna razón.**"
+msgstr "{0} ({1}) - **No tengo permisos para remover ese rol por alguna razón.**"
 
 #: Dredd-v3/cogs/moderation.py:957
 #, python-brace-format
 msgid "{0} ({1}) - **Failed to remove the mute role.**"
-msgstr "{0} ({1}) - **Error al remover el role de silencio.**"
+msgstr "{0} ({1}) - **Error al remover el rol de silencio.**"
 
 #: Dredd-v3/cogs/moderation.py:966 Dredd-v3/cogs/moderation.py:972
 #, python-brace-format
@@ -5571,28 +5578,28 @@ msgstr "{0} ¡El servidor no está congelado!"
 
 #: Dredd-v3/cogs/moderation.py:1538
 msgid "Create a role"
-msgstr "Crea un role"
+msgstr "Crea un rol"
 
 #: Dredd-v3/cogs/moderation.py:1545
 msgid " Create a role in the server "
-msgstr " Crea un role en el servidor "
+msgstr " Crea un rol en el servidor "
 
 #: Dredd-v3/cogs/moderation.py:1548
 msgid "Role name can't be longer than 100 characters"
-msgstr "El nombre del role no puede tener más de 100 caracteres"
+msgstr "El nombre del rol no puede tener más de 100 caracteres"
 
 #: Dredd-v3/cogs/moderation.py:1551
 #, python-brace-format
 msgid "{0} Created role named **{1}**"
-msgstr "{0} He creado el role con el nombre **{1}**"
+msgstr "{0} He creado el rol con el nombre **{1}**"
 
 #: Dredd-v3/cogs/moderation.py:1553
 msgid "Delete a role"
-msgstr "Elimina un role"
+msgstr "Elimina un rol"
 
 #: Dredd-v3/cogs/moderation.py:1560
 msgid " Delete a role in the server "
-msgstr " Elimina un role en el servidor "
+msgstr " Elimina un rol en el servidor "
 
 #: Dredd-v3/cogs/moderation.py:1564
 #, python-brace-format
@@ -5607,12 +5614,12 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:1573
 #, python-brace-format
 msgid "{0} Successfully deleted the role!"
-msgstr "{0} ¡He eliminado el role con éxito!"
+msgstr "{0} ¡He eliminado el rol con éxito!"
 
 #: Dredd-v3/cogs/moderation.py:1575
 #, python-brace-format
 msgid "{0} Failed to delete the role, not sure why."
-msgstr "{0} Fallé al eliminar el role, no estoy seguro por qué."
+msgstr "{0} Fallé al eliminar el rol, no estoy seguro por qué."
 
 #: Dredd-v3/cogs/moderation.py:1579
 #, python-brace-format
@@ -5621,77 +5628,77 @@ msgstr "{0} Parece que no tengo permisos, pero eso no es posible."
 
 #: Dredd-v3/cogs/moderation.py:1583
 msgid "Add a role to member(s)"
-msgstr "Añade un role a miembro(s)"
+msgstr "Añade un rol a miembro(s)"
 
 #: Dredd-v3/cogs/moderation.py:1590
 msgid " Add a role to a member. Mentioning multiple members will add a role to multiple members. "
-msgstr " Añade un role a un miembro. Mencionar múltiples miembors añadirá un role a múliples miembros. "
+msgstr " Añade un rol a un miembro. Mencionar múltiples miembors añadirá un rol a múliples miembros. "
 
 #: Dredd-v3/cogs/moderation.py:1603
 #, python-brace-format
 msgid "{0} | You can only add a role to 15 members at once."
-msgstr "{0} | Solo puedes añadir un role a 15 miembros a la vez."
+msgstr "{0} | Solo puedes añadir un rol a 15 miembros a la vez."
 
 #: Dredd-v3/cogs/moderation.py:1621
 #, python-brace-format
 msgid "{0} ({1}) - **Member already has that role**"
-msgstr "{0} ({1}) - **El miembro ya tiene ese role**"
+msgstr "{0} ({1}) - **El miembro ya tiene ese rol**"
 
 #: Dredd-v3/cogs/moderation.py:1627 Dredd-v3/cogs/moderation.py:1726
 #, python-brace-format
 msgid "{0} ({1}) - **The role is either higher than me or is my highest**"
-msgstr "{0} ({1}) - **El role es más alto que yo o es el más alto**"
+msgstr "{0} ({1}) - **El rol es más alto que yo o es el más alto**"
 
 #: Dredd-v3/cogs/moderation.py:1633
 #, python-brace-format
 msgid "{0} ({1}) - **The role is either higher than you or is your highest**"
-msgstr "{0} ({1}) - **El role es más alto que tú o es el más alto**"
+msgstr "{0} ({1}) - **El rol es más alto que tú o es el más alto**"
 
 #: Dredd-v3/cogs/moderation.py:1658 Dredd-v3/cogs/moderation.py:1663
 #, python-brace-format
 msgid "**I've successfully added a role to {0} member(s):**\n"
-msgstr "**He añadido un role con éxito a {0} miembro(s):**\n"
+msgstr "**He añadido un rol con éxito a {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:1664
 #, python-brace-format
 msgid "**However, I failed to add the role to the following {0} member(s):**\n"
-msgstr "**Sin embargo, no he podido añadir el role a los siguientes {0} miembro(s):**\n"
+msgstr "**Sin embargo, no he podido añadir el rol a los siguientes {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:1671
 msgid "**I failed to add a role to all the members:**\n"
-msgstr "**No he podido añadir el role a todos los miembros:**\n"
+msgstr "**No he podido añadir el rol a todos los miembros:**\n"
 
 #: Dredd-v3/cogs/moderation.py:1682
 msgid "Remove a role to member(s)"
-msgstr "Remueve un role de miembro(s)"
+msgstr "Remueve un rol de miembro(s)"
 
 #: Dredd-v3/cogs/moderation.py:1689
 msgid " Remove a role to a member. Mentioning multiple members will remove a role from multiple members. "
-msgstr " Remueve un role de un miembro. Mencionar múltiples miembors removerá un role de múliples miembros. "
+msgstr " Remueve un rol de un miembro. Mencionar múltiples miembors removerá un rol de múliples miembros. "
 
 #: Dredd-v3/cogs/moderation.py:1702
 #, python-brace-format
 msgid "{0} | You can only remove a role from 15 members at once."
-msgstr "{0} | Solo puedes remover un role de 15 miembros a la vez."
+msgstr "{0} | Solo puedes remover un rol de 15 miembros a la vez."
 
 #: Dredd-v3/cogs/moderation.py:1720
 #, python-brace-format
 msgid "{0} ({1}) - **Member doesn't have that role**"
-msgstr "{0} ({1}) - **El miembro no tiene ese role**"
+msgstr "{0} ({1}) - **El miembro no tiene ese rol**"
 
 #: Dredd-v3/cogs/moderation.py:1751 Dredd-v3/cogs/moderation.py:1756
 #, python-brace-format
 msgid "**I've successfully removed a role from {0} member(s):**\n"
-msgstr "**He removido un role con éxito de {0} miembro(s):**\n"
+msgstr "**He removido un rol con éxito de {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:1757
 #, python-brace-format
 msgid "**However, I failed to remove the role from the following {0} member(s):**\n"
-msgstr "**Sin embargo, no he podido remover el role de los siguientes {0} miembro(s):**\n"
+msgstr "**Sin embargo, no he podido remover el rol de los siguientes {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:1764
 msgid "**I failed to remove a role from all the members:**\n"
-msgstr "**No he podido remover el role a todos los miembros:**\n"
+msgstr "**No he podido remover el rol a todos los miembros:**\n"
 
 #: Dredd-v3/cogs/moderation.py:1775
 msgid "Edit a reason of a case"
