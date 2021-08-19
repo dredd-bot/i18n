@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-19 17:53\n"
+"PO-Revision-Date: 2021-08-19 18:56\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3238,7 +3238,8 @@ msgstr "Alternar los registros del servidor de Discord en en el servidor"
 #: Dredd-v3/cogs/manage.py:312
 msgid " This enables or disables guild changes logging.\n"
 "        Guild changes logging includes: name, region, icon, afk channel, mfa level, verification level, default notifications. "
-msgstr ""
+msgstr " Esto activa o desactiva el registro de cambios en el servidor de Discord.\n"
+"        Cambios en el servidor de Discord incluye: nombre, región, ícono, canal de afk, nivel de mfa, nivel de verificación, notificaciones predeterminadas. "
 
 #: Dredd-v3/cogs/manage.py:323
 #, python-brace-format
@@ -3248,26 +3249,27 @@ msgstr "{0} He desactivado correctamente el registro de las actualizaciones del 
 #: Dredd-v3/cogs/manage.py:327
 #, python-brace-format
 msgid "{0} Successfully changed the guild log updates channel. I will now send guild updates in {1}."
-msgstr ""
+msgstr "{0} He cambiado correctamente el canal de registro de actualizaciones del servidor. Ahora enviaré las actualizaciones del servidor en {1}."
 
 #: Dredd-v3/cogs/manage.py:330
 #, python-brace-format
 msgid "{0} You don't have guild update logging enabled in this server.\n"
 "*Hint: If you want to enable logging, you need to provide a channel where logging should be sent to*"
-msgstr ""
+msgstr "{0} No tienes el registro de actualizaciones del servidor de Discord activado en este servidor.\n"
+"*Pista: Si quieres activar el registro, necesitas proporcionar un canal en donde el registro debe ser enviado*"
 
 #: Dredd-v3/cogs/manage.py:335
 #, python-brace-format
 msgid "{0} Successfully enabled guild updates logging. I will now send guild updates in {1}."
-msgstr ""
+msgstr "{0} He activado correctamente el registro de actualizaciones del servidor de Discord. Ahora enviaré las actualizaciones del servidor en {1}."
 
 #: Dredd-v3/cogs/manage.py:339
 msgid "Toggle edit message logs in the server"
-msgstr ""
+msgstr "Alterna el registro de mensajes editados en el servidor"
 
 #: Dredd-v3/cogs/manage.py:346
 msgid " This enables or disables messages edit logging "
-msgstr ""
+msgstr " Esto activa o desactiva el registro de mensajes editados "
 
 #: Dredd-v3/cogs/manage.py:356
 #, python-brace-format
@@ -3283,7 +3285,8 @@ msgstr "{0} He actualizado correctamente el canal de registro para los mensajes 
 #, python-brace-format
 msgid "{0} You don't have edit message logs enabled in this server.\n"
 "*Hint: If you want to enable logging, you need to provide a channel where logging should be sent to*"
-msgstr ""
+msgstr "{0} No tienes el registro de mensajes editados activado en este servidor.\n"
+"*Pista: Si quieres activar el registro, necesitas proporcionar un canal en donde el registro debe ser enviado*"
 
 #: Dredd-v3/cogs/manage.py:368
 #, python-brace-format
@@ -3292,11 +3295,11 @@ msgstr "{0} He activado el registro de mensajes editados en {1}."
 
 #: Dredd-v3/cogs/manage.py:371
 msgid "Toggle delete message logs in the server."
-msgstr ""
+msgstr "Alterna el registro de mensajes eliminados en este servidor."
 
 #: Dredd-v3/cogs/manage.py:378
 msgid " This enables or disables messages deleting logging "
-msgstr ""
+msgstr " Esto activa o desactiva el registro de mensajes eliminados "
 
 #: Dredd-v3/cogs/manage.py:388
 #, python-brace-format
@@ -3312,7 +3315,8 @@ msgstr "{0} He actualizado correctamente el canal de registro para los mensajes 
 #, python-brace-format
 msgid "{0} Deleted message logs are currently disabled in this server.\n"
 "*Hint: If you want to enable logging, you need to provide a channel where logging should be sent to*"
-msgstr ""
+msgstr "{0} El registro de mensajes eliminados está actualmente desactivado en este servidor.\n"
+"*Pista: Si quieres habilitar el registro, necesitas proporcionar un canal en donde el registro debe ser enviado*"
 
 #: Dredd-v3/cogs/manage.py:400
 #, python-brace-format
@@ -3326,7 +3330,8 @@ msgstr "Alternar los registros de moderación"
 #: Dredd-v3/cogs/manage.py:410
 msgid " This enables or disables moderation logging\n"
 "        Moderation logging includes: bans, kicks, mutes, unbans, unmutes. "
-msgstr ""
+msgstr " Esto activa o desactiva el registro de moderaciones.\n"
+"        El registro de moderaciones incluye: baneos, expulsiones, silencios, desbaneos, dessilencios. "
 
 #: Dredd-v3/cogs/manage.py:421
 #, python-brace-format
@@ -3342,7 +3347,8 @@ msgstr "{0} He actualizado correctamente el canal de registro de moderaciones a 
 #, python-brace-format
 msgid "{0} Moderation logs are currently disabled in this server.\n"
 "*Hint: If you want to enable logging, you need to provide a channel where logging should be sent to*"
-msgstr ""
+msgstr "{0} El registros de moderaciones está actualmente desactivado en este servidor.\n"
+"*Pista: Si quieres habilitar el registro, necesitas proporcionar un canal en donde el registro debe ser enviado*"
 
 #: Dredd-v3/cogs/manage.py:433
 #, python-brace-format
@@ -3386,7 +3392,7 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:489
 #, python-brace-format
 msgid "{0} Nickname can't be longer than 32 characters over, you're {1} characters over."
-msgstr ""
+msgstr "{0} Los apodos no pueden ser más largos de 32 caracteres, el tuyo está {1} caracteres arriba de límite."
 
 #: Dredd-v3/cogs/manage.py:497
 #, python-brace-format
@@ -3415,7 +3421,7 @@ msgstr "Editar los mensajes de bienvenida"
 
 #: Dredd-v3/cogs/manage.py:518
 msgid " Base command for managing welcoming messages in the server "
-msgstr ""
+msgstr " Comando base para administrar los mensajes de bienvenida en el servidor "
 
 #: Dredd-v3/cogs/manage.py:521
 msgid "Set the channel for welcoming messages"
@@ -3424,7 +3430,8 @@ msgstr "Establece el canal para los mensajes de bienvenida"
 #: Dredd-v3/cogs/manage.py:527
 msgid " Set a channel where welcoming messages should be sent to.\n"
 "        Make sure bot has permissions to send messages in that channel. "
-msgstr ""
+msgstr " Establece un canal donde los mensajes de bienvenida deben ser enviados.\n"
+"        Asegúrate de que el bot tiene permisos de enviar mensajes en ese canal. "
 
 #: Dredd-v3/cogs/manage.py:538
 #, python-brace-format
