@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-18 08:58\n"
+"PO-Revision-Date: 2021-08-19 18:56\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -672,7 +672,8 @@ msgstr "Hey!\n"
 #, python-brace-format
 msgid "Thank you for inviting me to this server!\n"
 "To get started - you can see my commands by using `{0}help [category/command]`. In order to change my prefix you can use `{0}prefix [prefix]`.If you'll need any help you can join the [support server]({1}). You can also contact `{2}` or `{3}` if you'll need any help."
-msgstr ""
+msgstr "Beni bu sunucuya davet ettiğiniz için teşekkür ederim!\n"
+"Başlamak için - Komutlarımı `{0}help [category/command]` kullanarak görebilirsiniz. Ön ekimi değiştirmek için ise `{0}prefix [prefix]` kullanabilirsiniz. Herhangi bir yardıma ihtiyacınız olursa [support server]({1}) sunucusuna katılabilirsiniz. Herhangi bir yardıma ihtiyacınız olursa `{2}` veya `{3}` ile de iletişime geçebilirsiniz."
 
 #. We were invited without embed perms...
 #: Dredd-v3/cogs/events/events.py:301
