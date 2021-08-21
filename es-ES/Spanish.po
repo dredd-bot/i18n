@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-21 16:45\n"
+"PO-Revision-Date: 2021-08-21 17:45\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3717,7 +3717,7 @@ msgstr "{0} Ese rol ya está añadido a la lista de roles al unirse."
 #: Dredd-v3/cogs/manage.py:875
 #, python-brace-format
 msgid "{0} Added {1} to join role for people."
-msgstr "{0} He añadido {1} al rol al unirse para personas."
+msgstr "{0} He añadido {1} a los roles que se darán a las personas al unirse."
 
 #: Dredd-v3/cogs/manage.py:878
 msgid "Remove a role on join for people"
@@ -3725,25 +3725,25 @@ msgstr "Remueve un rol al unirse para personas"
 
 #: Dredd-v3/cogs/manage.py:886
 msgid " Remove a role from role on join for people "
-msgstr ""
+msgstr " Remueve un rol de los que se darán a las personas al unirse "
 
 #: Dredd-v3/cogs/manage.py:897 Dredd-v3/cogs/manage.py:1007
 #, python-brace-format
 msgid "{0} That role is not added to role on join list."
-msgstr ""
+msgstr "{0} Ese rol no está añadido a la lista de roles al unirse."
 
 #: Dredd-v3/cogs/manage.py:901
 #, python-brace-format
 msgid "{0} Removed {1} from join role for people."
-msgstr ""
+msgstr "{0} He removido {1} de los roles que se darán a las personas al unirse."
 
 #: Dredd-v3/cogs/manage.py:904
 msgid "See all the roles on join for people"
-msgstr ""
+msgstr "Mira todos los roles que se dan a las personas al unirse"
 
 #: Dredd-v3/cogs/manage.py:911
 msgid " See all the roles for role on join for people "
-msgstr ""
+msgstr " Mira todos los roles que se dan a las personas al unirse "
 
 #: Dredd-v3/cogs/manage.py:923 Dredd-v3/cogs/manage.py:1034
 msgid "Role not found"
@@ -3751,54 +3751,54 @@ msgstr "Role no encontrado"
 
 #: Dredd-v3/cogs/manage.py:926
 msgid "Role on join for people"
-msgstr ""
+msgstr "Rol al unirse para personas"
 
 #: Dredd-v3/cogs/manage.py:936
 #, python-brace-format
 msgid "{0} There are no role on join roles for people set."
-msgstr ""
+msgstr "{0} No hay roles establecidos en rol al unirse para personas."
 
 #: Dredd-v3/cogs/manage.py:939
 msgid "Set role on join for bots"
-msgstr ""
+msgstr "Estable el rol que se dará a bots al unirse"
 
 #: Dredd-v3/cogs/manage.py:948
 msgid " Manage role on join for bots "
-msgstr ""
+msgstr " Administra el role que se dará a bots al unirse "
 
 #: Dredd-v3/cogs/manage.py:953
 msgid "Add a role on join for bots"
-msgstr ""
+msgstr "Añade un rol que se dará a bots al unirse"
 
 #: Dredd-v3/cogs/manage.py:961
 msgid " Add a role to role on join for bots "
-msgstr ""
+msgstr " Añade un rol que se dará a bots al unirse "
 
 #: Dredd-v3/cogs/manage.py:985
 #, python-brace-format
 msgid "{0} Added {1} to join role for bots."
-msgstr ""
+msgstr "{0} He añadido {1} a los roles que se darán a los bots al unirse."
 
 #: Dredd-v3/cogs/manage.py:988
 msgid "Remove a role on join for bots"
-msgstr ""
+msgstr "Remueve un rol al unirse para bots"
 
 #: Dredd-v3/cogs/manage.py:996
 msgid " Remove a role from role on join for bots "
-msgstr ""
+msgstr " Remueve un rol de los que se darán a los bots al unirse "
 
 #: Dredd-v3/cogs/manage.py:1011
 #, python-brace-format
 msgid "{0} Removed {1} from join role for bots."
-msgstr ""
+msgstr "{0} He removido {1} de los roles que se darán a las bots al unirse."
 
 #: Dredd-v3/cogs/manage.py:1014
 msgid "See all the roles on join for bots"
-msgstr "Mira todos los roles al unirse para bots"
+msgstr "Mira todos los roles que se darán a los bots al unirse"
 
 #: Dredd-v3/cogs/manage.py:1022
 msgid " See all the roles for role on join for bots "
-msgstr " Mira todos los roles en role al unirse para bots "
+msgstr " Mira todos los roles que se darán a los bots al unirse "
 
 #: Dredd-v3/cogs/manage.py:1037
 msgid "Role on join for bots"
@@ -3821,7 +3821,7 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:1070
 #, python-brace-format
 msgid "{0} I've successfuly disabled role on join."
-msgstr ""
+msgstr "{0} He deshabilitado el rol al unirse con éxito."
 
 #: Dredd-v3/cogs/manage.py:1073
 msgid "Set a custom mute role"
@@ -3846,7 +3846,7 @@ msgstr "{0} No tienes un rol de silencio personalizado configurado."
 #: Dredd-v3/cogs/manage.py:1094
 #, python-brace-format
 msgid "{0} That role was not found! If you're trying to reset the mute role, you can use `reset` as the argument."
-msgstr ""
+msgstr "{0} ¡El role no fue encontrado! Si estás intentando restablecer el rol de silencio, puedes usar el argumento `reset`."
 
 #: Dredd-v3/cogs/manage.py:1097
 #, python-brace-format
