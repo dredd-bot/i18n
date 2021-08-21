@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-19 19:55\n"
+"PO-Revision-Date: 2021-08-21 16:45\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3629,34 +3629,34 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:762
 msgid "Toggle leaving messages type"
-msgstr ""
+msgstr "Cambia el tipo de mensajes de despedida"
 
 #: Dredd-v3/cogs/manage.py:768
 msgid " Toggle leaving messages between embedded and plain text. "
-msgstr ""
+msgstr " Alterna los mensajes de despedida entre texto incrustado y texto plano. "
 
 #: Dredd-v3/cogs/manage.py:773 Dredd-v3/cogs/manage.py:802
 #, python-brace-format
 msgid "{0} Why are you trying to setup leaving messages without having them toggled on? To enable them run `{1}leaving channel [#channel]`"
-msgstr ""
+msgstr "{0} ¿Por qué estás intentando configurar los mensajes de despedida sin que estén activados? Para activarlos ejecuta `{1}leaving channel [#canal]`"
 
 #: Dredd-v3/cogs/manage.py:782
 #, python-brace-format
 msgid "{0} Leave messages will no longer be sent in embeds."
-msgstr ""
+msgstr "{0} Los mensajes de despedida ya no serán enviados en incrustados."
 
 #: Dredd-v3/cogs/manage.py:787
 #, python-brace-format
 msgid "{0} Leave messages will now be sent in embeds."
-msgstr ""
+msgstr "{0} Los mensajes de despedida ahora serán enviados en incrustados."
 
 #: Dredd-v3/cogs/manage.py:790
 msgid "Toggle bot leaving"
-msgstr ""
+msgstr "Alterna la salida del bot"
 
 #: Dredd-v3/cogs/manage.py:797
 msgid " Toggle whether or not bot leaves should be logged. "
-msgstr ""
+msgstr " Alterna si cuando se salen los bots deben ser registrados o no. "
 
 #: Dredd-v3/cogs/manage.py:810
 #, python-brace-format
@@ -3690,38 +3690,38 @@ msgstr "Añade un rol que se dará a personas al unirse"
 
 #: Dredd-v3/cogs/manage.py:851
 msgid " Add a role to role on join for people "
-msgstr ""
+msgstr " Añade un rol que se dará a personas al unirse "
 
 #: Dredd-v3/cogs/manage.py:858 Dredd-v3/cogs/manage.py:893
 #: Dredd-v3/cogs/manage.py:916 Dredd-v3/cogs/manage.py:968
 #: Dredd-v3/cogs/manage.py:1003 Dredd-v3/cogs/manage.py:1027
 #, python-brace-format
 msgid "{0} Role on is not enabled in this server, please use `{1}joinrole toggle` to enable it."
-msgstr ""
+msgstr "{0} El rol al unirse no está activado en este servidor, por favor, usa `{1}joinrole toggle` para activarlo."
 
 #: Dredd-v3/cogs/manage.py:862 Dredd-v3/cogs/manage.py:972
 #, python-brace-format
 msgid "{0} You cannot set that role as it is configured as mod or admin role"
-msgstr ""
+msgstr "{0} No puedes establecer ese rol ya está configurado como un rol de moderador o administrador"
 
 #: Dredd-v3/cogs/manage.py:864 Dredd-v3/cogs/manage.py:974
 #, python-brace-format
 msgid "{0} The role you're trying to setup is higher in role hierarchy and I cannot access it."
-msgstr ""
+msgstr "{0} El rol que estás intentando configurar es más alto en la jerarquía de roles y no puedo acceder a él."
 
 #: Dredd-v3/cogs/manage.py:868 Dredd-v3/cogs/manage.py:978
 #, python-brace-format
 msgid "{0} That role is already added to role on join list."
-msgstr ""
+msgstr "{0} Ese rol ya está añadido a la lista de roles al unirse."
 
 #: Dredd-v3/cogs/manage.py:875
 #, python-brace-format
 msgid "{0} Added {1} to join role for people."
-msgstr ""
+msgstr "{0} He añadido {1} al rol al unirse para personas."
 
 #: Dredd-v3/cogs/manage.py:878
 msgid "Remove a role on join for people"
-msgstr ""
+msgstr "Remueve un rol al unirse para personas"
 
 #: Dredd-v3/cogs/manage.py:886
 msgid " Remove a role from role on join for people "
@@ -3794,24 +3794,24 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:1014
 msgid "See all the roles on join for bots"
-msgstr ""
+msgstr "Mira todos los roles al unirse para bots"
 
 #: Dredd-v3/cogs/manage.py:1022
 msgid " See all the roles for role on join for bots "
-msgstr ""
+msgstr " Mira todos los roles en role al unirse para bots "
 
 #: Dredd-v3/cogs/manage.py:1037
 msgid "Role on join for bots"
-msgstr ""
+msgstr "Rol al unirse para bots"
 
 #: Dredd-v3/cogs/manage.py:1047
 #, python-brace-format
 msgid "{0} There are no role on join roles for bots set."
-msgstr ""
+msgstr "{0} No hay roles establecidos en rol al unirse para bots."
 
 #: Dredd-v3/cogs/manage.py:1058
 msgid " Toggle role on join on and off "
-msgstr ""
+msgstr " Cambia el rol al unirse a encendido o apagado "
 
 #: Dredd-v3/cogs/manage.py:1065
 #, python-brace-format
