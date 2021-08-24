@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-21 17:45\n"
+"PO-Revision-Date: 2021-08-24 05:01\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3604,18 +3604,19 @@ msgstr "{0} You mensaje de despedida actual es igual al nuevo."
 #: Dredd-v3/cogs/manage.py:732
 #, python-brace-format
 msgid "{0} Leave messages can't be longer than 1000 characters. You're {1} character(s) over the limit."
-msgstr ""
+msgstr "{0} Los mensajes de despedida no pueden tener más de 1000 caracteres. Tu mensaje tiene {1} caracter(es) arriba del límite."
 
 #: Dredd-v3/cogs/manage.py:736
 #, python-brace-format
 msgid "{0} **Successfully set your leave message to:**\n"
 "{1}"
-msgstr ""
+msgstr "{0} **He establecido correctamente los mensajes de bienvenida a:**\n"
+"{1}"
 
 #: Dredd-v3/cogs/manage.py:744
 #, python-brace-format
 msgid "{0} Your sent dict is invalid. Please use <https://embedbuilder.nadekobot.me/> to create an embed dict and then paste that code."
-msgstr ""
+msgstr "{0} Tu dictado es inválido. Por favor, usa <https://embedbuilder.nadekobot.me/> para crear un dictado de incrustado a luego pega ese código."
 
 #: Dredd-v3/cogs/manage.py:754
 #, python-brace-format
@@ -3625,7 +3626,7 @@ msgstr "{0} Tu incrustado parece estar vacío. Por favor, usa <https://embedbuil
 #: Dredd-v3/cogs/manage.py:759
 #, python-brace-format
 msgid "**Here is your new leave member embed message:**{0}"
-msgstr ""
+msgstr "**Aquí está tu nuevo mensaje incrustado de despedida de miembros:**{0}"
 
 #: Dredd-v3/cogs/manage.py:762
 msgid "Toggle leaving messages type"
@@ -3816,7 +3817,7 @@ msgstr " Cambia el rol al unirse a encendido o apagado "
 #: Dredd-v3/cogs/manage.py:1065
 #, python-brace-format
 msgid "{0} Role on join was toggled on, you can now set the roles using `{1}joinrole [people|bots] [add|remove] <role>`"
-msgstr ""
+msgstr "{0} Rol al unirse ha sido encendido, ahora puedes establecer los roles usando `{1}joinrole [people|bots] [add|remove] <role>`"
 
 #: Dredd-v3/cogs/manage.py:1070
 #, python-brace-format
@@ -3852,23 +3853,25 @@ msgstr "{0} ¡El role no fue encontrado! Si estás intentando restablecer el rol
 #, python-brace-format
 msgid "{0} The role you're trying to set as the mute role is higher than me in the role hierarchy!\n"
 "Please move the role lower in the hierarchy or choose a role in the hierarchy."
-msgstr ""
+msgstr "{0} ¡El role que estás intentando establecer para el role de silencio está más alto que yo en la jerarquía de roles!\n"
+"Por favor mueve el rol más bajo en la jerarquía o elige un rol en la jerarquía."
 
 #: Dredd-v3/cogs/manage.py:1100
 #, python-brace-format
 msgid "{0} The role you're trying to set as the mute role has the send messages permission.\n"
 "You can only set up roles without the send messages permission."
-msgstr ""
+msgstr "{0} El rol que estás intentando establecer como el rol de silencio tiene el permiso de enviar mensajes.\n"
+"Sólo puedes configurar roles que no tienen permiso de enviar mensajes."
 
 #: Dredd-v3/cogs/manage.py:1105
 #, python-brace-format
 msgid "{0} Set the muted role to {1}"
-msgstr ""
+msgstr "{0} He establecido el rol silenciado a {1}"
 
 #: Dredd-v3/cogs/manage.py:1109
 #, python-brace-format
 msgid "{0} Updated the muted role to {1}"
-msgstr ""
+msgstr "{0} He actualizado el rol silenciado a {1}"
 
 #: Dredd-v3/cogs/manage.py:1112
 msgid "Set a custom mod role"
@@ -3888,22 +3891,22 @@ msgstr "{0} He restablecido correctamente el rol de moderador."
 #: Dredd-v3/cogs/manage.py:1131
 #, python-brace-format
 msgid "{0} You don't have a custom moderator role setup."
-msgstr ""
+msgstr "{0} No tienes un role de moderador personalizado configurado."
 
 #: Dredd-v3/cogs/manage.py:1133
 #, python-brace-format
 msgid "{0} Role was not found, if you're trying to reset the custom moderator role, you can use `reset` arg."
-msgstr ""
+msgstr "{0} El rol no fue encontrado, si estás intentando restablecer el rol de administrador personalizado, puedes usar el argumento `reset`."
 
 #: Dredd-v3/cogs/manage.py:1137
 #, python-brace-format
 msgid "{0} Due to safety reasons, moderator role must at least have manage messages permissions"
-msgstr ""
+msgstr "{0} Por razones de seguridad, el rol moderador debe tener al menos el permiso de manejar mensajes"
 
 #: Dredd-v3/cogs/manage.py:1141 Dredd-v3/cogs/manage.py:1181
 #, python-brace-format
 msgid "{0} You cannot set that role as it is given to new members"
-msgstr ""
+msgstr "{0} No puedes establecer ese rol ya que se da a los nuevos miembros"
 
 #: Dredd-v3/cogs/manage.py:1145
 #, python-brace-format
@@ -3922,7 +3925,8 @@ msgstr "Eestablece un rol de administrador personalizado"
 #: Dredd-v3/cogs/manage.py:1159
 msgid " Setup a custom admin role in your server\n"
 "        You can also reset the admin role by using argument `reset` "
-msgstr ""
+msgstr " Configura un role personalizado de administrador en tu servidor\n"
+"        También puedes reiniciar el role administrador usando el argumento `reset` "
 
 #: Dredd-v3/cogs/manage.py:1169
 #, python-brace-format
