@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-16 01:55\n"
+"PO-Revision-Date: 2021-08-24 03:49\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -1222,53 +1222,53 @@ msgstr "{0} Đặt thành công giá trị của tự động kiểm duyệt th�
 
 #: Dredd-v3/cogs/automod.py:200
 msgid "Toggle anti links on or off"
-msgstr ""
+msgstr "Bật hoặc tắt trình chặn trang link"
 
 #: Dredd-v3/cogs/automod.py:206
 msgid " Toggle anti links on or off "
-msgstr ""
+msgstr " Bật hoặc tắt trình chặn trang link "
 
 #: Dredd-v3/cogs/automod.py:223
 #, python-brace-format
 msgid "{0} Successfuly disabled anti link in this server"
-msgstr ""
+msgstr "{0} Đã vô hiệu hóa thành công trình chặn trang link trong server này"
 
 #: Dredd-v3/cogs/automod.py:225
 msgid "Anti link is already disabled in this server."
-msgstr ""
+msgstr "Trình chặn trang link đã bị tắt trong server này."
 
 #: Dredd-v3/cogs/automod.py:228
 #, python-brace-format
 msgid "{0} Successfully set anti links punishment type to **{1}** members.{2}"
-msgstr ""
+msgstr "{0} Đặt thành công loại hình phạt của trình chặn trang link thành **{1}** người.{2}"
 
 #: Dredd-v3/cogs/automod.py:229 Dredd-v3/cogs/automod.py:261
 #: Dredd-v3/cogs/automod.py:300 Dredd-v3/cogs/automod.py:339
 #: Dredd-v3/cogs/automod.py:372
 msgid " They will be muted/banned for 12 hours by default."
-msgstr ""
+msgstr " Người này sẽ bị muted trong 12 giờ theo mặc định."
 
 #: Dredd-v3/cogs/automod.py:232
 msgid "Toggle anti invites on or off"
-msgstr ""
+msgstr "Bật hoặc tắt trình chặn lời mời"
 
 #: Dredd-v3/cogs/automod.py:238
 msgid " Toggle anti invites on or off "
-msgstr ""
+msgstr " Bật hoặc tắt trình chặn lời mời "
 
 #: Dredd-v3/cogs/automod.py:255
 #, python-brace-format
 msgid "{0} Successfuly disabled anti invites in this server"
-msgstr ""
+msgstr "{0} Đã tắt thành công trình chặn lời mời trong server này"
 
 #: Dredd-v3/cogs/automod.py:257
 msgid "Anti invite is already disabled in this server."
-msgstr ""
+msgstr "Trình chặn lời mời đã bị tắt trong server này."
 
 #: Dredd-v3/cogs/automod.py:260
 #, python-brace-format
 msgid "{0} Successfully set anti invites punishment type to **{1}** members.{2}"
-msgstr ""
+msgstr "{0} Đặt thành công loại hình phạt chặn lời mời thành **{1}** người.{2}"
 
 #: Dredd-v3/cogs/automod.py:265
 msgid "Toggle anti mass mention on or off"
