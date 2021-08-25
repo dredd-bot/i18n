@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-24 05:01\n"
+"PO-Revision-Date: 2021-08-25 00:18\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3464,7 +3464,7 @@ msgstr " Establece el mensaje de bienvenida en el servidor\n"
 #: Dredd-v3/cogs/manage.py:650
 #, python-brace-format
 msgid "{0} You cannot set up welcome messages because they are not enabled!To enable them run `{1}welcoming channel [#channel]`"
-msgstr ""
+msgstr "{0} ¡No puedes configurar los mensajes de despedida porque no están activados! Para activarlos ejecuta `{1}welcoming channel [#canal]`"
 
 #: Dredd-v3/cogs/manage.py:578 Dredd-v3/cogs/manage.py:598
 #, python-brace-format
@@ -3946,7 +3946,7 @@ msgstr "{0} El rol no fue encontrado, si estás intentando restablecer el rol de
 #: Dredd-v3/cogs/manage.py:1177
 #, python-brace-format
 msgid "{0} Due to safety reasons, admin role must at least have ban members permissions"
-msgstr ""
+msgstr "{0} Por razones de seguridad, el rol administrador debe tener al menos el permiso de banear miembros"
 
 #: Dredd-v3/cogs/manage.py:1185
 #, python-brace-format
@@ -3995,7 +3995,7 @@ msgstr "Desactiva una categoría en el servidor"
 
 #: Dredd-v3/cogs/manage.py:1271
 msgid " Disable category you don't want people to use in the server "
-msgstr ""
+msgstr " Desactiva una categoría que no quieres que usen las personas en el servidor "
 
 #: Dredd-v3/cogs/manage.py:1276 Dredd-v3/cogs/manage.py:1306
 #, python-brace-format
@@ -4023,7 +4023,7 @@ msgstr "Activa una categoría en el servidor"
 
 #: Dredd-v3/cogs/manage.py:1301
 msgid " Enable category which you've previously disbled "
-msgstr ""
+msgstr " Activa una categoría que tenías desactivada previamente "
 
 #: Dredd-v3/cogs/manage.py:1311
 #, python-brace-format
@@ -4198,7 +4198,7 @@ msgstr " Obtén una lista de los roles de reacción en el servidor "
 
 #: Dredd-v3/cogs/manage.py:1596
 msgid "No reaction roles are setup in this server."
-msgstr ""
+msgstr "No hay roles de reacción configurados en este servidor."
 
 #: Dredd-v3/cogs/manage.py:1618
 #, python-brace-format
@@ -4239,7 +4239,7 @@ msgstr " Elimina los roles de reacción en el servidor "
 
 #: Dredd-v3/cogs/manage.py:1647
 msgid "Message ID must not include letters, only numbers"
-msgstr ""
+msgstr "El ID del mensaje no debe incluir letras, sólo números"
 
 #: Dredd-v3/cogs/manage.py:1652
 #, python-brace-format
