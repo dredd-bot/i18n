@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-25 00:18\n"
+"PO-Revision-Date: 2021-08-25 01:23\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4244,12 +4244,12 @@ msgstr "El ID del mensaje no debe incluir letras, sólo números"
 #: Dredd-v3/cogs/manage.py:1652
 #, python-brace-format
 msgid "Reaction role for that message doesn't exist. Please use `{0}reaction-roles list` to get a list of all the reaction roles"
-msgstr ""
+msgstr "El role de reacción para ese mensaje no existe. Por favor, usa `{0}reaction-roles list` para obtener una lista de todos los roles de reacción"
 
 #: Dredd-v3/cogs/manage.py:1666
 #, python-brace-format
 msgid "{0} Successfully deleted reaction roles for message {1}"
-msgstr ""
+msgstr "{0} He eliminado correctamente los roles de reacción para el mensaje {1}"
 
 #: Dredd-v3/cogs/misc.py:60
 msgid "Search the urban dictionary"
@@ -4291,7 +4291,8 @@ msgstr " ¡Sugiere cualquier cosa que te gustaría ver en el servidor/bot!\n"
 #: Dredd-v3/cogs/misc.py:106
 #, python-brace-format
 msgid "{0} Sorry, but this server is blacklisted from submitting suggestions. If you want to submit a suggestion, please do so in my DMs. Spamming them will result in a blacklist."
-msgstr ""
+msgstr "{0} Lo siento, pero este servidor está en la lista negra de enviar sugerencias. Si quieres enviar una sugerencia, hazlo en mis mensajes privados.\n"
+"Hacer spam de ello hará que quedes en la lista negra."
 
 #: Dredd-v3/cogs/misc.py:115
 msgid "characters"
@@ -4433,12 +4434,12 @@ msgstr "Intercambia 2 tareas en lugares"
 
 #: Dredd-v3/cogs/misc.py:244
 msgid " Swap 2 todo's around. This will swap the time when todos have been added. "
-msgstr ""
+msgstr " Intercambia el entorno de dos tareas. Esto cambiará el tiempo en que se han añadido las tareas. "
 
 #: Dredd-v3/cogs/misc.py:263
 #, python-brace-format
 msgid "{0} Successfully swapped places of todo **#{1}** and **#{2}**."
-msgstr ""
+msgstr "{0} He cambiado correctamente el orden de las tareas **#{1}** y **#{2}**."
 
 #: Dredd-v3/cogs/misc.py:267
 msgid "Check your todo list"
@@ -4576,12 +4577,12 @@ msgstr "Mira el último mensaje borrado en un canal."
 
 #: Dredd-v3/cogs/misc.py:455
 msgid " Snipe latest deleted message in the current or mentioned channel "
-msgstr ""
+msgstr " Obtén el último mensaje eliminado en el canal actual o el mencionado "
 
 #: Dredd-v3/cogs/misc.py:460
 #, python-brace-format
 msgid "{0} I haven't yet logged any messages from {1}."
-msgstr ""
+msgstr "{0} Todavía no he registrado ningún mensaje de {1}."
 
 #: Dredd-v3/cogs/misc.py:461
 msgid "this channel"
@@ -4590,21 +4591,21 @@ msgstr "este canal"
 #: Dredd-v3/cogs/misc.py:464
 #, python-brace-format
 msgid "{0} I can't let you snipe messages from an NSFW channel!"
-msgstr ""
+msgstr "{0} ¡No puedo permitirte obtener mensajes de canales NSFW!"
 
 #: Dredd-v3/cogs/misc.py:475
 #, python-brace-format
 msgid "{0} Looks like I can't fetch the user that sent the snipped message."
-msgstr ""
+msgstr "{0} Parece que no puedo obtener el usuario que envió el mensaje obtenido."
 
 #: Dredd-v3/cogs/misc.py:477
 #, python-brace-format
 msgid "{0} That message looks like it was a webhook, and I'm missing permissions to look for more information."
-msgstr ""
+msgstr "{0} Ese mensaje parece que estaba en una integración, y yo no tengo permisos para buscar más información."
 
 #: Dredd-v3/cogs/misc.py:479
 msgid "*[Couldn't get the sniped content]*"
-msgstr ""
+msgstr "*[No pude obtener el contenido]*"
 
 #: Dredd-v3/cogs/misc.py:482
 #, python-brace-format
@@ -4619,20 +4620,22 @@ msgstr "Eliminado {0} en #{1}"
 #. toggle commands for activity and snipes
 #: Dredd-v3/cogs/misc.py:487
 msgid "Toggle your data logging"
-msgstr ""
+msgstr "Alterna tu registro de datos"
 
 #: Dredd-v3/cogs/misc.py:491
 msgid " Base command for toggling your data logging. This only applies to snipes, nicknames "
-msgstr ""
+msgstr " Comando base para alterna tu registro de datos.\n"
+"Esto solo aplica a mensajes eliminados obtenidos, apodos "
 
 #: Dredd-v3/cogs/misc.py:494
 msgid "Toggle your snipes logging"
-msgstr ""
+msgstr "Alterna tu registro de mensajes eliminados obtenidos"
 
 #: Dredd-v3/cogs/misc.py:498
 msgid " Toggle your snipes (deleted messages) logging\n"
 "        This applies to all the servers we share "
-msgstr ""
+msgstr " Alterna tu registro de mensajes eliminados\n"
+"        Esto aplica a todos los servidores que compartimos "
 
 #: Dredd-v3/cogs/misc.py:507
 msgid "Are you sure you want to opt-out? Once you'll do that, I won't log your deleted messages in my snipe command."
@@ -4641,11 +4644,11 @@ msgstr ""
 #: Dredd-v3/cogs/misc.py:515
 #, python-brace-format
 msgid "{0} Alright. I won't be logging your snipes anymore!"
-msgstr ""
+msgstr "{0} Entendido. ¡Ya no registraré tus mensajes eliminados obtenidos!"
 
 #: Dredd-v3/cogs/misc.py:520
 msgid "Oh sweet! I'll continue logging your snipes."
-msgstr ""
+msgstr "¡Oh dulce! Continuaré registrando tus menajes eliminados obtenidos."
 
 #: Dredd-v3/cogs/misc.py:538
 #, python-brace-format
@@ -4658,12 +4661,13 @@ msgstr ""
 
 #: Dredd-v3/cogs/misc.py:553
 msgid "Toggle your nicknames logging"
-msgstr ""
+msgstr "Alterna tus registro de apodos"
 
 #: Dredd-v3/cogs/misc.py:557
 msgid " Toggle your nicknames logging\n"
 "        This applies to all the servers we share "
-msgstr ""
+msgstr " Alterna tu registro de apodos\n"
+"        Esto aplica a todos los servidores que compartimos "
 
 #: Dredd-v3/cogs/misc.py:566
 msgid "Are you sure you want to opt-out? Once you'll do that, I won't be logging nickname changes from you in this server."
@@ -4672,11 +4676,11 @@ msgstr ""
 #: Dredd-v3/cogs/misc.py:575
 #, python-brace-format
 msgid "{0} Alright. I won't be logging your nicknames anymore in this server!"
-msgstr ""
+msgstr "{0} Entendido. ¡Ya no registraré tus apodos en este servidor!"
 
 #: Dredd-v3/cogs/misc.py:580
 msgid "Oh sweet! I'll continue logging your nicknames"
-msgstr ""
+msgstr "¡Oh dulce! Continuaré registrando tus apodos"
 
 #: Dredd-v3/cogs/misc.py:590
 msgid "Are you sure you want to opt-in? Once you'll do that I'll start logging your nicknames again."
@@ -4807,12 +4811,12 @@ msgstr " Remueve un recordatorio no deseado "
 #: Dredd-v3/cogs/misc.py:739
 #, python-brace-format
 msgid "{0} There is no reminder with an id of **{1}** in your reminders list."
-msgstr ""
+msgstr "{0} No hay un recordatorio con un id de **{1}** en tu lista de recordatorios."
 
 #: Dredd-v3/cogs/misc.py:749
 #, python-brace-format
 msgid "{0} Removed reminder from your reminders list: {1}"
-msgstr ""
+msgstr "{0} He eliminado el recordatorio de tu lista de recordatorios: {1}"
 
 #: Dredd-v3/cogs/moderation.py:79
 #, python-brace-format
@@ -4847,7 +4851,8 @@ msgstr "Borra los mensajes del bot"
 #: Dredd-v3/cogs/moderation.py:127
 msgid " Cleans up the bot's messages from the channel.\n"
 "        If the bot has Manage Messages permissions then it will try to delete messages that look like they invoked the bot as well. "
-msgstr ""
+msgstr " Limpia los mensajes del bot del canal.\n"
+"        Si el bot tiene permisos de Eliminar Mensajes entonces intentará eliminar los mensajes en los que parece relacionarse con el bot. "
 
 #: Dredd-v3/cogs/moderation.py:136
 #, python-brace-format
@@ -4872,7 +4877,8 @@ msgstr "Cambia el apodo del miembro"
 #: Dredd-v3/cogs/moderation.py:151
 msgid " Changes member's nickname in the server.\n"
 "        If multiple members are provided, they all get their nicknames changed in the server. "
-msgstr ""
+msgstr " Cambia el miembro de un miembro en el servidor.\n"
+"        Si se proporcionan múltiples miembros, todos ellos tendrán el nuevo apodo en el servidor. "
 
 #: Dredd-v3/cogs/moderation.py:155 Dredd-v3/cogs/moderation.py:304
 #: Dredd-v3/cogs/moderation.py:397 Dredd-v3/cogs/moderation.py:489
@@ -4881,17 +4887,17 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:1182
 #, python-brace-format
 msgid "{0} | You're missing an argument - **members**"
-msgstr ""
+msgstr "{0} | Te falta un argumento - **miembros**"
 
 #: Dredd-v3/cogs/moderation.py:158 Dredd-v3/cogs/moderation.py:229
 #, python-brace-format
 msgid "{0} Nicknames can only be 32 characters long. You're {1} characters over."
-msgstr ""
+msgstr "{0} Los apodos no pueden ser más largos de 32 caracteres. El tuyo tiene {1} caracteres arriba del límite."
 
 #: Dredd-v3/cogs/moderation.py:162
 #, python-brace-format
 msgid "{0} | You can only change 15 members nickname at once."
-msgstr ""
+msgstr "{0} | Solo puedes cambiar el apodo de 15 miembros a la vez."
 
 #: Dredd-v3/cogs/moderation.py:168
 #, python-brace-format
@@ -5165,20 +5171,20 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:659
 msgid "Unban user from the server"
-msgstr ""
+msgstr "Desbanea un miembro del servidor"
 
 #: Dredd-v3/cogs/moderation.py:666
 msgid " Unbans a banned user from this server "
-msgstr ""
+msgstr " Desbanea a un usuario baneado en este servidor "
 
 #: Dredd-v3/cogs/moderation.py:678
 #, python-brace-format
 msgid "I've successfully unbanned **{0}** for **{1}**"
-msgstr ""
+msgstr "He desbaneado con éxito a **{0}** por **{1}*"
 
 #: Dredd-v3/cogs/moderation.py:690
 msgid "Unban everyone from the server"
-msgstr ""
+msgstr "Desbanea a todos del servidor"
 
 #: Dredd-v3/cogs/moderation.py:697
 msgid " Unban everyone from the server "
@@ -5372,17 +5378,19 @@ msgstr "Dessilencia un miembro en los canales de voz del servidor"
 msgid " Voice unmute an annoying member in voice channel.\n"
 "        If multiple members are passed, all of them will get voice unmuted.\n"
 "        They need to be in voice channel in order to voice unmute them. "
-msgstr ""
+msgstr " Dessilencia a un miembro molesto en un canal de voz.\n"
+"        Si se pasan varios miembros, todos ellos serán dessilenciados.\n"
+"        Ellos necesitan estar en un canal de voz para poder dessilenciarlos. "
 
 #: Dredd-v3/cogs/moderation.py:1108
 #, python-brace-format
 msgid "{0} | You can only voice unmute 15 members at once."
-msgstr ""
+msgstr "{0} | Solo puedes dessilenciar en canales de voz a 15 miembros a la vez."
 
 #: Dredd-v3/cogs/moderation.py:1114
 #, python-brace-format
 msgid "{0} ({1}) - **You can't unvoice mute yourself.**"
-msgstr ""
+msgstr "{0} ({1}) - **No te puedes dessilenciar en canales de voz a ti mismo.**"
 
 #: Dredd-v3/cogs/moderation.py:1124
 #, python-brace-format
@@ -5397,11 +5405,11 @@ msgstr "**He dessilenciado en los canales de voz con éxito a {0} miembro(s):**\
 #: Dredd-v3/cogs/moderation.py:1151
 #, python-brace-format
 msgid "**However I failed to voice unmute the following {0} member(s):**\n"
-msgstr ""
+msgstr "**Sin embargo, no he podido dessilenciar en canales de voz a los siguientes {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:1159
 msgid "**I failed to voice unmute all the members:**\n"
-msgstr ""
+msgstr "**No he podido dessilenciar en los canales de voz a todos los miembros:**\n"
 
 #: Dredd-v3/cogs/moderation.py:1170
 msgid "Warn a member"
