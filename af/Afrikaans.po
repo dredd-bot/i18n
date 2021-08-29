@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-03 18:36+0200\n"
-"PO-Revision-Date: 2021-08-03 17:04\n"
+"POT-Creation-Date: 2021-08-29 15:17+0200\n"
+"PO-Revision-Date: 2021-08-29 13:21\n"
 "Last-Translator: \n"
 "Language-Team: Afrikaans\n"
 "Language: af_ZA\n"
@@ -350,133 +350,137 @@ msgstr ""
 msgid "**Search query:** `{0}`\n\n"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:188
+#: Dredd-v3/cogs/events/automod.py:204
 msgid "Spam (sending multiple messages in a short time span)"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:214
+#: Dredd-v3/cogs/events/automod.py:230
 msgid "Advertising"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:238
+#: Dredd-v3/cogs/events/automod.py:254
 msgid "Spamming caps"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:261
+#: Dredd-v3/cogs/events/automod.py:277
 msgid "Spamming links"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:283
+#: Dredd-v3/cogs/events/automod.py:299
 msgid "Spamming mentions"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:309
+#: Dredd-v3/cogs/events/automod.py:325
 msgid "anti raid: user account is younger than 30 days."
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:309
+#: Dredd-v3/cogs/events/automod.py:325
 msgid "Strict Anti Raid: No one is allowed to join the server"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:325
+#: Dredd-v3/cogs/events/automod.py:341
 msgid "Member Muted"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:325
+#: Dredd-v3/cogs/events/automod.py:341
 msgid "Member Temp-Muted"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:325 Dredd-v3/cogs/events/automod.py:334
+#: Dredd-v3/cogs/events/automod.py:341 Dredd-v3/cogs/events/automod.py:350
 msgid "Member Kicked"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:329 Dredd-v3/cogs/events/automod.py:334
+#: Dredd-v3/cogs/events/automod.py:345 Dredd-v3/cogs/events/automod.py:350
 msgid "Member Banned"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:329
+#: Dredd-v3/cogs/events/automod.py:345
 msgid "Member Temp-Banned"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:338
+#: Dredd-v3/cogs/events/automod.py:354
 msgid "Automod Action"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:341 Dredd-v3/cogs/events/logs.py:596
-#: Dredd-v3/cogs/events/logs.py:726
+#: Dredd-v3/cogs/events/automod.py:357 Dredd-v3/cogs/events/logs.py:600
+#: Dredd-v3/cogs/events/logs.py:730
 #, python-brace-format
 msgid "\n"
 "**Duration:** {0}"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:344
+#: Dredd-v3/cogs/events/automod.py:360
 #, python-brace-format
 msgid "**Member:** {0}{1}\n"
 "**Reason:** {2}"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:352
+#: Dredd-v3/cogs/events/automod.py:368
 #, python-brace-format
 msgid "Automod Action | {0}"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:354
+#: Dredd-v3/cogs/events/automod.py:370
 #, python-brace-format
 msgid "{0} Something failed while punishing the member, sent the error to my developers. This is most likely due to me either missing permissions or not being able to access the person and/or role"
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:365
+#: Dredd-v3/cogs/events/automod.py:381
 #, python-brace-format
 msgid "{0} Muted **{1}** for {2}."
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:386
+#: Dredd-v3/cogs/events/automod.py:402
 #, python-brace-format
 msgid "{0} Muted **{1}** for {2}, reason: {3}."
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:406
+#: Dredd-v3/cogs/events/automod.py:422
 #, python-brace-format
 msgid "{0} Kicked **{1}** for {2}."
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:420
+#: Dredd-v3/cogs/events/automod.py:436
 #, python-brace-format
 msgid "{0} Banned **{1}** for {2}."
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:435
+#: Dredd-v3/cogs/events/automod.py:451
 #, python-brace-format
 msgid "{0} Banned **{1}** for {2}, reason: {3}."
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:454
+#: Dredd-v3/cogs/events/automod.py:470
 #, python-brace-format
 msgid "{0} {1} has anti raid mode activated, please try joining again later."
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:466 Dredd-v3/cogs/events/automod.py:494
+#: Dredd-v3/cogs/events/automod.py:482 Dredd-v3/cogs/events/automod.py:510
 #, python-brace-format
 msgid "{0} {1} has anti raid mode activated, you're not allowed to join that server."
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:482
+#: Dredd-v3/cogs/events/automod.py:498
 #, python-brace-format
 msgid "{0} {1} has strict anti raid mode activated, please try joining again later."
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:507
+#: Dredd-v3/cogs/events/automod.py:520
+msgid "It seems like your server is experiencing a *huge* raid, to prevent us from getting api banned we'll be banning raiders in the background and will not be sending any logs in this channel."
+msgstr ""
+
+#: Dredd-v3/cogs/events/automod.py:530
 #, python-brace-format
 msgid "{0} I'm not sure what happened, but something broke. Please make sure that my role is above everyone's else, otherwise you'll see these errors more often. I've also sent this error to my developers."
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:516
+#: Dredd-v3/cogs/events/automod.py:539
 #, python-brace-format
 msgid "{0} Mute role was not found, please create the mute role, or set a custom one using `{1}muterole [role]`.\n\n"
 "Manually removed member permissions to send messages in this channel *hopefully*."
 msgstr ""
 
-#: Dredd-v3/cogs/events/automod.py:521
+#: Dredd-v3/cogs/events/automod.py:544
 #, python-brace-format
 msgid "{0} Failed to kick/ban the member, are they higher in role hierarchy than me? Put my role at the very top to avoid these type of issues.\n\n"
 "Manually removed member permissions to send messages in this channel *hopefully*."
@@ -609,305 +613,305 @@ msgid "Command `{0}` raised an error that has already reported to my developer(s
 "They'll be looking into this issue and trying to fix it ASAP. Meanwhile, you can [join the support server]({1}) for updates."
 msgstr ""
 
-#: Dredd-v3/cogs/events/events.py:100
+#: Dredd-v3/cogs/events/events.py:107
 #, python-brace-format
 msgid "My prefix in this server is `{0}` or {1}!"
 msgstr ""
 
-#: Dredd-v3/cogs/events/events.py:111
+#: Dredd-v3/cogs/events/events.py:118
 #, python-brace-format
 msgid "I appreciate you for using me! You can also use my commands here in DMs with a prefix `!`, but if you aren't using any commands - the DM will be logged in my [support server]({0}), so please don't send me any sensitive information."
 msgstr ""
 
-#: Dredd-v3/cogs/events/events.py:125
+#: Dredd-v3/cogs/events/events.py:132
 msgid "Hey! Not sure if you know yet, but my prefix in DM's is `!`"
 msgstr ""
 
-#: Dredd-v3/cogs/events/events.py:246
+#: Dredd-v3/cogs/events/events.py:253
 #, python-brace-format
 msgid "If you are the server owner and would like to appeal, you can [join the support server]({0})."
 msgstr ""
 
-#: Dredd-v3/cogs/events/events.py:250
+#: Dredd-v3/cogs/events/events.py:257
 msgid "Unfortunately, this server's blacklist state cannot be removed."
 msgstr ""
 
-#: Dredd-v3/cogs/events/events.py:253
+#: Dredd-v3/cogs/events/events.py:260
 #, python-brace-format
 msgid "Hey!\n"
 "This server is blacklisted, so I will not be staying in the server anymore. {0}\n\n"
 "**Blacklist reason:** {1}"
 msgstr ""
 
-#: Dredd-v3/cogs/events/events.py:257
+#: Dredd-v3/cogs/events/events.py:264
 msgid "Blacklist issue occured!"
 msgstr ""
 
-#: Dredd-v3/cogs/events/events.py:260
+#: Dredd-v3/cogs/events/events.py:267
 #, python-brace-format
 msgid "Hey!\n"
 "This server is blacklisted, thus why I will not be staying here anymore. {0}\n\n"
 "**Blacklisting reason:** {1}"
 msgstr ""
 
-#: Dredd-v3/cogs/events/events.py:289
+#: Dredd-v3/cogs/events/events.py:296
 #, python-brace-format
 msgid "Thank you for inviting me to this server!\n"
 "To get started - you can see my commands by using `{0}help [category/command]`. In order to change my prefix you can use `{0}prefix [prefix]`.If you'll need any help you can join the [support server]({1}). You can also contact `{2}` or `{3}` if you'll need any help."
 msgstr ""
 
 #. We were invited without embed perms...
-#: Dredd-v3/cogs/events/events.py:301
+#: Dredd-v3/cogs/events/events.py:308
 #, python-brace-format
 msgid "Thank you for inviting me to this server!\n"
 "To get started - you can see my commands by using `{0}help [category/command]`. In order to change my prefix, you can use `{0}prefix [prefix]`. If you'll need any help you can join the <{1}>. You can also contact `{2}` or `{3}` if you'll need any help."
 msgstr ""
 
-#: Dredd-v3/cogs/events/events.py:467 Dredd-v3/cogs/events/events.py:472
+#: Dredd-v3/cogs/events/events.py:474 Dredd-v3/cogs/events/events.py:479
 #, python-brace-format
 msgid "Welcome back {0}! You were away for **{1}**. Your AFK state has been removed."
 msgstr ""
 
-#: Dredd-v3/cogs/events/events.py:486
+#: Dredd-v3/cogs/events/events.py:493
 #, python-brace-format
 msgid "Hey! **{0}** has been AFK for **{1}** for - **{2}**."
 msgstr ""
 
-#: Dredd-v3/cogs/events/events.py:510 Dredd-v3/cogs/events/logs.py:137
+#: Dredd-v3/cogs/events/events.py:523 Dredd-v3/cogs/events/logs.py:139
 #, python-brace-format
 msgid "\n"
 "*Sticker* - {0}"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:90
+#: Dredd-v3/cogs/events/logs.py:92
 #, python-brace-format
 msgid "{0} Message Edited"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:91
+#: Dredd-v3/cogs/events/logs.py:93
 #, python-brace-format
 msgid "**User:** {0} `{1}`\n"
 "**Channel:** {2} `#{3}`\n"
 "[Jump to message]({4})"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:96 Dredd-v3/cogs/events/logs.py:100
+#: Dredd-v3/cogs/events/logs.py:98 Dredd-v3/cogs/events/logs.py:102
 msgid "**Before:**"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:104
+#: Dredd-v3/cogs/events/logs.py:106
 msgid "**After:**"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:106 Dredd-v3/cogs/events/logs.py:149
-#: Dredd-v3/cogs/events/logs.py:174 Dredd-v3/cogs/events/logs.py:215
-#: Dredd-v3/cogs/events/logs.py:229
+#: Dredd-v3/cogs/events/logs.py:108 Dredd-v3/cogs/events/logs.py:151
+#: Dredd-v3/cogs/events/logs.py:176 Dredd-v3/cogs/events/logs.py:217
+#: Dredd-v3/cogs/events/logs.py:231
 #, python-brace-format
 msgid "User ID: {0}"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:132
+#: Dredd-v3/cogs/events/logs.py:134
 #, python-brace-format
 msgid "{0} Message Deleted"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:133
+#: Dredd-v3/cogs/events/logs.py:135
 #, python-brace-format
 msgid "**User:** {0} `{1}`\n"
 "**Channel:** {2} `#{3}`"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:140
+#: Dredd-v3/cogs/events/logs.py:142
 msgid "**Message:**"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:144
+#: Dredd-v3/cogs/events/logs.py:146
 msgid "**Attachments:**"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:147
+#: Dredd-v3/cogs/events/logs.py:149
 msgid "**Sticker:**"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:169
+#: Dredd-v3/cogs/events/logs.py:171
 #, python-brace-format
 msgid "{0} changed their nickname"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:170
+#: Dredd-v3/cogs/events/logs.py:172
 #, python-brace-format
 msgid "{0} Nickname Changed"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:171
+#: Dredd-v3/cogs/events/logs.py:173
 #, python-brace-format
 msgid "**Member:** {0} `{1}`\n\n"
 "**Before:** {2}\n"
 "**After:** {3}"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:211
+#: Dredd-v3/cogs/events/logs.py:213
 #, python-brace-format
 msgid "{0} changed their avatar"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:212
+#: Dredd-v3/cogs/events/logs.py:214
 #, python-brace-format
 msgid "{0} Avatar Changed"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:213
+#: Dredd-v3/cogs/events/logs.py:215
 #, python-brace-format
 msgid "**Member:** {0} `{1}`\n"
 "[Avatar URL]({2})"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:226
+#: Dredd-v3/cogs/events/logs.py:228
 #, python-brace-format
 msgid "{0} changed their username"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:227
+#: Dredd-v3/cogs/events/logs.py:229
 #, python-brace-format
 msgid "{0} Username Changed"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:228
+#: Dredd-v3/cogs/events/logs.py:230
 #, python-brace-format
 msgid "**Member:** {0} `{1}`\n"
 "**Before:** {2}\n"
 "**After:** {3}"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:264
+#: Dredd-v3/cogs/events/logs.py:266
 #, python-brace-format
 msgid "{0} A member has been banned"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:266 Dredd-v3/cogs/events/logs.py:306
-#: Dredd-v3/cogs/events/logs.py:865
+#: Dredd-v3/cogs/events/logs.py:268 Dredd-v3/cogs/events/logs.py:308
+#: Dredd-v3/cogs/events/logs.py:869
 #, python-brace-format
 msgid "**Member:** {0}\n"
 "**Moderator:** {1} ({2})\n"
 "**Reason:** {3}"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:267 Dredd-v3/cogs/events/logs.py:307
-#: Dredd-v3/cogs/events/logs.py:598 Dredd-v3/cogs/events/logs.py:629
-#: Dredd-v3/cogs/events/logs.py:660 Dredd-v3/cogs/events/logs.py:691
-#: Dredd-v3/cogs/events/logs.py:728 Dredd-v3/cogs/events/logs.py:759
-#: Dredd-v3/cogs/events/logs.py:792 Dredd-v3/cogs/events/logs.py:823
-#: Dredd-v3/cogs/events/logs.py:866 Dredd-v3/cogs/events/logs.py:897
-#: Dredd-v3/cogs/events/logs.py:928 Dredd-v3/cogs/events/logs.py:961
+#: Dredd-v3/cogs/events/logs.py:269 Dredd-v3/cogs/events/logs.py:309
+#: Dredd-v3/cogs/events/logs.py:602 Dredd-v3/cogs/events/logs.py:633
+#: Dredd-v3/cogs/events/logs.py:664 Dredd-v3/cogs/events/logs.py:695
+#: Dredd-v3/cogs/events/logs.py:732 Dredd-v3/cogs/events/logs.py:763
+#: Dredd-v3/cogs/events/logs.py:796 Dredd-v3/cogs/events/logs.py:827
+#: Dredd-v3/cogs/events/logs.py:870 Dredd-v3/cogs/events/logs.py:901
+#: Dredd-v3/cogs/events/logs.py:932 Dredd-v3/cogs/events/logs.py:965
 #, python-brace-format
 msgid "Case ID: #{0}"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:304
+#: Dredd-v3/cogs/events/logs.py:306
 #, python-brace-format
 msgid "{0} A member was un-banned"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:327
+#: Dredd-v3/cogs/events/logs.py:329
 msgid " Guild name changed"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:328 Dredd-v3/cogs/events/logs.py:337
-#: Dredd-v3/cogs/events/logs.py:346 Dredd-v3/cogs/events/logs.py:365
-#: Dredd-v3/cogs/events/logs.py:374 Dredd-v3/cogs/events/logs.py:383
+#: Dredd-v3/cogs/events/logs.py:330 Dredd-v3/cogs/events/logs.py:339
+#: Dredd-v3/cogs/events/logs.py:348 Dredd-v3/cogs/events/logs.py:367
+#: Dredd-v3/cogs/events/logs.py:376 Dredd-v3/cogs/events/logs.py:385
 #, python-brace-format
 msgid "**Before:** {0}\n"
 "**After:** {1}"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:336
+#: Dredd-v3/cogs/events/logs.py:338
 msgid " Guild region changed"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:345
+#: Dredd-v3/cogs/events/logs.py:347
 msgid " Guild afk channel changed"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:354
+#: Dredd-v3/cogs/events/logs.py:356
 msgid " Guild icon changed"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:355
+#: Dredd-v3/cogs/events/logs.py:357
 #, python-brace-format
 msgid "**Before:** [Click here]({0})\n"
 "**After:** [Click here]({1})"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:364
+#: Dredd-v3/cogs/events/logs.py:366
 msgid " Guild multifactor authentication (MFA) changed"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:373
+#: Dredd-v3/cogs/events/logs.py:375
 msgid " Guild verification level changed"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:382
+#: Dredd-v3/cogs/events/logs.py:384
 msgid " Guild default notifications changed"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:399
+#: Dredd-v3/cogs/events/logs.py:401
 #, python-brace-format
 msgid "{0} A new member has joined"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:400
+#: Dredd-v3/cogs/events/logs.py:402
 #, python-brace-format
 msgid "{0} joined the server"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:401
+#: Dredd-v3/cogs/events/logs.py:403
 #, python-brace-format
 msgid "**Member:** {0} ({1})\n"
 "**Account Created:** {2}"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:405
+#: Dredd-v3/cogs/events/logs.py:407
 #, python-brace-format
 msgid "Member #{0}"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:418
+#: Dredd-v3/cogs/events/logs.py:420
 #, python-brace-format
 msgid "{0} A member has left the server"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:419
+#: Dredd-v3/cogs/events/logs.py:421
 #, python-brace-format
 msgid "{0} left the server"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:421
+#: Dredd-v3/cogs/events/logs.py:423
 #, python-brace-format
 msgid "**Member:** {0} ({1})\n"
 "**Joined server:** {2}\n"
 "**Roles:** {3}"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:425
+#: Dredd-v3/cogs/events/logs.py:427
 msgid "No roles."
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:427
+#: Dredd-v3/cogs/events/logs.py:429
 #, python-brace-format
 msgid "Members left: {0}"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:467
+#: Dredd-v3/cogs/events/logs.py:471
 msgid "Automatic Mute | Mute evading"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:594
+#: Dredd-v3/cogs/events/logs.py:598
 #, python-brace-format
 msgid "{0} {1} Member(s) banned"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:595 Dredd-v3/cogs/events/logs.py:627
-#: Dredd-v3/cogs/events/logs.py:725 Dredd-v3/cogs/events/logs.py:790
+#: Dredd-v3/cogs/events/logs.py:599 Dredd-v3/cogs/events/logs.py:631
+#: Dredd-v3/cogs/events/logs.py:729 Dredd-v3/cogs/events/logs.py:794
 #, python-brace-format
 msgid "**Member(s):**\n"
 "{0}{1}\n"
@@ -915,19 +919,19 @@ msgid "**Member(s):**\n"
 "**Reason:** {4}"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:626
+#: Dredd-v3/cogs/events/logs.py:630
 #, python-brace-format
 msgid "{0} {1} Member(s) hack-banned"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:657
+#: Dredd-v3/cogs/events/logs.py:661
 #, python-brace-format
 msgid "{0} {1} Member(s) kicked"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:658 Dredd-v3/cogs/events/logs.py:689
-#: Dredd-v3/cogs/events/logs.py:757 Dredd-v3/cogs/events/logs.py:821
-#: Dredd-v3/cogs/events/logs.py:895 Dredd-v3/cogs/events/logs.py:926
+#: Dredd-v3/cogs/events/logs.py:662 Dredd-v3/cogs/events/logs.py:693
+#: Dredd-v3/cogs/events/logs.py:761 Dredd-v3/cogs/events/logs.py:825
+#: Dredd-v3/cogs/events/logs.py:899 Dredd-v3/cogs/events/logs.py:930
 #, python-brace-format
 msgid "**Member(s):**\n"
 "{0}\n"
@@ -935,65 +939,65 @@ msgid "**Member(s):**\n"
 "**Reason:** {3}"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:688
+#: Dredd-v3/cogs/events/logs.py:692
 #, python-brace-format
 msgid "{0} {1} Member(s) softbanned"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:724
+#: Dredd-v3/cogs/events/logs.py:728
 #, python-brace-format
 msgid "{0} {1} Member(s) muted"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:756
+#: Dredd-v3/cogs/events/logs.py:760
 #, python-brace-format
 msgid "{0} {1} Member(s) warned"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:789
+#: Dredd-v3/cogs/events/logs.py:793
 #, python-brace-format
 msgid "{0} {1} Member(s) un-banned"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:820
+#: Dredd-v3/cogs/events/logs.py:824
 #, python-brace-format
 msgid "{0} {1} Member(s) un-muted"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:863
+#: Dredd-v3/cogs/events/logs.py:867
 #, python-brace-format
 msgid "{0} A member has been kicked"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:894
+#: Dredd-v3/cogs/events/logs.py:898
 #, python-brace-format
 msgid "{0} {1} Member(s) voice muted"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:925
+#: Dredd-v3/cogs/events/logs.py:929
 #, python-brace-format
 msgid "{0} {1} Member(s) voice unmuted"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:958
+#: Dredd-v3/cogs/events/logs.py:962
 #, python-brace-format
 msgid "{0} {1} Member(s) dehoisted"
 msgstr ""
 
-#: Dredd-v3/cogs/events/logs.py:959
+#: Dredd-v3/cogs/events/logs.py:963
 #, python-brace-format
 msgid "**Member(s):**\n"
 "{0}{1}\n"
 "**Moderator:** {2} ({3})\n"
 msgstr ""
 
-#: Dredd-v3/cogs/other/tasks.py:168
+#: Dredd-v3/cogs/other/tasks.py:171
 #, python-brace-format
 msgid "*The original message was deleted or I'm missing permissions*\n\n"
 "Your reminder: {0}"
 msgstr ""
 
-#: Dredd-v3/cogs/other/tasks.py:219
+#: Dredd-v3/cogs/other/tasks.py:222
 msgid "No one has connected to a voice channel in over 12 hours, to save up bot's resources I'll be destroying the player and leaving the voice channel."
 msgstr ""
 
@@ -1115,7 +1119,7 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:349 Dredd-v3/cogs/manage.py:381
 #: Dredd-v3/cogs/manage.py:414 Dredd-v3/cogs/manage.py:446
 #: Dredd-v3/cogs/manage.py:492 Dredd-v3/cogs/manage.py:531
-#: Dredd-v3/cogs/manage.py:683
+#: Dredd-v3/cogs/manage.py:693
 #, python-brace-format
 msgid "{0} I'm missing permissions in that channel. Make sure you have given me the correct permissions!"
 msgstr ""
@@ -1143,9 +1147,10 @@ msgstr ""
 #: Dredd-v3/cogs/automod.py:315 Dredd-v3/cogs/automod.py:354
 #: Dredd-v3/cogs/automod.py:386 Dredd-v3/cogs/automod.py:408
 #: Dredd-v3/cogs/automod.py:446 Dredd-v3/cogs/automod.py:522
-#: Dredd-v3/cogs/automod.py:557 Dredd-v3/cogs/automod.py:603
-#: Dredd-v3/cogs/automod.py:630 Dredd-v3/cogs/automod.py:657
-#: Dredd-v3/cogs/automod.py:685
+#: Dredd-v3/cogs/automod.py:557 Dredd-v3/cogs/automod.py:611
+#: Dredd-v3/cogs/automod.py:638 Dredd-v3/cogs/automod.py:665
+#: Dredd-v3/cogs/automod.py:692 Dredd-v3/cogs/automod.py:720
+#: Dredd-v3/cogs/automod.py:748
 #, python-brace-format
 msgid "Automod is disabled in this server, enable it by using `{0}automod toggle` command"
 msgstr ""
@@ -1466,89 +1471,139 @@ msgstr ""
 msgid "List of whitelisted roles"
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:577
+#: Dredd-v3/cogs/automod.py:579
 #, python-brace-format
-msgid "{0} The value you've provided is invalid, please choose either `channels` or `roles`"
+msgid "{0} There are no whitelisted users in the server."
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:591
+#: Dredd-v3/cogs/automod.py:581
+msgid "List of whitelisted users"
+msgstr ""
+
+#: Dredd-v3/cogs/automod.py:585
+#, python-brace-format
+msgid "{0} The value you've provided is invalid, please choose either `channels`, `roles` or `users`"
+msgstr ""
+
+#: Dredd-v3/cogs/automod.py:599
 msgid "Add a channel to automod's whitelist "
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:597
+#: Dredd-v3/cogs/automod.py:605
 msgid " Add a channel to automod's whitelist "
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:608 Dredd-v3/cogs/automod.py:615
+#: Dredd-v3/cogs/automod.py:616 Dredd-v3/cogs/automod.py:623
 #, python-brace-format
 msgid "{0} Added {1} to the channels whitelist."
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:611
+#: Dredd-v3/cogs/automod.py:619
 #, python-brace-format
 msgid "Channel {0} is already added to the whitelist."
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:618
+#: Dredd-v3/cogs/automod.py:626
 msgid "Add a role to automod's whitelist"
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:624
+#: Dredd-v3/cogs/automod.py:632
 msgid " Add a role to automod's whitelist "
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:635 Dredd-v3/cogs/automod.py:642
+#: Dredd-v3/cogs/automod.py:643 Dredd-v3/cogs/automod.py:650
 #, python-brace-format
 msgid "{0} Added {1} to the roles whitelist."
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:638
+#: Dredd-v3/cogs/automod.py:646
 #, python-brace-format
 msgid "Role **{0}** is already added to the whitelist."
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:645
+#: Dredd-v3/cogs/automod.py:653
+msgid "Add a user to automod's whitelist"
+msgstr ""
+
+#: Dredd-v3/cogs/automod.py:659
+msgid " Add a user to automod's & raid mode's whitelist "
+msgstr ""
+
+#: Dredd-v3/cogs/automod.py:670 Dredd-v3/cogs/automod.py:677
+#, python-brace-format
+msgid "{0} Added {1} to the users whitelist."
+msgstr ""
+
+#: Dredd-v3/cogs/automod.py:673
+#, python-brace-format
+msgid "User **{0}** is already added to the whitelist."
+msgstr ""
+
+#: Dredd-v3/cogs/automod.py:680
 msgid "Remove a role from automod's whitelist"
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:651
+#: Dredd-v3/cogs/automod.py:686
 msgid " Remove a role from automod's whitelist "
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:660
+#: Dredd-v3/cogs/automod.py:695
 #, python-brace-format
 msgid "{0} It looks like there are no roles whitelisted in the server."
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:666
+#: Dredd-v3/cogs/automod.py:701
 #, python-brace-format
 msgid "Role **{0}** is not in the whitelist."
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:670
+#: Dredd-v3/cogs/automod.py:705
 #, python-brace-format
 msgid "{0} Removed {1} from the roles whitelist."
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:673
+#: Dredd-v3/cogs/automod.py:708
+msgid "Remove a user from automod's whitelist"
+msgstr ""
+
+#: Dredd-v3/cogs/automod.py:714
+msgid " Remove a role from automod's & raid mode's whitelist "
+msgstr ""
+
+#: Dredd-v3/cogs/automod.py:723
+#, python-brace-format
+msgid "{0} It looks like there are no users whitelisted in the server."
+msgstr ""
+
+#: Dredd-v3/cogs/automod.py:729
+#, python-brace-format
+msgid "User **{0}** is not in the whitelist."
+msgstr ""
+
+#: Dredd-v3/cogs/automod.py:733
+#, python-brace-format
+msgid "{0} Removed {1} from the users whitelist."
+msgstr ""
+
+#: Dredd-v3/cogs/automod.py:736
 msgid "Remove a channel from automod's whitelist "
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:679
+#: Dredd-v3/cogs/automod.py:742
 msgid " Remove a channel from automod's whitelist "
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:688
+#: Dredd-v3/cogs/automod.py:751
 #, python-brace-format
 msgid "{0} It looks like there are no channels whitelisted in the server."
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:693
+#: Dredd-v3/cogs/automod.py:756
 #, python-brace-format
 msgid "Channel {0} is not in the whitelist."
 msgstr ""
 
-#: Dredd-v3/cogs/automod.py:697
+#: Dredd-v3/cogs/automod.py:760
 #, python-brace-format
 msgid "{0} Removed {1} from the channels whitelist."
 msgstr ""
@@ -3274,710 +3329,737 @@ msgid "Set the welcoming message"
 msgstr ""
 
 #: Dredd-v3/cogs/manage.py:562
+#, python-brace-format
 msgid " Set the welcoming messages in the server\n"
-"        Passing no message will reset your welcoming message to the default one "
+"        Passing no message will reset your welcoming message to the default one.\n"
+"         \n"
+"         Formatting values:\n"
+"         • `{{member.mention}}` for mention\n"
+"         • `{{member.tag}}` for name and # \n"
+"         • `{{member.id}}` for id\n"
+"         • `{{member.name}}` for name (markdown escaped)\n"
+"         • `{{server.name}}` for server name\n"
+"         • `{{server.members}}` for member count in server\n"
+"         • `{0}` for member name\n"
+"         • `{1}` for member count "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:568 Dredd-v3/cogs/manage.py:621
-#: Dredd-v3/cogs/manage.py:650
+#: Dredd-v3/cogs/manage.py:578 Dredd-v3/cogs/manage.py:631
+#: Dredd-v3/cogs/manage.py:660
 #, python-brace-format
 msgid "{0} You cannot set up welcome messages because they are not enabled!To enable them run `{1}welcoming channel [#channel]`"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:578 Dredd-v3/cogs/manage.py:598
+#: Dredd-v3/cogs/manage.py:588 Dredd-v3/cogs/manage.py:608
 #, python-brace-format
 msgid "{0} Your current welcome message is the same as the new one."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:580
+#: Dredd-v3/cogs/manage.py:590
 #, python-brace-format
 msgid "{0} Welcome messages can't be longer than 1000 characters. You're {1} character(s) over the limit."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:584
+#: Dredd-v3/cogs/manage.py:594
 #, python-brace-format
 msgid "{0} **Successfully set your welcome message to:**\n"
 "{1}"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:592
+#: Dredd-v3/cogs/manage.py:602
 #, python-brace-format
 msgid "{0} Your sent dict is invalid. Please use <https://embedbuilder.nadekobot.me/> to create an embed dict, then paste the code here."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:602
+#: Dredd-v3/cogs/manage.py:612
 #, python-brace-format
 msgid "{0} Your embed seems to be empty. Please use <https://embedbuilder.nadekobot.me/> to create an embed dict, then paste the code here."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:606 Dredd-v3/cogs/manage.py:758
+#: Dredd-v3/cogs/manage.py:616 Dredd-v3/cogs/manage.py:778
 #, python-brace-format
 msgid "\n"
 "**Plain Text:** {0}"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:607
+#: Dredd-v3/cogs/manage.py:617
 #, python-brace-format
 msgid "**Here is your new welcome embed:**{0}"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:610
+#: Dredd-v3/cogs/manage.py:620
 msgid "Toggle welcoming messages type"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:616
+#: Dredd-v3/cogs/manage.py:626
 msgid " Toggle welcoming messages between embedded and plain text. "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:630
+#: Dredd-v3/cogs/manage.py:640
 #, python-brace-format
 msgid "{0} Welcome messages will not be sent in embeds anymore."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:635
+#: Dredd-v3/cogs/manage.py:645
 #, python-brace-format
 msgid "{0} Welcome messages will now be sent in embeds."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:638
+#: Dredd-v3/cogs/manage.py:648
 msgid "Toggle bot welcoming messages"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:645
+#: Dredd-v3/cogs/manage.py:655
 msgid " Toggle whether or not bot joins should be logged. "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:658
+#: Dredd-v3/cogs/manage.py:668
 #, python-brace-format
 msgid "{0} I will no longer welcome bots."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:662
+#: Dredd-v3/cogs/manage.py:672
 #, python-brace-format
 msgid "{0} I will now longer welcome bots."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:664
+#: Dredd-v3/cogs/manage.py:674
 msgid "Edit the leaving messages"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:670
+#: Dredd-v3/cogs/manage.py:680
 msgid " Base command for managing leaving messages in the server "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:673
+#: Dredd-v3/cogs/manage.py:683
 msgid "Set the channel for leaving messages"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:679
+#: Dredd-v3/cogs/manage.py:689
 msgid " Set a channel where leaving messages should be sent to.\n"
 "        Make sure bot has permissions to send messages in that channel. "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:690
+#: Dredd-v3/cogs/manage.py:700
 #, python-brace-format
 msgid "{0} Leave messages are now disabled."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:694
+#: Dredd-v3/cogs/manage.py:704
 #, python-brace-format
 msgid "{0} I will now send leave messages in {1}."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:697
+#: Dredd-v3/cogs/manage.py:707
 #, python-brace-format
 msgid "{0} You don't have leave messages enabled in this server.\n"
 "*Hint: If you want to enable them, you need to provide a channel where they should be sent to*"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:703
+#: Dredd-v3/cogs/manage.py:713
 #, python-brace-format
 msgid "{0} Successfully enabled leave messages. I will now send leave messages in {1}."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:707
+#: Dredd-v3/cogs/manage.py:717
 msgid "Set the leaving message"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:714
+#: Dredd-v3/cogs/manage.py:724
+#, python-brace-format
 msgid " Set the leaving messages in the server\n"
-"        Passing no message will reset your leaving message to the default one "
+"        Passing no message will reset your leaving message to the default one\n"
+"                 \n"
+"         Formatting values:\n"
+"         • `{{member.mention}}` for mention\n"
+"         • `{{member.tag}}` for name and # \n"
+"         • `{{member.id}}` for id\n"
+"         • `{{member.name}}` for name (markdown escaped)\n"
+"         • `{{server.name}}` for server name\n"
+"         • `{{server.members}}` for member count in server\n"
+"         • `{0}` for member name\n"
+"         • `{1}` for member count "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:720
+#: Dredd-v3/cogs/manage.py:740
 #, python-brace-format
 msgid "{0} Why are you trying to set up leave messages without having them toggled on? To enable them run `{1}leaving channel [#channel]`"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:730 Dredd-v3/cogs/manage.py:750
+#: Dredd-v3/cogs/manage.py:750 Dredd-v3/cogs/manage.py:770
 #, python-brace-format
 msgid "{0} Your current leave message is the same as the new one."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:732
+#: Dredd-v3/cogs/manage.py:752
 #, python-brace-format
 msgid "{0} Leave messages can't be longer than 1000 characters. You're {1} character(s) over the limit."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:736
+#: Dredd-v3/cogs/manage.py:756
 #, python-brace-format
 msgid "{0} **Successfully set your leave message to:**\n"
 "{1}"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:744
+#: Dredd-v3/cogs/manage.py:764
 #, python-brace-format
 msgid "{0} Your sent dict is invalid. Please use <https://embedbuilder.nadekobot.me/> to create an embed dict and then paste that code."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:754
+#: Dredd-v3/cogs/manage.py:774
 #, python-brace-format
 msgid "{0} Your embed seems to be empty. Please use <https://embedbuilder.nadekobot.me/> to create an embed dict and then paste that code."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:759
+#: Dredd-v3/cogs/manage.py:779
 #, python-brace-format
 msgid "**Here is your new leave member embed message:**{0}"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:762
+#: Dredd-v3/cogs/manage.py:782
 msgid "Toggle leaving messages type"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:768
+#: Dredd-v3/cogs/manage.py:788
 msgid " Toggle leaving messages between embedded and plain text. "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:773 Dredd-v3/cogs/manage.py:802
+#: Dredd-v3/cogs/manage.py:793 Dredd-v3/cogs/manage.py:822
 #, python-brace-format
 msgid "{0} Why are you trying to setup leaving messages without having them toggled on? To enable them run `{1}leaving channel [#channel]`"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:782
+#: Dredd-v3/cogs/manage.py:802
 #, python-brace-format
 msgid "{0} Leave messages will no longer be sent in embeds."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:787
+#: Dredd-v3/cogs/manage.py:807
 #, python-brace-format
 msgid "{0} Leave messages will now be sent in embeds."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:790
+#: Dredd-v3/cogs/manage.py:810
 msgid "Toggle bot leaving"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:797
+#: Dredd-v3/cogs/manage.py:817
 msgid " Toggle whether or not bot leaves should be logged. "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:810
+#: Dredd-v3/cogs/manage.py:830
 #, python-brace-format
 msgid "{0} Bot leave messages have been turned off."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:814
+#: Dredd-v3/cogs/manage.py:834
 #, python-brace-format
 msgid "{0} Bot leave messages have been turned on."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:817 Dredd-v3/cogs/manage.py:1050
+#: Dredd-v3/cogs/manage.py:837 Dredd-v3/cogs/manage.py:1070
 msgid "Toggle role on join"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:825
+#: Dredd-v3/cogs/manage.py:845
 msgid " Base command for managing role on join "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:829
+#: Dredd-v3/cogs/manage.py:849
 msgid "Set role on join for users"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:838
+#: Dredd-v3/cogs/manage.py:858
 msgid " Choose what role will be given to new users "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:843
+#: Dredd-v3/cogs/manage.py:863
 msgid "Add a role on join for people"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:851
+#: Dredd-v3/cogs/manage.py:871
 msgid " Add a role to role on join for people "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:858 Dredd-v3/cogs/manage.py:893
-#: Dredd-v3/cogs/manage.py:916 Dredd-v3/cogs/manage.py:968
-#: Dredd-v3/cogs/manage.py:1003 Dredd-v3/cogs/manage.py:1027
+#: Dredd-v3/cogs/manage.py:878
 #, python-brace-format
-msgid "{0} Role on is not enabled in this server, please use `{1}joinrole toggle` to enable it."
+msgid "{0} Role on join is not enabled in this server, please use `{1}joinrole toggle` to enable it."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:862 Dredd-v3/cogs/manage.py:972
+#: Dredd-v3/cogs/manage.py:882 Dredd-v3/cogs/manage.py:992
 #, python-brace-format
 msgid "{0} You cannot set that role as it is configured as mod or admin role"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:864 Dredd-v3/cogs/manage.py:974
+#: Dredd-v3/cogs/manage.py:884 Dredd-v3/cogs/manage.py:994
 #, python-brace-format
 msgid "{0} The role you're trying to setup is higher in role hierarchy and I cannot access it."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:868 Dredd-v3/cogs/manage.py:978
+#: Dredd-v3/cogs/manage.py:888 Dredd-v3/cogs/manage.py:998
 #, python-brace-format
 msgid "{0} That role is already added to role on join list."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:875
+#: Dredd-v3/cogs/manage.py:895
 #, python-brace-format
 msgid "{0} Added {1} to join role for people."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:878
+#: Dredd-v3/cogs/manage.py:898
 msgid "Remove a role on join for people"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:886
+#: Dredd-v3/cogs/manage.py:906
 msgid " Remove a role from role on join for people "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:897 Dredd-v3/cogs/manage.py:1007
+#: Dredd-v3/cogs/manage.py:913 Dredd-v3/cogs/manage.py:936
+#: Dredd-v3/cogs/manage.py:988 Dredd-v3/cogs/manage.py:1023
+#: Dredd-v3/cogs/manage.py:1047
+#, python-brace-format
+msgid "{0} Role on is not enabled in this server, please use `{1}joinrole toggle` to enable it."
+msgstr ""
+
+#: Dredd-v3/cogs/manage.py:917 Dredd-v3/cogs/manage.py:1027
 #, python-brace-format
 msgid "{0} That role is not added to role on join list."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:901
+#: Dredd-v3/cogs/manage.py:921
 #, python-brace-format
 msgid "{0} Removed {1} from join role for people."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:904
+#: Dredd-v3/cogs/manage.py:924
 msgid "See all the roles on join for people"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:911
+#: Dredd-v3/cogs/manage.py:931
 msgid " See all the roles for role on join for people "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:923 Dredd-v3/cogs/manage.py:1034
+#: Dredd-v3/cogs/manage.py:943 Dredd-v3/cogs/manage.py:1054
 msgid "Role not found"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:926
+#: Dredd-v3/cogs/manage.py:946
 msgid "Role on join for people"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:936
+#: Dredd-v3/cogs/manage.py:956
 #, python-brace-format
 msgid "{0} There are no role on join roles for people set."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:939
+#: Dredd-v3/cogs/manage.py:959
 msgid "Set role on join for bots"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:948
+#: Dredd-v3/cogs/manage.py:968
 msgid " Manage role on join for bots "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:953
+#: Dredd-v3/cogs/manage.py:973
 msgid "Add a role on join for bots"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:961
+#: Dredd-v3/cogs/manage.py:981
 msgid " Add a role to role on join for bots "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:985
+#: Dredd-v3/cogs/manage.py:1005
 #, python-brace-format
 msgid "{0} Added {1} to join role for bots."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:988
+#: Dredd-v3/cogs/manage.py:1008
 msgid "Remove a role on join for bots"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:996
+#: Dredd-v3/cogs/manage.py:1016
 msgid " Remove a role from role on join for bots "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1011
+#: Dredd-v3/cogs/manage.py:1031
 #, python-brace-format
 msgid "{0} Removed {1} from join role for bots."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1014
+#: Dredd-v3/cogs/manage.py:1034
 msgid "See all the roles on join for bots"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1022
+#: Dredd-v3/cogs/manage.py:1042
 msgid " See all the roles for role on join for bots "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1037
+#: Dredd-v3/cogs/manage.py:1057
 msgid "Role on join for bots"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1047
+#: Dredd-v3/cogs/manage.py:1067
 #, python-brace-format
 msgid "{0} There are no role on join roles for bots set."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1058
+#: Dredd-v3/cogs/manage.py:1078
 msgid " Toggle role on join on and off "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1065
+#: Dredd-v3/cogs/manage.py:1085
 #, python-brace-format
 msgid "{0} Role on join was toggled on, you can now set the roles using `{1}joinrole [people|bots] [add|remove] <role>`"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1070
+#: Dredd-v3/cogs/manage.py:1090
 #, python-brace-format
 msgid "{0} I've successfuly disabled role on join."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1073
+#: Dredd-v3/cogs/manage.py:1093
 msgid "Set a custom mute role"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1081
+#: Dredd-v3/cogs/manage.py:1101
 msgid " Setup a custom mute role in your server\n"
 "        You can also reset the mute role by using argument `reset` "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1090
+#: Dredd-v3/cogs/manage.py:1110
 #, python-brace-format
 msgid "{0} The mute role has been reset."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1092
+#: Dredd-v3/cogs/manage.py:1112
 #, python-brace-format
 msgid "{0} You do not have a mute role set up."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1094
+#: Dredd-v3/cogs/manage.py:1114
 #, python-brace-format
 msgid "{0} That role was not found! If you're trying to reset the mute role, you can use `reset` as the argument."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1097
+#: Dredd-v3/cogs/manage.py:1117
 #, python-brace-format
 msgid "{0} The role you're trying to set as the mute role is higher than me in the role hierarchy!\n"
 "Please move the role lower in the hierarchy or choose a role in the hierarchy."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1100
+#: Dredd-v3/cogs/manage.py:1120
 #, python-brace-format
 msgid "{0} The role you're trying to set as the mute role has the send messages permission.\n"
 "You can only set up roles without the send messages permission."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1105
+#: Dredd-v3/cogs/manage.py:1125
 #, python-brace-format
 msgid "{0} Set the muted role to {1}"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1109
+#: Dredd-v3/cogs/manage.py:1129
 #, python-brace-format
 msgid "{0} Updated the muted role to {1}"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1112
+#: Dredd-v3/cogs/manage.py:1132
 msgid "Set a custom mod role"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1119
+#: Dredd-v3/cogs/manage.py:1139
 msgid " Setup a custom mod role in your server\n"
 "        You can also reset the mod role by using argument `reset` "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1129
+#: Dredd-v3/cogs/manage.py:1149
 #, python-brace-format
 msgid "{0} Successfully reset the moderator role."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1131
+#: Dredd-v3/cogs/manage.py:1151
 #, python-brace-format
 msgid "{0} You don't have a custom moderator role setup."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1133
+#: Dredd-v3/cogs/manage.py:1153
 #, python-brace-format
 msgid "{0} Role was not found, if you're trying to reset the custom moderator role, you can use `reset` arg."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1137
+#: Dredd-v3/cogs/manage.py:1157
 #, python-brace-format
 msgid "{0} Due to safety reasons, moderator role must at least have manage messages permissions"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1141 Dredd-v3/cogs/manage.py:1181
+#: Dredd-v3/cogs/manage.py:1161 Dredd-v3/cogs/manage.py:1201
 #, python-brace-format
 msgid "{0} You cannot set that role as it is given to new members"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1145
+#: Dredd-v3/cogs/manage.py:1165
 #, python-brace-format
 msgid "{0} Set a custom moderator role to {1}"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1149
+#: Dredd-v3/cogs/manage.py:1169
 #, python-brace-format
 msgid "{0} Changed a custom moderator role to {1}"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1152
+#: Dredd-v3/cogs/manage.py:1172
 msgid "Set a custom admin role"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1159
+#: Dredd-v3/cogs/manage.py:1179
 msgid " Setup a custom admin role in your server\n"
 "        You can also reset the admin role by using argument `reset` "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1169
+#: Dredd-v3/cogs/manage.py:1189
 #, python-brace-format
 msgid "{0} I've reset your admin role."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1171
+#: Dredd-v3/cogs/manage.py:1191
 #, python-brace-format
 msgid "{0} You don't have a custom admin role setup."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1173
+#: Dredd-v3/cogs/manage.py:1193
 #, python-brace-format
 msgid "{0} Role was not found, if you're trying to reset the custom admin role, you can use `reset` arg."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1177
+#: Dredd-v3/cogs/manage.py:1197
 #, python-brace-format
 msgid "{0} Due to safety reasons, admin role must at least have ban members permissions"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1185
+#: Dredd-v3/cogs/manage.py:1205
 #, python-brace-format
 msgid "{0} Set a custom admin role to {1}"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1189
+#: Dredd-v3/cogs/manage.py:1209
 #, python-brace-format
 msgid "{0} Changed a custom admin role to {1}"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1192
+#: Dredd-v3/cogs/manage.py:1212
 msgid "Disable a command in the server"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1199
+#: Dredd-v3/cogs/manage.py:1219
 msgid " Disable a command in the server "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1204 Dredd-v3/cogs/manage.py:1240
+#: Dredd-v3/cogs/manage.py:1224 Dredd-v3/cogs/manage.py:1260
 #, python-brace-format
 msgid "{0} {1} command was not found."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1209
+#: Dredd-v3/cogs/manage.py:1229
 #, python-brace-format
 msgid "{0} That command is already disabled."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1228
+#: Dredd-v3/cogs/manage.py:1248
 msgid "Enable a command in the server"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1235
+#: Dredd-v3/cogs/manage.py:1255
 msgid " Enable a command in the server "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1245
+#: Dredd-v3/cogs/manage.py:1265
 #, python-brace-format
 msgid "{0} That command is not disabled."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1264
+#: Dredd-v3/cogs/manage.py:1284
 msgid "Disable category in the server"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1271
+#: Dredd-v3/cogs/manage.py:1291
 msgid " Disable category you don't want people to use in the server "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1276 Dredd-v3/cogs/manage.py:1306
+#: Dredd-v3/cogs/manage.py:1296 Dredd-v3/cogs/manage.py:1326
 #, python-brace-format
 msgid "{0} {1} category was not found."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1282
+#: Dredd-v3/cogs/manage.py:1302
 #, python-brace-format
 msgid "{0} You can't disable that category!"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1285
+#: Dredd-v3/cogs/manage.py:1305
 #, python-brace-format
 msgid "{0} That category is already disabled."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1289
+#: Dredd-v3/cogs/manage.py:1309
 #, python-brace-format
 msgid "{0} Category {1} was successfully disabled"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1294
+#: Dredd-v3/cogs/manage.py:1314
 msgid "Enable category in the server"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1301
+#: Dredd-v3/cogs/manage.py:1321
 msgid " Enable category which you've previously disbled "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1311
+#: Dredd-v3/cogs/manage.py:1331
 #, python-brace-format
 msgid "{0} That category is not disabled."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1315
+#: Dredd-v3/cogs/manage.py:1335
 #, python-brace-format
 msgid "{0} Category {1} was successfully re-enabled"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1320
+#: Dredd-v3/cogs/manage.py:1340
 msgid "Setup reaction roles in the server"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1328
+#: Dredd-v3/cogs/manage.py:1348
 msgid " Base command for managing reaction roles "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1332
+#: Dredd-v3/cogs/manage.py:1352
 msgid "Create a new reaction role"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1340
+#: Dredd-v3/cogs/manage.py:1360
 msgid " Start an interactive setup to create reaction roles "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1347
+#: Dredd-v3/cogs/manage.py:1367
 msgid "Do you want me to use an existing message or a new one? `new` | `existing` | `n` | `e` | `old` | `cancel` *You have 60 seconds*"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1358 Dredd-v3/cogs/manage.py:1377
-#: Dredd-v3/cogs/manage.py:1388 Dredd-v3/cogs/manage.py:1407
-#: Dredd-v3/cogs/manage.py:1430 Dredd-v3/cogs/manage.py:1450
-#: Dredd-v3/cogs/manage.py:1484 Dredd-v3/cogs/manage.py:1501
-#: Dredd-v3/cogs/manage.py:1513 Dredd-v3/cogs/manage.py:1533
+#: Dredd-v3/cogs/manage.py:1378 Dredd-v3/cogs/manage.py:1397
+#: Dredd-v3/cogs/manage.py:1408 Dredd-v3/cogs/manage.py:1427
+#: Dredd-v3/cogs/manage.py:1450 Dredd-v3/cogs/manage.py:1470
+#: Dredd-v3/cogs/manage.py:1504 Dredd-v3/cogs/manage.py:1521
+#: Dredd-v3/cogs/manage.py:1533 Dredd-v3/cogs/manage.py:1553
 msgid "Cancelling the command. Deleting this message in 15 seconds"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1361 Dredd-v3/cogs/manage.py:1380
-#: Dredd-v3/cogs/manage.py:1418 Dredd-v3/cogs/manage.py:1487
-#: Dredd-v3/cogs/manage.py:1504
+#: Dredd-v3/cogs/manage.py:1381 Dredd-v3/cogs/manage.py:1400
+#: Dredd-v3/cogs/manage.py:1438 Dredd-v3/cogs/manage.py:1507
+#: Dredd-v3/cogs/manage.py:1524
 msgid "Invalid answer, try again."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1367
+#: Dredd-v3/cogs/manage.py:1387
 msgid "Should the message be an embed? `yes` | `y` | `no` | `n` | `cancel`"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1384
+#: Dredd-v3/cogs/manage.py:1404
 msgid "What channel should I send the message to?"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1392
+#: Dredd-v3/cogs/manage.py:1412
 msgid "I can't send messages in that channel, please give me permissions to send messages in that channel or choose another channel."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1394
+#: Dredd-v3/cogs/manage.py:1414
 msgid "I can't embed links in that channel, please give me permissions to embed links there or choose another channel in which I can embed links."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1399
+#: Dredd-v3/cogs/manage.py:1419
 msgid "Can't find that channel, if that's even a channel."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1403
+#: Dredd-v3/cogs/manage.py:1423
 msgid "Send the link of the message you want to use for reaction roles."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1415
+#: Dredd-v3/cogs/manage.py:1435
 msgid "Can't find that message, please make sure the link is valid and I can see the channel, message history."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1425
+#: Dredd-v3/cogs/manage.py:1445
 msgid "Please send a **single** emoji that you'd like to use."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1434
+#: Dredd-v3/cogs/manage.py:1454
 msgid "That emoji is already being used for reaction roles"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1442
+#: Dredd-v3/cogs/manage.py:1462
 msgid "Invalid emoji, try again."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1446
+#: Dredd-v3/cogs/manage.py:1466
 #, python-brace-format
 msgid "Please send a role that you'd like to assign to emoji - {0}"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1457 Dredd-v3/cogs/manage.py:1517
+#: Dredd-v3/cogs/manage.py:1477 Dredd-v3/cogs/manage.py:1537
 msgid "That role is already used in the reaction role, please choose another role."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1464
+#: Dredd-v3/cogs/manage.py:1484
 msgid "The role you've provided is higher in the role hierarchy, please make sure I can access the role."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1466 Dredd-v3/cogs/manage.py:1522
+#: Dredd-v3/cogs/manage.py:1486 Dredd-v3/cogs/manage.py:1542
 msgid "Invalid role, try again."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1475
+#: Dredd-v3/cogs/manage.py:1495
 msgid "Do you wish to add more reaction roles? `yes` | `y` | `n` | `no` | `cancel` to cancel the command"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1492
+#: Dredd-v3/cogs/manage.py:1512
 msgid "Do you only want users with certain roles to access the reaction roles? `yes` | `y` | `n` | `no` | `cancel` to cancel the command"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1508
+#: Dredd-v3/cogs/manage.py:1528
 msgid "What role do users need in order to access the reaction roles?"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1528
+#: Dredd-v3/cogs/manage.py:1548
 #, python-brace-format
 msgid "How many roles should users be able to get from the reaction role? Send {0} if all."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1537
+#: Dredd-v3/cogs/manage.py:1557
 #, python-brace-format
 msgid "Set the max number of roles to **{0}**"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1539
+#: Dredd-v3/cogs/manage.py:1559
 msgid "Answer must be a number or `cancel` to cancel."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1543 Dredd-v3/cogs/manage.py:1550
+#: Dredd-v3/cogs/manage.py:1563 Dredd-v3/cogs/manage.py:1570
 msgid "**Available Roles:**"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1547 Dredd-v3/cogs/manage.py:1554
+#: Dredd-v3/cogs/manage.py:1567 Dredd-v3/cogs/manage.py:1574
 msgid "\n\n"
 "*React to the reactions below to get the corresponding roles.*"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1564
+#: Dredd-v3/cogs/manage.py:1584
 #, python-brace-format
 msgid "{0} Something failed while adding the reactions, did you deleted the message?"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1571
+#: Dredd-v3/cogs/manage.py:1591
 msgid "Reaction Roles Setup Completed"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1572
+#: Dredd-v3/cogs/manage.py:1592
 #, python-brace-format
 msgid "Reaction roles setup for [**message**]({0}) was successfully completed.\n\n"
 "**Reactions:** {1}\n"
@@ -3986,28 +4068,28 @@ msgid "Reaction roles setup for [**message**]({0}) was successfully completed.\n
 "**Required Role:** {4}"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1581
+#: Dredd-v3/cogs/manage.py:1601
 msgid "Timed out, please re-run the command."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1585
+#: Dredd-v3/cogs/manage.py:1605
 msgid "Get a list of reaction roles in the server"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1591
+#: Dredd-v3/cogs/manage.py:1611
 msgid " Get a list of reaction roles in the server "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1596
+#: Dredd-v3/cogs/manage.py:1616
 msgid "No reaction roles are setup in this server."
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1618
+#: Dredd-v3/cogs/manage.py:1638
 #, python-brace-format
 msgid "[Jump URL]({0})"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1622
+#: Dredd-v3/cogs/manage.py:1642
 #, python-brace-format
 msgid "**Message:** {0}\n"
 "**Channel:** {1}\n"
@@ -4017,33 +4099,33 @@ msgid "**Message:** {0}\n"
 "**Required role:** {5}\n\n"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1623
+#: Dredd-v3/cogs/manage.py:1643
 msgid "Deleted"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1629
+#: Dredd-v3/cogs/manage.py:1649
 #, python-brace-format
 msgid "Reaction roles in {0}"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1638
+#: Dredd-v3/cogs/manage.py:1658
 msgid "Delete reaction roles in the server"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1644
+#: Dredd-v3/cogs/manage.py:1664
 msgid " Delete reaction roles in the server "
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1647
+#: Dredd-v3/cogs/manage.py:1667
 msgid "Message ID must not include letters, only numbers"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1652
+#: Dredd-v3/cogs/manage.py:1672
 #, python-brace-format
 msgid "Reaction role for that message doesn't exist. Please use `{0}reaction-roles list` to get a list of all the reaction roles"
 msgstr ""
 
-#: Dredd-v3/cogs/manage.py:1666
+#: Dredd-v3/cogs/manage.py:1686
 #, python-brace-format
 msgid "{0} Successfully deleted reaction roles for message {1}"
 msgstr ""
