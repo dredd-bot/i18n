@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-08-30 17:16\n"
+"PO-Revision-Date: 2021-08-30 18:13\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1595,17 +1595,17 @@ msgstr "Añade un usuario a la lista blanca de automoderación"
 
 #: Dredd-v3/cogs/automod.py:659
 msgid " Add a user to automod's & raid mode's whitelist "
-msgstr ""
+msgstr " Añade un usuario a la lista blanca de automoderación y modo invasión "
 
 #: Dredd-v3/cogs/automod.py:670 Dredd-v3/cogs/automod.py:677
 #, python-brace-format
 msgid "{0} Added {1} to the users whitelist."
-msgstr ""
+msgstr "{0} Se ha añadido {1} a la lista blanca de usuarios."
 
 #: Dredd-v3/cogs/automod.py:673
 #, python-brace-format
 msgid "User **{0}** is already added to the whitelist."
-msgstr ""
+msgstr "El usuario **{0}** ya está añadido en la lista blanca."
 
 #: Dredd-v3/cogs/automod.py:680
 msgid "Remove a role from automod's whitelist"
