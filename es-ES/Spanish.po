@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-08-29 13:21\n"
+"PO-Revision-Date: 2021-08-30 17:16\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -473,7 +473,7 @@ msgstr "{0} {1} tiene activado el modo anti-raid estricto, por favor intenta uni
 
 #: Dredd-v3/cogs/events/automod.py:520
 msgid "It seems like your server is experiencing a *huge* raid, to prevent us from getting api banned we'll be banning raiders in the background and will not be sending any logs in this channel."
-msgstr ""
+msgstr "Parece que tu servidor está experimentando una invasión *gigante*, para evitar ser baneados con la api, estaremos baneando a los invasores y no enviaremos ningún registro en este servidor."
 
 #: Dredd-v3/cogs/events/automod.py:530
 #, python-brace-format
@@ -1542,16 +1542,16 @@ msgstr "Lista de los roles en la lista blanca"
 #: Dredd-v3/cogs/automod.py:579
 #, python-brace-format
 msgid "{0} There are no whitelisted users in the server."
-msgstr ""
+msgstr "{0} No hay usuarios en la lista blanca en el servidor."
 
 #: Dredd-v3/cogs/automod.py:581
 msgid "List of whitelisted users"
-msgstr ""
+msgstr "Lista de los usuarios en la lista blanca"
 
 #: Dredd-v3/cogs/automod.py:585
 #, python-brace-format
 msgid "{0} The value you've provided is invalid, please choose either `channels`, `roles` or `users`"
-msgstr ""
+msgstr "{0} El valor que has proporcionado es inválido, por favor, elige entre `channels`, `roles` o `users`"
 
 #: Dredd-v3/cogs/automod.py:599
 msgid "Add a channel to automod's whitelist "
@@ -1591,7 +1591,7 @@ msgstr "El rol **{0}** ya está añadido en la lista blanca."
 
 #: Dredd-v3/cogs/automod.py:653
 msgid "Add a user to automod's whitelist"
-msgstr ""
+msgstr "Añade un usuario a la lista blanca de automoderación"
 
 #: Dredd-v3/cogs/automod.py:659
 msgid " Add a user to automod's & raid mode's whitelist "
