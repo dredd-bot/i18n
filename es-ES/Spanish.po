@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-08-30 18:13\n"
+"PO-Revision-Date: 2021-09-01 22:52\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5118,25 +5118,25 @@ msgstr "{0} ({1}) - **¿Faltan permisos? ¿Tienen administrador?**"
 #: Dredd-v3/cogs/moderation.py:353
 #, python-brace-format
 msgid "{0} ({1}) - **Kicking failed**"
-msgstr ""
+msgstr "{0} ({1}) - **Expulsión fallida**"
 
 #: Dredd-v3/cogs/moderation.py:361 Dredd-v3/cogs/moderation.py:367
 #, python-brace-format
 msgid "**I've successfully kicked {0} member(s):**\n"
-msgstr ""
+msgstr "**He expulsado con éxito {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:368
 #, python-brace-format
 msgid "**However, I failed to kick the following {0} member(s):**\n"
-msgstr ""
+msgstr "**Sin embargo, no he podido expulsar a los siguientes {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:376
 msgid "**I failed to kick all the members:**\n"
-msgstr ""
+msgstr "**No pude expulsar a todos los miembros:**\n"
 
 #: Dredd-v3/cogs/moderation.py:387
 msgid "Ban member from the server"
-msgstr ""
+msgstr "Banea a un miembro del servidor"
 
 #: Dredd-v3/cogs/moderation.py:394
 msgid " Ban a member from the server. If multiple members are provided, they all get banned from the server. "
