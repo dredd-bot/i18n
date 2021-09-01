@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-09-01 22:52\n"
+"PO-Revision-Date: 2021-09-01 23:49\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5178,22 +5178,22 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:486
 msgid " Soft-ban a member from the server. If multiple members are provided, they all get soft-banned from the server. "
-msgstr ""
+msgstr " Banea y automáticamente desbanea a un miembro del servidor. Si se proporcionan múltiples miembros, todos son baneados y desbaneados del servidor. "
 
 #: Dredd-v3/cogs/moderation.py:502
 #, python-brace-format
 msgid "{0} | You can only soft-ban 15 members at once."
-msgstr ""
+msgstr "{0} | Solo puedes banear y automáticamente desbanear 15 miembros a la vez."
 
 #: Dredd-v3/cogs/moderation.py:545 Dredd-v3/cogs/moderation.py:551
 #, python-brace-format
 msgid "**I've successfully soft-banned {0} member(s):**\n"
-msgstr ""
+msgstr "**He baneado y automáticamente desbaneado con éxito {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:552
 #, python-brace-format
 msgid "**However, I failed to soft-ban the following {0} member(s):**\n"
-msgstr ""
+msgstr "**Sin embargo, no he podido banear y automáticamente desbanear a los siguientes {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:560
 msgid "**I failed to soft-ban all the members:**\n"
@@ -5500,12 +5500,15 @@ msgid " Warn a member in the server\n"
 "        If multiple members are provided they all will get warned.\n"
 "        Member will get a DM when he'll get warned, you can use silent feature to send warning into DMs annonymously.\n"
 "        Example: `warn <member> [--s] [reason]`"
-msgstr ""
+msgstr " Advierte a un miembro en el servidor\n"
+"        Si se proporcionan varios miembros, todos serán advertidos.\n"
+"        El miembro recibirá un mensaje privado cuando sea advertido, puedes utilizar la función silenciosa para enviar una advertencia en mensajes privado anónimamente.\n"
+"        Ejemplo: `warn <member> [--s] [reason]`"
 
 #: Dredd-v3/cogs/moderation.py:1193
 #, python-brace-format
 msgid "{0} | You can only warn 15 members at once."
-msgstr ""
+msgstr "{0} | Solo puedes advertir 15 miembros a la vez."
 
 #: Dredd-v3/cogs/moderation.py:1197
 msgid "Warning!"
@@ -5514,35 +5517,36 @@ msgstr "¡Advertencia!"
 #: Dredd-v3/cogs/moderation.py:1218
 #, python-brace-format
 msgid "{0} ({1}) - **Member is a bot.**"
-msgstr ""
+msgstr "{0} ({1}) - **Miembro es un bot.**"
 
 #: Dredd-v3/cogs/moderation.py:1223
 #, python-brace-format
 msgid "You were warned in **{0}** for:\n"
 "{1}"
-msgstr ""
+msgstr "Has sido advertido en **{0}** por:\n"
+"{1}"
 
 #: Dredd-v3/cogs/moderation.py:1236 Dredd-v3/cogs/moderation.py:1242
 #, python-brace-format
 msgid "**I've successfully warned {0} member(s):**\n"
-msgstr ""
+msgstr "**He advertido con éxito {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:1243
 #, python-brace-format
 msgid "**However I failed to warn the following {0} member(s):**\n"
-msgstr ""
+msgstr "**Sin embargo, no he podido advertir a los siguientes {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:1251
 msgid "**I failed to warn all the members:**\n"
-msgstr ""
+msgstr "**No pude advertir a todos los miembros:**\n"
 
 #: Dredd-v3/cogs/moderation.py:1262
 msgid "Manage messages in the chat"
-msgstr ""
+msgstr "Administra mensajes en el chat"
 
 #: Dredd-v3/cogs/moderation.py:1269
 msgid " Purge messages in the chat. Default amount is set to **100**. This will not purge pins. "
-msgstr ""
+msgstr " Elimina mensajes en el chat. La cantidad predeterminada está establecida a **100**. Esto no eliminará mensajes fijados. "
 
 #: Dredd-v3/cogs/moderation.py:1280
 msgid "Purge all the messages"
@@ -5550,19 +5554,19 @@ msgstr "Elimina todos los mensajes"
 
 #: Dredd-v3/cogs/moderation.py:1287
 msgid " Purge all the messages in chat. Default amount is set to **100**. This will purge everything, pins as well. "
-msgstr ""
+msgstr " Elimina todos los mensajes en el chat. La cantidad predeterminada está establecida a *100**.. Esto eliminará todo, incluyendo mensajes fijados. "
 
 #: Dredd-v3/cogs/moderation.py:1293
 msgid "Clear messages sent from an user"
-msgstr ""
+msgstr "Elimina mensajes enviados de un usuario"
 
 #: Dredd-v3/cogs/moderation.py:1300
 msgid " Removes user messages "
-msgstr ""
+msgstr " Elimina mensajes de usuario "
 
 #: Dredd-v3/cogs/moderation.py:1306
 msgid "Clear bot user messages"
-msgstr ""
+msgstr "Elimina mensajes de usuario del bot"
 
 #: Dredd-v3/cogs/moderation.py:1313
 msgid "Removes a bot user's messages and messages with their optional prefix."
@@ -5570,7 +5574,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:1320
 msgid "Clear embedded messages"
-msgstr ""
+msgstr "Elimina mensajes incrustados"
 
 #: Dredd-v3/cogs/moderation.py:1327
 msgid "Removes messages that have embeds in them."
