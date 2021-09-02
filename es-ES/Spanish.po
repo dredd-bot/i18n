@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-09-02 17:58\n"
+"PO-Revision-Date: 2021-09-02 19:04\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5582,27 +5582,27 @@ msgstr ""
 
 #: Dredd-v3/cogs/moderation.py:1331
 msgid "Clear messages with images"
-msgstr ""
+msgstr "Elimina mensajes con imágenes"
 
 #: Dredd-v3/cogs/moderation.py:1338
 msgid "Removes messages that have embeds or attachments."
-msgstr ""
+msgstr "Elimina los mensajes que tienen incrustaciones o archivos adjuntos."
 
 #: Dredd-v3/cogs/moderation.py:1341
 msgid "Messages containing the given word"
-msgstr ""
+msgstr "Mensajes que contienen la palabra dada"
 
 #: Dredd-v3/cogs/moderation.py:1348
 msgid " Removes all messages containing a substring. The substring must be at least 3 characters long. "
-msgstr ""
+msgstr " Elimina todos los mensajes que contentan una subcadena. La subcadena debe tener al menos 3 caracteres. "
 
 #: Dredd-v3/cogs/moderation.py:1354
 msgid "Delete custom emoji messages"
-msgstr ""
+msgstr "Elimina mensajes con emojis personalizados"
 
 #: Dredd-v3/cogs/moderation.py:1361
 msgid "Removes all messages containing custom emoji."
-msgstr ""
+msgstr "Elimina todos los mensajes que contienen emojis personalizados."
 
 #: Dredd-v3/cogs/moderation.py:1369
 msgid "Delete custom messages"
