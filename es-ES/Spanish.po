@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-09-02 17:02\n"
+"PO-Revision-Date: 2021-09-02 17:58\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5174,7 +5174,7 @@ msgstr "**No pude banear a todos los miembros:**\n"
 
 #: Dredd-v3/cogs/moderation.py:479
 msgid "Softban member from the server"
-msgstr "Banea y automáticamente desbanea un miembro del servidor"
+msgstr "Softbanea un miembro del servidor"
 
 #: Dredd-v3/cogs/moderation.py:486
 msgid " Soft-ban a member from the server. If multiple members are provided, they all get soft-banned from the server. "
@@ -5183,17 +5183,17 @@ msgstr " Banea y automáticamente desbanea a un miembro del servidor. Si se prop
 #: Dredd-v3/cogs/moderation.py:502
 #, python-brace-format
 msgid "{0} | You can only soft-ban 15 members at once."
-msgstr "{0} | Solo puedes banear y automáticamente desbanear 15 miembros a la vez."
+msgstr "{0} | Solo puedes soft-banear 15 miembros a la vez."
 
 #: Dredd-v3/cogs/moderation.py:545 Dredd-v3/cogs/moderation.py:551
 #, python-brace-format
 msgid "**I've successfully soft-banned {0} member(s):**\n"
-msgstr "**He baneado y automáticamente desbaneado con éxito {0} miembro(s):**\n"
+msgstr "**He soft-baneado con éxito {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:552
 #, python-brace-format
 msgid "**However, I failed to soft-ban the following {0} member(s):**\n"
-msgstr "**Sin embargo, no he podido banear y automáticamente desbanear a los siguientes {0} miembro(s):**\n"
+msgstr "**Sin embargo, no he podido soft-banear a los siguientes {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:560
 msgid "**I failed to soft-ban all the members:**\n"
@@ -5205,21 +5205,21 @@ msgstr "Hackbanea un usuario del servidor"
 
 #: Dredd-v3/cogs/moderation.py:579
 msgid " Hack-ban a user who's not in the server from the server. Users must be IDs else it won't work. "
-msgstr ""
+msgstr " Hack-banea un usuario que no está en el servidor del servidor. Los usuarios deben ser IDs, de lo contrario no funcionará. "
 
 #: Dredd-v3/cogs/moderation.py:593
 msgid "Starting the process, this might take a while."
-msgstr ""
+msgstr "Iniciando el proceso, esto puede tardar un tiempo."
 
 #: Dredd-v3/cogs/moderation.py:598
 #, python-brace-format
 msgid "{0} ({0.id}) - **User is in this server, use `ban` command instead.**"
-msgstr ""
+msgstr "{0} ({0.id}) - **El usuario está en este servidor, utiliza el comando `ban`.**"
 
 #: Dredd-v3/cogs/moderation.py:606
 #, python-brace-format
 msgid "{0} User doesn't seem to exist, are you sure the ID is correct?"
-msgstr ""
+msgstr "{0} El usuario no parece existir, ¿estás seguro de que el ID es correcto?"
 
 #: Dredd-v3/cogs/moderation.py:613
 #, python-brace-format
@@ -5238,16 +5238,16 @@ msgstr "{0} ({0.id})"
 #: Dredd-v3/cogs/moderation.py:625 Dredd-v3/cogs/moderation.py:633
 #, python-brace-format
 msgid "**I've successfully hack-banned {0} member(s):**\n"
-msgstr ""
+msgstr "**He hack-baneado con éxito {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:634
 #, python-brace-format
 msgid "**However, I failed to hack-ban the following {0} member(s):**\n"
-msgstr ""
+msgstr "**Sin embargo, no he podido hack-banear a los siguientes {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:646
 msgid "**I failed to hack-ban all the members:**\n"
-msgstr ""
+msgstr "**No he podido hack-banear a todos los miembros:**\n"
 
 #: Dredd-v3/cogs/moderation.py:659
 msgid "Unban user from the server"
@@ -5652,7 +5652,7 @@ msgstr "Congela el servidor"
 
 #: Dredd-v3/cogs/moderation.py:1502
 msgid " Freezes everyone from sending messages in the server "
-msgstr ""
+msgstr " Evita que todos envíen mensajes en el servidor "
 
 #: Dredd-v3/cogs/moderation.py:1510
 #, python-brace-format
@@ -5670,7 +5670,7 @@ msgstr "Descongela el servidor"
 
 #: Dredd-v3/cogs/moderation.py:1523
 msgid " Unfreezes everyone from sending messages in the server "
-msgstr ""
+msgstr " Desbloquea el envío de mensajes en el servidor "
 
 #: Dredd-v3/cogs/moderation.py:1532
 #, python-brace-format
@@ -5710,12 +5710,12 @@ msgstr " Elimina un rol en el servidor "
 #: Dredd-v3/cogs/moderation.py:1564
 #, python-brace-format
 msgid "{0} I cannot delete that role as it's higher or equal in role hiararchy!"
-msgstr ""
+msgstr "{0} ¡No puedo eliminar ese rol ya que es mayor o igual en la jerarquía de rol!"
 
 #: Dredd-v3/cogs/moderation.py:1568
 #, python-brace-format
 msgid "{0} You cannot delete that role as it's higher or equal in role hiararchy!"
-msgstr ""
+msgstr "{0} ¡No puedes eliminar ese rol ya que es mayor o igual en la jerarquía de rol!"
 
 #: Dredd-v3/cogs/moderation.py:1573
 #, python-brace-format
@@ -5873,7 +5873,7 @@ msgstr "{0} Recuperar el mensaje falló."
 #: Dredd-v3/cogs/moderation.py:1873
 #, python-brace-format
 msgid "Successfully edited case `#{0}` reason"
-msgstr ""
+msgstr "He modificado con éxito la razón del caso `#{0}`"
 
 #: Dredd-v3/cogs/moderation.py:1875
 msgid "Delete existing case"
@@ -5939,32 +5939,32 @@ msgstr "{0} {1} no tiene ningún historial de castigos."
 
 #: Dredd-v3/cogs/moderation.py:1975
 msgid "softban"
-msgstr ""
+msgstr "softbanear"
 
 #: Dredd-v3/cogs/moderation.py:1981
 msgid "warn"
-msgstr ""
+msgstr "advertir"
 
 #: Dredd-v3/cogs/moderation.py:1984
 msgid "unban"
-msgstr ""
+msgstr "desbanear"
 
 #: Dredd-v3/cogs/moderation.py:1986
 msgid "unmute"
-msgstr ""
+msgstr "dessilenciar"
 
 #: Dredd-v3/cogs/moderation.py:1988
 msgid "voice mute"
-msgstr ""
+msgstr "silenciar en canal de voz"
 
 #: Dredd-v3/cogs/moderation.py:1990
 msgid "voice unmute"
-msgstr ""
+msgstr "dessilenciar en canal de voz"
 
 #: Dredd-v3/cogs/moderation.py:1994
 #, python-brace-format
 msgid "Not Found. ID: {0}"
-msgstr ""
+msgstr "No encontrado. ID: {0}"
 
 #: Dredd-v3/cogs/moderation.py:1995
 #, python-brace-format
@@ -5972,26 +5972,30 @@ msgid "**Case ID:** {0}\n"
 "**Action:** {1}\n"
 "**Moderator:** {2} ({3})\n"
 "**Reason:** {4}\n\n"
-msgstr ""
+msgstr "**ID del caso:** {0}\n"
+"**Acción:** {1}\n"
+"**Moderador:** {2} ({3})\n"
+"**Razón:** {4}\n\n"
 
 #: Dredd-v3/cogs/moderation.py:2003
 #, python-brace-format
 msgid "{0} Punishments History"
-msgstr ""
+msgstr "{0} Historial de sanciones"
 
 #: Dredd-v3/cogs/moderation.py:2008
 #, python-brace-format
 msgid "Muted: {0}; Banned: {1}; Kicked: {2}; Softbanned: {3}; Warned: {4}"
-msgstr ""
+msgstr "Silenciado: {0}; Baneado: {1}; Expulsado: {2}; Softbaneado: {3}; Advertido: {4}"
 
 #: Dredd-v3/cogs/moderation.py:2012
 msgid "Shows the duration of tempmute left."
-msgstr ""
+msgstr "Muestra la duración del silencio temporal restante."
 
 #: Dredd-v3/cogs/moderation.py:2016
 msgid " Check the duration of member's tempmute.\n"
 "        If you're the user, you can run this command in DMs with srver id provided as well "
-msgstr ""
+msgstr " Revisa la duración del silencio temporal de un miembro. \n"
+"        Si tú eres el usuario, puedes ejecutar este comando en mensajes privados con el ID del servidor también "
 
 #: Dredd-v3/cogs/moderation.py:2024
 msgid "User is not temp muted."
@@ -6000,24 +6004,24 @@ msgstr "El usuario no está silenciado temporalmente."
 #: Dredd-v3/cogs/moderation.py:2027
 #, python-brace-format
 msgid "**{0}** will be unmuted in: `{1}`"
-msgstr ""
+msgstr "**{0}** será dessilenciado en: `{1}`"
 
 #: Dredd-v3/cogs/moderation.py:2035
 msgid "Server administrators have disabled this feature in that server, unfortunately I cannot tell you the duration until you get unmuted."
-msgstr ""
+msgstr "Los administradores del servidor han deshabilitado esta característica en ese servidor, por desgracia no puedo decirte la duración hasta que no seas dessilenciado."
 
 #: Dredd-v3/cogs/moderation.py:2040
 msgid "You're not temp muted?"
-msgstr ""
+msgstr "¿No estás silenciado temporalmente?"
 
 #: Dredd-v3/cogs/moderation.py:2043
 #, python-brace-format
 msgid "You will be unmuted in: `{0}`"
-msgstr ""
+msgstr "Serás dessilenciado en: `{0}`"
 
 #: Dredd-v3/cogs/moderation.py:2046
 msgid "Please give the ID of the server too."
-msgstr ""
+msgstr "Por favor, indica también el ID del servidor."
 
 #: Dredd-v3/cogs/moderation.py:2051
 msgid "User is not temp muted in that server."
