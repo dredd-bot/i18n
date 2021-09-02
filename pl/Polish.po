@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-09-02 21:58\n"
+"PO-Revision-Date: 2021-09-02 23:04\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -200,98 +200,98 @@ msgstr "Dredd Super Wczesny Supporter"
 
 #: Dredd-v3/utils/default.py:203
 msgid "Blacklisted user"
-msgstr ""
+msgstr "Użytkownik na czarnej listy"
 
 #: Dredd-v3/utils/default.py:204
 msgid "A special badge for Duck :duck:"
-msgstr ""
+msgstr "Specjalna odznaka dla duck :duck:"
 
 #: Dredd-v3/utils/default.py:243
 #, python-brace-format
 msgid "{0} Dredd Staff Server"
-msgstr ""
+msgstr "{0} Obsługa Serwera Dredd"
 
 #: Dredd-v3/utils/default.py:244
 msgid "{} Dredd Verified Server"
-msgstr ""
+msgstr "{} Zweryfikowany serwer Dredd"
 
 #: Dredd-v3/utils/default.py:245
 #, python-brace-format
 msgid "{0} Dredd Partnered Server"
-msgstr ""
+msgstr "{0} Serwer Partnerski Dredda"
 
 #: Dredd-v3/utils/default.py:359
 #, python-brace-format
 msgid "{0} Edited messages\n"
-msgstr ""
+msgstr "{0} Edytowano Wiadomości\n"
 
 #: Dredd-v3/utils/default.py:360
 #, python-brace-format
 msgid "{0} Deleted messages\n"
-msgstr ""
+msgstr "{0} Usuniętych Wiadomości\n"
 
 #: Dredd-v3/utils/default.py:361
 #, python-brace-format
 msgid "{0} Moderation\n"
-msgstr ""
+msgstr "{0} Moderacja\n"
 
 #: Dredd-v3/utils/default.py:362
 #, python-brace-format
 msgid "{0} Guild logs\n"
-msgstr ""
+msgstr "{0} Dzienniki Gildii\n"
 
 #: Dredd-v3/utils/default.py:363
 #, python-brace-format
 msgid "{0} Member Joins\n"
-msgstr ""
+msgstr "{0} Dołączenia członków\n"
 
 #: Dredd-v3/utils/default.py:364
 #, python-brace-format
 msgid "{0} Member Leaves\n"
-msgstr ""
+msgstr "{0} Liście Członków\n"
 
 #: Dredd-v3/utils/default.py:365
 #, python-brace-format
 msgid "{0} Member Updates\n"
-msgstr ""
+msgstr "Aktualizacje użytkownika {0}\n"
 
 #: Dredd-v3/utils/default.py:367 Dredd-v3/utils/default.py:375
 #, python-brace-format
 msgid "{0} Raid mode\n"
-msgstr ""
+msgstr "{0} Tryb Raid\n"
 
 #: Dredd-v3/utils/default.py:368 Dredd-v3/utils/default.py:376
 #, python-brace-format
 msgid "{0} Welcoming messages\n"
-msgstr ""
+msgstr "{0} Wiadomości powitalne\n"
 
 #: Dredd-v3/utils/default.py:369 Dredd-v3/utils/default.py:377
 #, python-brace-format
 msgid "{0} Leaving messages\n"
-msgstr ""
+msgstr "{0} Opuszczanie wiadomości\n"
 
 #: Dredd-v3/utils/default.py:370 Dredd-v3/utils/default.py:378
 #, python-brace-format
 msgid "{0} Role on Join\n"
-msgstr ""
+msgstr "{0} Rola przy dołączeniu\n"
 
 #: Dredd-v3/utils/default.py:371 Dredd-v3/utils/default.py:379
 #, python-brace-format
 msgid "{0} Dehoisting\n"
-msgstr ""
+msgstr "{0} Odciąganie\n"
 
 #: Dredd-v3/utils/default.py:372 Dredd-v3/utils/default.py:380
 #, python-brace-format
 msgid "{0} Automod\n"
-msgstr ""
+msgstr "{0} Automoderacja\n"
 
 #: Dredd-v3/utils/default.py:529 Dredd-v3/cogs/moderation.py:1978
 msgid "mute"
-msgstr ""
+msgstr "wyciszenie"
 
 #: Dredd-v3/utils/default.py:530
 msgid "temp-mute"
-msgstr ""
+msgstr "tymczasowe wyciszenie"
 
 #: Dredd-v3/utils/default.py:531 Dredd-v3/cogs/moderation.py:1972
 msgid "kick"
