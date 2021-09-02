@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-08-29 13:21\n"
+"PO-Revision-Date: 2021-09-02 01:20\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -472,7 +472,7 @@ msgstr "{0} {1} đã bật chế độ chống đột kích nghiêm ngặt, vui 
 
 #: Dredd-v3/cogs/events/automod.py:520
 msgid "It seems like your server is experiencing a *huge* raid, to prevent us from getting api banned we'll be banning raiders in the background and will not be sending any logs in this channel."
-msgstr ""
+msgstr "Có vẻ như server của bạn đang trải qua một cuộc raid *rất lớn*, để ngăn chúng tôi bị cấm khỏi API, chúng tôi sẽ cấm raiders trong nền và sẽ không gửi bất kỳ tin nhắn nào trong kênh này."
 
 #: Dredd-v3/cogs/events/automod.py:530
 #, python-brace-format
@@ -1277,15 +1277,15 @@ msgstr "{0} Đặt thành công loại hình phạt chặn lời mời thành **
 
 #: Dredd-v3/cogs/automod.py:265
 msgid "Toggle anti mass mention on or off"
-msgstr ""
+msgstr "Bật hoặc tắt tính năng ngăn chặn mass mention"
 
 #: Dredd-v3/cogs/automod.py:271
 msgid " Toggle anti mass mention on or off and set the mentions limit to whatever number you want "
-msgstr ""
+msgstr " Bật hoặc tắt tính năng ngăn chặn mass mention và đặt giới hạn mentions thành bất kỳ số nào bạn muốn "
 
 #: Dredd-v3/cogs/automod.py:282
 msgid "Mentions limit must be between 2 and 15"
-msgstr ""
+msgstr "Giới hạn mentions phải từ 2 đến 15"
 
 #: Dredd-v3/cogs/automod.py:294
 #, python-brace-format
