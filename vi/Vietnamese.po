@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-09-05 01:49\n"
+"PO-Revision-Date: 2021-09-05 02:46\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -1405,7 +1405,13 @@ msgid " Toggle raid mode status\n"
 "        `ban` - ban new members that only have their account created less than 30 days ago\n"
 "        `kickall` - kick all new members, account age doesn't matter\n"
 "        `banall` - ban all new members, account age doesn't matter "
-msgstr ""
+msgstr " Chuyển đổi trạng thái chế độ chống đột kích \n"
+"    \n"
+"        **Giá trị:**\n"
+"        `kick` - đá những thành viên mới chỉ tạo tài khoản của họ chưa đầy 30 ngày trước\n"
+"        `ban` - cấm những thành viên mới chỉ tạo tài khoản của họ chưa đầy 30 ngày trước\n"
+"        `kickall` - đá tất cả các thành viên, tuổi tài khoản không quan trọng\n"
+"        `banall` - cấm tất cả các thành viên, tuổi tài khoản không quan trọng "
 
 #: Dredd-v3/cogs/automod.py:449
 msgid "Allowed values are `kick`, `ban`, `kickall` and `banall`, if you're trying to disable the raid mode, don't provide any arguments"
@@ -1414,37 +1420,37 @@ msgstr "Các giá trị được chấp nhận là `kick`, `ban`, `kickall` and 
 #: Dredd-v3/cogs/automod.py:459
 #, python-brace-format
 msgid "{0} Successfully enabled raidmode, will kick new members who have their accounts created less than 30 days ago."
-msgstr ""
+msgstr "{0} Bật chế độ chống đột kích thành công, sẽ đá những thành viên mới chỉ tạo tài khoản của họ chưa đầy 30 ngày trước."
 
 #: Dredd-v3/cogs/automod.py:463
 #, python-brace-format
 msgid "{0} Successfully enabled raidmode, will ban new members who have their accounts created less than 30 days ago."
-msgstr ""
+msgstr "{0} Bật chế độ chống đột kích thành công, sẽ cấm những thành viên mới chỉ tạo tài khoản của họ chưa đầy 30 ngày trước."
 
 #: Dredd-v3/cogs/automod.py:467
 #, python-brace-format
 msgid "{0} Successfully enabled raidmode, will kick all new members"
-msgstr ""
+msgstr "{0} Bật chế độ chống đột kích thành công, sẽ đá tất cả thành viên mới"
 
 #: Dredd-v3/cogs/automod.py:471
 #, python-brace-format
 msgid "{0} Successfully enabled raidmode, will ban all new members"
-msgstr ""
+msgstr "{0} Bật chế độ chống đột kích thành công, sẽ cấm tất cả thành viên mới"
 
 #: Dredd-v3/cogs/automod.py:479
 #, python-brace-format
 msgid "{0} Successfully disabled raidmode"
-msgstr ""
+msgstr "{0} Đã tắt chế độ chống đột kích"
 
 #: Dredd-v3/cogs/automod.py:485
 #, python-brace-format
 msgid "{0} Set the new raidmode logging channel to {1}"
-msgstr ""
+msgstr "{0} Đã đặt nhật kí chế độ chống đột kích thành {1}"
 
 #: Dredd-v3/cogs/automod.py:490
 #, python-brace-format
 msgid "{0} Set the raidmode action to kick new members who have their accounts created less than 30 days ago."
-msgstr ""
+msgstr "{0} Đặt hành động chống đột kích thành đá những thành viên mới chỉ tạo tài khoản của họ chưa đầy 30 ngày trước."
 
 #: Dredd-v3/cogs/automod.py:494
 #, python-brace-format
