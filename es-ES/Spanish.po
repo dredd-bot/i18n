@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-09-10 20:21\n"
+"PO-Revision-Date: 2021-09-10 21:26\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5655,20 +5655,41 @@ msgid "A more advanced purge command.\n"
 "        `--reactions`: Check if the message has reactions\n"
 "        `--or`: Use logical OR for all options.\n"
 "        `--not`: Use logical NOT for all options. "
-msgstr ""
+msgstr "Un comando de eliminar mensajes más avanzado.\n"
+"        Este comando usa una podera sintaxis \"línea de comandos\".\n"
+"        La mayoría de opciones perimiten múltiples valores para indicar 'cualquier' coincidencia.\n"
+"        Si el valor tiene contiene espacios debe ser citdo.\n"
+"        Los mensajes son sólo eliminados si todas las opciones coinciden al menos que\n"
+"        la bandera `--or` sea añadida, en dicho caso sólo si alguno coincide.\n"
+"        Las siguientes opciones son válidas.\n"
+"       `--user`: Una mención o el nombre del usuario para eliminar.\n"
+"       `--contains`: Una subcadena a buscar en los mensajes.\n"
+"       `--starts`: Una subcadena para buscar en los mensajes que inicien con ella.\n"
+"       `--ends`: Una subcadena para buscar en los mensajes que inicien con finalizen con ella.\n"
+"       `--search`: Cuántos mensajes deben ser buscados. 100 por predeterminado. 2000 como máximo.\n"
+"       `--after`:  Los mensajes deben ser después de este ID de mensaje.\n"
+"       `--before`: Los mensajes deben ser antes de este ID de mensaje.\n"
+"       Opciones de banderas (sin argumentos):\n"
+"       `--bot`: Revisar si el usuario es un bot.\n"
+"       `--embeds`: Revisar si el mensaje incluye incrustaciones.\n"
+"       `--files`: Revisar si el mensaje incluye archivos incluidos.\n"
+"       `--emoji`: Revisar si el mensaje incluye emojis personalizados.\n"
+"       `--reactions`: Revisar si el mensaje incluye reacciones.\n"
+"       `--or`: Usar O lógico para todas las opciones.\n"
+"       `--not`: Usar NO lógico para todas las opciones. "
 
 #: Dredd-v3/cogs/moderation.py:1471
 msgid "Nuke the channel"
-msgstr ""
+msgstr "Clona un canal"
 
 #: Dredd-v3/cogs/moderation.py:1478
 msgid " Nuke any server in the channel. This command will clone the selected channel and create another one with exact permissions "
-msgstr ""
+msgstr " Clona cualquier canal en el servidor. Este comando clonará el canal seleccionado y creará otro con los permisos exactos "
 
 #: Dredd-v3/cogs/moderation.py:1486
 #, python-brace-format
 msgid "{0} Successfully nuked the channel. Deleting this message in 30 seconds."
-msgstr ""
+msgstr "{0} He clonado correctamente el canal. Eliminando este mensaje en 30 segundos."
 
 #: Dredd-v3/cogs/moderation.py:1495
 msgid "Freeze the server"
@@ -6049,15 +6070,15 @@ msgstr "Por favor, indica también el ID del servidor."
 
 #: Dredd-v3/cogs/moderation.py:2051
 msgid "User is not temp muted in that server."
-msgstr ""
+msgstr "El usuario no está temporalmente silenciado en ese servidor."
 
 #: Dredd-v3/cogs/moderation.py:2058
 msgid "Toggle if users should see their temp mute duration"
-msgstr ""
+msgstr "Alterna si los usuarios deberían ver la duración de su silencio temporal"
 
 #: Dredd-v3/cogs/moderation.py:2064
 msgid " Toggle if users should be able to see when they're getting unmuted. They'll be able to run the command in DMs if it's toggled on. "
-msgstr ""
+msgstr " Alterna si los usuarios deberían poder ver cuando serán dessilenciados. Serán capaces de ejecutar el comando en mensajes privados si está activado. "
 
 #: Dredd-v3/cogs/moderation.py:2070
 #, python-brace-format
