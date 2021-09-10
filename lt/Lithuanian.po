@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-08-29 13:22\n"
+"PO-Revision-Date: 2021-09-10 18:30\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -1461,7 +1461,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:506
 msgid "who have their account created less than 30 days ago."
-msgstr ""
+msgstr "kas turėjo jų paskyrą sukurtą mažiau nei prieš 30 dienų."
 
 #: Dredd-v3/cogs/automod.py:510
 msgid "Toggles anti raid mode DMs"
@@ -1528,7 +1528,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:581
 msgid "List of whitelisted users"
-msgstr ""
+msgstr "Sąrašas žmonių baltajame sąraše"
 
 #: Dredd-v3/cogs/automod.py:585
 #, python-brace-format
@@ -1573,7 +1573,7 @@ msgstr "Vaidmuo **{0}** jau yra pridėta į baltąjį sąrašą."
 
 #: Dredd-v3/cogs/automod.py:653
 msgid "Add a user to automod's whitelist"
-msgstr ""
+msgstr "Pridėti žmogu prie auto moderacijos baltojo sąrašo"
 
 #: Dredd-v3/cogs/automod.py:659
 msgid " Add a user to automod's & raid mode's whitelist "
@@ -3077,7 +3077,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/manage.py:131
 msgid "Welcome Message"
-msgstr ""
+msgstr "Pasveikinimo žinutė"
 
 #: Dredd-v3/cogs/manage.py:135
 #, python-brace-format
