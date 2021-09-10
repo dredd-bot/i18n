@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-09-10 19:25\n"
+"PO-Revision-Date: 2021-09-10 20:21\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3525,7 +3525,18 @@ msgid " Set the welcoming messages in the server\n"
 "         • `{{server.members}}` for member count in server\n"
 "         • `{0}` for member name\n"
 "         • `{1}` for member count "
-msgstr ""
+msgstr " Establece los mensajes de bienvenida en el servidor\n"
+"        Pasar ningún mensaje reiniciará tu mensaje de bienvenida al predeterminado.\n"
+"         \n"
+"         Valores de formato:\n"
+"         • `{{member.mention}}` para mencionar el miembro\n"
+"         • `{{member.tag}}` para el nombre y # del miembro \n"
+"         • `{{member.id}}` para el id del miembro\n"
+"         • `{{member.name}}` para el nombre (sin formato)\n"
+"         • `{{server.name}}` para el nombre del servidor\n"
+"         • `{{server.members}}` para el número de miembros en el servidor\n"
+"         • `{0}` para el nombre del servidor\n"
+"         • `{1}` para el contador de miembros "
 
 #: Dredd-v3/cogs/manage.py:578 Dredd-v3/cogs/manage.py:631
 #: Dredd-v3/cogs/manage.py:660
@@ -3666,7 +3677,18 @@ msgid " Set the leaving messages in the server\n"
 "         • `{{server.members}}` for member count in server\n"
 "         • `{0}` for member name\n"
 "         • `{1}` for member count "
-msgstr ""
+msgstr " Establece los mensajes de despedida en el servidor\n"
+"        Pasar ningún mensaje reiniciará tu mensaje de despedida al predeterminado\n"
+"         \n"
+"         Valores de formato:\n"
+"         • `{{member.mention}}` para mencionar el miembro\n"
+"         • `{{member.tag}}` para el nombre y # del miembro \n"
+"         • `{{member.id}}` para el id del miembro\n"
+"         • `{{member.name}}` para el nombre (sin formato)\n"
+"         • `{{server.name}}` para el nombre del servidor\n"
+"         • `{{server.members}}` para el número de miembros en el servidor\n"
+"         • `{0}` para el nombre del servidor\n"
+"         • `{1}` para el contador de miembros "
 
 #: Dredd-v3/cogs/manage.py:740
 #, python-brace-format
@@ -3773,7 +3795,7 @@ msgstr " Añade un rol que se dará a personas al unirse "
 #: Dredd-v3/cogs/manage.py:878
 #, python-brace-format
 msgid "{0} Role on join is not enabled in this server, please use `{1}joinrole toggle` to enable it."
-msgstr ""
+msgstr "{0} El rol al unirse no está activado en este servidor, por favor, usa `{1}joinrole toggle` para activarlo."
 
 #: Dredd-v3/cogs/manage.py:882 Dredd-v3/cogs/manage.py:992
 #, python-brace-format
@@ -5006,16 +5028,16 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:196 Dredd-v3/cogs/moderation.py:201
 #, python-brace-format
 msgid "**I've successfully re-named {0} member(s):**\n"
-msgstr ""
+msgstr "**He renombrado con éxito {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:202
 #, python-brace-format
 msgid "**However I failed to re-name the following {0} member(s):**\n"
-msgstr ""
+msgstr "**Sin embargo, no he podido renombrar los siguientes {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:209
 msgid "**I failed to re-name all the members:**\n"
-msgstr ""
+msgstr "**No pude renombrar a todos los miembros:**\n"
 
 #: Dredd-v3/cogs/moderation.py:215 Dredd-v3/cogs/moderation.py:289
 #: Dredd-v3/cogs/moderation.py:382 Dredd-v3/cogs/moderation.py:474
@@ -5027,34 +5049,34 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:1677 Dredd-v3/cogs/moderation.py:1770
 #, python-brace-format
 msgid "{0} Something failed with sending the message, I've sent this error to my developers and they should hopefully resolve it soon."
-msgstr ""
+msgstr "{0} Algo falló al enviar el mensaje, he enviado este error a mis desarrolladores y lo deberían resolver pronto."
 
 #: Dredd-v3/cogs/moderation.py:220
 msgid "Dehoist members"
-msgstr ""
+msgstr "Dehoist miembros"
 
 #: Dredd-v3/cogs/moderation.py:226
 msgid " Dehoists members who have non-alphabetic characters at the start of their name "
-msgstr ""
+msgstr " Dehoist miembros que tienen caracteres no alfabéticos al inicio de su nombre "
 
 #: Dredd-v3/cogs/moderation.py:234
 msgid "Started dehoisting process..."
-msgstr ""
+msgstr "Comenzando el proceso de dehoisting..."
 
 #: Dredd-v3/cogs/moderation.py:243
 #, python-brace-format
 msgid "{0} ({1}) - **Failed to dehoist them.**"
-msgstr ""
+msgstr "{0} ({1}) - **Error al realizar el dehoist en ellos.**"
 
 #: Dredd-v3/cogs/moderation.py:247
 #, python-brace-format
 msgid "{0} ({1}) - **Looks like I'm missing permissions to dehoist them.**"
-msgstr ""
+msgstr "{0} ({1}) - **Parece que me faltan permisos para realizar el dehoist en ellos.**"
 
 #: Dredd-v3/cogs/moderation.py:253
 #, python-brace-format
 msgid "{0} No hoisters were found."
-msgstr ""
+msgstr "{0} No se encontró ningún hoister."
 
 #: Dredd-v3/cogs/moderation.py:257
 msgid "List is limited to 20."
@@ -5063,12 +5085,12 @@ msgstr "La lista está limitada a 20."
 #: Dredd-v3/cogs/moderation.py:259 Dredd-v3/cogs/moderation.py:267
 #, python-brace-format
 msgid "**I've successfully dehoisted {0} member(s):**\n"
-msgstr ""
+msgstr "**He realizado el dehoist con éxito en {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:268
 #, python-brace-format
 msgid "**However I failed to dehoist the following {0} member(s):**\n"
-msgstr ""
+msgstr "**Sin embargo, no he podido realizar el dehoist en los siguientes {0} miembro(s):**\n"
 
 #: Dredd-v3/cogs/moderation.py:273
 msgid "List is limited to 10."
@@ -5076,7 +5098,7 @@ msgstr "La lista está limitada a 10."
 
 #: Dredd-v3/cogs/moderation.py:281
 msgid "**I failed to dehoist all the members:**\n"
-msgstr ""
+msgstr "**No pude realizar el dehoist en todos los miembros:**\n"
 
 #: Dredd-v3/cogs/moderation.py:294
 msgid "Kick member from the server"
@@ -5572,7 +5594,7 @@ msgstr "Elimina mensajes de usuario del bot"
 
 #: Dredd-v3/cogs/moderation.py:1313
 msgid "Removes a bot user's messages and messages with their optional prefix."
-msgstr ""
+msgstr "Elimina los mensajes de un bot y mensajes con su prefijo opcional."
 
 #: Dredd-v3/cogs/moderation.py:1320
 msgid "Clear embedded messages"
@@ -5580,7 +5602,7 @@ msgstr "Elimina mensajes incrustados"
 
 #: Dredd-v3/cogs/moderation.py:1327
 msgid "Removes messages that have embeds in them."
-msgstr ""
+msgstr "Elimina mensajes que tienen incrustaciones adjuntos."
 
 #: Dredd-v3/cogs/moderation.py:1331
 msgid "Clear messages with images"
