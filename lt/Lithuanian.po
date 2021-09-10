@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-09-10 18:30\n"
+"PO-Revision-Date: 2021-09-10 19:25\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -1304,7 +1304,7 @@ msgstr ""
 
 #: Dredd-v3/cogs/automod.py:321
 msgid "Percentage limit must be between 25 and 100"
-msgstr ""
+msgstr "Procentų limitas turėtų būti nuo 25 iki 100"
 
 #: Dredd-v3/cogs/automod.py:333
 #, python-brace-format
@@ -1573,21 +1573,21 @@ msgstr "Vaidmuo **{0}** jau yra pridėta į baltąjį sąrašą."
 
 #: Dredd-v3/cogs/automod.py:653
 msgid "Add a user to automod's whitelist"
-msgstr "Pridėti žmogu prie auto moderacijos baltojo sąrašo"
+msgstr "Pridėti asmenį prie auto moderacijos baltojo sąrašo"
 
 #: Dredd-v3/cogs/automod.py:659
 msgid " Add a user to automod's & raid mode's whitelist "
-msgstr ""
+msgstr " Pridėti asmenį prie auto moderacijos ir reido režimo baltojo sąrašo "
 
 #: Dredd-v3/cogs/automod.py:670 Dredd-v3/cogs/automod.py:677
 #, python-brace-format
 msgid "{0} Added {1} to the users whitelist."
-msgstr ""
+msgstr "{0} Pridėjo {1} asmenų į baltąjį sąrašą."
 
 #: Dredd-v3/cogs/automod.py:673
 #, python-brace-format
 msgid "User **{0}** is already added to the whitelist."
-msgstr ""
+msgstr "Asmuo **{0}** jau pridėtas į baltąjį sąrašą."
 
 #: Dredd-v3/cogs/automod.py:680
 msgid "Remove a role from automod's whitelist"
@@ -1605,7 +1605,7 @@ msgstr "{0} Atrodo, kad nėra vaidmenų pridėtų prie baltojo sąrašo šiame s
 #: Dredd-v3/cogs/automod.py:701
 #, python-brace-format
 msgid "Role **{0}** is not in the whitelist."
-msgstr ""
+msgstr "Vaidmuo **{0}** nėra baltajame sąraše."
 
 #: Dredd-v3/cogs/automod.py:705
 #, python-brace-format
@@ -1614,11 +1614,11 @@ msgstr "{0} Pašalinta {1} iš vaidmenų baltojo sąrašo."
 
 #: Dredd-v3/cogs/automod.py:708
 msgid "Remove a user from automod's whitelist"
-msgstr ""
+msgstr "Pašalinti asmenį iš auto moderacijos baltojo sąrašo"
 
 #: Dredd-v3/cogs/automod.py:714
 msgid " Remove a role from automod's & raid mode's whitelist "
-msgstr ""
+msgstr " Pašalinti vaidmenį iš auto moderacijos ir reido režimo baltojo sąrašo "
 
 #: Dredd-v3/cogs/automod.py:723
 #, python-brace-format
@@ -1628,7 +1628,7 @@ msgstr ""
 #: Dredd-v3/cogs/automod.py:729
 #, python-brace-format
 msgid "User **{0}** is not in the whitelist."
-msgstr ""
+msgstr "Asmuo **{0}** nėra baltajame sąraše."
 
 #: Dredd-v3/cogs/automod.py:733
 #, python-brace-format
@@ -1690,7 +1690,7 @@ msgstr "Prijunkite socialine žiniasklaidą"
 
 #: Dredd-v3/cogs/boosters.py:58
 msgid " Add social media to your medias list "
-msgstr ""
+msgstr " Pridėti socialinius tinklus į jūsų tinklų sąrašą "
 
 #: Dredd-v3/cogs/boosters.py:63 Dredd-v3/cogs/boosters.py:93
 #: Dredd-v3/cogs/boosters.py:128 Dredd-v3/cogs/boosters.py:158
@@ -1716,15 +1716,15 @@ msgstr ""
 #: Dredd-v3/cogs/boosters.py:80
 #, python-brace-format
 msgid "{0} Added {1} (<{2}>) to your medias."
-msgstr ""
+msgstr "{0} Pridėtą {1} (<{2}>) į jusų socialinių tinklų sąrašą."
 
 #: Dredd-v3/cogs/boosters.py:84
 msgid "Link your Discord server"
-msgstr ""
+msgstr "Susiekite savo Discord serverį"
 
 #: Dredd-v3/cogs/boosters.py:88
 msgid " Add Discord to your social medias list, when not providing the name, server name will be used"
-msgstr ""
+msgstr " Prideje Discord į savo socialiniu tinklų sąrašą, kai neduotas pavadinimas, bus panaudotas serverio pavadinimas"
 
 #: Dredd-v3/cogs/boosters.py:96
 #, python-brace-format
@@ -1736,7 +1736,7 @@ msgstr ""
 #: Dredd-v3/cogs/boosters.py:229 Dredd-v3/cogs/boosters.py:262
 #, python-brace-format
 msgid "{0} You already have {1} linked in your medias."
-msgstr ""
+msgstr "{0} Jus jau turite {1} prijungė į savo socialinius tinklus."
 
 #: Dredd-v3/cogs/boosters.py:113
 msgid "Can't seem to find that invite, please make sure you're only sending the code (PMZXUwdr) else it won't work."
@@ -1745,15 +1745,15 @@ msgstr ""
 #: Dredd-v3/cogs/boosters.py:115
 #, python-brace-format
 msgid "{0} Added Discord ({1} - <{2}>) to your medias list."
-msgstr ""
+msgstr "{0} Pridėtą Discord ({1}-<{2}>) į savo socialinių tinklų sąrašą."
 
 #: Dredd-v3/cogs/boosters.py:119
 msgid "Link your Instagram account"
-msgstr ""
+msgstr "Susiekite savo Instagram paskyrą"
 
 #: Dredd-v3/cogs/boosters.py:123
 msgid " Add Instagram to your social medias list "
-msgstr ""
+msgstr " Pridekite Instagram į jūsų socialiniu tinklų sąrašą "
 
 #: Dredd-v3/cogs/boosters.py:131 Dredd-v3/cogs/boosters.py:161
 #: Dredd-v3/cogs/boosters.py:191 Dredd-v3/cogs/boosters.py:221
@@ -1764,74 +1764,74 @@ msgstr ""
 #: Dredd-v3/cogs/boosters.py:135
 #, python-brace-format
 msgid "{0} Instagram account limit is 30, you're over 30, you sure it's the correct account name?"
-msgstr ""
+msgstr "{0} Instagram paskyros limitas yra 30, jus viršijate 30, ar jus tikras jog tai yra jusų paskyros pavadinimas?"
 
 #: Dredd-v3/cogs/boosters.py:145
 #, python-brace-format
 msgid "{0} Added Instagram ({1} - <{2}>) to your medias list."
-msgstr ""
+msgstr "{0} Pridėtą Instagram ({1}-<{2}>) į savo socialinių tinklų sąrašą."
 
 #: Dredd-v3/cogs/boosters.py:149
 msgid "Link your Twitch account"
-msgstr ""
+msgstr "Susiekite savo Twitch paskyrą"
 
 #: Dredd-v3/cogs/boosters.py:153
 msgid " Add Twitch to your social medias list "
-msgstr ""
+msgstr " Pridekite Twitch į jūsų socialiniu tinklų sąrašą "
 
 #: Dredd-v3/cogs/boosters.py:165
 #, python-brace-format
 msgid "{0} Twitch account limit is 30, you're over 30, you sure it's the correct account name?"
-msgstr ""
+msgstr "{0} Twitch paskyros limitas yra 30, jus viršijate 30, ar jus tikras jog tai yra jusų paskyros pavadinimas?"
 
 #: Dredd-v3/cogs/boosters.py:175
 #, python-brace-format
 msgid "{0} Added Twitch ({1} - <{2}>) to your medias list."
-msgstr ""
+msgstr "{0} Pridėtą Twitch ({1}-<{2}>) į savo socialinių tinklų sąrašą."
 
 #: Dredd-v3/cogs/boosters.py:179
 msgid "Link your Twitter account"
-msgstr ""
+msgstr "Susiekite savo Twitter paskyrą"
 
 #: Dredd-v3/cogs/boosters.py:183
 msgid " Add Twitter to your social medias list "
-msgstr ""
+msgstr " Pridekite Twitter į jūsų socialiniu tinklų sąrašą "
 
 #: Dredd-v3/cogs/boosters.py:195
 #, python-brace-format
 msgid "{0} Twitter account limit is 30, you're over 30, you sure it's the correct account name?"
-msgstr ""
+msgstr "{0} Twitter paskyros limitas yra 30, jus viršijate 30, ar jus tikras jog tai yra jusų paskyros pavadinimas?"
 
 #: Dredd-v3/cogs/boosters.py:205
 #, python-brace-format
 msgid "{0} Added Twitter ({1} - <{2}>) to your medias list."
-msgstr ""
+msgstr "{0} Pridėtą Twiter ({1}-<{2}>) į savo socialinių tinklų sąrašą."
 
 #: Dredd-v3/cogs/boosters.py:209
 msgid "Link your GitHub account"
-msgstr ""
+msgstr "Susiekite savo GitHub paskyrą"
 
 #: Dredd-v3/cogs/boosters.py:213
 msgid " Add Github to your social medias list "
-msgstr ""
+msgstr " Pridekite GitHub į jūsų socialiniu tinklų sąrašą "
 
 #: Dredd-v3/cogs/boosters.py:225
 #, python-brace-format
 msgid "{0} GitHub account limit is 30, you're over 30, you sure it's the correct account name?"
-msgstr ""
+msgstr "{0} GitHub paskyros limitas yra 30, jus viršijate 30, ar jus tikras jog tai yra jusų paskyros pavadinimas?"
 
 #: Dredd-v3/cogs/boosters.py:235
 #, python-brace-format
 msgid "{0} Added GitHub ({1} - <{2}>) to your medias list."
-msgstr ""
+msgstr "{0} Pridėtą GitHub ({1}-<{2}>) į savo socialinių tinklų sąrašą."
 
 #: Dredd-v3/cogs/boosters.py:239
 msgid "Link your youtube account"
-msgstr ""
+msgstr "Susiekite savo YouTube paskyrą"
 
 #: Dredd-v3/cogs/boosters.py:243
 msgid " Add YouTube to your social medias list "
-msgstr ""
+msgstr " Pridekite YouTube į jūsų socialiniu tinklų sąrašą "
 
 #: Dredd-v3/cogs/boosters.py:251
 #, python-brace-format
