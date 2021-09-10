@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-09-02 19:04\n"
+"PO-Revision-Date: 2021-09-10 19:25\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1632,26 +1632,26 @@ msgstr "{0} He eliminado {1} de la lista blanca de roles."
 
 #: Dredd-v3/cogs/automod.py:708
 msgid "Remove a user from automod's whitelist"
-msgstr ""
+msgstr "Remueve un usuario de la lista blanca de automoderación"
 
 #: Dredd-v3/cogs/automod.py:714
 msgid " Remove a role from automod's & raid mode's whitelist "
-msgstr ""
+msgstr " Remueve un rol de la lista blanca de automoderación y modo invasión "
 
 #: Dredd-v3/cogs/automod.py:723
 #, python-brace-format
 msgid "{0} It looks like there are no users whitelisted in the server."
-msgstr ""
+msgstr "{0} Parece que no hay usuarios en la lista blanca del servidor."
 
 #: Dredd-v3/cogs/automod.py:729
 #, python-brace-format
 msgid "User **{0}** is not in the whitelist."
-msgstr ""
+msgstr "El usuario **{0}** no está en la lista blanca."
 
 #: Dredd-v3/cogs/automod.py:733
 #, python-brace-format
 msgid "{0} Removed {1} from the users whitelist."
-msgstr ""
+msgstr "{0} He eliminado {1} de la lista blanca de usuarios."
 
 #: Dredd-v3/cogs/automod.py:736
 msgid "Remove a channel from automod's whitelist "
@@ -3437,12 +3437,13 @@ msgstr "{0} He activado el registro en {1}."
 
 #: Dredd-v3/cogs/manage.py:476
 msgid "Toggle anti hoist"
-msgstr ""
+msgstr "Alterna anti hoist"
 
 #: Dredd-v3/cogs/manage.py:483
 msgid " Toggle anti hoist (non-alphabetic characters infront of the name, i.e. `! I'm a hoister`)\n"
 "        When toggled on it will dehoist members that have just joined the server or have just edited their nickname "
-msgstr ""
+msgstr " Alterna anti hoist (caracteres no alfabéticos delante del nombre, p.e. `! Soy un hoister`)\n"
+"        Cuando está activado se eliminará ese caracter de los miembros que acaban de unirse al servidor o acaban de editar su apodo "
 
 #: Dredd-v3/cogs/manage.py:489
 #, python-brace-format
@@ -3452,23 +3453,24 @@ msgstr "{0} Los apodos no pueden ser más largos de 32 caracteres, el tuyo está
 #: Dredd-v3/cogs/manage.py:497
 #, python-brace-format
 msgid "{0} Anti hoist was successfully disabled."
-msgstr ""
+msgstr "{0} Anti hoist fue desactivada con éxito."
 
 #: Dredd-v3/cogs/manage.py:501
 #, python-brace-format
 msgid "{0} Successfully updated the anti hoist logging channel to {1} and nickname to {2}."
-msgstr ""
+msgstr "{0} He actualizado con éxito el canal de registro anti hoist a {1} y el apodo a {2}."
 
 #: Dredd-v3/cogs/manage.py:504
 #, python-brace-format
 msgid "{0} Anti hoisting is currently disabled in this server.\n"
 "*Hint: If you want to enable it, you need to provide a channel where logging should be sent to and a new nickname*"
-msgstr ""
+msgstr "{0} Anti hoisting está atualmente desactivado en este servidor.\n"
+"*Pista: Si quieres activar el registro, necesitas proporcionar un canal donde el registro debe ser enviado y un nuevo apodo*"
 
 #: Dredd-v3/cogs/manage.py:509
 #, python-brace-format
 msgid "{0} Enabled anti hoist logging in {1} and set the new nickname to {2}."
-msgstr ""
+msgstr "{0} He activado el registro de anti hoist en {1} y se ha establecido el nuevo apodo a {2}."
 
 #: Dredd-v3/cogs/manage.py:512
 msgid "Edit the welcoming messages"
