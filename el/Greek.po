@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-08-29 13:21\n"
+"PO-Revision-Date: 2021-09-18 22:37\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -473,7 +473,7 @@ msgstr "{0} {1} είναι ενεργοποιημένο το αυστηρό σύ
 
 #: Dredd-v3/cogs/events/automod.py:520
 msgid "It seems like your server is experiencing a *huge* raid, to prevent us from getting api banned we'll be banning raiders in the background and will not be sending any logs in this channel."
-msgstr ""
+msgstr "Φαίνεται ότι το server σας βιώνει μια *τεράστια* επιδρομή - για τεχνικούς λόγους σχετικά με το Api, θα αφαιρούμε τους raiders χωρίς να στέλονται μηνύματα εδώ."
 
 #: Dredd-v3/cogs/events/automod.py:530
 #, python-brace-format
@@ -572,12 +572,12 @@ msgstr "{0} Μου λείπουν {1} δικαιώματα"
 #: Dredd-v3/cogs/events/errors.py:243
 #, python-brace-format
 msgid "{0} | You're on cooldown, try again in **{1}** seconds."
-msgstr ""
+msgstr "{0} - Είστε σε επαναφόρτιση, δοκιμάστε ξανά σε **{1}** δευτερόλεπτο/α."
 
 #: Dredd-v3/cogs/events/errors.py:246
 #, python-brace-format
 msgid "{0} | You're missing an argument - **{1}**"
-msgstr ""
+msgstr "{0} - Λείπει μια παράμετρος - **{1}**"
 
 #: Dredd-v3/cogs/events/errors.py:250
 #, python-brace-format
