@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-08-29 13:21\n"
+"PO-Revision-Date: 2021-09-29 05:35\n"
 "Last-Translator: \n"
 "Language-Team: Hindi\n"
 "Language: hi_IN\n"
@@ -32,7 +32,7 @@ msgstr ""
 
 #: Dredd-v3/utils/btime.py:163
 msgid "Time Error! try \"in an hour\" or \"5 days\"."
-msgstr ""
+msgstr "समय का एरर/त्रुटि! एक घंटे या पांच दिनो के बाद फिरसे प्रयास करे"
 
 #: Dredd-v3/utils/btime.py:173
 msgid "Expected quote before time input..."
@@ -76,7 +76,7 @@ msgstr ""
 
 #: Dredd-v3/utils/checks.py:238
 msgid "Dredd is under the maintenance!"
-msgstr ""
+msgstr "ड्रेड रखरखाव/देखभाल के अधीन है!"
 
 #: Dredd-v3/utils/checks.py:274
 #, python-brace-format
@@ -176,7 +176,7 @@ msgstr ""
 
 #: Dredd-v3/utils/default.py:198
 msgid "Dredd's Partner"
-msgstr ""
+msgstr "ड्रेड के पार्टनर"
 
 #: Dredd-v3/utils/default.py:199
 msgid "Dredd Bug Hunter"
