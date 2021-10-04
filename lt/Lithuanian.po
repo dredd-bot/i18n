@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-09-10 19:25\n"
+"PO-Revision-Date: 2021-10-04 05:46\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -473,7 +473,7 @@ msgstr "{0} {1} turi aktyvuotą griežtą anti užpuolimo režimą, prašau pris
 
 #: Dredd-v3/cogs/events/automod.py:520
 msgid "It seems like your server is experiencing a *huge* raid, to prevent us from getting api banned we'll be banning raiders in the background and will not be sending any logs in this channel."
-msgstr ""
+msgstr "Atrodo, kad jūsų serveris patiria *didžiulį* reidą, kad išvengtume būti api blokuoti, mes blokuosime reiderius fone ir nesiųsime jokių įrašų šitame kanale."
 
 #: Dredd-v3/cogs/events/automod.py:530
 #, python-brace-format
@@ -1172,7 +1172,8 @@ msgstr ""
 #: Dredd-v3/cogs/manage.py:693
 #, python-brace-format
 msgid "{0} I'm missing permissions in that channel. Make sure you have given me the correct permissions!"
-msgstr ""
+msgstr "{0} Man trūksta leidimų tame kanale.\n"
+"Įsitikinkite, kad davėte man teisingus leidimus!"
 
 #: Dredd-v3/cogs/automod.py:123 Dredd-v3/cogs/automod.py:142
 #, python-brace-format
@@ -1216,7 +1217,7 @@ msgstr "griežtas"
 #: Dredd-v3/cogs/automod.py:198
 #, python-brace-format
 msgid "{0} Successfully set the automod value to **{1}**"
-msgstr ""
+msgstr "{0} Sėkmingai nustačiau auto moderacijos vertę į **{1}**"
 
 #: Dredd-v3/cogs/automod.py:200
 msgid "Toggle anti links on or off"
