@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-10-09 12:08\n"
+"PO-Revision-Date: 2021-10-09 13:07\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -1234,40 +1234,40 @@ msgstr "{0} Sėkmingai išjungtos anti nuorodos"
 
 #: Dredd-v3/cogs/automod.py:225
 msgid "Anti link is already disabled in this server."
-msgstr ""
+msgstr "Anti nuorodos jau yra išjungtos šitame serveryje."
 
 #: Dredd-v3/cogs/automod.py:228
 #, python-brace-format
 msgid "{0} Successfully set anti links punishment type to **{1}** members.{2}"
-msgstr ""
+msgstr "{0} Sėkmingai nustatytas anti nuorodų bausmės tipas į **{1}** members.{2}"
 
 #: Dredd-v3/cogs/automod.py:229 Dredd-v3/cogs/automod.py:261
 #: Dredd-v3/cogs/automod.py:300 Dredd-v3/cogs/automod.py:339
 #: Dredd-v3/cogs/automod.py:372
 msgid " They will be muted/banned for 12 hours by default."
-msgstr ""
+msgstr " Jie bus nutildyti/užblokuoti 12 valandų pagal numatytą laiką."
 
 #: Dredd-v3/cogs/automod.py:232
 msgid "Toggle anti invites on or off"
-msgstr ""
+msgstr "Įjungti arba išjungti anti kvietimus"
 
 #: Dredd-v3/cogs/automod.py:238
 msgid " Toggle anti invites on or off "
-msgstr ""
+msgstr " Įjungti arba išjungti anti kvietimus "
 
 #: Dredd-v3/cogs/automod.py:255
 #, python-brace-format
 msgid "{0} Successfuly disabled anti invites in this server"
-msgstr ""
+msgstr "{0} Sėkmingai išjungti anti kvietimai"
 
 #: Dredd-v3/cogs/automod.py:257
 msgid "Anti invite is already disabled in this server."
-msgstr ""
+msgstr "Anti kvietimai yra jau išjungti šitame serveryje."
 
 #: Dredd-v3/cogs/automod.py:260
 #, python-brace-format
 msgid "{0} Successfully set anti invites punishment type to **{1}** members.{2}"
-msgstr ""
+msgstr "{0} Sėkmingai nustatytas anti kvietimų bausmės tipas į **{1}** members.{2}"
 
 #: Dredd-v3/cogs/automod.py:265
 msgid "Toggle anti mass mention on or off"
@@ -1284,7 +1284,7 @@ msgstr "Paminėjimų limitas turi būti tarp 2 ir 15"
 #: Dredd-v3/cogs/automod.py:294
 #, python-brace-format
 msgid "{0} Successfuly disabled anti mass mention in this server"
-msgstr ""
+msgstr "{0} Sėkmingai išjungti anti masiniai paminėjimai"
 
 #: Dredd-v3/cogs/automod.py:296
 msgid "Anti mass mentions are already disabled in this server."
