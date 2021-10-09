@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-10-04 05:46\n"
+"PO-Revision-Date: 2021-10-09 12:08\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -1156,11 +1156,11 @@ msgstr "{0} Auto moderavimo nustatymai"
 
 #: Dredd-v3/cogs/automod.py:107
 msgid "Toggle automod on or off"
-msgstr ""
+msgstr "Įjungti arba išjungti auto moderacija"
 
 #: Dredd-v3/cogs/automod.py:113
 msgid " Toggle automod on or off "
-msgstr ""
+msgstr " Įjungti arba išjungti auto moderacija "
 
 #: Dredd-v3/cogs/automod.py:119 Dredd-v3/cogs/automod.py:138
 #: Dredd-v3/cogs/automod.py:455 Dredd-v3/cogs/automod.py:482
@@ -1221,16 +1221,16 @@ msgstr "{0} Sėkmingai nustačiau auto moderacijos vertę į **{1}**"
 
 #: Dredd-v3/cogs/automod.py:200
 msgid "Toggle anti links on or off"
-msgstr ""
+msgstr "Įjungti arba išjungti anti nuorodas"
 
 #: Dredd-v3/cogs/automod.py:206
 msgid " Toggle anti links on or off "
-msgstr ""
+msgstr " Įjungti arba išjungti anti nuorodas "
 
 #: Dredd-v3/cogs/automod.py:223
 #, python-brace-format
 msgid "{0} Successfuly disabled anti link in this server"
-msgstr ""
+msgstr "{0} Sėkmingai išjungtos anti nuorodos"
 
 #: Dredd-v3/cogs/automod.py:225
 msgid "Anti link is already disabled in this server."
