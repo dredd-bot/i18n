@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-10-19 17:36\n"
+"PO-Revision-Date: 2021-10-19 18:31\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2235,7 +2235,7 @@ msgid "\n"
 msgstr "\n"
 "¡Dredd es un bot que ayudará a tu servidor con moderación, divertir a tus miembros, y mucho más! El bot se está ejecutando en la **V{0}** y actualmente está mantenido.\n\n"
 "**Desarrollador:** [{1}](https://discord.com/users/345457928972533773)\n"
-"**Biblioteca y versión:** {2} [discord.py {3}§mejorada] (https://github.com/iDutchy/discord.py)\n"
+"**Biblioteca y versión:** {2} [discord.py {3}§mejorada](https://github.com/iDutchy/discord.py)\n"
 "**Último inicio:** {4}\n"
 "**Creado:** {5} ({6})\n\n"
 "**Enlaces:**\n"
@@ -2807,7 +2807,7 @@ msgstr "Lista de todos los comandos desactivados"
 
 #: Dredd-v3/cogs/info.py:644
 msgid "The following commands can only be run by bot staff"
-msgstr "Los siguientes comandos sólo pueden ser ejecutados por el personal del bot"
+msgstr "Los siguientes comandos sólo pueden ser ejecutados por el staff del bot"
 
 #: Dredd-v3/cogs/info.py:646
 msgid "**Globally disabled commands:**"
@@ -2837,7 +2837,7 @@ msgstr "{0} ¡Este servidor no tiene emotes!"
 #: Dredd-v3/cogs/info.py:670
 #, python-brace-format
 msgid "{0} emotes list"
-msgstr "{0} Lista de emotes"
+msgstr "{0} lista de emotes"
 
 #: Dredd-v3/cogs/info.py:679
 msgid "A list of bot's partners"
@@ -2966,8 +2966,8 @@ msgstr "Miembro(s) más reciente(s) en este servidor:"
 #, python-brace-format
 msgid "**Joined Server at** {0}\n"
 "**Account created at** {1}"
-msgstr "**Se unió al servidor el** {0}\n"
-"**Cuenta creada el** {1}"
+msgstr "**Se unió al servidor** {0}\n"
+"**Cuenta creada** {1}"
 
 #: Dredd-v3/cogs/info.py:836
 msgid "The limit is set to 10"
@@ -3044,7 +3044,7 @@ msgstr " Cambia mi prefijo en el servidor "
 #: Dredd-v3/cogs/manage.py:70
 #, python-brace-format
 msgid "{0} A prefix can only be 7 characters long! You're {1} characters over."
-msgstr "{0} Un prefijo no puede tener más de 7 caracteres! El tuyo tiene {1} caracteres."
+msgstr "{0} Un prefijo no puede tener más de 7 caracteres! El tuyo tiene {1} caracteres de más."
 
 #: Dredd-v3/cogs/manage.py:76
 #, python-brace-format
@@ -3084,7 +3084,7 @@ msgstr "Por defecto"
 #: Dredd-v3/cogs/manage.py:113
 #, python-brace-format
 msgid "{0} {1} Server Settings"
-msgstr "{0} {1} Configuración del servidor"
+msgstr "{0} Configuración del servidor {1}"
 
 #: Dredd-v3/cogs/manage.py:114
 msgid "**Logs:**"
@@ -3108,8 +3108,8 @@ msgid "**Mute role:** {0}\n"
 msgstr "**Role de silenciado:** {0}\n"
 "**Prefijo:** `{1}`\n"
 "**Idioma:** {2}\n"
-"**Role de Moderador:** {3}\n"
-"**Role de Administrador:** {4}"
+"**Rol de Moderador:** {3}\n"
+"**Rol de Administrador:** {4}"
 
 #: Dredd-v3/cogs/manage.py:121
 msgid "Not found"
