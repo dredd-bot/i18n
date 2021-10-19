@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-10-19 13:05\n"
+"PO-Revision-Date: 2021-10-19 14:20\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -6335,7 +6335,7 @@ msgstr "{0} Un administrador o DJ ha detenido el reproductor."
 #: Dredd-v3/cogs/music.py:570
 #, python-brace-format
 msgid "{0} Vote to pause passed. Pausing the player."
-msgstr ""
+msgstr "{0} Ha pasado el tiempo para votar pausar. Pausando el reproductor."
 
 #: Dredd-v3/cogs/music.py:574
 #, python-brace-format
@@ -6358,7 +6358,7 @@ msgstr "{0} Un administrador o DJ ha reanudado el reproductor."
 #: Dredd-v3/cogs/music.py:593
 #, python-brace-format
 msgid "{0} Vote to resume passed. Resuming the player."
-msgstr ""
+msgstr "{0} Ha pasado el tiempo para votar reanudar. Reanudando el reproductor."
 
 #: Dredd-v3/cogs/music.py:597
 #, python-brace-format
@@ -6367,30 +6367,30 @@ msgstr "**{0}** ha votado para reanudar el reproductor, se necesitan {1} votos m
 
 #: Dredd-v3/cogs/music.py:599
 msgid "Skip the currently playing song."
-msgstr ""
+msgstr "Salta la canción actualmente reproduciendo."
 
 #: Dredd-v3/cogs/music.py:605
 msgid " Skip the currently playing song. "
-msgstr ""
+msgstr " Salta la canción actualmente reproduciendo. "
 
 #: Dredd-v3/cogs/music.py:610
 #, python-brace-format
 msgid "{0} There's nothing to skip to, the queue is empty.."
-msgstr ""
+msgstr "{0} No hay nada que saltar, la cola está vacía.."
 
 #: Dredd-v3/cogs/music.py:613
 #, python-brace-format
 msgid "{0} An admin or DJ has skipped the song."
-msgstr ""
+msgstr "{0} Un administrador o DJ ha saltado la canción."
 
 #: Dredd-v3/cogs/music.py:617
 msgid "The song requester has skipped the song."
-msgstr ""
+msgstr "El solicitante de la canción ha saltado la canción."
 
 #: Dredd-v3/cogs/music.py:624
 #, python-brace-format
 msgid "{0} Vote to skip passed. Skipping the song."
-msgstr ""
+msgstr "{0} Ha pasado el tiempo para votar saltar. Saltando la canción."
 
 #: Dredd-v3/cogs/music.py:628
 #, python-brace-format
@@ -6399,16 +6399,16 @@ msgstr "**{0}** ha votado para saltar la canción actual, se necesitan {1} votos
 
 #: Dredd-v3/cogs/music.py:630
 msgid "Disconnect the player and controller"
-msgstr ""
+msgstr "Desconecta el reproductor y el controlador"
 
 #: Dredd-v3/cogs/music.py:636
 msgid " Stop and disconnect the player and controller. "
-msgstr ""
+msgstr " Desconecta el reproductor y el controlador. "
 
 #: Dredd-v3/cogs/music.py:646
 #, python-brace-format
 msgid "{0} Vote to stop passed. Stopping the player."
-msgstr ""
+msgstr "{0} Ha pasado el tiempo para votar detener. Deteniendo el reproductor."
 
 #: Dredd-v3/cogs/music.py:650
 #, python-brace-format
@@ -6439,23 +6439,23 @@ msgstr ""
 #: Dredd-v3/cogs/music.py:681 Dredd-v3/cogs/music.py:904
 #, python-brace-format
 msgid "{0} Can't do that on a stream."
-msgstr ""
+msgstr "{0} No se puede hacer eso en una transmisión."
 
 #. past the end
 #: Dredd-v3/cogs/music.py:690 Dredd-v3/cogs/music.py:710
 #, python-brace-format
 msgid "{0} You can't seek past the song."
-msgstr ""
+msgstr "{0} No puedes buscar más allá de la canción."
 
 #: Dredd-v3/cogs/music.py:694
 #, python-brace-format
 msgid "{0} Time format doesn't seem to be correct, make sure it's `x:xx:xx` for hours, `x:xx` for minutes and `xx` for seconds."
-msgstr ""
+msgstr "{0} El formato de tiempo no parece ser correcto, asegúrate de que es `x:xx:xx` para horas, `x:xx` para minutos y `xx` para segundos."
 
 #: Dredd-v3/cogs/music.py:702
 #, python-brace-format
 msgid "{0} The time you've provided contains letters, please make sure you only use numbers"
-msgstr ""
+msgstr "{0} El tiempo que proporcionaste contiene letras, por favor asegúrate de que solo uses números"
 
 #: Dredd-v3/cogs/music.py:713
 #, python-brace-format
@@ -6464,25 +6464,25 @@ msgstr ""
 
 #: Dredd-v3/cogs/music.py:715
 msgid "Shuffle the queue"
-msgstr ""
+msgstr "Reproduce aleatoriamente la cola de reproducción"
 
 #: Dredd-v3/cogs/music.py:721
 msgid "Shuffle the queue."
-msgstr ""
+msgstr "Reproduce aleatoriamente la cola de reproducción."
 
 #: Dredd-v3/cogs/music.py:726
 msgid "Add more songs to the queue before shuffling."
-msgstr ""
+msgstr "Añade más canciones a la cola antes de hacer la reproducción aleatoria."
 
 #: Dredd-v3/cogs/music.py:729
 #, python-brace-format
 msgid "{0} An admin or DJ has shuffled the player."
-msgstr ""
+msgstr "{0} Un administrador o DJ ha hecho reproducción aleatoria del reproductor."
 
 #: Dredd-v3/cogs/music.py:737
 #, python-brace-format
 msgid "{0} Vote to shuffle passed. Shuffling the playlist."
-msgstr ""
+msgstr "{0} Ha pasado el tiempo para votar reproducción aleatoria. Haciendo reproducción aleatoria de la lista de reproducción."
 
 #: Dredd-v3/cogs/music.py:741
 #, python-brace-format
