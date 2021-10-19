@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-10-19 16:26\n"
+"PO-Revision-Date: 2021-10-19 17:36\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -299,11 +299,11 @@ msgstr "expulsar"
 
 #: Dredd-v3/utils/default.py:532 Dredd-v3/cogs/moderation.py:1969
 msgid "ban"
-msgstr "ban"
+msgstr "banear"
 
 #: Dredd-v3/utils/default.py:533
 msgid "temp-ban"
-msgstr "temp-ban"
+msgstr "banear temporalmente"
 
 #: Dredd-v3/utils/default.py:549
 msgid "I was not able to find this playlist! Please try again or use a different link."
@@ -1026,7 +1026,7 @@ msgstr "{0} {1} Miembro(s) silenciado(s) en canal de voz"
 #: Dredd-v3/cogs/events/logs.py:962
 #, python-brace-format
 msgid "{0} {1} Member(s) dehoisted"
-msgstr ""
+msgstr "{0} {1} Miembro(s) dehoisted"
 
 #: Dredd-v3/cogs/events/logs.py:963
 #, python-brace-format
@@ -1289,7 +1289,7 @@ msgstr " Cambia anti mención masiva a encendido I apagado y estable el límite 
 
 #: Dredd-v3/cogs/automod.py:282
 msgid "Mentions limit must be between 2 and 15"
-msgstr "El límite de menciones debe estar entre 1 y 15"
+msgstr "El límite de menciones debe estar entre 2 y 15"
 
 #: Dredd-v3/cogs/automod.py:294
 #, python-brace-format
@@ -1303,7 +1303,7 @@ msgstr "Anti mención masiva ya está desactivado en este servidor."
 #: Dredd-v3/cogs/automod.py:299
 #, python-brace-format
 msgid "{0} Successfully set anti mass mentions punishment type to **{1}** members. Mentions limit - `{2}`.{3}"
-msgstr "{0} He establecido con éxito el tipo de castigo de la mención masiva a **{1} miembros. Límite de menciones - `{2}`.{3}"
+msgstr "{0} He establecido con éxito el tipo de castigo de la mención masiva a **{1}** miembros. Límite de menciones - `{2}`.{3}"
 
 #: Dredd-v3/cogs/automod.py:304
 msgid "Toggle anti mass caps on or off"
@@ -1329,7 +1329,7 @@ msgstr "Anti mayúsculas masivas ya está desactivado en este servidor."
 #: Dredd-v3/cogs/automod.py:338
 #, python-brace-format
 msgid "{0} Successfully set anti mass caps punishment type to **{1}** members. Percentage set to - `{2}`.{3}"
-msgstr "{0} He establecido con éxito el tipo de castigo de las mayúsculas masivas a **{1} miembros. Porcentaje establecido a - `{2}`.{3}"
+msgstr "{0} He establecido con éxito el tipo de castigo de las mayúsculas masivas a **{1}** miembros. Porcentaje establecido a - `{2}`.{3}"
 
 #: Dredd-v3/cogs/automod.py:343
 msgid "Toggle anti spam on or off"
@@ -2437,11 +2437,11 @@ msgstr "**Miembros:** (Total: {0})\n"
 
 #: Dredd-v3/cogs/info.py:304
 msgid "Animated Icon"
-msgstr "Ícono Animado"
+msgstr "Icono Animado"
 
 #: Dredd-v3/cogs/info.py:305
 msgid "Banner"
-msgstr "Banner"
+msgstr "Cartel"
 
 #: Dredd-v3/cogs/info.py:306
 msgid "Commerce"
@@ -2523,7 +2523,7 @@ msgstr " Líneas de código python utilizadas para hacer el bot "
 #, python-brace-format
 msgid "{0} I am made up of **{1}** files and **{2}** lines of code.\n"
 "You can look at my source here: https://github.com/TheMoksej/Dredd"
-msgstr "{0} Estoy formado de**{1}** archivos ** y **{2}** líneas de código **\n"
+msgstr "{0} Estoy formado de**{1}** archivos y **{2}** líneas de código.\n"
 "Puedes ver mi fuente aquí: https://github.com/TheMoksej/Dredd"
 
 #: Dredd-v3/cogs/info.py:361
@@ -3010,16 +3010,16 @@ msgstr " Documentación de python "
 
 #: Dredd-v3/cogs/manage.py:38
 msgid "Manage bot's prefix in the server"
-msgstr "Administra el prefijo del bot en el servidor"
+msgstr "Gestiona el prefijo del bot en el servidor"
 
 #: Dredd-v3/cogs/manage.py:44
 msgid " View and manage your server's prefix "
-msgstr " Mira y administra el prefijo de tu servidor "
+msgstr " Mira y gestiona el prefijo de tu servidor "
 
 #: Dredd-v3/cogs/manage.py:49
 #, python-brace-format
 msgid "If you want to change my prefix you can do so by invoking `{0}prefix set <new prefix>`"
-msgstr "Si quieres cambiar mi prefijo puedes hacerlo invocando `{0}prefix set <new prefix>`"
+msgstr "Si quieres cambiar mi prefijo puedes hacerlo invocando `{0}prefix set <nuevo prefijo>`"
 
 #: Dredd-v3/cogs/manage.py:50
 #, python-brace-format
@@ -4743,7 +4743,7 @@ msgstr " Alterna tu registro de mensajes eliminados\n"
 
 #: Dredd-v3/cogs/misc.py:507
 msgid "Are you sure you want to opt-out? Once you'll do that, I won't log your deleted messages in my snipe command."
-msgstr ""
+msgstr "¿Estás seguro de que quieres excluir? Una vez que lo hagas, no registraré tus mensajes borrados en mi comando snipe que registra mensajes."
 
 #: Dredd-v3/cogs/misc.py:515
 #, python-brace-format
@@ -4757,11 +4757,11 @@ msgstr "¡Oh dulce! Continuaré registrando tus menajes eliminados obtenidos."
 #: Dredd-v3/cogs/misc.py:538
 #, python-brace-format
 msgid "{0} You're now opted-in! From now on, I'll be logging your deleted messages in my snipe command!"
-msgstr ""
+msgstr "{0} ¡Ahora estás optando! ¡A partir de ahora, registraré tus mensajes borrados en mi comando snipe que registra mensajes!"
 
 #: Dredd-v3/cogs/misc.py:545
 msgid "Alright, not opting you in."
-msgstr ""
+msgstr "Muy bien, no te optaré."
 
 #: Dredd-v3/cogs/misc.py:553
 msgid "Toggle your nicknames logging"
@@ -4775,7 +4775,7 @@ msgstr " Alterna tu registro de apodos\n"
 
 #: Dredd-v3/cogs/misc.py:566
 msgid "Are you sure you want to opt-out? Once you'll do that, I won't be logging nickname changes from you in this server."
-msgstr ""
+msgstr "¿Estás seguro de que quieres salir? Una vez que lo hagas, no estaré registrando tus cambios de nombre de usuario en este servidor."
 
 #: Dredd-v3/cogs/misc.py:575
 #, python-brace-format
@@ -4788,16 +4788,16 @@ msgstr "¡Oh dulce! Continuaré registrando tus apodos"
 
 #: Dredd-v3/cogs/misc.py:590
 msgid "Are you sure you want to opt-in? Once you'll do that I'll start logging your nicknames again."
-msgstr ""
+msgstr "¿Estás seguro de que quieres optar? Una vez que lo hagas, empezaré a registrar tus apodos de nuevo."
 
 #: Dredd-v3/cogs/misc.py:598
 #, python-brace-format
 msgid "{0} You're now opted-in! I'll be logging your nicknames from now on in this server!"
-msgstr ""
+msgstr "{0} ¡Ahora estás optando! ¡Registraré tus apodos a partir de ahora en este servidor!"
 
 #: Dredd-v3/cogs/misc.py:603
 msgid "Alright. Not opting you in"
-msgstr ""
+msgstr "Muy bien. No te optaré"
 
 #: Dredd-v3/cogs/misc.py:611
 msgid "Create a poll"
@@ -4897,7 +4897,8 @@ msgstr "{0} No tienes recordatorios."
 #, python-brace-format
 msgid "`[{0}]` Reminding **{1}**\n"
 "{2}\n"
-msgstr ""
+msgstr "`[{0}]` Recordándote **{1}**\n"
+"{2}\n"
 
 #: Dredd-v3/cogs/misc.py:722
 #, python-brace-format
@@ -6185,7 +6186,7 @@ msgstr "**Ahora reproduciendo:** {0}\n"
 "**Bucle:** {5}\n"
 "**En camino:** {6} `(+{7})`\n"
 "**Filtro:**\n"
-"{8}╠ **Pitch:** `{9}x`\n"
+"{8}╠ **Tono:** `{9}x`\n"
 "{8}╚ **Velocidad:** `{10}x`"
 
 #: Dredd-v3/cogs/music.py:170
@@ -6274,7 +6275,7 @@ msgstr "{0} Se ha producido un error desconocido - {1}"
 
 #: Dredd-v3/cogs/music.py:491
 msgid "Enqueue the radio station"
-msgstr ""
+msgstr "Pon en cola la estación de rado"
 
 #: Dredd-v3/cogs/music.py:497
 msgid " Plays the selected radio station, if you have suggestions for radio stations, feel free to suggest them in the support server"
@@ -6430,11 +6431,11 @@ msgstr "Configurando el volumen del reproductor a **{0}%**"
 
 #: Dredd-v3/cogs/music.py:671
 msgid "Seek the currently playing song"
-msgstr ""
+msgstr "Busca la canción actual en reproducción"
 
 #: Dredd-v3/cogs/music.py:677
 msgid " Seek the currently playing song "
-msgstr ""
+msgstr " Busca la canción actual en reproducción "
 
 #: Dredd-v3/cogs/music.py:681 Dredd-v3/cogs/music.py:904
 #, python-brace-format
@@ -6460,15 +6461,15 @@ msgstr "{0} El tiempo que proporcionaste contiene letras, por favor asegúrate d
 #: Dredd-v3/cogs/music.py:713
 #, python-brace-format
 msgid "{0} Seeked the current song to `{1}/{2}`"
-msgstr ""
+msgstr "{0} Busqué la canción actual en `{1}/{2}`"
 
 #: Dredd-v3/cogs/music.py:715
 msgid "Shuffle the queue"
-msgstr "Reproduce aleatoriamente la cola de reproducción"
+msgstr "Baraja la cola"
 
 #: Dredd-v3/cogs/music.py:721
 msgid "Shuffle the queue."
-msgstr "Reproduce aleatoriamente la cola de reproducción."
+msgstr "Baraja la cola."
 
 #: Dredd-v3/cogs/music.py:726
 msgid "Add more songs to the queue before shuffling."
@@ -6477,34 +6478,34 @@ msgstr "Añade más canciones a la cola antes de hacer la reproducción aleatori
 #: Dredd-v3/cogs/music.py:729
 #, python-brace-format
 msgid "{0} An admin or DJ has shuffled the player."
-msgstr "{0} Un administrador o DJ ha hecho reproducción aleatoria del reproductor."
+msgstr "{0} Un administrador o DJ ha barajado el reproductor."
 
 #: Dredd-v3/cogs/music.py:737
 #, python-brace-format
 msgid "{0} Vote to shuffle passed. Shuffling the playlist."
-msgstr "{0} Ha pasado el tiempo para votar reproducción aleatoria. Haciendo reproducción aleatoria de la lista de reproducción."
+msgstr "{0} Ha pasado el tiempo para votar bajarar. Mezclando la lista de reproducción."
 
 #: Dredd-v3/cogs/music.py:741
 #, python-brace-format
 msgid "**{0}** has voted to shuffle the playlist, {1} more votes are needed to shuffle."
-msgstr ""
+msgstr "**{0}** ha votado para barajar el reproductor, se necesitan {1} votos más para barajar."
 
 #: Dredd-v3/cogs/music.py:743
 msgid "See the player's Queue"
-msgstr ""
+msgstr "Mira la cola del reproductor"
 
 #: Dredd-v3/cogs/music.py:749
 msgid " Retrieve information on the next songs in the queue. "
-msgstr ""
+msgstr " Recupera información de las siguientes canciones en cola. "
 
 #: Dredd-v3/cogs/music.py:753
 msgid "There are no songs currently in the queue."
-msgstr ""
+msgstr "No hay canciones en la cola."
 
 #: Dredd-v3/cogs/music.py:765
 #, python-brace-format
 msgid "Total songs in the queue: {0} | Duration: {1}"
-msgstr ""
+msgstr "Total de canciones en cola: {0} | Duración: {1}"
 
 #: Dredd-v3/cogs/music.py:767
 #, python-brace-format
@@ -6540,11 +6541,11 @@ msgstr "{0} He eliminado la canción {1} de la cola, ahora quedan {2} canciones 
 
 #: Dredd-v3/cogs/music.py:804
 msgid "Clear all the songs from the queue"
-msgstr ""
+msgstr "Borra todas las canciones de la cola"
 
 #: Dredd-v3/cogs/music.py:811
 msgid " Clear all the songs from the queue "
-msgstr ""
+msgstr " Borra todas las canciones de la cola "
 
 #: Dredd-v3/cogs/music.py:821
 #, python-brace-format
@@ -6562,40 +6563,40 @@ msgstr "{0} He eliminado con éxito {1} canciones de la cola."
 
 #: Dredd-v3/cogs/music.py:842
 msgid "See currently playing song"
-msgstr ""
+msgstr "Mira la canción que se está reproduciendo"
 
 #: Dredd-v3/cogs/music.py:848
 msgid " Retrieve currently playing song. "
-msgstr ""
+msgstr " Recupera la canción que se está reproduciendo. "
 
 #: Dredd-v3/cogs/music.py:863
 msgid "Manage the player's filter"
-msgstr ""
+msgstr "Gestiona el filtro del reproductor"
 
 #: Dredd-v3/cogs/music.py:868
 msgid " Base command for managing player's filter "
-msgstr ""
+msgstr " Comando base para gestionar el filtro del reproductor "
 
 #: Dredd-v3/cogs/music.py:871
 msgid "Change the pitch of the song"
-msgstr ""
+msgstr "Cambia el tono de la canción"
 
 #: Dredd-v3/cogs/music.py:877
 msgid " Modify the players pitch. "
-msgstr ""
+msgstr " Modifica el tono del reproductor. "
 
 #: Dredd-v3/cogs/music.py:881 Dredd-v3/cogs/music.py:901
 msgid "The value you provided is invalid and will crash the player."
-msgstr ""
+msgstr "El valor proporcionado no es válido y bloqueará al reproductor."
 
 #: Dredd-v3/cogs/music.py:886 Dredd-v3/cogs/music.py:909
 msgid "The value you provided can't be negative or above 2.0"
-msgstr ""
+msgstr "El valor proporcionado no puede ser negativo o superior a 2.0"
 
 #: Dredd-v3/cogs/music.py:888
 #, python-brace-format
 msgid "{0} Changed the pitch to **{1}x**, give up to 10 seconds for player to take effect"
-msgstr ""
+msgstr "{0} He cambiado el tono a **{1}x**, deja hasta 10 segundos para que el reproductor surta efecto"
 
 #: Dredd-v3/cogs/music.py:890
 msgid "Change the speed of the song"
@@ -6621,25 +6622,25 @@ msgstr " Restablece el tono y la velocidad del reproductor "
 #: Dredd-v3/cogs/music.py:925
 #, python-brace-format
 msgid "{0} Reset the players filter, give up to 10 seconds for player to take effect."
-msgstr ""
+msgstr "{0} Restablece el filtro de reproductores, deja hasta 10 segundos para que el reproductor surta efecto."
 
 #: Dredd-v3/cogs/music.py:927
 msgid "Switch the player's loop"
-msgstr ""
+msgstr "Cambia el blucle de los reproductores"
 
 #: Dredd-v3/cogs/music.py:933
 msgid " Switch the players loop "
-msgstr ""
+msgstr " Cambia el blucle de los reproductores "
 
 #: Dredd-v3/cogs/music.py:943
 #, python-brace-format
 msgid "**{0}** has voted to loop the player, {1} more votes are needed to loop."
-msgstr ""
+msgstr "**{0}** ha votado para hacer bucle del reproductor, se necesitan {1} votos más para hacer bucle."
 
 #: Dredd-v3/cogs/music.py:947
 #, python-brace-format
 msgid "{0} Now looping **{1}**"
-msgstr ""
+msgstr "{0} Ahora haciendo bucle de **{1}**"
 
 #: Dredd-v3/cogs/music.py:951
 #, python-brace-format
