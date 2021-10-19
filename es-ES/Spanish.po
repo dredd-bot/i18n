@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-10-19 19:51\n"
+"PO-Revision-Date: 2021-10-19 22:40\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3044,7 +3044,7 @@ msgstr " Cambia mi prefijo en el servidor "
 #: Dredd-v3/cogs/manage.py:70
 #, python-brace-format
 msgid "{0} A prefix can only be 7 characters long! You're {1} characters over."
-msgstr "{0} Un prefijo no puede tener más de 7 caracteres! El tuyo tiene {1} caracteres de más."
+msgstr "{0} ¡Un prefijo no puede tener más de 7 caracteres! El tuyo tiene {1} caracteres de más."
 
 #: Dredd-v3/cogs/manage.py:76
 #, python-brace-format
@@ -3192,7 +3192,7 @@ msgstr " Comando base para gestionar el registro en el servidor "
 
 #: Dredd-v3/cogs/manage.py:201
 msgid "Toggle member logging in the server"
-msgstr "Cambia el registro de miembros en el servidor"
+msgstr "Alterna el registro de miembros en el servidor"
 
 #: Dredd-v3/cogs/manage.py:208
 msgid " This enables or disables member logging.\n"
@@ -3215,7 +3215,7 @@ msgstr "{0} He cambiado el canal de registro de miembros. Ahora enviaré las act
 msgid "{0} You don't have member logs enabled in this server.\n"
 "*Hint: If you want to enable logging, you need to provide a channel where logging should be sent to*"
 msgstr "{0} No tienes el registro de miembros activado en este servidor.\n"
-"*Pista: Si quieres habilitar el registro, necesitas proporcionar un canal en donde el registro debe ser enviado*"
+"*Pista: Si quieres activar el registro, necesitas proporcionar un canal en donde el registro debe ser enviado*"
 
 #: Dredd-v3/cogs/manage.py:231
 #, python-brace-format
@@ -3247,7 +3247,7 @@ msgstr "{0} He cambiado el nuevo canal de registro de miembros con éxito. Ahora
 msgid "{0} You don't have new member logs enabled in this server.\n"
 "*Hint: If you want to enable logging, you need to provide a channel where logging should be sent to*"
 msgstr "{0} No tienes el registro de nuevos miembros activado en este servidor.\n"
-"*Pista: Si quieres activado el registro, necesitas proporcionar un canal en donde el registro debe ser enviado*"
+"*Pista: Si quieres activar el registro, necesitas proporcionar un canal en donde el registro debe ser enviado*"
 
 #: Dredd-v3/cogs/manage.py:267
 #, python-brace-format
@@ -3267,18 +3267,18 @@ msgstr " Esto activa o desactiva el registro de salidas de miembros.\n"
 #: Dredd-v3/cogs/manage.py:288
 #, python-brace-format
 msgid "{0} Successfully disabled leave member logs."
-msgstr "{0} He desactivado correctamente el registro de salidas se miembros."
+msgstr "{0} He desactivado correctamente el registro de salidas de miembros."
 
 #: Dredd-v3/cogs/manage.py:293
 #, python-brace-format
 msgid "{0} Successfully changed the leave member logging channel. I will now send member updates in {1}."
-msgstr "{0} He cambiado el canal de registro se las salidas de miembros. Ahora enviaré las actualizaciones de miembros en {1}."
+msgstr "{0} He cambiado el canal de registro de las salidas de miembros. Ahora enviaré las actualizaciones de miembros en {1}."
 
 #: Dredd-v3/cogs/manage.py:296
 #, python-brace-format
 msgid "{0} You don't have leave member logs enabled in this server.\n"
 "*Hint: If you want to enable logging, you need to provide a channel where logging should be sent to*"
-msgstr "{0} No tienes el registro de nuevos miembros activado en este servidor.\n"
+msgstr "{0} No tienes el registro de salidas de miembros activado en este servidor.\n"
 "*Pista: Si quieres activar el registro, necesitas proporcionar un canal en donde el registro debe ser enviado*"
 
 #: Dredd-v3/cogs/manage.py:302
@@ -3288,13 +3288,13 @@ msgstr "{0} He cambiado correctamente el canal de registro de salidas de miembro
 
 #: Dredd-v3/cogs/manage.py:305
 msgid "Toggle guild logs in the server"
-msgstr "Alternar los registros del servidor de Discord en en el servidor"
+msgstr "Alternar los registros del servidor de Discord en el servidor"
 
 #: Dredd-v3/cogs/manage.py:312
 msgid " This enables or disables guild changes logging.\n"
 "        Guild changes logging includes: name, region, icon, afk channel, mfa level, verification level, default notifications. "
 msgstr " Esto activa o desactiva el registro de cambios en el servidor de Discord.\n"
-"        Cambios en el servidor de Discord incluye: nombre, región, ícono, canal de afk, nivel de mfa, nivel de verificación, notificaciones predeterminadas. "
+"        Cambios en el servidor de Discord incluye: nombre, región, icono, canal de afk, nivel de mfa, nivel de verificación, notificaciones predeterminadas. "
 
 #: Dredd-v3/cogs/manage.py:323
 #, python-brace-format
@@ -3505,7 +3505,7 @@ msgstr "{0} Se han activado los mensajes de bienvenida en {1}."
 msgid "{0} Welcome messages are currently disabled in this server.\n"
 "*Hint: If you want to enable them you need to provide a channel where they should be sent to*"
 msgstr "{0} Los mensajes de bienvenida están actualmente desactivados en este servidor.\n"
-"*Pista: Si quieres habilitar los necesitas proporcionar un canal en donde los mensajes deben ser enviado*"
+"*Pista: Si quieres habilitarlos necesitas proporcionar un canal en donde los mensajes deben ser enviados*"
 
 #: Dredd-v3/cogs/manage.py:555
 msgid "Set the welcoming message"
@@ -4024,13 +4024,13 @@ msgstr "{0} Se cambió un rol de moderador personalizado a {1}"
 
 #: Dredd-v3/cogs/manage.py:1172
 msgid "Set a custom admin role"
-msgstr "Eestablece un rol de administrador personalizado"
+msgstr "Establece un rol de administrador personalizado"
 
 #: Dredd-v3/cogs/manage.py:1179
 msgid " Setup a custom admin role in your server\n"
 "        You can also reset the admin role by using argument `reset` "
-msgstr " Configura un role personalizado de administrador en tu servidor\n"
-"        También puedes reiniciar el role administrador usando el argumento `reset` "
+msgstr " Configura un rol personalizado de administrador en tu servidor\n"
+"        También puedes reiniciar el rol administrador usando el argumento `reset` "
 
 #: Dredd-v3/cogs/manage.py:1189
 #, python-brace-format
@@ -4357,7 +4357,7 @@ msgstr "{0} He eliminado correctamente los roles de reacción para el mensaje {1
 
 #: Dredd-v3/cogs/misc.py:60
 msgid "Search the urban dictionary"
-msgstr "Buscar en el diccionario urbano"
+msgstr "Busca en el diccionario urbano"
 
 #: Dredd-v3/cogs/misc.py:65
 msgid " Search for a term in the urban dictionary "
@@ -4416,7 +4416,7 @@ msgstr "{0} Las sugerencias no pueden tener más de 1000 caracteres. El tuyo tie
 msgid "Your suggestion was successfully submitted in [my support server!]({0}) You'll get notified in your DMs when the suggestion will be approved or denied.People can also follow this suggestion using `{1}suggestion track {2}`\n"
 "**Suggestion:**\n"
 ">>> {3} "
-msgstr "Tu sugerencia fue enviada con éxito en [mi servidor de soporte!]({0}) Serás notificado en mensajes privados cuando la sugerencia sea aprobada o denegada. Las personas también pueden seguir esta sugerencia usadno `{1}suggestion track {2}`\n"
+msgstr "Tu sugerencia fue enviada con éxito en [mi servidor de soporte!]({0}) Serás notificado en mensajes privados cuando la sugerencia sea aprobada o denegada. Las personas también pueden seguir esta sugerencia usando `{1}suggestion track {2}`\n"
 "**Sugerencia:**\n"
 ">>> {3} "
 
@@ -4481,7 +4481,7 @@ msgstr "{0} He dejado de seguir la sugerencia **#{1}**. No te enviaré mensajes 
 
 #: Dredd-v3/cogs/misc.py:189
 msgid "Manage your todo list"
-msgstr "Administra tu lista de por hacer"
+msgstr "Administra tu lista de tareas"
 
 #: Dredd-v3/cogs/misc.py:193
 msgid " Base command for managing your todo list "
@@ -4977,7 +4977,7 @@ msgstr "\n"
 
 #: Dredd-v3/cogs/moderation.py:144
 msgid "Change member's nickname"
-msgstr "Cambia el apodo del miembro"
+msgstr "Cambia el apodo de un miembro"
 
 #: Dredd-v3/cogs/moderation.py:151
 msgid " Changes member's nickname in the server.\n"
@@ -5342,7 +5342,7 @@ msgstr "{0} | Solo puedes silenciar 15 miembros a la vez."
 #: Dredd-v3/cogs/moderation.py:797 Dredd-v3/cogs/moderation.py:912
 #, python-brace-format
 msgid "{0} | The muted role is above me in the role hierarchy, so I cannot access it. Please lower {1}, so I can access the role and mute the member(s)."
-msgstr "{0} | El role silenciado está por encima de mí en la jerarquía de roles, por lo que no puedo acceder a él. Por favor bajar {1}, para que pueda acceder al role y silenciar a los miembros."
+msgstr "{0} | El rol silenciado está por encima de mí en la jerarquía de roles, por lo que no puedo acceder a él. Por favor baja {1}, para que pueda acceder al rol y silenciar a los miembro(s)."
 
 #: Dredd-v3/cogs/moderation.py:824
 #, python-brace-format
@@ -5657,16 +5657,16 @@ msgid "A more advanced purge command.\n"
 "        `--or`: Use logical OR for all options.\n"
 "        `--not`: Use logical NOT for all options. "
 msgstr "Un comando de eliminar mensajes más avanzado.\n"
-"        Este comando usa una podera sintaxis \"línea de comandos\".\n"
-"        La mayoría de opciones perimiten múltiples valores para indicar 'cualquier' coincidencia.\n"
-"        Si el valor tiene contiene espacios debe ser citdo.\n"
+"        Este comando usa una poderosa sintaxis \"línea de comandos\".\n"
+"        La mayoría de opciones permiten múltiples valores para indicar 'cualquier' coincidencia.\n"
+"        Si el valor contiene espacios debe ser citado.\n"
 "        Los mensajes son sólo eliminados si todas las opciones coinciden al menos que\n"
 "        la bandera `--or` sea añadida, en dicho caso sólo si alguno coincide.\n"
 "        Las siguientes opciones son válidas.\n"
 "       `--user`: Una mención o el nombre del usuario para eliminar.\n"
 "       `--contains`: Una subcadena a buscar en los mensajes.\n"
 "       `--starts`: Una subcadena para buscar en los mensajes que inicien con ella.\n"
-"       `--ends`: Una subcadena para buscar en los mensajes que inicien con finalizen con ella.\n"
+"       `--ends`: Una subcadena para buscar en los mensajes que finalizen con ella.\n"
 "       `--search`: Cuántos mensajes deben ser buscados. 100 por predeterminado. 2000 como máximo.\n"
 "       `--after`:  Los mensajes deben ser después de este ID de mensaje.\n"
 "       `--before`: Los mensajes deben ser antes de este ID de mensaje.\n"
@@ -5676,8 +5676,8 @@ msgstr "Un comando de eliminar mensajes más avanzado.\n"
 "       `--files`: Revisar si el mensaje incluye archivos incluidos.\n"
 "       `--emoji`: Revisar si el mensaje incluye emojis personalizados.\n"
 "       `--reactions`: Revisar si el mensaje incluye reacciones.\n"
-"       `--or`: Usar O lógico para todas las opciones.\n"
-"       `--not`: Usar NO lógico para todas las opciones. "
+"       `--or`: Usar lógica O  para todas las opciones.\n"
+"       `--not`: Usar lógica NO para todas las opciones. "
 
 #: Dredd-v3/cogs/moderation.py:1471
 msgid "Nuke the channel"
@@ -5716,7 +5716,7 @@ msgstr "Descongela el servidor"
 
 #: Dredd-v3/cogs/moderation.py:1523
 msgid " Unfreezes everyone from sending messages in the server "
-msgstr " Desbloquea el envío de mensajes en el servidor "
+msgstr " Habilita el envío de mensajes en el servidor "
 
 #: Dredd-v3/cogs/moderation.py:1532
 #, python-brace-format
