@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-10-19 22:40\n"
+"PO-Revision-Date: 2021-10-19 23:50\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3800,7 +3800,7 @@ msgstr "{0} El rol al unirse no está activado en este servidor, por favor, usa 
 #: Dredd-v3/cogs/manage.py:882 Dredd-v3/cogs/manage.py:992
 #, python-brace-format
 msgid "{0} You cannot set that role as it is configured as mod or admin role"
-msgstr "{0} No puedes establecer ese rol ya está configurado como un rol de moderador o administrador"
+msgstr "{0} No puedes establecer ese rol ya que está configurado como un rol de moderador o administrador"
 
 #: Dredd-v3/cogs/manage.py:884 Dredd-v3/cogs/manage.py:994
 #, python-brace-format
@@ -3840,7 +3840,7 @@ msgstr "{0} Ese rol no está añadido a la lista de roles al unirse."
 #: Dredd-v3/cogs/manage.py:921
 #, python-brace-format
 msgid "{0} Removed {1} from join role for people."
-msgstr "{0} He removido {1} de los roles que se darán a las personas al unirse."
+msgstr "{0} He removido {1} de los roles que se dan a las personas al unirse."
 
 #: Dredd-v3/cogs/manage.py:924
 msgid "See all the roles on join for people"
@@ -3852,7 +3852,7 @@ msgstr " Mira todos los roles que se dan a las personas al unirse "
 
 #: Dredd-v3/cogs/manage.py:943 Dredd-v3/cogs/manage.py:1054
 msgid "Role not found"
-msgstr "Role no encontrado"
+msgstr "Rol no encontrado"
 
 #: Dredd-v3/cogs/manage.py:946
 msgid "Role on join for people"
@@ -3869,7 +3869,7 @@ msgstr "Estable el rol que se dará a bots al unirse"
 
 #: Dredd-v3/cogs/manage.py:968
 msgid " Manage role on join for bots "
-msgstr " Administra el role que se dará a bots al unirse "
+msgstr " Gestiona el rol que se dará a bots al unirse "
 
 #: Dredd-v3/cogs/manage.py:973
 msgid "Add a role on join for bots"
@@ -3930,18 +3930,18 @@ msgstr "{0} He desactivado el rol al unirse con éxito."
 
 #: Dredd-v3/cogs/manage.py:1093
 msgid "Set a custom mute role"
-msgstr "Establecer un rol de mute personalizado"
+msgstr "Establecer un rol de silenciado personalizado"
 
 #: Dredd-v3/cogs/manage.py:1101
 msgid " Setup a custom mute role in your server\n"
 "        You can also reset the mute role by using argument `reset` "
-msgstr " Configura un rol de mute o silenciado personalizado en tu servidor\n"
-"        También puedes restablecer el rol de mute usando el argumento `reset` "
+msgstr " Configura un rol de silenciado personalizado en tu servidor\n"
+"        También puedes restablecer el rol de silenciado usando el argumento `reset` "
 
 #: Dredd-v3/cogs/manage.py:1110
 #, python-brace-format
 msgid "{0} The mute role has been reset."
-msgstr "{0} El rol de silencio se ha reiniciado."
+msgstr "{0} El rol de silenciado se ha reseteado."
 
 #: Dredd-v3/cogs/manage.py:1112
 #, python-brace-format
@@ -3951,7 +3951,7 @@ msgstr "{0} No tienes un rol de silencio personalizado configurado."
 #: Dredd-v3/cogs/manage.py:1114
 #, python-brace-format
 msgid "{0} That role was not found! If you're trying to reset the mute role, you can use `reset` as the argument."
-msgstr "{0} ¡El role no fue encontrado! Si estás intentando restablecer el rol de silencio, puedes usar el argumento `reset`."
+msgstr "{0} ¡El role no fue encontrado! Si estás intentando restablecer el rol de silenciado, puedes usar el argumento `reset`."
 
 #: Dredd-v3/cogs/manage.py:1117
 #, python-brace-format
@@ -5784,7 +5784,7 @@ msgstr "Añade un rol a miembro(s)"
 
 #: Dredd-v3/cogs/moderation.py:1590
 msgid " Add a role to a member. Mentioning multiple members will add a role to multiple members. "
-msgstr " Añade un rol a un miembro. Mencionar múltiples miembors añadirá un rol a múliples miembros. "
+msgstr " Añade un rol a un miembro. Mencionar múltiples miembros añadirá un rol a múliples miembros. "
 
 #: Dredd-v3/cogs/moderation.py:1603
 #, python-brace-format
@@ -5826,7 +5826,7 @@ msgstr "Remueve un rol de miembro(s)"
 
 #: Dredd-v3/cogs/moderation.py:1689
 msgid " Remove a role to a member. Mentioning multiple members will remove a role from multiple members. "
-msgstr " Remueve un rol de un miembro. Mencionar múltiples miembors removerá un rol de múliples miembros. "
+msgstr " Remueve un rol de un miembro. Mencionar múltiples miembros removerá un rol de múliples miembros. "
 
 #: Dredd-v3/cogs/moderation.py:1702
 #, python-brace-format
