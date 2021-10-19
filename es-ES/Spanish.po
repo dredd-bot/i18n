@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-10-19 18:31\n"
+"PO-Revision-Date: 2021-10-19 19:51\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -85,7 +85,7 @@ msgstr "Dredd está bajo mantenimiento!"
 #: Dredd-v3/utils/checks.py:274
 #, python-brace-format
 msgid "{0} | `{1}` and its corresponding subcommands are currently disabled for: `{2}`"
-msgstr "{0} | `{1}` y sus subcomandos correspondientes están actualmente deshabilitados por: `{2}`"
+msgstr "{0} | `{1}` y sus subcomandos correspondientes están actualmente desactivados por: `{2}`"
 
 #: Dredd-v3/utils/checks.py:277
 #, python-brace-format
@@ -3171,7 +3171,7 @@ msgstr " Ver mensajes de despedida en incrustado "
 #: Dredd-v3/cogs/manage.py:173
 #, python-brace-format
 msgid "{0} Leave messages are disabled in this server."
-msgstr "{0} Los mensajes de despedida están deshabilitados en este servidor."
+msgstr "{0} Los mensajes de despedida están desactivados en este servidor."
 
 #: Dredd-v3/cogs/manage.py:177
 #, python-brace-format
@@ -3380,7 +3380,7 @@ msgstr "{0} He activado el registro de mensajes eliminados en {1}."
 
 #: Dredd-v3/cogs/manage.py:403
 msgid "Toggle moderation logs"
-msgstr "Alternar los registros de moderación"
+msgstr "Alterna los registros de moderación"
 
 #: Dredd-v3/cogs/manage.py:410
 msgid " This enables or disables moderation logging\n"
@@ -3453,7 +3453,7 @@ msgstr "{0} Los apodos no pueden ser más largos de 32 caracteres, el tuyo está
 #: Dredd-v3/cogs/manage.py:497
 #, python-brace-format
 msgid "{0} Anti hoist was successfully disabled."
-msgstr "{0} Anti hoist fue desactivada con éxito."
+msgstr "{0} Anti hoist fue desactivado con éxito."
 
 #: Dredd-v3/cogs/manage.py:501
 #, python-brace-format
@@ -3474,11 +3474,11 @@ msgstr "{0} He activado el registro de anti hoist en {1} y se ha establecido el 
 
 #: Dredd-v3/cogs/manage.py:512
 msgid "Edit the welcoming messages"
-msgstr "Editar los mensajes de bienvenida"
+msgstr "Edita los mensajes de bienvenida"
 
 #: Dredd-v3/cogs/manage.py:518
 msgid " Base command for managing welcoming messages in the server "
-msgstr " Comando base para administrar los mensajes de bienvenida en el servidor "
+msgstr " Comando base para gestionar los mensajes de bienvenida en el servidor "
 
 #: Dredd-v3/cogs/manage.py:521
 msgid "Set the channel for welcoming messages"
@@ -3493,7 +3493,7 @@ msgstr " Establece un canal donde los mensajes de bienvenida deben ser enviados.
 #: Dredd-v3/cogs/manage.py:538
 #, python-brace-format
 msgid "{0} Disabled welcome messages."
-msgstr "{0} Se han deshabilidado los mensajes de bienvenida."
+msgstr "{0} Se han desactivado los mensajes de bienvenida."
 
 #: Dredd-v3/cogs/manage.py:542 Dredd-v3/cogs/manage.py:551
 #, python-brace-format
@@ -3661,7 +3661,7 @@ msgstr "{0} He activado los mensajes de despedida con éxito. Ahora enviaré los
 
 #: Dredd-v3/cogs/manage.py:717
 msgid "Set the leaving message"
-msgstr "Establece el mensaje de salida"
+msgstr "Establece el mensaje de despedida"
 
 #: Dredd-v3/cogs/manage.py:724
 #, python-brace-format
@@ -3698,7 +3698,7 @@ msgstr "{0} ¿Por qué estás intentando configurar los mensajes de despedida si
 #: Dredd-v3/cogs/manage.py:750 Dredd-v3/cogs/manage.py:770
 #, python-brace-format
 msgid "{0} Your current leave message is the same as the new one."
-msgstr "{0} You mensaje de despedida actual es igual al nuevo."
+msgstr "{0} Tu mensaje de despedida actual es igual al nuevo."
 
 #: Dredd-v3/cogs/manage.py:752
 #, python-brace-format
@@ -3715,7 +3715,7 @@ msgstr "{0} **He establecido correctamente los mensajes de bienvenida a:**\n"
 #: Dredd-v3/cogs/manage.py:764
 #, python-brace-format
 msgid "{0} Your sent dict is invalid. Please use <https://embedbuilder.nadekobot.me/> to create an embed dict and then paste that code."
-msgstr "{0} Tu dictado es inválido. Por favor, usa <https://embedbuilder.nadekobot.me/> para crear un dictado de incrustado a luego pega ese código."
+msgstr "{0} Tu dictado es inválido. Por favor, usa <https://embedbuilder.nadekobot.me/> para crear un dictado de incrustado y luego pega ese código."
 
 #: Dredd-v3/cogs/manage.py:774
 #, python-brace-format
@@ -3752,11 +3752,11 @@ msgstr "{0} Los mensajes de despedida ahora serán enviados en incrustados."
 
 #: Dredd-v3/cogs/manage.py:810
 msgid "Toggle bot leaving"
-msgstr "Alterna la salida del bot"
+msgstr "Alterna los mensajes de despedida de bots"
 
 #: Dredd-v3/cogs/manage.py:817
 msgid " Toggle whether or not bot leaves should be logged. "
-msgstr " Alterna si cuando se salen los bots deben ser registrados o no. "
+msgstr " Alterna si cuando los bots abandonan el servidor deben ser registrados o no. "
 
 #: Dredd-v3/cogs/manage.py:830
 #, python-brace-format
@@ -3770,7 +3770,7 @@ msgstr "{0} Los mensajes de despedida de bots han sido activados."
 
 #: Dredd-v3/cogs/manage.py:837 Dredd-v3/cogs/manage.py:1070
 msgid "Toggle role on join"
-msgstr "Cambie el rol al unirse"
+msgstr "Cambia el rol al unirse"
 
 #: Dredd-v3/cogs/manage.py:845
 msgid " Base command for managing role on join "
@@ -3778,7 +3778,7 @@ msgstr " Comando base para administrar roles al unirse "
 
 #: Dredd-v3/cogs/manage.py:849
 msgid "Set role on join for users"
-msgstr "Estable el rol que se dará a usuarios al unirse"
+msgstr "Establece el rol que se dará a usuarios al unirse"
 
 #: Dredd-v3/cogs/manage.py:858
 msgid " Choose what role will be given to new users "
@@ -3926,7 +3926,7 @@ msgstr "{0} Rol al unirse ha sido encendido, ahora puedes establecer los roles u
 #: Dredd-v3/cogs/manage.py:1090
 #, python-brace-format
 msgid "{0} I've successfuly disabled role on join."
-msgstr "{0} He deshabilitado el rol al unirse con éxito."
+msgstr "{0} He desactivado el rol al unirse con éxito."
 
 #: Dredd-v3/cogs/manage.py:1093
 msgid "Set a custom mute role"
@@ -4035,7 +4035,7 @@ msgstr " Configura un role personalizado de administrador en tu servidor\n"
 #: Dredd-v3/cogs/manage.py:1189
 #, python-brace-format
 msgid "{0} I've reset your admin role."
-msgstr "{0} He reiniciado tu rol de administrador."
+msgstr "{0} He reseteado tu rol de administrador."
 
 #: Dredd-v3/cogs/manage.py:1191
 #, python-brace-format
@@ -4073,7 +4073,7 @@ msgstr " Desactiva un comando en el servidor "
 #: Dredd-v3/cogs/manage.py:1224 Dredd-v3/cogs/manage.py:1260
 #, python-brace-format
 msgid "{0} {1} command was not found."
-msgstr "{0} {1} comando no encontrado."
+msgstr "{0} el comando {1} no ha sido encontrado."
 
 #: Dredd-v3/cogs/manage.py:1229
 #, python-brace-format
@@ -4104,7 +4104,7 @@ msgstr " Desactiva una categoría que no quieres que usen las personas en el ser
 #: Dredd-v3/cogs/manage.py:1296 Dredd-v3/cogs/manage.py:1326
 #, python-brace-format
 msgid "{0} {1} category was not found."
-msgstr "{0} {1} categoría no encontrada."
+msgstr "{0} la categoría {1} no ha sido encontrada."
 
 #: Dredd-v3/cogs/manage.py:1302
 #, python-brace-format
@@ -4157,7 +4157,7 @@ msgstr " Inicia una configuración interactiva para crear roles de reacción "
 
 #: Dredd-v3/cogs/manage.py:1367
 msgid "Do you want me to use an existing message or a new one? `new` | `existing` | `n` | `e` | `old` | `cancel` *You have 60 seconds*"
-msgstr "¿Quieres que utilice un mensaje existente o uno nuevo? `new` | `existing ` | `n` | `e` | `old | `cancel` *Tienes 60 segundos*"
+msgstr "¿Quieres que utilice un mensaje existente o uno nuevo? `new` para nuevo | `existing ` para existente | `n` | `e` | `old | `cancel` para cancelar *Tienes 60 segundos*"
 
 #: Dredd-v3/cogs/manage.py:1378 Dredd-v3/cogs/manage.py:1397
 #: Dredd-v3/cogs/manage.py:1408 Dredd-v3/cogs/manage.py:1427
@@ -4175,7 +4175,7 @@ msgstr "Respuesta inválida, intenta de nuevo."
 
 #: Dredd-v3/cogs/manage.py:1387
 msgid "Should the message be an embed? `yes` | `y` | `no` | `n` | `cancel`"
-msgstr "¿Debe el mensaje ser un incrustado? `yes` | `y` | `no` | `n` | `cancel`"
+msgstr "¿Debe el mensaje ser un incrustado? `yes` para sí | `y` | `no` para no | `n` | `cancel` para cancelar"
 
 #: Dredd-v3/cogs/manage.py:1404
 msgid "What channel should I send the message to?"
@@ -4220,23 +4220,23 @@ msgstr "Por favor, envía un rol que te gustaría asignar al emoji - {0}"
 
 #: Dredd-v3/cogs/manage.py:1477 Dredd-v3/cogs/manage.py:1537
 msgid "That role is already used in the reaction role, please choose another role."
-msgstr "Ese role ya está usado en los roles de reacción, por favor, elige otro role."
+msgstr "Ese role ya está usado en los roles de reacción, por favor, elige otro rol."
 
 #: Dredd-v3/cogs/manage.py:1484
 msgid "The role you've provided is higher in the role hierarchy, please make sure I can access the role."
-msgstr "El role que has proporcionado es más alto en la jerarquía de roles, por favor, asegúrate de que puedo acceder al role."
+msgstr "El rol que has proporcionado es más alto en la jerarquía de roles, por favor, asegúrate de que puedo acceder al rol."
 
 #: Dredd-v3/cogs/manage.py:1486 Dredd-v3/cogs/manage.py:1542
 msgid "Invalid role, try again."
-msgstr "Role inválido, intenta de nuevo."
+msgstr "Rol inválido, intenta de nuevo."
 
 #: Dredd-v3/cogs/manage.py:1495
 msgid "Do you wish to add more reaction roles? `yes` | `y` | `n` | `no` | `cancel` to cancel the command"
-msgstr "¿Deseas añadir más roles de reacción? `yes` | `y` | `n` | `no` | `cancel` para cancelar el comando"
+msgstr "¿Deseas añadir más roles de reacción? `yes` para sí | `y` | `n` | `no` para no | `cancel` para cancelar el comando"
 
 #: Dredd-v3/cogs/manage.py:1512
 msgid "Do you only want users with certain roles to access the reaction roles? `yes` | `y` | `n` | `no` | `cancel` to cancel the command"
-msgstr "¿Quiéres que sólo los usuarios con ciertos roles accedan a los roles de reacción? `yes` | `y` | `n` | `no` | `cancel` para cancelar el comando"
+msgstr "¿Quieres que sólo los usuarios con ciertos roles accedan a los roles de reacción? `yes` para sí | `y` | `n` | `no` para no | `cancel` para cancelar el comando"
 
 #: Dredd-v3/cogs/manage.py:1528
 msgid "What role do users need in order to access the reaction roles?"
@@ -4608,7 +4608,7 @@ msgstr " Borra tus tareas "
 #: Dredd-v3/cogs/misc.py:350
 #, python-brace-format
 msgid "{0} There's nothing to clear. Your todo list is already empty."
-msgstr "{0} No hay nada que limpiar. Tu lista de tareas ya está vacía."
+msgstr "{0} No hay nada que borrar. Tu lista de tareas ya está vacía."
 
 #: Dredd-v3/cogs/misc.py:356
 #, python-brace-format
@@ -4728,7 +4728,7 @@ msgstr "Alterna tu registro de datos"
 
 #: Dredd-v3/cogs/misc.py:491
 msgid " Base command for toggling your data logging. This only applies to snipes, nicknames "
-msgstr " Comando base para alterna tu registro de datos.\n"
+msgstr " Comando base para alternar tu registro de datos.\n"
 "Esto solo aplica a mensajes eliminados obtenidos, apodos "
 
 #: Dredd-v3/cogs/misc.py:494
@@ -4743,7 +4743,7 @@ msgstr " Alterna tu registro de mensajes eliminados\n"
 
 #: Dredd-v3/cogs/misc.py:507
 msgid "Are you sure you want to opt-out? Once you'll do that, I won't log your deleted messages in my snipe command."
-msgstr "¿Estás seguro de que quieres excluir? Una vez que lo hagas, no registraré tus mensajes borrados en mi comando snipe que registra mensajes."
+msgstr "¿Estás seguro de que quieres excluir? Una vez que lo hagas, no registraré tus mensajes borrados en mi comando snipe que registra mensajes eliminados."
 
 #: Dredd-v3/cogs/misc.py:515
 #, python-brace-format
@@ -5138,7 +5138,7 @@ msgstr "{0} ({1}) - **¿Pero tú eres el miembro?**"
 #: Dredd-v3/cogs/moderation.py:533
 #, python-brace-format
 msgid "{0} ({1}) - **Missing permissions? Do they have administrator?**"
-msgstr "{0} ({1}) - **¿Faltan permisos? ¿Tienen administrador?**"
+msgstr "{0} ({1}) - **¿Faltan permisos? ¿Tienen ellos administrador?**"
 
 #: Dredd-v3/cogs/moderation.py:353
 #, python-brace-format
