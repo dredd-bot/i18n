@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-09-10 21:26\n"
+"PO-Revision-Date: 2021-10-19 01:11\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5006,7 +5006,7 @@ msgstr "{0} | Solo puedes cambiar el apodo de 15 miembros a la vez."
 #: Dredd-v3/cogs/moderation.py:168
 #, python-brace-format
 msgid "{0} ({1}) - **You can change your nickname by using slash commands**"
-msgstr ""
+msgstr "{0} ({1}) - **Puedes cambiar tu apodo usando comandos de barra diagonal**"
 
 #: Dredd-v3/cogs/moderation.py:174 Dredd-v3/cogs/moderation.py:329
 #: Dredd-v3/cogs/moderation.py:422 Dredd-v3/cogs/moderation.py:514
@@ -5014,7 +5014,7 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:1708
 #, python-brace-format
 msgid "{0} ({1}) - **Member is above me in the role hierarchy or has the same role**"
-msgstr ""
+msgstr "{0} ({1}) - **El miembro está por encima de mí en la jerarquía de roles, o tienen el mismo rol que yo**"
 
 #: Dredd-v3/cogs/moderation.py:180 Dredd-v3/cogs/moderation.py:335
 #: Dredd-v3/cogs/moderation.py:428 Dredd-v3/cogs/moderation.py:520
@@ -5023,7 +5023,7 @@ msgstr ""
 #: Dredd-v3/cogs/moderation.py:1714
 #, python-brace-format
 msgid "{0} ({1}) - **Member is above you in the role hierarchy or has the same role**"
-msgstr ""
+msgstr "{0} ({1}) - **El miembro está por encima tuyo en la jerarquía de roles, o tienen el mismo rol**"
 
 #: Dredd-v3/cogs/moderation.py:196 Dredd-v3/cogs/moderation.py:201
 #, python-brace-format
@@ -6083,12 +6083,12 @@ msgstr " Alterna si los usuarios deberían poder ver cuando serán dessilenciado
 #: Dredd-v3/cogs/moderation.py:2070
 #, python-brace-format
 msgid "{0} Users will now be able to check their temp-mute duration in their DMs"
-msgstr ""
+msgstr "{0} Los usuarios ahora podrán revisar la duración de su silencio temporal en sus mensajes privados"
 
 #: Dredd-v3/cogs/moderation.py:2074
 #, python-brace-format
 msgid "{0} Users won't be able to check their temp-mute duration in their DMs anymore."
-msgstr ""
+msgstr "{0} Los usuarios ya no podrán revisar la duración de su silencio temporal en sus mensajes privados."
 
 #: Dredd-v3/cogs/moderation.py:2076
 msgid "Create an emoji"
@@ -6101,16 +6101,16 @@ msgstr " Crea un emoji "
 #: Dredd-v3/cogs/moderation.py:2086
 #, python-brace-format
 msgid "Emoji name can't be longer than 32 characters, you're {0} characters over"
-msgstr ""
+msgstr "El nombre del emoji no puede tener más de 32 caracteres, el tuyo está {0} arriba del límite"
 
 #: Dredd-v3/cogs/moderation.py:2089
 msgid "This guild has reached the max amount of emojis added."
-msgstr ""
+msgstr "Este servidor de Discord ha alcanzado la cantidad máxima de emojis añadidos."
 
 #: Dredd-v3/cogs/moderation.py:2097
 #, python-brace-format
 msgid "{0} Successfully created {1} emoji in this server."
-msgstr ""
+msgstr "{0} He creado con éxito el emoji {1} en este servidor."
 
 #: Dredd-v3/cogs/moderation.py:2099
 msgid "Emoji URL is invalid"
@@ -6122,40 +6122,40 @@ msgstr "La URL no contiene ninguna imagen"
 
 #: Dredd-v3/cogs/moderation.py:2105
 msgid "You need to either provide an image URL or upload one with the command"
-msgstr ""
+msgstr "Debes proporcionar ya sea un enlace de imagen o subir una con el comando"
 
 #: Dredd-v3/cogs/music.py:91
 #, python-brace-format
 msgid "Looks like you've encountered bug that we're unaware how to fix, we've gone ahead and destroyed your music player for this guild, if you still encounter these bugs, please join the support server here: {0}"
-msgstr ""
+msgstr "Parece que has encontrado un error que no sabemos cómo corregir, hemos seguido adelante y hemos destruido tu reproductor de música para este servidor de Discord, si todavía encuentras estos errores, por favor, únete al servidor de soporte aquí: {0}"
 
 #: Dredd-v3/cogs/music.py:99
 #, python-brace-format
 msgid "{0} Please give me permissions to speak in a stage channel. I will check if I have permissions to speak again in 10 seconds, if not, I will leave the stage channel."
-msgstr ""
+msgstr "{0} Por favor, dame los permisos para hablar en un canal de escenario."
 
 #: Dredd-v3/cogs/music.py:103
 msgid "Left because I was still suppressed."
-msgstr ""
+msgstr "He abandonado porque todavía estaba silenciado."
 
 #. if video is shorter than 20 seconds don't send the "Started playing" message to 1) don't spam the chat 2) don't hit the ratelimit (5/5)
 #: Dredd-v3/cogs/music.py:138
 #, python-brace-format
 msgid "{0} Started playing **{1}**{2}"
-msgstr ""
+msgstr "{0} He empezado a reproducir **{1}**{2}"
 
 #: Dredd-v3/cogs/music.py:155
 msgid "Queue End"
-msgstr ""
+msgstr "Fin de la cola"
 
 #: Dredd-v3/cogs/music.py:159
 #, python-brace-format
 msgid "Live: {0}"
-msgstr ""
+msgstr "En vivo: {0}"
 
 #: Dredd-v3/cogs/music.py:168
 msgid "None"
-msgstr ""
+msgstr "Ninguno"
 
 #: Dredd-v3/cogs/music.py:168
 msgid "Current"
@@ -6163,7 +6163,7 @@ msgstr "Actual"
 
 #: Dredd-v3/cogs/music.py:168
 msgid "All"
-msgstr ""
+msgstr "Todo"
 
 #: Dredd-v3/cogs/music.py:169
 #, python-brace-format
@@ -6177,11 +6177,20 @@ msgid "**Now Playing:** {0}\n"
 "**Filter:**\n"
 "{8}╠ **Pitch:** `{9}x`\n"
 "{8}╚ **Speed:** `{10}x`"
-msgstr ""
+msgstr "**Ahora reproduciendo:** {0}\n"
+"**Duración:** {1}\n"
+"**Volumen:** {2}%\n"
+"**Solicitado por:** {3}\n"
+"**DJ:** {4}\n"
+"**Bucle:** {5}\n"
+"**En camino:** {6} `(+{7})`\n"
+"**Filtro:**\n"
+"{8}╠ **Pitch:** `{9}x`\n"
+"{8}╚ **Velocidad:** `{10}x`"
 
 #: Dredd-v3/cogs/music.py:170
 msgid "Live Stream"
-msgstr ""
+msgstr "Transmisión en Directo"
 
 #: Dredd-v3/cogs/music.py:290
 msgid "Everyone left the voice channel, I will stop playing music"
@@ -6189,46 +6198,46 @@ msgstr "Todos dejaron el canal de voz, dejaré de reproducir música"
 
 #: Dredd-v3/cogs/music.py:305
 msgid "Everyone left the voice channel, I will pause the current track"
-msgstr ""
+msgstr "Todos dejaron el canal de voz, pausaré la canción actual"
 
 #: Dredd-v3/cogs/music.py:316
 msgid "The queue is empty, please add songs to the queue so I could play them."
-msgstr ""
+msgstr "La cola de reproducción está vacía, por favor añade canciones a la cola para poder reproducirlas."
 
 #: Dredd-v3/cogs/music.py:343
 msgid "Connect bot to a voice channel"
-msgstr ""
+msgstr "Conecta el bot a un canal de voz"
 
 #: Dredd-v3/cogs/music.py:348
 msgid " Connect bot to a voice channel "
-msgstr ""
+msgstr " Conecta el bot a un canal de voz "
 
 #: Dredd-v3/cogs/music.py:359
 #, python-brace-format
 msgid "{0} Already connected to the voice channel."
-msgstr ""
+msgstr "{0} Ya estoy conectado al canal de voz."
 
 #: Dredd-v3/cogs/music.py:361
 #, python-brace-format
 msgid "{0} Connected to **{1}**!"
-msgstr ""
+msgstr "{0} Conectado a **{1}**!"
 
 #: Dredd-v3/cogs/music.py:363 Dredd-v3/cogs/music.py:419
 msgid "Search for and add song(s) to the Queue"
-msgstr ""
+msgstr "Busca y añade canción(es) a la cola de reproducción"
 
 #: Dredd-v3/cogs/music.py:369 Dredd-v3/cogs/music.py:425
 msgid " Search for and add song(s) to the Queue "
-msgstr ""
+msgstr " Busca y añade canción(es) a la cola de reproducción "
 
 #: Dredd-v3/cogs/music.py:392 Dredd-v3/cogs/music.py:442
 msgid "No songs were found with that query. Please try again."
-msgstr ""
+msgstr "No se han encontrado canciones con esa consulta. Por favor, inténtalo de nuevo."
 
 #: Dredd-v3/cogs/music.py:404
 #, python-brace-format
 msgid "{0} Added the playlist **{1}** with {2} songs to the queue!{3}"
-msgstr ""
+msgstr "{0} ¡He añadido la lista de reproducción **{1}** con {2} canciones a la cola!{3}"
 
 #: Dredd-v3/cogs/music.py:412
 #, python-brace-format
@@ -6245,7 +6254,9 @@ msgstr "{0} Si tienes el enlace de la canción también puedes usar el comando `
 msgid "{0} **I've found these songs:**\n\n"
 "{1}\n"
 "*Please choose a song you want me to queue*"
-msgstr ""
+msgstr "{0} **He encontrado estas canciones:**\n\n"
+"{1}\n"
+"*Por favor, elige una canción en la que quieras que añada a la cola*"
 
 #: Dredd-v3/cogs/music.py:464 Dredd-v3/cogs/music.py:479
 #, python-brace-format
@@ -6267,13 +6278,14 @@ msgstr ""
 
 #: Dredd-v3/cogs/music.py:497
 msgid " Plays the selected radio station, if you have suggestions for radio stations, feel free to suggest them in the support server"
-msgstr ""
+msgstr " Reproduce la radio seleccionada, si tienes sugerencias de emisoras de radio, no dudes en sugerirlas en el servidor de soporte"
 
 #: Dredd-v3/cogs/music.py:509
 #, python-brace-format
 msgid "You may choose from one of these radio stations:\n"
 "• {0}"
-msgstr ""
+msgstr "Puedes elegir una de estas emisoras de radio:\n"
+"• {0}"
 
 #: Dredd-v3/cogs/music.py:515
 msgid "Uh oh, looks like that radio station broke down."
@@ -6300,7 +6312,7 @@ msgstr "{0} He desactivado correctamente el modo 24/7, dejaré el canal de voz c
 #: Dredd-v3/cogs/music.py:548
 #, python-brace-format
 msgid "{0} I'm sorry, but only the DJ and people with manage messages permission can toggle the 24/7 mode."
-msgstr ""
+msgstr "{0} Lo siento, pero solo el DJ y las personas con permisos de gestión de mensajes pueden cambiar el modo 24/7."
 
 #: Dredd-v3/cogs/music.py:550
 msgid "Pause the currently playing song"
@@ -6318,7 +6330,7 @@ msgstr "{0} No puedes pausar streams en vivo."
 #: Dredd-v3/cogs/music.py:565 Dredd-v3/cogs/music.py:641
 #, python-brace-format
 msgid "{0} An admin or DJ has stopped the player."
-msgstr ""
+msgstr "{0} Un administrador o DJ ha detenido el reproductor."
 
 #: Dredd-v3/cogs/music.py:570
 #, python-brace-format
@@ -6328,7 +6340,7 @@ msgstr ""
 #: Dredd-v3/cogs/music.py:574
 #, python-brace-format
 msgid "**{0}** has voted to pause the player, {1} more votes are needed to pause."
-msgstr ""
+msgstr "**{0}** ha votado para pausar el reproductor, se necesitan {1} votos más para pausar."
 
 #: Dredd-v3/cogs/music.py:576
 msgid "Resume the currently paused song."
@@ -6341,7 +6353,7 @@ msgstr " Reanuda la canción actualmente en pausa. "
 #: Dredd-v3/cogs/music.py:587
 #, python-brace-format
 msgid "{0} An admin or DJ has resumed the player."
-msgstr ""
+msgstr "{0} Un administrador o DJ ha reanudado el reproductor."
 
 #: Dredd-v3/cogs/music.py:593
 #, python-brace-format
@@ -6351,7 +6363,7 @@ msgstr ""
 #: Dredd-v3/cogs/music.py:597
 #, python-brace-format
 msgid "**{0}** has voted to resume the player, {1} more votes are needed to resume."
-msgstr ""
+msgstr "**{0}** ha votado para reanudar el reproductor, se necesitan {1} votos más para reanudar."
 
 #: Dredd-v3/cogs/music.py:599
 msgid "Skip the currently playing song."
@@ -6383,7 +6395,7 @@ msgstr ""
 #: Dredd-v3/cogs/music.py:628
 #, python-brace-format
 msgid "**{0}** has voted to skip the current song, {1} more votes are needed to skip."
-msgstr ""
+msgstr "**{0}** ha votado para saltar la canción actual, se necesitan {1} votos más para saltar."
 
 #: Dredd-v3/cogs/music.py:630
 msgid "Disconnect the player and controller"
@@ -6401,7 +6413,7 @@ msgstr ""
 #: Dredd-v3/cogs/music.py:650
 #, python-brace-format
 msgid "**{0}** has voted to stop the player, {1} more votes are needed to stop."
-msgstr ""
+msgstr "**{0}** ha votado para detener el reproductor, se necesitan {1} votos más para detener."
 
 #: Dredd-v3/cogs/music.py:652
 msgid "Change the player's volume"
