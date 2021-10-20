@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-10-19 23:50\n"
+"PO-Revision-Date: 2021-10-20 00:45\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -3957,14 +3957,14 @@ msgstr "{0} ¡El role no fue encontrado! Si estás intentando restablecer el rol
 #, python-brace-format
 msgid "{0} The role you're trying to set as the mute role is higher than me in the role hierarchy!\n"
 "Please move the role lower in the hierarchy or choose a role in the hierarchy."
-msgstr "{0} ¡El role que estás intentando establecer para el role de silencio está más alto que yo en la jerarquía de roles!\n"
+msgstr "{0} ¡El role que estás intentando establecer para el rol de silenciado está más alto que yo en la jerarquía de roles!\n"
 "Por favor mueve el rol más bajo en la jerarquía o elige un rol en la jerarquía."
 
 #: Dredd-v3/cogs/manage.py:1120
 #, python-brace-format
 msgid "{0} The role you're trying to set as the mute role has the send messages permission.\n"
 "You can only set up roles without the send messages permission."
-msgstr "{0} El rol que estás intentando establecer como el rol de silencio tiene el permiso de enviar mensajes.\n"
+msgstr "{0} El rol que estás intentando establecer como el rol de silenciado tiene el permiso de enviar mensajes.\n"
 "Sólo puedes configurar roles que no tienen permiso de enviar mensajes."
 
 #: Dredd-v3/cogs/manage.py:1125
@@ -3979,7 +3979,7 @@ msgstr "{0} He actualizado el rol silenciado a {1}"
 
 #: Dredd-v3/cogs/manage.py:1132
 msgid "Set a custom mod role"
-msgstr "Establecer un rol de moderador personalizado"
+msgstr "Establece un rol de moderador personalizado"
 
 #: Dredd-v3/cogs/manage.py:1139
 msgid " Setup a custom mod role in your server\n"
@@ -5406,7 +5406,7 @@ msgstr "{0} ({1}) - **No tengo permisos para remover ese rol por alguna razón.*
 #: Dredd-v3/cogs/moderation.py:957
 #, python-brace-format
 msgid "{0} ({1}) - **Failed to remove the mute role.**"
-msgstr "{0} ({1}) - **Error al remover el rol de silencio.**"
+msgstr "{0} ({1}) - **Error al remover el rol silenciado.**"
 
 #: Dredd-v3/cogs/moderation.py:966 Dredd-v3/cogs/moderation.py:972
 #, python-brace-format
@@ -5459,7 +5459,7 @@ msgstr "{0} ({1}) - **Me faltan permisos para realizar esta acción**"
 #: Dredd-v3/cogs/moderation.py:1742
 #, python-brace-format
 msgid "{0} ({1}) - **Failed. Not sure what though ¯\\_(ツ)_/¯**"
-msgstr "{0} ({1}) - **Falló. Aunque no estoy seguro el qué ¯\\_(ツ)_/¯**"
+msgstr "{0} ({1}) - **Fallo. Aunque no estoy seguro de qué ¯\\_(ツ)_/¯**"
 
 #: Dredd-v3/cogs/moderation.py:1057 Dredd-v3/cogs/moderation.py:1063
 #, python-brace-format
