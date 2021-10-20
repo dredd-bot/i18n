@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-10-20 00:45\n"
+"PO-Revision-Date: 2021-10-20 01:56\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -4511,7 +4511,7 @@ msgstr "Edita tu tarea"
 
 #: Dredd-v3/cogs/misc.py:219
 msgid " Edit your todos "
-msgstr " Editar tus tareas "
+msgstr " Edita tus tareas "
 
 #: Dredd-v3/cogs/misc.py:223 Dredd-v3/cogs/misc.py:248
 #: Dredd-v3/cogs/misc.py:275 Dredd-v3/cogs/misc.py:301
@@ -4757,7 +4757,7 @@ msgstr "¡Oh dulce! Continuaré registrando tus menajes eliminados obtenidos."
 #: Dredd-v3/cogs/misc.py:538
 #, python-brace-format
 msgid "{0} You're now opted-in! From now on, I'll be logging your deleted messages in my snipe command!"
-msgstr "{0} ¡Ahora estás optando! ¡A partir de ahora, registraré tus mensajes borrados en mi comando snipe que registra mensajes!"
+msgstr "{0} ¡Ahora estás optando! ¡A partir de ahora, registraré tus mensajes borrados en mi comando snipe!"
 
 #: Dredd-v3/cogs/misc.py:545
 msgid "Alright, not opting you in."
@@ -4775,7 +4775,7 @@ msgstr " Alterna tu registro de apodos\n"
 
 #: Dredd-v3/cogs/misc.py:566
 msgid "Are you sure you want to opt-out? Once you'll do that, I won't be logging nickname changes from you in this server."
-msgstr "¿Estás seguro de que quieres salir? Una vez que lo hagas, no estaré registrando tus cambios de nombre de usuario en este servidor."
+msgstr "¿Estás seguro de que quieres salir? Una vez que lo hagas, no estaré registrando tus cambios de apodo en este servidor."
 
 #: Dredd-v3/cogs/misc.py:575
 #, python-brace-format
@@ -4801,7 +4801,7 @@ msgstr "Muy bien. No te optaré"
 
 #: Dredd-v3/cogs/misc.py:611
 msgid "Create a poll"
-msgstr "Crear una encuesta"
+msgstr "Crea una encuesta"
 
 #: Dredd-v3/cogs/misc.py:616
 msgid " Create a poll with upto 10 options.\n"
@@ -4817,7 +4817,7 @@ msgstr "{0} Necesitas dividir las opciones con `|` entre ellas."
 #: Dredd-v3/cogs/misc.py:630
 #, python-brace-format
 msgid "{0} Poll is either too short, or too long. You must have at least 3 options and up to 10"
-msgstr "{0} La cuenta es demasiado corta o demasiado larga. Debes tener al menos 3 opciones y hasta 10"
+msgstr "{0} La encuesta es demasiado corta o demasiado larga. Debes tener al menos 3 opciones y hasta 10"
 
 #: Dredd-v3/cogs/misc.py:638
 #, python-brace-format
