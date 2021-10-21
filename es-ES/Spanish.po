@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-10-21 17:53\n"
+"PO-Revision-Date: 2021-10-21 18:49\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -5579,11 +5579,11 @@ msgstr "Elimina todos los mensajes"
 
 #: Dredd-v3/cogs/moderation.py:1287
 msgid " Purge all the messages in chat. Default amount is set to **100**. This will purge everything, pins as well. "
-msgstr " Elimina todos los mensajes en el chat. La cantidad predeterminada está establecida a *100**.. Esto eliminará todo, incluyendo mensajes fijados. "
+msgstr " Elimina todos los mensajes en el chat. La cantidad predeterminada está establecida a *100**. Esto eliminará todo, incluyendo mensajes fijados. "
 
 #: Dredd-v3/cogs/moderation.py:1293
 msgid "Clear messages sent from an user"
-msgstr "Elimina mensajes enviados de un usuario"
+msgstr "Elimina mensajes enviados por un usuario"
 
 #: Dredd-v3/cogs/moderation.py:1300
 msgid " Removes user messages "
@@ -5603,7 +5603,7 @@ msgstr "Elimina mensajes incrustados"
 
 #: Dredd-v3/cogs/moderation.py:1327
 msgid "Removes messages that have embeds in them."
-msgstr "Elimina mensajes que tienen incrustaciones adjuntos."
+msgstr "Elimina mensajes que tienen incrustaciones adjuntas."
 
 #: Dredd-v3/cogs/moderation.py:1331
 msgid "Clear messages with images"
@@ -5854,7 +5854,7 @@ msgstr "**No he podido remover el rol a todos los miembros:**\n"
 
 #: Dredd-v3/cogs/moderation.py:1775
 msgid "Edit a reason of a case"
-msgstr "Editar la razón de un caso"
+msgstr "Edita la razón de un caso"
 
 #: Dredd-v3/cogs/moderation.py:1783
 msgid " Edit the reason of a case. You can also edit multiple cases by adding `~` before a number "
@@ -6133,7 +6133,7 @@ msgstr "Parece que has encontrado un error que no sabemos cómo corregir, hemos 
 #: Dredd-v3/cogs/music.py:99
 #, python-brace-format
 msgid "{0} Please give me permissions to speak in a stage channel. I will check if I have permissions to speak again in 10 seconds, if not, I will leave the stage channel."
-msgstr "{0} Por favor, dame los permisos para hablar en un canal de escenario."
+msgstr "{0} Por favor, dame permisos para hablar en un canal de escenario. Voy a comprobar si tengo permisos para hablar de nuevo en 10 segundos, si no, voy a dejar el canal de escenario."
 
 #: Dredd-v3/cogs/music.py:103
 msgid "Left because I was still suppressed."
@@ -6243,7 +6243,7 @@ msgstr "{0} ¡He añadido la lista de reproducción **{1}** con {2} canciones a 
 #: Dredd-v3/cogs/music.py:412
 #, python-brace-format
 msgid "{0} Added **{1}** to the Queue!{2}"
-msgstr "{0} He añadido **{1}** a la cola!{2}"
+msgstr "{0} ¡He añadido **{1}** a la cola!{2}"
 
 #: Dredd-v3/cogs/music.py:438
 #, python-brace-format
@@ -6257,12 +6257,12 @@ msgid "{0} **I've found these songs:**\n\n"
 "*Please choose a song you want me to queue*"
 msgstr "{0} **He encontrado estas canciones:**\n\n"
 "{1}\n"
-"*Por favor, elige una canción en la que quieras que añada a la cola*"
+"*Por favor, elige una canción que quieras que añada a la cola*"
 
 #: Dredd-v3/cogs/music.py:464 Dredd-v3/cogs/music.py:479
 #, python-brace-format
 msgid "{0} Added **{1}** to the Queue! (`{2}`)"
-msgstr "{0} He añadido **{1}** a la cola!(`{2}`)"
+msgstr "{0} ¡He añadido **{1}** a la cola! (`{2}`)"
 
 #: Dredd-v3/cogs/music.py:469
 msgid "Canceled the command."
@@ -6275,7 +6275,7 @@ msgstr "{0} Se ha producido un error desconocido - {1}"
 
 #: Dredd-v3/cogs/music.py:491
 msgid "Enqueue the radio station"
-msgstr "Pon en cola la estación de rado"
+msgstr "Pon en cola la estación de radio"
 
 #: Dredd-v3/cogs/music.py:497
 msgid " Plays the selected radio station, if you have suggestions for radio stations, feel free to suggest them in the support server"
@@ -6326,7 +6326,7 @@ msgstr " Pausa la canción actualmente en reproducción. "
 #: Dredd-v3/cogs/music.py:561
 #, python-brace-format
 msgid "{0} You cannot pause live streams."
-msgstr "{0} No puedes pausar streams en vivo."
+msgstr "{0} No puedes pausar transmisiones en vivo."
 
 #: Dredd-v3/cogs/music.py:565 Dredd-v3/cogs/music.py:641
 #, python-brace-format
@@ -6626,11 +6626,11 @@ msgstr "{0} Restablece el filtro de reproductores, deja hasta 10 segundos para q
 
 #: Dredd-v3/cogs/music.py:927
 msgid "Switch the player's loop"
-msgstr "Cambia el blucle de los reproductores"
+msgstr "Cambia el bucle de los reproductores"
 
 #: Dredd-v3/cogs/music.py:933
 msgid " Switch the players loop "
-msgstr " Cambia el blucle de los reproductores "
+msgstr " Cambia el bucle de los reproductores "
 
 #: Dredd-v3/cogs/music.py:943
 #, python-brace-format
