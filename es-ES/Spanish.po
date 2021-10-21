@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-29 15:17+0200\n"
-"PO-Revision-Date: 2021-10-21 18:49\n"
+"PO-Revision-Date: 2021-10-21 23:29\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1249,7 +1249,7 @@ msgstr "Anti link ya está deshabilitado en este servidor."
 #: Dredd-v3/cogs/automod.py:228
 #, python-brace-format
 msgid "{0} Successfully set anti links punishment type to **{1}** members.{2}"
-msgstr "{0} Se ha establecido correctamente el tipo de castigo para antienlaces a **{1}** miembros.{2}"
+msgstr "{0} Se ha establecido correctamente el tipo de sanción para antienlaces a **{1}** miembros.{2}"
 
 #: Dredd-v3/cogs/automod.py:229 Dredd-v3/cogs/automod.py:261
 #: Dredd-v3/cogs/automod.py:300 Dredd-v3/cogs/automod.py:339
@@ -1277,7 +1277,7 @@ msgstr "Anti invitaciones ya está deshabilitado en este servidor."
 #: Dredd-v3/cogs/automod.py:260
 #, python-brace-format
 msgid "{0} Successfully set anti invites punishment type to **{1}** members.{2}"
-msgstr "{0} Se ha establecido correctamente el tipo de castigo para anti invitaciones a **{1}** miembros.{2}"
+msgstr "{0} Se ha establecido correctamente el tipo de sanción para anti invitaciones a **{1}** miembros.{2}"
 
 #: Dredd-v3/cogs/automod.py:265
 msgid "Toggle anti mass mention on or off"
@@ -1303,7 +1303,7 @@ msgstr "Anti mención masiva ya está desactivado en este servidor."
 #: Dredd-v3/cogs/automod.py:299
 #, python-brace-format
 msgid "{0} Successfully set anti mass mentions punishment type to **{1}** members. Mentions limit - `{2}`.{3}"
-msgstr "{0} He establecido con éxito el tipo de castigo de la mención masiva a **{1}** miembros. Límite de menciones - `{2}`.{3}"
+msgstr "{0} He establecido con éxito el tipo de sanción de la mención masiva a **{1}** miembros. Límite de menciones - `{2}`.{3}"
 
 #: Dredd-v3/cogs/automod.py:304
 msgid "Toggle anti mass caps on or off"
@@ -1329,7 +1329,7 @@ msgstr "Anti mayúsculas masivas ya está desactivado en este servidor."
 #: Dredd-v3/cogs/automod.py:338
 #, python-brace-format
 msgid "{0} Successfully set anti mass caps punishment type to **{1}** members. Percentage set to - `{2}`.{3}"
-msgstr "{0} He establecido con éxito el tipo de castigo de las mayúsculas masivas a **{1}** miembros. Porcentaje establecido a - `{2}`.{3}"
+msgstr "{0} He establecido con éxito el tipo de sanción de las mayúsculas masivas a **{1}** miembros. Porcentaje establecido a - `{2}`.{3}"
 
 #: Dredd-v3/cogs/automod.py:343
 msgid "Toggle anti spam on or off"
@@ -1351,7 +1351,7 @@ msgstr "Anti spam ya está deshabilitado en este servidor."
 #: Dredd-v3/cogs/automod.py:371
 #, python-brace-format
 msgid "{0} Successfully set anti spam punishment type to **{1}** members.{2}"
-msgstr "{0} Se ha establecido correctamente el tipo de castigo para anti spam a **{1}** miembros.{2}"
+msgstr "{0} Se ha establecido correctamente el tipo de sanción para anti spam a **{1}** miembros.{2}"
 
 #: Dredd-v3/cogs/automod.py:376
 msgid "Toggle if automod should ignore server moderators"
@@ -5666,7 +5666,7 @@ msgstr "Un comando de eliminar mensajes más avanzado.\n"
 "       `--user`: Una mención o el nombre del usuario para eliminar.\n"
 "       `--contains`: Una subcadena a buscar en los mensajes.\n"
 "       `--starts`: Una subcadena para buscar en los mensajes que inicien con ella.\n"
-"       `--ends`: Una subcadena para buscar en los mensajes que finalizen con ella.\n"
+"       `--ends`: Una subcadena para buscar en los mensajes que finalicen con ella.\n"
 "       `--search`: Cuántos mensajes deben ser buscados. 100 por predeterminado. 2000 como máximo.\n"
 "       `--after`:  Los mensajes deben ser después de este ID de mensaje.\n"
 "       `--before`: Los mensajes deben ser antes de este ID de mensaje.\n"
@@ -5946,7 +5946,7 @@ msgstr "**ID del caso:** {0}\n"
 #: Dredd-v3/cogs/moderation.py:1905
 #, python-brace-format
 msgid "{0} Case `#{1}` was successfuly deleted, but I was unable to send a log message to the logging channel in which case was logged. *It was most likely deleted*"
-msgstr "{0} El caso `#{1}` fue eliminado correctamente, pero no pude enviar un mensaje de registro al canal de registro, en cuyo caso fue registrado. *Posiblemente fue eliminado*"
+msgstr "{0} El caso `#{1}` fue eliminado correctamente, pero no pude enviar un mensaje de registro al canal de registro en cuyo caso fue registrado. *Posiblemente fue eliminado*"
 
 #: Dredd-v3/cogs/moderation.py:1910
 #, python-brace-format
@@ -5972,16 +5972,16 @@ msgstr "Mostrando información del caso `#{0}`"
 
 #: Dredd-v3/cogs/moderation.py:1947
 msgid "Check user history of punishments"
-msgstr "Revisa el historial de castigos de un usuario"
+msgstr "Revisa el historial de sanciones de un usuario"
 
 #: Dredd-v3/cogs/moderation.py:1953
 msgid " Get a history of user's punishments "
-msgstr " Obtén un historial de castigos del usuario "
+msgstr " Obtén un historial de sanciones del usuario "
 
 #: Dredd-v3/cogs/moderation.py:1956
 #, python-brace-format
 msgid "{0} {1} doesn't have any punishments history."
-msgstr "{0} {1} no tiene ningún historial de castigos."
+msgstr "{0} {1} no tiene ningún historial de sanciones."
 
 #: Dredd-v3/cogs/moderation.py:1975
 msgid "softban"
@@ -6483,7 +6483,7 @@ msgstr "{0} Un administrador o DJ ha barajado el reproductor."
 #: Dredd-v3/cogs/music.py:737
 #, python-brace-format
 msgid "{0} Vote to shuffle passed. Shuffling the playlist."
-msgstr "{0} Ha pasado el tiempo para votar bajarar. Mezclando la lista de reproducción."
+msgstr "{0} Ha pasado el tiempo para votar barajar. Mezclando la lista de reproducción."
 
 #: Dredd-v3/cogs/music.py:741
 #, python-brace-format
