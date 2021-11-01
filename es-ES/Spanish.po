@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-01 14:36+0100\n"
-"PO-Revision-Date: 2021-11-01 15:21\n"
+"PO-Revision-Date: 2021-11-01 16:18\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -424,7 +424,7 @@ msgstr "Proporciona el enlace de la(s) canción(es) que deseas agregar a la list
 
 #: Dredd-v3/utils/components.py:352
 msgid "No music nodes are currently active, please try again later."
-msgstr ""
+msgstr "No hay nodos de música activos, por favor, inténtalo de nuevo más tarde."
 
 #. type: ignore
 #: Dredd-v3/utils/components.py:359 Dredd-v3/utils/components.py:375
@@ -454,21 +454,21 @@ msgstr "{0} La canción no fue encontrada, por favor asegúrate de proporcionar 
 #: Dredd-v3/utils/components.py:394
 #, python-brace-format
 msgid "{0} Successfully removed **{1}** from your playlist - {2}"
-msgstr ""
+msgstr "{0} He eliminado con éxito **{1}** de tu lista de reproducción - {2}"
 
 #: Dredd-v3/utils/components.py:404
 msgid "Provide the new playlist name you want to use. The playlist name can be up to 32 characters."
-msgstr ""
+msgstr "Proporciona el nombre de la lista de reproducción que deseas utilizar. El nombre de la lista de reproducción puede tener hasta 32 caracteres."
 
 #: Dredd-v3/utils/components.py:406
 #, python-brace-format
 msgid "{0} Renamed playlist **{1}** to **{2}**"
-msgstr ""
+msgstr "{0} Lista de reproducción renombrada de **{1}** a **{2}**"
 
 #: Dredd-v3/utils/components.py:416
 #, python-brace-format
 msgid "{0} This playlist has no songs."
-msgstr ""
+msgstr "{0} Esta lista de reproducción no tiene canciones."
 
 #: Dredd-v3/utils/components.py:427 Dredd-v3/cogs/music.py:703
 #, python-brace-format
@@ -483,31 +483,32 @@ msgstr "Total de canciones en cola: {0}"
 #: Dredd-v3/utils/components.py:432
 #, python-brace-format
 msgid "Playlist: {0}"
-msgstr ""
+msgstr "Lista de reproducción: {0}"
 
 #: Dredd-v3/utils/components.py:438
 msgid "Canceled command."
-msgstr ""
+msgstr "Comando cancelado."
 
 #: Dredd-v3/utils/paginator.py:162
 #, python-brace-format
 msgid "Showing page {page}/{maximum_pages} ({entries} entries)"
-msgstr ""
+msgstr "Mostrando página {page}/{maximum_pages} ({entries} entradas)"
 
 #: Dredd-v3/utils/paginator.py:164
 #, python-brace-format
 msgid "Showing page {page}/{maximum_pages}"
-msgstr ""
+msgstr "Mostrando página {page}/{maximum_pages}"
 
 #: Dredd-v3/utils/paginator.py:200
 msgid "Please choose an option..."
-msgstr ""
+msgstr "Por favor, selecciona una opción..."
 
 #: Dredd-v3/utils/paginator.py:350
 #, python-brace-format
 msgid "{0}\n\n"
 "Page {1}/{2}"
-msgstr ""
+msgstr "{0}\n\n"
+"Página {1}/{2}"
 
 #: Dredd-v3/utils/rtfm.py:139
 msgid "Cannot build rtfm lookup table, try again later."
@@ -561,7 +562,7 @@ msgstr "Estricto Anti Raid: Nadie puede unirse al servidor"
 
 #: Dredd-v3/cogs/events/automod.py:340
 msgid "Sending malicious links"
-msgstr ""
+msgstr "Enviando enlaces maliciosos"
 
 #: Dredd-v3/cogs/events/automod.py:361
 msgid "Member Muted"
@@ -690,7 +691,10 @@ msgid "Thank you for using me! Unfortunately this command is vote locked and you
 "{0}\n"
 "If you've voted already, please wait cause the API might be slow.\n\n"
 "*After you vote, you'll be able to use this command, and you will help Dredd gain more servers :D*"
-msgstr ""
+msgstr "¡Gracias por usarme! Desafortunadamente, este comando está bloqueado para votar y tendrás que votar por Dredd. Puedes votar en cualquiera de estas listas:\n"
+"{0}\n"
+"Si ya has votado, por favor espera porque la API puede que esté lenta.\n\n"
+"*Después de que votes, podrás usar este comando, y ayudarás Dredd alcanzaar más servidores :D*"
 
 #: Dredd-v3/cogs/events/errors.py:135
 #, python-brace-format
@@ -765,7 +769,7 @@ msgstr "{0} | Se esperaba un espacio después de la cita, pero se recibió otra 
 #: Dredd-v3/cogs/events/errors.py:250
 #, python-brace-format
 msgid "{0} | Unexpected quote in non-quoted string, please remove all quotes."
-msgstr ""
+msgstr "{0} | Cinta inesperada en una cadena no citada, por favor, elimina todas las comillas."
 
 #. no other way to prevent this
 #: Dredd-v3/cogs/events/errors.py:258
@@ -2272,7 +2276,7 @@ msgstr "¡No te atreves a hacer eso!"
 
 #: Dredd-v3/cogs/fun.py:205
 msgid "Roast api seems to be down, try again later!"
-msgstr ""
+msgstr "La api roast parece estar caída, inténtalo de nuevo más tarde!"
 
 #: Dredd-v3/cogs/help.py:38
 msgid "Shows help about bot and/or commands"
@@ -2317,7 +2321,7 @@ msgstr "\n"
 
 #: Dredd-v3/cogs/help.py:157
 msgid "You can also navigate through the dropdown below to view commands in each category."
-msgstr ""
+msgstr "También puedes navegar a través del menú desplegable abajo para ver los comandos en cada categoría."
 
 #: Dredd-v3/cogs/help.py:187 Dredd-v3/cogs/help.py:240
 msgid "Aliases: "
@@ -2329,11 +2333,11 @@ msgstr "No se ha encontrado ningún alias."
 
 #: Dredd-v3/cogs/help.py:188 Dredd-v3/cogs/help.py:241
 msgid "Required permissions for you: "
-msgstr ""
+msgstr "Permisos necesarios para ti: "
 
 #: Dredd-v3/cogs/help.py:189 Dredd-v3/cogs/help.py:242
 msgid "Required permissions for me: "
-msgstr ""
+msgstr "Permisos necesarios para mí: "
 
 #: Dredd-v3/cogs/help.py:191 Dredd-v3/cogs/help.py:244
 msgid "No help was provided..."
@@ -2418,7 +2422,23 @@ msgid "\n"
 "• Members: **{11}**\n"
 "• Servers: **{12}**\n"
 "• Channels: {13} **{14}** | {15} **{16}**\n\n"
-msgstr ""
+msgstr "\n"
+"¡Dredd es un bot que ayudará a tu servidor con moderación, divertir a tus miembros, y mucho más! El bot se está ejecutando en la **V{0}** y actualmente está mantenido.\n\n"
+"**Desarrollador:** [{1}](https://discord.com/users/345457928972533773)\n"
+"**Biblioteca y versión:** {2} [discord.py {3}§mejorada](https://github.com/iDutchy/discord.py)\n"
+"**Último inicio:** {4}\n"
+"**Creado:** {5} ({6})\n\n"
+"**Enlaces:**\n"
+"• [Servidor de soporte]({7})\n"
+"• [Invitación del bot]({8})\n"
+"• [Sitio web]({17})\n\n"
+"**Últimos cambios:**\n"
+"{9}\n\n"
+"**Total:**\n"
+"• Comandos: **{10}**\n"
+"• Miembros: **{11}**\n"
+"• Servidores: **{12}**\n"
+"• Canales: {13} **{14}** | {15} **{16}**\n\n"
 
 #: Dredd-v3/cogs/info.py:138
 msgid " A detailed information of the server the bot is hosted on. "
@@ -2558,7 +2578,7 @@ msgstr "\n"
 msgid "\n"
 "**Banned:** {0}"
 msgstr "\n"
-"**Baneado:** {0}"
+"**Baneados:** {0}"
 
 #: Dredd-v3/cogs/info.py:263
 #, python-brace-format
@@ -2800,7 +2820,9 @@ msgstr "Lugares de votación"
 msgid "You can vote for me in any of those lists:\n"
 "{0}\n\n"
 "*Voting will unlock some commands for you to use and will help me grow faster!*"
-msgstr ""
+msgstr "Puedes votar por mí en cualquiera de esas listas:\n"
+"{0}\n\n"
+"*¡Votar desbloqueará algunos comandos para que puedas usarlos y me ayudará a crecer más rápido!*"
 
 #: Dredd-v3/cogs/info.py:445
 msgid "The bot's Privacy Policy and Terms of Use"
@@ -2889,7 +2911,7 @@ msgid "**Role name:** {0}\n"
 "**Role mention:** {1}\n"
 "**Role ID:** {2}"
 msgstr "**Nombre del rol:** {0}\n"
-"**Rol mencionado:** {1}\n"
+"**Mención del rol:** {1}\n"
 "**ID del rol:** {2}"
 
 #: Dredd-v3/cogs/info.py:528
@@ -2908,7 +2930,7 @@ msgid "**Is Integration:** {0}\n"
 "**Color:** {3}\n"
 "**Created:** {4}\n\n"
 "**Members:** {5}"
-msgstr "**Es integración:** {0}\n"
+msgstr "**Es integrado:** {0}\n"
 "**Se muestra separado:** {1}\n"
 "**Posición:** {2}\n"
 "**Color:** {3}\n"
@@ -4585,11 +4607,11 @@ msgstr " Busca un término en el diccionario urbano "
 
 #: Dredd-v3/cogs/misc.py:119
 msgid "No URL found"
-msgstr ""
+msgstr "No se encontró la URL"
 
 #: Dredd-v3/cogs/misc.py:123
 msgid "No results were found."
-msgstr ""
+msgstr "No se han encontrado resultados."
 
 #: Dredd-v3/cogs/misc.py:134
 #, python-brace-format
@@ -4963,7 +4985,7 @@ msgstr "¿Estás seguro de que quieres excluir? Una vez que lo hagas, no registr
 
 #: Dredd-v3/cogs/misc.py:529
 msgid "Are you sure you want to opt-in? Once you'll do that I'll start logging your snipes to my cache."
-msgstr ""
+msgstr "¿Estás seguro de que quieres optar? Una vez que lo hagas, empezaré a registrar tus comandos snipe."
 
 #: Dredd-v3/cogs/misc.py:531
 msgid "Toggle your nicknames logging"
@@ -5881,12 +5903,12 @@ msgstr "Clona un canal"
 
 #: Dredd-v3/cogs/moderation.py:1476
 msgid " Nuke any channel in the server. This command will clone the selected channel and create another one with exact permissions "
-msgstr ""
+msgstr " Clona cualquier canal en el servidor. Este comando clonará el canal seleccionado y creará otro con los permisos exactos "
 
 #: Dredd-v3/cogs/moderation.py:1482
 #, python-brace-format
 msgid "{0} Unfortunately, this command does not work with thread channels."
-msgstr ""
+msgstr "{0} Desafortunadamente, este comando no funciona con los canales de hilos."
 
 #: Dredd-v3/cogs/moderation.py:1487
 #, python-brace-format
@@ -6412,7 +6434,7 @@ msgstr "{0} He eliminado con éxito {1} canciones de la cola."
 #: Dredd-v3/cogs/music.py:259
 #, python-brace-format
 msgid "{0} Music nodes decided to die at the moment, please try again later."
-msgstr ""
+msgstr "{0} Los nodos de música decidieron morir en este momento, por favor, inténtalo de nuevo más tarde."
 
 #: Dredd-v3/cogs/music.py:276
 msgid "Everyone left the voice channel, I will stop playing music"
@@ -6470,11 +6492,11 @@ msgstr "{0} Si tienes el enlace de la canción también puedes usar el comando `
 #. type: ignore
 #: Dredd-v3/cogs/music.py:433
 msgid "Cancel Search"
-msgstr ""
+msgstr "Cancelar Búsqueda"
 
 #: Dredd-v3/cogs/music.py:435
 msgid "Select one of the songs..."
-msgstr ""
+msgstr "Selecciona una de las canciones..."
 
 #: Dredd-v3/cogs/music.py:437
 #, python-brace-format
@@ -6850,93 +6872,93 @@ msgstr "{0} Las canciones ya no harán bucle"
 
 #: Dredd-v3/cogs/music.py:870
 msgid "Shows your playlist(s)"
-msgstr ""
+msgstr "Muestra tu(s) lista(s) de reproducción"
 
 #: Dredd-v3/cogs/music.py:875
 msgid " A base command for managing your playlists. If user is provided, you can see that user's playlist and queue it. "
-msgstr ""
+msgstr " Un comando base para administrar tus listas de reproducción. Si el usuario es proporcionado, puedes ver la lista de reproducción y la cola del usuario. "
 
 #: Dredd-v3/cogs/music.py:879
 #, python-brace-format
 msgid "{0} You do not have any playlists!"
-msgstr ""
+msgstr "{0} ¡No tienes listas de reproducción!"
 
 #: Dredd-v3/cogs/music.py:879
 #, python-brace-format
 msgid "{0} {1} does not have any playlists!"
-msgstr ""
+msgstr "{0} !{1} No tiene listas de reproducción!"
 
 #: Dredd-v3/cogs/music.py:883
 #, python-brace-format
 msgid "{user}'s playlists"
-msgstr ""
+msgstr "Listas de reproducción de {user}"
 
 #: Dredd-v3/cogs/music.py:883
 msgid "Your playlists"
-msgstr ""
+msgstr "Tus listas de reproducción"
 
 #: Dredd-v3/cogs/music.py:884
 #, python-brace-format
 msgid "`[{0}]` **{1}** `({2} songs)`"
-msgstr ""
+msgstr "`[{0}]` **{1}** `({2} canciones)`"
 
 #: Dredd-v3/cogs/music.py:887
 msgid "Manage your playlist(s)"
-msgstr ""
+msgstr "Administra tu(s) lista(s) de reproducción"
 
 #: Dredd-v3/cogs/music.py:895
 msgid "Create playlist"
-msgstr ""
+msgstr "Crea lista de reproducción"
 
 #: Dredd-v3/cogs/music.py:898
 msgid "Delete playlist"
-msgstr ""
+msgstr "Elimina lista de reproducción"
 
 #. type: ignore
 #: Dredd-v3/cogs/music.py:899
 msgid "Add song(s)"
-msgstr ""
+msgstr "Añade canción(es)"
 
 #. type: ignore
 #: Dredd-v3/cogs/music.py:900
 msgid "Delete song(s)"
-msgstr ""
+msgstr "Elimina canción(es)"
 
 #. type: ignore
 #: Dredd-v3/cogs/music.py:901
 msgid "Rename playlist"
-msgstr ""
+msgstr "Renombra lista de reproducción"
 
 #. type: ignore
 #: Dredd-v3/cogs/music.py:902
 msgid "Show playlist"
-msgstr ""
+msgstr "Muestra lista de reproducción"
 
 #: Dredd-v3/cogs/music.py:904
 msgid "Cancel Command"
-msgstr ""
+msgstr "Cancelar Comando"
 
 #: Dredd-v3/cogs/music.py:906
 msgid "Managing your playlists"
-msgstr ""
+msgstr "Administrando tu lista de reproducción"
 
 #: Dredd-v3/cogs/music.py:906
 #, python-brace-format
 msgid "Managing playlist - **{0}**"
-msgstr ""
+msgstr "Administrando lista de reproducción - **{0}**"
 
 #: Dredd-v3/cogs/music.py:909
 msgid "Enqueue your or someone else's playlist"
-msgstr ""
+msgstr "Añade a la cola tu lista de reproducción o la de alguien más"
 
 #: Dredd-v3/cogs/music.py:915
 msgid " A command that lets you enqueue yours or another member's playlist "
-msgstr ""
+msgstr " Un comando que te permite añadir a la cola tu lista de reproducción o la de alguien más "
 
 #: Dredd-v3/cogs/music.py:920
 #, python-brace-format
 msgid "{0} Playlist either has no songs or was not found."
-msgstr ""
+msgstr "{0} La lista de reproducción no tiene canciones o no ha sido encontrada."
 
 #~ msgid ""
 #~ "Thank you for using me! Unfortunately this command is vote locked and "
