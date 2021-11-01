@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-01 12:07+0100\n"
-"PO-Revision-Date: 2021-11-01 11:55\n"
+"POT-Creation-Date: 2021-11-01 14:36+0100\n"
+"PO-Revision-Date: 2021-11-01 14:18\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -324,9 +324,185 @@ msgstr ""
 msgid "{0} Added the album **{1}** with {2} songs to the queue!"
 msgstr ""
 
-#: Dredd-v3/utils/default.py:579 Dredd-v3/cogs/music.py:467
+#: Dredd-v3/utils/default.py:579 Dredd-v3/cogs/music.py:466
 #, python-brace-format
 msgid "{0} Added **{1}** to the Queue!"
+msgstr ""
+
+#: Dredd-v3/utils/components.py:49
+msgid "Seems like I was disconnected from the channel in the process."
+msgstr ""
+
+#: Dredd-v3/utils/components.py:51
+#, python-brace-format
+msgid "{0} Added **{1}** to the Queue! (`{2}`)"
+msgstr ""
+
+#: Dredd-v3/utils/components.py:190 Dredd-v3/utils/components.py:228
+#: Dredd-v3/utils/components.py:458 Dredd-v3/utils/paginator.py:39
+msgid "This pagination menu cannot be controlled by you, sorry!"
+msgstr ""
+
+#: Dredd-v3/utils/components.py:202 Dredd-v3/utils/components.py:204
+#: Dredd-v3/utils/components.py:239 Dredd-v3/utils/components.py:241
+#: Dredd-v3/utils/components.py:470 Dredd-v3/utils/components.py:472
+msgid "An unknown error occurred, sorry"
+msgstr ""
+
+#: Dredd-v3/utils/components.py:262
+msgid "Select an option..."
+msgstr ""
+
+#: Dredd-v3/utils/components.py:273
+msgid "Cancelled command."
+msgstr ""
+
+#: Dredd-v3/utils/components.py:276
+msgid "The message should be under 32 characters. Make sure you're not messing anything up!"
+msgstr ""
+
+#: Dredd-v3/utils/components.py:284
+msgid "You cannot provide a link, try again without a link."
+msgstr ""
+
+#: Dredd-v3/utils/components.py:286
+msgid "You can only provide links to song(s), try again with a link."
+msgstr ""
+
+#: Dredd-v3/utils/components.py:294
+msgid "The command has expired."
+msgstr ""
+
+#: Dredd-v3/utils/components.py:312
+#, python-brace-format
+msgid "{0} Interaction returned an unknown value, please report this to the developer(s) here: {support}"
+msgstr ""
+
+#: Dredd-v3/utils/components.py:318
+#, python-brace-format
+msgid "{0} You can only have up to 15 playlists."
+msgstr ""
+
+#: Dredd-v3/utils/components.py:320
+msgid "Provide the playlist name you want to use. The playlist name can be up to 32 characters."
+msgstr ""
+
+#: Dredd-v3/utils/components.py:324
+#, python-brace-format
+msgid "{0} Successfully created a playlist **{1}**"
+msgstr ""
+
+#: Dredd-v3/utils/components.py:327
+#, python-brace-format
+msgid "{0} You already have a playlist named **{1}**"
+msgstr ""
+
+#: Dredd-v3/utils/components.py:335
+#, python-brace-format
+msgid "{0} Successfully deleted a playlist **{1}**"
+msgstr ""
+
+#: Dredd-v3/utils/components.py:338 Dredd-v3/utils/components.py:344
+#: Dredd-v3/utils/components.py:381 Dredd-v3/utils/components.py:400
+#: Dredd-v3/utils/components.py:412
+#, python-brace-format
+msgid "{0} You don't have a playlist named **{1}**"
+msgstr ""
+
+#: Dredd-v3/utils/components.py:348
+#, python-brace-format
+msgid "{0} Your playlist already has over 1000 songs, I cannot let you add more."
+msgstr ""
+
+#: Dredd-v3/utils/components.py:350
+msgid "Provide the URL of the song(s) you want to add the playlist."
+msgstr ""
+
+#: Dredd-v3/utils/components.py:352
+msgid "No music nodes are currently active, please try again later."
+msgstr ""
+
+#. type: ignore
+#: Dredd-v3/utils/components.py:359 Dredd-v3/utils/components.py:375
+#, python-brace-format
+msgid "{0} Added **{1}** songs to the playlist."
+msgstr ""
+
+#: Dredd-v3/utils/components.py:364 Dredd-v3/cogs/music.py:374
+#: Dredd-v3/cogs/music.py:426
+msgid "No songs were found with that query. Please try again."
+msgstr ""
+
+#: Dredd-v3/utils/components.py:367
+#, python-brace-format
+msgid "{0} Added **{1}** to the playlist."
+msgstr ""
+
+#: Dredd-v3/utils/components.py:385
+msgid "Provide the number of the song you want to delete from the playlist."
+msgstr ""
+
+#: Dredd-v3/utils/components.py:392
+#, python-brace-format
+msgid "{0} The song was not found, please make sure you provide a number of the song."
+msgstr ""
+
+#: Dredd-v3/utils/components.py:394
+#, python-brace-format
+msgid "{0} Successfully removed **{1}** from your playlist - {2}"
+msgstr ""
+
+#: Dredd-v3/utils/components.py:404
+msgid "Provide the new playlist name you want to use. The playlist name can be up to 32 characters."
+msgstr ""
+
+#: Dredd-v3/utils/components.py:406
+#, python-brace-format
+msgid "{0} Renamed playlist **{1}** to **{2}**"
+msgstr ""
+
+#: Dredd-v3/utils/components.py:416
+#, python-brace-format
+msgid "{0} This playlist has no songs."
+msgstr ""
+
+#: Dredd-v3/utils/components.py:427 Dredd-v3/cogs/music.py:703
+#, python-brace-format
+msgid "Total songs in the queue: {0} | Duration: {1}"
+msgstr ""
+
+#: Dredd-v3/utils/components.py:429 Dredd-v3/cogs/music.py:705
+#, python-brace-format
+msgid "Total songs in the queue: {0}"
+msgstr ""
+
+#: Dredd-v3/utils/components.py:432
+#, python-brace-format
+msgid "Playlist: {0}"
+msgstr ""
+
+#: Dredd-v3/utils/components.py:438
+msgid "Canceled command."
+msgstr ""
+
+#: Dredd-v3/utils/paginator.py:162
+#, python-brace-format
+msgid "Showing page {page}/{maximum_pages} ({entries} entries)"
+msgstr ""
+
+#: Dredd-v3/utils/paginator.py:164
+#, python-brace-format
+msgid "Showing page {page}/{maximum_pages}"
+msgstr ""
+
+#: Dredd-v3/utils/paginator.py:200
+msgid "Please choose an option..."
+msgstr ""
+
+#: Dredd-v3/utils/paginator.py:350
+#, python-brace-format
+msgid "{0}\n\n"
+"Page {1}/{2}"
 msgstr ""
 
 #: Dredd-v3/utils/rtfm.py:139
@@ -5895,49 +6071,49 @@ msgstr ""
 msgid "You need to either provide an image URL or upload one with the command"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:105
+#: Dredd-v3/cogs/music.py:104
 #, python-brace-format
 msgid "Looks like you've encountered bug that we're unaware how to fix, we've gone ahead and destroyed your music player for this guild, if you still encounter these bugs, please join the support server here: {0}"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:113
+#: Dredd-v3/cogs/music.py:112
 #, python-brace-format
 msgid "{0} Please give me permissions to speak in a stage channel. I will check if I have permissions to speak again in 10 seconds, if not, I will leave the stage channel."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:117
+#: Dredd-v3/cogs/music.py:116
 msgid "Left because I was still suppressed."
 msgstr ""
 
 #. if video is shorter than 20 seconds don't send the "Started playing" message to 1) don't spam the chat 2) don't hit the ratelimit (5/5)
-#: Dredd-v3/cogs/music.py:149
+#: Dredd-v3/cogs/music.py:148
 #, python-brace-format
 msgid "{0} Started playing **{1}**{2}"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:168
+#: Dredd-v3/cogs/music.py:167
 msgid "Queue End"
 msgstr ""
 
 #. type: ignore
-#: Dredd-v3/cogs/music.py:172
+#: Dredd-v3/cogs/music.py:171
 #, python-brace-format
 msgid "Live: {0}"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:181
+#: Dredd-v3/cogs/music.py:180
 msgid "None"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:181
+#: Dredd-v3/cogs/music.py:180
 msgid "Current"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:181
+#: Dredd-v3/cogs/music.py:180
 msgid "All"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:183
+#: Dredd-v3/cogs/music.py:182
 #, python-brace-format
 msgid "**Now Playing:** {0}\n"
 "**Duration:** {1}\n"
@@ -5951,561 +6127,544 @@ msgid "**Now Playing:** {0}\n"
 "{8}╚ **Speed:** `{10}x`"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:185
+#: Dredd-v3/cogs/music.py:184
 msgid "Live Stream"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:241
+#: Dredd-v3/cogs/music.py:240
 msgid "Alright, I will not be clearing the queue."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:245
+#: Dredd-v3/cogs/music.py:244
 #, python-brace-format
 msgid "{0} Successfully cleared {1} songs from the queue."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:260
+#: Dredd-v3/cogs/music.py:259
 #, python-brace-format
 msgid "{0} Music nodes decided to die at the moment, please try again later."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:277
+#: Dredd-v3/cogs/music.py:276
 msgid "Everyone left the voice channel, I will stop playing music"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:291
+#: Dredd-v3/cogs/music.py:290
 msgid "Everyone left the voice channel, I will pause the current track"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:300
+#: Dredd-v3/cogs/music.py:299
 msgid "The queue is empty, please add songs to the queue so I could play them."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:327
+#: Dredd-v3/cogs/music.py:326
 msgid "Connect bot to a voice channel"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:332
+#: Dredd-v3/cogs/music.py:331
 msgid " Connect bot to a voice channel "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:337
+#: Dredd-v3/cogs/music.py:336
 #, python-brace-format
 msgid "{0} Already connected to the voice channel."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:344
+#: Dredd-v3/cogs/music.py:343
 #, python-brace-format
 msgid "{0} Connected to **{1}**!"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:346 Dredd-v3/cogs/music.py:404
+#: Dredd-v3/cogs/music.py:345 Dredd-v3/cogs/music.py:403
 msgid "Search for and add song(s) to the Queue"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:352 Dredd-v3/cogs/music.py:410
+#: Dredd-v3/cogs/music.py:351 Dredd-v3/cogs/music.py:409
 msgid " Search for and add song(s) to the Queue "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:375 Dredd-v3/cogs/music.py:427
-msgid "No songs were found with that query. Please try again."
-msgstr ""
-
-#: Dredd-v3/cogs/music.py:388 Dredd-v3/cogs/music.py:945
+#: Dredd-v3/cogs/music.py:387 Dredd-v3/cogs/music.py:944
 #, python-brace-format
 msgid "{0} Added the playlist **{1}** with {2} songs to the queue!{3}"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:396
+#: Dredd-v3/cogs/music.py:395
 #, python-brace-format
 msgid "{0} Added **{1}** to the Queue!{2}"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:423
+#: Dredd-v3/cogs/music.py:422
 #, python-brace-format
 msgid "{0} If you have the URL of the song might as well use the `play` command."
 msgstr ""
 
 #. type: ignore
-#: Dredd-v3/cogs/music.py:434
+#: Dredd-v3/cogs/music.py:433
 msgid "Cancel Search"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:436
+#: Dredd-v3/cogs/music.py:435
 msgid "Select one of the songs..."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:438
+#: Dredd-v3/cogs/music.py:437
 #, python-brace-format
 msgid "{0} **I've found these songs:**\n\n"
 "{1}\n"
 "*Please choose a song you want me to queue*"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:440
+#: Dredd-v3/cogs/music.py:439
 msgid "Enqueue the radio station"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:446
+#: Dredd-v3/cogs/music.py:445
 msgid " Plays the selected radio station, if you have suggestions for radio stations, feel free to suggest them in the support server"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:458
+#: Dredd-v3/cogs/music.py:457
 #, python-brace-format
 msgid "You may choose from one of these radio stations:\n"
 "• {0}"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:463
+#: Dredd-v3/cogs/music.py:462
 msgid "Uh oh, looks like that radio station broke down."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:474
+#: Dredd-v3/cogs/music.py:473
 msgid "Toggle player's 24/7 mode"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:480
+#: Dredd-v3/cogs/music.py:479
 msgid " Enable or disable the player's 24/7 mode "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:486
+#: Dredd-v3/cogs/music.py:485
 #, python-brace-format
 msgid "{0} Successfuly enabled 24/7 mode, I will stay in the voice channel when everyone leaves."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:491
+#: Dredd-v3/cogs/music.py:490
 #, python-brace-format
 msgid "{0} Successfully disabled 24/7 mode, I will leave the voice channel when everyone leaves."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:495
+#: Dredd-v3/cogs/music.py:494
 #, python-brace-format
 msgid "{0} I'm sorry, but only the DJ and people with manage messages permission can toggle the 24/7 mode."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:497
+#: Dredd-v3/cogs/music.py:496
 msgid "Pause the currently playing song"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:503
+#: Dredd-v3/cogs/music.py:502
 msgid " Pause the currently playing song. "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:508
+#: Dredd-v3/cogs/music.py:507
 #, python-brace-format
 msgid "{0} You cannot pause live streams."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:512 Dredd-v3/cogs/music.py:585
+#: Dredd-v3/cogs/music.py:511 Dredd-v3/cogs/music.py:584
 #, python-brace-format
 msgid "{0} An admin or DJ has stopped the player."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:517
+#: Dredd-v3/cogs/music.py:516
 #, python-brace-format
 msgid "**{0}** has voted to pause the player, {1} more votes are needed to pause."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:518
+#: Dredd-v3/cogs/music.py:517
 #, python-brace-format
 msgid "{0} Vote to pause passed. Pausing the player."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:522
+#: Dredd-v3/cogs/music.py:521
 msgid "Resume the currently paused song."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:528
+#: Dredd-v3/cogs/music.py:527
 msgid " Resume the currently paused song. "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:533
+#: Dredd-v3/cogs/music.py:532
 #, python-brace-format
 msgid "{0} An admin or DJ has resumed the player."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:539
+#: Dredd-v3/cogs/music.py:538
 #, python-brace-format
 msgid "**{0}** has voted to resume the player, {1} more votes are needed to resume."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:540
+#: Dredd-v3/cogs/music.py:539
 #, python-brace-format
 msgid "{0} Vote to resume passed. Resuming the player."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:544
+#: Dredd-v3/cogs/music.py:543
 msgid "Skip the currently playing song."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:550
+#: Dredd-v3/cogs/music.py:549
 msgid " Skip the currently playing song. "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:555
+#: Dredd-v3/cogs/music.py:554
 #, python-brace-format
 msgid "{0} There's nothing to skip to, the queue is empty.."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:558
+#: Dredd-v3/cogs/music.py:557
 #, python-brace-format
 msgid "{0} An admin or DJ has skipped the song."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:562
+#: Dredd-v3/cogs/music.py:561
 msgid "The song requester has skipped the song."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:569
+#: Dredd-v3/cogs/music.py:568
 #, python-brace-format
 msgid "**{0}** has voted to skip the current song, {1} more votes are needed to skip."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:570
+#: Dredd-v3/cogs/music.py:569
 #, python-brace-format
 msgid "{0} Vote to skip passed. Skipping the song."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:574
+#: Dredd-v3/cogs/music.py:573
 msgid "Disconnect the player and controller"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:580
+#: Dredd-v3/cogs/music.py:579
 msgid " Stop and disconnect the player and controller. "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:590
+#: Dredd-v3/cogs/music.py:589
 #, python-brace-format
 msgid "**{0}** has voted to stop the player, {1} more votes are needed to stop."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:591
+#: Dredd-v3/cogs/music.py:590
 #, python-brace-format
 msgid "{0} Vote to stop passed. Stopping the player."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:595
+#: Dredd-v3/cogs/music.py:594
 msgid "Change the player's volume"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:602
+#: Dredd-v3/cogs/music.py:601
 msgid " Change the player's volume "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:611
+#: Dredd-v3/cogs/music.py:610
 #, python-brace-format
 msgid "Setting the player volume to **{0}%**"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:614
+#: Dredd-v3/cogs/music.py:613
 msgid "Seek the currently playing song"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:620
+#: Dredd-v3/cogs/music.py:619
 msgid " Seek the currently playing song "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:624 Dredd-v3/cogs/music.py:818
+#: Dredd-v3/cogs/music.py:623 Dredd-v3/cogs/music.py:817
 #, python-brace-format
 msgid "{0} Can't do that on a stream."
 msgstr ""
 
 #. past the end
-#: Dredd-v3/cogs/music.py:633 Dredd-v3/cogs/music.py:652
+#: Dredd-v3/cogs/music.py:632 Dredd-v3/cogs/music.py:651
 #, python-brace-format
 msgid "{0} You can't seek past the song."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:637
+#: Dredd-v3/cogs/music.py:636
 #, python-brace-format
 msgid "{0} Time format doesn't seem to be correct, make sure it's `x:xx:xx` for hours, `x:xx` for minutes and `xx` for seconds."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:645
+#: Dredd-v3/cogs/music.py:644
 #, python-brace-format
 msgid "{0} The time you've provided contains letters, please make sure you only use numbers"
 msgstr ""
 
 #. type: ignore
-#: Dredd-v3/cogs/music.py:654
+#: Dredd-v3/cogs/music.py:653
 #, python-brace-format
 msgid "{0} Seeked the current song to `{1}/{2}`"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:656
+#: Dredd-v3/cogs/music.py:655
 msgid "Shuffle the queue"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:662
+#: Dredd-v3/cogs/music.py:661
 msgid "Shuffle the queue."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:667
+#: Dredd-v3/cogs/music.py:666
 msgid "Add more songs to the queue before shuffling."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:670
+#: Dredd-v3/cogs/music.py:669
 #, python-brace-format
 msgid "{0} An admin or DJ has shuffled the player."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:677
+#: Dredd-v3/cogs/music.py:676
 #, python-brace-format
 msgid "**{0}** has voted to shuffle the playlist, {1} more votes are needed to shuffle."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:678
+#: Dredd-v3/cogs/music.py:677
 #, python-brace-format
 msgid "{0} Vote to shuffle passed. Shuffling the playlist."
 msgstr ""
 
 #. type: ignore
-#: Dredd-v3/cogs/music.py:682
+#: Dredd-v3/cogs/music.py:681
 msgid "See the player's Queue"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:688
+#: Dredd-v3/cogs/music.py:687
 msgid " Retrieve information on the next songs in the queue. "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:692
+#: Dredd-v3/cogs/music.py:691
 msgid "There are no songs currently in the queue."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:704
-#, python-brace-format
-msgid "Total songs in the queue: {0} | Duration: {1}"
-msgstr ""
-
-#: Dredd-v3/cogs/music.py:706
-#, python-brace-format
-msgid "Total songs in the queue: {0}"
-msgstr ""
-
-#: Dredd-v3/cogs/music.py:709
+#: Dredd-v3/cogs/music.py:708
 #, python-brace-format
 msgid "{0} Queue"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:718
+#: Dredd-v3/cogs/music.py:717
 msgid "Remove a song from the queue"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:725
+#: Dredd-v3/cogs/music.py:724
 msgid " Remove a song from the queue "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:729 Dredd-v3/cogs/music.py:753
+#: Dredd-v3/cogs/music.py:728 Dredd-v3/cogs/music.py:752
 msgid "There are no songs in the queue."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:733
+#: Dredd-v3/cogs/music.py:732
 #, python-brace-format
 msgid "{0} There are only {1} songs in the queue"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:737
+#: Dredd-v3/cogs/music.py:736
 #, python-brace-format
 msgid "{0} Removed song {1} from the queue, there are now {2} songs left in the queue."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:742
+#: Dredd-v3/cogs/music.py:741
 msgid "Clear all the songs from the queue"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:749
+#: Dredd-v3/cogs/music.py:748
 msgid " Clear all the songs from the queue "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:757
+#: Dredd-v3/cogs/music.py:756
 #, python-brace-format
 msgid "{0} You're about to delete all the songs from the queue. Are you sure you want to do that?"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:760
+#: Dredd-v3/cogs/music.py:759
 msgid "See currently playing song"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:766
+#: Dredd-v3/cogs/music.py:765
 msgid " Retrieve currently playing song. "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:777
+#: Dredd-v3/cogs/music.py:776
 msgid "Manage the player's filter"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:782
+#: Dredd-v3/cogs/music.py:781
 msgid " Base command for managing player's filter "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:785
+#: Dredd-v3/cogs/music.py:784
 msgid "Change the pitch of the song"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:791
+#: Dredd-v3/cogs/music.py:790
 msgid " Modify the players pitch. "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:795 Dredd-v3/cogs/music.py:815
+#: Dredd-v3/cogs/music.py:794 Dredd-v3/cogs/music.py:814
 msgid "The value you provided is invalid and will crash the player."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:800 Dredd-v3/cogs/music.py:824
+#: Dredd-v3/cogs/music.py:799 Dredd-v3/cogs/music.py:823
 msgid "The value you provided can't be negative or above 2.0"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:802
+#: Dredd-v3/cogs/music.py:801
 #, python-brace-format
 msgid "{0} Changed the pitch to **{1}x**, give up to 10 seconds for player to take effect"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:804
+#: Dredd-v3/cogs/music.py:803
 msgid "Change the speed of the song"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:810
+#: Dredd-v3/cogs/music.py:809
 msgid " Set the players speed."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:826
+#: Dredd-v3/cogs/music.py:825
 #, python-brace-format
 msgid "{0} Changed the speed to **{1}x**, give up to 10 seconds for player to take effect"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:828
+#: Dredd-v3/cogs/music.py:827
 msgid "Reset the player's filter"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:834
+#: Dredd-v3/cogs/music.py:833
 msgid " Reset the players pitch and speed "
 msgstr ""
 
 #. type: ignore
-#: Dredd-v3/cogs/music.py:840
+#: Dredd-v3/cogs/music.py:839
 #, python-brace-format
 msgid "{0} Reset the players filter, give up to 10 seconds for player to take effect."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:842
+#: Dredd-v3/cogs/music.py:841
 msgid "Switch the player's loop"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:848
+#: Dredd-v3/cogs/music.py:847
 msgid " Switch the players loop "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:858
+#: Dredd-v3/cogs/music.py:857
 #, python-brace-format
 msgid "**{0}** has voted to loop the player, {1} more votes are needed to loop."
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:862
+#: Dredd-v3/cogs/music.py:861
 #, python-brace-format
 msgid "{0} Now looping **{1}**"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:866
+#: Dredd-v3/cogs/music.py:865
 #, python-brace-format
 msgid "{0} Now looping all the songs"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:869
+#: Dredd-v3/cogs/music.py:868
 #, python-brace-format
 msgid "{0} Songs will no longer loop"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:871
+#: Dredd-v3/cogs/music.py:870
 msgid "Shows your playlist(s)"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:876
+#: Dredd-v3/cogs/music.py:875
 msgid " A base command for managing your playlists. If user is provided, you can see that user's playlist and queue it. "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:880
+#: Dredd-v3/cogs/music.py:879
 #, python-brace-format
 msgid "{0} You do not have any playlists!"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:880
+#: Dredd-v3/cogs/music.py:879
 #, python-brace-format
 msgid "{0} {1} does not have any playlists!"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:884
+#: Dredd-v3/cogs/music.py:883
 #, python-brace-format
-msgid "{user}'s plalists"
+msgid "{user}'s playlists"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:884
+#: Dredd-v3/cogs/music.py:883
 msgid "Your playlists"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:885
+#: Dredd-v3/cogs/music.py:884
 #, python-brace-format
 msgid "`[{0}]` **{1}** `({2} songs)`"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:888
+#: Dredd-v3/cogs/music.py:887
 msgid "Manage your playlist(s)"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:896
+#: Dredd-v3/cogs/music.py:895
 msgid "Create playlist"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:899
+#: Dredd-v3/cogs/music.py:898
 msgid "Delete playlist"
 msgstr ""
 
 #. type: ignore
-#: Dredd-v3/cogs/music.py:900
+#: Dredd-v3/cogs/music.py:899
 msgid "Add song(s)"
 msgstr ""
 
 #. type: ignore
-#: Dredd-v3/cogs/music.py:901
+#: Dredd-v3/cogs/music.py:900
 msgid "Delete song(s)"
 msgstr ""
 
 #. type: ignore
-#: Dredd-v3/cogs/music.py:902
+#: Dredd-v3/cogs/music.py:901
 msgid "Rename playlist"
 msgstr ""
 
 #. type: ignore
-#: Dredd-v3/cogs/music.py:903
+#: Dredd-v3/cogs/music.py:902
 msgid "Show playlist"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:905
+#: Dredd-v3/cogs/music.py:904
 msgid "Cancel Command"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:907
+#: Dredd-v3/cogs/music.py:906
 msgid "Managing your playlists"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:907
+#: Dredd-v3/cogs/music.py:906
 #, python-brace-format
 msgid "Managing playlist - **{0}**"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:910
+#: Dredd-v3/cogs/music.py:909
 msgid "Enqueue your or someone else's playlist"
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:916
+#: Dredd-v3/cogs/music.py:915
 msgid " A command that lets you enqueue yours or another member's playlist "
 msgstr ""
 
-#: Dredd-v3/cogs/music.py:921
+#: Dredd-v3/cogs/music.py:920
 #, python-brace-format
 msgid "{0} Playlist either has no songs or was not found."
 msgstr ""
-
-#~ msgid "{0} Added **{1}** to the Queue! (`{2}`)"
-#~ msgstr "{0} He añadido **{1}** a la cola!(`{2}`)"
 
 #~ msgid ""
 #~ "Thank you for using me! Unfortunately this command is vote locked and "
