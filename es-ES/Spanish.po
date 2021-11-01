@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-01 14:36+0100\n"
-"PO-Revision-Date: 2021-11-01 14:18\n"
+"PO-Revision-Date: 2021-11-01 15:21\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -335,92 +335,92 @@ msgstr "{0} ¡He añadido **{1}** a la Cola!"
 
 #: Dredd-v3/utils/components.py:49
 msgid "Seems like I was disconnected from the channel in the process."
-msgstr ""
+msgstr "Parece que fui desconectado del canal en el proceso."
 
 #: Dredd-v3/utils/components.py:51
 #, python-brace-format
 msgid "{0} Added **{1}** to the Queue! (`{2}`)"
-msgstr ""
+msgstr "{0} ¡He añadido **{1}** a la cola! (`{2}`)"
 
 #: Dredd-v3/utils/components.py:190 Dredd-v3/utils/components.py:228
 #: Dredd-v3/utils/components.py:458 Dredd-v3/utils/paginator.py:39
 msgid "This pagination menu cannot be controlled by you, sorry!"
-msgstr ""
+msgstr "Este menú de paginación no puede ser controlado por ti, ¡lo sentimos!"
 
 #: Dredd-v3/utils/components.py:202 Dredd-v3/utils/components.py:204
 #: Dredd-v3/utils/components.py:239 Dredd-v3/utils/components.py:241
 #: Dredd-v3/utils/components.py:470 Dredd-v3/utils/components.py:472
 msgid "An unknown error occurred, sorry"
-msgstr ""
+msgstr "Ocurrió un error desconocido, lo siento"
 
 #: Dredd-v3/utils/components.py:262
 msgid "Select an option..."
-msgstr ""
+msgstr "Selecciona una opción..."
 
 #: Dredd-v3/utils/components.py:273
 msgid "Cancelled command."
-msgstr ""
+msgstr "Comando cancelado."
 
 #: Dredd-v3/utils/components.py:276
 msgid "The message should be under 32 characters. Make sure you're not messing anything up!"
-msgstr ""
+msgstr "El mensaje debe tener menos de 32 caracteres. ¡Asegúrate de que no estés arruinando nada!"
 
 #: Dredd-v3/utils/components.py:284
 msgid "You cannot provide a link, try again without a link."
-msgstr ""
+msgstr "No puedes proporcionar un enlace, inténtalo de nuevo sin un enlace."
 
 #: Dredd-v3/utils/components.py:286
 msgid "You can only provide links to song(s), try again with a link."
-msgstr ""
+msgstr "Sólo puede proporcionar enlaces de canción(es), inténtelo de nuevo con un enlace."
 
 #: Dredd-v3/utils/components.py:294
 msgid "The command has expired."
-msgstr ""
+msgstr "El comando ha expirado."
 
 #: Dredd-v3/utils/components.py:312
 #, python-brace-format
 msgid "{0} Interaction returned an unknown value, please report this to the developer(s) here: {support}"
-msgstr ""
+msgstr "{0} La interacción devolvió un valor desconocido, por favor reporta esto al desarrollador(es) aquí: {support}"
 
 #: Dredd-v3/utils/components.py:318
 #, python-brace-format
 msgid "{0} You can only have up to 15 playlists."
-msgstr ""
+msgstr "{0} Solo puedes tener 15 listas de reproducción como máximo."
 
 #: Dredd-v3/utils/components.py:320
 msgid "Provide the playlist name you want to use. The playlist name can be up to 32 characters."
-msgstr ""
+msgstr "Proporciona el nombre de la lista de reproducción que deseas utilizar. El nombre de la lista de reproducción puede tener hasta 32 caracteres."
 
 #: Dredd-v3/utils/components.py:324
 #, python-brace-format
 msgid "{0} Successfully created a playlist **{1}**"
-msgstr ""
+msgstr "{0} He creado correctamente la lista de reproducción **{1}**"
 
 #: Dredd-v3/utils/components.py:327
 #, python-brace-format
 msgid "{0} You already have a playlist named **{1}**"
-msgstr ""
+msgstr "{0} Ya tienes una lista de reproducción llamada **{1}**"
 
 #: Dredd-v3/utils/components.py:335
 #, python-brace-format
 msgid "{0} Successfully deleted a playlist **{1}**"
-msgstr ""
+msgstr "{0} He eliminado correctamente la lista de reproducción **{1}**"
 
 #: Dredd-v3/utils/components.py:338 Dredd-v3/utils/components.py:344
 #: Dredd-v3/utils/components.py:381 Dredd-v3/utils/components.py:400
 #: Dredd-v3/utils/components.py:412
 #, python-brace-format
 msgid "{0} You don't have a playlist named **{1}**"
-msgstr ""
+msgstr "{0} No tienes una lista de reproducción llamada **{1}**"
 
 #: Dredd-v3/utils/components.py:348
 #, python-brace-format
 msgid "{0} Your playlist already has over 1000 songs, I cannot let you add more."
-msgstr ""
+msgstr "{0} Tu lista de reproducción ya tiene más de 1000 canciones, no puedo dejarte añadir más."
 
 #: Dredd-v3/utils/components.py:350
 msgid "Provide the URL of the song(s) you want to add the playlist."
-msgstr ""
+msgstr "Proporciona el enlace de la(s) canción(es) que deseas agregar a la lista de reproducción."
 
 #: Dredd-v3/utils/components.py:352
 msgid "No music nodes are currently active, please try again later."
@@ -430,7 +430,7 @@ msgstr ""
 #: Dredd-v3/utils/components.py:359 Dredd-v3/utils/components.py:375
 #, python-brace-format
 msgid "{0} Added **{1}** songs to the playlist."
-msgstr ""
+msgstr "{0} He añadido **{1}** canciones a la lista de reproducción."
 
 #: Dredd-v3/utils/components.py:364 Dredd-v3/cogs/music.py:374
 #: Dredd-v3/cogs/music.py:426
@@ -440,16 +440,16 @@ msgstr "No se han encontrado canciones con esa consulta. Por favor, inténtalo d
 #: Dredd-v3/utils/components.py:367
 #, python-brace-format
 msgid "{0} Added **{1}** to the playlist."
-msgstr ""
+msgstr "{0} He añadido **{1}** a la lista de reproducción."
 
 #: Dredd-v3/utils/components.py:385
 msgid "Provide the number of the song you want to delete from the playlist."
-msgstr ""
+msgstr "Proporciona el número de la canción que quieres eliminar de la lista de reproducción."
 
 #: Dredd-v3/utils/components.py:392
 #, python-brace-format
 msgid "{0} The song was not found, please make sure you provide a number of the song."
-msgstr ""
+msgstr "{0} La canción no fue encontrada, por favor asegúrate de proporcionar un número de la canción."
 
 #: Dredd-v3/utils/components.py:394
 #, python-brace-format
