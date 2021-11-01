@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-01 12:07+0100\n"
-"PO-Revision-Date: 2021-11-01 11:55\n"
+"PO-Revision-Date: 2021-11-01 13:22\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -385,7 +385,7 @@ msgstr "Αυστηρό αυτόματο σύστημα ενάντια raid: Κα
 
 #: Dredd-v3/cogs/events/automod.py:340
 msgid "Sending malicious links"
-msgstr ""
+msgstr "Αποστολή κακόβουλων συνδέσμων"
 
 #: Dredd-v3/cogs/events/automod.py:361
 msgid "Member Muted"
@@ -513,7 +513,10 @@ msgid "Thank you for using me! Unfortunately this command is vote locked and you
 "{0}\n"
 "If you've voted already, please wait cause the API might be slow.\n\n"
 "*After you vote, you'll be able to use this command, and you will help Dredd gain more servers :D*"
-msgstr ""
+msgstr "Σας ευχαριστούμε που με χρησιμοποιήσατε! Δυστυχώς αυτή η εντολή είναι κλειδωμένη και θα πρέπει να ψηφίσετε για εμένα - τον Dredd. Μπορείτε να ψηφίσετε σε οποιαδήποτε από αυτές τις λίστες:\n"
+"{0}\n"
+"Αν έχετε ήδη ψηφίσει, παρακαλώ περιμένετε γιατί το API μπορεί να είναι αργό.\n\n"
+"*Μετά την ψήφο σας, θα μπορείτε να χρησιμοποιήσετε αυτή την εντολή και θα βοηθήσετε τον Dredd να αποκτήσει περισσότερους χρήστες :D*"
 
 #: Dredd-v3/cogs/events/errors.py:135
 #, python-brace-format
