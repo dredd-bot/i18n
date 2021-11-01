@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-01 14:36+0100\n"
-"PO-Revision-Date: 2021-11-01 16:18\n"
+"PO-Revision-Date: 2021-11-01 17:28\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -254,12 +254,12 @@ msgstr "{0} Salidas de Miembros\n"
 #: Dredd-v3/utils/default.py:351
 #, python-brace-format
 msgid "{0} Member Updates\n"
-msgstr "{0} Actualizaciones miembro(s)\n"
+msgstr "{0} Actualizaciones de miembro(s)\n"
 
 #: Dredd-v3/utils/default.py:353 Dredd-v3/utils/default.py:361
 #, python-brace-format
 msgid "{0} Raid mode\n"
-msgstr "{0} Modo raid\n"
+msgstr "{0} Modo invasión\n"
 
 #: Dredd-v3/utils/default.py:354 Dredd-v3/utils/default.py:362
 #, python-brace-format
@@ -371,7 +371,7 @@ msgstr "No puedes proporcionar un enlace, inténtalo de nuevo sin un enlace."
 
 #: Dredd-v3/utils/components.py:286
 msgid "You can only provide links to song(s), try again with a link."
-msgstr "Sólo puede proporcionar enlaces de canción(es), inténtelo de nuevo con un enlace."
+msgstr "Sólo puede proporcionar enlaces de canción(es), inténtalo de nuevo con un enlace."
 
 #: Dredd-v3/utils/components.py:294
 msgid "The command has expired."
@@ -694,7 +694,7 @@ msgid "Thank you for using me! Unfortunately this command is vote locked and you
 msgstr "¡Gracias por usarme! Desafortunadamente, este comando está bloqueado para votar y tendrás que votar por Dredd. Puedes votar en cualquiera de estas listas:\n"
 "{0}\n"
 "Si ya has votado, por favor espera porque la API puede que esté lenta.\n\n"
-"*Después de que votes, podrás usar este comando, y ayudarás Dredd alcanzaar más servidores :D*"
+"*Después de que votes, podrás usar este comando, y ayudarás Dredd alcanzar más servidores :D*"
 
 #: Dredd-v3/cogs/events/errors.py:135
 #, python-brace-format
@@ -2306,7 +2306,7 @@ msgstr "Invitación del bot"
 #: Dredd-v3/cogs/help.py:147
 #, python-brace-format
 msgid "{0} Help"
-msgstr "{0} Ayuda"
+msgstr "Ayuda de {0}"
 
 #: Dredd-v3/cogs/help.py:150
 msgid "Categories:"
@@ -2425,7 +2425,7 @@ msgid "\n"
 msgstr "\n"
 "¡Dredd es un bot que ayudará a tu servidor con moderación, divertir a tus miembros, y mucho más! El bot se está ejecutando en la **V{0}** y actualmente está mantenido.\n\n"
 "**Desarrollador:** [{1}](https://discord.com/users/345457928972533773)\n"
-"**Biblioteca y versión:** {2} [discord.py {3}§mejorada](https://github.com/iDutchy/discord.py)\n"
+"**Biblioteca y versión:** {2} [discord.py mejorada {3}]({17})\n"
 "**Último inicio:** {4}\n"
 "**Creado:** {5} ({6})\n\n"
 "**Enlaces:**\n"
