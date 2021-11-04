@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-01 14:36+0100\n"
-"PO-Revision-Date: 2021-11-01 14:18\n"
+"PO-Revision-Date: 2021-11-04 08:55\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -335,7 +335,7 @@ msgstr "{0} Pridėta {1} į eilę!"
 
 #: Dredd-v3/utils/components.py:49
 msgid "Seems like I was disconnected from the channel in the process."
-msgstr ""
+msgstr "Atrodo, kad aš buvau atsijunges proceso vykdime."
 
 #: Dredd-v3/utils/components.py:51
 #, python-brace-format
@@ -351,19 +351,19 @@ msgstr ""
 #: Dredd-v3/utils/components.py:239 Dredd-v3/utils/components.py:241
 #: Dredd-v3/utils/components.py:470 Dredd-v3/utils/components.py:472
 msgid "An unknown error occurred, sorry"
-msgstr ""
+msgstr "Įvyko nežinoma klaida"
 
 #: Dredd-v3/utils/components.py:262
 msgid "Select an option..."
-msgstr ""
+msgstr "Pasirinkite variantą..."
 
 #: Dredd-v3/utils/components.py:273
 msgid "Cancelled command."
-msgstr ""
+msgstr "Komanda buvo atšaukta."
 
 #: Dredd-v3/utils/components.py:276
 msgid "The message should be under 32 characters. Make sure you're not messing anything up!"
-msgstr ""
+msgstr "Žinutė turėtų būti mažiau negu 32 raidės. Įsitikinkite, kad viskas yra teisinga!"
 
 #: Dredd-v3/utils/components.py:284
 msgid "You cannot provide a link, try again without a link."
@@ -375,7 +375,7 @@ msgstr ""
 
 #: Dredd-v3/utils/components.py:294
 msgid "The command has expired."
-msgstr ""
+msgstr "Komandos galiojimo laikas baigėsi."
 
 #: Dredd-v3/utils/components.py:312
 #, python-brace-format
@@ -385,7 +385,7 @@ msgstr ""
 #: Dredd-v3/utils/components.py:318
 #, python-brace-format
 msgid "{0} You can only have up to 15 playlists."
-msgstr ""
+msgstr "{0} Jūs galite turėti tik iki 15 grojaraščių."
 
 #: Dredd-v3/utils/components.py:320
 msgid "Provide the playlist name you want to use. The playlist name can be up to 32 characters."
