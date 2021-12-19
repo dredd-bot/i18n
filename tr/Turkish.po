@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-01 14:36+0100\n"
-"PO-Revision-Date: 2021-11-01 14:18\n"
+"PO-Revision-Date: 2021-12-19 10:52\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -64,7 +64,7 @@ msgstr "Oyunuzu almaya çalışırken hata oluştu, ayrıntılı hata bildirisi 
 
 #: Dredd-v3/utils/checks.py:210
 msgid "This command is in its testing phase, you can join the support server if you want to apply your guild to be a testing guild or know when the command will be available."
-msgstr ""
+msgstr "Bu komut şimdilik test aşamasındadır, komudu sunucunuzda kullanabilmek istiyorsanız ya da ne zaman kullanılabilir olacağını öğrenmek istiyorsanız destek sunucusuna katılabilirsiniz."
 
 #: Dredd-v3/utils/checks.py:223
 #, python-brace-format
@@ -312,26 +312,26 @@ msgstr ""
 
 #: Dredd-v3/utils/default.py:544
 msgid "I was not able to find this album! Please try again or use a different link."
-msgstr ""
+msgstr "Bu albümü bulamadım! Lütfen tekrar deneyin ya da başka bir link kullanın."
 
 #: Dredd-v3/utils/default.py:563
 msgid "The URL you put is either not valid or doesn't exist!"
-msgstr ""
+msgstr "Girdiğiniz URL ya geçerli değil ya da öyle bir URL yok!"
 
 #: Dredd-v3/utils/default.py:569
 #, python-brace-format
 msgid "{0} Added the playlist **{1}** with {2} songs to the queue!"
-msgstr ""
+msgstr "{0} İçinde {2} şarkı bulunan **{1}** adlı çalma listesi sıraya eklendi!"
 
 #: Dredd-v3/utils/default.py:575
 #, python-brace-format
 msgid "{0} Added the album **{1}** with {2} songs to the queue!"
-msgstr ""
+msgstr "{0} İçinde {2} şarkı bulunan **{1}** adlı albüm sıraya eklendi!"
 
 #: Dredd-v3/utils/default.py:579 Dredd-v3/cogs/music.py:466
 #, python-brace-format
 msgid "{0} Added **{1}** to the Queue!"
-msgstr ""
+msgstr "{0} **{1}** sıraya eklendi!"
 
 #: Dredd-v3/utils/components.py:49
 msgid "Seems like I was disconnected from the channel in the process."
