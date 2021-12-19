@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-01 14:36+0100\n"
-"PO-Revision-Date: 2021-12-19 09:52\n"
+"PO-Revision-Date: 2021-12-19 10:52\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
@@ -32,7 +32,7 @@ msgstr ""
 
 #: Dredd-v3/utils/btime.py:164
 msgid "Time Error! try \"in an hour\" or \"5 days\"."
-msgstr ""
+msgstr "Waktu Galat! cobalah \"in an hour\" atau \"5 days\"."
 
 #: Dredd-v3/utils/btime.py:174
 msgid "Expected quote before time input..."
@@ -40,33 +40,36 @@ msgstr ""
 
 #: Dredd-v3/utils/btime.py:177
 msgid "If the time is quoted, you must unquote it."
-msgstr ""
+msgstr "Jika waktunya dikutip, kamu harus menghapus tanda kutipnya."
 
 #: Dredd-v3/utils/btime.py:189
 msgid "Sorry, but I did not understand what you meant. You probably didn't specify the time or you specified it in another language (not English)"
-msgstr ""
+msgstr "Maaf, tapi aku tidak mengerti apa yang kamu maksud. Mungkin kamu tidak menspesifikasikan waktunya atau kamu menspesifikasikannya dalam bahasa lain (bukan bahasa Inggris)"
 
 #: Dredd-v3/utils/checks.py:85
 #, python-brace-format
 msgid "Oops!\n"
 "Error occured while fetching your vote: {0}"
-msgstr ""
+msgstr "Ups!\n"
+"Terjadi galat saat mengambil vote kamu: {0}"
 
 #: Dredd-v3/utils/checks.py:97
 #, python-brace-format
 msgid "Error occured when trying to fetch your vote, sent the detailed error to my developers.\n"
 "```py\n"
 "{0}```"
-msgstr ""
+msgstr "Terjadi galat saat mencoba mengambil vote kamu, mengirim galat terperinci ke pengembangku.\n"
+"```py\n"
+"{0}```"
 
 #: Dredd-v3/utils/checks.py:210
 msgid "This command is in its testing phase, you can join the support server if you want to apply your guild to be a testing guild or know when the command will be available."
-msgstr ""
+msgstr "Perintah ini sedang dalam tahap pengujian, kamu bisa bergabung menuju server dukungan jika kamu ingin menerapkan guild-mu menjadi guild pengujian atau jika kamu ingin tahu kapan perintah tersebut akan tersedia."
 
 #: Dredd-v3/utils/checks.py:223
 #, python-brace-format
 msgid "Unfortunately, this command is getting removed in the next update, if you want to know why, please join the support server here {0}"
-msgstr ""
+msgstr "Sayangnya, perintah ini dihapus dalam pembaruan berikutnya, jika kamu ingin tahu alasannya, silakan bergabung menuju server dukungan di sini {0}"
 
 #: Dredd-v3/utils/checks.py:234
 #, python-brace-format
