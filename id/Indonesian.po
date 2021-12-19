@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-01 14:36+0100\n"
-"PO-Revision-Date: 2021-11-01 14:18\n"
+"PO-Revision-Date: 2021-12-19 09:52\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
@@ -20,11 +20,11 @@ msgstr ""
 #: Dredd-v3/utils/btime.py:114
 #, python-brace-format
 msgid "{0} The time you've provided is in the past"
-msgstr ""
+msgstr "{0} Waktu yang kamu berikan sudah berlalu"
 
 #: Dredd-v3/utils/btime.py:129
 msgid "This time is in the past."
-msgstr ""
+msgstr "Waktu ini sudah berlalu."
 
 #: Dredd-v3/utils/btime.py:133
 msgid "Missing argument after the time."
