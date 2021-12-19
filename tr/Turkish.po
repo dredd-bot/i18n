@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-19 12:42+0100\n"
-"PO-Revision-Date: 2021-12-19 11:57\n"
+"PO-Revision-Date: 2021-12-19 12:58\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -375,7 +375,7 @@ msgstr "Komut iptal edildi."
 
 #: dredd v3/utils/components.py:293
 msgid "The message should be under 32 characters. Make sure you're not messing anything up!"
-msgstr ""
+msgstr "Mesaj 32 karakterden kısa olmalıdır! Hiçbir şeyi karıştırmadığınızdan emin olun!"
 
 #: dredd v3/utils/components.py:301
 msgid "You cannot provide a link, try again without a link."
@@ -387,17 +387,17 @@ msgstr ""
 
 #: dredd v3/utils/components.py:311
 msgid "The command has expired."
-msgstr ""
+msgstr "Komutun süresi geçti."
 
 #: dredd v3/utils/components.py:329
 #, python-brace-format
 msgid "{0} Interaction returned an unknown value, please report this to the developer(s) here: {support}"
-msgstr ""
+msgstr "{0} Komut bilinmeyen bir değer döndürdü, lütfen bunu geliştiricelere şuradan bildirin: {support}"
 
 #: dredd v3/utils/components.py:335
 #, python-brace-format
 msgid "{0} You can only have up to 15 playlists."
-msgstr ""
+msgstr "{0} En fazla 15 çalma listeniz olabilir."
 
 #: dredd v3/utils/components.py:337
 msgid "Provide the playlist name you want to use. The playlist name can be up to 32 characters."
@@ -406,33 +406,33 @@ msgstr ""
 #: dredd v3/utils/components.py:341
 #, python-brace-format
 msgid "{0} Successfully created a playlist **{1}**"
-msgstr ""
+msgstr "{0} **{1}** isimli bir çalma listesi başarıyla oluşturuldu"
 
 #: dredd v3/utils/components.py:344
 #, python-brace-format
 msgid "{0} You already have a playlist named **{1}**"
-msgstr ""
+msgstr "{0} Zaten **{1}** isimli bir çalma listeniz var"
 
 #: dredd v3/utils/components.py:352
 #, python-brace-format
 msgid "{0} Successfully deleted a playlist **{1}**"
-msgstr ""
+msgstr "{0} **{1}** isimli çalma listesi başarıyla silindi"
 
 #: dredd v3/utils/components.py:355 v3/utils/components.py:361
 #: v3/utils/components.py:398 v3/utils/components.py:417
 #: v3/utils/components.py:429
 #, python-brace-format
 msgid "{0} You don't have a playlist named **{1}**"
-msgstr ""
+msgstr "{0} **{1}** isimli bir çalma listeniz yok"
 
 #: dredd v3/utils/components.py:365
 #, python-brace-format
 msgid "{0} Your playlist already has over 1000 songs, I cannot let you add more."
-msgstr ""
+msgstr "{0} Çalma listenizde 1000'den fazla şarkı var, daha fazla ekleyemezsiniz."
 
 #: dredd v3/utils/components.py:367
 msgid "Provide the URL of the song(s) you want to add the playlist."
-msgstr ""
+msgstr "Çalma listesine eklemek istediğiniz şarkıların URL'lerini giriniz."
 
 #: dredd v3/utils/components.py:369
 msgid "No music nodes are currently active, please try again later."
@@ -442,7 +442,7 @@ msgstr ""
 #: dredd v3/utils/components.py:376 v3/utils/components.py:392
 #, python-brace-format
 msgid "{0} Added **{1}** songs to the playlist."
-msgstr ""
+msgstr "{0} **{1}** çalma listesine eklendi."
 
 #: dredd v3/utils/components.py:381 v3/cogs/music.py:385 v3/cogs/music.py:439
 msgid "No songs were found with that query. Please try again."
