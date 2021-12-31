@@ -8,7 +8,7 @@
 
 **S: Komutların bekleme sürelerini azaltabilir miyim?** C: Hayır. Bir sebepten dolayı bulunuyorlar.
 
-**Q: Why isn't the bot responding to any of the commands?** A: If you're using the correct default prefix (`-`) and it wasn't changed in the server, the bot might be missing permissions to send messages or you were blacklisted from using the bot. To make sure the prefix hasn't been changed you can mention the bot and it should return the set prefix for that server, if it doesn't respond, invoke `@Dredd prefix` command and it will insert your guild's data into the database. If it still doesn't work, please open a ticket (#open-a-ticket) so we could tell you more information.
+**S: Neden bot hiç bir komuda yanıt vermiyor?** C: Eğer doğru prefix'i kullanıyorsanız (`-`) ve prefix sunucuda değiştirilmediyse, bot'un mesaj gönderme izni olmayabilir ya da bot'u kullanmaktan kara listeye alınmış olabilirsiniz. To make sure the prefix hasn't been changed you can mention the bot and it should return the set prefix for that server, if it doesn't respond, invoke `@Dredd prefix` command and it will insert your guild's data into the database. If it still doesn't work, please open a ticket (#open-a-ticket) so we could tell you more information.
 
 **S: Bu sunucuyu yükseltmek istiyorum, bunun için ne alacağım?** C: Aldığınız tüm avantajları #announcements kanalının sabitlenmiş mesajlarında görebilirsiniz.
 
