@@ -8,13 +8,13 @@
 
 **S: Komutların bekleme sürelerini azaltabilir miyim?** C: Hayır. Bir sebepten dolayı bulunuyorlar.
 
-**S: Neden bot hiç bir komuda yanıt vermiyor?** C: Eğer doğru prefix'i kullanıyorsanız (`-`) ve prefix sunucuda değiştirilmediyse, bot'un mesaj gönderme izni olmayabilir ya da bot'u kullanmaktan kara listeye alınmış olabilirsiniz. To make sure the prefix hasn't been changed you can mention the bot and it should return the set prefix for that server, if it doesn't respond, invoke `@Dredd prefix` command and it will insert your guild's data into the database. If it still doesn't work, please open a ticket (#open-a-ticket) so we could tell you more information.
+**S: Neden bot hiç bir komuda yanıt vermiyor?** C: Eğer doğru prefix'i kullanıyorsanız (`-`) ve prefix sunucuda değiştirilmediyse, botun mesaj gönderme izni olmayabilir ya da botu kullanmaktan kara listeye alınmış olabilirsiniz. Prefix'in değiştirilmediğinden emin olmak için botu pingleyin, sunucudaki prefix'i gösterecktir. Eğer bot yanıt vermezse, sunucunuzun bilgilerini veri tabanına ekletmek için `@Dredd prefix` komudunu kullanın. Eğer bot hala yanıt vermiyorsa, lütfen #open-a-ticket kanalında bir destek bileti açın ki yardım edebilelim.
 
 **S: Bu sunucuyu yükseltmek istiyorum, bunun için ne alacağım?** C: Aldığınız tüm avantajları #announcements kanalının sabitlenmiş mesajlarında görebilirsiniz.
 
-**Q: I was blacklisted and would like to get unblacklisted.** A: Please open a ticket (#open-a-ticket) so we could discuss about it.
+**S: Kara listeye alınmışım ve kara listeden çıkarılmak istiyorum.** C: Lütfen #open-a-ticket kanalında bir destek bileti açın, böylece konu hakkında tartışabiliriz.
 
-**Q: How do I run your bot? Github doesn't provide any information.** A: As stated in github: "If you don't understand something, google it. Our support server **DOES NOT** provide support for cloning Dredd.", however if you open a ticket or dm any of the staff and cry about us not helping you clone the bot, you **WILL** get banned from the server.
+**S: Botunu nasıl çalıştırabilirim? Github'da hiç bir bilgi yok.** A: Github'da dediğimiz gibi: "Birşeyi anlamadıysanız, Google'ı kullanın. Destek sunucumuz botu klonlama hakkında destek **VERMEZ**.", ve eğer destek bileti açar ya da herhangi bir personel'e DM yazıp botu klonlamada yardım etmiyoruz diye ağlarsanız, destek sunucusundan **BANLANIRSINIZ**.
 
 **S: Personel başvuruları açık mı?** C: Şansını burada dene: <https://dredd-bot.xyz/apply>
 
