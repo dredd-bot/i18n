@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-19 12:42+0100\n"
-"PO-Revision-Date: 2022-01-15 01:27\n"
+"PO-Revision-Date: 2022-01-15 02:25\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
@@ -105,17 +105,17 @@ msgstr "{0} Kamu harus berada di channel suara terlebih dahulu."
 #: dredd v3/utils/checks.py:343
 #, python-brace-format
 msgid "{0} I'm not in the voice channel."
-msgstr ""
+msgstr "{0} Aku tidak berada di channel suara."
 
 #: dredd v3/utils/checks.py:345
 #, python-brace-format
 msgid "{0} You need to be in the same voice channel with me."
-msgstr ""
+msgstr "{0} Kamu harus berada di channel suara yang sama denganku."
 
 #: dredd v3/utils/checks.py:347
 #, python-brace-format
 msgid "{0} I'm missing permissions in your voice channel. Make sure you have given me the correct permissions!"
-msgstr ""
+msgstr "{0} Aku tidak memiliki perizinan di channel suara kamu. Pastikan kamu telah memberikanku perizinan yang benar!"
 
 #: dredd v3/utils/checks.py:349
 #, python-brace-format
