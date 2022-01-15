@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-19 12:42+0100\n"
-"PO-Revision-Date: 2021-12-19 11:56\n"
+"PO-Revision-Date: 2022-01-15 01:27\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
@@ -85,22 +85,22 @@ msgstr "Dredd sedang dalam masa pemeliharaan!"
 #: dredd v3/utils/checks.py:273
 #, python-brace-format
 msgid "{0} | `{1}` and its corresponding subcommands are currently disabled for: `{2}`"
-msgstr ""
+msgstr "{0} | Saat Ini `{1}` dan subperintah yang sesuai dinonaktifkan dengan alasan: `{2}`"
 
 #: dredd v3/utils/checks.py:276
 #, python-brace-format
 msgid "{0} | `{1} {2}` is currently disabled for: `{3}`"
-msgstr ""
+msgstr "{0} | Saat ini `{1} {2}` dinonaktifkan dengan alasan: `{3}`"
 
 #: dredd v3/utils/checks.py:284
 #, python-brace-format
 msgid "{0} | `{1}` is currently disabled for: `{2}`"
-msgstr ""
+msgstr "{0} | Saat ini `{1}` dinonaktifkan dengan alasan: `{2}`"
 
 #: dredd v3/utils/checks.py:341
 #, python-brace-format
 msgid "{0} You need to be in a voice channel first."
-msgstr ""
+msgstr "{0} Kamu harus berada di channel suara terlebih dahulu."
 
 #: dredd v3/utils/checks.py:343
 #, python-brace-format
