@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-19 12:42+0100\n"
-"PO-Revision-Date: 2021-12-19 11:56\n"
+"PO-Revision-Date: 2022-01-17 11:21\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -333,12 +333,12 @@ msgstr "{0} Đã thêm **{1}** vào hàng chờ!"
 
 #: dredd v3/utils/components.py:50
 msgid "Seems like I was disconnected from the channel in the process."
-msgstr ""
+msgstr "Có vẻ tôi đã bị ngắt kết nối khỏi kênh trong quá trình."
 
 #: dredd v3/utils/components.py:52
 #, python-brace-format
 msgid "{0} Added **{1}** to the Queue! (`{2}`)"
-msgstr ""
+msgstr "{0} Đã thêm **{1}** vào hàng chờ` (`{2}`)"
 
 #: dredd v3/utils/components.py:173 v3/utils/components.py:665
 #: v3/utils/components.py:671 v3/utils/components.py:676
@@ -346,7 +346,7 @@ msgstr ""
 #: v3/cogs/manage.py:223 v3/cogs/manage.py:249 v3/cogs/manage.py:292
 #: v3/cogs/manage.py:313 v3/cogs/manage.py:337 v3/cogs/manage.py:367
 msgid "Cancelling the command. Deleting this message in 15 seconds"
-msgstr ""
+msgstr "Đang huỷ lệnh. Xoá tin nhắn này trong 15 giây"
 
 #: dredd v3/utils/components.py:197 v3/utils/components.py:237
 #: v3/utils/components.py:475 v3/utils/components.py:508
@@ -355,38 +355,38 @@ msgstr ""
 #: v3/utils/components.py:879 v3/utils/components.py:897
 #: v3/utils/paginator.py:39
 msgid "This pagination menu cannot be controlled by you, sorry!"
-msgstr ""
+msgstr "Xin lỗi, bạn không thể điều khiển menu phân trang này!"
 
 #: dredd v3/utils/components.py:209 v3/utils/components.py:211
 #: v3/utils/components.py:248 v3/utils/components.py:250
 #: v3/utils/components.py:487 v3/utils/components.py:489
 msgid "An unknown error occurred, sorry"
-msgstr ""
+msgstr "Xin lỗi, đã xảy ra một lỗi không xác định"
 
 #: dredd v3/utils/components.py:279 v3/utils/components.py:612
 #: v3/utils/components.py:840 v3/cogs/manage.py:1709
 msgid "Select an option..."
-msgstr ""
+msgstr "Hãy chọn một lựa chọn..."
 
 #: dredd v3/utils/components.py:290
 msgid "Cancelled command."
-msgstr ""
+msgstr "Lệnh đã được huỷ bỏ."
 
 #: dredd v3/utils/components.py:293
 msgid "The message should be under 32 characters. Make sure you're not messing anything up!"
-msgstr ""
+msgstr "Tin nhắn phải dưới 32 ký tự. Hãy chắc chắn rằng bạn không làm lộn xộn bất cứ điều gì!"
 
 #: dredd v3/utils/components.py:301
 msgid "You cannot provide a link, try again without a link."
-msgstr ""
+msgstr "Bạn không thể cung cấp một liên kết, hãy thử lại khi không có liên kết."
 
 #: dredd v3/utils/components.py:303
 msgid "You can only provide links to song(s), try again with a link."
-msgstr ""
+msgstr "Bạn chỉ có thể gửi liên kết về (các) bài hát, hãy thử lại với một liên kết khác."
 
 #: dredd v3/utils/components.py:311
 msgid "The command has expired."
-msgstr ""
+msgstr "Lệnh đã hết hạn."
 
 #: dredd v3/utils/components.py:329
 #, python-brace-format
