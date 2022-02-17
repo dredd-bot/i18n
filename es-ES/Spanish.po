@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-19 12:42+0100\n"
-"PO-Revision-Date: 2021-12-19 11:57\n"
+"PO-Revision-Date: 2022-02-17 22:18\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -506,7 +506,7 @@ msgstr ""
 
 #: dredd v3/utils/components.py:607
 msgid "Title of the embed."
-msgstr ""
+msgstr "Título del incrustado."
 
 #: dredd v3/utils/components.py:607
 msgid "Let's you change the title of the embed."
@@ -515,7 +515,7 @@ msgstr ""
 #. type: ignore
 #: dredd v3/utils/components.py:608
 msgid "Description of the embed."
-msgstr ""
+msgstr "Descripción del incrustado."
 
 #: dredd v3/utils/components.py:608
 msgid "Let's you change the description of the embed."
@@ -524,7 +524,7 @@ msgstr ""
 #. type: ignore
 #: dredd v3/utils/components.py:609
 msgid "Footer of the embed."
-msgstr ""
+msgstr "Pie del incrustado."
 
 #: dredd v3/utils/components.py:609
 msgid "Let's you change the footer of the embed."
@@ -533,7 +533,7 @@ msgstr ""
 #. type: ignore
 #: dredd v3/utils/components.py:610
 msgid "None of the above."
-msgstr ""
+msgstr "Ninguno de las anteriores."
 
 #: dredd v3/utils/components.py:610
 msgid "Let's you customize the whole embed, this requires you to send a whole payload."
@@ -542,7 +542,7 @@ msgstr ""
 #: dredd v3/utils/components.py:627 v3/cogs/manage.py:369
 #, python-brace-format
 msgid "You've hit the characters limit: {0}/{1}"
-msgstr ""
+msgstr "Has alcanzado el límite de caracteres: {0}/{1}"
 
 #: dredd v3/utils/components.py:635 v3/cogs/manage.py:940
 #, python-brace-format
@@ -551,46 +551,46 @@ msgstr "{0} Tu incrustado es inválido. Por favor, usa <https://embedbuilder.nad
 
 #: dredd v3/utils/components.py:648
 msgid "What should the embed look like? Embed builder: <https://embedbuilder.nadekobot.me/>"
-msgstr ""
+msgstr "¿Cómo debería ser el incrustado? Constructor de incrustados: <https://embedbuilder.nadekobot.me/>"
 
 #: dredd v3/utils/components.py:653
 msgid "This is how your embed will look like, are you ok with it? `y` or `n`"
-msgstr ""
+msgstr "Así es como se verá tu incrustado, ¿estás de acuerdo con ella? `y` para sí o `n` para no"
 
 #: dredd v3/utils/components.py:657 v3/utils/components.py:685
 #: v3/cogs/manage.py:347 v3/cogs/manage.py:373 v3/cogs/manage.py:384
 #, python-brace-format
 msgid "{0} Successfully created reaction roles setup!"
-msgstr ""
+msgstr "{0} ¡He creado correctamente los roles de reacción!"
 
 #: dredd v3/utils/components.py:661
 msgid "Okay, let's try again."
-msgstr ""
+msgstr "Vale, intentemos de nuevo."
 
 #: dredd v3/utils/components.py:663
 msgid "It seems like the embed was not built correctly, let's retry that."
-msgstr ""
+msgstr "Parece que el incrustado no fue creado correctamente, reintentémoslo."
 
 #: dredd v3/utils/components.py:669
 msgid "What should the title of the embed be?"
-msgstr ""
+msgstr "¿Cuál debe ser el título del incrustado?"
 
 #: dredd v3/utils/components.py:674
 msgid "What should the description of the embed be?"
-msgstr ""
+msgstr "¿Cuál debe ser la descripción del incrustado?"
 
 #: dredd v3/utils/components.py:679
 msgid "What should the footer of the embed be?"
-msgstr ""
+msgstr "¿Cuál debe ser el pie del incrustado?"
 
 #: dredd v3/utils/components.py:754 v3/utils/components.py:763
 msgid "Would you like to customize the message?"
-msgstr ""
+msgstr "¿Te gustaría personalizar el mensaje?"
 
 #: dredd v3/utils/components.py:778
 #, python-brace-format
 msgid "You must have {role.mention} role in order to access this reaction roles setup."
-msgstr ""
+msgstr "Debes tener el rol {role.mention} para podere acceder a esta configuración de roles de reacción."
 
 #: dredd v3/utils/components.py:783
 #, python-brace-format
