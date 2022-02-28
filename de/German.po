@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-17 23:32+0100\n"
-"PO-Revision-Date: 2022-02-17 23:27\n"
+"PO-Revision-Date: 2022-02-28 08:25\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: dredd v3/utils/btime.py:114
 #, python-brace-format
 msgid "{0} The time you've provided is in the past"
-msgstr "{0} Diese Zeit, die du angegeben hast liegt in der Vergangenheit"
+msgstr "{0} Diese Zeit, die du angegeben hast, liegt in der Vergangenheit"
 
 #: dredd v3/utils/btime.py:129
 msgid "This time is in the past."
