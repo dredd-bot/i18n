@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-17 23:32+0100\n"
-"PO-Revision-Date: 2022-02-17 23:27\n"
+"PO-Revision-Date: 2022-05-02 21:16\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -258,88 +258,88 @@ msgstr "{0} Aggiornamenti sui membri\n"
 #: dredd v3/utils/default.py:352 v3/utils/default.py:360
 #, python-brace-format
 msgid "{0} Raid mode\n"
-msgstr ""
+msgstr "{0} Modalità raid\n"
 
 #: dredd v3/utils/default.py:353 v3/utils/default.py:361
 #, python-brace-format
 msgid "{0} Welcoming messages\n"
-msgstr ""
+msgstr "{0} Messaggi di benvenuto\n"
 
 #: dredd v3/utils/default.py:354 v3/utils/default.py:362
 #, python-brace-format
 msgid "{0} Leaving messages\n"
-msgstr ""
+msgstr "{0} Messaggi di addio\n"
 
 #: dredd v3/utils/default.py:355 v3/utils/default.py:363
 #, python-brace-format
 msgid "{0} Role on Join\n"
-msgstr ""
+msgstr "{0} Ruolo in entrata\n"
 
 #: dredd v3/utils/default.py:356 v3/utils/default.py:364
 #, python-brace-format
 msgid "{0} Dehoisting\n"
-msgstr ""
+msgstr "{0} Dehoisting\n"
 
 #: dredd v3/utils/default.py:357 v3/utils/default.py:365
 #, python-brace-format
 msgid "{0} Automod\n"
-msgstr ""
+msgstr "{0} Auto-moderazione\n"
 
 #: dredd v3/utils/default.py:514 v3/cogs/moderation.py:2170
 msgid "mute"
-msgstr ""
+msgstr "silenzia"
 
 #: dredd v3/utils/default.py:515
 msgid "temp-mute"
-msgstr ""
+msgstr "silenzia temporaneamente"
 
 #: dredd v3/utils/default.py:516 v3/cogs/moderation.py:2164
 msgid "kick"
-msgstr ""
+msgstr "espelli"
 
 #: dredd v3/utils/default.py:517 v3/cogs/moderation.py:2161
 msgid "ban"
-msgstr ""
+msgstr "bandisci"
 
 #: dredd v3/utils/default.py:518
 msgid "temp-ban"
-msgstr ""
+msgstr "bandisci temporaneamente"
 
 #: dredd v3/utils/default.py:536
 msgid "I was not able to find this playlist! Please try again or use a different link."
-msgstr ""
+msgstr "Non sono riuscito a trovare questa playlist! Per favore riprova o usa un link diverso."
 
 #: dredd v3/utils/default.py:543
 msgid "I was not able to find this album! Please try again or use a different link."
-msgstr ""
+msgstr "Non sono riuscito a trovare questo album! Per favore riprova o usa un link diverso."
 
 #: dredd v3/utils/default.py:562
 msgid "The URL you put is either not valid or doesn't exist!"
-msgstr ""
+msgstr "L'URL inserito non è valido o non esiste!"
 
 #: dredd v3/utils/default.py:568
 #, python-brace-format
 msgid "{0} Added the playlist **{1}** with {2} songs to the queue!"
-msgstr ""
+msgstr "{0} Aggiunta la playlist **{1}** con {2} canzoni in coda!"
 
 #: dredd v3/utils/default.py:574
 #, python-brace-format
 msgid "{0} Added the album **{1}** with {2} songs to the queue!"
-msgstr ""
+msgstr "{0} Aggiunta l'album **{1}** con {2} canzoni in coda!"
 
 #: dredd v3/utils/default.py:578 v3/cogs/music.py:479
 #, python-brace-format
 msgid "{0} Added **{1}** to the Queue!"
-msgstr ""
+msgstr "{0} Aggiunto **{1}** alla Coda!"
 
 #: dredd v3/utils/components.py:50
 msgid "Seems like I was disconnected from the channel in the process."
-msgstr ""
+msgstr "Sembra che sia stato disconnesso dal canale durante il processo."
 
 #: dredd v3/utils/components.py:52
 #, python-brace-format
 msgid "{0} Added **{1}** to the Queue! (`{2}`)"
-msgstr ""
+msgstr "{0} Aggiunto **{1}** alla Coda! (`{2}`)"
 
 #: dredd v3/utils/components.py:173 v3/utils/components.py:665
 #: v3/utils/components.py:671 v3/utils/components.py:676
@@ -347,7 +347,7 @@ msgstr ""
 #: v3/cogs/manage.py:223 v3/cogs/manage.py:249 v3/cogs/manage.py:292
 #: v3/cogs/manage.py:313 v3/cogs/manage.py:337 v3/cogs/manage.py:367
 msgid "Cancelling the command. Deleting this message in 15 seconds"
-msgstr ""
+msgstr "Annullando il comando. Eliminazione di questo messaggio in 15 secondi"
 
 #: dredd v3/utils/components.py:197 v3/utils/components.py:237
 #: v3/utils/components.py:475 v3/utils/components.py:508
@@ -356,22 +356,22 @@ msgstr ""
 #: v3/utils/components.py:879 v3/utils/components.py:897
 #: v3/utils/paginator.py:39
 msgid "This pagination menu cannot be controlled by you, sorry!"
-msgstr ""
+msgstr "Questa pagina del menù non può essere controllata da te, mi dispiace!"
 
 #: dredd v3/utils/components.py:209 v3/utils/components.py:211
 #: v3/utils/components.py:248 v3/utils/components.py:250
 #: v3/utils/components.py:487 v3/utils/components.py:489
 msgid "An unknown error occurred, sorry"
-msgstr ""
+msgstr "Si è verificato un errore sconosciuto, mi dispiace"
 
 #: dredd v3/utils/components.py:279 v3/utils/components.py:612
 #: v3/utils/components.py:840 v3/cogs/manage.py:1712
 msgid "Select an option..."
-msgstr ""
+msgstr "Seleziona un'opzione..."
 
 #: dredd v3/utils/components.py:290
 msgid "Cancelled command."
-msgstr ""
+msgstr "Comando annullato."
 
 #: dredd v3/utils/components.py:293
 msgid "The message should be under 32 characters. Make sure you're not messing anything up!"
