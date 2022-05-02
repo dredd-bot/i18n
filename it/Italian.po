@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-17 23:32+0100\n"
-"PO-Revision-Date: 2022-05-02 21:16\n"
+"PO-Revision-Date: 2022-05-02 22:13\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -375,55 +375,55 @@ msgstr "Comando annullato."
 
 #: dredd v3/utils/components.py:293
 msgid "The message should be under 32 characters. Make sure you're not messing anything up!"
-msgstr ""
+msgstr "Il messaggio deve essere meno di 32 caratteri. Assicurati di non fare confusione!"
 
 #: dredd v3/utils/components.py:301
 msgid "You cannot provide a link, try again without a link."
-msgstr ""
+msgstr "Non puoi fornire un link, riprova senza un link."
 
 #: dredd v3/utils/components.py:303
 msgid "You can only provide links to song(s), try again with a link."
-msgstr ""
+msgstr "Puoi solo fornire link di canzoni, riprova con un link."
 
 #: dredd v3/utils/components.py:311
 msgid "The command has expired."
-msgstr ""
+msgstr "Il comando è scaduto."
 
 #: dredd v3/utils/components.py:329
 #, python-brace-format
 msgid "{0} Interaction returned an unknown value, please report this to the developer(s) here: {support}"
-msgstr ""
+msgstr "{0} L'interazione ha restituito un valore sconosciuto, si prega di segnalarlo agli sviluppatori qui: {support}"
 
 #: dredd v3/utils/components.py:335
 #, python-brace-format
 msgid "{0} You can only have up to 15 playlists."
-msgstr ""
+msgstr "{0} Puoi avere un massimo di 15 playlist."
 
 #: dredd v3/utils/components.py:337
 msgid "Provide the playlist name you want to use. The playlist name can be up to 32 characters."
-msgstr ""
+msgstr "Fornire il nome della playlist che vuoi utilizzare. Il nome della playlist non può superare 32 caratteri."
 
 #: dredd v3/utils/components.py:341
 #, python-brace-format
 msgid "{0} Successfully created a playlist **{1}**"
-msgstr ""
+msgstr "{0} Playlist creata con successo **{1}**"
 
 #: dredd v3/utils/components.py:344
 #, python-brace-format
 msgid "{0} You already have a playlist named **{1}**"
-msgstr ""
+msgstr "{0} Hai già una playlist chiamata **{1}**"
 
 #: dredd v3/utils/components.py:352
 #, python-brace-format
 msgid "{0} Successfully deleted a playlist **{1}**"
-msgstr ""
+msgstr "{0} Playlist eliminata con successo **{1}**"
 
 #: dredd v3/utils/components.py:355 v3/utils/components.py:361
 #: v3/utils/components.py:398 v3/utils/components.py:417
 #: v3/utils/components.py:429
 #, python-brace-format
 msgid "{0} You don't have a playlist named **{1}**"
-msgstr ""
+msgstr "{0} Non hai una playlist chiamata **{1}**"
 
 #: dredd v3/utils/components.py:365
 #, python-brace-format
