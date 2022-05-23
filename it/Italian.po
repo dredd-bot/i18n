@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-17 23:32+0100\n"
-"PO-Revision-Date: 2022-05-02 22:13\n"
+"PO-Revision-Date: 2022-05-23 10:06\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -6958,7 +6958,7 @@ msgstr ""
 #: dredd v3/cogs/music.py:938
 #, python-brace-format
 msgid "{0} Playlist either has no songs or was not found."
-msgstr ""
+msgstr "{0} La playlist non ha brani o non è stata trovata."
 
 #~ msgid ""
 #~ "You can vote for me in any of those lists:\n"
