@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-17 23:32+0100\n"
-"PO-Revision-Date: 2022-05-31 21:26\n"
+"PO-Revision-Date: 2022-05-31 23:04\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -212,23 +212,23 @@ msgstr "{0} Serveur du personnel de Dredd"
 
 #: dredd v3/utils/default.py:234
 msgid "{} Dredd Verified Server"
-msgstr ""
+msgstr "{0} Serveur vérifié Dredd"
 
 #: dredd v3/utils/default.py:235
 #, python-brace-format
 msgid "{0} Dredd Partnered Server"
-msgstr ""
+msgstr "{0} Serveur Partenaire de Dredd"
 
 #. ctx.bot.cache.get(ctx.bot, 'joinrole', server.id)
 #: dredd v3/utils/default.py:344
 #, python-brace-format
 msgid "{0} Edited messages\n"
-msgstr ""
+msgstr "{0} a édité les messages\n"
 
 #: dredd v3/utils/default.py:345
 #, python-brace-format
 msgid "{0} Deleted messages\n"
-msgstr ""
+msgstr "{0} Messages supprimés\n"
 
 #: dredd v3/utils/default.py:346
 #, python-brace-format
@@ -253,17 +253,17 @@ msgstr "{0} Congés des membres\n"
 #: dredd v3/utils/default.py:350
 #, python-brace-format
 msgid "{0} Member Updates\n"
-msgstr ""
+msgstr "{0} Mises à jour des membres\n"
 
 #: dredd v3/utils/default.py:352 v3/utils/default.py:360
 #, python-brace-format
 msgid "{0} Raid mode\n"
-msgstr ""
+msgstr "{0} mode Raid\n"
 
 #: dredd v3/utils/default.py:353 v3/utils/default.py:361
 #, python-brace-format
 msgid "{0} Welcoming messages\n"
-msgstr ""
+msgstr "{0} messages d'accueil\n"
 
 #: dredd v3/utils/default.py:354 v3/utils/default.py:362
 #, python-brace-format
@@ -273,7 +273,7 @@ msgstr "{0} Laisser des messages\n"
 #: dredd v3/utils/default.py:355 v3/utils/default.py:363
 #, python-brace-format
 msgid "{0} Role on Join\n"
-msgstr ""
+msgstr "{0} Rôle en Rejoignant\n"
 
 #: dredd v3/utils/default.py:356 v3/utils/default.py:364
 #, python-brace-format
@@ -283,11 +283,11 @@ msgstr ""
 #: dredd v3/utils/default.py:357 v3/utils/default.py:365
 #, python-brace-format
 msgid "{0} Automod\n"
-msgstr ""
+msgstr "{0} Automod\n"
 
 #: dredd v3/utils/default.py:514 v3/cogs/moderation.py:2170
 msgid "mute"
-msgstr ""
+msgstr "rendre muet"
 
 #: dredd v3/utils/default.py:515
 msgid "temp-mute"
