@@ -1,21 +1,21 @@
 :flag_us: **Frequently Asked Questions**
 
-**Q: Why isn't a command working even though I am typing it right?** A: Either a command was removed or the bot is missing permissions.
+**Q : Pourquoi une commande ne fonctionne pas même si je la tais correctement ?** A : Soit une commande a été supprimée, soit le bot manque de permissions.
 
-**Q: What language is the bot written in?** A: Python, discord.py library.
+**Q : Dans quel langage le bot est-il écrit ?** A : bibliothèque Python, discord.py.
 
-**Q: Can I contribute to Dredd's source?** A: Yes, the link to the code is available via the `-source` command.
+**Q : Puis-je contribuer à la source de Dredd ?** A : Oui, le lien vers le code est disponible via la commande `-source`.
 
-**Q: Can I reduce the cooldowns of the commands?** A: No. They're there for a reason.
+**Q : Puis-je réduire le temps de recharge des commandes ?** A : Non. Ils sont là pour une raison.
 
-**Q: Why isn't the bot responding to any of the commands?** A: If you're using the correct default prefix (`-`) and it wasn't changed in the server, the bot might be missing permissions to send messages or you were blacklisted from using the bot. To make sure the prefix hasn't been changed you can mention the bot and it should return the set prefix for that server, if it doesn't respond, invoke `@Dredd prefix` command and it will insert your guild's data into the database. If it still doesn't work, please open a ticket (#open-a-ticket) so we could tell you more information.
+**Q : Pourquoi le bot ne répond-il pas à l'une des commandes ?** A : Si vous utilisez le bon préfixe par défaut (`-`) et qu'il n'a pas été changé dans le serveur, il se peut que le bot ne dispose pas des permissions pour envoyer des messages ou que vous n'ayez pas été autorisé à utiliser le bot. Pour vous assurer que le préfixe n'a pas été modifié, vous pouvez mentionner le bot et il devrait retourner le préfixe défini pour ce serveur, si elle ne répond pas, appelez la commande `@Dredd prefix` et elle insérera les données de votre guilde dans la base de données. Si cela ne fonctionne toujours pas, veuillez ouvrir un ticket (#open-a-ticket) afin que nous puissions vous dire plus d'informations.
 
-**Q: I want to boost this server, what will I get for that?** A: You can see all the perks you get in #announcements's pinned messages
+**Q : Je veux booster ce serveur, qu'est-ce que j'obtiendrai pour ça ?** A : Vous pouvez voir tous les avantages que vous obtenez dans les messages épinglés dans #announcements
 
-**Q: I was blacklisted and would like to get unblacklisted.** A: Please open a ticket (#open-a-ticket) so we could discuss about it.
+**Q : J'étais sur la liste noire et je voudrais me désinscrire de la liste noire.** A : Veuillez ouvrir un ticket (#open-a-ticket) afin que nous puissions en discuter.
 
-**Q: How do I run your bot? Github doesn't provide any information.** A: As stated in github: "If you don't understand something, google it. Our support server **DOES NOT** provide support for cloning Dredd.", however if you open a ticket or dm any of the staff and cry about us not helping you clone the bot, you **WILL** get banned from the server.
+**Q : Comment faire fonctionner votre bot ? Github ne fournit aucune information.** A: Comme indiqué sur github: "Si vous ne comprenez pas quelque chose, google le. Notre serveur de support **NE PEUT PAS** fournir de support pour le clonage de Dredd. , cependant si vous ouvrez un ticket ou dm l'un des membres du personnel et criez que nous ne vous aidons pas à cloner le bot, vous **SERER** serez banni du serveur.
 
-**Q: Are staff application open?** A: Try your luck here: <https://dredd-bot.xyz/apply>
+**Q : L'application du personnel est-elle ouverte ?** A : Essayez votre chance ici: <https://dredd-bot.xyz/apply>
 
-**Q: Can I become a translator?** A: Yes, of course! DM one of the managers or submit a request for your language here: https://translate.dredd-bot.xyz
+**Q : Puis-je devenir traducteur ?** A : Oui, bien sûr ! DM un des gestionnaires ou soumettez une demande pour votre langue ici : https://translate.dredd-bot.xyz
