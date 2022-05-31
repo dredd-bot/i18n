@@ -1,10 +1,10 @@
-:flag_us: **Server Rules**
+:flag_us:**règle du serveur**
 
 `[1]` **Respect all members** Treat others how you wish to be treated and never commence any personal attacks on someone. We are all humans made by human by our differences, embrace and respect them because they make us who we are.
 
 `[2]` **Spam and Advertising** Any and all forms of spam or advertising are not permitted in the server, whether it is demonstrated in messages, nicknames or usernames.
 
-`[3]` **Off-topic content and international discussions** Keep all content on-topic, i.e. don't use random commands in general, use it in dedicated channels. If you do not speak English, please move over to #international instead as well.
+`[3]` **Contenu hors sujet et discussions internationales** Conserver tout le contenu sur le sujet, i.e. N'utilisez pas des commandes aléatoires en général, utilisez-les dans les canaux dédiés. Si vous ne parlez pas l'anglais, veuillez passer à #international au lieu de cela.
 
 `[4]` **Doxxing and blackmailing** Never share any personal information about yourself or others, nor blackmail anyone.
 
