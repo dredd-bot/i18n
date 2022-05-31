@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-17 23:32+0100\n"
-"PO-Revision-Date: 2022-02-17 23:27\n"
+"PO-Revision-Date: 2022-05-31 21:26\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -40,7 +40,7 @@ msgstr "Devis attendu avant l’entrée de temps..."
 
 #: dredd v3/utils/btime.py:177
 msgid "If the time is quoted, you must unquote it."
-msgstr ""
+msgstr "Si l'heure est citée, vous devez la déchiffrer."
 
 #: dredd v3/utils/btime.py:189
 msgid "Sorry, but I did not understand what you meant. You probably didn't specify the time or you specified it in another language (not English)"
@@ -58,154 +58,157 @@ msgstr "Oups !\n"
 msgid "Error occured when trying to fetch your vote, sent the detailed error to my developers.\n"
 "```py\n"
 "{0}```"
-msgstr ""
+msgstr "Une erreur est survenue en essayant de récupérer votre vote, a envoyé l'erreur détaillée à mes développeurs.\n"
+"```py\n"
+"{0}```"
 
 #: dredd v3/utils/checks.py:209
 msgid "This command is in its testing phase, you can join the support server if you want to apply your guild to be a testing guild or know when the command will be available."
-msgstr ""
+msgstr "Cette commande est en phase de test, vous pouvez rejoindre le serveur de support si vous voulez appliquer votre guilde pour être un testeur de guilde ou savoir quand cette commande sera disponible."
 
 #: dredd v3/utils/checks.py:222
 #, python-brace-format
 msgid "Unfortunately, this command is getting removed in the next update, if you want to know why, please join the support server here {0}"
-msgstr ""
+msgstr "Malheureusement, cette commande est supprimée lors de la prochaine mise à jour, si vous voulez savoir pourquoi, veuillez rejoindre le serveur de support ici {0}"
 
 #: dredd v3/utils/checks.py:233
 #, python-brace-format
 msgid "Hello!\n"
 "We're currently under the maintenance and the bot is unavailable for use. You can join the [support server]({0}) or subscribe to our [status page]({1}) to know when we'll be available again!"
-msgstr ""
+msgstr "Bonjour !\n"
+"Nous sommes actuellement en maintenance et le bot n'est pas disponible pour l'utilisation. Vous pouvez rejoindre le [serveur de support]({0}) ou vous abonner à notre [page de statut]({1}) pour savoir quand nous serons à nouveau disponibles !"
 
 #: dredd v3/utils/checks.py:237
 msgid "Dredd is under the maintenance!"
-msgstr ""
+msgstr "Dredd est en maintenance!"
 
 #: dredd v3/utils/checks.py:273
 #, python-brace-format
 msgid "{0} | `{1}` and its corresponding subcommands are currently disabled for: `{2}`"
-msgstr ""
+msgstr "{0} | `{1}` et ses sous-commandes correspondantes sont actuellement désactivées pour: `{2}`"
 
 #: dredd v3/utils/checks.py:276
 #, python-brace-format
 msgid "{0} | `{1} {2}` is currently disabled for: `{3}`"
-msgstr ""
+msgstr "{0} | `{1} {2}` est actuellement désactivé pour :`{3}`"
 
 #: dredd v3/utils/checks.py:284
 #, python-brace-format
 msgid "{0} | `{1}` is currently disabled for: `{2}`"
-msgstr ""
+msgstr "{0} | `{1}` est actuellement désactivé pour: `{2}`"
 
 #: dredd v3/utils/checks.py:341
 #, python-brace-format
 msgid "{0} You need to be in a voice channel first."
-msgstr ""
+msgstr "{0} Vous devez d'abord être dans un salon vocal."
 
 #: dredd v3/utils/checks.py:343
 #, python-brace-format
 msgid "{0} I'm not in the voice channel."
-msgstr ""
+msgstr "{0} Je ne suis pas dans le salon vocal."
 
 #: dredd v3/utils/checks.py:345
 #, python-brace-format
 msgid "{0} You need to be in the same voice channel with me."
-msgstr ""
+msgstr "{0} Vous devez être dans le même salon vocal avec moi."
 
 #: dredd v3/utils/checks.py:347
 #, python-brace-format
 msgid "{0} I'm missing permissions in your voice channel. Make sure you have given me the correct permissions!"
-msgstr ""
+msgstr "{0} Il me manque des permissions dans votre salon vocal. Assurez-vous que vous m'avez donné les bonnes permissions !"
 
 #: dredd v3/utils/checks.py:349
 #, python-brace-format
 msgid "{0} I'm not playing anything."
-msgstr ""
+msgstr "{0} Je ne joue aucune chanson."
 
 #: dredd v3/utils/checks.py:351
 #, python-brace-format
 msgid "{0} Player is not paused."
-msgstr ""
+msgstr "{0} Joueur n'est pas mis en pause."
 
 #: dredd v3/utils/checks.py:353
 #, python-brace-format
 msgid "{0} Player is already paused."
-msgstr ""
+msgstr "{0} Joueur est déjà en pause."
 
 #: dredd v3/utils/checks.py:367 v3/utils/checks.py:373
 msgid "This member has not been banned before."
-msgstr ""
+msgstr "Ce membre n'a pas été banni avant."
 
 #: dredd v3/utils/checks.py:401
 #, python-brace-format
 msgid "Valid options are {0}"
-msgstr ""
+msgstr "Les options valides sont {0}"
 
 #: dredd v3/utils/checks.py:427
 #, python-brace-format
 msgid "Valid values are {0}"
-msgstr ""
+msgstr "Les valeurs valides sont {0}"
 
 #: dredd v3/utils/default.py:80 v3/utils/default.py:85 v3/utils/default.py:90
 #, python-brace-format
 msgid "Next level in **{0}** boosts"
-msgstr ""
+msgstr "Prochain niveau dans **{0}** boosts"
 
 #: dredd v3/utils/default.py:185
 msgid "Owner of Dredd"
-msgstr ""
+msgstr "Propriétaire de Dredd"
 
 #: dredd v3/utils/default.py:186
 msgid "Admin of Dredd"
-msgstr ""
+msgstr "Admin de Dredd"
 
 #: dredd v3/utils/default.py:187
 #, python-brace-format
 msgid "Staff member in the [support server]({0}) or Dredd's contributor"
-msgstr ""
+msgstr "Membre du personnel du [serveur de support]({0}) ou du contributeur de Dredd"
 
 #: dredd v3/utils/default.py:188
 msgid "Dredd's Translator"
-msgstr ""
+msgstr "Traducteur de Dredd"
 
 #: dredd v3/utils/default.py:189
 msgid "Dredd's Sponsor"
-msgstr ""
+msgstr "Le sponsor de dredd"
 
 #: dredd v3/utils/default.py:190
 #, python-brace-format
 msgid "Booster of [Dredd's support server]({0}) or Donator"
-msgstr ""
+msgstr "Booster du [serveur de support de Dred]({0}) ou du donateur"
 
 #: dredd v3/utils/default.py:191
 msgid "Dredd's Partner"
-msgstr ""
+msgstr "Partenaire de dredd"
 
 #: dredd v3/utils/default.py:192
 msgid "Dredd Bug Hunter"
-msgstr ""
+msgstr "Chasseur de bug Dredd"
 
 #: dredd v3/utils/default.py:193
 msgid "Dredd BETA Bug Hunter"
-msgstr ""
+msgstr "Chasseur de bug BETA dredd"
 
 #: dredd v3/utils/default.py:194
 msgid "Dredd Early Supporter"
-msgstr ""
+msgstr "Supporter Dredd"
 
 #: dredd v3/utils/default.py:195
 msgid "Dredd Super Early Supporter"
-msgstr ""
+msgstr "Super Supporter Dredd"
 
 #: dredd v3/utils/default.py:196
 msgid "Blacklisted user"
-msgstr ""
+msgstr "Utilisateurs présents sur la liste noire"
 
 #: dredd v3/utils/default.py:197
 msgid "A special badge for Duck :duck:"
-msgstr ""
+msgstr "Un badge spécial pour le canard :duck:"
 
 #: dredd v3/utils/default.py:233
 #, python-brace-format
 msgid "{0} Dredd Staff Server"
-msgstr ""
+msgstr "{0} Serveur du personnel de Dredd"
 
 #: dredd v3/utils/default.py:234
 msgid "{} Dredd Verified Server"
