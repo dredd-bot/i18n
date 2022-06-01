@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-17 23:32+0100\n"
-"PO-Revision-Date: 2022-05-31 23:04\n"
+"PO-Revision-Date: 2022-06-01 00:04\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -291,55 +291,55 @@ msgstr "rendre muet"
 
 #: dredd v3/utils/default.py:515
 msgid "temp-mute"
-msgstr ""
+msgstr "muet-temporairement"
 
 #: dredd v3/utils/default.py:516 v3/cogs/moderation.py:2164
 msgid "kick"
-msgstr ""
+msgstr "expulser"
 
 #: dredd v3/utils/default.py:517 v3/cogs/moderation.py:2161
 msgid "ban"
-msgstr ""
+msgstr "bannir"
 
 #: dredd v3/utils/default.py:518
 msgid "temp-ban"
-msgstr ""
+msgstr "temporairement banni"
 
 #: dredd v3/utils/default.py:536
 msgid "I was not able to find this playlist! Please try again or use a different link."
-msgstr ""
+msgstr "Je n'ai pas pu trouver cette playlist ! Veuillez réessayer ou utiliser un autre lien."
 
 #: dredd v3/utils/default.py:543
 msgid "I was not able to find this album! Please try again or use a different link."
-msgstr ""
+msgstr "Je n'ai pas pu trouver cette playlist ! Veuillez réessayer ou utiliser un autre lien."
 
 #: dredd v3/utils/default.py:562
 msgid "The URL you put is either not valid or doesn't exist!"
-msgstr ""
+msgstr "L'URL que vous mettez n'est pas valide ou n'existe pas !"
 
 #: dredd v3/utils/default.py:568
 #, python-brace-format
 msgid "{0} Added the playlist **{1}** with {2} songs to the queue!"
-msgstr ""
+msgstr "{0} a ajouté la playlist **{1}** avec {2} chansons à la file d'attente !"
 
 #: dredd v3/utils/default.py:574
 #, python-brace-format
 msgid "{0} Added the album **{1}** with {2} songs to the queue!"
-msgstr ""
+msgstr "{0} a ajouté l'album **{1}** avec {2} chansons à la file d'attente !"
 
 #: dredd v3/utils/default.py:578 v3/cogs/music.py:479
 #, python-brace-format
 msgid "{0} Added **{1}** to the Queue!"
-msgstr ""
+msgstr "{0} Ajouté **{1}** à la file d'attente !"
 
 #: dredd v3/utils/components.py:50
 msgid "Seems like I was disconnected from the channel in the process."
-msgstr ""
+msgstr "On dirait que j'ai été déconnecté du canal dans le processus."
 
 #: dredd v3/utils/components.py:52
 #, python-brace-format
 msgid "{0} Added **{1}** to the Queue! (`{2}`)"
-msgstr ""
+msgstr "{0} Ajouté **{1}** à la file d'attente ! (`{2}`)"
 
 #: dredd v3/utils/components.py:173 v3/utils/components.py:665
 #: v3/utils/components.py:671 v3/utils/components.py:676
@@ -347,7 +347,7 @@ msgstr ""
 #: v3/cogs/manage.py:223 v3/cogs/manage.py:249 v3/cogs/manage.py:292
 #: v3/cogs/manage.py:313 v3/cogs/manage.py:337 v3/cogs/manage.py:367
 msgid "Cancelling the command. Deleting this message in 15 seconds"
-msgstr ""
+msgstr "Annulation de la commande. Suppression de ce message dans 15 secondes"
 
 #: dredd v3/utils/components.py:197 v3/utils/components.py:237
 #: v3/utils/components.py:475 v3/utils/components.py:508
@@ -356,125 +356,125 @@ msgstr ""
 #: v3/utils/components.py:879 v3/utils/components.py:897
 #: v3/utils/paginator.py:39
 msgid "This pagination menu cannot be controlled by you, sorry!"
-msgstr ""
+msgstr "Ce menu de pagination ne peut pas être contrôlé par vous, désolé!"
 
 #: dredd v3/utils/components.py:209 v3/utils/components.py:211
 #: v3/utils/components.py:248 v3/utils/components.py:250
 #: v3/utils/components.py:487 v3/utils/components.py:489
 msgid "An unknown error occurred, sorry"
-msgstr ""
+msgstr "Une erreur inconnue est survenue, désolée"
 
 #: dredd v3/utils/components.py:279 v3/utils/components.py:612
 #: v3/utils/components.py:840 v3/cogs/manage.py:1712
 msgid "Select an option..."
-msgstr ""
+msgstr "Sélectionnez une option..."
 
 #: dredd v3/utils/components.py:290
 msgid "Cancelled command."
-msgstr ""
+msgstr "Commande annulée."
 
 #: dredd v3/utils/components.py:293
 msgid "The message should be under 32 characters. Make sure you're not messing anything up!"
-msgstr ""
+msgstr "Le message doit avoir moins de 32 caractères. Assurez-vous que vous ne gâchez rien !"
 
 #: dredd v3/utils/components.py:301
 msgid "You cannot provide a link, try again without a link."
-msgstr ""
+msgstr "Vous ne pouvez pas fournir de lien, essayez à nouveau sans lien."
 
 #: dredd v3/utils/components.py:303
 msgid "You can only provide links to song(s), try again with a link."
-msgstr ""
+msgstr "Vous ne pouvez fournir que des liens vers la(les) chanson(s), essayez à nouveau avec un lien."
 
 #: dredd v3/utils/components.py:311
 msgid "The command has expired."
-msgstr ""
+msgstr "La commande a expiré."
 
 #: dredd v3/utils/components.py:329
 #, python-brace-format
 msgid "{0} Interaction returned an unknown value, please report this to the developer(s) here: {support}"
-msgstr ""
+msgstr "{0} Interaction a renvoyé une valeur inconnue, veuillez la signaler au développeur ici: {support}"
 
 #: dredd v3/utils/components.py:335
 #, python-brace-format
 msgid "{0} You can only have up to 15 playlists."
-msgstr ""
+msgstr "{0} Vous ne pouvez avoir que 15 playlists."
 
 #: dredd v3/utils/components.py:337
 msgid "Provide the playlist name you want to use. The playlist name can be up to 32 characters."
-msgstr ""
+msgstr "Indiquez le nom de la playlist que vous souhaitez utiliser. Le nom de la playlist peut contenir jusqu'à 32 caractères."
 
 #: dredd v3/utils/components.py:341
 #, python-brace-format
 msgid "{0} Successfully created a playlist **{1}**"
-msgstr ""
+msgstr "{0} a créé avec succès une playlist **{1}**"
 
 #: dredd v3/utils/components.py:344
 #, python-brace-format
 msgid "{0} You already have a playlist named **{1}**"
-msgstr ""
+msgstr "{0} Vous avez déjà une playlist nommée **{1}**"
 
 #: dredd v3/utils/components.py:352
 #, python-brace-format
 msgid "{0} Successfully deleted a playlist **{1}**"
-msgstr ""
+msgstr "{0} a bien supprimé une playlist **{1}**"
 
 #: dredd v3/utils/components.py:355 v3/utils/components.py:361
 #: v3/utils/components.py:398 v3/utils/components.py:417
 #: v3/utils/components.py:429
 #, python-brace-format
 msgid "{0} You don't have a playlist named **{1}**"
-msgstr ""
+msgstr "{0} Vous n'avez pas de playlist nommée **{1}**"
 
 #: dredd v3/utils/components.py:365
 #, python-brace-format
 msgid "{0} Your playlist already has over 1000 songs, I cannot let you add more."
-msgstr ""
+msgstr "{0} Votre playlist a déjà plus de 1000 chansons, je ne peux pas vous laisser en ajouter plus."
 
 #: dredd v3/utils/components.py:367
 msgid "Provide the URL of the song(s) you want to add the playlist."
-msgstr ""
+msgstr "Indiquez l'URL des chansons que vous voulez ajouter à la liste de lecture."
 
 #: dredd v3/utils/components.py:369
 msgid "No music nodes are currently active, please try again later."
-msgstr ""
+msgstr "Aucun nœud de musique n'est actuellement actif, veuillez réessayer plus tard."
 
 #. type: ignore
 #: dredd v3/utils/components.py:376 v3/utils/components.py:392
 #, python-brace-format
 msgid "{0} Added **{1}** songs to the playlist."
-msgstr ""
+msgstr "{0} Ajouté **{1}** chansons à la playlist."
 
 #: dredd v3/utils/components.py:381 v3/cogs/music.py:385 v3/cogs/music.py:439
 msgid "No songs were found with that query. Please try again."
-msgstr ""
+msgstr "Aucune chanson n'a été trouvée avec cette requête. Veuillez réessayer."
 
 #: dredd v3/utils/components.py:384
 #, python-brace-format
 msgid "{0} Added **{1}** to the playlist."
-msgstr ""
+msgstr "{0} Ajouté **{1}** à la playlist."
 
 #: dredd v3/utils/components.py:402
 msgid "Provide the number of the song you want to delete from the playlist."
-msgstr ""
+msgstr "Indiquez le numéro de la chanson que vous voulez supprimer de la liste de lecture."
 
 #: dredd v3/utils/components.py:409
 #, python-brace-format
 msgid "{0} The song was not found, please make sure you provide a number of the song."
-msgstr ""
+msgstr "{0} La chanson n'a pas été trouvée, assurez-vous que vous fournissez un numéro de la chanson."
 
 #: dredd v3/utils/components.py:411
 #, python-brace-format
 msgid "{0} Successfully removed **{1}** from your playlist - {2}"
-msgstr ""
+msgstr "{0} supprimé avec succès **{1}** de votre playlist - {2}"
 
 #: dredd v3/utils/components.py:421
 msgid "Provide the new playlist name you want to use. The playlist name can be up to 32 characters."
-msgstr ""
+msgstr "Fournissez le nouveau nom de la playlist que vous souhaitez utiliser. Le nom de la playlist peut contenir jusqu'à 32 caractères."
 
 #: dredd v3/utils/components.py:423
 #, python-brace-format
 msgid "{0} Renamed playlist **{1}** to **{2}**"
-msgstr ""
+msgstr "{0} a renommé la playlist **{1}** en **{2}**"
 
 #: dredd v3/utils/components.py:433
 #, python-brace-format
