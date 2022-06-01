@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-17 23:32+0100\n"
-"PO-Revision-Date: 2022-06-01 01:12\n"
+"PO-Revision-Date: 2022-06-01 15:37\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -506,43 +506,43 @@ msgstr "Les boutons doivent-ils afficher uniquement l'étiquette, les émoticôn
 
 #: dredd v3/utils/components.py:607
 msgid "Title of the embed."
-msgstr ""
+msgstr "Titre de l'incorporation."
 
 #: dredd v3/utils/components.py:607
 msgid "Let's you change the title of the embed."
-msgstr ""
+msgstr "Changez le titre de l'incorporation."
 
 #. type: ignore
 #: dredd v3/utils/components.py:608
 msgid "Description of the embed."
-msgstr ""
+msgstr "Description de l'incorporation."
 
 #: dredd v3/utils/components.py:608
 msgid "Let's you change the description of the embed."
-msgstr ""
+msgstr "Changez la description de l'incorporation."
 
 #. type: ignore
 #: dredd v3/utils/components.py:609
 msgid "Footer of the embed."
-msgstr ""
+msgstr "Pied de page de l'incorporation."
 
 #: dredd v3/utils/components.py:609
 msgid "Let's you change the footer of the embed."
-msgstr ""
+msgstr "Changez le pied de page de l'incorporation."
 
 #. type: ignore
 #: dredd v3/utils/components.py:610
 msgid "None of the above."
-msgstr ""
+msgstr "Aucun des éléments ci-dessus."
 
 #: dredd v3/utils/components.py:610
 msgid "Let's you customize the whole embed, this requires you to send a whole payload."
-msgstr ""
+msgstr "Personnalisons l'intégralité du contenu intégré, cela nécessite que vous envoyiez un bloc complet."
 
 #: dredd v3/utils/components.py:627 v3/cogs/manage.py:369
 #, python-brace-format
 msgid "You've hit the characters limit: {0}/{1}"
-msgstr ""
+msgstr "Vous avez atteint la limite de caractères : {0}/{1}"
 
 #: dredd v3/utils/components.py:635 v3/cogs/manage.py:940
 #, python-brace-format
@@ -770,32 +770,33 @@ msgstr ""
 #: dredd v3/cogs/events/automod.py:482
 #, python-brace-format
 msgid "{0} {1} has anti raid mode activated, please try joining again later."
-msgstr ""
+msgstr "Le mode anti-raid de {0} {1} est activé, veuillez réessayer plus tard."
 
 #: dredd v3/cogs/events/automod.py:494 v3/cogs/events/automod.py:522
 #, python-brace-format
 msgid "{0} {1} has anti raid mode activated, you're not allowed to join that server."
-msgstr ""
+msgstr "{0} {1} a le mode anti raid activé, vous n'êtes pas autorisé à rejoindre ce serveur."
 
 #: dredd v3/cogs/events/automod.py:510
 #, python-brace-format
 msgid "{0} {1} has strict anti raid mode activated, please try joining again later."
-msgstr ""
+msgstr "{0} {1} a le mode anti-raid strict activé, veuillez réessayer plus tard."
 
 #: dredd v3/cogs/events/automod.py:532
 msgid "It seems like your server is experiencing a *huge* raid, to prevent us from getting api banned we'll be banning raiders in the background and will not be sending any logs in this channel."
-msgstr ""
+msgstr "Il semble que votre serveur soit en train de subir un raid *énorme*, pour nous empêcher de nous faire bannir de l'api, nous bannirons les raideurs en arrière-plan et n'enverrons pas de logs dans ce canal."
 
 #: dredd v3/cogs/events/automod.py:542
 #, python-brace-format
 msgid "{0} I'm not sure what happened, but something broke. Please make sure that my role is above everyone's else, otherwise you'll see these errors more often. I've also sent this error to my developers."
-msgstr ""
+msgstr "{0} Je ne suis pas sûr de ce qui s'est passé, mais quelque chose s'est cassé. S'il vous plaît assurez-vous que mon rôle est au-dessus de tout le monde, sinon vous verrez ces erreurs plus souvent. J'ai également envoyé cette erreur à mes développeurs."
 
 #: dredd v3/cogs/events/automod.py:551
 #, python-brace-format
 msgid "{0} Mute role was not found, please create the mute role, or set a custom one using `{1}muterole [role]`.\n\n"
 "Manually removed member permissions to send messages in this channel *hopefully*."
-msgstr ""
+msgstr "{0} Le rôle muet n'a pas été trouvé, veuillez créer le rôle muet, ou définir un rôle personnalisé en utilisant `{1}muterole [role]`.\n\n"
+"Suppression manuelle des permissions des membres pour envoyer des messages dans ce salon *Espérons quement*."
 
 #: dredd v3/cogs/events/automod.py:556
 #, python-brace-format
