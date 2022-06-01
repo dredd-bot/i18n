@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-17 23:32+0100\n"
-"PO-Revision-Date: 2022-06-01 00:04\n"
+"PO-Revision-Date: 2022-06-01 01:12\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -479,30 +479,30 @@ msgstr "{0} a renommé la playlist **{1}** en **{2}**"
 #: dredd v3/utils/components.py:433
 #, python-brace-format
 msgid "{0} This playlist has no songs."
-msgstr ""
+msgstr "{0} Cette playlist n'a pas de chansons."
 
 #: dredd v3/utils/components.py:444 v3/cogs/music.py:721
 #, python-brace-format
 msgid "Total songs in the queue: {0} | Duration: {1}"
-msgstr ""
+msgstr "Nombre total de chansons dans la file d'attente : {0} | Durée : {1}"
 
 #: dredd v3/utils/components.py:446 v3/cogs/music.py:723
 #, python-brace-format
 msgid "Total songs in the queue: {0}"
-msgstr ""
+msgstr "Nombre total de chansons dans la file d'attente : {0}"
 
 #: dredd v3/utils/components.py:449
 #, python-brace-format
 msgid "Playlist: {0}"
-msgstr ""
+msgstr "Playlist : {0}"
 
 #: dredd v3/utils/components.py:455
 msgid "Canceled command."
-msgstr ""
+msgstr "Commande annulée."
 
 #: dredd v3/utils/components.py:544 v3/cogs/manage.py:187
 msgid "Should buttons display label only, emoji only or both? This action is irreversible!"
-msgstr ""
+msgstr "Les boutons doivent-ils afficher uniquement l'étiquette, les émoticônes ou les deux ? Cette action est irréversible !"
 
 #: dredd v3/utils/components.py:607
 msgid "Title of the embed."
