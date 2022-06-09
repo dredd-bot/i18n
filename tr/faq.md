@@ -14,8 +14,8 @@
 
 **S: Kara listeye alınmışım ve kara listeden çıkarılmak istiyorum.** C: Lütfen #open-a-ticket kanalında bir destek bileti açın, böylece konu hakkında tartışabiliriz.
 
-**S: Botunu nasıl çalıştırabilirim? Github'da hiç bir bilgi yok.** A: Github'da dediğimiz gibi: "Birşeyi anlamadıysanız, Google'ı kullanın. Destek sunucumuz botu klonlama hakkında destek **VERMEZ**.", ve eğer destek bileti açar ya da herhangi bir personel'e DM yazıp botu klonlamada yardım etmiyoruz diye ağlarsanız, destek sunucusundan **BANLANIRSINIZ**.
+**S: Botunu nasıl çalıştırabilirim? Github'da hiç bir bilgi yok.** C: Github'da dediğimiz gibi: "Birşeyi anlamadıysanız, Google'ı kullanın. Destek sunucumuz botu klonlama hakkında destek **VERMEZ**.", ve eğer destek bileti açar ya da herhangi bir personel'e DM yazıp botu klonlamada yardım etmiyoruz diye ağlarsanız, destek sunucusundan **BANLANIRSINIZ**.
 
 **S: Personel başvuruları açık mı?** C: Şansını burada dene: <https://dredd-bot.xyz/apply>
 
-**Q: Can I become a translator?** A: Yes, of course! DM one of the managers or submit a request for your language here: https://translate.dredd-bot.xyz
+**S: Çevirmen olabilir miyim?** C: Evet, elbette! Yöneticilerden birine DM atın veya buradan diliniz için bir katılım isteği gönderin: https://translate.dredd-bot.xyz
