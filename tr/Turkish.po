@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-17 23:32+0100\n"
-"PO-Revision-Date: 2022-02-17 23:27\n"
+"PO-Revision-Date: 2022-06-09 19:56\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -307,7 +307,7 @@ msgstr "temp-ban"
 
 #: dredd v3/utils/default.py:536
 msgid "I was not able to find this playlist! Please try again or use a different link."
-msgstr ""
+msgstr "Bu oynatma listesini bulamadım! Lütfen tekrar deneyin veya farklı bir bağlantı adresi kullanın."
 
 #: dredd v3/utils/default.py:543
 msgid "I was not able to find this album! Please try again or use a different link."
@@ -379,7 +379,7 @@ msgstr "Mesaj 32 karakterden kısa olmalıdır! Hiçbir şeyi karıştırmadığ
 
 #: dredd v3/utils/components.py:301
 msgid "You cannot provide a link, try again without a link."
-msgstr ""
+msgstr "Bağlantı adresi sağlayamazsınız, bağlantı olmadan tekrar deneyin."
 
 #: dredd v3/utils/components.py:303
 msgid "You can only provide links to song(s), try again with a link."
@@ -401,7 +401,7 @@ msgstr "{0} En fazla 15 çalma listeniz olabilir."
 
 #: dredd v3/utils/components.py:337
 msgid "Provide the playlist name you want to use. The playlist name can be up to 32 characters."
-msgstr ""
+msgstr "Kullanmak istediğiniz çalma listesi adını girin. Çalma listesi adı en fazla 32 karakterden oluşabilir."
 
 #: dredd v3/utils/components.py:341
 #, python-brace-format
