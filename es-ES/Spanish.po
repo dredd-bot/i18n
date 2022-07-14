@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dredd\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-17 23:32+0100\n"
-"PO-Revision-Date: 2022-02-17 23:26\n"
+"PO-Revision-Date: 2022-07-14 16:24\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -502,7 +502,7 @@ msgstr "Comando cancelado."
 
 #: dredd v3/utils/components.py:544 v3/cogs/manage.py:187
 msgid "Should buttons display label only, emoji only or both? This action is irreversible!"
-msgstr ""
+msgstr "¿Deben los botones mostrar solo etiquetas, solo emojis o ambos? ¡Esta acción es irreversible!"
 
 #: dredd v3/utils/components.py:607
 msgid "Title of the embed."
@@ -510,7 +510,7 @@ msgstr "Título del incrustado."
 
 #: dredd v3/utils/components.py:607
 msgid "Let's you change the title of the embed."
-msgstr ""
+msgstr "Te permite cambiar el título del incrustado."
 
 #. type: ignore
 #: dredd v3/utils/components.py:608
@@ -519,7 +519,7 @@ msgstr "Descripción del incrustado."
 
 #: dredd v3/utils/components.py:608
 msgid "Let's you change the description of the embed."
-msgstr ""
+msgstr "Te permite cambiar la descripción del incrustado."
 
 #. type: ignore
 #: dredd v3/utils/components.py:609
@@ -528,7 +528,7 @@ msgstr "Pie del incrustado."
 
 #: dredd v3/utils/components.py:609
 msgid "Let's you change the footer of the embed."
-msgstr ""
+msgstr "Te permite cambiar el pie de página del incrustado."
 
 #. type: ignore
 #: dredd v3/utils/components.py:610
@@ -537,7 +537,7 @@ msgstr "Ninguno de las anteriores."
 
 #: dredd v3/utils/components.py:610
 msgid "Let's you customize the whole embed, this requires you to send a whole payload."
-msgstr ""
+msgstr "Te permite personalizar el incrustado completo, esto requiere que envíes una payload completa."
 
 #: dredd v3/utils/components.py:627 v3/cogs/manage.py:369
 #, python-brace-format
@@ -2923,11 +2923,11 @@ msgstr "Enormes gracias a {0} por este avatar"
 
 #: dredd v3/cogs/info.py:402
 msgid "Displays user's banner if they have one."
-msgstr ""
+msgstr "Muestra el cartel del usuario si es que tienen uno."
 
 #: dredd v3/cogs/info.py:406
 msgid " Get user's banner if they have one. "
-msgstr ""
+msgstr " Obtén el cartel del usuario si es que tienen uno. "
 
 #: dredd v3/cogs/info.py:411
 #, python-brace-format
